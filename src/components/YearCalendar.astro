@@ -68,6 +68,7 @@ function detailFor(day: OverviewDay) {
       // should tell you when the rest of it is.
       when: event.dateLabel,
       location: event.location,
+      topic: event.topic,
       href: withBase(`/conference/${event.editionId}`),
     })),
   };
@@ -174,6 +175,7 @@ function summaryFor(day: OverviewDay): string {
                     {day.inMonth && day.events.length > 0 && (
                       <span
                         aria-hidden="true"
+                        data-topic-mark={event?.topic}
                         class={cn(
                           'absolute inset-x-0 top-1 h-4',
                           event?.barClass ?? 'bg-primary/15',
@@ -198,6 +200,7 @@ function summaryFor(day: OverviewDay): string {
                         day.deadlines.slice(0, 3).map((deadline) => (
                           <span
                             aria-hidden="true"
+                            data-deadline-mark={deadline.typeLabel}
                             class={cn('size-2 rounded-full ring-1 ring-card', deadline.dotClass)}
                           />
                         ))}
@@ -217,10 +220,15 @@ function summaryFor(day: OverviewDay): string {
       <span class="font-medium text-foreground">Deadline</span>
       {
         deadlineLegend.map((entry) => (
-          <span class="flex items-center gap-1.5">
+          <button
+            type="button"
+            class="flex items-center gap-1.5 rounded-md px-1.5 py-0.5 transition-opacity hover:bg-accent focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none aria-[pressed=false]:opacity-40"
+            data-toggle-deadline={entry.label}
+            aria-pressed="true"
+          >
             <span class={cn('size-2 rounded-full', entry.dotClass)} />
             {entry.label}
-          </span>
+          </button>
         ))
       }
     </div>
@@ -229,14 +237,30 @@ function summaryFor(day: OverviewDay): string {
       <span class="font-medium text-foreground">Conference running</span>
       {
         topicLegend.map((entry) => (
-          <span class="flex items-center gap-1.5">
+          <button
+            type="button"
+            class="flex items-center gap-1.5 rounded-md px-1.5 py-0.5 transition-opacity hover:bg-accent focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none aria-[pressed=false]:opacity-40"
+            data-toggle-topic={entry.topic}
+            aria-pressed="true"
+          >
             <span class={cn('h-2.5 w-5 rounded-full', entry.barClass)} />
             {entry.topic}
-          </span>
+          </button>
         ))
       }
     </div>
   </div>
+
+  <p class="mt-2 text-xs">
+    <button
+      type="button"
+      id="show-all"
+      class="rounded-md px-1.5 py-0.5 text-primary hover:underline focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
+      hidden
+    >
+      Show all
+    </button>
+  </p>
 
   <div
     id="day-popover"
@@ -249,22 +273,44 @@ function summaryFor(day: OverviewDay): string {
 
   <script>
     // One listener for the whole grid rather than an island per day, matching
-    // the countdown ticker in BaseLayout. Hover opens it for mouse users; focus
-    // and click do the same for keyboard and touch, where hover does not exist.
+    // the countdown ticker in BaseLayout. Hover opens the popover for mouse
+    // users; focus and click do the same for keyboard and touch, where hover
+    // does not exist. The legend doubles as a set of switches, filtering the
+    // marks already in the DOM rather than re-rendering anything.
     const popover = document.getElementById('day-popover');
+    const showAll = document.getElementById('show-all');
+
     if (popover) {
       let pinned = false;
       let hideTimer: number | undefined;
       let overPopover = false;
 
+      const hiddenDeadlines = new Set<string>();
+      const hiddenTopics = new Set<string>();
+
       const escape = (value: string) =>
         value.replace(/[&<>"]/g, (c) => `&#${c.charCodeAt(0)};`);
 
+      const detailOf = (cell: HTMLElement) => JSON.parse(cell.dataset.detail ?? '{}');
+      const shownDeadlines = (d: any) =>
+        (d.deadlines ?? []).filter((x: any) => !hiddenDeadlines.has(x.typeLabel));
+      const shownEvents = (d: any) =>
+        (d.events ?? []).filter((x: any) => !hiddenTopics.has(x.topic));
+
       const render = (cell: HTMLElement) => {
-        const detail = JSON.parse(cell.dataset.detail ?? '{}');
+        const detail = detailOf(cell);
+        const deadlines = shownDeadlines(detail);
+        const events = shownEvents(detail);
+
+        // Everything on this day is filtered out, so there is nothing to say.
+        if (deadlines.length === 0 && events.length === 0) {
+          popover.hidden = true;
+          return;
+        }
+
         const rows: string[] = [`<p class="font-semibold">${escape(detail.date)}</p>`];
 
-        for (const deadline of detail.deadlines ?? []) {
+        for (const deadline of deadlines) {
           rows.push(
             `<a class="mt-2 block rounded-md p-1.5 -mx-1.5 hover:bg-accent" href="${escape(deadline.href)}">` +
               `<span class="flex items-center gap-1.5"><span class="size-1.5 shrink-0 rounded-full ${escape(deadline.dotClass)}"></span>` +
@@ -273,7 +319,7 @@ function summaryFor(day: OverviewDay): string {
           );
         }
 
-        for (const event of detail.events ?? []) {
+        for (const event of events) {
           rows.push(
             `<a class="mt-2 block rounded-md p-1.5 -mx-1.5 hover:bg-accent" href="${escape(event.href)}">` +
               `<span class="font-medium">${escape(event.name)}</span>` +
@@ -302,9 +348,44 @@ function summaryFor(day: OverviewDay): string {
       const cellFrom = (target: EventTarget | null) =>
         (target as HTMLElement | null)?.closest<HTMLElement>('[data-detail]') ?? null;
 
+      /** Reflect the switches onto the marks, the cells and the reset link. */
+      const applyFilters = () => {
+        for (const mark of document.querySelectorAll<HTMLElement>('[data-deadline-mark]')) {
+          mark.hidden = hiddenDeadlines.has(mark.dataset.deadlineMark ?? '');
+        }
+        for (const mark of document.querySelectorAll<HTMLElement>('[data-topic-mark]')) {
+          mark.hidden = hiddenTopics.has(mark.dataset.topicMark ?? '');
+        }
+
+        for (const cell of document.querySelectorAll<HTMLElement>('[data-detail]')) {
+          const detail = detailOf(cell);
+          const deadlines = shownDeadlines(detail);
+          const events = shownEvents(detail);
+          const empty = deadlines.length === 0 && events.length === 0;
+
+          // A cell with nothing left to show must stop announcing it too.
+          cell.toggleAttribute('data-muted', empty);
+          cell.setAttribute(
+            'aria-label',
+            empty
+              ? (cell.dataset.day ?? '')
+              : `${cell.dataset.day}. ` +
+                  [
+                    ...deadlines.map((d: any) => `${d.name}: ${d.label}`),
+                    ...events.map((e: any) => `${e.name} runs`),
+                  ].join('; '),
+          );
+        }
+
+        const filtering = hiddenDeadlines.size > 0 || hiddenTopics.size > 0;
+        if (showAll) showAll.hidden = !filtering;
+        popover.hidden = true;
+        pinned = false;
+      };
+
       document.addEventListener('mouseover', (event) => {
         const cell = cellFrom(event.target);
-        if (!cell || pinned) return;
+        if (!cell || pinned || cell.hasAttribute('data-muted')) return;
         window.clearTimeout(hideTimer);
         render(cell);
       });
@@ -328,7 +409,7 @@ function summaryFor(day: OverviewDay): string {
         const cell = cellFrom(event.target);
         if (cell) {
           pinned = false;
-          render(cell);
+          if (!cell.hasAttribute('data-muted')) render(cell);
         } else if (!popover.contains(event.target as Node)) {
           pinned = false;
           hide();
@@ -336,8 +417,35 @@ function summaryFor(day: OverviewDay): string {
       });
 
       document.addEventListener('click', (event) => {
+        const target = event.target as HTMLElement | null;
+
+        const toggle = target?.closest<HTMLElement>('[data-toggle-deadline], [data-toggle-topic]');
+        if (toggle) {
+          const deadlineLabel = toggle.dataset.toggleDeadline;
+          const set = deadlineLabel === undefined ? hiddenTopics : hiddenDeadlines;
+          const key = deadlineLabel ?? toggle.dataset.toggleTopic ?? '';
+
+          if (set.has(key)) set.delete(key);
+          else set.add(key);
+
+          toggle.setAttribute('aria-pressed', String(!set.has(key)));
+          applyFilters();
+          return;
+        }
+
+        if (target?.closest('#show-all')) {
+          hiddenDeadlines.clear();
+          hiddenTopics.clear();
+          for (const button of document.querySelectorAll('[data-toggle-deadline], [data-toggle-topic]')) {
+            button.setAttribute('aria-pressed', 'true');
+          }
+          applyFilters();
+          return;
+        }
+
         const cell = cellFrom(event.target);
         if (cell) {
+          if (cell.hasAttribute('data-muted')) return;
           pinned = true;
           render(cell);
           return;
