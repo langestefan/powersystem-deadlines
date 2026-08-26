@@ -26,7 +26,7 @@ export const ALL_DEADLINES_FEED: FeedDefinition = {
   path: '/calendar/all.ics',
   name: `${SITE_TITLE}: all deadlines`,
   label: 'All deadlines',
-  description: 'Every deadline on the site.',
+  description: 'Every submission deadline tracked here, each with a reminder a week and a day before.',
   kind: 'all',
 };
 
@@ -34,7 +34,7 @@ export const EVENTS_FEED: FeedDefinition = {
   path: '/calendar/events.ics',
   name: `${SITE_TITLE}: conference dates`,
   label: 'Conference dates',
-  description: 'The conferences themselves, as all-day events.',
+  description: 'When each conference actually takes place, as all-day events.',
   kind: 'events',
 };
 

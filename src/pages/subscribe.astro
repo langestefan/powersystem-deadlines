@@ -49,6 +49,7 @@ const instructions = [
       primary.map((feed) => (
         <div class="rounded-lg border bg-card p-4 shadow-sm">
           <h2 class="font-semibold">{feed.label}</h2>
+          <p class="mt-0.5 text-sm text-muted-foreground">{feed.description}</p>
           <div class="mt-3">
             <SubscribeLinks
               client:visible
