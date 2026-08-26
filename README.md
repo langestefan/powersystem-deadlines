@@ -1,8 +1,8 @@
-# ⚡ Power Systems Deadlines
+# ⚡ Power System Deadlines
 
 Countdown timers and subscribable calendar feeds for power system conference deadlines.
 
-**<https://langestefan.github.io/powersystems-deadlines>**
+**<https://langestefan.github.io/powersystem-deadlines>**
 
 Power system calls for papers are scattered across IEEE PES, PELS, CIGRE, CIRED, IET and a dozen
 other society websites, each in its own format. This collects them in one place, and — unlike most
@@ -15,12 +15,12 @@ moved or corrected here. Every deadline carries reminders one week and one day a
 
 | Feed              | URL                                                                          |
 | ----------------- | ---------------------------------------------------------------------------- |
-| All deadlines     | `https://langestefan.github.io/powersystems-deadlines/calendar/all.ics`      |
-| Conference dates  | `https://langestefan.github.io/powersystems-deadlines/calendar/events.ics`   |
+| All deadlines     | `https://langestefan.github.io/powersystem-deadlines/calendar/all.ics`      |
+| Conference dates  | `https://langestefan.github.io/powersystem-deadlines/calendar/events.ics`   |
 | One topic         | `…/calendar/<tag>.ics`, e.g. `power-electronics.ics`                          |
 | One conference    | `…/conference/<id>.ics`, e.g. `pscc26.ics`                                    |
 
-The [subscribe page](https://langestefan.github.io/powersystems-deadlines/subscribe) lists them all
+The [subscribe page](https://langestefan.github.io/powersystem-deadlines/subscribe) lists them all
 with one-click links for Google Calendar, Apple Calendar and Outlook.
 
 ## Contributing

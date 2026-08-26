@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 
+import { REPO_URL } from '@/lib/site';
 import { cn } from '@/lib/utils';
 
 /**
@@ -267,7 +268,7 @@ export default function FilterBar({
           or{' '}
           <a
             className="text-primary underline underline-offset-4"
-            href="https://github.com/langestefan/powersystems-deadlines/blob/main/CONTRIBUTING.md"
+            href={`${REPO_URL}/blob/main/CONTRIBUTING.md`}
           >
             add the conference you were looking for
           </a>

@@ -47,6 +47,9 @@ export interface IcsCalendarOptions {
   url?: string;
 }
 
+/** Identifies this generator in every feed's PRODID. */
+const PRODUCT = 'powersystem-deadlines';
+
 const CRLF = '\r\n';
 const MAX_OCTETS = 75;
 
@@ -152,7 +155,7 @@ export function buildCalendar(options: IcsCalendarOptions): string {
   const lines: string[] = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    `PRODID:-//${options.domain}//powersystems-deadlines//EN`,
+    `PRODID:-//${options.domain}//${PRODUCT}//EN`,
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
     `X-WR-CALNAME:${escapeText(options.name)}`,

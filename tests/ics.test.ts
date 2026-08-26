@@ -90,7 +90,7 @@ describe('buildCalendar', () => {
   it('opens and closes the calendar object', () => {
     expect(lines(calendar)[0]).toBe('BEGIN:VCALENDAR');
     expect(calendar).toContain('VERSION:2.0');
-    expect(calendar).toContain('PRODID:-//example.org//powersystems-deadlines//EN');
+    expect(calendar).toContain('PRODID:-//example.org//powersystem-deadlines//EN');
   });
 
   it('advertises a refresh interval in both the standard and vendor spellings', () => {
