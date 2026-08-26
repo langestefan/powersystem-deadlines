@@ -1,7 +1,8 @@
 import { describe, expect, it } from 'vitest';
 
 import { flattenEdition, type ConferenceEdition } from '@/lib/edition';
-import { buildYearOverview, yearsWithData } from '@/lib/overview';
+import { buildYearOverview, deadlineTypesInUse, yearsWithData } from '@/lib/overview';
+import { deadlineTypeStyle } from '@/lib/taxonomy';
 
 /**
  * Calendar grids are where off-by-one errors live: week padding, runs that
@@ -135,5 +136,64 @@ describe('yearsWithData', () => {
       edition({ id: 'b26', start: '2027-06-08', end: '2027-06-12' }),
     ]);
     expect(years).toEqual([2025, 2027]);
+  });
+});
+
+describe('deadline type styling', () => {
+  it('gives each kind of submission its own colour', () => {
+    const classes = ['abstract', 'paper', 'camera_ready', 'presentation_upload'].map(
+      (type) => deadlineTypeStyle(type).dotClass,
+    );
+    expect(new Set(classes).size).toBe(4);
+  });
+
+  it('names each type the way an author would', () => {
+    expect(deadlineTypeStyle('camera_ready').label).toBe('Camera-ready');
+    expect(deadlineTypeStyle('presentation_upload').label).toBe('Upload');
+    expect(deadlineTypeStyle('notification').label).toBe('Notification');
+  });
+
+  it('shares one colour where two types mean the same thing to an author', () => {
+    expect(deadlineTypeStyle('author_registration').label).toBe('Registration');
+    expect(deadlineTypeStyle('early_registration').label).toBe('Registration');
+    expect(deadlineTypeStyle('author_registration').dotClass).toBe(
+      deadlineTypeStyle('early_registration').dotClass,
+    );
+  });
+
+  it('keeps the class strings literal so the JIT compiler can see them', () => {
+    // Interpolating these would strip the colours out of the built CSS.
+    expect(deadlineTypeStyle('paper').dotClass).toMatch(/^bg-[a-z]+-\d{3}$/);
+  });
+
+  it('falls back for a type nobody has invented yet', () => {
+    // `type` is not enum-constrained in the schema, so this has to be total.
+    expect(deadlineTypeStyle('some_new_milestone').label).toBe('Other');
+    expect(deadlineTypeStyle('some_new_milestone').dotClass).toBeTruthy();
+  });
+
+  it('carries the colour on every deadline the calendar renders', () => {
+    const months = buildYearOverview(
+      [edition({ id: 'a26', deadlines: [{ type: 'paper', label: 'Paper', date: '2026-10-15 23:59:59' }] })],
+      2026,
+      NOW,
+    );
+    expect(findDay(months, '2026-10-15')!.deadlines[0]!.dotClass).toBe(
+      deadlineTypeStyle('paper').dotClass,
+    );
+  });
+});
+
+describe('deadlineTypesInUse', () => {
+  it('lists the types present, so the legend explains only what is shown', () => {
+    const types = deadlineTypesInUse([
+      edition({ id: 'a26', deadlines: [
+        { type: 'paper', label: 'P', date: '2026-10-15 23:59:59' },
+        { type: 'notification', label: 'N', date: '2026-11-15 23:59:59' },
+        { type: 'paper', label: 'P2', date: '2026-12-15 23:59:59' },
+        { type: 'abstract', label: 'A', date: 'TBA' },
+      ] }),
+    ]);
+    expect(types).toEqual(['paper', 'notification']);
   });
 });

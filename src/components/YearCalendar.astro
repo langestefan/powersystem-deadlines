@@ -10,12 +10,7 @@
 import { ChevronLeft, ChevronRight } from '@lucide/astro';
 
 import type { ConferenceEdition } from '@/lib/conferences';
-import {
-  buildYearOverview,
-  hasMarks,
-  WEEKDAY_LABELS,
-  type OverviewDay,
-} from '@/lib/overview';
+import { buildYearOverview, hasMarks, WEEKDAY_LABELS, type OverviewDay } from '@/lib/overview';
 import { withBase } from '@/lib/site';
 import { cn } from '@/lib/utils';
 
@@ -28,16 +23,24 @@ interface Props {
 const { year, years, editions } = Astro.props;
 
 const months = buildYearOverview(editions, year, new Date());
+
+// Legend explains only what this year actually shows, so it is read off the
+// rendered cells rather than the whole dataset. Two types that mean the same
+// thing to an author share a label, so each label appears once.
+const shown = months.flatMap((month) => month.weeks.flat()).filter((day) => day.inMonth);
+
+const deadlineLegend = [
+  ...new Map(
+    shown.flatMap((day) => day.deadlines).map((d) => [d.typeLabel, d.dotClass]),
+  ),
+].map(([label, dotClass]) => ({ label, dotClass }));
+
+const topicLegend = [
+  ...new Map(shown.flatMap((day) => day.events).map((e) => [e.topic, e.barClass])),
+].map(([topic, barClass]) => ({ topic, barClass }));
 const index = years.indexOf(year);
 const previous = years[index - 1];
 const next = years[index + 1];
-
-const urgencyDot: Record<string, string> = {
-  urgent: 'bg-urgent',
-  soon: 'bg-soon',
-  later: 'bg-later',
-  passed: 'bg-passed',
-};
 
 /** Everything the popover needs, and the no-JS label, in one place. */
 function detailFor(day: OverviewDay) {
@@ -54,9 +57,10 @@ function detailFor(day: OverviewDay) {
       label: deadline.label,
       when: `${deadline.time} ${deadline.timezone}`,
       href: withBase(`/conference/${deadline.editionId}`),
-      // The resolved class, never `bg-${urgency}`: the JIT compiler has to see
-      // these strings literally, and urgencyDot above is where they live.
-      dotClass: urgencyDot[deadline.urgency],
+      typeLabel: deadline.typeLabel,
+      // Already resolved by overview.ts, never `bg-${type}`: the JIT compiler
+      // has to see these strings literally.
+      dotClass: deadline.dotClass,
     })),
     events: day.events.map((event) => ({
       name: event.editionName,
@@ -153,7 +157,7 @@ function summaryFor(day: OverviewDay): string {
                 return (
                   <Cell
                     class={cn(
-                      'relative flex h-8 flex-col items-center justify-center',
+                      'relative flex h-9 flex-col items-center justify-center',
                       !day.inMonth && 'opacity-0',
                       marked &&
                         'cursor-pointer rounded-sm focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none',
@@ -168,7 +172,8 @@ function summaryFor(day: OverviewDay): string {
                       <span
                         aria-hidden="true"
                         class={cn(
-                          'absolute inset-x-0 top-1 h-4 bg-primary/15',
+                          'absolute inset-x-0 top-1 h-4',
+                          event?.barClass ?? 'bg-primary/15',
                           roundLeft && 'ml-0.5 rounded-l-full',
                           roundRight && 'mr-0.5 rounded-r-full',
                         )}
@@ -185,12 +190,12 @@ function summaryFor(day: OverviewDay): string {
                       {day.dayOfMonth}
                     </span>
 
-                    <span class="relative mt-0.5 flex h-1.5 items-center gap-0.5">
+                    <span class="relative mt-1 flex h-2 items-center gap-1">
                       {day.inMonth &&
                         day.deadlines.slice(0, 3).map((deadline) => (
                           <span
                             aria-hidden="true"
-                            class={cn('size-1.5 rounded-full', urgencyDot[deadline.urgency])}
+                            class={cn('size-2 rounded-full ring-1 ring-card', deadline.dotClass)}
                           />
                         ))}
                     </span>
@@ -204,12 +209,30 @@ function summaryFor(day: OverviewDay): string {
     }
   </div>
 
-  <div class="mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 text-xs text-muted-foreground">
-    <span class="flex items-center gap-1.5"><span class="size-1.5 rounded-full bg-urgent" /> Deadline within a week</span>
-    <span class="flex items-center gap-1.5"><span class="size-1.5 rounded-full bg-soon" /> Within a month</span>
-    <span class="flex items-center gap-1.5"><span class="size-1.5 rounded-full bg-later" /> Later</span>
-    <span class="flex items-center gap-1.5"><span class="size-1.5 rounded-full bg-passed" /> Passed</span>
-    <span class="flex items-center gap-1.5"><span class="h-2 w-5 rounded-full bg-primary/15" /> Conference running</span>
+  <div class="mt-6 space-y-2.5 text-xs text-muted-foreground">
+    <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
+      <span class="font-medium text-foreground">Deadline</span>
+      {
+        deadlineLegend.map((entry) => (
+          <span class="flex items-center gap-1.5">
+            <span class={cn('size-2 rounded-full', entry.dotClass)} />
+            {entry.label}
+          </span>
+        ))
+      }
+    </div>
+
+    <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
+      <span class="font-medium text-foreground">Conference running</span>
+      {
+        topicLegend.map((entry) => (
+          <span class="flex items-center gap-1.5">
+            <span class={cn('h-2.5 w-5 rounded-full', entry.barClass)} />
+            {entry.topic}
+          </span>
+        ))
+      }
+    </div>
   </div>
 
   <div

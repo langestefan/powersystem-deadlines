@@ -1,5 +1,6 @@
 import type { ConferenceEdition } from './edition';
-import { formatTimeInZone, timezoneLabel, urgencyOf, type Urgency } from './time';
+import { deadlineTypeStyle, getTag, tagLabel, type TagId } from './taxonomy';
+import { formatTimeInZone, timezoneLabel } from './time';
 
 /**
  * Turns editions into a year of calendar cells.
@@ -33,13 +34,22 @@ export interface OverviewDeadline {
   time: string;
   /** The zone as the CFP states it, e.g. "AoE". */
   timezone: string;
-  urgency: Urgency;
+  /** Deadline kind, e.g. "paper". */
+  type: string;
+  /** How this kind of deadline reads in the legend, e.g. "Camera-ready". */
+  typeLabel: string;
+  /** Dot colour for this kind. Resolved here so no caller interpolates one. */
+  dotClass: string;
 }
 
 export interface OverviewEvent {
   editionId: string;
   editionName: string;
   location: string;
+  /** The conference's leading topic, which colours its band. */
+  topic: string;
+  /** Tinted band for that topic. Resolved here so no caller interpolates one. */
+  barClass: string;
   /** First day of the run, so the bar can be rounded at its start. */
   isStart: boolean;
   /** Last day of the run. */
@@ -133,7 +143,9 @@ export function buildYearOverview(
         label: deadline.label,
         time: formatTimeInZone(deadline.utc, deadline.timezone),
         timezone: timezoneLabel(deadline.timezone),
-        urgency: urgencyOf(deadline.utc, now),
+        type: deadline.type,
+        typeLabel: deadlineTypeStyle(deadline.type).label,
+        dotClass: deadlineTypeStyle(deadline.type).dotClass,
       });
       deadlinesByDay.set(day, list);
     }
@@ -145,6 +157,8 @@ export function buildYearOverview(
         editionId: edition.id,
         editionName,
         location: [edition.city, edition.country].filter(Boolean).join(', '),
+        topic: leadTag(edition) ? tagLabel(leadTag(edition)!) : 'Conference',
+        barClass: leadTag(edition) ? getTag(leadTag(edition)!)!.barClass : 'bg-primary/15',
         isStart: index === 0,
         isEnd: index === days.length - 1,
       });
@@ -197,6 +211,39 @@ function monthWeeks(
   }
 
   return weeks;
+}
+
+/** A conference's leading topic: the first tag its series lists. */
+function leadTag(edition: ConferenceEdition): TagId | undefined {
+  return edition.tags[0];
+}
+
+/** Leading topics actually present, in first-seen order, for the legend. */
+export function leadTagsInUse(editions: ConferenceEdition[]): TagId[] {
+  const tags: TagId[] = [];
+
+  for (const edition of editions) {
+    if (edition.cancelled || !edition.start) continue;
+    const tag = leadTag(edition);
+    if (tag && !tags.includes(tag)) tags.push(tag);
+  }
+
+  return tags;
+}
+
+/** Deadline types actually present, in first-seen order, so the legend explains only what is shown. */
+export function deadlineTypesInUse(editions: ConferenceEdition[]): string[] {
+  const types: string[] = [];
+
+  for (const edition of editions) {
+    if (edition.cancelled) continue;
+    for (const deadline of edition.deadlines) {
+      if (deadline.tba || !deadline.utc) continue;
+      if (!types.includes(deadline.type)) types.push(deadline.type);
+    }
+  }
+
+  return types;
 }
 
 /** Whether a day has anything worth marking. */
