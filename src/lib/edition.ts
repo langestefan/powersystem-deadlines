@@ -8,7 +8,7 @@ import { isTba, toUtc, urgencyOf, type Urgency } from './time';
  * YAML shape.
  *
  * Deliberately free of any `astro:content` import so this module can be unit
- * tested directly — src/lib/conferences.ts is the thin layer that reads the
+ * tested directly. src/lib/conferences.ts is the thin layer that reads the
  * content collection and calls into here.
  */
 
@@ -53,7 +53,7 @@ export interface ConferenceEdition {
   note?: string;
   cancelled: boolean;
   deadlines: ResolvedDeadline[];
-  /** Soonest future deadline of a submission kind — drives the headline countdown. */
+  /** Soonest future deadline of a submission kind, driving the headline countdown. */
   nextDeadline: ResolvedDeadline | null;
   /** Soonest future deadline of any kind, used for sorting when nextDeadline is null. */
   nextAnyDeadline: ResolvedDeadline | null;
@@ -164,7 +164,7 @@ export function urgencyFor(edition: ConferenceEdition, now: Date = new Date()): 
   return next?.utc ? urgencyOf(next.utc, now) : 'passed';
 }
 
-/** "Delft, Netherlands" / "Online" — the one-line location shown on a card. */
+/** "Delft, Netherlands" / "Online": the one-line location shown on a card. */
 export function locationLabel(edition: ConferenceEdition): string {
   if (edition.format === 'online') return 'Online';
   return [edition.city, edition.country].filter(Boolean).join(', ') || 'Location TBA';

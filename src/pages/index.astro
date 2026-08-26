@@ -3,7 +3,6 @@ import ConferenceCard from '@/components/ConferenceCard.astro';
 import FilterBar from '@/components/FilterBar.tsx';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getUpcomingEditions, type ConferenceEdition } from '@/lib/conferences';
-import { withBase } from '@/lib/site';
 import { REGIONS, SOCIETIES, TAGS, tagLabel } from '@/lib/taxonomy';
 import { urgencyOf } from '@/lib/time';
 
@@ -11,10 +10,10 @@ const editions = await getUpcomingEditions();
 
 /** Buckets shown as headings, in order. */
 const GROUPS = [
-  { id: 'urgent', title: 'Next 7 days', hint: 'Closing this week' },
-  { id: 'soon', title: 'Next 30 days', hint: null },
-  { id: 'later', title: 'Later', hint: null },
-  { id: 'tba', title: 'Dates not announced', hint: 'Deadline expected but not yet published' },
+  { id: 'urgent', title: 'Next 7 days' },
+  { id: 'soon', title: 'Next 30 days' },
+  { id: 'later', title: 'Later' },
+  { id: 'tba', title: 'Dates not announced' },
 ] as const;
 
 function groupOf(edition: ConferenceEdition): (typeof GROUPS)[number]['id'] {
@@ -57,17 +56,9 @@ const regionOptions = countBy(REGIONS, (edition, region) => edition.region === r
 ---
 
 <BaseLayout path="/">
-  <section class="mb-6">
-    <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">
-      Power system conference deadlines
-    </h1>
-    <p class="mt-2 max-w-2xl text-muted-foreground">
-      Countdowns to submission deadlines across power systems, power electronics and the grid.
-      <a class="text-primary underline underline-offset-4" href={withBase('/subscribe')}>
-        Subscribe from your calendar app
-      </a> so you never have to check back.
-    </p>
-  </section>
+  <h1 class="mb-6 text-2xl font-bold tracking-tight sm:text-3xl">
+    Power system conference deadlines
+  </h1>
 
   <FilterBar
     client:load
@@ -89,12 +80,9 @@ const regionOptions = countBy(REGIONS, (edition, region) => edition.region === r
     {
       grouped.map((group) => (
         <section data-card-group>
-          <div class="mb-3 flex items-baseline gap-3">
-            <h2 class="text-sm font-semibold tracking-wide uppercase opacity-70">
-              {group.title}
-            </h2>
-            {group.hint && <p class="text-xs text-muted-foreground">{group.hint}</p>}
-          </div>
+          <h2 class="mb-3 text-sm font-semibold tracking-wide uppercase opacity-70">
+            {group.title}
+          </h2>
           <div class="space-y-3">
             {group.editions.map((edition) => (
               <div data-card-slot>

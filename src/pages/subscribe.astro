@@ -10,7 +10,7 @@ const editions = await getAllEditions();
 const feeds = allFeeds(tagsInUse(editions));
 
 // The two headline feeds get the full treatment; the per-topic ones are a
-// compact list, so the page does not become sixteen identical cards — and so
+// compact list, so the page does not become sixteen identical cards, and so
 // only two copy-to-clipboard islands hydrate instead of eighteen.
 const primary = feeds.filter((feed) => feed.kind !== 'tag');
 const topicFeeds = feeds.filter((feed) => feed.kind === 'tag');
@@ -45,9 +45,8 @@ const instructions = [
 >
   <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">Subscribe to the deadlines</h1>
   <p class="mt-2 max-w-2xl text-muted-foreground">
-    These are live calendar feeds, not one-off downloads. Subscribe once and your calendar
-    updates itself whenever a deadline is added, moved or corrected here. Every deadline comes
-    with reminders one week and one day ahead.
+    Live feeds, not one-off downloads. Your calendar updates itself when a deadline changes here,
+    and every deadline carries reminders one week and one day ahead.
   </p>
 
   <section class="mt-8 space-y-3">
@@ -71,9 +70,6 @@ const instructions = [
 
   <section class="mt-10">
     <h2 class="text-lg font-semibold">By topic</h2>
-    <p class="mt-2 max-w-2xl text-sm text-muted-foreground">
-      Each topic has its own feed, covering only the conferences tagged with it.
-    </p>
 
     <ul class="mt-4 grid gap-x-6 sm:grid-cols-2">
       {
@@ -114,16 +110,8 @@ const instructions = [
       }
     </dl>
     <p class="mt-3 text-sm text-muted-foreground">
-      Calendar apps decide their own refresh interval. The feed asks for every 12 hours, but
-      Google in particular can take up to a day to pick up a change.
+      The feed asks to be re-read every 12 hours. Google can take up to a day.
     </p>
   </section>
 
-  <section class="mt-10">
-    <h2 class="text-lg font-semibold">A single conference</h2>
-    <p class="mt-2 max-w-2xl text-sm text-muted-foreground">
-      Every conference page has its own feed covering just that event's deadlines plus the
-      conference dates themselves — useful if you only care about one venue.
-    </p>
-  </section>
 </BaseLayout>

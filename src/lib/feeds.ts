@@ -19,14 +19,14 @@ export interface FeedDefinition {
 
 export const ALL_DEADLINES_FEED: FeedDefinition = {
   path: '/calendar/all.ics',
-  name: `${SITE_TITLE} — all deadlines`,
+  name: `${SITE_TITLE}: all deadlines`,
   description: 'Every submission deadline tracked on the site.',
   kind: 'all',
 };
 
 export const EVENTS_FEED: FeedDefinition = {
   path: '/calendar/events.ics',
-  name: `${SITE_TITLE} — conference dates`,
+  name: `${SITE_TITLE}: conference dates`,
   description: 'The conferences themselves, as all-day events.',
   kind: 'events',
 };
@@ -34,7 +34,7 @@ export const EVENTS_FEED: FeedDefinition = {
 export function tagFeed(tag: TagId): FeedDefinition {
   return {
     path: `/calendar/${tag}.ics`,
-    name: `${SITE_TITLE} — ${tagLabel(tag)}`,
+    name: `${SITE_TITLE}: ${tagLabel(tag)}`,
     description: `Deadlines for conferences tagged "${tagLabel(tag)}".`,
     kind: 'tag',
     tag,

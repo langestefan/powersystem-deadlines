@@ -11,7 +11,7 @@
 ## Checklist
 
 - [ ] Every date comes from the official conference site, linked above
-- [ ] Timezones match what the call for papers states — where it says nothing, `AoE` is used and the `note` says so
+- [ ] Timezones match what the call for papers states. Where it says nothing, `AoE` is used and the `note` says so
 - [ ] Deadline timestamps are quoted (`'2027-02-01 23:59:59'`), dates a whole day long are not
 - [ ] A new year was added as a new entry under `editions:` rather than by editing last year's
 - [ ] The `id` follows the convention: lowercase name plus two-digit year

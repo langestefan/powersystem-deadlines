@@ -3,9 +3,11 @@ name: Deploy
 on:
   push:
     branches: [main]
-  # Weekly rebuild so the .ics feeds stay fresh even without commits.
+  # Daily rebuild. The "next 7 days" grouping and the archive split are decided
+  # at build time, so without this a deadline that passes overnight keeps its
+  # old heading until the next commit.
   schedule:
-    - cron: '17 4 * * 1'
+    - cron: '17 4 * * *'
   workflow_dispatch:
 
 # Never let two deploys race for the gh-pages branch.

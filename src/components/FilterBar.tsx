@@ -6,7 +6,7 @@ import { cn } from '@/lib/utils';
 /**
  * Filters the server-rendered conference cards in place.
  *
- * The cards themselves are static Astro output — this island only toggles their
+ * The cards themselves are static Astro output. This island only toggles their
  * visibility using the data-* attributes they carry. That keeps the list fast
  * and indexable while the interactive part stays a few kilobytes of JavaScript.
  * Filter state is mirrored into the query string so a filtered view is a

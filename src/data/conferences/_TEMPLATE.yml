@@ -3,7 +3,7 @@
 # Files starting with "_" are ignored by the site.
 #
 # One file per conference SERIES. Each year the conference runs becomes one
-# entry under `editions:` — do not create a second file for a new year.
+# entry under `editions:`. Do not create a second file for a new year.
 #
 # Run `npm run validate` before opening your pull request.
 # ---------------------------------------------------------------------------
@@ -72,7 +72,7 @@ editions:
       #   camera_ready, early_registration, author_registration,
       #   tutorial_proposal, panel_proposal, workshop_proposal, poster,
       #   presentation_upload
-      # `label` is shown verbatim — copy the wording from the call for papers.
+      # `label` is shown verbatim, so copy the wording from the call for papers.
       # `date` must be quoted: 'YYYY-MM-DD HH:mm:ss', or the literal 'TBA'.
       - type: abstract
         label: Abstract submission

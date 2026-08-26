@@ -102,7 +102,7 @@ export function deadlineEvents(
       events.push({
         uid: deadlineUid(edition, deadline, ordinal, domain),
         start: deadline.utc,
-        summary: `${edition.name} ${edition.year} — ${deadline.label}`,
+        summary: `${edition.name} ${edition.year}: ${deadline.label}`,
         description: describeEdition(edition, deadline, siteUrl),
         location: locationLabel(edition),
         url: deadline.link ?? edition.link,

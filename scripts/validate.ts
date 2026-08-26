@@ -3,8 +3,8 @@
  *
  * `astro sync` (run first by `npm run validate`) already enforces the per-field
  * schema in src/content.config.ts. This script covers the rules that need to see
- * more than one entry at a time — duplicate IDs, chronological ordering, a year
- * that disagrees with the ID — plus the softer "this will probably confuse
+ * more than one entry at a time: duplicate IDs, chronological ordering, a year
+ * that disagrees with the ID. It also carries the softer "this will probably confuse
  * someone" warnings that should not block a pull request.
  */
 
@@ -103,7 +103,7 @@ for (const name of files) {
     // --- uniqueness -------------------------------------------------------
     const existing = seenIds.get(id);
     if (existing) {
-      report(file, where, 'error', `Duplicate id "${id}" — already used in ${existing}.`);
+      report(file, where, 'error', `Duplicate id "${id}", already used in ${existing}.`);
     } else {
       seenIds.set(id, file);
     }
@@ -239,7 +239,7 @@ for (const file of new Set(issues.map((issue) => issue.file))) {
 }
 
 const summary =
-  `\n${files.length} file(s), ${editionCount} edition(s), ${deadlineCount} deadline(s) — ` +
+  `\n${files.length} file(s), ${editionCount} edition(s), ${deadlineCount} deadline(s), ` +
   `${errors.length} error(s), ${warnings.length} warning(s).`;
 console.log(summary);
 

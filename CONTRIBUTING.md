@@ -28,7 +28,7 @@ listing.
 
 ## Adding a new year to a conference that is already listed
 
-Append a new entry under `editions:` in the existing file. **Do not edit last year's entry** — the
+Append a new entry under `editions:` in the existing file. **Do not edit last year's entry**. The
 archive at `/past` is built from it, and someone's calendar is probably still subscribed to it.
 
 ```yaml
@@ -64,7 +64,7 @@ editions:
 | `id`              | yes      | Unique site-wide. Lowercase name + two-digit year: `pscc26`     |
 | `date`            | yes      | Human-readable, shown verbatim: `June 8-12, 2026`               |
 | `link`            | no       | Only when this edition has its own site                         |
-| `city`, `country` | no       | `country` must be one this repo knows — see below               |
+| `city`, `country` | no       | `country` must be one this repo knows, see below                |
 | `region`          | no       | Derived from `country`; set it only when derivation fails       |
 | `venue`           | no       | Building or campus                                              |
 | `start`, `end`    | no       | `YYYY-MM-DD`. Drives the archive and the conference-dates feed  |
@@ -89,7 +89,7 @@ deadlines:
 
 - `date` **must be quoted.** Unquoted, YAML reads it as a UTC timestamp and silently ignores the
   timezone. Validation rejects this.
-- Use the literal `'TBA'` when a milestone is announced but not yet dated — better than leaving it
+- Use the literal `'TBA'` when a milestone is announced but not yet dated. Better than leaving it
   out, because the site then shows that the date is still expected.
 - `label` is shown to readers, so copy the wording from the call for papers.
 - `type` drives the icons, the headline countdown and the sort order. Recommended values:
@@ -105,11 +105,11 @@ deadlines:
 
 In order of preference:
 
-1. `AoE` — Anywhere on Earth (UTC-12), what most calls for papers mean by "end of day".
+1. `AoE`, Anywhere on Earth (UTC-12), what most calls for papers mean by "end of day".
 2. An IANA name: `Europe/Amsterdam`, `America/New_York`, `Asia/Shanghai`. Handles daylight saving.
 3. An offset: `UTC+2`, `GMT-5`, `UTC+05:30`.
-4. An abbreviation: `CET`, `EST`, `JST`. These are read as **fixed** offsets — `CET` is always
-   UTC+1, even in summer — so validation warns and suggests an IANA zone instead.
+4. An abbreviation: `CET`, `EST`, `JST`. These are read as **fixed** offsets, so `CET` is always
+   UTC+1 even in summer. Validation warns and suggests an IANA zone instead.
 
 If the call for papers does not state a timezone, leave it as `AoE` and say so in the `note`. Do
 not guess.
@@ -134,7 +134,7 @@ a genuine sub-field has several conferences; not worth doing for one event.
 ### Countries
 
 `country` is mapped to a region by [`src/lib/regions.ts`](src/lib/regions.ts). If yours is not
-listed, add it there in the same pull request — one line — or set `region:` explicitly.
+listed, add it there in the same pull request (one line), or set `region:` explicitly.
 
 ## Running it locally
 

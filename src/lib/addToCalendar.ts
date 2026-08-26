@@ -4,7 +4,7 @@ import { formatUtc } from './ics';
 /**
  * "Add to calendar" deep links for a single deadline.
  *
- * These are plain URLs computed at build time — no client-side JavaScript, no
+ * These are plain URLs computed at build time: no client-side JavaScript, no
  * blob downloads, and nothing to break when a viewer has scripts disabled. The
  * Apple/other case points at the conference's own .ics file, which has the
  * advantage of staying up to date if the deadline moves.
@@ -18,7 +18,7 @@ function eventWindow(deadline: ResolvedDeadline): { start: Date; end: Date } | n
 }
 
 function summaryFor(edition: ConferenceEdition, deadline: ResolvedDeadline): string {
-  return `${edition.name} ${edition.year} — ${deadline.label}`;
+  return `${edition.name} ${edition.year}: ${deadline.label}`;
 }
 
 function detailsFor(edition: ConferenceEdition, deadline: ResolvedDeadline): string {

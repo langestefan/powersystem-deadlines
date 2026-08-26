@@ -9,7 +9,7 @@ body:
         Thanks for helping keep this list current.
 
         If you are comfortable with a pull request, adding the YAML file yourself
-        is faster — copy [`_TEMPLATE.yml`](../blob/main/src/data/conferences/_TEMPLATE.yml)
+        is faster. Copy [`_TEMPLATE.yml`](../blob/main/src/data/conferences/_TEMPLATE.yml)
         and see [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md). Otherwise fill this
         in and someone will open the PR for you.
 
@@ -34,7 +34,7 @@ body:
     id: cfp_url
     attributes:
       label: Call for papers URL
-      description: The official page the dates below come from. Required — every date must be traceable.
+      description: The official page the dates below come from. Required, because every date must be traceable.
       placeholder: https://example.org/call-for-papers
     validations:
       required: true
@@ -98,7 +98,7 @@ body:
     id: tags
     attributes:
       label: Topics
-      description: Pick everything that genuinely applies — these drive the filters and the per-topic calendar feeds.
+      description: Pick everything that genuinely applies. These drive the filters and the per-topic calendar feeds.
       multiple: true
       options:
         - power-systems

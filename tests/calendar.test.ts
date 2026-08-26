@@ -95,7 +95,7 @@ describe('deadlineEvents', () => {
   });
 
   it('names the event so it is readable in a crowded calendar', () => {
-    expect(events[0]!.summary).toBe('TESTCONF 2027 — Abstract submission');
+    expect(events[0]!.summary).toBe('TESTCONF 2027: Abstract submission');
   });
 
   it('describes the conference and links back to its page', () => {

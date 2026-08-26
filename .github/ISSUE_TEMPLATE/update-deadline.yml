@@ -5,7 +5,7 @@ labels: [correction]
 body:
   - type: markdown
     attributes:
-      value: Deadlines move constantly — thanks for catching this one.
+      value: Deadlines move constantly. Thanks for catching this one.
 
   - type: input
     id: conference

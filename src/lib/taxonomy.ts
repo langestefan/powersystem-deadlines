@@ -1,6 +1,6 @@
 /**
  * The controlled vocabularies used by the conference schema. Adding a value here
- * is what makes it usable in src/data/conferences/*.yml — a typo in a pull
+ * is what makes it usable in src/data/conferences/*.yml. A typo in a pull
  * request fails validation instead of silently creating a one-off category.
  */
 
@@ -169,8 +169,8 @@ export type Region = (typeof REGIONS)[number];
 export const REGION_IDS = REGIONS as unknown as [Region, ...Region[]];
 
 /**
- * Recommended `type` values for a deadline entry. Not enforced — a conference is
- * free to invent one — but these get a nicer icon and sort priority in the UI.
+ * Recommended `type` values for a deadline entry. Not enforced, since a conference is
+ * free to invent one, but these get a nicer icon and sort priority in the UI.
  */
 export const DEADLINE_TYPES = [
   'abstract',

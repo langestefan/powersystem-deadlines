@@ -27,7 +27,7 @@
   --color-accent-foreground: oklch(0.28 0.04 255);
   --color-ring: oklch(0.52 0.16 250);
 
-  /* Deadline urgency scale — also used by the countdown island. */
+  /* Deadline urgency scale, also used by the countdown island. */
   --color-urgent: oklch(0.58 0.19 27);
   --color-soon: oklch(0.68 0.15 65);
   --color-later: oklch(0.58 0.12 155);

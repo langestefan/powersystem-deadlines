@@ -43,8 +43,8 @@ describe('foldLine', () => {
 
   it('never splits a multi-byte character', () => {
     // Em dashes and accents are common in conference names.
-    const folded = foldLine(`SUMMARY:${'é—'.repeat(60)}`);
-    expect(folded.replace(/\r\n /g, '')).toBe(`SUMMARY:${'é—'.repeat(60)}`);
+    const folded = foldLine(`SUMMARY:${'é€'.repeat(60)}`);
+    expect(folded.replace(/\r\n /g, '')).toBe(`SUMMARY:${'é€'.repeat(60)}`);
     for (const line of folded.split('\r\n')) {
       expect(Buffer.byteLength(line, 'utf8')).toBeLessThanOrEqual(75);
     }
@@ -72,7 +72,7 @@ describe('buildCalendar', () => {
       {
         uid: 'conf26-paper@example.org',
         start: new Date('2026-10-15T23:59:59Z'),
-        summary: 'CONF 2026 — Paper submission',
+        summary: 'CONF 2026: Paper submission',
         description: 'Line one\nLine two; with punctuation, and more',
         location: 'Delft, Netherlands',
         url: 'https://conf.example.org/',

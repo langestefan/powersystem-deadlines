@@ -17,10 +17,6 @@ const byYear = [...new Set(editions.map((edition) => edition.year))]
   description="Past power system conferences and their deadlines."
 >
   <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">Archive</h1>
-  <p class="mt-2 max-w-2xl text-muted-foreground">
-    Conferences whose deadlines and dates have passed. Kept so the record of when a series ran,
-    and how early it closed submissions, stays available.
-  </p>
 
   {
     byYear.length === 0 ? (

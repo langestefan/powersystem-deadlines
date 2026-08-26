@@ -5,8 +5,8 @@ Countdown timers and subscribable calendar feeds for power system conference dea
 **<https://langestefan.github.io/powersystem-deadlines>**
 
 Power system calls for papers are scattered across IEEE PES, PELS, CIGRE, CIRED, IET and a dozen
-other society websites, each in its own format. This collects them in one place, and — unlike most
-deadline trackers — treats calendar subscription as the point rather than an afterthought.
+other society websites, each in its own format. This collects them in one place, and unlike most
+deadline trackers it treats calendar subscription as the point rather than an afterthought.
 
 ## Subscribe
 
@@ -27,7 +27,7 @@ with one-click links for Google Calendar, Apple Calendar and Outlook.
 
 Every conference is one YAML file in [`src/data/conferences/`](src/data/conferences/). To add one:
 
-- [Open an issue](../../issues/new?template=new-conference.yml) — no Git needed, and
+- [Open an issue](../../issues/new?template=new-conference.yml), no Git needed, or
 - or open a pull request: copy [`_TEMPLATE.yml`](src/data/conferences/_TEMPLATE.yml), fill it in
   from the official call for papers, run `npm run validate`.
 
@@ -53,7 +53,7 @@ npm run build      # static build into dist/, feeds included
 | `src/data/conferences/*.yml`  | The data. One file per conference series, one entry per year.         |
 | `src/content.config.ts`       | The schema. A file that violates it fails the build, and so fails CI. |
 | `src/lib/time.ts`             | Timezone handling: AoE, IANA zones, UTC offsets, abbreviations.       |
-| `src/lib/ics.ts`              | RFC 5545 generation — folding, escaping, alarms, refresh hints.       |
+| `src/lib/ics.ts`              | RFC 5545 generation: folding, escaping, alarms, refresh hints.        |
 | `src/pages/calendar/*.ics.ts` | The feeds, generated as static files at build time.                   |
 | `scripts/validate.ts`         | Cross-file checks the schema cannot express.                          |
 
@@ -65,7 +65,7 @@ to the `gh-pages` branch, plus a weekly rebuild so the feeds never go stale.
 
 ## Prior art
 
-This follows a well-trodden path — [ai-deadlines](https://github.com/paperswithcode/ai-deadlines)
+This follows a well-trodden path: [ai-deadlines](https://github.com/paperswithcode/ai-deadlines)
 and its maintained successor
 [huggingface/ai-deadlines](https://github.com/huggingface/ai-deadlines),
 [ds-deadlines](https://github.com/ds-deadlines/ds-deadlines.github.io), and the many other forks in

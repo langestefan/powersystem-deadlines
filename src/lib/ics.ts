@@ -2,8 +2,8 @@
  * RFC 5545 calendar generation.
  *
  * Written by hand rather than pulled from a package because the details that
- * matter here — stable UIDs across rebuilds, correct 75-octet line folding, and
- * the refresh hints that make a feed re-poll — are exactly the details the
+ * matter here (stable UIDs across rebuilds, correct 75-octet line folding, and
+ * the refresh hints that make a feed re-poll) are exactly the details the
  * available libraries either skip or get wrong, and Google Calendar rejects a
  * malformed feed silently. Everything below is covered by tests/ics.test.ts.
  */

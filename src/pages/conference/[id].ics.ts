@@ -22,7 +22,7 @@ export const GET: APIRoute = async ({ params }) => {
 
   return icsResponse(
     buildCalendar({
-      name: `${edition.name} ${edition.year} — ${SITE_TITLE}`,
+      name: `${edition.name} ${edition.year} deadlines`,
       description: `Deadlines and dates for ${edition.fullName} ${edition.year}.`,
       domain: SITE_DOMAIN,
       url: feedUrl(conferenceFeedPath(edition.id)),
