@@ -73,13 +73,20 @@ export function webcalUrl(path: string): string {
 /**
  * Google Calendar's "add by URL" deep link.
  *
- * Three details all have to be right or Google answers "Can't add calendar,
- * check the URL" without saying why: the host is www.google.com, the path is
- * /calendar/render, and `cid` is the webcal:// form passed through raw. The
- * https:// form and a percent-encoded value both fail.
+ * `cid` has to carry the webcal:// scheme. Given an https:// URL, Google reads
+ * the value as a Google *calendar id* rather than a feed and answers "Can't add
+ * calendar, check the URL" without explaining why.
+ *
+ * The endpoint is calendar.google.com/calendar/r. The older
+ * www.google.com/calendar/render subscribes as well, but 302s to a legacy route
+ * that ignores X-WR-CALNAME and names the calendar after the .ics file instead.
+ *
+ * Percent-encoding the value is optional today and both forms subscribe, but it
+ * is the correct way to put a URL inside a query parameter and it keeps working
+ * if a feed path ever gains a query string of its own.
  */
 export function googleSubscribeUrl(path: string): string {
-  return `https://www.google.com/calendar/render?cid=${webcalUrl(path)}`;
+  return `https://calendar.google.com/calendar/r?cid=${encodeURIComponent(webcalUrl(path))}`;
 }
 
 export function editionsForFeed(

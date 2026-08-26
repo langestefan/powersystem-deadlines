@@ -23,13 +23,22 @@ describe('feed URLs', () => {
     expect(webcalUrl(path).startsWith('webcal://')).toBe(true);
   });
 
-  it("uses the one shape Google's add-by-URL flow accepts", () => {
+  it("uses the shape Google's add-by-URL flow accepts", () => {
     const url = googleSubscribeUrl(path);
-    expect(url.startsWith('https://www.google.com/calendar/render?cid=')).toBe(true);
-    // Must be the webcal:// form, raw. https:// or percent-encoding both fail
-    // with "Can't add calendar, check the URL".
-    expect(url).toContain('cid=webcal://');
+
+    // The cid must carry the webcal:// scheme. Given an https:// value Google
+    // reads it as a Google *calendar id*, not a feed, and answers "Can't add
+    // calendar, check the URL".
+    expect(url).toContain('cid=webcal');
     expect(url).not.toContain('cid=https');
-    expect(url).not.toContain('%3A%2F%2F');
+
+    // calendar.google.com/calendar/r both subscribes and takes the calendar's
+    // name from X-WR-CALNAME. www.google.com/calendar/render also subscribes,
+    // but 302s to a legacy route that names the calendar after the .ics file.
+    expect(url.startsWith('https://calendar.google.com/calendar/r?cid=')).toBe(true);
+
+    expect(url).toBe(
+      `https://calendar.google.com/calendar/r?cid=${encodeURIComponent(webcalUrl(path))}`,
+    );
   });
 });
