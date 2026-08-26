@@ -56,6 +56,7 @@ const instructions = [
               httpsUrl={feedUrl(feed.path)}
               webcalUrl={webcalUrl(feed.path)}
               googleUrl={googleSubscribeUrl(feed.path)}
+              downloadUrl={withBase(feed.path)}
             />
           </div>
         </div>
@@ -82,9 +83,16 @@ const instructions = [
               >
                 Google
               </a>
-              <a class="text-muted-foreground hover:text-primary" href={withBase(feed.path)}>
+              <a class="text-muted-foreground hover:text-primary" href={feedUrl(feed.path)}>
                 .ics
               </a>
+              <button
+                type="button"
+                class="text-muted-foreground hover:text-primary"
+                data-copy-feed={feedUrl(feed.path)}
+              >
+                Copy URL
+              </button>
             </span>
           </li>
         ))
@@ -109,4 +117,29 @@ const instructions = [
     </p>
   </section>
 
+  <script>
+    // One listener for every topic row, rather than hydrating an island per
+    // feed. Same reasoning as the countdown ticker in BaseLayout: the rows are
+    // static markup and only the click needs JavaScript.
+    document.addEventListener('click', async (event) => {
+      const button = (event.target as HTMLElement).closest<HTMLElement>('[data-copy-feed]');
+      if (!button) return;
+
+      const url = button.dataset.copyFeed;
+      if (!url) return;
+
+      try {
+        await navigator.clipboard.writeText(url);
+      } catch {
+        // Clipboard access can be denied; the .ics link beside it still works.
+        return;
+      }
+
+      const previous = button.textContent;
+      button.textContent = 'Copied';
+      setTimeout(() => {
+        button.textContent = previous;
+      }, 2000);
+    });
+  </script>
 </BaseLayout>

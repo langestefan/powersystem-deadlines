@@ -11,6 +11,8 @@ interface SubscribeLinksProps {
   httpsUrl: string;
   webcalUrl: string;
   googleUrl: string;
+  /** Site-relative path to the .ics itself, for a plain download. */
+  downloadUrl: string;
   /** Stack vertically for the narrow sidebar on a conference page. */
   compact?: boolean;
 }
@@ -19,6 +21,7 @@ export default function SubscribeLinks({
   httpsUrl,
   webcalUrl,
   googleUrl,
+  downloadUrl,
   compact = false,
 }: SubscribeLinksProps) {
   const [copied, setCopied] = useState(false);
@@ -49,6 +52,9 @@ export default function SubscribeLinks({
         <button type="button" className={buttonClass} onClick={copy}>
           {copied ? 'Copied' : 'Copy feed URL'}
         </button>
+        <a className={buttonClass} href={downloadUrl}>
+          .ics file
+        </a>
       </div>
 
       <p className="font-mono text-[11px] break-all text-muted-foreground">{httpsUrl}</p>
