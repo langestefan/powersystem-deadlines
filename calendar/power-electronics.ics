@@ -12,11 +12,11 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
  ar/power-electronics.ics
 BEGIN:VEVENT
 UID:iecon26-paper@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20260801T115959Z
-DTEND:20260801T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
 TRANSP:TRANSPARENT
-SUMMARY:IECON 2026: Paper submission (extended)
+SUMMARY:IECON 2026: Paper submission (extended) (23:59 AoE)
 DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
  ECON 2026)\n\nPaper submission (extended): 31 Jul 2026\, 23:59 AoE\n\nConf
  erence: October 18-21\, 2026\nLocation: Doha\, Qatar\n\nAll dates:\n  Pape
@@ -44,11 +44,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-notification@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20260811T115959Z
-DTEND:20260811T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
 TRANSP:TRANSPARENT
-SUMMARY:IECON 2026: Acceptance notification
+SUMMARY:IECON 2026: Acceptance notification (23:59 AoE)
 DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
  ECON 2026)\n\nAcceptance notification: 10 Aug 2026\, 23:59 AoE\n\nConferen
  ce: October 18-21\, 2026\nLocation: Doha\, Qatar\n\nAll dates:\n  Paper su
@@ -76,11 +76,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-camera_ready@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20260831T115959Z
-DTEND:20260831T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
 TRANSP:TRANSPARENT
-SUMMARY:IECON 2026: Final submission and registration
+SUMMARY:IECON 2026: Final submission and registration (23:59 AoE)
 DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
  ECON 2026)\n\nFinal submission and registration: 30 Aug 2026\, 23:59 AoE\n
  \nConference: October 18-21\, 2026\nLocation: Doha\, Qatar\n\nAll dates:\n
@@ -108,11 +108,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pcim-europe27-abstract@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20261015T115959Z
-DTEND:20261015T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
 TRANSP:TRANSPARENT
-SUMMARY:PCIM Europe 2027: Abstract submission
+SUMMARY:PCIM Europe 2027: Abstract submission (23:59 AoE)
 DESCRIPTION:International Exhibition and Conference for Power Electronics\,
   Intelligent Motion\, Renewable Energy and Energy Management (PCIM Europe 
  2027)\n\nAbstract submission: 14 Oct 2026\, 23:59 AoE\n\nConference: May 1
@@ -144,11 +144,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pcim-europe27-camera_ready@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20270310T115959Z
-DTEND:20270310T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
 TRANSP:TRANSPARENT
-SUMMARY:PCIM Europe 2027: Full manuscript submission
+SUMMARY:PCIM Europe 2027: Full manuscript submission (23:59 AoE)
 DESCRIPTION:International Exhibition and Conference for Power Electronics\,
   Intelligent Motion\, Renewable Energy and Energy Management (PCIM Europe 
  2027)\n\nFull manuscript submission: 9 Mar 2027\, 23:59 AoE\n\nConference:
@@ -180,11 +180,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-abstract@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20261102T115959Z
-DTEND:20261102T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
-SUMMARY:IEMDC 2027: Digest submission
+SUMMARY:IEMDC 2027: Digest submission (23:59 AoE)
 DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
  DC 2027)\n\nDigest submission: 1 Nov 2026\, 23:59 AoE\n\nConference: May 1
  7-20\, 2027\nLocation: Milwaukee\, USA\n\nAll dates:\n  Digest submission:
@@ -212,11 +212,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-notification@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20270116T115959Z
-DTEND:20270116T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
 TRANSP:TRANSPARENT
-SUMMARY:IEMDC 2027: Digest acceptance notification
+SUMMARY:IEMDC 2027: Digest acceptance notification (23:59 AoE)
 DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
  DC 2027)\n\nDigest acceptance notification: 15 Jan 2027\, 23:59 AoE\n\nCon
  ference: May 17-20\, 2027\nLocation: Milwaukee\, USA\n\nAll dates:\n  Dige
@@ -245,11 +245,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-camera_ready@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20270316T115959Z
-DTEND:20270316T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
-SUMMARY:IEMDC 2027: Final paper submission and early registration
+SUMMARY:IEMDC 2027: Final paper submission and early registration (23:59 Ao
+ E)
 DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
  DC 2027)\n\nFinal paper submission and early registration: 15 Mar 2027\, 2
  3:59 AoE\n\nConference: May 17-20\, 2027\nLocation: Milwaukee\, USA\n\nAll
@@ -278,11 +279,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-abstract@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20260822T115959Z
-DTEND:20260822T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
 TRANSP:TRANSPARENT
-SUMMARY:APEC 2027: Technical session digest submission
+SUMMARY:APEC 2027: Technical session digest submission (23:59 AoE)
 DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC 
  2027)\n\nTechnical session digest submission: 21 Aug 2026\, 23:59 AoE\n\nC
  onference: March 7-11\, 2027\nLocation: New Orleans\, USA\nVenue: Ernest N
@@ -313,11 +314,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-notification@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20261013T115959Z
-DTEND:20261013T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
 TRANSP:TRANSPARENT
-SUMMARY:APEC 2027: Acceptance and decline notices
+SUMMARY:APEC 2027: Acceptance and decline notices (23:59 AoE)
 DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC 
  2027)\n\nAcceptance and decline notices: 12 Oct 2026\, 23:59 AoE\n\nConfer
  ence: March 7-11\, 2027\nLocation: New Orleans\, USA\nVenue: Ernest N. Mor
@@ -348,11 +349,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-camera_ready@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20261208T115959Z
-DTEND:20261208T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
 TRANSP:TRANSPARENT
-SUMMARY:APEC 2027: Final manuscript and author registration
+SUMMARY:APEC 2027: Final manuscript and author registration (23:59 AoE)
 DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC 
  2027)\n\nFinal manuscript and author registration: 7 Dec 2026\, 23:59 AoE\
  n\nConference: March 7-11\, 2027\nLocation: New Orleans\, USA\nVenue: Erne
@@ -383,11 +384,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ias-am27-abstract@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20261208T115959Z
-DTEND:20261208T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
 TRANSP:TRANSPARENT
-SUMMARY:IEEE IAS Annual Meeting 2027: Digest submission
+SUMMARY:IEEE IAS Annual Meeting 2027: Digest submission (23:59 AoE)
 DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
  ual Meeting 2027)\n\nDigest submission: 7 Dec 2026\, 23:59 AoE\n\nConferen
  ce: Dates to be announced\nLocation: Location TBA\n\nAll dates:\n  Digest 
@@ -418,11 +419,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ias-am27-notification@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20270216T115959Z
-DTEND:20270216T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
 TRANSP:TRANSPARENT
-SUMMARY:IEEE IAS Annual Meeting 2027: Author notification
+SUMMARY:IEEE IAS Annual Meeting 2027: Author notification (23:59 AoE)
 DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
  ual Meeting 2027)\n\nAuthor notification: 15 Feb 2027\, 23:59 AoE\n\nConfe
  rence: Dates to be announced\nLocation: Location TBA\n\nAll dates:\n  Dige
@@ -453,11 +454,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ias-am27-camera_ready@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20270416T115959Z
-DTEND:20270416T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
-SUMMARY:IEEE IAS Annual Meeting 2027: Final paper with IEEE copyright form
+SUMMARY:IEEE IAS Annual Meeting 2027: Final paper with IEEE copyright form 
+ (23:59 AoE)
 DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
  ual Meeting 2027)\n\nFinal paper with IEEE copyright form: 15 Apr 2027\, 2
  3:59 AoE\n\nConference: Dates to be announced\nLocation: Location TBA\n\nA
@@ -488,11 +490,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-abstract@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20260228T115959Z
-DTEND:20260228T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20260227
+DTEND;VALUE=DATE:20260228
 TRANSP:TRANSPARENT
-SUMMARY:ECCE 2026: Digest submission
+SUMMARY:ECCE 2026: Digest submission (23:59 AoE)
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nD
  igest submission: 27 Feb 2026\, 23:59 AoE\n\nConference: October 4-8\, 202
  6\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest submission: 27 Feb
@@ -522,11 +524,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-notification@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20260523T115959Z
-DTEND:20260523T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
-SUMMARY:ECCE 2026: Author notification
+SUMMARY:ECCE 2026: Author notification (23:59 AoE)
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nA
  uthor notification: 22 May 2026\, 23:59 AoE\n\nConference: October 4-8\, 2
  026\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest submission: 27 F
@@ -556,11 +558,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-camera_ready@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20260711T115959Z
-DTEND:20260711T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
 TRANSP:TRANSPARENT
-SUMMARY:ECCE 2026: Final paper with IEEE copyright form
+SUMMARY:ECCE 2026: Final paper with IEEE copyright form (23:59 AoE)
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nF
  inal paper with IEEE copyright form: 10 Jul 2026\, 23:59 AoE\n\nConference
  : October 4-8\, 2026\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest

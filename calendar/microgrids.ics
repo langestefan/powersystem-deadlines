@@ -12,11 +12,11 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
  ar/microgrids.ics
 BEGIN:VEVENT
 UID:pes-grid-edge27-paper@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20260725T115959Z
-DTEND:20260725T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260725
 TRANSP:TRANSPARENT
-SUMMARY:PES Grid Edge 2027: Paper and panel proposal submission
+SUMMARY:PES Grid Edge 2027: Paper and panel proposal submission (23:59 AoE)
 DESCRIPTION:IEEE PES Grid Edge Technologies Conference & Exposition (PES Gr
  id Edge 2027)\n\nPaper and panel proposal submission: 24 Jul 2026\, 23:59 
  AoE\n\nConference: April 19-22\, 2027\nLocation: Salt Lake City\, USA\nVen
@@ -47,11 +47,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-grid-edge27-notification@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20261002T115959Z
-DTEND:20261002T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
 TRANSP:TRANSPARENT
-SUMMARY:PES Grid Edge 2027: Notification of acceptance
+SUMMARY:PES Grid Edge 2027: Notification of acceptance (23:59 AoE)
 DESCRIPTION:IEEE PES Grid Edge Technologies Conference & Exposition (PES Gr
  id Edge 2027)\n\nNotification of acceptance: 1 Oct 2026\, 23:59 AoE\n\nCon
  ference: April 19-22\, 2027\nLocation: Salt Lake City\, USA\nVenue: Calvin

@@ -13,11 +13,11 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/iemdc27.ics
 BEGIN:VEVENT
 UID:iemdc27-abstract@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20261102T115959Z
-DTEND:20261102T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
-SUMMARY:IEMDC 2027: Digest submission
+SUMMARY:IEMDC 2027: Digest submission (23:59 AoE)
 DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
  DC 2027)\n\nDigest submission: 1 Nov 2026\, 23:59 AoE\n\nConference: May 1
  7-20\, 2027\nLocation: Milwaukee\, USA\n\nAll dates:\n  Digest submission:
@@ -45,11 +45,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-notification@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20270116T115959Z
-DTEND:20270116T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
 TRANSP:TRANSPARENT
-SUMMARY:IEMDC 2027: Digest acceptance notification
+SUMMARY:IEMDC 2027: Digest acceptance notification (23:59 AoE)
 DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
  DC 2027)\n\nDigest acceptance notification: 15 Jan 2027\, 23:59 AoE\n\nCon
  ference: May 17-20\, 2027\nLocation: Milwaukee\, USA\n\nAll dates:\n  Dige
@@ -78,11 +78,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-camera_ready@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20270316T115959Z
-DTEND:20270316T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
-SUMMARY:IEMDC 2027: Final paper submission and early registration
+SUMMARY:IEMDC 2027: Final paper submission and early registration (23:59 Ao
+ E)
 DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
  DC 2027)\n\nFinal paper submission and early registration: 15 Mar 2027\, 2
  3:59 AoE\n\nConference: May 17-20\, 2027\nLocation: Milwaukee\, USA\n\nAll
@@ -111,7 +112,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-event@langestefan.github.io
-DTSTAMP:20260826T183802Z
+DTSTAMP:20260826T190235Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270521
 TRANSP:TRANSPARENT

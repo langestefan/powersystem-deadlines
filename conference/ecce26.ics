@@ -13,11 +13,11 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/ecce26.ics
 BEGIN:VEVENT
 UID:ecce26-abstract@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20260228T115959Z
-DTEND:20260228T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20260227
+DTEND;VALUE=DATE:20260228
 TRANSP:TRANSPARENT
-SUMMARY:ECCE 2026: Digest submission
+SUMMARY:ECCE 2026: Digest submission (23:59 AoE)
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nD
  igest submission: 27 Feb 2026\, 23:59 AoE\n\nConference: October 4-8\, 202
  6\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest submission: 27 Feb
@@ -47,11 +47,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-notification@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20260523T115959Z
-DTEND:20260523T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
-SUMMARY:ECCE 2026: Author notification
+SUMMARY:ECCE 2026: Author notification (23:59 AoE)
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nA
  uthor notification: 22 May 2026\, 23:59 AoE\n\nConference: October 4-8\, 2
  026\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest submission: 27 F
@@ -81,11 +81,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-camera_ready@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20260711T115959Z
-DTEND:20260711T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
 TRANSP:TRANSPARENT
-SUMMARY:ECCE 2026: Final paper with IEEE copyright form
+SUMMARY:ECCE 2026: Final paper with IEEE copyright form (23:59 AoE)
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nF
  inal paper with IEEE copyright form: 10 Jul 2026\, 23:59 AoE\n\nConference
  : October 4-8\, 2026\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest
@@ -115,7 +115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-event@langestefan.github.io
-DTSTAMP:20260826T183802Z
+DTSTAMP:20260826T190235Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261009
 TRANSP:TRANSPARENT

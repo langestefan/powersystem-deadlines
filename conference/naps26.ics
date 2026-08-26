@@ -12,11 +12,11 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/naps26.ics
 BEGIN:VEVENT
 UID:naps26-paper@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20260702T115959Z
-DTEND:20260702T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
 TRANSP:TRANSPARENT
-SUMMARY:NAPS 2026: Paper submission
+SUMMARY:NAPS 2026: Paper submission (23:59 AoE)
 DESCRIPTION:North American Power Symposium (NAPS 2026)\n\nPaper submission:
   1 Jul 2026\, 23:59 AoE\n\nConference: October 11-13\, 2026\nLocation: Hou
  ghton\, USA\nVenue: Rozsa Center for the Performing Arts\, Michigan Techno
@@ -43,7 +43,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:naps26-event@langestefan.github.io
-DTSTAMP:20260826T183802Z
+DTSTAMP:20260826T190235Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261014
 TRANSP:TRANSPARENT

@@ -14,11 +14,11 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/pcim-europe27.ics
 BEGIN:VEVENT
 UID:pcim-europe27-abstract@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20261015T115959Z
-DTEND:20261015T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
 TRANSP:TRANSPARENT
-SUMMARY:PCIM Europe 2027: Abstract submission
+SUMMARY:PCIM Europe 2027: Abstract submission (23:59 AoE)
 DESCRIPTION:International Exhibition and Conference for Power Electronics\,
   Intelligent Motion\, Renewable Energy and Energy Management (PCIM Europe 
  2027)\n\nAbstract submission: 14 Oct 2026\, 23:59 AoE\n\nConference: May 1
@@ -50,11 +50,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pcim-europe27-camera_ready@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20270310T115959Z
-DTEND:20270310T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
 TRANSP:TRANSPARENT
-SUMMARY:PCIM Europe 2027: Full manuscript submission
+SUMMARY:PCIM Europe 2027: Full manuscript submission (23:59 AoE)
 DESCRIPTION:International Exhibition and Conference for Power Electronics\,
   Intelligent Motion\, Renewable Energy and Energy Management (PCIM Europe 
  2027)\n\nFull manuscript submission: 9 Mar 2027\, 23:59 AoE\n\nConference:
@@ -86,7 +86,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pcim-europe27-event@langestefan.github.io
-DTSTAMP:20260826T183802Z
+DTSTAMP:20260826T190235Z
 DTSTART;VALUE=DATE:20270511
 DTEND;VALUE=DATE:20270514
 TRANSP:TRANSPARENT

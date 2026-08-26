@@ -12,11 +12,11 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
  ar/power-quality.ics
 BEGIN:VEVENT
 UID:ias-am27-abstract@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20261208T115959Z
-DTEND:20261208T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
 TRANSP:TRANSPARENT
-SUMMARY:IEEE IAS Annual Meeting 2027: Digest submission
+SUMMARY:IEEE IAS Annual Meeting 2027: Digest submission (23:59 AoE)
 DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
  ual Meeting 2027)\n\nDigest submission: 7 Dec 2026\, 23:59 AoE\n\nConferen
  ce: Dates to be announced\nLocation: Location TBA\n\nAll dates:\n  Digest 
@@ -47,11 +47,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ias-am27-notification@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20270216T115959Z
-DTEND:20270216T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
 TRANSP:TRANSPARENT
-SUMMARY:IEEE IAS Annual Meeting 2027: Author notification
+SUMMARY:IEEE IAS Annual Meeting 2027: Author notification (23:59 AoE)
 DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
  ual Meeting 2027)\n\nAuthor notification: 15 Feb 2027\, 23:59 AoE\n\nConfe
  rence: Dates to be announced\nLocation: Location TBA\n\nAll dates:\n  Dige
@@ -82,11 +82,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ias-am27-camera_ready@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20270416T115959Z
-DTEND:20270416T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
-SUMMARY:IEEE IAS Annual Meeting 2027: Final paper with IEEE copyright form
+SUMMARY:IEEE IAS Annual Meeting 2027: Final paper with IEEE copyright form 
+ (23:59 AoE)
 DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
  ual Meeting 2027)\n\nFinal paper with IEEE copyright form: 15 Apr 2027\, 2
  3:59 AoE\n\nConference: Dates to be announced\nLocation: Location TBA\n\nA

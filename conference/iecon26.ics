@@ -13,11 +13,11 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/iecon26.ics
 BEGIN:VEVENT
 UID:iecon26-paper@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20260801T115959Z
-DTEND:20260801T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
 TRANSP:TRANSPARENT
-SUMMARY:IECON 2026: Paper submission (extended)
+SUMMARY:IECON 2026: Paper submission (extended) (23:59 AoE)
 DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
  ECON 2026)\n\nPaper submission (extended): 31 Jul 2026\, 23:59 AoE\n\nConf
  erence: October 18-21\, 2026\nLocation: Doha\, Qatar\n\nAll dates:\n  Pape
@@ -45,11 +45,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-notification@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20260811T115959Z
-DTEND:20260811T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
 TRANSP:TRANSPARENT
-SUMMARY:IECON 2026: Acceptance notification
+SUMMARY:IECON 2026: Acceptance notification (23:59 AoE)
 DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
  ECON 2026)\n\nAcceptance notification: 10 Aug 2026\, 23:59 AoE\n\nConferen
  ce: October 18-21\, 2026\nLocation: Doha\, Qatar\n\nAll dates:\n  Paper su
@@ -77,11 +77,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-camera_ready@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20260831T115959Z
-DTEND:20260831T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
 TRANSP:TRANSPARENT
-SUMMARY:IECON 2026: Final submission and registration
+SUMMARY:IECON 2026: Final submission and registration (23:59 AoE)
 DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
  ECON 2026)\n\nFinal submission and registration: 30 Aug 2026\, 23:59 AoE\n
  \nConference: October 18-21\, 2026\nLocation: Doha\, Qatar\n\nAll dates:\n
@@ -109,7 +109,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-event@langestefan.github.io
-DTSTAMP:20260826T183802Z
+DTSTAMP:20260826T190235Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261022
 TRANSP:TRANSPARENT

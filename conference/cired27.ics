@@ -13,11 +13,11 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/cired27.ics
 BEGIN:VEVENT
 UID:cired27-abstract@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20260915T115959Z
-DTEND:20260915T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
 TRANSP:TRANSPARENT
-SUMMARY:CIRED 2027: Abstract submission
+SUMMARY:CIRED 2027: Abstract submission (23:59 AoE)
 DESCRIPTION:International Conference and Exhibition on Electricity Distribu
  tion (CIRED 2027)\n\nAbstract submission: 14 Sept 2026\, 23:59 AoE\n\nConf
  erence: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAll dates:\n  A
@@ -49,11 +49,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-notification@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20261114T115959Z
-DTEND:20261114T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
 TRANSP:TRANSPARENT
-SUMMARY:CIRED 2027: Notification of acceptance
+SUMMARY:CIRED 2027: Notification of acceptance (23:59 AoE)
 DESCRIPTION:International Conference and Exhibition on Electricity Distribu
  tion (CIRED 2027)\n\nNotification of acceptance: 13 Nov 2026\, 23:59 AoE\n
  \nConference: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAll dates
@@ -85,11 +85,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-paper@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20270123T115959Z
-DTEND:20270123T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
 TRANSP:TRANSPARENT
-SUMMARY:CIRED 2027: Full paper submission
+SUMMARY:CIRED 2027: Full paper submission (23:59 AoE)
 DESCRIPTION:International Conference and Exhibition on Electricity Distribu
  tion (CIRED 2027)\n\nFull paper submission: 22 Jan 2027\, 23:59 AoE\n\nCon
  ference: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAll dates:\n  
@@ -121,11 +121,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-notification-2@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20270410T115959Z
-DTEND:20270410T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
 TRANSP:TRANSPARENT
-SUMMARY:CIRED 2027: Author's final notification of acceptance
+SUMMARY:CIRED 2027: Author's final notification of acceptance (23:59 AoE)
 DESCRIPTION:International Conference and Exhibition on Electricity Distribu
  tion (CIRED 2027)\n\nAuthor's final notification of acceptance: 9 Apr 2027
  \, 23:59 AoE\n\nConference: June 14-17\, 2027\nLocation: Stockholm\, Swede
@@ -157,11 +157,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-early_registration@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20270429T115959Z
-DTEND:20270429T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20270428
+DTEND;VALUE=DATE:20270429
 TRANSP:TRANSPARENT
-SUMMARY:CIRED 2027: Early bird registration deadline
+SUMMARY:CIRED 2027: Early bird registration deadline (23:59 AoE)
 DESCRIPTION:International Conference and Exhibition on Electricity Distribu
  tion (CIRED 2027)\n\nEarly bird registration deadline: 28 Apr 2027\, 23:59
   AoE\n\nConference: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAll
@@ -193,11 +193,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-author_registration@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20270511T115959Z
-DTEND:20270511T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270511
 TRANSP:TRANSPARENT
-SUMMARY:CIRED 2027: Author registration deadline
+SUMMARY:CIRED 2027: Author registration deadline (23:59 AoE)
 DESCRIPTION:International Conference and Exhibition on Electricity Distribu
  tion (CIRED 2027)\n\nAuthor registration deadline: 10 May 2027\, 23:59 AoE
  \n\nConference: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAll dat
@@ -229,11 +229,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-presentation_upload@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20270529T115959Z
-DTEND:20270529T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20270528
+DTEND;VALUE=DATE:20270529
 TRANSP:TRANSPARENT
-SUMMARY:CIRED 2027: Deadline to upload presentations
+SUMMARY:CIRED 2027: Deadline to upload presentations (23:59 AoE)
 DESCRIPTION:International Conference and Exhibition on Electricity Distribu
  tion (CIRED 2027)\n\nDeadline to upload presentations: 28 May 2027\, 23:59
   AoE\n\nConference: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAll
@@ -265,7 +265,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-event@langestefan.github.io
-DTSTAMP:20260826T183802Z
+DTSTAMP:20260826T190235Z
 DTSTART;VALUE=DATE:20270614
 DTEND;VALUE=DATE:20270618
 TRANSP:TRANSPARENT

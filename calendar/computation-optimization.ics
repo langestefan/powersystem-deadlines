@@ -12,11 +12,11 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
  ar/computation-optimization.ics
 BEGIN:VEVENT
 UID:powertech27-paper@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20270301T115959Z
-DTEND:20270301T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
 TRANSP:TRANSPARENT
-SUMMARY:PowerTech 2027: Full paper submission
+SUMMARY:PowerTech 2027: Full paper submission (23:59 AoE)
 DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nFull paper su
  bmission: 28 Feb 2027\, 23:59 AoE\n\nConference: September 5-9\, 2027\nLoc
  ation: Bruges\, Belgium\n\nAll dates:\n  Full paper submission: 28 Feb 202
@@ -46,11 +46,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-notification@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20270424T115959Z
-DTEND:20270424T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20270423
+DTEND;VALUE=DATE:20270424
 TRANSP:TRANSPARENT
-SUMMARY:PowerTech 2027: Author notification
+SUMMARY:PowerTech 2027: Author notification (23:59 AoE)
 DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nAuthor notifi
  cation: 23 Apr 2027\, 23:59 AoE\n\nConference: September 5-9\, 2027\nLocat
  ion: Bruges\, Belgium\n\nAll dates:\n  Full paper submission: 28 Feb 2027\
@@ -80,11 +80,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-author_registration@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20270518T115959Z
-DTEND:20270518T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
 TRANSP:TRANSPARENT
-SUMMARY:PowerTech 2027: Author and early bird registration deadline
+SUMMARY:PowerTech 2027: Author and early bird registration deadline (23:59 
+ AoE)
 DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nAuthor and ea
  rly bird registration deadline: 17 May 2027\, 23:59 AoE\n\nConference: Sep
  tember 5-9\, 2027\nLocation: Bruges\, Belgium\n\nAll dates:\n  Full paper 
@@ -114,11 +115,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-camera_ready@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20270524T115959Z
-DTEND:20270524T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270524
 TRANSP:TRANSPARENT
-SUMMARY:PowerTech 2027: Final paper submission
+SUMMARY:PowerTech 2027: Final paper submission (23:59 AoE)
 DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nFinal paper s
  ubmission: 23 May 2027\, 23:59 AoE\n\nConference: September 5-9\, 2027\nLo
  cation: Bruges\, Belgium\n\nAll dates:\n  Full paper submission: 28 Feb 20
@@ -148,11 +149,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-abstract@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20250616T115959Z
-DTEND:20250616T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20250615
+DTEND;VALUE=DATE:20250616
 TRANSP:TRANSPARENT
-SUMMARY:PSCC 2026: One-page abstract submission
+SUMMARY:PSCC 2026: One-page abstract submission (23:59 AoE)
 DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nOne-page ab
  stract submission: 15 Jun 2025\, 23:59 AoE\n\nConference: June 8-12\, 2026
  \nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAll dates:\n  
@@ -182,11 +183,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-notification@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20250623T115959Z
-DTEND:20250623T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20250622
+DTEND;VALUE=DATE:20250623
 TRANSP:TRANSPARENT
-SUMMARY:PSCC 2026: Abstract acceptance notification
+SUMMARY:PSCC 2026: Abstract acceptance notification (23:59 AoE)
 DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nAbstract ac
  ceptance notification: 22 Jun 2025\, 23:59 AoE\n\nConference: June 8-12\, 
  2026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAll dates:
@@ -216,11 +217,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-paper@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20251016T115959Z
-DTEND:20251016T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20251015
+DTEND;VALUE=DATE:20251016
 TRANSP:TRANSPARENT
-SUMMARY:PSCC 2026: Full paper submission
+SUMMARY:PSCC 2026: Full paper submission (23:59 AoE)
 DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nFull paper 
  submission: 15 Oct 2025\, 23:59 AoE\n\nConference: June 8-12\, 2026\nLocat
  ion: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAll dates:\n  One-pag
@@ -250,11 +251,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-notification-2@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20260209T115959Z
-DTEND:20260209T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20260208
+DTEND;VALUE=DATE:20260209
 TRANSP:TRANSPARENT
-SUMMARY:PSCC 2026: Acceptance and revision requests
+SUMMARY:PSCC 2026: Acceptance and revision requests (23:59 AoE)
 DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nAcceptance 
  and revision requests: 8 Feb 2026\, 23:59 AoE\n\nConference: June 8-12\, 2
  026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAll dates:\
@@ -284,11 +285,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-camera_ready@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20260316T115959Z
-DTEND:20260316T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20260315
+DTEND;VALUE=DATE:20260316
 TRANSP:TRANSPARENT
-SUMMARY:PSCC 2026: Final manuscript submission
+SUMMARY:PSCC 2026: Final manuscript submission (23:59 AoE)
 DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nFinal manus
  cript submission: 15 Mar 2026\, 23:59 AoE\n\nConference: June 8-12\, 2026\
  nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAll dates:\n  O
@@ -318,11 +319,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:naps26-paper@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20260702T115959Z
-DTEND:20260702T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
 TRANSP:TRANSPARENT
-SUMMARY:NAPS 2026: Paper submission
+SUMMARY:NAPS 2026: Paper submission (23:59 AoE)
 DESCRIPTION:North American Power Symposium (NAPS 2026)\n\nPaper submission:
   1 Jul 2026\, 23:59 AoE\n\nConference: October 11-13\, 2026\nLocation: Hou
  ghton\, USA\nVenue: Rozsa Center for the Performing Arts\, Michigan Techno
@@ -349,11 +350,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:smartgridcomm26-paper@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20260504T115959Z
-DTEND:20260504T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20260503
+DTEND;VALUE=DATE:20260504
 TRANSP:TRANSPARENT
-SUMMARY:SmartGridComm 2026: Paper submission
+SUMMARY:SmartGridComm 2026: Paper submission (23:59 AoE)
 DESCRIPTION:IEEE International Conference on Communications\, Control\, and
   Computing Technologies for Smart Grids (SmartGridComm 2026)\n\nPaper subm
  ission: 3 May 2026\, 23:59 AoE\n\nConference: October 26-29\, 2026\nLocati
@@ -382,11 +383,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:smartgridcomm26-notification@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20260620T115959Z
-DTEND:20260620T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
 TRANSP:TRANSPARENT
-SUMMARY:SmartGridComm 2026: Acceptance notification
+SUMMARY:SmartGridComm 2026: Acceptance notification (23:59 AoE)
 DESCRIPTION:IEEE International Conference on Communications\, Control\, and
   Computing Technologies for Smart Grids (SmartGridComm 2026)\n\nAcceptance
   notification: 19 Jun 2026\, 23:59 AoE\n\nConference: October 26-29\, 2026

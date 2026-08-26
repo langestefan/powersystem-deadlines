@@ -13,11 +13,11 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/smartgridcomm26.ics
 BEGIN:VEVENT
 UID:smartgridcomm26-paper@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20260504T115959Z
-DTEND:20260504T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20260503
+DTEND;VALUE=DATE:20260504
 TRANSP:TRANSPARENT
-SUMMARY:SmartGridComm 2026: Paper submission
+SUMMARY:SmartGridComm 2026: Paper submission (23:59 AoE)
 DESCRIPTION:IEEE International Conference on Communications\, Control\, and
   Computing Technologies for Smart Grids (SmartGridComm 2026)\n\nPaper subm
  ission: 3 May 2026\, 23:59 AoE\n\nConference: October 26-29\, 2026\nLocati
@@ -46,11 +46,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:smartgridcomm26-notification@langestefan.github.io
-DTSTAMP:20260826T183802Z
-DTSTART:20260620T115959Z
-DTEND:20260620T122959Z
+DTSTAMP:20260826T190235Z
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
 TRANSP:TRANSPARENT
-SUMMARY:SmartGridComm 2026: Acceptance notification
+SUMMARY:SmartGridComm 2026: Acceptance notification (23:59 AoE)
 DESCRIPTION:IEEE International Conference on Communications\, Control\, and
   Computing Technologies for Smart Grids (SmartGridComm 2026)\n\nAcceptance
   notification: 19 Jun 2026\, 23:59 AoE\n\nConference: October 26-29\, 2026
@@ -79,7 +79,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:smartgridcomm26-event@langestefan.github.io
-DTSTAMP:20260826T183802Z
+DTSTAMP:20260826T190235Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261030
 TRANSP:TRANSPARENT
