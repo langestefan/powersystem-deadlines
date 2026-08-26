@@ -70,9 +70,16 @@ export function webcalUrl(path: string): string {
   return feedUrl(path).replace(/^https?:/, 'webcal:');
 }
 
-/** Google Calendar's "add by URL" deep link. */
+/**
+ * Google Calendar's "add by URL" deep link.
+ *
+ * Three details all have to be right or Google answers "Can't add calendar,
+ * check the URL" without saying why: the host is www.google.com, the path is
+ * /calendar/render, and `cid` is the webcal:// form passed through raw. The
+ * https:// form and a percent-encoded value both fail.
+ */
 export function googleSubscribeUrl(path: string): string {
-  return `https://calendar.google.com/calendar/r?cid=${encodeURIComponent(feedUrl(path))}`;
+  return `https://www.google.com/calendar/render?cid=${webcalUrl(path)}`;
 }
 
 export function editionsForFeed(
