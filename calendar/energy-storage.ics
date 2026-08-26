@@ -12,7 +12,7 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
  ar/energy-storage.ics
 BEGIN:VEVENT
 UID:pes-grid-edge27-paper@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20260725T115959Z
 DTEND:20260725T122959Z
 TRANSP:TRANSPARENT
@@ -47,7 +47,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-grid-edge27-notification@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20261002T115959Z
 DTEND:20261002T122959Z
 TRANSP:TRANSPARENT
@@ -81,8 +81,80 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:pcim-europe27-abstract@langestefan.github.io
+DTSTAMP:20260826T181948Z
+DTSTART:20261015T115959Z
+DTEND:20261015T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:PCIM Europe 2027: Abstract submission
+DESCRIPTION:International Exhibition and Conference for Power Electronics\,
+  Intelligent Motion\, Renewable Energy and Energy Management (PCIM Europe 
+ 2027)\n\nAbstract submission: 14 Oct 2026\, 23:59 AoE\n\nConference: May 1
+ 1-13\, 2027\nLocation: Nuremberg\, Germany\nVenue: Nuremberg Exhibition Ce
+ ntre\n\nAll dates:\n  Abstract submission: 14 Oct 2026\, 23:59 AoE\n  Full
+  manuscript submission: 9 Mar 2027\, 23:59 AoE\n\nNot yet announced: Accep
+ tance notification and speaker registration\n\nThe same 14 October 2026 de
+ adline covers synopses for the seminars held on 9-10 May 2027 at the Arven
+ a Park Hotel\, whose documentation is due 14 April 2027. Acceptance is exp
+ ected in January 2027 without a stated date. Timezones are not stated in t
+ he call for papers\; AoE is assumed.\n\nCall for papers: https://pcim.mesa
+ go.com/nuernberg/en.html\nDetails: https://langestefan.github.io/powersyst
+ em-deadlines/conference/pcim-europe27
+LOCATION:Nuremberg\, Germany
+URL;VALUE=URI:https://pcim.mesago.com/nuernberg/en.html
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pcim-europe27-camera_ready@langestefan.github.io
+DTSTAMP:20260826T181948Z
+DTSTART:20270310T115959Z
+DTEND:20270310T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:PCIM Europe 2027: Full manuscript submission
+DESCRIPTION:International Exhibition and Conference for Power Electronics\,
+  Intelligent Motion\, Renewable Energy and Energy Management (PCIM Europe 
+ 2027)\n\nFull manuscript submission: 9 Mar 2027\, 23:59 AoE\n\nConference:
+  May 11-13\, 2027\nLocation: Nuremberg\, Germany\nVenue: Nuremberg Exhibit
+ ion Centre\n\nAll dates:\n  Abstract submission: 14 Oct 2026\, 23:59 AoE\n
+   Full manuscript submission: 9 Mar 2027\, 23:59 AoE\n\nNot yet announced:
+  Acceptance notification and speaker registration\n\nThe same 14 October 2
+ 026 deadline covers synopses for the seminars held on 9-10 May 2027 at the
+  Arvena Park Hotel\, whose documentation is due 14 April 2027. Acceptance 
+ is expected in January 2027 without a stated date. Timezones are not state
+ d in the call for papers\; AoE is assumed.\n\nCall for papers: https://pci
+ m.mesago.com/nuernberg/en.html\nDetails: https://langestefan.github.io/pow
+ ersystem-deadlines/conference/pcim-europe27
+LOCATION:Nuremberg\, Germany
+URL;VALUE=URI:https://pcim.mesago.com/nuernberg/en.html
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:apec27-abstract@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20260822T115959Z
 DTEND:20260822T122959Z
 TRANSP:TRANSPARENT
@@ -117,7 +189,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-notification@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20261013T115959Z
 DTEND:20261013T122959Z
 TRANSP:TRANSPARENT
@@ -152,7 +224,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-camera_ready@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20261208T115959Z
 DTEND:20261208T122959Z
 TRANSP:TRANSPARENT
@@ -187,7 +259,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-abstract@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20260228T115959Z
 DTEND:20260228T122959Z
 TRANSP:TRANSPARENT
@@ -221,7 +293,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-notification@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20260523T115959Z
 DTEND:20260523T122959Z
 TRANSP:TRANSPARENT
@@ -255,7 +327,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-camera_ready@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20260711T115959Z
 DTEND:20260711T122959Z
 TRANSP:TRANSPARENT

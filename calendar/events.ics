@@ -7,12 +7,12 @@ X-WR-CALNAME:Power System Deadlines: conference dates
 X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-X-WR-CALDESC:The conferences themselves\, as all-day events.
+X-WR-CALDESC:When each conference actually takes place\, as all-day events.
 SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
  ar/events.ics
 BEGIN:VEVENT
 UID:iecon26-event@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261022
 TRANSP:TRANSPARENT
@@ -33,7 +33,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-event@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -57,7 +57,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-event@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART;VALUE=DATE:20270614
 DTEND;VALUE=DATE:20270618
 TRANSP:TRANSPARENT
@@ -82,7 +82,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-europe26-event@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261023
 TRANSP:TRANSPARENT
@@ -103,7 +103,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-grid-edge27-event@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART;VALUE=DATE:20270419
 DTEND;VALUE=DATE:20270423
 TRANSP:TRANSPARENT
@@ -127,8 +127,55 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:pcim-europe27-event@langestefan.github.io
+DTSTAMP:20260826T181948Z
+DTSTART;VALUE=DATE:20270511
+DTEND;VALUE=DATE:20270514
+TRANSP:TRANSPARENT
+SUMMARY:PCIM Europe 2027
+DESCRIPTION:International Exhibition and Conference for Power Electronics\,
+  Intelligent Motion\, Renewable Energy and Energy Management (PCIM Europe 
+ 2027)\n\nConference: May 11-13\, 2027\nLocation: Nuremberg\, Germany\nVenu
+ e: Nuremberg Exhibition Centre\n\nAll dates:\n  Abstract submission: 14 Oc
+ t 2026\, 23:59 AoE\n  Full manuscript submission: 9 Mar 2027\, 23:59 AoE\n
+ \nNot yet announced: Acceptance notification and speaker registration\n\nT
+ he same 14 October 2026 deadline covers synopses for the seminars held on 
+ 9-10 May 2027 at the Arvena Park Hotel\, whose documentation is due 14 Apr
+ il 2027. Acceptance is expected in January 2027 without a stated date. Tim
+ ezones are not stated in the call for papers\; AoE is assumed.\n\nCall for
+  papers: https://pcim.mesago.com/nuernberg/en.html\nDetails: https://lange
+ stefan.github.io/powersystem-deadlines/conference/pcim-europe27
+LOCATION:Nuremberg Exhibition Centre\, Nuremberg\, Germany
+URL;VALUE=URI:https://pcim.mesago.com/nuernberg/en.html
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:iemdc27-event@langestefan.github.io
+DTSTAMP:20260826T181948Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270521
+TRANSP:TRANSPARENT
+SUMMARY:IEMDC 2027
+DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
+ DC 2027)\n\nConference: May 17-20\, 2027\nLocation: Milwaukee\, USA\n\nAll
+  dates:\n  Digest submission: 1 Nov 2026\, 23:59 AoE\n  Digest acceptance 
+ notification: 15 Jan 2027\, 23:59 AoE\n  Final paper submission and early 
+ registration: 15 Mar 2027\, 23:59 AoE\n\n16th edition\, marking the confer
+ ence's 30th anniversary and returning to Milwaukee. Timezones are not stat
+ ed in the call for papers\; AoE is assumed.\n\nCall for papers: https://ww
+ w.iemdc.org/\nDetails: https://langestefan.github.io/powersystem-deadlines
+ /conference/iemdc27
+LOCATION:Milwaukee\, USA
+URL;VALUE=URI:https://www.iemdc.org/
+CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:pesgm27-event@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART;VALUE=DATE:20270725
 DTEND;VALUE=DATE:20270730
 TRANSP:TRANSPARENT
@@ -148,7 +195,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-event@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270312
 TRANSP:TRANSPARENT
@@ -172,7 +219,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-event@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART;VALUE=DATE:20270905
 DTEND;VALUE=DATE:20270910
 TRANSP:TRANSPARENT
@@ -195,7 +242,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-event@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART;VALUE=DATE:20260608
 DTEND;VALUE=DATE:20260613
 TRANSP:TRANSPARENT
@@ -218,8 +265,27 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:epe26-event@langestefan.github.io
+DTSTAMP:20260826T181948Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260919
+TRANSP:TRANSPARENT
+SUMMARY:EPE ECCE Europe 2026
+DESCRIPTION:European Conference on Power Electronics and Applications (EPE 
+ ECCE Europe 2026)\n\nConference: September 14-18\, 2026\nLocation: Valenci
+ a\, Spain\nVenue: Valencia Conference Center\n\nSubmission had already clo
+ sed when this entry was added\, so no deadlines are recorded for this edit
+ ion.\n\nCall for papers: https://www.ecce-europe.org/2026/\nDetails: https
+ ://langestefan.github.io/powersystem-deadlines/conference/epe26
+LOCATION:Valencia Conference Center\, Valencia\, Spain
+URL;VALUE=URI:https://www.ecce-europe.org/2026/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:ecce26-event@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261009
 TRANSP:TRANSPARENT
@@ -242,8 +308,29 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:naps26-event@langestefan.github.io
+DTSTAMP:20260826T181948Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261014
+TRANSP:TRANSPARENT
+SUMMARY:NAPS 2026
+DESCRIPTION:North American Power Symposium (NAPS 2026)\n\nConference: Octob
+ er 11-13\, 2026\nLocation: Houghton\, USA\nVenue: Rozsa Center for the Per
+ forming Arts\, Michigan Technological University\n\n58th edition. Papers a
+ re at most six pages and reviewed in stages\, with registration priced by 
+ submission date. Timezones are not stated in the call for papers\; AoE is 
+ assumed.\n\nCall for papers: https://www.mtu.edu/ece/naps-2026/\nDetails: 
+ https://langestefan.github.io/powersystem-deadlines/conference/naps26
+LOCATION:Rozsa Center for the Performing Arts\, Michigan Technological Univ
+ ersity\, Houghton\, USA
+URL;VALUE=URI:https://www.mtu.edu/ece/naps-2026/
+CATEGORIES:Power Systems,Computation & Optimization,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:smartgridcomm26-event@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261030
 TRANSP:TRANSPARENT
@@ -260,6 +347,45 @@ LOCATION:College Station\, USA
 URL;VALUE=URI:https://sgc2026.ieee-smartgridcomm.org/
 CATEGORIES:Smart Grid,Cyber-Physical Security,Computation & Optimization,Di
  stribution
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:epe27-event@langestefan.github.io
+DTSTAMP:20260826T181948Z
+DTSTART;VALUE=DATE:20270830
+DTEND;VALUE=DATE:20270904
+TRANSP:TRANSPARENT
+SUMMARY:EPE ECCE Europe 2027
+DESCRIPTION:European Conference on Power Electronics and Applications (EPE 
+ ECCE Europe 2027)\n\nConference: August 30 - September 3\, 2027\nLocation:
+  Aachen\, Germany\nVenue: Eurogress Aachen\n\nNot yet announced: Paper sub
+ mission\n\nChaired by RWTH Aachen. The call for papers had not been publis
+ hed when this entry was added.\n\nCall for papers: https://www.ecce-europe
+ .org/\nDetails: https://langestefan.github.io/powersystem-deadlines/confer
+ ence/epe27
+LOCATION:Eurogress Aachen\, Aachen\, Germany
+URL;VALUE=URI:https://www.ecce-europe.org/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:eem27-event@langestefan.github.io
+DTSTAMP:20260826T181948Z
+DTSTART;VALUE=DATE:20270914
+DTEND;VALUE=DATE:20270918
+TRANSP:TRANSPARENT
+SUMMARY:EEM 2027
+DESCRIPTION:International Conference on the European Energy Market (EEM 202
+ 7)\n\nConference: September 14-17\, 2027\nLocation: Dresden\, Germany\n\nN
+ ot yet announced: Paper submission\n\n23rd edition\, hosted by the Chair o
+ f Energy Economics at TU Dresden. The call for papers had not been publish
+ ed when this entry was added.\n\nCall for papers: https://eem27.de/\nDetai
+ ls: https://langestefan.github.io/powersystem-deadlines/conference/eem27
+LOCATION:Dresden\, Germany
+URL;VALUE=URI:https://eem27.de/
+CATEGORIES:Energy Markets,Power Systems,Renewables
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT

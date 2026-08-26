@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:EEM 2027 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for International Conference on the Europe
+ an Energy Market 2027.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
+ ence/eem27.ics
+BEGIN:VEVENT
+UID:eem27-event@langestefan.github.io
+DTSTAMP:20260826T181948Z
+DTSTART;VALUE=DATE:20270914
+DTEND;VALUE=DATE:20270918
+TRANSP:TRANSPARENT
+SUMMARY:EEM 2027
+DESCRIPTION:International Conference on the European Energy Market (EEM 202
+ 7)\n\nConference: September 14-17\, 2027\nLocation: Dresden\, Germany\n\nN
+ ot yet announced: Paper submission\n\n23rd edition\, hosted by the Chair o
+ f Energy Economics at TU Dresden. The call for papers had not been publish
+ ed when this entry was added.\n\nCall for papers: https://eem27.de/\nDetai
+ ls: https://langestefan.github.io/powersystem-deadlines/conference/eem27
+LOCATION:Dresden\, Germany
+URL;VALUE=URI:https://eem27.de/
+CATEGORIES:Energy Markets,Power Systems,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

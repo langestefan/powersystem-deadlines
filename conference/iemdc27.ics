@@ -1,0 +1,134 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IEMDC 2027 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IEEE International Electric Machines a
+ nd Drives Conference 2027.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
+ ence/iemdc27.ics
+BEGIN:VEVENT
+UID:iemdc27-abstract@langestefan.github.io
+DTSTAMP:20260826T181948Z
+DTSTART:20261102T115959Z
+DTEND:20261102T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:IEMDC 2027: Digest submission
+DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
+ DC 2027)\n\nDigest submission: 1 Nov 2026\, 23:59 AoE\n\nConference: May 1
+ 7-20\, 2027\nLocation: Milwaukee\, USA\n\nAll dates:\n  Digest submission:
+  1 Nov 2026\, 23:59 AoE\n  Digest acceptance notification: 15 Jan 2027\, 2
+ 3:59 AoE\n  Final paper submission and early registration: 15 Mar 2027\, 2
+ 3:59 AoE\n\n16th edition\, marking the conference's 30th anniversary and r
+ eturning to Milwaukee. Timezones are not stated in the call for papers\; A
+ oE is assumed.\n\nCall for papers: https://www.iemdc.org/\nDetails: https:
+ //langestefan.github.io/powersystem-deadlines/conference/iemdc27
+LOCATION:Milwaukee\, USA
+URL;VALUE=URI:https://www.iemdc.org/
+CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iemdc27-notification@langestefan.github.io
+DTSTAMP:20260826T181948Z
+DTSTART:20270116T115959Z
+DTEND:20270116T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:IEMDC 2027: Digest acceptance notification
+DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
+ DC 2027)\n\nDigest acceptance notification: 15 Jan 2027\, 23:59 AoE\n\nCon
+ ference: May 17-20\, 2027\nLocation: Milwaukee\, USA\n\nAll dates:\n  Dige
+ st submission: 1 Nov 2026\, 23:59 AoE\n  Digest acceptance notification: 1
+ 5 Jan 2027\, 23:59 AoE\n  Final paper submission and early registration: 1
+ 5 Mar 2027\, 23:59 AoE\n\n16th edition\, marking the conference's 30th ann
+ iversary and returning to Milwaukee. Timezones are not stated in the call 
+ for papers\; AoE is assumed.\n\nCall for papers: https://www.iemdc.org/\nD
+ etails: https://langestefan.github.io/powersystem-deadlines/conference/iem
+ dc27
+LOCATION:Milwaukee\, USA
+URL;VALUE=URI:https://www.iemdc.org/
+CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iemdc27-camera_ready@langestefan.github.io
+DTSTAMP:20260826T181948Z
+DTSTART:20270316T115959Z
+DTEND:20270316T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:IEMDC 2027: Final paper submission and early registration
+DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
+ DC 2027)\n\nFinal paper submission and early registration: 15 Mar 2027\, 2
+ 3:59 AoE\n\nConference: May 17-20\, 2027\nLocation: Milwaukee\, USA\n\nAll
+  dates:\n  Digest submission: 1 Nov 2026\, 23:59 AoE\n  Digest acceptance 
+ notification: 15 Jan 2027\, 23:59 AoE\n  Final paper submission and early 
+ registration: 15 Mar 2027\, 23:59 AoE\n\n16th edition\, marking the confer
+ ence's 30th anniversary and returning to Milwaukee. Timezones are not stat
+ ed in the call for papers\; AoE is assumed.\n\nCall for papers: https://ww
+ w.iemdc.org/\nDetails: https://langestefan.github.io/powersystem-deadlines
+ /conference/iemdc27
+LOCATION:Milwaukee\, USA
+URL;VALUE=URI:https://www.iemdc.org/
+CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iemdc27-event@langestefan.github.io
+DTSTAMP:20260826T181948Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270521
+TRANSP:TRANSPARENT
+SUMMARY:IEMDC 2027
+DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
+ DC 2027)\n\nConference: May 17-20\, 2027\nLocation: Milwaukee\, USA\n\nAll
+  dates:\n  Digest submission: 1 Nov 2026\, 23:59 AoE\n  Digest acceptance 
+ notification: 15 Jan 2027\, 23:59 AoE\n  Final paper submission and early 
+ registration: 15 Mar 2027\, 23:59 AoE\n\n16th edition\, marking the confer
+ ence's 30th anniversary and returning to Milwaukee. Timezones are not stat
+ ed in the call for papers\; AoE is assumed.\n\nCall for papers: https://ww
+ w.iemdc.org/\nDetails: https://langestefan.github.io/powersystem-deadlines
+ /conference/iemdc27
+LOCATION:Milwaukee\, USA
+URL;VALUE=URI:https://www.iemdc.org/
+CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

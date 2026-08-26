@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:EPE ECCE Europe 2027 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for European Conference on Power Electroni
+ cs and Applications 2027.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
+ ence/epe27.ics
+BEGIN:VEVENT
+UID:epe27-event@langestefan.github.io
+DTSTAMP:20260826T181948Z
+DTSTART;VALUE=DATE:20270830
+DTEND;VALUE=DATE:20270904
+TRANSP:TRANSPARENT
+SUMMARY:EPE ECCE Europe 2027
+DESCRIPTION:European Conference on Power Electronics and Applications (EPE 
+ ECCE Europe 2027)\n\nConference: August 30 - September 3\, 2027\nLocation:
+  Aachen\, Germany\nVenue: Eurogress Aachen\n\nNot yet announced: Paper sub
+ mission\n\nChaired by RWTH Aachen. The call for papers had not been publis
+ hed when this entry was added.\n\nCall for papers: https://www.ecce-europe
+ .org/\nDetails: https://langestefan.github.io/powersystem-deadlines/confer
+ ence/epe27
+LOCATION:Eurogress Aachen\, Aachen\, Germany
+URL;VALUE=URI:https://www.ecce-europe.org/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

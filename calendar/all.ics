@@ -7,12 +7,12 @@ X-WR-CALNAME:Power System Deadlines: all deadlines
 X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-X-WR-CALDESC:Every deadline on the site.
+X-WR-CALDESC:Every submission deadline tracked here.
 SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
  ar/all.ics
 BEGIN:VEVENT
 UID:iecon26-paper@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20260801T115959Z
 DTEND:20260801T122959Z
 TRANSP:TRANSPARENT
@@ -44,7 +44,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-notification@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20260811T115959Z
 DTEND:20260811T122959Z
 TRANSP:TRANSPARENT
@@ -76,7 +76,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-camera_ready@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20260831T115959Z
 DTEND:20260831T122959Z
 TRANSP:TRANSPARENT
@@ -108,7 +108,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-paper@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20260911T115959Z
 DTEND:20260911T122959Z
 TRANSP:TRANSPARENT
@@ -143,7 +143,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-notification@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20260921T115959Z
 DTEND:20260921T122959Z
 TRANSP:TRANSPARENT
@@ -178,7 +178,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-author_registration@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20261011T115959Z
 DTEND:20261011T122959Z
 TRANSP:TRANSPARENT
@@ -213,7 +213,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-camera_ready@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20261021T115959Z
 DTEND:20261021T122959Z
 TRANSP:TRANSPARENT
@@ -248,7 +248,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-abstract@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20260915T115959Z
 DTEND:20260915T122959Z
 TRANSP:TRANSPARENT
@@ -284,7 +284,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-notification@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20261114T115959Z
 DTEND:20261114T122959Z
 TRANSP:TRANSPARENT
@@ -320,7 +320,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-paper@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20270123T115959Z
 DTEND:20270123T122959Z
 TRANSP:TRANSPARENT
@@ -356,7 +356,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-notification-2@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20270410T115959Z
 DTEND:20270410T122959Z
 TRANSP:TRANSPARENT
@@ -392,7 +392,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-early_registration@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20270429T115959Z
 DTEND:20270429T122959Z
 TRANSP:TRANSPARENT
@@ -428,7 +428,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-author_registration@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20270511T115959Z
 DTEND:20270511T122959Z
 TRANSP:TRANSPARENT
@@ -464,7 +464,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-presentation_upload@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20270529T115959Z
 DTEND:20270529T122959Z
 TRANSP:TRANSPARENT
@@ -500,7 +500,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-europe26-paper@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20260416T115959Z
 DTEND:20260416T122959Z
 TRANSP:TRANSPARENT
@@ -531,7 +531,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-europe26-camera_ready@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20260916T115959Z
 DTEND:20260916T122959Z
 TRANSP:TRANSPARENT
@@ -562,7 +562,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-grid-edge27-paper@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20260725T115959Z
 DTEND:20260725T122959Z
 TRANSP:TRANSPARENT
@@ -597,7 +597,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-grid-edge27-notification@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20261002T115959Z
 DTEND:20261002T122959Z
 TRANSP:TRANSPARENT
@@ -631,8 +631,178 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:pcim-europe27-abstract@langestefan.github.io
+DTSTAMP:20260826T181948Z
+DTSTART:20261015T115959Z
+DTEND:20261015T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:PCIM Europe 2027: Abstract submission
+DESCRIPTION:International Exhibition and Conference for Power Electronics\,
+  Intelligent Motion\, Renewable Energy and Energy Management (PCIM Europe 
+ 2027)\n\nAbstract submission: 14 Oct 2026\, 23:59 AoE\n\nConference: May 1
+ 1-13\, 2027\nLocation: Nuremberg\, Germany\nVenue: Nuremberg Exhibition Ce
+ ntre\n\nAll dates:\n  Abstract submission: 14 Oct 2026\, 23:59 AoE\n  Full
+  manuscript submission: 9 Mar 2027\, 23:59 AoE\n\nNot yet announced: Accep
+ tance notification and speaker registration\n\nThe same 14 October 2026 de
+ adline covers synopses for the seminars held on 9-10 May 2027 at the Arven
+ a Park Hotel\, whose documentation is due 14 April 2027. Acceptance is exp
+ ected in January 2027 without a stated date. Timezones are not stated in t
+ he call for papers\; AoE is assumed.\n\nCall for papers: https://pcim.mesa
+ go.com/nuernberg/en.html\nDetails: https://langestefan.github.io/powersyst
+ em-deadlines/conference/pcim-europe27
+LOCATION:Nuremberg\, Germany
+URL;VALUE=URI:https://pcim.mesago.com/nuernberg/en.html
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pcim-europe27-camera_ready@langestefan.github.io
+DTSTAMP:20260826T181948Z
+DTSTART:20270310T115959Z
+DTEND:20270310T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:PCIM Europe 2027: Full manuscript submission
+DESCRIPTION:International Exhibition and Conference for Power Electronics\,
+  Intelligent Motion\, Renewable Energy and Energy Management (PCIM Europe 
+ 2027)\n\nFull manuscript submission: 9 Mar 2027\, 23:59 AoE\n\nConference:
+  May 11-13\, 2027\nLocation: Nuremberg\, Germany\nVenue: Nuremberg Exhibit
+ ion Centre\n\nAll dates:\n  Abstract submission: 14 Oct 2026\, 23:59 AoE\n
+   Full manuscript submission: 9 Mar 2027\, 23:59 AoE\n\nNot yet announced:
+  Acceptance notification and speaker registration\n\nThe same 14 October 2
+ 026 deadline covers synopses for the seminars held on 9-10 May 2027 at the
+  Arvena Park Hotel\, whose documentation is due 14 April 2027. Acceptance 
+ is expected in January 2027 without a stated date. Timezones are not state
+ d in the call for papers\; AoE is assumed.\n\nCall for papers: https://pci
+ m.mesago.com/nuernberg/en.html\nDetails: https://langestefan.github.io/pow
+ ersystem-deadlines/conference/pcim-europe27
+LOCATION:Nuremberg\, Germany
+URL;VALUE=URI:https://pcim.mesago.com/nuernberg/en.html
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iemdc27-abstract@langestefan.github.io
+DTSTAMP:20260826T181948Z
+DTSTART:20261102T115959Z
+DTEND:20261102T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:IEMDC 2027: Digest submission
+DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
+ DC 2027)\n\nDigest submission: 1 Nov 2026\, 23:59 AoE\n\nConference: May 1
+ 7-20\, 2027\nLocation: Milwaukee\, USA\n\nAll dates:\n  Digest submission:
+  1 Nov 2026\, 23:59 AoE\n  Digest acceptance notification: 15 Jan 2027\, 2
+ 3:59 AoE\n  Final paper submission and early registration: 15 Mar 2027\, 2
+ 3:59 AoE\n\n16th edition\, marking the conference's 30th anniversary and r
+ eturning to Milwaukee. Timezones are not stated in the call for papers\; A
+ oE is assumed.\n\nCall for papers: https://www.iemdc.org/\nDetails: https:
+ //langestefan.github.io/powersystem-deadlines/conference/iemdc27
+LOCATION:Milwaukee\, USA
+URL;VALUE=URI:https://www.iemdc.org/
+CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iemdc27-notification@langestefan.github.io
+DTSTAMP:20260826T181948Z
+DTSTART:20270116T115959Z
+DTEND:20270116T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:IEMDC 2027: Digest acceptance notification
+DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
+ DC 2027)\n\nDigest acceptance notification: 15 Jan 2027\, 23:59 AoE\n\nCon
+ ference: May 17-20\, 2027\nLocation: Milwaukee\, USA\n\nAll dates:\n  Dige
+ st submission: 1 Nov 2026\, 23:59 AoE\n  Digest acceptance notification: 1
+ 5 Jan 2027\, 23:59 AoE\n  Final paper submission and early registration: 1
+ 5 Mar 2027\, 23:59 AoE\n\n16th edition\, marking the conference's 30th ann
+ iversary and returning to Milwaukee. Timezones are not stated in the call 
+ for papers\; AoE is assumed.\n\nCall for papers: https://www.iemdc.org/\nD
+ etails: https://langestefan.github.io/powersystem-deadlines/conference/iem
+ dc27
+LOCATION:Milwaukee\, USA
+URL;VALUE=URI:https://www.iemdc.org/
+CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iemdc27-camera_ready@langestefan.github.io
+DTSTAMP:20260826T181948Z
+DTSTART:20270316T115959Z
+DTEND:20270316T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:IEMDC 2027: Final paper submission and early registration
+DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
+ DC 2027)\n\nFinal paper submission and early registration: 15 Mar 2027\, 2
+ 3:59 AoE\n\nConference: May 17-20\, 2027\nLocation: Milwaukee\, USA\n\nAll
+  dates:\n  Digest submission: 1 Nov 2026\, 23:59 AoE\n  Digest acceptance 
+ notification: 15 Jan 2027\, 23:59 AoE\n  Final paper submission and early 
+ registration: 15 Mar 2027\, 23:59 AoE\n\n16th edition\, marking the confer
+ ence's 30th anniversary and returning to Milwaukee. Timezones are not stat
+ ed in the call for papers\; AoE is assumed.\n\nCall for papers: https://ww
+ w.iemdc.org/\nDetails: https://langestefan.github.io/powersystem-deadlines
+ /conference/iemdc27
+LOCATION:Milwaukee\, USA
+URL;VALUE=URI:https://www.iemdc.org/
+CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:pesgm27-paper@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20261111T115959Z
 DTEND:20261111T122959Z
 TRANSP:TRANSPARENT
@@ -663,7 +833,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-abstract@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20260822T115959Z
 DTEND:20260822T122959Z
 TRANSP:TRANSPARENT
@@ -698,7 +868,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-notification@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20261013T115959Z
 DTEND:20261013T122959Z
 TRANSP:TRANSPARENT
@@ -733,7 +903,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-camera_ready@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20261208T115959Z
 DTEND:20261208T122959Z
 TRANSP:TRANSPARENT
@@ -768,7 +938,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ias-am27-abstract@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20261208T115959Z
 DTEND:20261208T122959Z
 TRANSP:TRANSPARENT
@@ -803,7 +973,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ias-am27-notification@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20270216T115959Z
 DTEND:20270216T122959Z
 TRANSP:TRANSPARENT
@@ -838,7 +1008,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ias-am27-camera_ready@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20270416T115959Z
 DTEND:20270416T122959Z
 TRANSP:TRANSPARENT
@@ -873,7 +1043,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-paper@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20270301T115959Z
 DTEND:20270301T122959Z
 TRANSP:TRANSPARENT
@@ -907,7 +1077,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-notification@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20270424T115959Z
 DTEND:20270424T122959Z
 TRANSP:TRANSPARENT
@@ -941,7 +1111,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-author_registration@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20270518T115959Z
 DTEND:20270518T122959Z
 TRANSP:TRANSPARENT
@@ -975,7 +1145,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-camera_ready@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20270524T115959Z
 DTEND:20270524T122959Z
 TRANSP:TRANSPARENT
@@ -1009,7 +1179,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-abstract@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20250616T115959Z
 DTEND:20250616T122959Z
 TRANSP:TRANSPARENT
@@ -1043,7 +1213,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-notification@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20250623T115959Z
 DTEND:20250623T122959Z
 TRANSP:TRANSPARENT
@@ -1077,7 +1247,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-paper@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20251016T115959Z
 DTEND:20251016T122959Z
 TRANSP:TRANSPARENT
@@ -1111,7 +1281,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-notification-2@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20260209T115959Z
 DTEND:20260209T122959Z
 TRANSP:TRANSPARENT
@@ -1145,7 +1315,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-camera_ready@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20260316T115959Z
 DTEND:20260316T122959Z
 TRANSP:TRANSPARENT
@@ -1179,7 +1349,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-abstract@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20260228T115959Z
 DTEND:20260228T122959Z
 TRANSP:TRANSPARENT
@@ -1213,7 +1383,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-notification@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20260523T115959Z
 DTEND:20260523T122959Z
 TRANSP:TRANSPARENT
@@ -1247,7 +1417,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-camera_ready@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20260711T115959Z
 DTEND:20260711T122959Z
 TRANSP:TRANSPARENT
@@ -1280,8 +1450,39 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:naps26-paper@langestefan.github.io
+DTSTAMP:20260826T181948Z
+DTSTART:20260702T115959Z
+DTEND:20260702T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:NAPS 2026: Paper submission
+DESCRIPTION:North American Power Symposium (NAPS 2026)\n\nPaper submission:
+  1 Jul 2026\, 23:59 AoE\n\nConference: October 11-13\, 2026\nLocation: Hou
+ ghton\, USA\nVenue: Rozsa Center for the Performing Arts\, Michigan Techno
+ logical University\n\n58th edition. Papers are at most six pages and revie
+ wed in stages\, with registration priced by submission date. Timezones are
+  not stated in the call for papers\; AoE is assumed.\n\nCall for papers: h
+ ttps://www.mtu.edu/ece/naps-2026/\nDetails: https://langestefan.github.io/
+ powersystem-deadlines/conference/naps26
+LOCATION:Houghton\, USA
+URL;VALUE=URI:https://www.mtu.edu/ece/naps-2026/
+CATEGORIES:Power Systems,Computation & Optimization,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:smartgridcomm26-paper@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20260504T115959Z
 DTEND:20260504T122959Z
 TRANSP:TRANSPARENT
@@ -1314,7 +1515,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:smartgridcomm26-notification@langestefan.github.io
-DTSTAMP:20260826T150251Z
+DTSTAMP:20260826T181948Z
 DTSTART:20260620T115959Z
 DTEND:20260620T122959Z
 TRANSP:TRANSPARENT
