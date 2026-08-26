@@ -1,0 +1,331 @@
+---
+/**
+ * A year of deadlines and conference dates as twelve mini-months.
+ *
+ * Shared by /overview and /overview/<year> so the entry point can render the
+ * real thing rather than bouncing through a redirect. GitHub Pages has no
+ * server-side redirects, so Astro can only emit a meta-refresh page, which is
+ * a dead end for anyone who has those disabled.
+ */
+import { ChevronLeft, ChevronRight } from '@lucide/astro';
+
+import type { ConferenceEdition } from '@/lib/conferences';
+import {
+  buildYearOverview,
+  hasMarks,
+  WEEKDAY_LABELS,
+  type OverviewDay,
+} from '@/lib/overview';
+import { withBase } from '@/lib/site';
+import { cn } from '@/lib/utils';
+
+interface Props {
+  year: number;
+  years: number[];
+  editions: ConferenceEdition[];
+}
+
+const { year, years, editions } = Astro.props;
+
+const months = buildYearOverview(editions, year, new Date());
+const index = years.indexOf(year);
+const previous = years[index - 1];
+const next = years[index + 1];
+
+const urgencyDot: Record<string, string> = {
+  urgent: 'bg-urgent',
+  soon: 'bg-soon',
+  later: 'bg-later',
+  passed: 'bg-passed',
+};
+
+/** Everything the popover needs, and the no-JS label, in one place. */
+function detailFor(day: OverviewDay) {
+  return {
+    date: new Intl.DateTimeFormat('en-GB', {
+      weekday: 'long',
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric',
+      timeZone: 'UTC',
+    }).format(new Date(`${day.date}T00:00:00Z`)),
+    deadlines: day.deadlines.map((deadline) => ({
+      name: deadline.editionName,
+      label: deadline.label,
+      when: `${deadline.time} ${deadline.timezone}`,
+      href: withBase(`/conference/${deadline.editionId}`),
+      // The resolved class, never `bg-${urgency}`: the JIT compiler has to see
+      // these strings literally, and urgencyDot above is where they live.
+      dotClass: urgencyDot[deadline.urgency],
+    })),
+    events: day.events.map((event) => ({
+      name: event.editionName,
+      location: event.location,
+      href: withBase(`/conference/${event.editionId}`),
+    })),
+  };
+}
+
+function summaryFor(day: OverviewDay): string {
+  const parts = [
+    ...day.deadlines.map((d) => `${d.editionName}: ${d.label}`),
+    ...day.events.map((e) => `${e.editionName} runs`),
+  ];
+  return parts.join('; ');
+}
+---
+
+  <div class="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
+    <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">The year at a glance</h1>
+    <p class="text-sm text-muted-foreground">
+      Deadlines and conference dates across {year}.
+    </p>
+  </div>
+
+  <nav class="mt-6 flex items-center justify-center gap-1" aria-label="Year">
+    {
+      previous ? (
+        <a
+          class="inline-flex size-8 items-center justify-center rounded-md border transition-colors hover:bg-accent"
+          href={withBase(`/overview/${previous}`)}
+          aria-label={`Go to ${previous}`}
+        >
+          <ChevronLeft class="size-4" aria-hidden="true" />
+        </a>
+      ) : (
+        <span class="size-8" aria-hidden="true" />
+      )
+    }
+
+    {
+      years.map((candidate) => (
+        <a
+          class={cn(
+            'rounded-md px-3 py-1.5 text-sm font-semibold transition-colors',
+            candidate === year
+              ? 'bg-accent text-accent-foreground'
+              : 'text-muted-foreground hover:text-foreground',
+          )}
+          href={withBase(`/overview/${candidate}`)}
+          aria-current={candidate === year ? 'page' : undefined}
+        >
+          {candidate}
+        </a>
+      ))
+    }
+
+    {
+      next ? (
+        <a
+          class="inline-flex size-8 items-center justify-center rounded-md border transition-colors hover:bg-accent"
+          href={withBase(`/overview/${next}`)}
+          aria-label={`Go to ${next}`}
+        >
+          <ChevronRight class="size-4" aria-hidden="true" />
+        </a>
+      ) : (
+        <span class="size-8" aria-hidden="true" />
+      )
+    }
+  </nav>
+
+  <div class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+    {
+      months.map((month) => (
+        <section class="rounded-lg border bg-card p-3 shadow-sm">
+          <h2 class="mb-2 text-center text-sm font-semibold">{month.label}</h2>
+
+          <div class="grid grid-cols-7 text-center text-[11px]">
+            {WEEKDAY_LABELS.map((weekday) => (
+              <span class="pb-1 font-medium text-muted-foreground" aria-hidden="true">
+                {weekday}
+              </span>
+            ))}
+
+            {month.weeks.map((week) =>
+              week.map((day, position) => {
+                const marked = hasMarks(day);
+                const Cell = marked ? 'button' : 'div';
+                const event = day.events[0];
+                const roundLeft = position === 0 || event?.isStart;
+                const roundRight = position === 6 || event?.isEnd;
+
+                return (
+                  <Cell
+                    class={cn(
+                      'relative flex h-8 flex-col items-center justify-center',
+                      !day.inMonth && 'opacity-0',
+                      marked &&
+                        'cursor-pointer rounded-sm focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none',
+                    )}
+                    type={marked ? 'button' : undefined}
+                    aria-hidden={!day.inMonth ? 'true' : undefined}
+                    aria-label={marked ? `${day.date}. ${summaryFor(day)}` : undefined}
+                    data-day={marked ? day.date : undefined}
+                    data-detail={marked ? JSON.stringify(detailFor(day)) : undefined}
+                  >
+                    {day.inMonth && day.events.length > 0 && (
+                      <span
+                        aria-hidden="true"
+                        class={cn(
+                          'absolute inset-x-0 top-1 h-4 bg-primary/15',
+                          roundLeft && 'ml-0.5 rounded-l-full',
+                          roundRight && 'mr-0.5 rounded-r-full',
+                        )}
+                      />
+                    )}
+
+                    <span
+                      class={cn(
+                        'relative leading-none tabular-nums',
+                        day.isToday &&
+                          'flex size-5 items-center justify-center rounded-full bg-foreground font-semibold text-background',
+                      )}
+                    >
+                      {day.dayOfMonth}
+                    </span>
+
+                    <span class="relative mt-0.5 flex h-1.5 items-center gap-0.5">
+                      {day.inMonth &&
+                        day.deadlines.slice(0, 3).map((deadline) => (
+                          <span
+                            aria-hidden="true"
+                            class={cn('size-1.5 rounded-full', urgencyDot[deadline.urgency])}
+                          />
+                        ))}
+                    </span>
+                  </Cell>
+                );
+              }),
+            )}
+          </div>
+        </section>
+      ))
+    }
+  </div>
+
+  <div class="mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 text-xs text-muted-foreground">
+    <span class="flex items-center gap-1.5"><span class="size-1.5 rounded-full bg-urgent" /> Deadline within a week</span>
+    <span class="flex items-center gap-1.5"><span class="size-1.5 rounded-full bg-soon" /> Within a month</span>
+    <span class="flex items-center gap-1.5"><span class="size-1.5 rounded-full bg-later" /> Later</span>
+    <span class="flex items-center gap-1.5"><span class="size-1.5 rounded-full bg-passed" /> Passed</span>
+    <span class="flex items-center gap-1.5"><span class="h-2 w-5 rounded-full bg-primary/15" /> Conference running</span>
+  </div>
+
+  <div
+    id="day-popover"
+    role="dialog"
+    aria-label="Day detail"
+    hidden
+    class="absolute z-50 w-64 rounded-lg border bg-card p-3 text-sm shadow-lg"
+  >
+  </div>
+
+  <script>
+    // One listener for the whole grid rather than an island per day, matching
+    // the countdown ticker in BaseLayout. Hover opens it for mouse users; focus
+    // and click do the same for keyboard and touch, where hover does not exist.
+    const popover = document.getElementById('day-popover');
+    if (popover) {
+      let pinned = false;
+      let hideTimer: number | undefined;
+      let overPopover = false;
+
+      const escape = (value: string) =>
+        value.replace(/[&<>"]/g, (c) => `&#${c.charCodeAt(0)};`);
+
+      const render = (cell: HTMLElement) => {
+        const detail = JSON.parse(cell.dataset.detail ?? '{}');
+        const rows: string[] = [`<p class="font-semibold">${escape(detail.date)}</p>`];
+
+        for (const deadline of detail.deadlines ?? []) {
+          rows.push(
+            `<a class="mt-2 block rounded-md p-1.5 -mx-1.5 hover:bg-accent" href="${escape(deadline.href)}">` +
+              `<span class="flex items-center gap-1.5"><span class="size-1.5 shrink-0 rounded-full ${escape(deadline.dotClass)}"></span>` +
+              `<span class="font-medium">${escape(deadline.name)}</span></span>` +
+              `<span class="block pl-3 text-muted-foreground">${escape(deadline.label)} &middot; ${escape(deadline.when)}</span></a>`,
+          );
+        }
+
+        for (const event of detail.events ?? []) {
+          rows.push(
+            `<a class="mt-2 block rounded-md p-1.5 -mx-1.5 hover:bg-accent" href="${escape(event.href)}">` +
+              `<span class="font-medium">${escape(event.name)}</span>` +
+              `<span class="block text-muted-foreground">In progress${event.location ? ` &middot; ${escape(event.location)}` : ''}</span></a>`,
+          );
+        }
+
+        popover.innerHTML = rows.join('');
+
+        const rect = cell.getBoundingClientRect();
+        popover.hidden = false;
+        const width = popover.offsetWidth;
+        const left = Math.min(
+          Math.max(8, rect.left + window.scrollX + rect.width / 2 - width / 2),
+          window.scrollX + document.documentElement.clientWidth - width - 8,
+        );
+        popover.style.left = `${left}px`;
+        popover.style.top = `${rect.bottom + window.scrollY + 6}px`;
+      };
+
+      const hide = () => {
+        if (pinned || overPopover) return;
+        popover.hidden = true;
+      };
+
+      const cellFrom = (target: EventTarget | null) =>
+        (target as HTMLElement | null)?.closest<HTMLElement>('[data-detail]') ?? null;
+
+      document.addEventListener('mouseover', (event) => {
+        const cell = cellFrom(event.target);
+        if (!cell || pinned) return;
+        window.clearTimeout(hideTimer);
+        render(cell);
+      });
+
+      document.addEventListener('mouseout', (event) => {
+        if (!cellFrom(event.target)) return;
+        hideTimer = window.setTimeout(hide, 150);
+      });
+
+      popover.addEventListener('mouseenter', () => {
+        overPopover = true;
+        window.clearTimeout(hideTimer);
+      });
+
+      popover.addEventListener('mouseleave', () => {
+        overPopover = false;
+        hide();
+      });
+
+      document.addEventListener('focusin', (event) => {
+        const cell = cellFrom(event.target);
+        if (cell) {
+          pinned = false;
+          render(cell);
+        } else if (!popover.contains(event.target as Node)) {
+          pinned = false;
+          hide();
+        }
+      });
+
+      document.addEventListener('click', (event) => {
+        const cell = cellFrom(event.target);
+        if (cell) {
+          pinned = true;
+          render(cell);
+          return;
+        }
+        if (popover.contains(event.target as Node)) return;
+        pinned = false;
+        hide();
+      });
+
+      document.addEventListener('keydown', (event) => {
+        if (event.key !== 'Escape') return;
+        pinned = false;
+        overPopover = false;
+        hide();
+      });
+    }
+  </script>

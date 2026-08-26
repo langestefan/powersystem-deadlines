@@ -1,0 +1,30 @@
+---
+import YearCalendar from '@/components/YearCalendar.astro';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getAllEditions } from '@/lib/conferences';
+import { yearsWithData } from '@/lib/overview';
+
+/**
+ * The calendar's entry point, rendering whichever year we are actually in.
+ *
+ * This is a real page rather than a redirect: GitHub Pages cannot redirect
+ * server-side, so Astro would emit a meta-refresh stub, which strands anyone
+ * who has those turned off. The canonical URL points at the dated page, so the
+ * duplicate is not ambiguous to a crawler.
+ */
+const editions = await getAllEditions();
+const years = yearsWithData(editions);
+
+// Falls back to the nearest year we have data for, so the page still renders
+// in January before that year's first entry lands.
+const current = new Date().getUTCFullYear();
+const year = years.includes(current) ? current : (years.find((y) => y >= current) ?? years.at(-1)!);
+---
+
+<BaseLayout
+  path={`/overview/${year}`}
+  title={`${year} calendar`}
+  description={`Every power system conference deadline and conference date in ${year}, on one page.`}
+>
+  <YearCalendar year={year} years={years} editions={editions} />
+</BaseLayout>
