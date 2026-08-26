@@ -33,7 +33,7 @@ CI (`.github/workflows/validate.yml`) runs validate → check → test → build
 Data flows one way: YAML → content-collection schema → flattened editions → pages and feeds.
 
 ```
-src/data/conferences/*.yml     one file per conference SERIES, one entry per year under `editions:`
+conferences/*.yml              one file per conference SERIES, one entry per year under `editions:`
   ↓ validated by
 src/content.config.ts          the Zod schema; a violation fails `astro build`, so CI rejects bad YAML
   ↓ read by

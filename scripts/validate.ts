@@ -21,7 +21,7 @@ import { describeAge, verificationStatus } from '../src/lib/verification.ts';
 
 const NOW = new Date();
 
-const CONFERENCES_DIR = fileURLToPath(new URL('../src/data/conferences', import.meta.url));
+const CONFERENCES_DIR = fileURLToPath(new URL('../conferences', import.meta.url));
 const TAG_IDS = new Set(TAGS.map((tag) => tag.id));
 const REGION_IDS = new Set<string>(REGIONS);
 

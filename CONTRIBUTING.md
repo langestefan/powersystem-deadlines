@@ -1,6 +1,6 @@
 # Contributing
 
-Every conference is one YAML file in [`src/data/conferences/`](src/data/conferences/).
+Every conference is one YAML file in [`conferences/`](conferences/).
 
 No Git? Open an issue instead: [Add a conference](../../issues/new?template=new-conference.yml) or
 [Correct a deadline](../../issues/new?template=update-deadline.yml).
@@ -12,8 +12,8 @@ page it came from. Not from another aggregator, which is how stale dates spread.
 
 ## Adding a conference
 
-1. Copy [`src/data/conferences/_TEMPLATE.yml`](src/data/conferences/_TEMPLATE.yml) to
-   `src/data/conferences/<slug>.yml`, where `<slug>` is the conference's short name in lowercase
+1. Copy [`conferences/_TEMPLATE.yml`](conferences/_TEMPLATE.yml) to
+   `conferences/<slug>.yml`, where `<slug>` is the conference's short name in lowercase
    (`pscc.yml`, `isgt-europe.yml`, `ecce-europe.yml`).
 2. Fill it in from the call for papers.
 3. Run `npm run validate`.

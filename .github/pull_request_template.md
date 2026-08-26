@@ -1,4 +1,4 @@
-<!-- Thanks for contributing. Most PRs here add or update one file in src/data/conferences/. -->
+<!-- Thanks for contributing. Most PRs here add or update one file in conferences/. -->
 
 ## What this changes
 

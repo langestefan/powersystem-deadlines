@@ -133,7 +133,7 @@ export type DeadlineData = ReturnType<typeof deadlineSchema.parse>;
 const conferences = defineCollection({
   loader: glob({
     pattern: ['**/*.yml', '**/*.yaml', '!_*'],
-    base: './src/data/conferences',
+    base: './conferences',
   }),
   schema: conferenceSchema,
 });

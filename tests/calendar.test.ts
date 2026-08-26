@@ -10,7 +10,7 @@ const SITE = 'https://example.org/deadlines';
 const DOMAIN = 'example.org';
 
 /**
- * Mirrors the shape of a real src/data/conferences/*.yml file, including the
+ * Mirrors the shape of a real conferences/*.yml file, including the
  * two awkward cases: a repeated deadline type and a TBA date.
  */
 function fixture(): ConferenceEdition {

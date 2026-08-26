@@ -9,7 +9,7 @@ body:
         Thanks for helping keep this list current.
 
         If you are comfortable with a pull request, adding the YAML file yourself
-        is faster. Copy [`_TEMPLATE.yml`](../blob/main/src/data/conferences/_TEMPLATE.yml)
+        is faster. Copy [`_TEMPLATE.yml`](../blob/main/conferences/_TEMPLATE.yml)
         and see [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md). Otherwise fill this
         in and someone will open the PR for you.
 

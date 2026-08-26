@@ -1,6 +1,6 @@
 /**
  * The controlled vocabularies used by the conference schema. Adding a value here
- * is what makes it usable in src/data/conferences/*.yml. A typo in a pull
+ * is what makes it usable in conferences/*.yml. A typo in a pull
  * request fails validation instead of silently creating a one-off category.
  */
 

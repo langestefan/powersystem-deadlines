@@ -18,7 +18,7 @@ jobs:
 
       - run: npm ci
 
-      # Schema errors in src/data/conferences/*.yml fail here.
+      # Schema errors in conferences/*.yml fail here.
       - name: Validate conference data
         run: npm run validate
 
