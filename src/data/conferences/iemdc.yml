@@ -1,0 +1,41 @@
+name: IEMDC
+full_name: IEEE International Electric Machines and Drives Conference
+link: https://www.iemdc.org/
+society:
+  - IEEE PELS
+  - IEEE IAS
+  - IEEE IES
+frequency: biennial
+tags:
+  - machines-drives
+  - power-electronics
+  - ev-transportation
+description: >-
+  The main IEEE conference dedicated to electric machines and drives, covering
+  design, control, diagnostics and traction applications.
+
+editions:
+  - year: 2027
+    id: iemdc27
+    city: Milwaukee
+    country: USA
+    date: May 17-20, 2027
+    start: 2027-05-17
+    end: 2027-05-20
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: extended-abstract
+    timezone: AoE
+    deadlines:
+      - type: abstract
+        label: Digest submission
+        date: '2026-11-01 23:59:59'
+      - type: notification
+        label: Digest acceptance notification
+        date: '2027-01-15 23:59:59'
+      - type: camera_ready
+        label: Final paper submission and early registration
+        date: '2027-03-15 23:59:59'
+    note: >-
+      16th edition, marking the conference's 30th anniversary and returning to
+      Milwaukee. Timezones are not stated in the call for papers; AoE is assumed.

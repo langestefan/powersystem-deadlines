@@ -1,21 +1,14 @@
 # Contributing
 
-Every conference on this site is one YAML file in [`src/data/conferences/`](src/data/conferences/).
-Adding or correcting a deadline means editing one file and opening a pull request.
+Every conference is one YAML file in [`src/data/conferences/`](src/data/conferences/).
 
-There are two ways in:
-
-- **Open an issue.** Use [Add a conference](../../issues/new?template=new-conference.yml) or
-  [Correct a deadline](../../issues/new?template=update-deadline.yml) and someone will turn it
-  into a pull request. No Git required.
-- **Open a pull request.** Faster, and what the rest of this document covers.
+No Git? Open an issue instead: [Add a conference](../../issues/new?template=new-conference.yml) or
+[Correct a deadline](../../issues/new?template=update-deadline.yml).
 
 ## The one rule
 
 **Every date must come from the official conference website**, and the pull request must link the
-page it came from. Deadlines get copied between aggregators and go stale; a link to the call for
-papers is what makes this list trustworthy. Do not add a date you found only on a third-party
-listing.
+page it came from. Not from another aggregator, which is how stale dates spread.
 
 ## Adding a conference
 
@@ -28,8 +21,8 @@ listing.
 
 ## Adding a new year to a conference that is already listed
 
-Append a new entry under `editions:` in the existing file. **Do not edit last year's entry**. The
-archive at `/past` is built from it, and someone's calendar is probably still subscribed to it.
+Append a new entry under `editions:` in the existing file. **Do not edit last year's entry**: the
+archive is built from it, and calendars may still be subscribed to it.
 
 ```yaml
 editions:
@@ -89,8 +82,8 @@ deadlines:
 
 - `date` **must be quoted.** Unquoted, YAML reads it as a UTC timestamp and silently ignores the
   timezone. Validation rejects this.
-- Use the literal `'TBA'` when a milestone is announced but not yet dated. Better than leaving it
-  out, because the site then shows that the date is still expected.
+- Use the literal `'TBA'` when a milestone is announced but not yet dated, so the site can show
+  that it is still expected.
 - `label` is shown to readers, so copy the wording from the call for papers.
 - `type` drives the icons, the headline countdown and the sort order. Recommended values:
 
@@ -121,10 +114,8 @@ not guess.
 `renewables` · `energy-storage` · `ev-transportation` · `power-quality` · `reliability-planning` ·
 `computation-optimization` · `cyber-physical-security`
 
-Each tag also has its own calendar feed, so tag accurately rather than exhaustively.
-
-Adding a tag means editing `TAGS` in [`src/lib/taxonomy.ts`](src/lib/taxonomy.ts). Worth doing when
-a genuine sub-field has several conferences; not worth doing for one event.
+Each tag has its own calendar feed, so tag accurately rather than exhaustively. Adding a tag means
+editing `TAGS` in [`src/lib/taxonomy.ts`](src/lib/taxonomy.ts).
 
 ### Societies
 
@@ -148,20 +139,17 @@ npm test           # timezone and calendar-format tests
 npm run build      # full static build, including the .ics feeds
 ```
 
-`npm run validate` is the one to run before opening a pull request. It reports two kinds of
-problem: **errors** block the build, **warnings** are worth reading but will not fail CI.
+Run `npm run validate` before opening a pull request. **Errors** block the build; **warnings** do
+not fail CI.
 
 ## What CI checks
 
 Every pull request runs `npm run validate`, `npm run check`, `npm test` and `npm run build`. A
-schema violation, an unknown tag, a duplicate `id`, an unquoted timestamp or a broken timezone
-fails the build, so most mistakes are caught before review.
+schema violation, unknown tag, duplicate `id`, unquoted timestamp or bad timezone fails the build.
 
 ## Scope
 
-Conferences and workshops with a genuine peer-reviewed submission process, anywhere in power and
-energy systems: power systems, power electronics, machines and drives, protection, markets,
-renewables, storage, transport electrification and the grid at large.
+Conferences and workshops with peer-reviewed submission, anywhere in power and energy systems.
 
-Not in scope: trade shows and exhibitions without a call for papers, journal special issues,
-summer schools, and events with no public submission deadline.
+Not in scope: trade shows without a call for papers, journal special issues, summer schools, and
+events with no public submission deadline.

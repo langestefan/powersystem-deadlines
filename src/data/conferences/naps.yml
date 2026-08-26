@@ -1,0 +1,35 @@
+name: NAPS
+full_name: North American Power Symposium
+link: https://www.mtu.edu/ece/naps-2026/
+society:
+  - Other
+frequency: annual
+tags:
+  - power-systems
+  - computation-optimization
+  - renewables
+description: >-
+  A long-running North American symposium hosted by a different university each
+  year, with a strong student and early-career presence.
+
+editions:
+  - year: 2026
+    id: naps26
+    city: Houghton
+    country: USA
+    venue: Rozsa Center for the Performing Arts, Michigan Technological University
+    date: October 11-13, 2026
+    start: 2026-10-11
+    end: 2026-10-13
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    timezone: AoE
+    deadlines:
+      - type: paper
+        label: Paper submission
+        date: '2026-07-01 23:59:59'
+    note: >-
+      58th edition. Papers are at most six pages and reviewed in stages, with
+      registration priced by submission date. Timezones are not stated in the
+      call for papers; AoE is assumed.

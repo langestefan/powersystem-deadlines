@@ -1,0 +1,32 @@
+name: EEM
+full_name: International Conference on the European Energy Market
+link: https://eem27.de/
+society:
+  - Other
+frequency: annual
+tags:
+  - energy-markets
+  - power-systems
+  - renewables
+description: >-
+  A European conference on electricity market design, regulation and energy
+  economics, alongside the power system modelling that supports them.
+
+editions:
+  - year: 2027
+    id: eem27
+    city: Dresden
+    country: Germany
+    date: September 14-17, 2027
+    start: 2027-09-14
+    end: 2027-09-17
+    format: in-person
+    proceedings: IEEE Xplore
+    timezone: AoE
+    deadlines:
+      - type: paper
+        label: Paper submission
+        date: 'TBA'
+    note: >-
+      23rd edition, hosted by the Chair of Energy Economics at TU Dresden. The
+      call for papers had not been published when this entry was added.

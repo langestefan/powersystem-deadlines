@@ -1,0 +1,44 @@
+name: PCIM Europe
+full_name: >-
+  International Exhibition and Conference for Power Electronics, Intelligent
+  Motion, Renewable Energy and Energy Management
+link: https://pcim.mesago.com/nuernberg/en.html
+society:
+  - Other
+frequency: annual
+tags:
+  - power-electronics
+  - machines-drives
+  - renewables
+  - energy-storage
+description: >-
+  A large European power electronics conference run alongside the PCIM expo,
+  with a heavily industrial audience. Submission is by abstract.
+
+editions:
+  - year: 2027
+    id: pcim-europe27
+    city: Nuremberg
+    country: Germany
+    venue: Nuremberg Exhibition Centre
+    date: May 11-13, 2027
+    start: 2027-05-11
+    end: 2027-05-13
+    format: in-person
+    submission_type: extended-abstract
+    timezone: AoE
+    deadlines:
+      - type: abstract
+        label: Abstract submission
+        date: '2026-10-14 23:59:59'
+      - type: notification
+        label: Acceptance notification and speaker registration
+        date: 'TBA'
+      - type: camera_ready
+        label: Full manuscript submission
+        date: '2027-03-09 23:59:59'
+    note: >-
+      The same 14 October 2026 deadline covers synopses for the seminars held on
+      9-10 May 2027 at the Arvena Park Hotel, whose documentation is due 14 April
+      2027. Acceptance is expected in January 2027 without a stated date.
+      Timezones are not stated in the call for papers; AoE is assumed.

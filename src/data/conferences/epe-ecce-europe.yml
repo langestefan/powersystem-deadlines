@@ -1,0 +1,53 @@
+name: EPE ECCE Europe
+full_name: European Conference on Power Electronics and Applications
+link: https://www.ecce-europe.org/
+society:
+  - EPE
+  - IEEE PELS
+frequency: annual
+tags:
+  - power-electronics
+  - machines-drives
+  - renewables
+  - energy-storage
+description: >-
+  The European counterpart to ECCE, organised jointly by the EPE Association and
+  IEEE PELS, covering power electronics from devices through to grid
+  applications.
+
+editions:
+  - year: 2026
+    id: epe26
+    link: https://www.ecce-europe.org/2026/
+    city: Valencia
+    country: Spain
+    venue: Valencia Conference Center
+    date: September 14-18, 2026
+    start: 2026-09-14
+    end: 2026-09-18
+    format: in-person
+    proceedings: IEEE Xplore
+    timezone: AoE
+    deadlines: []
+    note: >-
+      Submission had already closed when this entry was added, so no deadlines
+      are recorded for this edition.
+
+  - year: 2027
+    id: epe27
+    city: Aachen
+    country: Germany
+    venue: Eurogress Aachen
+    date: August 30 - September 3, 2027
+    start: 2027-08-30
+    end: 2027-09-03
+    format: in-person
+    proceedings: IEEE Xplore
+    timezone: AoE
+    deadlines:
+      - type: paper
+        label: Paper submission
+        date: 'TBA'
+    note: >-
+      Chaired by RWTH Aachen. The call for papers had not been published when
+      this entry was added.
