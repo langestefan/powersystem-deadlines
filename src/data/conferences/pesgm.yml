@@ -1,0 +1,40 @@
+name: IEEE PES GM
+full_name: IEEE Power & Energy Society General Meeting
+link: https://pes-gm.org/
+society:
+  - IEEE PES
+frequency: annual
+tags:
+  - power-systems
+  - transmission
+  - distribution
+  - renewables
+  - smart-grid
+description: >-
+  The flagship annual meeting of the IEEE Power & Energy Society, and the largest
+  general-purpose power systems conference. Around 800 papers are accepted each
+  year across the full breadth of the society's technical committees.
+
+editions:
+  - year: 2027
+    id: pesgm27
+    city: San Francisco
+    country: USA
+    date: July 25-29, 2027
+    start: 2027-07-25
+    end: 2027-07-29
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    timezone: AoE
+    deadlines:
+      - type: paper
+        label: Paper submission
+        date: '2026-11-10 23:59:59'
+      - type: notification
+        label: Author notification
+        date: 'TBA'
+    note: >-
+      Papers are limited to five pages. The submission site opens 6 October 2026
+      and notifications are expected in mid-March 2027, without a stated date.
+      Timezones are not stated in the call for papers; AoE is assumed.

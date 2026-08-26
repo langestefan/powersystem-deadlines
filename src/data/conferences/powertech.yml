@@ -1,0 +1,47 @@
+name: PowerTech
+full_name: IEEE PES PowerTech Conference
+link: https://powertech2027.com/
+society:
+  - IEEE PES
+frequency: biennial
+tags:
+  - power-systems
+  - transmission
+  - energy-markets
+  - computation-optimization
+  - renewables
+description: >-
+  A biennial European IEEE PES conference covering power system analysis,
+  operation, planning and markets. Full-paper submission with no separate
+  abstract stage.
+
+editions:
+  - year: 2027
+    id: powertech27
+    link: https://powertech2027.com/
+    city: Bruges
+    country: Belgium
+    date: September 5-9, 2027
+    start: 2027-09-05
+    end: 2027-09-09
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    timezone: AoE
+    deadlines:
+      - type: paper
+        label: Full paper submission
+        date: '2027-02-28 23:59:59'
+      - type: notification
+        label: Author notification
+        date: '2027-04-23 23:59:59'
+      - type: author_registration
+        label: Author and early bird registration deadline
+        date: '2027-05-17 23:59:59'
+      - type: camera_ready
+        label: Final paper submission
+        date: '2027-05-23 23:59:59'
+    note: >-
+      Co-sponsored by IEEE PES and KU Leuven. Papers are limited to six pages.
+      Submission opens in November 2026. Timezones are not stated in the call for
+      papers; AoE is assumed.

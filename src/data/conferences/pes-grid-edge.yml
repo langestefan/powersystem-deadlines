@@ -1,0 +1,42 @@
+name: PES Grid Edge
+full_name: IEEE PES Grid Edge Technologies Conference & Exposition
+link: https://pes-gridedge.org/
+society:
+  - IEEE PES
+frequency: biennial
+tags:
+  - smart-grid
+  - distribution
+  - energy-storage
+  - ev-transportation
+  - microgrids
+description: >-
+  An IEEE PES conference on the grid edge — distributed energy resources,
+  storage, electrified transport and the technologies connecting them to the
+  distribution system.
+
+editions:
+  - year: 2027
+    id: pes-grid-edge27
+    city: Salt Lake City
+    country: USA
+    venue: Calvin L. Rampton Salt Palace Convention Center
+    date: April 19-22, 2027
+    start: 2027-04-19
+    end: 2027-04-22
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    timezone: AoE
+    deadlines:
+      - type: paper
+        label: Paper and panel proposal submission
+        date: '2026-07-24 23:59:59'
+      - type: notification
+        label: Notification of acceptance
+        date: '2026-10-01 23:59:59'
+    note: >-
+      Papers are limited to five pages, and panel proposals to a 350-word
+      description. At least one author per accepted paper must register for the
+      paper to appear in IEEE Xplore. Timezones are not stated in the call for
+      participation; AoE is assumed.

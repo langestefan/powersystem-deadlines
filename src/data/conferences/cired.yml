@@ -1,0 +1,54 @@
+name: CIRED
+full_name: International Conference and Exhibition on Electricity Distribution
+link: https://www.cired.net/
+society:
+  - CIRED
+frequency: biennial
+tags:
+  - distribution
+  - smart-grid
+  - power-systems
+  - renewables
+description: >-
+  The largest European conference on electricity distribution, run biennially by
+  AIM and IET on behalf of CIRED. Abstract-first, with a strong utility and DSO
+  presence alongside academia.
+
+editions:
+  - year: 2027
+    id: cired27
+    link: https://2027.cired.net/
+    city: Stockholm
+    country: Sweden
+    date: June 14-17, 2027
+    start: 2027-06-14
+    end: 2027-06-17
+    format: in-person
+    submission_type: abstract-first
+    timezone: AoE
+    deadlines:
+      - type: abstract
+        label: Abstract submission
+        date: '2026-09-14 23:59:59'
+      - type: notification
+        label: Notification of acceptance
+        date: '2026-11-13 23:59:59'
+      - type: paper
+        label: Full paper submission
+        date: '2027-01-22 23:59:59'
+      - type: notification
+        label: Author's final notification of acceptance
+        date: '2027-04-09 23:59:59'
+      - type: early_registration
+        label: Early bird registration deadline
+        date: '2027-04-28 23:59:59'
+      - type: author_registration
+        label: Author registration deadline
+        date: '2027-05-10 23:59:59'
+      - type: presentation_upload
+        label: Deadline to upload presentations
+        date: '2027-05-28 23:59:59'
+    note: >-
+      29th edition. Submission is abstract-first: an accepted abstract is
+      required before a full paper can be submitted. Timezones are not stated in
+      the call for papers; AoE is assumed.

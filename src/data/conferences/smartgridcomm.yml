@@ -1,0 +1,41 @@
+name: SmartGridComm
+full_name: >-
+  IEEE International Conference on Communications, Control, and Computing
+  Technologies for Smart Grids
+link: https://sg.committees.comsoc.org/smartgridcomm/
+society:
+  - IEEE ComSoc
+frequency: annual
+tags:
+  - smart-grid
+  - cyber-physical-security
+  - computation-optimization
+  - distribution
+description: >-
+  The IEEE Communications Society's smart grid conference, focused on the
+  communication, control and computing layer of the grid — data analytics,
+  privacy and security, and power line communications.
+
+editions:
+  - year: 2026
+    id: smartgridcomm26
+    link: https://sgc2026.ieee-smartgridcomm.org/
+    city: College Station
+    country: USA
+    date: October 26-29, 2026
+    start: 2026-10-26
+    end: 2026-10-29
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    timezone: AoE
+    deadlines:
+      - type: paper
+        label: Paper submission
+        date: '2026-05-03 23:59:59'
+      - type: notification
+        label: Acceptance notification
+        date: '2026-06-19 23:59:59'
+    note: >-
+      The paper deadline was extended from 15 April to 3 May 2026. Timezones are
+      not stated in the call for papers; AoE is assumed.

@@ -1,0 +1,47 @@
+name: ISGT Asia
+full_name: IEEE PES Innovative Smart Grid Technologies Conference Asia
+link: https://ieee-pes.org/
+society:
+  - IEEE PES
+frequency: annual
+tags:
+  - smart-grid
+  - distribution
+  - renewables
+  - power-systems
+description: >-
+  The Asian edition of the IEEE PES ISGT series, covering smart grid
+  technologies with a regional focus on large-scale renewable integration and
+  new power system architectures.
+
+editions:
+  - year: 2026
+    id: isgt-asia26
+    link: https://attend.ieee.org/isgt-asia-2026/
+    city: Wuhan
+    country: China
+    date: October 30 - November 1, 2026
+    start: 2026-10-30
+    end: 2026-11-01
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    timezone: AoE
+    deadlines:
+      - type: paper
+        label: Paper submission
+        date: '2026-09-10 23:59:59'
+      - type: notification
+        label: Acceptance notification
+        date: '2026-09-20 23:59:59'
+      - type: author_registration
+        label: Author registration
+        date: '2026-10-10 23:59:59'
+      - type: camera_ready
+        label: Final paper submission
+        date: '2026-10-20 23:59:59'
+    note: >-
+      Themed "New Energy and Power Technologies Toward Carbon Neutrality", hosted
+      by Wuhan University. The call gives submission and notification as windows
+      rather than single dates; the closing date of each window is listed here.
+      Timezones are not stated; AoE is assumed.

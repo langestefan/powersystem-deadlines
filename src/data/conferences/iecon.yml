@@ -1,0 +1,41 @@
+name: IECON
+full_name: Annual Conference of the IEEE Industrial Electronics Society
+link: https://www.ieee-ies.org/conferences
+society:
+  - IEEE IES
+frequency: annual
+tags:
+  - power-electronics
+  - machines-drives
+  - smart-grid
+  - renewables
+description: >-
+  The IEEE Industrial Electronics Society's flagship conference, spanning power
+  electronics, drives, control, industrial informatics and communications.
+
+editions:
+  - year: 2026
+    id: iecon26
+    link: https://www.iecon2026.org/
+    city: Doha
+    country: Qatar
+    date: October 18-21, 2026
+    start: 2026-10-18
+    end: 2026-10-21
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    timezone: AoE
+    deadlines:
+      - type: paper
+        label: Paper submission (extended)
+        date: '2026-07-31 23:59:59'
+      - type: notification
+        label: Acceptance notification
+        date: '2026-08-10 23:59:59'
+      - type: camera_ready
+        label: Final submission and registration
+        date: '2026-08-30 23:59:59'
+    note: >-
+      52nd annual conference of the IES. Timezones are not stated in the call for
+      papers; AoE is assumed.

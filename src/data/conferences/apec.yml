@@ -1,0 +1,43 @@
+name: APEC
+full_name: IEEE Applied Power Electronics Conference and Exposition
+link: https://apec-conf.org/
+society:
+  - IEEE PELS
+  - IEEE IAS
+frequency: annual
+tags:
+  - power-electronics
+  - machines-drives
+  - energy-storage
+  - ev-transportation
+description: >-
+  The largest applied power electronics conference, with a strong industry
+  presence. Technical sessions are selected from digests rather than full papers.
+
+editions:
+  - year: 2027
+    id: apec27
+    city: New Orleans
+    country: USA
+    venue: Ernest N. Morial Convention Center
+    date: March 7-11, 2027
+    start: 2027-03-07
+    end: 2027-03-11
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: extended-abstract
+    timezone: AoE
+    deadlines:
+      - type: abstract
+        label: Technical session digest submission
+        date: '2026-08-21 23:59:59'
+      - type: notification
+        label: Acceptance and decline notices
+        date: '2026-10-12 23:59:59'
+      - type: camera_ready
+        label: Final manuscript and author registration
+        date: '2026-12-07 23:59:59'
+    note: >-
+      The digest deadline was extended from 14 to 21 August 2026. An author
+      manuscript training session is held on 12 November 2026. Timezones are not
+      stated in the call for papers; AoE is assumed.

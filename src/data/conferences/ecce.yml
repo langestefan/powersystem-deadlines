@@ -1,0 +1,46 @@
+name: ECCE
+full_name: IEEE Energy Conversion Congress and Exposition
+link: https://www.ieee-ecce.org/
+society:
+  - IEEE PELS
+  - IEEE IAS
+frequency: annual
+tags:
+  - power-electronics
+  - machines-drives
+  - renewables
+  - energy-storage
+  - ev-transportation
+description: >-
+  The main North American conference on energy conversion, jointly sponsored by
+  the IEEE Power Electronics and Industry Applications Societies. Submission is
+  by double-blind reviewed digest.
+
+editions:
+  - year: 2026
+    id: ecce26
+    link: https://www.ieee-ecce.org/2026/
+    city: Vancouver
+    country: Canada
+    date: October 4-8, 2026
+    start: 2026-10-04
+    end: 2026-10-08
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: extended-abstract
+    timezone: AoE
+    deadlines:
+      - type: abstract
+        label: Digest submission
+        date: '2026-02-27 23:59:59'
+      - type: notification
+        label: Author notification
+        date: '2026-05-22 23:59:59'
+      - type: camera_ready
+        label: Final paper with IEEE copyright form
+        date: '2026-07-10 23:59:59'
+    note: >-
+      Digests are single-column, at most five pages including references, and are
+      double-blind reviewed. The submission deadline was extended past 27
+      February 2026. Timezones are not stated in the call for papers; AoE is
+      assumed.

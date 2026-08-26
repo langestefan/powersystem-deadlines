@@ -1,0 +1,40 @@
+name: IEEE IAS Annual Meeting
+full_name: IEEE Industry Applications Society Annual Meeting
+link: https://ias-am.ieee.org/
+society:
+  - IEEE IAS
+frequency: annual
+tags:
+  - machines-drives
+  - power-electronics
+  - power-quality
+  - protection-automation
+description: >-
+  The annual meeting of the IEEE Industry Applications Society, covering
+  industrial power systems, drives, machines and power quality, with a
+  distinctly applied and industrial focus.
+
+editions:
+  - year: 2027
+    id: ias-am27
+    link: https://ias-am.ieee.org/2027/
+    date: Dates to be announced
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: extended-abstract
+    timezone: AoE
+    deadlines:
+      - type: abstract
+        label: Digest submission
+        date: '2026-12-07 23:59:59'
+      - type: notification
+        label: Author notification
+        date: '2027-02-15 23:59:59'
+      - type: camera_ready
+        label: Final paper with IEEE copyright form
+        date: '2027-04-15 23:59:59'
+    note: >-
+      Every accepted paper must be covered by a full conference registration
+      before the final manuscript is submitted. The venue and dates were not yet
+      published when this entry was added. Timezones are not stated in the call
+      for papers; AoE is assumed.
