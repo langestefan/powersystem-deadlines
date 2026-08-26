@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//langestefan.github.io//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Power System Deadlines — Transmission
+X-WR-CALNAME:Power System Deadlines: Transmission
 X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
@@ -12,11 +12,11 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
  ar/transmission.ics
 BEGIN:VEVENT
 UID:pesgm27-paper@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20261111T115959Z
 DTEND:20261111T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:IEEE PES GM 2027 — Paper submission
+SUMMARY:IEEE PES GM 2027: Paper submission
 DESCRIPTION:IEEE Power & Energy Society General Meeting (IEEE PES GM 2027)\
  n\nPaper submission: 10 Nov 2026\, 23:59 AoE\n\nConference: July 25-29\, 2
  027\nLocation: San Francisco\, USA\n\nNot yet announced: Author notificati
@@ -43,11 +43,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-paper@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20270301T115959Z
 DTEND:20270301T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:PowerTech 2027 — Full paper submission
+SUMMARY:PowerTech 2027: Full paper submission
 DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nFull paper su
  bmission: 28 Feb 2027\, 23:59 AoE\n\nConference: September 5-9\, 2027\nLoc
  ation: Bruges\, Belgium\n\nAll dates:\n  Full paper submission: 28 Feb 202
@@ -77,11 +77,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-notification@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20270424T115959Z
 DTEND:20270424T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:PowerTech 2027 — Author notification
+SUMMARY:PowerTech 2027: Author notification
 DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nAuthor notifi
  cation: 23 Apr 2027\, 23:59 AoE\n\nConference: September 5-9\, 2027\nLocat
  ion: Bruges\, Belgium\n\nAll dates:\n  Full paper submission: 28 Feb 2027\
@@ -111,11 +111,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-author_registration@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20270518T115959Z
 DTEND:20270518T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:PowerTech 2027 — Author and early bird registration deadline
+SUMMARY:PowerTech 2027: Author and early bird registration deadline
 DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nAuthor and ea
  rly bird registration deadline: 17 May 2027\, 23:59 AoE\n\nConference: Sep
  tember 5-9\, 2027\nLocation: Bruges\, Belgium\n\nAll dates:\n  Full paper 
@@ -145,11 +145,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-camera_ready@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20270524T115959Z
 DTEND:20270524T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:PowerTech 2027 — Final paper submission
+SUMMARY:PowerTech 2027: Final paper submission
 DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nFinal paper s
  ubmission: 23 May 2027\, 23:59 AoE\n\nConference: September 5-9\, 2027\nLo
  cation: Bruges\, Belgium\n\nAll dates:\n  Full paper submission: 28 Feb 20

@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//langestefan.github.io//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Power System Deadlines — EV & Transportation
+X-WR-CALNAME:Power System Deadlines: EV & Transportation
 X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
@@ -12,11 +12,11 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
  ar/ev-transportation.ics
 BEGIN:VEVENT
 UID:pes-grid-edge27-paper@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20260725T115959Z
 DTEND:20260725T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:PES Grid Edge 2027 — Paper and panel proposal submission
+SUMMARY:PES Grid Edge 2027: Paper and panel proposal submission
 DESCRIPTION:IEEE PES Grid Edge Technologies Conference & Exposition (PES Gr
  id Edge 2027)\n\nPaper and panel proposal submission: 24 Jul 2026\, 23:59 
  AoE\n\nConference: April 19-22\, 2027\nLocation: Salt Lake City\, USA\nVen
@@ -47,11 +47,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-grid-edge27-notification@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20261002T115959Z
 DTEND:20261002T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:PES Grid Edge 2027 — Notification of acceptance
+SUMMARY:PES Grid Edge 2027: Notification of acceptance
 DESCRIPTION:IEEE PES Grid Edge Technologies Conference & Exposition (PES Gr
  id Edge 2027)\n\nNotification of acceptance: 1 Oct 2026\, 23:59 AoE\n\nCon
  ference: April 19-22\, 2027\nLocation: Salt Lake City\, USA\nVenue: Calvin
@@ -82,11 +82,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-abstract@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20260822T115959Z
 DTEND:20260822T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:APEC 2027 — Technical session digest submission
+SUMMARY:APEC 2027: Technical session digest submission
 DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC 
  2027)\n\nTechnical session digest submission: 21 Aug 2026\, 23:59 AoE\n\nC
  onference: March 7-11\, 2027\nLocation: New Orleans\, USA\nVenue: Ernest N
@@ -117,11 +117,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-notification@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20261013T115959Z
 DTEND:20261013T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:APEC 2027 — Acceptance and decline notices
+SUMMARY:APEC 2027: Acceptance and decline notices
 DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC 
  2027)\n\nAcceptance and decline notices: 12 Oct 2026\, 23:59 AoE\n\nConfer
  ence: March 7-11\, 2027\nLocation: New Orleans\, USA\nVenue: Ernest N. Mor
@@ -152,11 +152,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-camera_ready@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20261208T115959Z
 DTEND:20261208T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:APEC 2027 — Final manuscript and author registration
+SUMMARY:APEC 2027: Final manuscript and author registration
 DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC 
  2027)\n\nFinal manuscript and author registration: 7 Dec 2026\, 23:59 AoE\
  n\nConference: March 7-11\, 2027\nLocation: New Orleans\, USA\nVenue: Erne
@@ -187,11 +187,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-abstract@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20260228T115959Z
 DTEND:20260228T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:ECCE 2026 — Digest submission
+SUMMARY:ECCE 2026: Digest submission
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nD
  igest submission: 27 Feb 2026\, 23:59 AoE\n\nConference: October 4-8\, 202
  6\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest submission: 27 Feb
@@ -221,11 +221,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-notification@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20260523T115959Z
 DTEND:20260523T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:ECCE 2026 — Author notification
+SUMMARY:ECCE 2026: Author notification
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nA
  uthor notification: 22 May 2026\, 23:59 AoE\n\nConference: October 4-8\, 2
  026\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest submission: 27 F
@@ -255,11 +255,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-camera_ready@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20260711T115959Z
 DTEND:20260711T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:ECCE 2026 — Final paper with IEEE copyright form
+SUMMARY:ECCE 2026: Final paper with IEEE copyright form
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nF
  inal paper with IEEE copyright form: 10 Jul 2026\, 23:59 AoE\n\nConference
  : October 4-8\, 2026\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest

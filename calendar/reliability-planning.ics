@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//langestefan.github.io//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Power System Deadlines — Reliability & Planning
+X-WR-CALNAME:Power System Deadlines: Reliability & Planning
 X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
@@ -12,11 +12,11 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
  ar/reliability-planning.ics
 BEGIN:VEVENT
 UID:pscc26-abstract@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20250616T115959Z
 DTEND:20250616T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:PSCC 2026 — One-page abstract submission
+SUMMARY:PSCC 2026: One-page abstract submission
 DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nOne-page ab
  stract submission: 15 Jun 2025\, 23:59 AoE\n\nConference: June 8-12\, 2026
  \nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAll dates:\n  
@@ -46,11 +46,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-notification@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20250623T115959Z
 DTEND:20250623T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:PSCC 2026 — Abstract acceptance notification
+SUMMARY:PSCC 2026: Abstract acceptance notification
 DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nAbstract ac
  ceptance notification: 22 Jun 2025\, 23:59 AoE\n\nConference: June 8-12\, 
  2026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAll dates:
@@ -80,11 +80,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-paper@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20251016T115959Z
 DTEND:20251016T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:PSCC 2026 — Full paper submission
+SUMMARY:PSCC 2026: Full paper submission
 DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nFull paper 
  submission: 15 Oct 2025\, 23:59 AoE\n\nConference: June 8-12\, 2026\nLocat
  ion: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAll dates:\n  One-pag
@@ -114,11 +114,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-notification-2@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20260209T115959Z
 DTEND:20260209T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:PSCC 2026 — Acceptance and revision requests
+SUMMARY:PSCC 2026: Acceptance and revision requests
 DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nAcceptance 
  and revision requests: 8 Feb 2026\, 23:59 AoE\n\nConference: June 8-12\, 2
  026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAll dates:\
@@ -148,11 +148,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-camera_ready@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20260316T115959Z
 DTEND:20260316T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:PSCC 2026 — Final manuscript submission
+SUMMARY:PSCC 2026: Final manuscript submission
 DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nFinal manus
  cript submission: 15 Mar 2026\, 23:59 AoE\n\nConference: June 8-12\, 2026\
  nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAll dates:\n  O

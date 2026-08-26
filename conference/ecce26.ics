@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//langestefan.github.io//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:ECCE 2026 — Power System Deadlines
+X-WR-CALNAME:ECCE 2026 deadlines
 X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
@@ -13,11 +13,11 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/ecce26.ics
 BEGIN:VEVENT
 UID:ecce26-abstract@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20260228T115959Z
 DTEND:20260228T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:ECCE 2026 — Digest submission
+SUMMARY:ECCE 2026: Digest submission
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nD
  igest submission: 27 Feb 2026\, 23:59 AoE\n\nConference: October 4-8\, 202
  6\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest submission: 27 Feb
@@ -47,11 +47,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-notification@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20260523T115959Z
 DTEND:20260523T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:ECCE 2026 — Author notification
+SUMMARY:ECCE 2026: Author notification
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nA
  uthor notification: 22 May 2026\, 23:59 AoE\n\nConference: October 4-8\, 2
  026\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest submission: 27 F
@@ -81,11 +81,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-camera_ready@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20260711T115959Z
 DTEND:20260711T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:ECCE 2026 — Final paper with IEEE copyright form
+SUMMARY:ECCE 2026: Final paper with IEEE copyright form
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nF
  inal paper with IEEE copyright form: 10 Jul 2026\, 23:59 AoE\n\nConference
  : October 4-8\, 2026\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest
@@ -115,7 +115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-event@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261009
 TRANSP:TRANSPARENT

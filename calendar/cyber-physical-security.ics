@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//langestefan.github.io//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Power System Deadlines — Cyber-Physical Security
+X-WR-CALNAME:Power System Deadlines: Cyber-Physical Security
 X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
@@ -12,11 +12,11 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
  ar/cyber-physical-security.ics
 BEGIN:VEVENT
 UID:smartgridcomm26-paper@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20260504T115959Z
 DTEND:20260504T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:SmartGridComm 2026 — Paper submission
+SUMMARY:SmartGridComm 2026: Paper submission
 DESCRIPTION:IEEE International Conference on Communications\, Control\, and
   Computing Technologies for Smart Grids (SmartGridComm 2026)\n\nPaper subm
  ission: 3 May 2026\, 23:59 AoE\n\nConference: October 26-29\, 2026\nLocati
@@ -45,11 +45,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:smartgridcomm26-notification@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20260620T115959Z
 DTEND:20260620T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:SmartGridComm 2026 — Acceptance notification
+SUMMARY:SmartGridComm 2026: Acceptance notification
 DESCRIPTION:IEEE International Conference on Communications\, Control\, and
   Computing Technologies for Smart Grids (SmartGridComm 2026)\n\nAcceptance
   notification: 19 Jun 2026\, 23:59 AoE\n\nConference: October 26-29\, 2026

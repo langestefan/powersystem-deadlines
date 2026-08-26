@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//langestefan.github.io//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:ISGT Asia 2026 — Power System Deadlines
+X-WR-CALNAME:ISGT Asia 2026 deadlines
 X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
@@ -13,11 +13,11 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/isgt-asia26.ics
 BEGIN:VEVENT
 UID:isgt-asia26-paper@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20260911T115959Z
 DTEND:20260911T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:ISGT Asia 2026 — Paper submission
+SUMMARY:ISGT Asia 2026: Paper submission
 DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
  GT Asia 2026)\n\nPaper submission: 10 Sept 2026\, 23:59 AoE\n\nConference:
   October 30 - November 1\, 2026\nLocation: Wuhan\, China\n\nAll dates:\n  
@@ -48,11 +48,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-notification@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20260921T115959Z
 DTEND:20260921T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:ISGT Asia 2026 — Acceptance notification
+SUMMARY:ISGT Asia 2026: Acceptance notification
 DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
  GT Asia 2026)\n\nAcceptance notification: 20 Sept 2026\, 23:59 AoE\n\nConf
  erence: October 30 - November 1\, 2026\nLocation: Wuhan\, China\n\nAll dat
@@ -83,11 +83,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-author_registration@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20261011T115959Z
 DTEND:20261011T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:ISGT Asia 2026 — Author registration
+SUMMARY:ISGT Asia 2026: Author registration
 DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
  GT Asia 2026)\n\nAuthor registration: 10 Oct 2026\, 23:59 AoE\n\nConferenc
  e: October 30 - November 1\, 2026\nLocation: Wuhan\, China\n\nAll dates:\n
@@ -118,11 +118,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-camera_ready@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20261021T115959Z
 DTEND:20261021T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:ISGT Asia 2026 — Final paper submission
+SUMMARY:ISGT Asia 2026: Final paper submission
 DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
  GT Asia 2026)\n\nFinal paper submission: 20 Oct 2026\, 23:59 AoE\n\nConfer
  ence: October 30 - November 1\, 2026\nLocation: Wuhan\, China\n\nAll dates
@@ -153,7 +153,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-event@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT

@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//langestefan.github.io//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:APEC 2027 — Power System Deadlines
+X-WR-CALNAME:APEC 2027 deadlines
 X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
@@ -13,11 +13,11 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/apec27.ics
 BEGIN:VEVENT
 UID:apec27-abstract@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20260822T115959Z
 DTEND:20260822T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:APEC 2027 — Technical session digest submission
+SUMMARY:APEC 2027: Technical session digest submission
 DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC 
  2027)\n\nTechnical session digest submission: 21 Aug 2026\, 23:59 AoE\n\nC
  onference: March 7-11\, 2027\nLocation: New Orleans\, USA\nVenue: Ernest N
@@ -48,11 +48,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-notification@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20261013T115959Z
 DTEND:20261013T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:APEC 2027 — Acceptance and decline notices
+SUMMARY:APEC 2027: Acceptance and decline notices
 DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC 
  2027)\n\nAcceptance and decline notices: 12 Oct 2026\, 23:59 AoE\n\nConfer
  ence: March 7-11\, 2027\nLocation: New Orleans\, USA\nVenue: Ernest N. Mor
@@ -83,11 +83,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-camera_ready@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20261208T115959Z
 DTEND:20261208T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:APEC 2027 — Final manuscript and author registration
+SUMMARY:APEC 2027: Final manuscript and author registration
 DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC 
  2027)\n\nFinal manuscript and author registration: 7 Dec 2026\, 23:59 AoE\
  n\nConference: March 7-11\, 2027\nLocation: New Orleans\, USA\nVenue: Erne
@@ -118,7 +118,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-event@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270312
 TRANSP:TRANSPARENT

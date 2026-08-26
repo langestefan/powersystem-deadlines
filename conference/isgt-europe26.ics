@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//langestefan.github.io//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:ISGT Europe 2026 — Power System Deadlines
+X-WR-CALNAME:ISGT Europe 2026 deadlines
 X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
@@ -13,11 +13,11 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/isgt-europe26.ics
 BEGIN:VEVENT
 UID:isgt-europe26-paper@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20260416T115959Z
 DTEND:20260416T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:ISGT Europe 2026 — Paper submission
+SUMMARY:ISGT Europe 2026: Paper submission
 DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Europe (
  ISGT Europe 2026)\n\nPaper submission: 15 Apr 2026\, 23:59 AoE\n\nConferen
  ce: October 19-22\, 2026\nLocation: Budapest\, Hungary\n\nAll dates:\n  Pa
@@ -44,11 +44,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-europe26-camera_ready@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20260916T115959Z
 DTEND:20260916T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:ISGT Europe 2026 — Final paper submission
+SUMMARY:ISGT Europe 2026: Final paper submission
 DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Europe (
  ISGT Europe 2026)\n\nFinal paper submission: 15 Sept 2026\, 23:59 AoE\n\nC
  onference: October 19-22\, 2026\nLocation: Budapest\, Hungary\n\nAll dates
@@ -75,7 +75,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-europe26-event@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261023
 TRANSP:TRANSPARENT

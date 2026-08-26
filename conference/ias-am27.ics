@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//langestefan.github.io//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:IEEE IAS Annual Meeting 2027 — Power System Deadlines
+X-WR-CALNAME:IEEE IAS Annual Meeting 2027 deadlines
 X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
@@ -13,11 +13,11 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/ias-am27.ics
 BEGIN:VEVENT
 UID:ias-am27-abstract@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20261208T115959Z
 DTEND:20261208T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:IEEE IAS Annual Meeting 2027 — Digest submission
+SUMMARY:IEEE IAS Annual Meeting 2027: Digest submission
 DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
  ual Meeting 2027)\n\nDigest submission: 7 Dec 2026\, 23:59 AoE\n\nConferen
  ce: Dates to be announced\nLocation: Location TBA\n\nAll dates:\n  Digest 
@@ -48,11 +48,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ias-am27-notification@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20270216T115959Z
 DTEND:20270216T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:IEEE IAS Annual Meeting 2027 — Author notification
+SUMMARY:IEEE IAS Annual Meeting 2027: Author notification
 DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
  ual Meeting 2027)\n\nAuthor notification: 15 Feb 2027\, 23:59 AoE\n\nConfe
  rence: Dates to be announced\nLocation: Location TBA\n\nAll dates:\n  Dige
@@ -83,12 +83,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ias-am27-camera_ready@langestefan.github.io
-DTSTAMP:20260826T144402Z
+DTSTAMP:20260826T145159Z
 DTSTART:20270416T115959Z
 DTEND:20270416T122959Z
 TRANSP:TRANSPARENT
-SUMMARY:IEEE IAS Annual Meeting 2027 — Final paper with IEEE copyright fo
- rm
+SUMMARY:IEEE IAS Annual Meeting 2027: Final paper with IEEE copyright form
 DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
  ual Meeting 2027)\n\nFinal paper with IEEE copyright form: 15 Apr 2027\, 2
  3:59 AoE\n\nConference: Dates to be announced\nLocation: Location TBA\n\nA
