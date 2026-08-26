@@ -1,0 +1,20 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { withBase } from '@/lib/site';
+---
+
+<BaseLayout path="/404" title="Not found">
+  <div class="py-16 text-center">
+    <p class="text-sm font-semibold tracking-wide uppercase opacity-70">404</p>
+    <h1 class="mt-2 text-2xl font-bold tracking-tight">That page does not exist</h1>
+    <p class="mt-2 text-muted-foreground">
+      The conference may have been archived, or the link may be out of date.
+    </p>
+    <a
+      class="mt-6 inline-block rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:opacity-90"
+      href={withBase('/')}
+    >
+      Back to the deadlines
+    </a>
+  </div>
+</BaseLayout>

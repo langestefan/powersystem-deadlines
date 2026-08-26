@@ -1,0 +1,47 @@
+---
+import ConferenceCard from '@/components/ConferenceCard.astro';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getPastEditions } from '@/lib/conferences';
+
+const editions = await getPastEditions();
+
+// Newest first, grouped by the year the conference took place.
+const byYear = [...new Set(editions.map((edition) => edition.year))]
+  .sort((a, b) => b - a)
+  .map((year) => ({ year, editions: editions.filter((edition) => edition.year === year) }));
+---
+
+<BaseLayout
+  path="/past"
+  title="Archive"
+  description="Past power system conferences and their deadlines."
+>
+  <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">Archive</h1>
+  <p class="mt-2 max-w-2xl text-muted-foreground">
+    Conferences whose deadlines and dates have passed. Kept so the record of when a series ran,
+    and how early it closed submissions, stays available.
+  </p>
+
+  {
+    byYear.length === 0 ? (
+      <p class="mt-8 rounded-lg border border-dashed p-8 text-center text-muted-foreground">
+        Nothing archived yet.
+      </p>
+    ) : (
+      <div class="mt-8 space-y-8">
+        {byYear.map((group) => (
+          <section>
+            <h2 class="mb-3 text-sm font-semibold tracking-wide uppercase opacity-70">
+              {group.year}
+            </h2>
+            <div class="space-y-3">
+              {group.editions.map((edition) => (
+                <ConferenceCard edition={edition} />
+              ))}
+            </div>
+          </section>
+        ))}
+      </div>
+    )
+  }
+</BaseLayout>

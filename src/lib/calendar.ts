@@ -1,5 +1,4 @@
-import type { ConferenceEdition, ResolvedDeadline } from './conferences';
-import { locationLabel } from './conferences';
+import { locationLabel, type ConferenceEdition, type ResolvedDeadline } from './edition';
 import type { IcsEvent } from './ics';
 import { formatInZone, timezoneLabel } from './time';
 import { tagLabel } from './taxonomy';

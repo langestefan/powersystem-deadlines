@@ -1,0 +1,185 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { CalendarDays, ExternalLink, FileText, MapPin, Users } from '@lucide/astro';
+
+import Badge from '@/components/Badge.astro';
+import Countdown from '@/components/Countdown.astro';
+import DeadlineTable from '@/components/DeadlineTable.astro';
+import SubscribeLinks from '@/components/SubscribeLinks.tsx';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getAllEditions, locationLabel, type ConferenceEdition } from '@/lib/conferences';
+import { conferenceFeedPath, feedUrl, googleSubscribeUrl, webcalUrl } from '@/lib/feeds';
+import { withBase } from '@/lib/site';
+import { getTag, tagLabel } from '@/lib/taxonomy';
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const editions = await getAllEditions();
+  return editions.map((edition) => ({
+    params: { id: edition.id },
+    props: {
+      edition,
+      siblings: editions
+        .filter((other) => other.seriesId === edition.seriesId && other.id !== edition.id)
+        .sort((a, b) => b.year - a.year),
+    },
+  }));
+};
+
+interface Props {
+  edition: ConferenceEdition;
+  siblings: ConferenceEdition[];
+}
+
+const { edition, siblings } = Astro.props;
+const headline = edition.nextDeadline ?? edition.nextAnyDeadline;
+const feedPath = conferenceFeedPath(edition.id);
+
+const facts = [
+  { icon: MapPin, label: 'Location', value: edition.venue ?? locationLabel(edition) },
+  { icon: CalendarDays, label: 'Conference dates', value: edition.dateLabel },
+  { icon: Users, label: 'Organised by', value: edition.society.join(', ') },
+  { icon: FileText, label: 'Proceedings', value: edition.proceedings },
+].filter((fact) => Boolean(fact.value));
+
+const submissionLabels: Record<string, string> = {
+  'full-paper': 'Full paper submission',
+  'abstract-first': 'Abstract first, then full paper on invitation',
+  'extended-abstract': 'Extended abstract',
+};
+---
+
+<BaseLayout
+  path={`/conference/${edition.id}`}
+  title={`${edition.name} ${edition.year}`}
+  description={`Deadlines, dates and calendar feed for ${edition.fullName} ${edition.year}.`}
+>
+  <nav class="mb-4 text-sm">
+    <a class="text-muted-foreground hover:text-foreground" href={withBase('/')}>
+      ← All deadlines
+    </a>
+  </nav>
+
+  <div class="flex flex-wrap items-start justify-between gap-4">
+    <div class="min-w-0">
+      <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">
+        {edition.name}{' '}{edition.year}
+      </h1>
+      <p class="mt-1 text-muted-foreground">{edition.fullName}</p>
+    </div>
+
+    {
+      headline && (
+        <div class="text-right">
+          <Countdown target={headline.utc} class="text-xl" />
+          <p class="mt-0.5 text-xs text-muted-foreground">until {headline.label.toLowerCase()}</p>
+        </div>
+      )
+    }
+  </div>
+
+  <div class="mt-4 flex flex-wrap items-center gap-1.5">
+    {
+      edition.tags.map((tag) => (
+        <Badge class={getTag(tag)?.className} title={getTag(tag)?.description}>
+          {tagLabel(tag)}
+        </Badge>
+      ))
+    }
+    {edition.cancelled && <Badge class="bg-urgent/15 text-urgent">Cancelled</Badge>}
+    {edition.format !== 'in-person' && <Badge class="border">{edition.format}</Badge>}
+  </div>
+
+  {edition.description && <p class="mt-4 max-w-2xl">{edition.description}</p>}
+
+  <div class="mt-6 grid gap-6 lg:grid-cols-[minmax(0,1fr)_18rem]">
+    <div class="space-y-6">
+      <section class="rounded-lg border bg-card p-4 shadow-sm">
+        <h2 class="mb-3 text-sm font-semibold tracking-wide uppercase opacity-70">
+          Key dates
+        </h2>
+        <DeadlineTable edition={edition} />
+        {
+          edition.submissionType && (
+            <p class="mt-3 border-t pt-3 text-sm text-muted-foreground">
+              Submission format: {submissionLabels[edition.submissionType]}
+            </p>
+          )
+        }
+      </section>
+
+      {
+        edition.note && (
+          <section class="rounded-lg border border-dashed p-4 text-sm">
+            <h2 class="mb-1.5 font-semibold">Notes</h2>
+            <p class="text-muted-foreground">{edition.note}</p>
+          </section>
+        )
+      }
+
+      {
+        siblings.length > 0 && (
+          <section>
+            <h2 class="mb-2 text-sm font-semibold tracking-wide uppercase opacity-70">
+              Other editions
+            </h2>
+            <ul class="flex flex-wrap gap-2">
+              {siblings.map((sibling) => (
+                <li>
+                  <a
+                    class="rounded-md border px-2.5 py-1 text-sm transition-colors hover:bg-accent"
+                    href={withBase(`/conference/${sibling.id}`)}
+                  >
+                    {sibling.name} {sibling.year}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
+    </div>
+
+    <aside class="space-y-4">
+      <div class="rounded-lg border bg-card p-4 shadow-sm">
+        <h2 class="mb-3 text-sm font-semibold tracking-wide uppercase opacity-70">Details</h2>
+        <dl class="space-y-2.5 text-sm">
+          {
+            facts.map((fact) => (
+              <div class="flex gap-2.5">
+                <fact.icon class="mt-0.5 size-3.5 shrink-0 text-muted-foreground" aria-hidden="true" />
+                <div class="min-w-0">
+                  <dt class="text-xs text-muted-foreground">{fact.label}</dt>
+                  <dd>{fact.value}</dd>
+                </div>
+              </div>
+            ))
+          }
+        </dl>
+        <a
+          href={edition.link}
+          rel="noopener"
+          class="mt-4 inline-flex items-center gap-1.5 text-sm text-primary hover:underline"
+        >
+          Official website
+          <ExternalLink class="size-3.5" aria-hidden="true" />
+        </a>
+      </div>
+
+      <div class="rounded-lg border bg-card p-4 shadow-sm">
+        <h2 class="mb-1 text-sm font-semibold tracking-wide uppercase opacity-70">
+          Subscribe
+        </h2>
+        <p class="mb-3 text-xs text-muted-foreground">
+          Keeps updating if these dates change.
+        </p>
+        <SubscribeLinks
+          client:visible
+          httpsUrl={feedUrl(feedPath)}
+          webcalUrl={webcalUrl(feedPath)}
+          googleUrl={googleSubscribeUrl(feedPath)}
+          compact
+        />
+      </div>
+    </aside>
+  </div>
+</BaseLayout>
