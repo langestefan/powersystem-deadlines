@@ -1,0 +1,140 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ECCE 2026 — Power System Deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IEEE Energy Conversion Congress and Ex
+ position 2026.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
+ ence/ecce26.ics
+BEGIN:VEVENT
+UID:ecce26-abstract@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20260228T115959Z
+DTEND:20260228T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:ECCE 2026 — Digest submission
+DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nD
+ igest submission: 27 Feb 2026\, 23:59 AoE\n\nConference: October 4-8\, 202
+ 6\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest submission: 27 Feb
+  2026\, 23:59 AoE\n  Author notification: 22 May 2026\, 23:59 AoE\n  Final
+  paper with IEEE copyright form: 10 Jul 2026\, 23:59 AoE\n\nDigests are si
+ ngle-column\, at most five pages including references\, and are double-bli
+ nd reviewed. The submission deadline was extended past 27 February 2026. T
+ imezones are not stated in the call for papers\; AoE is assumed.\n\nCall f
+ or papers: https://www.ieee-ecce.org/2026/\nDetails: https://langestefan.g
+ ithub.io/powersystem-deadlines/conference/ecce26
+LOCATION:Vancouver\, Canada
+URL;VALUE=URI:https://www.ieee-ecce.org/2026/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
+  & Transportation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecce26-notification@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20260523T115959Z
+DTEND:20260523T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:ECCE 2026 — Author notification
+DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nA
+ uthor notification: 22 May 2026\, 23:59 AoE\n\nConference: October 4-8\, 2
+ 026\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest submission: 27 F
+ eb 2026\, 23:59 AoE\n  Author notification: 22 May 2026\, 23:59 AoE\n  Fin
+ al paper with IEEE copyright form: 10 Jul 2026\, 23:59 AoE\n\nDigests are 
+ single-column\, at most five pages including references\, and are double-b
+ lind reviewed. The submission deadline was extended past 27 February 2026.
+  Timezones are not stated in the call for papers\; AoE is assumed.\n\nCall
+  for papers: https://www.ieee-ecce.org/2026/\nDetails: https://langestefan
+ .github.io/powersystem-deadlines/conference/ecce26
+LOCATION:Vancouver\, Canada
+URL;VALUE=URI:https://www.ieee-ecce.org/2026/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
+  & Transportation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecce26-camera_ready@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20260711T115959Z
+DTEND:20260711T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:ECCE 2026 — Final paper with IEEE copyright form
+DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nF
+ inal paper with IEEE copyright form: 10 Jul 2026\, 23:59 AoE\n\nConference
+ : October 4-8\, 2026\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest
+  submission: 27 Feb 2026\, 23:59 AoE\n  Author notification: 22 May 2026\,
+  23:59 AoE\n  Final paper with IEEE copyright form: 10 Jul 2026\, 23:59 Ao
+ E\n\nDigests are single-column\, at most five pages including references\,
+  and are double-blind reviewed. The submission deadline was extended past 
+ 27 February 2026. Timezones are not stated in the call for papers\; AoE is
+  assumed.\n\nCall for papers: https://www.ieee-ecce.org/2026/\nDetails: ht
+ tps://langestefan.github.io/powersystem-deadlines/conference/ecce26
+LOCATION:Vancouver\, Canada
+URL;VALUE=URI:https://www.ieee-ecce.org/2026/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
+  & Transportation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecce26-event@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261009
+TRANSP:TRANSPARENT
+SUMMARY:ECCE 2026
+DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nC
+ onference: October 4-8\, 2026\nLocation: Vancouver\, Canada\n\nAll dates:\
+ n  Digest submission: 27 Feb 2026\, 23:59 AoE\n  Author notification: 22 M
+ ay 2026\, 23:59 AoE\n  Final paper with IEEE copyright form: 10 Jul 2026\,
+  23:59 AoE\n\nDigests are single-column\, at most five pages including ref
+ erences\, and are double-blind reviewed. The submission deadline was exten
+ ded past 27 February 2026. Timezones are not stated in the call for papers
+ \; AoE is assumed.\n\nCall for papers: https://www.ieee-ecce.org/2026/\nDe
+ tails: https://langestefan.github.io/powersystem-deadlines/conference/ecce
+ 26
+LOCATION:Vancouver\, Canada
+URL;VALUE=URI:https://www.ieee-ecce.org/2026/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
+  & Transportation
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

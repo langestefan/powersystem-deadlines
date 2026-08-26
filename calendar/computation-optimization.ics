@@ -1,0 +1,385 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Power System Deadlines — Computation & Optimization
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines for conferences tagged "Computation & Optimization".
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
+ ar/computation-optimization.ics
+BEGIN:VEVENT
+UID:powertech27-paper@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20270301T115959Z
+DTEND:20270301T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:PowerTech 2027 — Full paper submission
+DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nFull paper su
+ bmission: 28 Feb 2027\, 23:59 AoE\n\nConference: September 5-9\, 2027\nLoc
+ ation: Bruges\, Belgium\n\nAll dates:\n  Full paper submission: 28 Feb 202
+ 7\, 23:59 AoE\n  Author notification: 23 Apr 2027\, 23:59 AoE\n  Author an
+ d early bird registration deadline: 17 May 2027\, 23:59 AoE\n  Final paper
+  submission: 23 May 2027\, 23:59 AoE\n\nCo-sponsored by IEEE PES and KU Le
+ uven. Papers are limited to six pages. Submission opens in November 2026. 
+ Timezones are not stated in the call for papers\; AoE is assumed.\n\nCall 
+ for papers: https://powertech2027.com/\nDetails: https://langestefan.githu
+ b.io/powersystem-deadlines/conference/powertech27
+LOCATION:Bruges\, Belgium
+URL;VALUE=URI:https://powertech2027.com/
+CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
+ tion,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:powertech27-notification@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20270424T115959Z
+DTEND:20270424T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:PowerTech 2027 — Author notification
+DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nAuthor notifi
+ cation: 23 Apr 2027\, 23:59 AoE\n\nConference: September 5-9\, 2027\nLocat
+ ion: Bruges\, Belgium\n\nAll dates:\n  Full paper submission: 28 Feb 2027\
+ , 23:59 AoE\n  Author notification: 23 Apr 2027\, 23:59 AoE\n  Author and 
+ early bird registration deadline: 17 May 2027\, 23:59 AoE\n  Final paper s
+ ubmission: 23 May 2027\, 23:59 AoE\n\nCo-sponsored by IEEE PES and KU Leuv
+ en. Papers are limited to six pages. Submission opens in November 2026. Ti
+ mezones are not stated in the call for papers\; AoE is assumed.\n\nCall fo
+ r papers: https://powertech2027.com/\nDetails: https://langestefan.github.
+ io/powersystem-deadlines/conference/powertech27
+LOCATION:Bruges\, Belgium
+URL;VALUE=URI:https://powertech2027.com/
+CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
+ tion,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:powertech27-author_registration@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20270518T115959Z
+DTEND:20270518T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:PowerTech 2027 — Author and early bird registration deadline
+DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nAuthor and ea
+ rly bird registration deadline: 17 May 2027\, 23:59 AoE\n\nConference: Sep
+ tember 5-9\, 2027\nLocation: Bruges\, Belgium\n\nAll dates:\n  Full paper 
+ submission: 28 Feb 2027\, 23:59 AoE\n  Author notification: 23 Apr 2027\, 
+ 23:59 AoE\n  Author and early bird registration deadline: 17 May 2027\, 23
+ :59 AoE\n  Final paper submission: 23 May 2027\, 23:59 AoE\n\nCo-sponsored
+  by IEEE PES and KU Leuven. Papers are limited to six pages. Submission op
+ ens in November 2026. Timezones are not stated in the call for papers\; Ao
+ E is assumed.\n\nCall for papers: https://powertech2027.com/\nDetails: htt
+ ps://langestefan.github.io/powersystem-deadlines/conference/powertech27
+LOCATION:Bruges\, Belgium
+URL;VALUE=URI:https://powertech2027.com/
+CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
+ tion,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:powertech27-camera_ready@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20270524T115959Z
+DTEND:20270524T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:PowerTech 2027 — Final paper submission
+DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nFinal paper s
+ ubmission: 23 May 2027\, 23:59 AoE\n\nConference: September 5-9\, 2027\nLo
+ cation: Bruges\, Belgium\n\nAll dates:\n  Full paper submission: 28 Feb 20
+ 27\, 23:59 AoE\n  Author notification: 23 Apr 2027\, 23:59 AoE\n  Author a
+ nd early bird registration deadline: 17 May 2027\, 23:59 AoE\n  Final pape
+ r submission: 23 May 2027\, 23:59 AoE\n\nCo-sponsored by IEEE PES and KU L
+ euven. Papers are limited to six pages. Submission opens in November 2026.
+  Timezones are not stated in the call for papers\; AoE is assumed.\n\nCall
+  for papers: https://powertech2027.com/\nDetails: https://langestefan.gith
+ ub.io/powersystem-deadlines/conference/powertech27
+LOCATION:Bruges\, Belgium
+URL;VALUE=URI:https://powertech2027.com/
+CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
+ tion,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pscc26-abstract@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20250616T115959Z
+DTEND:20250616T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:PSCC 2026 — One-page abstract submission
+DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nOne-page ab
+ stract submission: 15 Jun 2025\, 23:59 AoE\n\nConference: June 8-12\, 2026
+ \nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAll dates:\n  
+ One-page abstract submission: 15 Jun 2025\, 23:59 AoE\n  Abstract acceptan
+ ce notification: 22 Jun 2025\, 23:59 AoE\n  Full paper submission: 15 Oct 
+ 2025\, 23:59 AoE\n  Acceptance and revision requests: 8 Feb 2026\, 23:59 A
+ oE\n  Final manuscript submission: 15 Mar 2026\, 23:59 AoE\n\nSubmission i
+ s abstract-first: a one-page abstract must be accepted before the full pap
+ er can be submitted. Timezones are not stated in the call for papers\; AoE
+  is assumed.\n\nCall for papers: https://pscc2026.cy/\nDetails: https://la
+ ngestefan.github.io/powersystem-deadlines/conference/pscc26
+LOCATION:Limassol\, Cyprus
+URL;VALUE=URI:https://pscc2026.cy/
+CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pscc26-notification@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20250623T115959Z
+DTEND:20250623T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:PSCC 2026 — Abstract acceptance notification
+DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nAbstract ac
+ ceptance notification: 22 Jun 2025\, 23:59 AoE\n\nConference: June 8-12\, 
+ 2026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAll dates:
+ \n  One-page abstract submission: 15 Jun 2025\, 23:59 AoE\n  Abstract acce
+ ptance notification: 22 Jun 2025\, 23:59 AoE\n  Full paper submission: 15 
+ Oct 2025\, 23:59 AoE\n  Acceptance and revision requests: 8 Feb 2026\, 23:
+ 59 AoE\n  Final manuscript submission: 15 Mar 2026\, 23:59 AoE\n\nSubmissi
+ on is abstract-first: a one-page abstract must be accepted before the full
+  paper can be submitted. Timezones are not stated in the call for papers\;
+  AoE is assumed.\n\nCall for papers: https://pscc2026.cy/\nDetails: https:
+ //langestefan.github.io/powersystem-deadlines/conference/pscc26
+LOCATION:Limassol\, Cyprus
+URL;VALUE=URI:https://pscc2026.cy/
+CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pscc26-paper@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20251016T115959Z
+DTEND:20251016T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:PSCC 2026 — Full paper submission
+DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nFull paper 
+ submission: 15 Oct 2025\, 23:59 AoE\n\nConference: June 8-12\, 2026\nLocat
+ ion: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAll dates:\n  One-pag
+ e abstract submission: 15 Jun 2025\, 23:59 AoE\n  Abstract acceptance noti
+ fication: 22 Jun 2025\, 23:59 AoE\n  Full paper submission: 15 Oct 2025\, 
+ 23:59 AoE\n  Acceptance and revision requests: 8 Feb 2026\, 23:59 AoE\n  F
+ inal manuscript submission: 15 Mar 2026\, 23:59 AoE\n\nSubmission is abstr
+ act-first: a one-page abstract must be accepted before the full paper can 
+ be submitted. Timezones are not stated in the call for papers\; AoE is ass
+ umed.\n\nCall for papers: https://pscc2026.cy/\nDetails: https://langestef
+ an.github.io/powersystem-deadlines/conference/pscc26
+LOCATION:Limassol\, Cyprus
+URL;VALUE=URI:https://pscc2026.cy/
+CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pscc26-notification-2@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20260209T115959Z
+DTEND:20260209T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:PSCC 2026 — Acceptance and revision requests
+DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nAcceptance 
+ and revision requests: 8 Feb 2026\, 23:59 AoE\n\nConference: June 8-12\, 2
+ 026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAll dates:\
+ n  One-page abstract submission: 15 Jun 2025\, 23:59 AoE\n  Abstract accep
+ tance notification: 22 Jun 2025\, 23:59 AoE\n  Full paper submission: 15 O
+ ct 2025\, 23:59 AoE\n  Acceptance and revision requests: 8 Feb 2026\, 23:5
+ 9 AoE\n  Final manuscript submission: 15 Mar 2026\, 23:59 AoE\n\nSubmissio
+ n is abstract-first: a one-page abstract must be accepted before the full 
+ paper can be submitted. Timezones are not stated in the call for papers\; 
+ AoE is assumed.\n\nCall for papers: https://pscc2026.cy/\nDetails: https:/
+ /langestefan.github.io/powersystem-deadlines/conference/pscc26
+LOCATION:Limassol\, Cyprus
+URL;VALUE=URI:https://pscc2026.cy/
+CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pscc26-camera_ready@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20260316T115959Z
+DTEND:20260316T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:PSCC 2026 — Final manuscript submission
+DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nFinal manus
+ cript submission: 15 Mar 2026\, 23:59 AoE\n\nConference: June 8-12\, 2026\
+ nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAll dates:\n  O
+ ne-page abstract submission: 15 Jun 2025\, 23:59 AoE\n  Abstract acceptanc
+ e notification: 22 Jun 2025\, 23:59 AoE\n  Full paper submission: 15 Oct 2
+ 025\, 23:59 AoE\n  Acceptance and revision requests: 8 Feb 2026\, 23:59 Ao
+ E\n  Final manuscript submission: 15 Mar 2026\, 23:59 AoE\n\nSubmission is
+  abstract-first: a one-page abstract must be accepted before the full pape
+ r can be submitted. Timezones are not stated in the call for papers\; AoE 
+ is assumed.\n\nCall for papers: https://pscc2026.cy/\nDetails: https://lan
+ gestefan.github.io/powersystem-deadlines/conference/pscc26
+LOCATION:Limassol\, Cyprus
+URL;VALUE=URI:https://pscc2026.cy/
+CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:smartgridcomm26-paper@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20260504T115959Z
+DTEND:20260504T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:SmartGridComm 2026 — Paper submission
+DESCRIPTION:IEEE International Conference on Communications\, Control\, and
+  Computing Technologies for Smart Grids (SmartGridComm 2026)\n\nPaper subm
+ ission: 3 May 2026\, 23:59 AoE\n\nConference: October 26-29\, 2026\nLocati
+ on: College Station\, USA\n\nAll dates:\n  Paper submission: 3 May 2026\, 
+ 23:59 AoE\n  Acceptance notification: 19 Jun 2026\, 23:59 AoE\n\nThe paper
+  deadline was extended from 15 April to 3 May 2026. Timezones are not stat
+ ed in the call for papers\; AoE is assumed.\n\nCall for papers: https://sg
+ c2026.ieee-smartgridcomm.org/\nDetails: https://langestefan.github.io/powe
+ rsystem-deadlines/conference/smartgridcomm26
+LOCATION:College Station\, USA
+URL;VALUE=URI:https://sgc2026.ieee-smartgridcomm.org/
+CATEGORIES:Smart Grid,Cyber-Physical Security,Computation & Optimization,Di
+ stribution
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:smartgridcomm26-notification@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20260620T115959Z
+DTEND:20260620T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:SmartGridComm 2026 — Acceptance notification
+DESCRIPTION:IEEE International Conference on Communications\, Control\, and
+  Computing Technologies for Smart Grids (SmartGridComm 2026)\n\nAcceptance
+  notification: 19 Jun 2026\, 23:59 AoE\n\nConference: October 26-29\, 2026
+ \nLocation: College Station\, USA\n\nAll dates:\n  Paper submission: 3 May
+  2026\, 23:59 AoE\n  Acceptance notification: 19 Jun 2026\, 23:59 AoE\n\nT
+ he paper deadline was extended from 15 April to 3 May 2026. Timezones are 
+ not stated in the call for papers\; AoE is assumed.\n\nCall for papers: ht
+ tps://sgc2026.ieee-smartgridcomm.org/\nDetails: https://langestefan.github
+ .io/powersystem-deadlines/conference/smartgridcomm26
+LOCATION:College Station\, USA
+URL;VALUE=URI:https://sgc2026.ieee-smartgridcomm.org/
+CATEGORIES:Smart Grid,Cyber-Physical Security,Computation & Optimization,Di
+ stribution
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+END:VCALENDAR

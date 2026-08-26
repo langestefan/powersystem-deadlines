@@ -1,0 +1,172 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PowerTech 2027 — Power System Deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IEEE PES PowerTech Conference 2027.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
+ ence/powertech27.ics
+BEGIN:VEVENT
+UID:powertech27-paper@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20270301T115959Z
+DTEND:20270301T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:PowerTech 2027 — Full paper submission
+DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nFull paper su
+ bmission: 28 Feb 2027\, 23:59 AoE\n\nConference: September 5-9\, 2027\nLoc
+ ation: Bruges\, Belgium\n\nAll dates:\n  Full paper submission: 28 Feb 202
+ 7\, 23:59 AoE\n  Author notification: 23 Apr 2027\, 23:59 AoE\n  Author an
+ d early bird registration deadline: 17 May 2027\, 23:59 AoE\n  Final paper
+  submission: 23 May 2027\, 23:59 AoE\n\nCo-sponsored by IEEE PES and KU Le
+ uven. Papers are limited to six pages. Submission opens in November 2026. 
+ Timezones are not stated in the call for papers\; AoE is assumed.\n\nCall 
+ for papers: https://powertech2027.com/\nDetails: https://langestefan.githu
+ b.io/powersystem-deadlines/conference/powertech27
+LOCATION:Bruges\, Belgium
+URL;VALUE=URI:https://powertech2027.com/
+CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
+ tion,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:powertech27-notification@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20270424T115959Z
+DTEND:20270424T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:PowerTech 2027 — Author notification
+DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nAuthor notifi
+ cation: 23 Apr 2027\, 23:59 AoE\n\nConference: September 5-9\, 2027\nLocat
+ ion: Bruges\, Belgium\n\nAll dates:\n  Full paper submission: 28 Feb 2027\
+ , 23:59 AoE\n  Author notification: 23 Apr 2027\, 23:59 AoE\n  Author and 
+ early bird registration deadline: 17 May 2027\, 23:59 AoE\n  Final paper s
+ ubmission: 23 May 2027\, 23:59 AoE\n\nCo-sponsored by IEEE PES and KU Leuv
+ en. Papers are limited to six pages. Submission opens in November 2026. Ti
+ mezones are not stated in the call for papers\; AoE is assumed.\n\nCall fo
+ r papers: https://powertech2027.com/\nDetails: https://langestefan.github.
+ io/powersystem-deadlines/conference/powertech27
+LOCATION:Bruges\, Belgium
+URL;VALUE=URI:https://powertech2027.com/
+CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
+ tion,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:powertech27-author_registration@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20270518T115959Z
+DTEND:20270518T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:PowerTech 2027 — Author and early bird registration deadline
+DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nAuthor and ea
+ rly bird registration deadline: 17 May 2027\, 23:59 AoE\n\nConference: Sep
+ tember 5-9\, 2027\nLocation: Bruges\, Belgium\n\nAll dates:\n  Full paper 
+ submission: 28 Feb 2027\, 23:59 AoE\n  Author notification: 23 Apr 2027\, 
+ 23:59 AoE\n  Author and early bird registration deadline: 17 May 2027\, 23
+ :59 AoE\n  Final paper submission: 23 May 2027\, 23:59 AoE\n\nCo-sponsored
+  by IEEE PES and KU Leuven. Papers are limited to six pages. Submission op
+ ens in November 2026. Timezones are not stated in the call for papers\; Ao
+ E is assumed.\n\nCall for papers: https://powertech2027.com/\nDetails: htt
+ ps://langestefan.github.io/powersystem-deadlines/conference/powertech27
+LOCATION:Bruges\, Belgium
+URL;VALUE=URI:https://powertech2027.com/
+CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
+ tion,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:powertech27-camera_ready@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20270524T115959Z
+DTEND:20270524T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:PowerTech 2027 — Final paper submission
+DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nFinal paper s
+ ubmission: 23 May 2027\, 23:59 AoE\n\nConference: September 5-9\, 2027\nLo
+ cation: Bruges\, Belgium\n\nAll dates:\n  Full paper submission: 28 Feb 20
+ 27\, 23:59 AoE\n  Author notification: 23 Apr 2027\, 23:59 AoE\n  Author a
+ nd early bird registration deadline: 17 May 2027\, 23:59 AoE\n  Final pape
+ r submission: 23 May 2027\, 23:59 AoE\n\nCo-sponsored by IEEE PES and KU L
+ euven. Papers are limited to six pages. Submission opens in November 2026.
+  Timezones are not stated in the call for papers\; AoE is assumed.\n\nCall
+  for papers: https://powertech2027.com/\nDetails: https://langestefan.gith
+ ub.io/powersystem-deadlines/conference/powertech27
+LOCATION:Bruges\, Belgium
+URL;VALUE=URI:https://powertech2027.com/
+CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
+ tion,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:powertech27-event@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART;VALUE=DATE:20270905
+DTEND;VALUE=DATE:20270910
+TRANSP:TRANSPARENT
+SUMMARY:PowerTech 2027
+DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nConference: S
+ eptember 5-9\, 2027\nLocation: Bruges\, Belgium\n\nAll dates:\n  Full pape
+ r submission: 28 Feb 2027\, 23:59 AoE\n  Author notification: 23 Apr 2027\
+ , 23:59 AoE\n  Author and early bird registration deadline: 17 May 2027\, 
+ 23:59 AoE\n  Final paper submission: 23 May 2027\, 23:59 AoE\n\nCo-sponsor
+ ed by IEEE PES and KU Leuven. Papers are limited to six pages. Submission 
+ opens in November 2026. Timezones are not stated in the call for papers\; 
+ AoE is assumed.\n\nCall for papers: https://powertech2027.com/\nDetails: h
+ ttps://langestefan.github.io/powersystem-deadlines/conference/powertech27
+LOCATION:Bruges\, Belgium
+URL;VALUE=URI:https://powertech2027.com/
+CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
+ tion,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

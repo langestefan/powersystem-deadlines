@@ -1,0 +1,266 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Power System Deadlines — conference dates
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:The conferences themselves\, as all-day events.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
+ ar/events.ics
+BEGIN:VEVENT
+UID:iecon26-event@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261022
+TRANSP:TRANSPARENT
+SUMMARY:IECON 2026
+DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
+ ECON 2026)\n\nConference: October 18-21\, 2026\nLocation: Doha\, Qatar\n\n
+ All dates:\n  Paper submission (extended): 31 Jul 2026\, 23:59 AoE\n  Acce
+ ptance notification: 10 Aug 2026\, 23:59 AoE\n  Final submission and regis
+ tration: 30 Aug 2026\, 23:59 AoE\n\n52nd annual conference of the IES. Tim
+ ezones are not stated in the call for papers\; AoE is assumed.\n\nCall for
+  papers: https://www.iecon2026.org/\nDetails: https://langestefan.github.i
+ o/powersystem-deadlines/conference/iecon26
+LOCATION:Doha\, Qatar
+URL;VALUE=URI:https://www.iecon2026.org/
+CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:isgt-asia26-event@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261102
+TRANSP:TRANSPARENT
+SUMMARY:ISGT Asia 2026
+DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
+ GT Asia 2026)\n\nConference: October 30 - November 1\, 2026\nLocation: Wuh
+ an\, China\n\nAll dates:\n  Paper submission: 10 Sept 2026\, 23:59 AoE\n  
+ Acceptance notification: 20 Sept 2026\, 23:59 AoE\n  Author registration: 
+ 10 Oct 2026\, 23:59 AoE\n  Final paper submission: 20 Oct 2026\, 23:59 AoE
+ \n\nThemed "New Energy and Power Technologies Toward Carbon Neutrality"\, 
+ hosted by Wuhan University. The call gives submission and notification as 
+ windows rather than single dates\; the closing date of each window is list
+ ed here. Timezones are not stated\; AoE is assumed.\n\nCall for papers: ht
+ tps://attend.ieee.org/isgt-asia-2026/\nDetails: https://langestefan.github
+ .io/powersystem-deadlines/conference/isgt-asia26
+LOCATION:Wuhan\, China
+URL;VALUE=URI:https://attend.ieee.org/isgt-asia-2026/
+CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cired27-event@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270618
+TRANSP:TRANSPARENT
+SUMMARY:CIRED 2027
+DESCRIPTION:International Conference and Exhibition on Electricity Distribu
+ tion (CIRED 2027)\n\nConference: June 14-17\, 2027\nLocation: Stockholm\, 
+ Sweden\n\nAll dates:\n  Abstract submission: 14 Sept 2026\, 23:59 AoE\n  N
+ otification of acceptance: 13 Nov 2026\, 23:59 AoE\n  Full paper submissio
+ n: 22 Jan 2027\, 23:59 AoE\n  Author's final notification of acceptance: 9
+  Apr 2027\, 23:59 AoE\n  Early bird registration deadline: 28 Apr 2027\, 2
+ 3:59 AoE\n  Author registration deadline: 10 May 2027\, 23:59 AoE\n  Deadl
+ ine to upload presentations: 28 May 2027\, 23:59 AoE\n\n29th edition. Subm
+ ission is abstract-first: an accepted abstract is required before a full p
+ aper can be submitted. Timezones are not stated in the call for papers\; A
+ oE is assumed.\n\nCall for papers: https://2027.cired.net/\nDetails: https
+ ://langestefan.github.io/powersystem-deadlines/conference/cired27
+LOCATION:Stockholm\, Sweden
+URL;VALUE=URI:https://2027.cired.net/
+CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:isgt-europe26-event@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261023
+TRANSP:TRANSPARENT
+SUMMARY:ISGT Europe 2026
+DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Europe (
+ ISGT Europe 2026)\n\nConference: October 19-22\, 2026\nLocation: Budapest\
+ , Hungary\n\nAll dates:\n  Paper submission: 15 Apr 2026\, 23:59 AoE\n  Fi
+ nal paper submission: 15 Sept 2026\, 23:59 AoE\n\nFinal paper submission o
+ pened 15 August 2026. Timezones are not stated in the call for papers\; Ao
+ E is assumed.\n\nCall for papers: https://ieee-isgt-europe.org/\nDetails: 
+ https://langestefan.github.io/powersystem-deadlines/conference/isgt-europe
+ 26
+LOCATION:Budapest\, Hungary
+URL;VALUE=URI:https://ieee-isgt-europe.org/
+CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pes-grid-edge27-event@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART;VALUE=DATE:20270419
+DTEND;VALUE=DATE:20270423
+TRANSP:TRANSPARENT
+SUMMARY:PES Grid Edge 2027
+DESCRIPTION:IEEE PES Grid Edge Technologies Conference & Exposition (PES Gr
+ id Edge 2027)\n\nConference: April 19-22\, 2027\nLocation: Salt Lake City\
+ , USA\nVenue: Calvin L. Rampton Salt Palace Convention Center\n\nAll dates
+ :\n  Paper and panel proposal submission: 24 Jul 2026\, 23:59 AoE\n  Notif
+ ication of acceptance: 1 Oct 2026\, 23:59 AoE\n\nPapers are limited to fiv
+ e pages\, and panel proposals to a 350-word description. At least one auth
+ or per accepted paper must register for the paper to appear in IEEE Xplore
+ . Timezones are not stated in the call for participation\; AoE is assumed.
+ \n\nCall for papers: https://pes-gridedge.org/\nDetails: https://langestef
+ an.github.io/powersystem-deadlines/conference/pes-grid-edge27
+LOCATION:Calvin L. Rampton Salt Palace Convention Center\, Salt Lake City\,
+  USA
+URL;VALUE=URI:https://pes-gridedge.org/
+CATEGORIES:Smart Grid,Distribution,Energy Storage,EV & Transportation,Micro
+ grids
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pesgm27-event@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART;VALUE=DATE:20270725
+DTEND;VALUE=DATE:20270730
+TRANSP:TRANSPARENT
+SUMMARY:IEEE PES GM 2027
+DESCRIPTION:IEEE Power & Energy Society General Meeting (IEEE PES GM 2027)\
+ n\nConference: July 25-29\, 2027\nLocation: San Francisco\, USA\n\nNot yet
+  announced: Author notification\n\nPapers are limited to five pages. The s
+ ubmission site opens 6 October 2026 and notifications are expected in mid-
+ March 2027\, without a stated date. Timezones are not stated in the call f
+ or papers\; AoE is assumed.\n\nCall for papers: https://pes-gm.org/\nDetai
+ ls: https://langestefan.github.io/powersystem-deadlines/conference/pesgm27
+LOCATION:San Francisco\, USA
+URL;VALUE=URI:https://pes-gm.org/
+CATEGORIES:Power Systems,Transmission,Distribution,Renewables,Smart Grid
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:apec27-event@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270312
+TRANSP:TRANSPARENT
+SUMMARY:APEC 2027
+DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC 
+ 2027)\n\nConference: March 7-11\, 2027\nLocation: New Orleans\, USA\nVenue
+ : Ernest N. Morial Convention Center\n\nAll dates:\n  Technical session di
+ gest submission: 21 Aug 2026\, 23:59 AoE\n  Acceptance and decline notices
+ : 12 Oct 2026\, 23:59 AoE\n  Final manuscript and author registration: 7 D
+ ec 2026\, 23:59 AoE\n\nThe digest deadline was extended from 14 to 21 Augu
+ st 2026. An author manuscript training session is held on 12 November 2026
+ . Timezones are not stated in the call for papers\; AoE is assumed.\n\nCal
+ l for papers: https://apec-conf.org/\nDetails: https://langestefan.github.
+ io/powersystem-deadlines/conference/apec27
+LOCATION:Ernest N. Morial Convention Center\, New Orleans\, USA
+URL;VALUE=URI:https://apec-conf.org/
+CATEGORIES:Power Electronics,Machines & Drives,Energy Storage,EV & Transpor
+ tation
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:powertech27-event@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART;VALUE=DATE:20270905
+DTEND;VALUE=DATE:20270910
+TRANSP:TRANSPARENT
+SUMMARY:PowerTech 2027
+DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nConference: S
+ eptember 5-9\, 2027\nLocation: Bruges\, Belgium\n\nAll dates:\n  Full pape
+ r submission: 28 Feb 2027\, 23:59 AoE\n  Author notification: 23 Apr 2027\
+ , 23:59 AoE\n  Author and early bird registration deadline: 17 May 2027\, 
+ 23:59 AoE\n  Final paper submission: 23 May 2027\, 23:59 AoE\n\nCo-sponsor
+ ed by IEEE PES and KU Leuven. Papers are limited to six pages. Submission 
+ opens in November 2026. Timezones are not stated in the call for papers\; 
+ AoE is assumed.\n\nCall for papers: https://powertech2027.com/\nDetails: h
+ ttps://langestefan.github.io/powersystem-deadlines/conference/powertech27
+LOCATION:Bruges\, Belgium
+URL;VALUE=URI:https://powertech2027.com/
+CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
+ tion,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pscc26-event@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART;VALUE=DATE:20260608
+DTEND;VALUE=DATE:20260613
+TRANSP:TRANSPARENT
+SUMMARY:PSCC 2026
+DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nConference:
+  June 8-12\, 2026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\
+ n\nAll dates:\n  One-page abstract submission: 15 Jun 2025\, 23:59 AoE\n  
+ Abstract acceptance notification: 22 Jun 2025\, 23:59 AoE\n  Full paper su
+ bmission: 15 Oct 2025\, 23:59 AoE\n  Acceptance and revision requests: 8 F
+ eb 2026\, 23:59 AoE\n  Final manuscript submission: 15 Mar 2026\, 23:59 Ao
+ E\n\nSubmission is abstract-first: a one-page abstract must be accepted be
+ fore the full paper can be submitted. Timezones are not stated in the call
+  for papers\; AoE is assumed.\n\nCall for papers: https://pscc2026.cy/\nDe
+ tails: https://langestefan.github.io/powersystem-deadlines/conference/pscc
+ 26
+LOCATION:St. Raphael Resort\, Limassol\, Cyprus
+URL;VALUE=URI:https://pscc2026.cy/
+CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ecce26-event@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261009
+TRANSP:TRANSPARENT
+SUMMARY:ECCE 2026
+DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nC
+ onference: October 4-8\, 2026\nLocation: Vancouver\, Canada\n\nAll dates:\
+ n  Digest submission: 27 Feb 2026\, 23:59 AoE\n  Author notification: 22 M
+ ay 2026\, 23:59 AoE\n  Final paper with IEEE copyright form: 10 Jul 2026\,
+  23:59 AoE\n\nDigests are single-column\, at most five pages including ref
+ erences\, and are double-blind reviewed. The submission deadline was exten
+ ded past 27 February 2026. Timezones are not stated in the call for papers
+ \; AoE is assumed.\n\nCall for papers: https://www.ieee-ecce.org/2026/\nDe
+ tails: https://langestefan.github.io/powersystem-deadlines/conference/ecce
+ 26
+LOCATION:Vancouver\, Canada
+URL;VALUE=URI:https://www.ieee-ecce.org/2026/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
+  & Transportation
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:smartgridcomm26-event@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261030
+TRANSP:TRANSPARENT
+SUMMARY:SmartGridComm 2026
+DESCRIPTION:IEEE International Conference on Communications\, Control\, and
+  Computing Technologies for Smart Grids (SmartGridComm 2026)\n\nConference
+ : October 26-29\, 2026\nLocation: College Station\, USA\n\nAll dates:\n  P
+ aper submission: 3 May 2026\, 23:59 AoE\n  Acceptance notification: 19 Jun
+  2026\, 23:59 AoE\n\nThe paper deadline was extended from 15 April to 3 Ma
+ y 2026. Timezones are not stated in the call for papers\; AoE is assumed.\
+ n\nCall for papers: https://sgc2026.ieee-smartgridcomm.org/\nDetails: http
+ s://langestefan.github.io/powersystem-deadlines/conference/smartgridcomm26
+LOCATION:College Station\, USA
+URL;VALUE=URI:https://sgc2026.ieee-smartgridcomm.org/
+CATEGORIES:Smart Grid,Cyber-Physical Security,Computation & Optimization,Di
+ stribution
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

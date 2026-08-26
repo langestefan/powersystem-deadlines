@@ -1,0 +1,131 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IECON 2026 — Power System Deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for Annual Conference of the IEEE Industri
+ al Electronics Society 2026.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
+ ence/iecon26.ics
+BEGIN:VEVENT
+UID:iecon26-paper@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20260801T115959Z
+DTEND:20260801T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:IECON 2026 — Paper submission (extended)
+DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
+ ECON 2026)\n\nPaper submission (extended): 31 Jul 2026\, 23:59 AoE\n\nConf
+ erence: October 18-21\, 2026\nLocation: Doha\, Qatar\n\nAll dates:\n  Pape
+ r submission (extended): 31 Jul 2026\, 23:59 AoE\n  Acceptance notificatio
+ n: 10 Aug 2026\, 23:59 AoE\n  Final submission and registration: 30 Aug 20
+ 26\, 23:59 AoE\n\n52nd annual conference of the IES. Timezones are not sta
+ ted in the call for papers\; AoE is assumed.\n\nCall for papers: https://w
+ ww.iecon2026.org/\nDetails: https://langestefan.github.io/powersystem-dead
+ lines/conference/iecon26
+LOCATION:Doha\, Qatar
+URL;VALUE=URI:https://www.iecon2026.org/
+CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iecon26-notification@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20260811T115959Z
+DTEND:20260811T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:IECON 2026 — Acceptance notification
+DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
+ ECON 2026)\n\nAcceptance notification: 10 Aug 2026\, 23:59 AoE\n\nConferen
+ ce: October 18-21\, 2026\nLocation: Doha\, Qatar\n\nAll dates:\n  Paper su
+ bmission (extended): 31 Jul 2026\, 23:59 AoE\n  Acceptance notification: 1
+ 0 Aug 2026\, 23:59 AoE\n  Final submission and registration: 30 Aug 2026\,
+  23:59 AoE\n\n52nd annual conference of the IES. Timezones are not stated 
+ in the call for papers\; AoE is assumed.\n\nCall for papers: https://www.i
+ econ2026.org/\nDetails: https://langestefan.github.io/powersystem-deadline
+ s/conference/iecon26
+LOCATION:Doha\, Qatar
+URL;VALUE=URI:https://www.iecon2026.org/
+CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iecon26-camera_ready@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20260831T115959Z
+DTEND:20260831T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:IECON 2026 — Final submission and registration
+DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
+ ECON 2026)\n\nFinal submission and registration: 30 Aug 2026\, 23:59 AoE\n
+ \nConference: October 18-21\, 2026\nLocation: Doha\, Qatar\n\nAll dates:\n
+   Paper submission (extended): 31 Jul 2026\, 23:59 AoE\n  Acceptance notif
+ ication: 10 Aug 2026\, 23:59 AoE\n  Final submission and registration: 30 
+ Aug 2026\, 23:59 AoE\n\n52nd annual conference of the IES. Timezones are n
+ ot stated in the call for papers\; AoE is assumed.\n\nCall for papers: htt
+ ps://www.iecon2026.org/\nDetails: https://langestefan.github.io/powersyste
+ m-deadlines/conference/iecon26
+LOCATION:Doha\, Qatar
+URL;VALUE=URI:https://www.iecon2026.org/
+CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iecon26-event@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261022
+TRANSP:TRANSPARENT
+SUMMARY:IECON 2026
+DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
+ ECON 2026)\n\nConference: October 18-21\, 2026\nLocation: Doha\, Qatar\n\n
+ All dates:\n  Paper submission (extended): 31 Jul 2026\, 23:59 AoE\n  Acce
+ ptance notification: 10 Aug 2026\, 23:59 AoE\n  Final submission and regis
+ tration: 30 Aug 2026\, 23:59 AoE\n\n52nd annual conference of the IES. Tim
+ ezones are not stated in the call for papers\; AoE is assumed.\n\nCall for
+  papers: https://www.iecon2026.org/\nDetails: https://langestefan.github.i
+ o/powersystem-deadlines/conference/iecon26
+LOCATION:Doha\, Qatar
+URL;VALUE=URI:https://www.iecon2026.org/
+CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,178 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ISGT Asia 2026 — Power System Deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IEEE PES Innovative Smart Grid Technol
+ ogies Conference Asia 2026.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
+ ence/isgt-asia26.ics
+BEGIN:VEVENT
+UID:isgt-asia26-paper@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20260911T115959Z
+DTEND:20260911T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:ISGT Asia 2026 — Paper submission
+DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
+ GT Asia 2026)\n\nPaper submission: 10 Sept 2026\, 23:59 AoE\n\nConference:
+  October 30 - November 1\, 2026\nLocation: Wuhan\, China\n\nAll dates:\n  
+ Paper submission: 10 Sept 2026\, 23:59 AoE\n  Acceptance notification: 20 
+ Sept 2026\, 23:59 AoE\n  Author registration: 10 Oct 2026\, 23:59 AoE\n  F
+ inal paper submission: 20 Oct 2026\, 23:59 AoE\n\nThemed "New Energy and P
+ ower Technologies Toward Carbon Neutrality"\, hosted by Wuhan University. 
+ The call gives submission and notification as windows rather than single d
+ ates\; the closing date of each window is listed here. Timezones are not s
+ tated\; AoE is assumed.\n\nCall for papers: https://attend.ieee.org/isgt-a
+ sia-2026/\nDetails: https://langestefan.github.io/powersystem-deadlines/co
+ nference/isgt-asia26
+LOCATION:Wuhan\, China
+URL;VALUE=URI:https://attend.ieee.org/isgt-asia-2026/
+CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isgt-asia26-notification@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20260921T115959Z
+DTEND:20260921T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:ISGT Asia 2026 — Acceptance notification
+DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
+ GT Asia 2026)\n\nAcceptance notification: 20 Sept 2026\, 23:59 AoE\n\nConf
+ erence: October 30 - November 1\, 2026\nLocation: Wuhan\, China\n\nAll dat
+ es:\n  Paper submission: 10 Sept 2026\, 23:59 AoE\n  Acceptance notificati
+ on: 20 Sept 2026\, 23:59 AoE\n  Author registration: 10 Oct 2026\, 23:59 A
+ oE\n  Final paper submission: 20 Oct 2026\, 23:59 AoE\n\nThemed "New Energ
+ y and Power Technologies Toward Carbon Neutrality"\, hosted by Wuhan Unive
+ rsity. The call gives submission and notification as windows rather than s
+ ingle dates\; the closing date of each window is listed here. Timezones ar
+ e not stated\; AoE is assumed.\n\nCall for papers: https://attend.ieee.org
+ /isgt-asia-2026/\nDetails: https://langestefan.github.io/powersystem-deadl
+ ines/conference/isgt-asia26
+LOCATION:Wuhan\, China
+URL;VALUE=URI:https://attend.ieee.org/isgt-asia-2026/
+CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isgt-asia26-author_registration@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20261011T115959Z
+DTEND:20261011T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:ISGT Asia 2026 — Author registration
+DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
+ GT Asia 2026)\n\nAuthor registration: 10 Oct 2026\, 23:59 AoE\n\nConferenc
+ e: October 30 - November 1\, 2026\nLocation: Wuhan\, China\n\nAll dates:\n
+   Paper submission: 10 Sept 2026\, 23:59 AoE\n  Acceptance notification: 2
+ 0 Sept 2026\, 23:59 AoE\n  Author registration: 10 Oct 2026\, 23:59 AoE\n 
+  Final paper submission: 20 Oct 2026\, 23:59 AoE\n\nThemed "New Energy and
+  Power Technologies Toward Carbon Neutrality"\, hosted by Wuhan University
+ . The call gives submission and notification as windows rather than single
+  dates\; the closing date of each window is listed here. Timezones are not
+  stated\; AoE is assumed.\n\nCall for papers: https://attend.ieee.org/isgt
+ -asia-2026/\nDetails: https://langestefan.github.io/powersystem-deadlines/
+ conference/isgt-asia26
+LOCATION:Wuhan\, China
+URL;VALUE=URI:https://attend.ieee.org/isgt-asia-2026/
+CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isgt-asia26-camera_ready@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20261021T115959Z
+DTEND:20261021T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:ISGT Asia 2026 — Final paper submission
+DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
+ GT Asia 2026)\n\nFinal paper submission: 20 Oct 2026\, 23:59 AoE\n\nConfer
+ ence: October 30 - November 1\, 2026\nLocation: Wuhan\, China\n\nAll dates
+ :\n  Paper submission: 10 Sept 2026\, 23:59 AoE\n  Acceptance notification
+ : 20 Sept 2026\, 23:59 AoE\n  Author registration: 10 Oct 2026\, 23:59 AoE
+ \n  Final paper submission: 20 Oct 2026\, 23:59 AoE\n\nThemed "New Energy 
+ and Power Technologies Toward Carbon Neutrality"\, hosted by Wuhan Univers
+ ity. The call gives submission and notification as windows rather than sin
+ gle dates\; the closing date of each window is listed here. Timezones are 
+ not stated\; AoE is assumed.\n\nCall for papers: https://attend.ieee.org/i
+ sgt-asia-2026/\nDetails: https://langestefan.github.io/powersystem-deadlin
+ es/conference/isgt-asia26
+LOCATION:Wuhan\, China
+URL;VALUE=URI:https://attend.ieee.org/isgt-asia-2026/
+CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isgt-asia26-event@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261102
+TRANSP:TRANSPARENT
+SUMMARY:ISGT Asia 2026
+DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
+ GT Asia 2026)\n\nConference: October 30 - November 1\, 2026\nLocation: Wuh
+ an\, China\n\nAll dates:\n  Paper submission: 10 Sept 2026\, 23:59 AoE\n  
+ Acceptance notification: 20 Sept 2026\, 23:59 AoE\n  Author registration: 
+ 10 Oct 2026\, 23:59 AoE\n  Final paper submission: 20 Oct 2026\, 23:59 AoE
+ \n\nThemed "New Energy and Power Technologies Toward Carbon Neutrality"\, 
+ hosted by Wuhan University. The call gives submission and notification as 
+ windows rather than single dates\; the closing date of each window is list
+ ed here. Timezones are not stated\; AoE is assumed.\n\nCall for papers: ht
+ tps://attend.ieee.org/isgt-asia-2026/\nDetails: https://langestefan.github
+ .io/powersystem-deadlines/conference/isgt-asia26
+LOCATION:Wuhan\, China
+URL;VALUE=URI:https://attend.ieee.org/isgt-asia-2026/
+CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

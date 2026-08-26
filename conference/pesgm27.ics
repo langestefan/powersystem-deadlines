@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IEEE PES GM 2027 — Power System Deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IEEE Power & Energy Society General Me
+ eting 2027.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
+ ence/pesgm27.ics
+BEGIN:VEVENT
+UID:pesgm27-paper@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20261111T115959Z
+DTEND:20261111T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:IEEE PES GM 2027 — Paper submission
+DESCRIPTION:IEEE Power & Energy Society General Meeting (IEEE PES GM 2027)\
+ n\nPaper submission: 10 Nov 2026\, 23:59 AoE\n\nConference: July 25-29\, 2
+ 027\nLocation: San Francisco\, USA\n\nNot yet announced: Author notificati
+ on\n\nPapers are limited to five pages. The submission site opens 6 Octobe
+ r 2026 and notifications are expected in mid-March 2027\, without a stated
+  date. Timezones are not stated in the call for papers\; AoE is assumed.\n
+ \nCall for papers: https://pes-gm.org/\nDetails: https://langestefan.githu
+ b.io/powersystem-deadlines/conference/pesgm27
+LOCATION:San Francisco\, USA
+URL;VALUE=URI:https://pes-gm.org/
+CATEGORIES:Power Systems,Transmission,Distribution,Renewables,Smart Grid
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pesgm27-event@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART;VALUE=DATE:20270725
+DTEND;VALUE=DATE:20270730
+TRANSP:TRANSPARENT
+SUMMARY:IEEE PES GM 2027
+DESCRIPTION:IEEE Power & Energy Society General Meeting (IEEE PES GM 2027)\
+ n\nConference: July 25-29\, 2027\nLocation: San Francisco\, USA\n\nNot yet
+  announced: Author notification\n\nPapers are limited to five pages. The s
+ ubmission site opens 6 October 2026 and notifications are expected in mid-
+ March 2027\, without a stated date. Timezones are not stated in the call f
+ or papers\; AoE is assumed.\n\nCall for papers: https://pes-gm.org/\nDetai
+ ls: https://langestefan.github.io/powersystem-deadlines/conference/pesgm27
+LOCATION:San Francisco\, USA
+URL;VALUE=URI:https://pes-gm.org/
+CATEGORIES:Power Systems,Transmission,Distribution,Renewables,Smart Grid
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

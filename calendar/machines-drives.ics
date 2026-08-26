@@ -1,0 +1,422 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Power System Deadlines — Machines & Drives
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines for conferences tagged "Machines & Drives".
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
+ ar/machines-drives.ics
+BEGIN:VEVENT
+UID:iecon26-paper@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20260801T115959Z
+DTEND:20260801T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:IECON 2026 — Paper submission (extended)
+DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
+ ECON 2026)\n\nPaper submission (extended): 31 Jul 2026\, 23:59 AoE\n\nConf
+ erence: October 18-21\, 2026\nLocation: Doha\, Qatar\n\nAll dates:\n  Pape
+ r submission (extended): 31 Jul 2026\, 23:59 AoE\n  Acceptance notificatio
+ n: 10 Aug 2026\, 23:59 AoE\n  Final submission and registration: 30 Aug 20
+ 26\, 23:59 AoE\n\n52nd annual conference of the IES. Timezones are not sta
+ ted in the call for papers\; AoE is assumed.\n\nCall for papers: https://w
+ ww.iecon2026.org/\nDetails: https://langestefan.github.io/powersystem-dead
+ lines/conference/iecon26
+LOCATION:Doha\, Qatar
+URL;VALUE=URI:https://www.iecon2026.org/
+CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iecon26-notification@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20260811T115959Z
+DTEND:20260811T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:IECON 2026 — Acceptance notification
+DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
+ ECON 2026)\n\nAcceptance notification: 10 Aug 2026\, 23:59 AoE\n\nConferen
+ ce: October 18-21\, 2026\nLocation: Doha\, Qatar\n\nAll dates:\n  Paper su
+ bmission (extended): 31 Jul 2026\, 23:59 AoE\n  Acceptance notification: 1
+ 0 Aug 2026\, 23:59 AoE\n  Final submission and registration: 30 Aug 2026\,
+  23:59 AoE\n\n52nd annual conference of the IES. Timezones are not stated 
+ in the call for papers\; AoE is assumed.\n\nCall for papers: https://www.i
+ econ2026.org/\nDetails: https://langestefan.github.io/powersystem-deadline
+ s/conference/iecon26
+LOCATION:Doha\, Qatar
+URL;VALUE=URI:https://www.iecon2026.org/
+CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iecon26-camera_ready@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20260831T115959Z
+DTEND:20260831T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:IECON 2026 — Final submission and registration
+DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
+ ECON 2026)\n\nFinal submission and registration: 30 Aug 2026\, 23:59 AoE\n
+ \nConference: October 18-21\, 2026\nLocation: Doha\, Qatar\n\nAll dates:\n
+   Paper submission (extended): 31 Jul 2026\, 23:59 AoE\n  Acceptance notif
+ ication: 10 Aug 2026\, 23:59 AoE\n  Final submission and registration: 30 
+ Aug 2026\, 23:59 AoE\n\n52nd annual conference of the IES. Timezones are n
+ ot stated in the call for papers\; AoE is assumed.\n\nCall for papers: htt
+ ps://www.iecon2026.org/\nDetails: https://langestefan.github.io/powersyste
+ m-deadlines/conference/iecon26
+LOCATION:Doha\, Qatar
+URL;VALUE=URI:https://www.iecon2026.org/
+CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:apec27-abstract@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20260822T115959Z
+DTEND:20260822T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:APEC 2027 — Technical session digest submission
+DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC 
+ 2027)\n\nTechnical session digest submission: 21 Aug 2026\, 23:59 AoE\n\nC
+ onference: March 7-11\, 2027\nLocation: New Orleans\, USA\nVenue: Ernest N
+ . Morial Convention Center\n\nAll dates:\n  Technical session digest submi
+ ssion: 21 Aug 2026\, 23:59 AoE\n  Acceptance and decline notices: 12 Oct 2
+ 026\, 23:59 AoE\n  Final manuscript and author registration: 7 Dec 2026\, 
+ 23:59 AoE\n\nThe digest deadline was extended from 14 to 21 August 2026. A
+ n author manuscript training session is held on 12 November 2026. Timezone
+ s are not stated in the call for papers\; AoE is assumed.\n\nCall for pape
+ rs: https://apec-conf.org/\nDetails: https://langestefan.github.io/powersy
+ stem-deadlines/conference/apec27
+LOCATION:New Orleans\, USA
+URL;VALUE=URI:https://apec-conf.org/
+CATEGORIES:Power Electronics,Machines & Drives,Energy Storage,EV & Transpor
+ tation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:apec27-notification@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20261013T115959Z
+DTEND:20261013T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:APEC 2027 — Acceptance and decline notices
+DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC 
+ 2027)\n\nAcceptance and decline notices: 12 Oct 2026\, 23:59 AoE\n\nConfer
+ ence: March 7-11\, 2027\nLocation: New Orleans\, USA\nVenue: Ernest N. Mor
+ ial Convention Center\n\nAll dates:\n  Technical session digest submission
+ : 21 Aug 2026\, 23:59 AoE\n  Acceptance and decline notices: 12 Oct 2026\,
+  23:59 AoE\n  Final manuscript and author registration: 7 Dec 2026\, 23:59
+  AoE\n\nThe digest deadline was extended from 14 to 21 August 2026. An aut
+ hor manuscript training session is held on 12 November 2026. Timezones are
+  not stated in the call for papers\; AoE is assumed.\n\nCall for papers: h
+ ttps://apec-conf.org/\nDetails: https://langestefan.github.io/powersystem-
+ deadlines/conference/apec27
+LOCATION:New Orleans\, USA
+URL;VALUE=URI:https://apec-conf.org/
+CATEGORIES:Power Electronics,Machines & Drives,Energy Storage,EV & Transpor
+ tation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:apec27-camera_ready@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20261208T115959Z
+DTEND:20261208T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:APEC 2027 — Final manuscript and author registration
+DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC 
+ 2027)\n\nFinal manuscript and author registration: 7 Dec 2026\, 23:59 AoE\
+ n\nConference: March 7-11\, 2027\nLocation: New Orleans\, USA\nVenue: Erne
+ st N. Morial Convention Center\n\nAll dates:\n  Technical session digest s
+ ubmission: 21 Aug 2026\, 23:59 AoE\n  Acceptance and decline notices: 12 O
+ ct 2026\, 23:59 AoE\n  Final manuscript and author registration: 7 Dec 202
+ 6\, 23:59 AoE\n\nThe digest deadline was extended from 14 to 21 August 202
+ 6. An author manuscript training session is held on 12 November 2026. Time
+ zones are not stated in the call for papers\; AoE is assumed.\n\nCall for 
+ papers: https://apec-conf.org/\nDetails: https://langestefan.github.io/pow
+ ersystem-deadlines/conference/apec27
+LOCATION:New Orleans\, USA
+URL;VALUE=URI:https://apec-conf.org/
+CATEGORIES:Power Electronics,Machines & Drives,Energy Storage,EV & Transpor
+ tation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ias-am27-abstract@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20261208T115959Z
+DTEND:20261208T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:IEEE IAS Annual Meeting 2027 — Digest submission
+DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
+ ual Meeting 2027)\n\nDigest submission: 7 Dec 2026\, 23:59 AoE\n\nConferen
+ ce: Dates to be announced\nLocation: Location TBA\n\nAll dates:\n  Digest 
+ submission: 7 Dec 2026\, 23:59 AoE\n  Author notification: 15 Feb 2027\, 2
+ 3:59 AoE\n  Final paper with IEEE copyright form: 15 Apr 2027\, 23:59 AoE\
+ n\nEvery accepted paper must be covered by a full conference registration 
+ before the final manuscript is submitted. The venue and dates were not yet
+  published when this entry was added. Timezones are not stated in the call
+  for papers\; AoE is assumed.\n\nCall for papers: https://ias-am.ieee.org/
+ 2027/\nDetails: https://langestefan.github.io/powersystem-deadlines/confer
+ ence/ias-am27
+LOCATION:Location TBA
+URL;VALUE=URI:https://ias-am.ieee.org/2027/
+CATEGORIES:Machines & Drives,Power Electronics,Power Quality,Protection & A
+ utomation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ias-am27-notification@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20270216T115959Z
+DTEND:20270216T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:IEEE IAS Annual Meeting 2027 — Author notification
+DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
+ ual Meeting 2027)\n\nAuthor notification: 15 Feb 2027\, 23:59 AoE\n\nConfe
+ rence: Dates to be announced\nLocation: Location TBA\n\nAll dates:\n  Dige
+ st submission: 7 Dec 2026\, 23:59 AoE\n  Author notification: 15 Feb 2027\
+ , 23:59 AoE\n  Final paper with IEEE copyright form: 15 Apr 2027\, 23:59 A
+ oE\n\nEvery accepted paper must be covered by a full conference registrati
+ on before the final manuscript is submitted. The venue and dates were not 
+ yet published when this entry was added. Timezones are not stated in the c
+ all for papers\; AoE is assumed.\n\nCall for papers: https://ias-am.ieee.o
+ rg/2027/\nDetails: https://langestefan.github.io/powersystem-deadlines/con
+ ference/ias-am27
+LOCATION:Location TBA
+URL;VALUE=URI:https://ias-am.ieee.org/2027/
+CATEGORIES:Machines & Drives,Power Electronics,Power Quality,Protection & A
+ utomation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ias-am27-camera_ready@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20270416T115959Z
+DTEND:20270416T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:IEEE IAS Annual Meeting 2027 — Final paper with IEEE copyright fo
+ rm
+DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
+ ual Meeting 2027)\n\nFinal paper with IEEE copyright form: 15 Apr 2027\, 2
+ 3:59 AoE\n\nConference: Dates to be announced\nLocation: Location TBA\n\nA
+ ll dates:\n  Digest submission: 7 Dec 2026\, 23:59 AoE\n  Author notificat
+ ion: 15 Feb 2027\, 23:59 AoE\n  Final paper with IEEE copyright form: 15 A
+ pr 2027\, 23:59 AoE\n\nEvery accepted paper must be covered by a full conf
+ erence registration before the final manuscript is submitted. The venue an
+ d dates were not yet published when this entry was added. Timezones are no
+ t stated in the call for papers\; AoE is assumed.\n\nCall for papers: http
+ s://ias-am.ieee.org/2027/\nDetails: https://langestefan.github.io/powersys
+ tem-deadlines/conference/ias-am27
+LOCATION:Location TBA
+URL;VALUE=URI:https://ias-am.ieee.org/2027/
+CATEGORIES:Machines & Drives,Power Electronics,Power Quality,Protection & A
+ utomation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecce26-abstract@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20260228T115959Z
+DTEND:20260228T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:ECCE 2026 — Digest submission
+DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nD
+ igest submission: 27 Feb 2026\, 23:59 AoE\n\nConference: October 4-8\, 202
+ 6\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest submission: 27 Feb
+  2026\, 23:59 AoE\n  Author notification: 22 May 2026\, 23:59 AoE\n  Final
+  paper with IEEE copyright form: 10 Jul 2026\, 23:59 AoE\n\nDigests are si
+ ngle-column\, at most five pages including references\, and are double-bli
+ nd reviewed. The submission deadline was extended past 27 February 2026. T
+ imezones are not stated in the call for papers\; AoE is assumed.\n\nCall f
+ or papers: https://www.ieee-ecce.org/2026/\nDetails: https://langestefan.g
+ ithub.io/powersystem-deadlines/conference/ecce26
+LOCATION:Vancouver\, Canada
+URL;VALUE=URI:https://www.ieee-ecce.org/2026/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
+  & Transportation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecce26-notification@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20260523T115959Z
+DTEND:20260523T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:ECCE 2026 — Author notification
+DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nA
+ uthor notification: 22 May 2026\, 23:59 AoE\n\nConference: October 4-8\, 2
+ 026\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest submission: 27 F
+ eb 2026\, 23:59 AoE\n  Author notification: 22 May 2026\, 23:59 AoE\n  Fin
+ al paper with IEEE copyright form: 10 Jul 2026\, 23:59 AoE\n\nDigests are 
+ single-column\, at most five pages including references\, and are double-b
+ lind reviewed. The submission deadline was extended past 27 February 2026.
+  Timezones are not stated in the call for papers\; AoE is assumed.\n\nCall
+  for papers: https://www.ieee-ecce.org/2026/\nDetails: https://langestefan
+ .github.io/powersystem-deadlines/conference/ecce26
+LOCATION:Vancouver\, Canada
+URL;VALUE=URI:https://www.ieee-ecce.org/2026/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
+  & Transportation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecce26-camera_ready@langestefan.github.io
+DTSTAMP:20260826T144402Z
+DTSTART:20260711T115959Z
+DTEND:20260711T122959Z
+TRANSP:TRANSPARENT
+SUMMARY:ECCE 2026 — Final paper with IEEE copyright form
+DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nF
+ inal paper with IEEE copyright form: 10 Jul 2026\, 23:59 AoE\n\nConference
+ : October 4-8\, 2026\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest
+  submission: 27 Feb 2026\, 23:59 AoE\n  Author notification: 22 May 2026\,
+  23:59 AoE\n  Final paper with IEEE copyright form: 10 Jul 2026\, 23:59 Ao
+ E\n\nDigests are single-column\, at most five pages including references\,
+  and are double-blind reviewed. The submission deadline was extended past 
+ 27 February 2026. Timezones are not stated in the call for papers\; AoE is
+  assumed.\n\nCall for papers: https://www.ieee-ecce.org/2026/\nDetails: ht
+ tps://langestefan.github.io/powersystem-deadlines/conference/ecce26
+LOCATION:Vancouver\, Canada
+URL;VALUE=URI:https://www.ieee-ecce.org/2026/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
+  & Transportation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+END:VCALENDAR
