@@ -56,6 +56,7 @@ editions:
 | `year`            | yes      | The year the conference takes place                             |
 | `id`              | yes      | Unique site-wide. Lowercase name + two-digit year: `pscc26`     |
 | `date`            | yes      | Human-readable, shown verbatim: `June 8-12, 2026`               |
+| `verified`        | yes      | Date you last checked this edition against the official CFP     |
 | `link`            | no       | Only when this edition has its own site                         |
 | `city`, `country` | no       | `country` must be one this repo knows, see below                |
 | `region`          | no       | Derived from `country`; set it only when derivation fails       |
@@ -93,6 +94,24 @@ deadlines:
 
   The headline countdown uses the soonest deadline that is something an author has to *submit*, so
   a notification date never hides a paper deadline.
+
+### Keeping entries fresh
+
+`verified:` is the date someone last opened the conference's own call for papers and confirmed
+the dates in the entry. It is required on every edition, and a pull request without it fails the
+build.
+
+Bump it whenever you re-check, **even when nothing changed** — "these dates were still correct on
+this date" is exactly the information a reader needs, and it is the one thing the data cannot show
+on its own. Validation warns when an entry is going stale:
+
+| Next deadline        | Re-check within |
+| -------------------- | --------------- |
+| 60 days away or less | 30 days         |
+| further out, or TBA  | 120 days        |
+
+Editions whose deadlines and event have all passed are exempt. Staleness is a warning, not an
+error, so it never blocks an unrelated pull request.
 
 ### Timezones
 

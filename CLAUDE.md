@@ -56,6 +56,9 @@ Layer boundaries that exist on purpose, and should stay:
   are deliberately fixed offsets, never DST-resolved.
 - **`feeds.ts`** defines each published feed once, so the endpoints that generate them and the
   `/subscribe` page that lists them cannot drift.
+- **`verification.ts`** owns the freshness rule: every edition carries a required `verified:`
+  date, and this module decides when that check has aged enough to warn about. Pure, so both
+  `scripts/validate.ts` and the pages share one definition of "stale".
 
 ### Single sources of truth
 
@@ -75,7 +78,12 @@ Layer boundaries that exist on purpose, and should stay:
 `src/content.config.ts` covers per-field rules and runs as part of `astro sync`/`astro build`.
 `scripts/validate.ts` covers what a per-entry schema cannot see: duplicate edition IDs across files,
 ID/year disagreement, deadlines out of order, a deadline after the conference starts, unknown
-country. It distinguishes **errors** (exit 1, block CI) from **warnings** (advisory).
+country, and a `verified:` date that has gone stale. It distinguishes **errors** (exit 1, block CI)
+from **warnings** (advisory).
+
+Staleness is deliberately a *warning*: an entry ageing out is the passage of time, not a fault in
+the pull request at hand, and failing on it would block every open PR at once for something none of
+them did. A *missing* `verified:` is an error, enforced by the schema.
 
 ### Rendering model
 
@@ -104,6 +112,9 @@ why `deploy.yml` also rebuilds on a daily cron.
   editing a date moves an existing calendar entry instead of creating a duplicate. Anything that
   changes UID composition is a breaking change for subscribers.
 - Every date must come from the official call for papers; `CONTRIBUTING.md` is the field reference.
+- `verified:` records when a human last checked an edition against its CFP. Bump it on every
+  re-check, including one that finds nothing changed — "still correct on this date" is the whole
+  point, and it is the one thing the data cannot show on its own.
 
 ## Conventions
 

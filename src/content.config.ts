@@ -60,6 +60,24 @@ const deadlineSchema = z.object({
   link: z.string().url().optional(),
 });
 
+/**
+ * The date someone last checked this edition against its official call for
+ * papers. Required, because an entry that was right when it was written is the
+ * failure mode this project exists to avoid: deadlines get extended and TBAs
+ * get dated without anything in the data changing to say so.
+ */
+const verifiedDay = z
+  .union([z.string().regex(DATE_RE, 'Use the YYYY-MM-DD format.'), z.date()], {
+    error: (issue) =>
+      issue.input === undefined
+        ? '`verified` is missing. Set it to the date you last checked this edition ' +
+          'against the official call for papers, e.g. `verified: 2026-08-26`.'
+        : `"${issue.input}" is not a date. Use the YYYY-MM-DD form, e.g. 2026-08-26.`,
+  })
+  .transform((value) =>
+    typeof value === 'string' ? value : value.toISOString().slice(0, 10),
+  );
+
 const editionSchema = z.object({
   year: z.number().int().min(2000).max(2100),
   /** Globally unique. Convention: lowercase series slug + two-digit year, e.g. pscc26. */
@@ -75,6 +93,8 @@ const editionSchema = z.object({
   venue: z.string().optional(),
   /** Human-readable event dates, shown verbatim, e.g. "June 15-19, 2026". */
   date: z.string().min(1),
+  /** Date this edition was last checked against the official call for papers. */
+  verified: verifiedDay,
   start: dayString.optional(),
   end: dayString.optional(),
   format: z.enum(['in-person', 'hybrid', 'online']).default('in-person'),

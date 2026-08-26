@@ -50,6 +50,12 @@ editions:
 
     # Human-readable event dates, shown exactly as written.
     date: June 8-12, 2027
+
+    # The date you last read this conference's official call for papers and
+    # confirmed the dates below. Required. Bump it whenever you re-check, even
+    # if nothing changed -- "still correct on this date" is the useful part.
+    verified: 2026-08-26
+
     start: 2027-06-08
     end: 2027-06-12
 

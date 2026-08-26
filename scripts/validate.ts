@@ -17,6 +17,9 @@ import { parse } from 'yaml';
 import { regionForCountry } from '../src/lib/regions.ts';
 import { REGIONS, TAGS } from '../src/lib/taxonomy.ts';
 import { fixedOffsetMinutes, isIanaZone, isTba, toUtc } from '../src/lib/time.ts';
+import { describeAge, verificationStatus } from '../src/lib/verification.ts';
+
+const NOW = new Date();
 
 const CONFERENCES_DIR = fileURLToPath(new URL('../src/data/conferences', import.meta.url));
 const TAG_IDS = new Set(TAGS.map((tag) => tag.id));
@@ -108,6 +111,28 @@ for (const name of files) {
       seenIds.set(id, file);
     }
 
+    // --- verification ------------------------------------------------------
+    // Required, so a contribution cannot silently omit when it was last checked.
+    const verifiedRaw = asDay(edition.verified);
+    let verified: Date | null = null;
+
+    if (!verifiedRaw) {
+      report(
+        file,
+        where,
+        'error',
+        'No `verified:` date. Set it to the date you last checked this edition ' +
+          'against the official call for papers, e.g. `verified: 2026-08-26`.',
+      );
+    } else if (!/^\d{4}-\d{2}-\d{2}$/.test(verifiedRaw)) {
+      report(file, where, 'error', `\`verified: ${verifiedRaw}\` is not a YYYY-MM-DD date.`);
+    } else {
+      verified = new Date(`${verifiedRaw}T00:00:00Z`);
+      if (verified.getTime() > NOW.getTime()) {
+        report(file, where, 'error', `\`verified: ${verifiedRaw}\` is in the future.`);
+      }
+    }
+
     // --- id / year agreement ---------------------------------------------
     const idYear = yearFromId(id);
     if (idYear !== null && typeof edition.year === 'number' && idYear !== edition.year) {
@@ -161,6 +186,8 @@ for (const name of files) {
       report(file, where, 'warning', 'No deadlines listed, so it shows as "dates not announced".');
     }
 
+    const futureDeadlines: Date[] = [];
+    let hasTba = false;
     let previous: Date | null = null;
     for (const deadline of deadlines) {
       if (!deadline || typeof deadline !== 'object') continue;
@@ -198,7 +225,10 @@ for (const name of files) {
         }
       }
 
-      if (isTba(deadline.date)) continue;
+      if (isTba(deadline.date)) {
+        hasTba = true;
+        continue;
+      }
 
       let instant: Date;
       try {
@@ -217,9 +247,35 @@ for (const name of files) {
         );
       }
       previous = instant;
+      if (instant.getTime() > NOW.getTime()) futureDeadlines.push(instant);
 
       if (start && instant.toISOString().slice(0, 10) > start) {
         report(file, where, 'warning', `Deadline "${label}" falls after the conference starts.`);
+      }
+    }
+
+    // --- staleness ---------------------------------------------------------
+    // A warning, never an error: an entry going stale is the passage of time,
+    // not a fault in the pull request in front of us, and failing here would
+    // block every open PR at once for something none of them did.
+    if (verified) {
+      const endDay = end ?? start;
+      const eventAhead = endDay ? endDay >= NOW.toISOString().slice(0, 10) : true;
+      const upcoming = futureDeadlines.length > 0 || hasTba || eventAhead;
+      const nextDeadline = futureDeadlines.length
+        ? new Date(Math.min(...futureDeadlines.map((d) => d.getTime())))
+        : null;
+
+      const status = verificationStatus(verified, nextDeadline, upcoming, NOW);
+      if (status.stale) {
+        report(
+          file,
+          where,
+          'warning',
+          `Last checked ${describeAge(status.ageDays)}. Re-read the call for papers and ` +
+            `bump \`verified:\`, or confirm the dates still stand ` +
+            `(limit for this edition: ${status.maxAgeDays} days).`,
+        );
       }
     }
   }

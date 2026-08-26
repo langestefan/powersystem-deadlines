@@ -8,6 +8,7 @@ import { locationLabel } from '@/lib/conferences';
 import { withBase } from '@/lib/site';
 import { getTag, tagLabel } from '@/lib/taxonomy';
 import { formatInZone, timezoneLabel } from '@/lib/time';
+import { describeAge, editionVerification } from '@/lib/verification';
 
 interface Props {
   edition: ConferenceEdition;
@@ -16,6 +17,10 @@ interface Props {
 const { edition } = Astro.props;
 
 const headline = edition.nextDeadline ?? edition.nextAnyDeadline ?? edition.deadlines[0] ?? null;
+
+// Shown only when it has gone stale: a freshness note on every card would be
+// noise, but a card nobody has re-checked in months is worth flagging.
+const verification = editionVerification(edition);
 
 // Everything the client-side filter needs, precomputed so it never touches the DOM text.
 const searchHaystack = [
@@ -111,6 +116,16 @@ const searchHaystack = [
       edition.society.map((society) => (
         <Badge class="border bg-transparent text-muted-foreground">{society}</Badge>
       ))
+    }
+    {
+      verification.stale && (
+        <Badge
+          class="border border-dashed bg-transparent text-muted-foreground"
+          title={`Last checked against the call for papers ${describeAge(verification.ageDays)}.`}
+        >
+          Unverified for {describeAge(verification.ageDays).replace(' ago', '')}
+        </Badge>
+      )
     }
 
     <a

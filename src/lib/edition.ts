@@ -45,6 +45,8 @@ export interface ConferenceEdition {
   venue?: string;
   /** Human-readable event dates as written in the CFP. */
   dateLabel: string;
+  /** Date this edition was last checked against its call for papers. */
+  verified: Date;
   start?: Date;
   end?: Date;
   format: EditionData['format'];
@@ -122,6 +124,7 @@ export function flattenEdition(
     region: edition.region ?? regionForCountry(edition.country),
     venue: edition.venue,
     dateLabel: edition.date,
+    verified: new Date(`${edition.verified}T00:00:00Z`),
     start,
     end,
     format: edition.format,

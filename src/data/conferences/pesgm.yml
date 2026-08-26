@@ -21,6 +21,7 @@ editions:
     city: San Francisco
     country: USA
     date: July 25-29, 2027
+    verified: 2026-08-26
     start: 2027-07-25
     end: 2027-07-29
     format: in-person

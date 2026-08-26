@@ -19,6 +19,7 @@ editions:
     id: ias-am27
     link: https://ias-am.ieee.org/2027/
     date: Dates to be announced
+    verified: 2026-08-26
     format: in-person
     proceedings: IEEE Xplore
     submission_type: extended-abstract

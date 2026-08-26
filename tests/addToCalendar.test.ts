@@ -28,6 +28,7 @@ function fixture(): ConferenceEdition {
       city: 'Delft',
       country: 'Netherlands',
       date: 'June 8-12, 2027',
+      verified: '2026-08-26',
       format: 'in-person',
       cancelled: false,
       timezone: 'AoE',

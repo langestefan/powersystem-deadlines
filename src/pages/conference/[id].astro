@@ -1,6 +1,6 @@
 ---
 import type { GetStaticPaths } from 'astro';
-import { CalendarDays, ExternalLink, FileText, MapPin, Users } from '@lucide/astro';
+import { CalendarDays, ExternalLink, FileText, MapPin, ShieldCheck, Users } from '@lucide/astro';
 
 import Badge from '@/components/Badge.astro';
 import Countdown from '@/components/Countdown.astro';
@@ -11,6 +11,7 @@ import { getAllEditions, locationLabel, type ConferenceEdition } from '@/lib/con
 import { conferenceFeedPath, feedUrl, googleSubscribeUrl, webcalUrl } from '@/lib/feeds';
 import { withBase } from '@/lib/site';
 import { getTag, tagLabel } from '@/lib/taxonomy';
+import { describeAge, editionVerification } from '@/lib/verification';
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const editions = await getAllEditions();
@@ -34,11 +35,20 @@ const { edition, siblings } = Astro.props;
 const headline = edition.nextDeadline ?? edition.nextAnyDeadline;
 const feedPath = conferenceFeedPath(edition.id);
 
+const verification = editionVerification(edition);
+
 const facts = [
   { icon: MapPin, label: 'Location', value: edition.venue ?? locationLabel(edition) },
   { icon: CalendarDays, label: 'Conference dates', value: edition.dateLabel },
   { icon: Users, label: 'Organised by', value: edition.society.join(', ') },
   { icon: FileText, label: 'Proceedings', value: edition.proceedings },
+  {
+    icon: ShieldCheck,
+    label: 'Checked against the CFP',
+    value: verification.stale
+      ? `${describeAge(verification.ageDays)} - may be out of date`
+      : describeAge(verification.ageDays),
+  },
 ].filter((fact) => Boolean(fact.value));
 
 const submissionLabels: Record<string, string> = {

@@ -23,6 +23,7 @@ editions:
     country: Spain
     venue: Valencia Conference Center
     date: September 14-18, 2026
+    verified: 2026-08-26
     start: 2026-09-14
     end: 2026-09-18
     format: in-person
@@ -39,6 +40,7 @@ editions:
     country: Germany
     venue: Eurogress Aachen
     date: August 30 - September 3, 2027
+    verified: 2026-08-26
     start: 2027-08-30
     end: 2027-09-03
     format: in-person
