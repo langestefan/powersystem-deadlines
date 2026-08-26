@@ -1,0 +1,112 @@
+---
+import '@/styles/global.css';
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
+import { SITE_DESCRIPTION, SITE_TITLE, withBase } from '@/lib/site';
+
+interface Props {
+  title?: string;
+  description?: string;
+  /** Path of the current page, used for the canonical URL and nav highlighting. */
+  path?: string;
+}
+
+const { title, description = SITE_DESCRIPTION, path = '/' } = Astro.props;
+const pageTitle = title ? `${title} · ${SITE_TITLE}` : SITE_TITLE;
+const canonical = new URL(withBase(path), Astro.site ?? 'https://example.org');
+---
+
+<!doctype html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical.href} />
+    <link rel="icon" href={withBase('/favicon.svg')} type="image/svg+xml" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical.href} />
+    <meta name="twitter:card" content="summary" />
+
+    <link
+      rel="alternate"
+      type="text/calendar"
+      href={withBase('/calendar/all.ics')}
+      title="All deadlines"
+    />
+
+    <!--
+      Applied before first paint so a dark-mode reload never flashes white.
+      Deliberately inline and blocking: it is three lines.
+    -->
+    <script is:inline>
+      (() => {
+        const stored = localStorage.getItem('theme');
+        const dark =
+          stored === 'dark' ||
+          (!stored && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        document.documentElement.classList.toggle('dark', dark);
+      })();
+    </script>
+  </head>
+
+  <body class="flex min-h-full flex-col">
+    <Header path={path} />
+    <main class="mx-auto w-full max-w-6xl flex-1 px-4 py-8 sm:px-6">
+      <slot />
+    </main>
+    <Footer />
+
+    <script>
+      /**
+       * One ticker for every countdown on the page. A React island per card
+       * would mean dozens of roots doing the same second-by-second work; this
+       * is a single interval over a static NodeList.
+       */
+      const URGENCY = [
+        { within: 0, className: 'text-passed' },
+        { within: 7 * 86_400_000, className: 'text-urgent' },
+        { within: 30 * 86_400_000, className: 'text-soon' },
+        { within: Infinity, className: 'text-later' },
+      ];
+      const ALL_CLASSES = URGENCY.map((level) => level.className);
+      const pad = (value: number) => String(value).padStart(2, '0');
+
+      function tick() {
+        const now = Date.now();
+        const nodes = document.querySelectorAll<HTMLElement>('[data-countdown]');
+
+        for (const node of nodes) {
+          const target = Date.parse(node.dataset.countdown ?? '');
+          if (Number.isNaN(target)) continue;
+
+          const remaining = target - now;
+          const level = URGENCY.find((entry) => remaining <= entry.within) ?? URGENCY.at(-1)!;
+          node.classList.remove(...ALL_CLASSES);
+          node.classList.add(level.className);
+
+          if (remaining <= 0) {
+            node.textContent = 'passed';
+            continue;
+          }
+
+          const days = Math.floor(remaining / 86_400_000);
+          const hours = Math.floor(remaining / 3_600_000) % 24;
+          const minutes = Math.floor(remaining / 60_000) % 60;
+          const seconds = Math.floor(remaining / 1000) % 60;
+          node.textContent = `${days}d ${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
+        }
+
+        return nodes.length;
+      }
+
+      if (tick() > 0) {
+        setInterval(tick, 1000);
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  # Weekly rebuild so the .ics feeds stay fresh even without commits.
+  schedule:
+    - cron: '17 4 * * 1'
+  workflow_dispatch:
+
+# Never let two deploys race for the gh-pages branch.
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run build
+
+      - name: Publish to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          user_name: github-actions[bot]
+          user_email: github-actions[bot]@users.noreply.github.com
+          commit_message: 'deploy: ${{ github.event.head_commit.message || github.sha }}'
+          # TODO: uncomment once the custom domain's DNS points here, and update
+          # SITE_URL in src/lib/site.ts to match. Setting a domain you do not own
+          # breaks the github.io URL, so this stays off until then.
+          # cname: powersystem-deadlines.org

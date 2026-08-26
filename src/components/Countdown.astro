@@ -1,0 +1,39 @@
+---
+import { cn } from '@/lib/utils';
+import { countdownParts, urgencyOf } from '@/lib/time';
+
+interface Props {
+  /** The deadline instant. Null renders a "TBA" placeholder. */
+  target: Date | null;
+  class?: string;
+}
+
+const { target, class: className } = Astro.props;
+
+const urgencyClasses: Record<string, string> = {
+  urgent: 'text-urgent',
+  soon: 'text-soon',
+  later: 'text-later',
+  passed: 'text-passed',
+};
+
+// Rendered server-side so the value is correct before hydration and readable
+// with JavaScript disabled; the ticker in BaseLayout takes over on load.
+const parts = target ? countdownParts(target) : null;
+const urgency = target ? urgencyOf(target) : 'passed';
+
+const pad = (value: number) => String(value).padStart(2, '0');
+const initial = parts
+  ? parts.passed
+    ? 'passed'
+    : `${parts.days}d ${pad(parts.hours)}:${pad(parts.minutes)}:${pad(parts.seconds)}`
+  : 'TBA';
+---
+
+<span
+  data-countdown={target ? target.toISOString() : undefined}
+  data-countdown-placeholder
+  class={cn('font-mono text-sm font-semibold tabular-nums', urgencyClasses[urgency], className)}
+>
+  {initial}
+</span>

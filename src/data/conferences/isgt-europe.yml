@@ -1,0 +1,38 @@
+name: ISGT Europe
+full_name: IEEE PES Innovative Smart Grid Technologies Conference Europe
+link: https://ieee-isgt-europe.org/
+society:
+  - IEEE PES
+frequency: annual
+tags:
+  - smart-grid
+  - distribution
+  - renewables
+  - power-systems
+description: >-
+  The European edition of the IEEE PES ISGT series, covering smart grid
+  technologies from distribution automation and flexibility markets to
+  large-scale renewable integration.
+
+editions:
+  - year: 2026
+    id: isgt-europe26
+    city: Budapest
+    country: Hungary
+    date: October 19-22, 2026
+    start: 2026-10-19
+    end: 2026-10-22
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    timezone: AoE
+    deadlines:
+      - type: paper
+        label: Paper submission
+        date: '2026-04-15 23:59:59'
+      - type: camera_ready
+        label: Final paper submission
+        date: '2026-09-15 23:59:59'
+    note: >-
+      Final paper submission opened 15 August 2026. Timezones are not stated in
+      the call for papers; AoE is assumed.

@@ -1,0 +1,92 @@
+# ---------------------------------------------------------------------------
+# Conference template. Copy this file to <conference-slug>.yml and fill it in.
+# Files starting with "_" are ignored by the site.
+#
+# One file per conference SERIES. Each year the conference runs becomes one
+# entry under `editions:` — do not create a second file for a new year.
+#
+# Run `npm run validate` before opening your pull request.
+# ---------------------------------------------------------------------------
+
+# Short name, as people say it out loud.
+name: BESTCONF
+
+# Full official name, spelled out.
+full_name: Best Conference on Anything Power Related
+
+# The series homepage (an edition can override this below).
+link: https://example.org/
+
+# Organising body. One or more of:
+#   IEEE PES, IEEE PELS, IEEE IAS, IEEE IES, IEEE VTS, IEEE ComSoc,
+#   CIGRE, CIRED, IET, EPE, ACM, PSCC, VDE ETG, Other
+society:
+  - IEEE PES
+
+# annual | biennial | irregular
+frequency: annual
+
+# One or more tags. See CONTRIBUTING.md for the full list; unknown tags fail CI.
+tags:
+  - power-systems
+  - smart-grid
+
+# Optional. One or two sentences shown on the conference page.
+description: >-
+  What this conference is about and who submits to it.
+
+editions:
+  - year: 2027
+
+    # Unique across the whole site. Convention: lowercase name + two-digit year.
+    id: bestconf27
+
+    # Optional, only when this edition has its own website.
+    link: https://bestconf2027.example.org/
+
+    city: Delft
+    country: Netherlands
+    venue: TU Delft Aula Congress Centre
+
+    # Human-readable event dates, shown exactly as written.
+    date: June 8-12, 2027
+    start: 2027-06-08
+    end: 2027-06-12
+
+    # in-person | hybrid | online
+    format: in-person
+
+    # Where accepted papers are published.
+    proceedings: IEEE Xplore
+
+    # full-paper | abstract-first | extended-abstract
+    submission_type: full-paper
+
+    # Default timezone for the deadlines below. Prefer "AoE" or an IANA name
+    # such as "Europe/Amsterdam". A per-deadline `timezone:` overrides this.
+    timezone: AoE
+
+    deadlines:
+      # `type` drives icons and the headline countdown. Recommended values:
+      #   abstract, paper, notification, rebuttal_start, rebuttal_end,
+      #   camera_ready, early_registration, author_registration,
+      #   tutorial_proposal, panel_proposal, workshop_proposal, poster,
+      #   presentation_upload
+      # `label` is shown verbatim — copy the wording from the call for papers.
+      # `date` must be quoted: 'YYYY-MM-DD HH:mm:ss', or the literal 'TBA'.
+      - type: abstract
+        label: Abstract submission
+        date: '2026-10-15 23:59:59'
+
+      - type: paper
+        label: Full paper submission
+        date: '2026-12-01 23:59:59'
+        # Per-deadline override, when one deadline uses a different zone.
+        timezone: Europe/Amsterdam
+
+      - type: notification
+        label: Author notification
+        date: 'TBA'
+
+    # Optional free text: anything a submitter should know.
+    note: Accepted papers are considered for a journal special issue.

@@ -1,0 +1,49 @@
+name: PSCC
+full_name: Power Systems Computation Conference
+link: https://pscc-central.epfl.ch/
+society:
+  - PSCC
+frequency: biennial
+tags:
+  - power-systems
+  - computation-optimization
+  - reliability-planning
+description: >-
+  A biennial European conference on the computational and mathematical side of
+  power systems. Abstract-first: accepted papers appear in a special issue of
+  Electric Power Systems Research rather than IEEE Xplore.
+
+editions:
+  - year: 2026
+    id: pscc26
+    link: https://pscc2026.cy/
+    city: Limassol
+    country: Cyprus
+    venue: St. Raphael Resort
+    date: June 8-12, 2026
+    start: 2026-06-08
+    end: 2026-06-12
+    format: in-person
+    proceedings: Electric Power Systems Research (EPSR) special issue
+    submission_type: abstract-first
+    timezone: AoE
+    deadlines:
+      - type: abstract
+        label: One-page abstract submission
+        date: '2025-06-15 23:59:59'
+      - type: notification
+        label: Abstract acceptance notification
+        date: '2025-06-22 23:59:59'
+      - type: paper
+        label: Full paper submission
+        date: '2025-10-15 23:59:59'
+      - type: notification
+        label: Acceptance and revision requests
+        date: '2026-02-08 23:59:59'
+      - type: camera_ready
+        label: Final manuscript submission
+        date: '2026-03-15 23:59:59'
+    note: >-
+      Submission is abstract-first: a one-page abstract must be accepted before
+      the full paper can be submitted. Timezones are not stated in the call for
+      papers; AoE is assumed.

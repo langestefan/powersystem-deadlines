@@ -1,0 +1,109 @@
+---
+import ConferenceCard from '@/components/ConferenceCard.astro';
+import FilterBar from '@/components/FilterBar.tsx';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getUpcomingEditions, type ConferenceEdition } from '@/lib/conferences';
+import { withBase } from '@/lib/site';
+import { REGIONS, SOCIETIES, TAGS, tagLabel } from '@/lib/taxonomy';
+import { urgencyOf } from '@/lib/time';
+
+const editions = await getUpcomingEditions();
+
+/** Buckets shown as headings, in order. */
+const GROUPS = [
+  { id: 'urgent', title: 'Next 7 days', hint: 'Closing this week' },
+  { id: 'soon', title: 'Next 30 days', hint: null },
+  { id: 'later', title: 'Later', hint: null },
+  { id: 'tba', title: 'Dates not announced', hint: 'Deadline expected but not yet published' },
+] as const;
+
+function groupOf(edition: ConferenceEdition): (typeof GROUPS)[number]['id'] {
+  const next = edition.nextDeadline ?? edition.nextAnyDeadline;
+  if (!next?.utc) return 'tba';
+  const urgency = urgencyOf(next.utc);
+  return urgency === 'passed' ? 'tba' : urgency;
+}
+
+const grouped = GROUPS.map((group) => ({
+  ...group,
+  editions: editions.filter((edition) => groupOf(edition) === group.id),
+})).filter((group) => group.editions.length > 0);
+
+/** Filter options, each with the number of listed conferences it would match. */
+const countBy = <T,>(values: readonly T[], predicate: (edition: ConferenceEdition, value: T) => boolean) =>
+  values
+    .map((value) => ({
+      value,
+      count: editions.filter((edition) => predicate(edition, value)).length,
+    }))
+    .filter((entry) => entry.count > 0);
+
+const tagOptions = countBy(TAGS, (edition, tag) => edition.tags.includes(tag.id)).map(
+  ({ value, count }) => ({
+    id: value.id,
+    label: value.label,
+    className: value.className,
+    count,
+  }),
+);
+
+const societyOptions = countBy(SOCIETIES, (edition, society) =>
+  edition.society.includes(society),
+).map(({ value, count }) => ({ id: value, label: value, count }));
+
+const regionOptions = countBy(REGIONS, (edition, region) => edition.region === region).map(
+  ({ value, count }) => ({ id: value, label: value, count }),
+);
+---
+
+<BaseLayout path="/">
+  <section class="mb-6">
+    <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">
+      Power system conference deadlines
+    </h1>
+    <p class="mt-2 max-w-2xl text-muted-foreground">
+      Countdowns to submission deadlines across power systems, power electronics and the grid.
+      <a class="text-primary underline underline-offset-4" href={withBase('/subscribe')}>
+        Subscribe from your calendar app
+      </a> so you never have to check back.
+    </p>
+  </section>
+
+  <FilterBar
+    client:load
+    tags={tagOptions}
+    societies={societyOptions}
+    regions={regionOptions}
+    totalCount={editions.length}
+  />
+
+  {
+    editions.length === 0 && (
+      <p class="mt-8 rounded-lg border border-dashed p-8 text-center text-muted-foreground">
+        No conferences yet.
+      </p>
+    )
+  }
+
+  <div class="mt-6 space-y-8">
+    {
+      grouped.map((group) => (
+        <section data-card-group>
+          <div class="mb-3 flex items-baseline gap-3">
+            <h2 class="text-sm font-semibold tracking-wide uppercase opacity-70">
+              {group.title}
+            </h2>
+            {group.hint && <p class="text-xs text-muted-foreground">{group.hint}</p>}
+          </div>
+          <div class="space-y-3">
+            {group.editions.map((edition) => (
+              <div data-card-slot>
+                <ConferenceCard edition={edition} />
+              </div>
+            ))}
+          </div>
+        </section>
+      ))
+    }
+  </div>
+</BaseLayout>
