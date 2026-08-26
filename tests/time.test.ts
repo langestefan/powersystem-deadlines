@@ -4,6 +4,7 @@ import {
   countdownParts,
   fixedOffsetMinutes,
   formatInZone,
+  formatTimeInZone,
   isTba,
   isValidTimezone,
   toUtc,
@@ -116,5 +117,25 @@ describe('formatInZone', () => {
   it('renders an IANA instant in that zone', () => {
     const instant = toUtc('2026-07-15 23:59:59', 'Europe/Amsterdam');
     expect(formatInZone(instant, 'Europe/Amsterdam')).toMatch(/23:59/);
+  });
+});
+
+describe('formatTimeInZone', () => {
+  const aoeDeadline = new Date('2026-10-16T11:59:59Z'); // 2026-10-15 23:59:59 AoE
+
+  it('renders the clock time in the deadline\u2019s own zone, without the date', () => {
+    expect(formatTimeInZone(aoeDeadline, 'AoE')).toBe('23:59');
+  });
+
+  it('honours daylight saving for an IANA zone', () => {
+    const summer = new Date('2026-07-31T21:59:59Z'); // 23:59:59 CEST
+    const winter = new Date('2026-12-01T22:59:59Z'); // 23:59:59 CET
+    expect(formatTimeInZone(summer, 'Europe/Amsterdam')).toBe('23:59');
+    expect(formatTimeInZone(winter, 'Europe/Amsterdam')).toBe('23:59');
+  });
+
+  it('handles a half-hour offset zone', () => {
+    const ist = new Date('2026-10-15T18:29:59Z'); // 23:59:59 IST (UTC+5:30)
+    expect(formatTimeInZone(ist, 'UTC+05:30')).toBe('23:59');
   });
 });

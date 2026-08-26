@@ -1,6 +1,6 @@
 import { locationLabel, type ConferenceEdition, type ResolvedDeadline } from './edition';
 import type { IcsEvent } from './ics';
-import { formatInZone, timezoneLabel } from './time';
+import { formatInZone, formatTimeInZone, timezoneLabel } from './time';
 import { tagLabel } from './taxonomy';
 
 /**
@@ -83,6 +83,38 @@ function describeEdition(
   return lines.join('\n');
 }
 
+/**
+ * The deadline's own calendar date, read from the wall-clock string rather than
+ * from the UTC instant.
+ *
+ * This distinction is the whole point of the all-day form. A deadline of
+ * 2026-07-31 23:59:59 AoE is 2026-08-01 11:59:59Z, so deriving the day from the
+ * instant would file it under 1 August when every call for papers, and every
+ * author, calls it 31 July. Being a day late here is how somebody misses a
+ * submission.
+ */
+export function deadlineDay(deadline: ResolvedDeadline): Date {
+  return new Date(`${deadline.raw.slice(0, 10)}T00:00:00Z`);
+}
+
+/**
+ * Title for a deadline event, carrying the stated time and zone.
+ *
+ * An all-day event has no clock position, so "23:59 AoE" would otherwise be
+ * lost. Showing it in the deadline's own zone keeps it recognisable against the
+ * call for papers, instead of a local time the reader has to convert back.
+ */
+export function deadlineSummary(
+  edition: ConferenceEdition,
+  deadline: ResolvedDeadline,
+): string {
+  const base = `${edition.name} ${edition.year}: ${deadline.label}`;
+  if (!deadline.utc) return base;
+
+  const time = formatTimeInZone(deadline.utc, deadline.timezone);
+  return `${base} (${time} ${timezoneLabel(deadline.timezone)})`;
+}
+
 /** One VEVENT per dated deadline across the given editions. */
 export function deadlineEvents(
   editions: ConferenceEdition[],
@@ -103,10 +135,16 @@ export function deadlineEvents(
       // TBA deadlines have no instant to place on a calendar.
       if (!deadline.utc) continue;
 
+      const day = deadlineDay(deadline);
+
       events.push({
         uid: deadlineUid(edition, deadline, ordinal, domain),
-        start: deadline.utc,
-        summary: `${edition.name} ${edition.year}: ${deadline.label}`,
+        start: day,
+        // All-day, so the deadline reads as the date the CFP states instead of
+        // landing at whatever local clock time the AoE instant converts to.
+        allDay: true,
+        allDayEnd: day,
+        summary: deadlineSummary(edition, deadline),
         description: describeEdition(edition, deadline, siteUrl),
         location: locationLabel(edition),
         url: deadline.link ?? edition.link,

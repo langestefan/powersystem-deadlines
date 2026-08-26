@@ -1,5 +1,5 @@
+import { deadlineDay, deadlineSummary } from './calendar';
 import { locationLabel, type ConferenceEdition, type ResolvedDeadline } from './edition';
-import { formatUtc } from './ics';
 
 /**
  * "Add to calendar" deep links for a single deadline.
@@ -8,17 +8,30 @@ import { formatUtc } from './ics';
  * blob downloads, and nothing to break when a viewer has scripts disabled. The
  * Apple/other case points at the conference's own .ics file, which has the
  * advantage of staying up to date if the deadline moves.
+ *
+ * The event is all-day on the deadline's stated date, matching what the .ics
+ * feed publishes. The two must agree: a button that files a deadline on a
+ * different day from the subscribed feed makes the site contradict itself.
  */
 
-const THIRTY_MINUTES = 30 * 60_000;
+const ONE_DAY = 86_400_000;
 
-function eventWindow(deadline: ResolvedDeadline): { start: Date; end: Date } | null {
+/** Start day plus the exclusive end day both services expect for an all-day event. */
+function eventDays(deadline: ResolvedDeadline): { start: Date; endExclusive: Date } | null {
   if (!deadline.utc) return null;
-  return { start: deadline.utc, end: new Date(deadline.utc.getTime() + THIRTY_MINUTES) };
+
+  const start = deadlineDay(deadline);
+  return { start, endExclusive: new Date(start.getTime() + ONE_DAY) };
 }
 
-function summaryFor(edition: ConferenceEdition, deadline: ResolvedDeadline): string {
-  return `${edition.name} ${edition.year}: ${deadline.label}`;
+/** YYYY-MM-DD. */
+function isoDay(date: Date): string {
+  return date.toISOString().slice(0, 10);
+}
+
+/** YYYYMMDD, the compact form Google's template URL takes. */
+function compactDay(date: Date): string {
+  return isoDay(date).replace(/-/g, '');
 }
 
 function detailsFor(edition: ConferenceEdition, deadline: ResolvedDeadline): string {
@@ -33,13 +46,13 @@ export function googleCalendarUrl(
   edition: ConferenceEdition,
   deadline: ResolvedDeadline,
 ): string | null {
-  const window = eventWindow(deadline);
-  if (!window) return null;
+  const days = eventDays(deadline);
+  if (!days) return null;
 
   const params = new URLSearchParams({
     action: 'TEMPLATE',
-    text: summaryFor(edition, deadline),
-    dates: `${formatUtc(window.start)}/${formatUtc(window.end)}`,
+    text: deadlineSummary(edition, deadline),
+    dates: `${compactDay(days.start)}/${compactDay(days.endExclusive)}`,
     details: detailsFor(edition, deadline),
     location: locationLabel(edition),
   });
@@ -51,15 +64,16 @@ export function outlookCalendarUrl(
   edition: ConferenceEdition,
   deadline: ResolvedDeadline,
 ): string | null {
-  const window = eventWindow(deadline);
-  if (!window) return null;
+  const days = eventDays(deadline);
+  if (!days) return null;
 
   const params = new URLSearchParams({
     path: '/calendar/action/compose',
     rru: 'addevent',
-    subject: summaryFor(edition, deadline),
-    startdt: window.start.toISOString(),
-    enddt: window.end.toISOString(),
+    subject: deadlineSummary(edition, deadline),
+    allday: 'true',
+    startdt: isoDay(days.start),
+    enddt: isoDay(days.endExclusive),
     body: detailsFor(edition, deadline),
     location: locationLabel(edition),
   });

@@ -176,6 +176,26 @@ export function urgencyOf(target: Date, from: Date = new Date()): Urgency {
   return 'later';
 }
 
+/**
+ * Just the clock time in a specific timezone, e.g. "23:59".
+ *
+ * Deadline events are all-day, so the stated time has nowhere to live except
+ * the event title. Same zone handling as formatInZone: a fixed offset is
+ * applied literally, an IANA zone goes through Intl so DST is honoured.
+ */
+export function formatTimeInZone(instant: Date, timezone: string, locale = 'en-GB'): string {
+  const offset = fixedOffsetMinutes(timezone);
+
+  if (offset !== null) {
+    const shifted = new Date(instant.getTime() + offset * 60_000);
+    return new Intl.DateTimeFormat(locale, { timeStyle: 'short', timeZone: 'UTC' }).format(shifted);
+  }
+
+  return new Intl.DateTimeFormat(locale, { timeStyle: 'short', timeZone: timezone }).format(
+    instant,
+  );
+}
+
 /** Render an instant in a specific timezone, e.g. "6 Oct 2025, 23:59". */
 export function formatInZone(instant: Date, timezone: string, locale = 'en-GB'): string {
   const offset = fixedOffsetMinutes(timezone);
