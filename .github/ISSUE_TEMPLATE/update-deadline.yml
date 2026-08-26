@@ -1,0 +1,50 @@
+name: Correct a deadline
+description: A listed date is wrong, has moved, or has been extended.
+title: 'Fix: '
+labels: [correction]
+body:
+  - type: markdown
+    attributes:
+      value: Deadlines move constantly — thanks for catching this one.
+
+  - type: input
+    id: conference
+    attributes:
+      label: Which conference
+      description: Name and year, or the URL of its page on the site.
+      placeholder: ISGT Europe 2026
+    validations:
+      required: true
+
+  - type: input
+    id: milestone
+    attributes:
+      label: Which date
+      placeholder: Final paper submission
+    validations:
+      required: true
+
+  - type: input
+    id: listed
+    attributes:
+      label: What the site says
+      placeholder: 15 Sept 2026, 23:59 AoE
+    validations:
+      required: true
+
+  - type: input
+    id: correct
+    attributes:
+      label: What it should say
+      placeholder: 30 Sept 2026, 23:59 AoE
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: The official page showing the correct date.
+      placeholder: https://example.org/important-dates
+    validations:
+      required: true

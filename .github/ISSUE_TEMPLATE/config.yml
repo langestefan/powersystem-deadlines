@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Question or idea
+    url: https://github.com/langestefan/powersystems-deadlines/discussions
+    about: For anything that is not a conference to add or a date to correct.

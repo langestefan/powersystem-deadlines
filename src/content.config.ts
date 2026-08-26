@@ -17,13 +17,11 @@ import { isValidTimezone, TBA } from './lib/time';
 const DATETIME_RE = /^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$/;
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 
-const timezone = z
-  .string()
-  .refine(isValidTimezone, (value) => ({
-    message:
-      `"${value}" is not a recognised timezone. Use "AoE", an IANA name ` +
-      `(e.g. "Europe/Amsterdam"), a "UTC+2"-style offset, or an abbreviation like "CET".`,
-  }));
+const timezone = z.string().refine(isValidTimezone, {
+  error: (issue) =>
+    `"${issue.input}" is not a recognised timezone. Use "AoE", an IANA name ` +
+    `(e.g. "Europe/Amsterdam"), a "UTC+2"-style offset, or an abbreviation like "CET".`,
+});
 
 /**
  * YAML parses a bare `2026-06-08` into a Date, so `start:`/`end:` accept either
@@ -45,12 +43,10 @@ const deadlineDate = z
           'YAML reads them as UTC and the timezone field is ignored.'
         : 'Deadline must be a quoted "YYYY-MM-DD HH:mm:ss" string or "TBA".',
   })
-  .refine(
-    (value) => value === TBA || DATETIME_RE.test(value),
-    (value) => ({
-      message: `"${value}" must be "YYYY-MM-DD HH:mm:ss" (quote it in YAML) or "${TBA}".`,
-    }),
-  );
+  .refine((value) => value === TBA || DATETIME_RE.test(value), {
+    error: (issue) =>
+      `"${issue.input}" must be "YYYY-MM-DD HH:mm:ss" (quote it in YAML) or "${TBA}".`,
+  });
 
 const deadlineSchema = z.object({
   /** Machine-readable kind, e.g. "paper". See DEADLINE_TYPES in lib/taxonomy.ts. */
@@ -108,9 +104,11 @@ const conferenceSchema = z.object({
   editions: z.array(editionSchema).min(1, 'A conference needs at least one edition.'),
 });
 
-export type ConferenceSeriesData = z.infer<typeof conferenceSchema>;
-export type EditionData = z.infer<typeof editionSchema>;
-export type DeadlineData = z.infer<typeof deadlineSchema>;
+// Derived from the schemas via parse() rather than z.infer, because the `z`
+// re-exported by astro:content is a value export and carries no type namespace.
+export type ConferenceSeriesData = ReturnType<typeof conferenceSchema.parse>;
+export type EditionData = ReturnType<typeof editionSchema.parse>;
+export type DeadlineData = ReturnType<typeof deadlineSchema.parse>;
 
 const conferences = defineCollection({
   loader: glob({

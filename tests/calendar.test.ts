@@ -1,4 +1,4 @@
-import ical from 'node-ical';
+import ical, { type VEvent } from 'node-ical';
 import { describe, expect, it } from 'vitest';
 
 import { conferenceEvents, deadlineEvents } from '@/lib/calendar';
@@ -136,28 +136,30 @@ describe('the published feed, read back by a calendar client', () => {
   });
 
   const parsed = ical.sync.parseICS(feed);
-  const events = Object.values(parsed).filter((entry) => entry.type === 'VEVENT');
+  const events = Object.values(parsed).filter(
+    (entry): entry is VEvent => entry?.type === 'VEVENT',
+  );
 
   it('parses, with one event per dated deadline plus the conference itself', () => {
     expect(events).toHaveLength(4);
   });
 
   it('round-trips the deadline to the right instant', () => {
-    const abstract = events.find((event) => `${event.summary}`.includes('Abstract submission'));
+    const abstract = events.find((event) => String(event.summary).includes('Abstract submission'));
     expect(abstract?.start?.toISOString()).toBe('2026-10-16T11:59:59.000Z');
   });
 
   it('round-trips escaped punctuation in the description', () => {
-    const abstract = events.find((event) => `${event.summary}`.includes('Abstract submission'));
-    expect(`${abstract?.description}`).toContain('Location: Delft, Netherlands');
+    const abstract = events.find((event) => String(event.summary).includes('Abstract submission'));
+    expect(String(abstract?.description)).toContain('Location: Delft, Netherlands');
   });
 
   it('round-trips the all-day event as a date-valued range', () => {
-    const conference = events.find((event) => `${event.summary}` === 'TESTCONF 2027');
+    const conference = events.find((event) => String(event.summary) === 'TESTCONF 2027');
     expect(conference?.datetype).toBe('date');
     // Date-valued events are floating: clients place them at local midnight, so
     // compare calendar fields rather than the UTC instant.
-    const start = conference?.start as Date;
+    const start = conference!.start;
     expect([start.getFullYear(), start.getMonth() + 1, start.getDate()]).toEqual([2027, 6, 8]);
   });
 });
