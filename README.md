@@ -13,8 +13,7 @@ Submission deadlines for power system conferences, with calendar feeds.
 | One topic        | `.../calendar/<tag>.ics`, e.g. `power-electronics.ics`                      |
 | One conference   | `.../conference/<id>.ics`, e.g. `pscc26.ics`                                |
 
-Each deadline carries reminders one week and one day ahead. The
-[subscribe page](https://langestefan.github.io/powersystem-deadlines/subscribe) has one-click
+The [subscribe page](https://langestefan.github.io/powersystem-deadlines/subscribe) has one-click
 links for Google Calendar, Apple Calendar and Outlook.
 
 ## Contributing

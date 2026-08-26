@@ -26,7 +26,7 @@ export const ALL_DEADLINES_FEED: FeedDefinition = {
   path: '/calendar/all.ics',
   name: `${SITE_TITLE}: all deadlines`,
   label: 'All deadlines',
-  description: 'Every submission deadline tracked here, each with a reminder a week and a day before.',
+  description: 'Every submission deadline tracked here.',
   kind: 'all',
 };
 

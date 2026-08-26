@@ -8,7 +8,11 @@ import { tagLabel } from './taxonomy';
  * the RFC-5545 layer stays domain-free and independently testable.
  */
 
-/** Reminders attached to every deadline event. */
+/**
+ * Reminders attached to every deadline event. Whether these actually fire is up
+ * to the subscriber's client: alarms on subscribed calendars are honoured
+ * inconsistently, so treat them as a bonus rather than something to promise.
+ */
 const DEADLINE_ALARMS = [
   { trigger: '-P7D', description: 'One week until this submission deadline' },
   { trigger: '-P1D', description: 'One day until this submission deadline' },
