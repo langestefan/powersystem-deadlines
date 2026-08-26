@@ -56,9 +56,16 @@ const regionOptions = countBy(REGIONS, (edition, region) => edition.region === r
 ---
 
 <BaseLayout path="/">
-  <h1 class="mb-6 text-2xl font-bold tracking-tight sm:text-3xl">
+  <h1 class="mb-3 text-2xl font-bold tracking-tight sm:text-3xl">
     Power system conference deadlines
   </h1>
+
+  <p class="mb-6 text-sm text-muted-foreground">
+    Times are shown in the zone each call for papers states.
+    <strong class="font-semibold text-foreground">AoE</strong> is Anywhere on Earth (UTC&minus;12):
+    a deadline is still open until that date has passed everywhere in the world, so 23:59 AoE is
+    midday the next day in Europe.
+  </p>
 
   <FilterBar
     client:load
