@@ -13,6 +13,9 @@ export default defineConfig({
   site: origin,
   base: BASE_PATH || undefined,
   trailingSlash: 'ignore',
+  // Astro 7 defaults to 'jsx', which strips the whitespace between prose and an
+  // inline <a>, running words together. These templates are prose-heavy.
+  compressHTML: true,
   integrations: [react(), sitemap()],
   vite: {
     plugins: [tailwindcss()],

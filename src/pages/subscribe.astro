@@ -3,9 +3,17 @@ import SubscribeLinks from '@/components/SubscribeLinks.tsx';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getAllEditions, tagsInUse } from '@/lib/conferences';
 import { allFeeds, feedUrl, googleSubscribeUrl, webcalUrl } from '@/lib/feeds';
+import { withBase } from '@/lib/site';
+import { tagLabel } from '@/lib/taxonomy';
 
 const editions = await getAllEditions();
 const feeds = allFeeds(tagsInUse(editions));
+
+// The two headline feeds get the full treatment; the per-topic ones are a
+// compact list, so the page does not become sixteen identical cards — and so
+// only two copy-to-clipboard islands hydrate instead of eighteen.
+const primary = feeds.filter((feed) => feed.kind !== 'tag');
+const topicFeeds = feeds.filter((feed) => feed.kind === 'tag');
 
 const instructions = [
   {
@@ -44,14 +52,10 @@ const instructions = [
 
   <section class="mt-8 space-y-3">
     {
-      feeds.map((feed) => (
+      primary.map((feed) => (
         <div class="rounded-lg border bg-card p-4 shadow-sm">
-          <div class="flex flex-wrap items-start justify-between gap-4">
-            <div class="min-w-0">
-              <h2 class="font-semibold">{feed.name}</h2>
-              <p class="mt-0.5 text-sm text-muted-foreground">{feed.description}</p>
-            </div>
-          </div>
+          <h2 class="font-semibold">{feed.name}</h2>
+          <p class="mt-0.5 text-sm text-muted-foreground">{feed.description}</p>
           <div class="mt-3">
             <SubscribeLinks
               client:visible
@@ -63,6 +67,38 @@ const instructions = [
         </div>
       ))
     }
+  </section>
+
+  <section class="mt-10">
+    <h2 class="text-lg font-semibold">By topic</h2>
+    <p class="mt-2 max-w-2xl text-sm text-muted-foreground">
+      Each topic has its own feed, covering only the conferences tagged with it.
+    </p>
+
+    <ul class="mt-4 grid gap-x-6 sm:grid-cols-2">
+      {
+        topicFeeds.map((feed) => (
+          <li class="flex items-center justify-between gap-3 border-b py-2.5 text-sm">
+            <span class="min-w-0 truncate">{tagLabel(feed.tag!)}</span>
+            <span class="flex shrink-0 items-center gap-2 text-xs">
+              <a class="text-muted-foreground hover:text-primary" href={webcalUrl(feed.path)}>
+                Apple / Outlook
+              </a>
+              <a
+                class="text-muted-foreground hover:text-primary"
+                href={googleSubscribeUrl(feed.path)}
+                rel="noopener"
+              >
+                Google
+              </a>
+              <a class="text-muted-foreground hover:text-primary" href={withBase(feed.path)}>
+                .ics
+              </a>
+            </span>
+          </li>
+        ))
+      }
+    </ul>
   </section>
 
   <section class="mt-10">
