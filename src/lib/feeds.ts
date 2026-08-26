@@ -10,8 +10,13 @@ import { SITE_TITLE, absoluteUrl, withBase } from './site';
 export interface FeedDefinition {
   /** Site-absolute path, without the deployment base prefix. */
   path: string;
-  /** Calendar name a subscriber sees in their client. */
+  /**
+   * Calendar name a subscriber sees in their client. Carries the site name,
+   * which is what tells the feed apart from the rest of their calendars.
+   */
   name: string;
+  /** Short heading used on the site, where the site name is already obvious. */
+  label: string;
   description: string;
   kind: 'all' | 'events' | 'tag';
   tag?: TagId;
@@ -20,13 +25,15 @@ export interface FeedDefinition {
 export const ALL_DEADLINES_FEED: FeedDefinition = {
   path: '/calendar/all.ics',
   name: `${SITE_TITLE}: all deadlines`,
-  description: 'Every submission deadline tracked on the site.',
+  label: 'All deadlines',
+  description: 'Every deadline on the site.',
   kind: 'all',
 };
 
 export const EVENTS_FEED: FeedDefinition = {
   path: '/calendar/events.ics',
   name: `${SITE_TITLE}: conference dates`,
+  label: 'Conference dates',
   description: 'The conferences themselves, as all-day events.',
   kind: 'events',
 };
@@ -35,6 +42,7 @@ export function tagFeed(tag: TagId): FeedDefinition {
   return {
     path: `/calendar/${tag}.ics`,
     name: `${SITE_TITLE}: ${tagLabel(tag)}`,
+    label: tagLabel(tag),
     description: `Deadlines for conferences tagged "${tagLabel(tag)}".`,
     kind: 'tag',
     tag,

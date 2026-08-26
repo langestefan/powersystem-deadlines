@@ -4,7 +4,6 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getAllEditions, tagsInUse } from '@/lib/conferences';
 import { allFeeds, feedUrl, googleSubscribeUrl, webcalUrl } from '@/lib/feeds';
 import { withBase } from '@/lib/site';
-import { tagLabel } from '@/lib/taxonomy';
 
 const editions = await getAllEditions();
 const feeds = allFeeds(tagsInUse(editions));
@@ -43,18 +42,13 @@ const instructions = [
   title="Subscribe"
   description="Subscribe to power system conference deadlines from Google Calendar, Apple Calendar, Outlook or any other calendar app."
 >
-  <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">Subscribe to the deadlines</h1>
-  <p class="mt-2 max-w-2xl text-muted-foreground">
-    Live feeds, not one-off downloads. Your calendar updates itself when a deadline changes here,
-    and every deadline carries reminders one week and one day ahead.
-  </p>
+  <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">Subscribe</h1>
 
   <section class="mt-8 space-y-3">
     {
       primary.map((feed) => (
         <div class="rounded-lg border bg-card p-4 shadow-sm">
-          <h2 class="font-semibold">{feed.name}</h2>
-          <p class="mt-0.5 text-sm text-muted-foreground">{feed.description}</p>
+          <h2 class="font-semibold">{feed.label}</h2>
           <div class="mt-3">
             <SubscribeLinks
               client:visible
@@ -75,7 +69,7 @@ const instructions = [
       {
         topicFeeds.map((feed) => (
           <li class="flex items-center justify-between gap-3 border-b py-2.5 text-sm">
-            <span class="min-w-0 truncate">{tagLabel(feed.tag!)}</span>
+            <span class="min-w-0 truncate">{feed.label}</span>
             <span class="flex shrink-0 items-center gap-2 text-xs">
               <a class="text-muted-foreground hover:text-primary" href={webcalUrl(feed.path)}>
                 Apple / Outlook
@@ -110,7 +104,7 @@ const instructions = [
       }
     </dl>
     <p class="mt-3 text-sm text-muted-foreground">
-      The feed asks to be re-read every 12 hours. Google can take up to a day.
+      Feeds ask to be re-read every 12 hours. Google can take up to a day.
     </p>
   </section>
 
