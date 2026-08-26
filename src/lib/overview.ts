@@ -45,6 +45,8 @@ export interface OverviewDeadline {
 export interface OverviewEvent {
   editionId: string;
   editionName: string;
+  /** The run as the CFP writes it, e.g. "October 18-21, 2026". */
+  dateLabel: string;
   location: string;
   /** The conference's leading topic, which colours its band. */
   topic: string;
@@ -156,6 +158,7 @@ export function buildYearOverview(
       list.push({
         editionId: edition.id,
         editionName,
+        dateLabel: edition.dateLabel,
         location: [edition.city, edition.country].filter(Boolean).join(', '),
         topic: leadTag(edition) ? tagLabel(leadTag(edition)!) : 'Conference',
         barClass: leadTag(edition) ? getTag(leadTag(edition)!)!.barClass : 'bg-primary/15',

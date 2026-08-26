@@ -64,6 +64,9 @@ function detailFor(day: OverviewDay) {
     })),
     events: day.events.map((event) => ({
       name: event.editionName,
+      // The whole run, not just this day: hovering one day of a conference
+      // should tell you when the rest of it is.
+      when: event.dateLabel,
       location: event.location,
       href: withBase(`/conference/${event.editionId}`),
     })),
@@ -274,7 +277,7 @@ function summaryFor(day: OverviewDay): string {
           rows.push(
             `<a class="mt-2 block rounded-md p-1.5 -mx-1.5 hover:bg-accent" href="${escape(event.href)}">` +
               `<span class="font-medium">${escape(event.name)}</span>` +
-              `<span class="block text-muted-foreground">In progress${event.location ? ` &middot; ${escape(event.location)}` : ''}</span></a>`,
+              `<span class="block text-muted-foreground">${escape(event.when)}${event.location ? ` &middot; ${escape(event.location)}` : ''}</span></a>`,
           );
         }
 

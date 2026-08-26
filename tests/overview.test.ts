@@ -110,6 +110,19 @@ describe('buildYearOverview', () => {
     expect(findDay(buildYearOverview([spanning], 2027, NOW), '2027-01-02')!.events).toHaveLength(1);
   });
 
+  it('carries the whole run on every day of it, so a hover shows the full dates', () => {
+    const months = buildYearOverview(
+      [edition({ id: 'a26', start: '2026-06-08', end: '2026-06-12' })],
+      2026,
+      NOW,
+    );
+    // The middle of the run still knows the conference's full date label.
+    expect(findDay(months, '2026-06-10')!.events[0]).toMatchObject({
+      editionName: 'TC 2026',
+      dateLabel: 'whenever',
+    });
+  });
+
   it('treats a single-day conference as a one-day run', () => {
     const months = buildYearOverview([edition({ id: 'a26', start: '2026-05-04' })], 2026, NOW);
     expect(findDay(months, '2026-05-04')!.events).toHaveLength(1);
