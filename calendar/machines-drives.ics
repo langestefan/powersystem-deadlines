@@ -11,104 +11,8 @@ X-WR-CALDESC:Deadlines for conferences tagged "Machines & Drives".
 SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
  ar/machines-drives.ics
 BEGIN:VEVENT
-UID:iecon26-paper@langestefan.github.io
-DTSTAMP:20260831T043427Z
-DTSTART;VALUE=DATE:20260731
-DTEND;VALUE=DATE:20260801
-TRANSP:TRANSPARENT
-SUMMARY:IECON 2026: Paper submission (extended) (23:59 AoE)
-DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
- ECON 2026)\n\nPaper submission (extended): 31 Jul 2026\, 23:59 AoE\n\nConf
- erence: October 18-21\, 2026\nLocation: Doha\, Qatar\n\nAll dates:\n  Pape
- r submission (extended): 31 Jul 2026\, 23:59 AoE\n  Acceptance notificatio
- n: 10 Aug 2026\, 23:59 AoE\n  Final submission and registration: 30 Aug 20
- 26\, 23:59 AoE\n\n52nd annual conference of the IES. Timezones are not sta
- ted in the call for papers\; AoE is assumed.\n\nCall for papers: https://w
- ww.iecon2026.org/\nDetails: https://langestefan.github.io/powersystem-dead
- lines/conference/iecon26
-LOCATION:Doha\, Qatar
-URL;VALUE=URI:https://www.iecon2026.org/
-CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:iecon26-notification@langestefan.github.io
-DTSTAMP:20260831T043427Z
-DTSTART;VALUE=DATE:20260810
-DTEND;VALUE=DATE:20260811
-TRANSP:TRANSPARENT
-SUMMARY:IECON 2026: Acceptance notification (23:59 AoE)
-DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
- ECON 2026)\n\nAcceptance notification: 10 Aug 2026\, 23:59 AoE\n\nConferen
- ce: October 18-21\, 2026\nLocation: Doha\, Qatar\n\nAll dates:\n  Paper su
- bmission (extended): 31 Jul 2026\, 23:59 AoE\n  Acceptance notification: 1
- 0 Aug 2026\, 23:59 AoE\n  Final submission and registration: 30 Aug 2026\,
-  23:59 AoE\n\n52nd annual conference of the IES. Timezones are not stated 
- in the call for papers\; AoE is assumed.\n\nCall for papers: https://www.i
- econ2026.org/\nDetails: https://langestefan.github.io/powersystem-deadline
- s/conference/iecon26
-LOCATION:Doha\, Qatar
-URL;VALUE=URI:https://www.iecon2026.org/
-CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:iecon26-camera_ready@langestefan.github.io
-DTSTAMP:20260831T043427Z
-DTSTART;VALUE=DATE:20260830
-DTEND;VALUE=DATE:20260831
-TRANSP:TRANSPARENT
-SUMMARY:IECON 2026: Final submission and registration (23:59 AoE)
-DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
- ECON 2026)\n\nFinal submission and registration: 30 Aug 2026\, 23:59 AoE\n
- \nConference: October 18-21\, 2026\nLocation: Doha\, Qatar\n\nAll dates:\n
-   Paper submission (extended): 31 Jul 2026\, 23:59 AoE\n  Acceptance notif
- ication: 10 Aug 2026\, 23:59 AoE\n  Final submission and registration: 30 
- Aug 2026\, 23:59 AoE\n\n52nd annual conference of the IES. Timezones are n
- ot stated in the call for papers\; AoE is assumed.\n\nCall for papers: htt
- ps://www.iecon2026.org/\nDetails: https://langestefan.github.io/powersyste
- m-deadlines/conference/iecon26
-LOCATION:Doha\, Qatar
-URL;VALUE=URI:https://www.iecon2026.org/
-CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pcim-europe27-abstract@langestefan.github.io
-DTSTAMP:20260831T043427Z
+DTSTAMP:20260901T043217Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 TRANSP:TRANSPARENT
@@ -144,7 +48,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pcim-europe27-camera_ready@langestefan.github.io
-DTSTAMP:20260831T043427Z
+DTSTAMP:20260901T043217Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 TRANSP:TRANSPARENT
@@ -180,7 +84,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-abstract@langestefan.github.io
-DTSTAMP:20260831T043427Z
+DTSTAMP:20260901T043217Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -212,7 +116,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-notification@langestefan.github.io
-DTSTAMP:20260831T043427Z
+DTSTAMP:20260901T043217Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 TRANSP:TRANSPARENT
@@ -245,7 +149,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-camera_ready@langestefan.github.io
-DTSTAMP:20260831T043427Z
+DTSTAMP:20260901T043217Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
@@ -279,7 +183,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-abstract@langestefan.github.io
-DTSTAMP:20260831T043427Z
+DTSTAMP:20260901T043217Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 TRANSP:TRANSPARENT
@@ -314,7 +218,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-notification@langestefan.github.io
-DTSTAMP:20260831T043427Z
+DTSTAMP:20260901T043217Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 TRANSP:TRANSPARENT
@@ -349,7 +253,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-camera_ready@langestefan.github.io
-DTSTAMP:20260831T043427Z
+DTSTAMP:20260901T043217Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 TRANSP:TRANSPARENT
@@ -384,7 +288,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ias-am27-abstract@langestefan.github.io
-DTSTAMP:20260831T043427Z
+DTSTAMP:20260901T043217Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 TRANSP:TRANSPARENT
@@ -419,7 +323,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ias-am27-notification@langestefan.github.io
-DTSTAMP:20260831T043427Z
+DTSTAMP:20260901T043217Z
 DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270216
 TRANSP:TRANSPARENT
@@ -454,7 +358,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ias-am27-camera_ready@langestefan.github.io
-DTSTAMP:20260831T043427Z
+DTSTAMP:20260901T043217Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
@@ -490,7 +394,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-abstract@langestefan.github.io
-DTSTAMP:20260831T043427Z
+DTSTAMP:20260901T043217Z
 DTSTART;VALUE=DATE:20260227
 DTEND;VALUE=DATE:20260228
 TRANSP:TRANSPARENT
@@ -524,7 +428,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-notification@langestefan.github.io
-DTSTAMP:20260831T043427Z
+DTSTAMP:20260901T043217Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -558,7 +462,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-camera_ready@langestefan.github.io
-DTSTAMP:20260831T043427Z
+DTSTAMP:20260901T043217Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 TRANSP:TRANSPARENT
@@ -577,6 +481,102 @@ LOCATION:Vancouver\, Canada
 URL;VALUE=URI:https://www.ieee-ecce.org/2026/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
   & Transportation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iecon26-paper@langestefan.github.io
+DTSTAMP:20260901T043217Z
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
+TRANSP:TRANSPARENT
+SUMMARY:IECON 2026: Paper submission (extended) (23:59 AoE)
+DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
+ ECON 2026)\n\nPaper submission (extended): 31 Jul 2026\, 23:59 AoE\n\nConf
+ erence: October 18-21\, 2026\nLocation: Doha\, Qatar\n\nAll dates:\n  Pape
+ r submission (extended): 31 Jul 2026\, 23:59 AoE\n  Acceptance notificatio
+ n: 10 Aug 2026\, 23:59 AoE\n  Final submission and registration: 30 Aug 20
+ 26\, 23:59 AoE\n\n52nd annual conference of the IES. Timezones are not sta
+ ted in the call for papers\; AoE is assumed.\n\nCall for papers: https://w
+ ww.iecon2026.org/\nDetails: https://langestefan.github.io/powersystem-dead
+ lines/conference/iecon26
+LOCATION:Doha\, Qatar
+URL;VALUE=URI:https://www.iecon2026.org/
+CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iecon26-notification@langestefan.github.io
+DTSTAMP:20260901T043217Z
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
+TRANSP:TRANSPARENT
+SUMMARY:IECON 2026: Acceptance notification (23:59 AoE)
+DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
+ ECON 2026)\n\nAcceptance notification: 10 Aug 2026\, 23:59 AoE\n\nConferen
+ ce: October 18-21\, 2026\nLocation: Doha\, Qatar\n\nAll dates:\n  Paper su
+ bmission (extended): 31 Jul 2026\, 23:59 AoE\n  Acceptance notification: 1
+ 0 Aug 2026\, 23:59 AoE\n  Final submission and registration: 30 Aug 2026\,
+  23:59 AoE\n\n52nd annual conference of the IES. Timezones are not stated 
+ in the call for papers\; AoE is assumed.\n\nCall for papers: https://www.i
+ econ2026.org/\nDetails: https://langestefan.github.io/powersystem-deadline
+ s/conference/iecon26
+LOCATION:Doha\, Qatar
+URL;VALUE=URI:https://www.iecon2026.org/
+CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iecon26-camera_ready@langestefan.github.io
+DTSTAMP:20260901T043217Z
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
+TRANSP:TRANSPARENT
+SUMMARY:IECON 2026: Final submission and registration (23:59 AoE)
+DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
+ ECON 2026)\n\nFinal submission and registration: 30 Aug 2026\, 23:59 AoE\n
+ \nConference: October 18-21\, 2026\nLocation: Doha\, Qatar\n\nAll dates:\n
+   Paper submission (extended): 31 Jul 2026\, 23:59 AoE\n  Acceptance notif
+ ication: 10 Aug 2026\, 23:59 AoE\n  Final submission and registration: 30 
+ Aug 2026\, 23:59 AoE\n\n52nd annual conference of the IES. Timezones are n
+ ot stated in the call for papers\; AoE is assumed.\n\nCall for papers: htt
+ ps://www.iecon2026.org/\nDetails: https://langestefan.github.io/powersyste
+ m-deadlines/conference/iecon26
+LOCATION:Doha\, Qatar
+URL;VALUE=URI:https://www.iecon2026.org/
+CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
 STATUS:CONFIRMED
 SEQUENCE:0
 BEGIN:VALARM
