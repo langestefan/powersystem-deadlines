@@ -11,260 +11,8 @@ X-WR-CALDESC:Deadlines for conferences tagged "Renewables".
 SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
  ar/renewables.ics
 BEGIN:VEVENT
-UID:cired27-abstract@langestefan.github.io
-DTSTAMP:20260915T043252Z
-DTSTART;VALUE=DATE:20260914
-DTEND;VALUE=DATE:20260915
-TRANSP:TRANSPARENT
-SUMMARY:CIRED 2027: Abstract submission (23:59 AoE)
-DESCRIPTION:International Conference and Exhibition on Electricity Distribu
- tion (CIRED 2027)\n\nAbstract submission: 14 Sept 2026\, 23:59 AoE\n\nConf
- erence: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAll dates:\n  A
- bstract submission: 14 Sept 2026\, 23:59 AoE\n  Notification of acceptance
- : 13 Nov 2026\, 23:59 AoE\n  Full paper submission: 22 Jan 2027\, 23:59 Ao
- E\n  Author's final notification of acceptance: 9 Apr 2027\, 23:59 AoE\n  
- Early bird registration deadline: 28 Apr 2027\, 23:59 AoE\n  Author regist
- ration deadline: 10 May 2027\, 23:59 AoE\n  Deadline to upload presentatio
- ns: 28 May 2027\, 23:59 AoE\n\n29th edition. Submission is abstract-first:
-  an accepted abstract is required before a full paper can be submitted. Ti
- mezones are not stated in the call for papers\; AoE is assumed.\n\nCall fo
- r papers: https://2027.cired.net/\nDetails: https://langestefan.github.io/
- powersystem-deadlines/conference/cired27
-LOCATION:Stockholm\, Sweden
-URL;VALUE=URI:https://2027.cired.net/
-CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:cired27-notification@langestefan.github.io
-DTSTAMP:20260915T043252Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-TRANSP:TRANSPARENT
-SUMMARY:CIRED 2027: Notification of acceptance (23:59 AoE)
-DESCRIPTION:International Conference and Exhibition on Electricity Distribu
- tion (CIRED 2027)\n\nNotification of acceptance: 13 Nov 2026\, 23:59 AoE\n
- \nConference: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAll dates
- :\n  Abstract submission: 14 Sept 2026\, 23:59 AoE\n  Notification of acce
- ptance: 13 Nov 2026\, 23:59 AoE\n  Full paper submission: 22 Jan 2027\, 23
- :59 AoE\n  Author's final notification of acceptance: 9 Apr 2027\, 23:59 A
- oE\n  Early bird registration deadline: 28 Apr 2027\, 23:59 AoE\n  Author 
- registration deadline: 10 May 2027\, 23:59 AoE\n  Deadline to upload prese
- ntations: 28 May 2027\, 23:59 AoE\n\n29th edition. Submission is abstract-
- first: an accepted abstract is required before a full paper can be submitt
- ed. Timezones are not stated in the call for papers\; AoE is assumed.\n\nC
- all for papers: https://2027.cired.net/\nDetails: https://langestefan.gith
- ub.io/powersystem-deadlines/conference/cired27
-LOCATION:Stockholm\, Sweden
-URL;VALUE=URI:https://2027.cired.net/
-CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:cired27-paper@langestefan.github.io
-DTSTAMP:20260915T043252Z
-DTSTART;VALUE=DATE:20270122
-DTEND;VALUE=DATE:20270123
-TRANSP:TRANSPARENT
-SUMMARY:CIRED 2027: Full paper submission (23:59 AoE)
-DESCRIPTION:International Conference and Exhibition on Electricity Distribu
- tion (CIRED 2027)\n\nFull paper submission: 22 Jan 2027\, 23:59 AoE\n\nCon
- ference: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAll dates:\n  
- Abstract submission: 14 Sept 2026\, 23:59 AoE\n  Notification of acceptanc
- e: 13 Nov 2026\, 23:59 AoE\n  Full paper submission: 22 Jan 2027\, 23:59 A
- oE\n  Author's final notification of acceptance: 9 Apr 2027\, 23:59 AoE\n 
-  Early bird registration deadline: 28 Apr 2027\, 23:59 AoE\n  Author regis
- tration deadline: 10 May 2027\, 23:59 AoE\n  Deadline to upload presentati
- ons: 28 May 2027\, 23:59 AoE\n\n29th edition. Submission is abstract-first
- : an accepted abstract is required before a full paper can be submitted. T
- imezones are not stated in the call for papers\; AoE is assumed.\n\nCall f
- or papers: https://2027.cired.net/\nDetails: https://langestefan.github.io
- /powersystem-deadlines/conference/cired27
-LOCATION:Stockholm\, Sweden
-URL;VALUE=URI:https://2027.cired.net/
-CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:cired27-notification-2@langestefan.github.io
-DTSTAMP:20260915T043252Z
-DTSTART;VALUE=DATE:20270409
-DTEND;VALUE=DATE:20270410
-TRANSP:TRANSPARENT
-SUMMARY:CIRED 2027: Author's final notification of acceptance (23:59 AoE)
-DESCRIPTION:International Conference and Exhibition on Electricity Distribu
- tion (CIRED 2027)\n\nAuthor's final notification of acceptance: 9 Apr 2027
- \, 23:59 AoE\n\nConference: June 14-17\, 2027\nLocation: Stockholm\, Swede
- n\n\nAll dates:\n  Abstract submission: 14 Sept 2026\, 23:59 AoE\n  Notifi
- cation of acceptance: 13 Nov 2026\, 23:59 AoE\n  Full paper submission: 22
-  Jan 2027\, 23:59 AoE\n  Author's final notification of acceptance: 9 Apr 
- 2027\, 23:59 AoE\n  Early bird registration deadline: 28 Apr 2027\, 23:59 
- AoE\n  Author registration deadline: 10 May 2027\, 23:59 AoE\n  Deadline t
- o upload presentations: 28 May 2027\, 23:59 AoE\n\n29th edition. Submissio
- n is abstract-first: an accepted abstract is required before a full paper 
- can be submitted. Timezones are not stated in the call for papers\; AoE is
-  assumed.\n\nCall for papers: https://2027.cired.net/\nDetails: https://la
- ngestefan.github.io/powersystem-deadlines/conference/cired27
-LOCATION:Stockholm\, Sweden
-URL;VALUE=URI:https://2027.cired.net/
-CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:cired27-early_registration@langestefan.github.io
-DTSTAMP:20260915T043252Z
-DTSTART;VALUE=DATE:20270428
-DTEND;VALUE=DATE:20270429
-TRANSP:TRANSPARENT
-SUMMARY:CIRED 2027: Early bird registration deadline (23:59 AoE)
-DESCRIPTION:International Conference and Exhibition on Electricity Distribu
- tion (CIRED 2027)\n\nEarly bird registration deadline: 28 Apr 2027\, 23:59
-  AoE\n\nConference: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAll
-  dates:\n  Abstract submission: 14 Sept 2026\, 23:59 AoE\n  Notification o
- f acceptance: 13 Nov 2026\, 23:59 AoE\n  Full paper submission: 22 Jan 202
- 7\, 23:59 AoE\n  Author's final notification of acceptance: 9 Apr 2027\, 2
- 3:59 AoE\n  Early bird registration deadline: 28 Apr 2027\, 23:59 AoE\n  A
- uthor registration deadline: 10 May 2027\, 23:59 AoE\n  Deadline to upload
-  presentations: 28 May 2027\, 23:59 AoE\n\n29th edition. Submission is abs
- tract-first: an accepted abstract is required before a full paper can be s
- ubmitted. Timezones are not stated in the call for papers\; AoE is assumed
- .\n\nCall for papers: https://2027.cired.net/\nDetails: https://langestefa
- n.github.io/powersystem-deadlines/conference/cired27
-LOCATION:Stockholm\, Sweden
-URL;VALUE=URI:https://2027.cired.net/
-CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:cired27-author_registration@langestefan.github.io
-DTSTAMP:20260915T043252Z
-DTSTART;VALUE=DATE:20270510
-DTEND;VALUE=DATE:20270511
-TRANSP:TRANSPARENT
-SUMMARY:CIRED 2027: Author registration deadline (23:59 AoE)
-DESCRIPTION:International Conference and Exhibition on Electricity Distribu
- tion (CIRED 2027)\n\nAuthor registration deadline: 10 May 2027\, 23:59 AoE
- \n\nConference: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAll dat
- es:\n  Abstract submission: 14 Sept 2026\, 23:59 AoE\n  Notification of ac
- ceptance: 13 Nov 2026\, 23:59 AoE\n  Full paper submission: 22 Jan 2027\, 
- 23:59 AoE\n  Author's final notification of acceptance: 9 Apr 2027\, 23:59
-  AoE\n  Early bird registration deadline: 28 Apr 2027\, 23:59 AoE\n  Autho
- r registration deadline: 10 May 2027\, 23:59 AoE\n  Deadline to upload pre
- sentations: 28 May 2027\, 23:59 AoE\n\n29th edition. Submission is abstrac
- t-first: an accepted abstract is required before a full paper can be submi
- tted. Timezones are not stated in the call for papers\; AoE is assumed.\n\
- nCall for papers: https://2027.cired.net/\nDetails: https://langestefan.gi
- thub.io/powersystem-deadlines/conference/cired27
-LOCATION:Stockholm\, Sweden
-URL;VALUE=URI:https://2027.cired.net/
-CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:cired27-presentation_upload@langestefan.github.io
-DTSTAMP:20260915T043252Z
-DTSTART;VALUE=DATE:20270528
-DTEND;VALUE=DATE:20270529
-TRANSP:TRANSPARENT
-SUMMARY:CIRED 2027: Deadline to upload presentations (23:59 AoE)
-DESCRIPTION:International Conference and Exhibition on Electricity Distribu
- tion (CIRED 2027)\n\nDeadline to upload presentations: 28 May 2027\, 23:59
-  AoE\n\nConference: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAll
-  dates:\n  Abstract submission: 14 Sept 2026\, 23:59 AoE\n  Notification o
- f acceptance: 13 Nov 2026\, 23:59 AoE\n  Full paper submission: 22 Jan 202
- 7\, 23:59 AoE\n  Author's final notification of acceptance: 9 Apr 2027\, 2
- 3:59 AoE\n  Early bird registration deadline: 28 Apr 2027\, 23:59 AoE\n  A
- uthor registration deadline: 10 May 2027\, 23:59 AoE\n  Deadline to upload
-  presentations: 28 May 2027\, 23:59 AoE\n\n29th edition. Submission is abs
- tract-first: an accepted abstract is required before a full paper can be s
- ubmitted. Timezones are not stated in the call for papers\; AoE is assumed
- .\n\nCall for papers: https://2027.cired.net/\nDetails: https://langestefa
- n.github.io/powersystem-deadlines/conference/cired27
-LOCATION:Stockholm\, Sweden
-URL;VALUE=URI:https://2027.cired.net/
-CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:isgt-europe26-paper@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20260415
 DTEND;VALUE=DATE:20260416
 TRANSP:TRANSPARENT
@@ -295,7 +43,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-europe26-camera_ready@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 TRANSP:TRANSPARENT
@@ -326,7 +74,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pcim-europe27-abstract@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 TRANSP:TRANSPARENT
@@ -362,7 +110,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pcim-europe27-camera_ready@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 TRANSP:TRANSPARENT
@@ -398,7 +146,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-paper@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 TRANSP:TRANSPARENT
@@ -433,7 +181,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-notification@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 TRANSP:TRANSPARENT
@@ -468,7 +216,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-author_registration@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 TRANSP:TRANSPARENT
@@ -503,7 +251,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-camera_ready@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 TRANSP:TRANSPARENT
@@ -538,7 +286,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pesgm27-paper@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 TRANSP:TRANSPARENT
@@ -568,8 +316,260 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:cired27-abstract@langestefan.github.io
+DTSTAMP:20260916T043305Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+TRANSP:TRANSPARENT
+SUMMARY:CIRED 2027: Abstract submission (23:59 AoE)
+DESCRIPTION:International Conference and Exhibition on Electricity Distribu
+ tion (CIRED 2027)\n\nAbstract submission: 14 Sept 2026\, 23:59 AoE\n\nConf
+ erence: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAll dates:\n  A
+ bstract submission: 14 Sept 2026\, 23:59 AoE\n  Notification of acceptance
+ : 13 Nov 2026\, 23:59 AoE\n  Full paper submission: 22 Jan 2027\, 23:59 Ao
+ E\n  Author's final notification of acceptance: 9 Apr 2027\, 23:59 AoE\n  
+ Early bird registration deadline: 28 Apr 2027\, 23:59 AoE\n  Author regist
+ ration deadline: 10 May 2027\, 23:59 AoE\n  Deadline to upload presentatio
+ ns: 28 May 2027\, 23:59 AoE\n\n29th edition. Submission is abstract-first:
+  an accepted abstract is required before a full paper can be submitted. Ti
+ mezones are not stated in the call for papers\; AoE is assumed.\n\nCall fo
+ r papers: https://2027.cired.net/\nDetails: https://langestefan.github.io/
+ powersystem-deadlines/conference/cired27
+LOCATION:Stockholm\, Sweden
+URL;VALUE=URI:https://2027.cired.net/
+CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cired27-notification@langestefan.github.io
+DTSTAMP:20260916T043305Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+TRANSP:TRANSPARENT
+SUMMARY:CIRED 2027: Notification of acceptance (23:59 AoE)
+DESCRIPTION:International Conference and Exhibition on Electricity Distribu
+ tion (CIRED 2027)\n\nNotification of acceptance: 13 Nov 2026\, 23:59 AoE\n
+ \nConference: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAll dates
+ :\n  Abstract submission: 14 Sept 2026\, 23:59 AoE\n  Notification of acce
+ ptance: 13 Nov 2026\, 23:59 AoE\n  Full paper submission: 22 Jan 2027\, 23
+ :59 AoE\n  Author's final notification of acceptance: 9 Apr 2027\, 23:59 A
+ oE\n  Early bird registration deadline: 28 Apr 2027\, 23:59 AoE\n  Author 
+ registration deadline: 10 May 2027\, 23:59 AoE\n  Deadline to upload prese
+ ntations: 28 May 2027\, 23:59 AoE\n\n29th edition. Submission is abstract-
+ first: an accepted abstract is required before a full paper can be submitt
+ ed. Timezones are not stated in the call for papers\; AoE is assumed.\n\nC
+ all for papers: https://2027.cired.net/\nDetails: https://langestefan.gith
+ ub.io/powersystem-deadlines/conference/cired27
+LOCATION:Stockholm\, Sweden
+URL;VALUE=URI:https://2027.cired.net/
+CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cired27-paper@langestefan.github.io
+DTSTAMP:20260916T043305Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+TRANSP:TRANSPARENT
+SUMMARY:CIRED 2027: Full paper submission (23:59 AoE)
+DESCRIPTION:International Conference and Exhibition on Electricity Distribu
+ tion (CIRED 2027)\n\nFull paper submission: 22 Jan 2027\, 23:59 AoE\n\nCon
+ ference: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAll dates:\n  
+ Abstract submission: 14 Sept 2026\, 23:59 AoE\n  Notification of acceptanc
+ e: 13 Nov 2026\, 23:59 AoE\n  Full paper submission: 22 Jan 2027\, 23:59 A
+ oE\n  Author's final notification of acceptance: 9 Apr 2027\, 23:59 AoE\n 
+  Early bird registration deadline: 28 Apr 2027\, 23:59 AoE\n  Author regis
+ tration deadline: 10 May 2027\, 23:59 AoE\n  Deadline to upload presentati
+ ons: 28 May 2027\, 23:59 AoE\n\n29th edition. Submission is abstract-first
+ : an accepted abstract is required before a full paper can be submitted. T
+ imezones are not stated in the call for papers\; AoE is assumed.\n\nCall f
+ or papers: https://2027.cired.net/\nDetails: https://langestefan.github.io
+ /powersystem-deadlines/conference/cired27
+LOCATION:Stockholm\, Sweden
+URL;VALUE=URI:https://2027.cired.net/
+CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cired27-notification-2@langestefan.github.io
+DTSTAMP:20260916T043305Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+TRANSP:TRANSPARENT
+SUMMARY:CIRED 2027: Author's final notification of acceptance (23:59 AoE)
+DESCRIPTION:International Conference and Exhibition on Electricity Distribu
+ tion (CIRED 2027)\n\nAuthor's final notification of acceptance: 9 Apr 2027
+ \, 23:59 AoE\n\nConference: June 14-17\, 2027\nLocation: Stockholm\, Swede
+ n\n\nAll dates:\n  Abstract submission: 14 Sept 2026\, 23:59 AoE\n  Notifi
+ cation of acceptance: 13 Nov 2026\, 23:59 AoE\n  Full paper submission: 22
+  Jan 2027\, 23:59 AoE\n  Author's final notification of acceptance: 9 Apr 
+ 2027\, 23:59 AoE\n  Early bird registration deadline: 28 Apr 2027\, 23:59 
+ AoE\n  Author registration deadline: 10 May 2027\, 23:59 AoE\n  Deadline t
+ o upload presentations: 28 May 2027\, 23:59 AoE\n\n29th edition. Submissio
+ n is abstract-first: an accepted abstract is required before a full paper 
+ can be submitted. Timezones are not stated in the call for papers\; AoE is
+  assumed.\n\nCall for papers: https://2027.cired.net/\nDetails: https://la
+ ngestefan.github.io/powersystem-deadlines/conference/cired27
+LOCATION:Stockholm\, Sweden
+URL;VALUE=URI:https://2027.cired.net/
+CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cired27-early_registration@langestefan.github.io
+DTSTAMP:20260916T043305Z
+DTSTART;VALUE=DATE:20270428
+DTEND;VALUE=DATE:20270429
+TRANSP:TRANSPARENT
+SUMMARY:CIRED 2027: Early bird registration deadline (23:59 AoE)
+DESCRIPTION:International Conference and Exhibition on Electricity Distribu
+ tion (CIRED 2027)\n\nEarly bird registration deadline: 28 Apr 2027\, 23:59
+  AoE\n\nConference: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAll
+  dates:\n  Abstract submission: 14 Sept 2026\, 23:59 AoE\n  Notification o
+ f acceptance: 13 Nov 2026\, 23:59 AoE\n  Full paper submission: 22 Jan 202
+ 7\, 23:59 AoE\n  Author's final notification of acceptance: 9 Apr 2027\, 2
+ 3:59 AoE\n  Early bird registration deadline: 28 Apr 2027\, 23:59 AoE\n  A
+ uthor registration deadline: 10 May 2027\, 23:59 AoE\n  Deadline to upload
+  presentations: 28 May 2027\, 23:59 AoE\n\n29th edition. Submission is abs
+ tract-first: an accepted abstract is required before a full paper can be s
+ ubmitted. Timezones are not stated in the call for papers\; AoE is assumed
+ .\n\nCall for papers: https://2027.cired.net/\nDetails: https://langestefa
+ n.github.io/powersystem-deadlines/conference/cired27
+LOCATION:Stockholm\, Sweden
+URL;VALUE=URI:https://2027.cired.net/
+CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cired27-author_registration@langestefan.github.io
+DTSTAMP:20260916T043305Z
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270511
+TRANSP:TRANSPARENT
+SUMMARY:CIRED 2027: Author registration deadline (23:59 AoE)
+DESCRIPTION:International Conference and Exhibition on Electricity Distribu
+ tion (CIRED 2027)\n\nAuthor registration deadline: 10 May 2027\, 23:59 AoE
+ \n\nConference: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAll dat
+ es:\n  Abstract submission: 14 Sept 2026\, 23:59 AoE\n  Notification of ac
+ ceptance: 13 Nov 2026\, 23:59 AoE\n  Full paper submission: 22 Jan 2027\, 
+ 23:59 AoE\n  Author's final notification of acceptance: 9 Apr 2027\, 23:59
+  AoE\n  Early bird registration deadline: 28 Apr 2027\, 23:59 AoE\n  Autho
+ r registration deadline: 10 May 2027\, 23:59 AoE\n  Deadline to upload pre
+ sentations: 28 May 2027\, 23:59 AoE\n\n29th edition. Submission is abstrac
+ t-first: an accepted abstract is required before a full paper can be submi
+ tted. Timezones are not stated in the call for papers\; AoE is assumed.\n\
+ nCall for papers: https://2027.cired.net/\nDetails: https://langestefan.gi
+ thub.io/powersystem-deadlines/conference/cired27
+LOCATION:Stockholm\, Sweden
+URL;VALUE=URI:https://2027.cired.net/
+CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cired27-presentation_upload@langestefan.github.io
+DTSTAMP:20260916T043305Z
+DTSTART;VALUE=DATE:20270528
+DTEND;VALUE=DATE:20270529
+TRANSP:TRANSPARENT
+SUMMARY:CIRED 2027: Deadline to upload presentations (23:59 AoE)
+DESCRIPTION:International Conference and Exhibition on Electricity Distribu
+ tion (CIRED 2027)\n\nDeadline to upload presentations: 28 May 2027\, 23:59
+  AoE\n\nConference: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAll
+  dates:\n  Abstract submission: 14 Sept 2026\, 23:59 AoE\n  Notification o
+ f acceptance: 13 Nov 2026\, 23:59 AoE\n  Full paper submission: 22 Jan 202
+ 7\, 23:59 AoE\n  Author's final notification of acceptance: 9 Apr 2027\, 2
+ 3:59 AoE\n  Early bird registration deadline: 28 Apr 2027\, 23:59 AoE\n  A
+ uthor registration deadline: 10 May 2027\, 23:59 AoE\n  Deadline to upload
+  presentations: 28 May 2027\, 23:59 AoE\n\n29th edition. Submission is abs
+ tract-first: an accepted abstract is required before a full paper can be s
+ ubmitted. Timezones are not stated in the call for papers\; AoE is assumed
+ .\n\nCall for papers: https://2027.cired.net/\nDetails: https://langestefa
+ n.github.io/powersystem-deadlines/conference/cired27
+LOCATION:Stockholm\, Sweden
+URL;VALUE=URI:https://2027.cired.net/
+CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:powertech27-paper@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 TRANSP:TRANSPARENT
@@ -603,7 +603,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-notification@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20270423
 DTEND;VALUE=DATE:20270424
 TRANSP:TRANSPARENT
@@ -637,7 +637,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-author_registration@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 TRANSP:TRANSPARENT
@@ -672,7 +672,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-camera_ready@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 TRANSP:TRANSPARENT
@@ -706,7 +706,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-abstract@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20260227
 DTEND;VALUE=DATE:20260228
 TRANSP:TRANSPARENT
@@ -740,7 +740,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-notification@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -774,7 +774,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-camera_ready@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 TRANSP:TRANSPARENT
@@ -808,7 +808,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:naps26-paper@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 TRANSP:TRANSPARENT
@@ -839,7 +839,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-paper@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 TRANSP:TRANSPARENT
@@ -871,7 +871,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-notification@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 TRANSP:TRANSPARENT
@@ -903,7 +903,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-camera_ready@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
 TRANSP:TRANSPARENT

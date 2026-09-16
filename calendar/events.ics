@@ -11,33 +11,8 @@ X-WR-CALDESC:When each conference actually takes place\, as all-day events.
 SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
  ar/events.ics
 BEGIN:VEVENT
-UID:cired27-event@langestefan.github.io
-DTSTAMP:20260915T043252Z
-DTSTART;VALUE=DATE:20270614
-DTEND;VALUE=DATE:20270618
-TRANSP:TRANSPARENT
-SUMMARY:CIRED 2027
-DESCRIPTION:International Conference and Exhibition on Electricity Distribu
- tion (CIRED 2027)\n\nConference: June 14-17\, 2027\nLocation: Stockholm\, 
- Sweden\n\nAll dates:\n  Abstract submission: 14 Sept 2026\, 23:59 AoE\n  N
- otification of acceptance: 13 Nov 2026\, 23:59 AoE\n  Full paper submissio
- n: 22 Jan 2027\, 23:59 AoE\n  Author's final notification of acceptance: 9
-  Apr 2027\, 23:59 AoE\n  Early bird registration deadline: 28 Apr 2027\, 2
- 3:59 AoE\n  Author registration deadline: 10 May 2027\, 23:59 AoE\n  Deadl
- ine to upload presentations: 28 May 2027\, 23:59 AoE\n\n29th edition. Subm
- ission is abstract-first: an accepted abstract is required before a full p
- aper can be submitted. Timezones are not stated in the call for papers\; A
- oE is assumed.\n\nCall for papers: https://2027.cired.net/\nDetails: https
- ://langestefan.github.io/powersystem-deadlines/conference/cired27
-LOCATION:Stockholm\, Sweden
-URL;VALUE=URI:https://2027.cired.net/
-CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
-STATUS:CONFIRMED
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:isgt-europe26-event@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261023
 TRANSP:TRANSPARENT
@@ -58,7 +33,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-grid-edge27-event@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20270419
 DTEND;VALUE=DATE:20270423
 TRANSP:TRANSPARENT
@@ -83,7 +58,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:pcim-europe27-event@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20270511
 DTEND;VALUE=DATE:20270514
 TRANSP:TRANSPARENT
@@ -108,7 +83,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-event@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -132,7 +107,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-event@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270521
 TRANSP:TRANSPARENT
@@ -154,7 +129,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:pesgm27-event@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20270725
 DTEND;VALUE=DATE:20270730
 TRANSP:TRANSPARENT
@@ -174,7 +149,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-event@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270312
 TRANSP:TRANSPARENT
@@ -197,8 +172,33 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:cired27-event@langestefan.github.io
+DTSTAMP:20260916T043305Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270618
+TRANSP:TRANSPARENT
+SUMMARY:CIRED 2027
+DESCRIPTION:International Conference and Exhibition on Electricity Distribu
+ tion (CIRED 2027)\n\nConference: June 14-17\, 2027\nLocation: Stockholm\, 
+ Sweden\n\nAll dates:\n  Abstract submission: 14 Sept 2026\, 23:59 AoE\n  N
+ otification of acceptance: 13 Nov 2026\, 23:59 AoE\n  Full paper submissio
+ n: 22 Jan 2027\, 23:59 AoE\n  Author's final notification of acceptance: 9
+  Apr 2027\, 23:59 AoE\n  Early bird registration deadline: 28 Apr 2027\, 2
+ 3:59 AoE\n  Author registration deadline: 10 May 2027\, 23:59 AoE\n  Deadl
+ ine to upload presentations: 28 May 2027\, 23:59 AoE\n\n29th edition. Subm
+ ission is abstract-first: an accepted abstract is required before a full p
+ aper can be submitted. Timezones are not stated in the call for papers\; A
+ oE is assumed.\n\nCall for papers: https://2027.cired.net/\nDetails: https
+ ://langestefan.github.io/powersystem-deadlines/conference/cired27
+LOCATION:Stockholm\, Sweden
+URL;VALUE=URI:https://2027.cired.net/
+CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:powertech27-event@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20270905
 DTEND;VALUE=DATE:20270910
 TRANSP:TRANSPARENT
@@ -221,7 +221,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-event@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20260608
 DTEND;VALUE=DATE:20260613
 TRANSP:TRANSPARENT
@@ -245,7 +245,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:epe26-event@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260919
 TRANSP:TRANSPARENT
@@ -264,7 +264,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-event@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261009
 TRANSP:TRANSPARENT
@@ -288,7 +288,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:naps26-event@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261014
 TRANSP:TRANSPARENT
@@ -309,7 +309,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-event@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261022
 TRANSP:TRANSPARENT
@@ -330,7 +330,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:smartgridcomm26-event@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261030
 TRANSP:TRANSPARENT
@@ -352,7 +352,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:epe27-event@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20270830
 DTEND;VALUE=DATE:20270904
 TRANSP:TRANSPARENT
@@ -372,7 +372,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:eem27-event@langestefan.github.io
-DTSTAMP:20260915T043252Z
+DTSTAMP:20260916T043305Z
 DTSTART;VALUE=DATE:20270914
 DTEND;VALUE=DATE:20270918
 TRANSP:TRANSPARENT
