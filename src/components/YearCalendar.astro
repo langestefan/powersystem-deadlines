@@ -222,7 +222,7 @@ function summaryFor(day: OverviewDay): string {
         deadlineLegend.map((entry) => (
           <button
             type="button"
-            class="flex items-center gap-1.5 rounded-md px-1.5 py-0.5 transition-opacity hover:bg-accent focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none aria-[pressed=false]:opacity-40"
+            class="flex min-h-6 items-center gap-1.5 rounded-md px-1.5 py-0.5 transition-opacity hover:bg-accent focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none aria-[pressed=false]:opacity-40"
             data-toggle-deadline={entry.label}
             aria-pressed="true"
           >
@@ -239,7 +239,7 @@ function summaryFor(day: OverviewDay): string {
         topicLegend.map((entry) => (
           <button
             type="button"
-            class="flex items-center gap-1.5 rounded-md px-1.5 py-0.5 transition-opacity hover:bg-accent focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none aria-[pressed=false]:opacity-40"
+            class="flex min-h-6 items-center gap-1.5 rounded-md px-1.5 py-0.5 transition-opacity hover:bg-accent focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none aria-[pressed=false]:opacity-40"
             data-toggle-topic={entry.topic}
             aria-pressed="true"
           >
@@ -255,7 +255,7 @@ function summaryFor(day: OverviewDay): string {
     <button
       type="button"
       id="show-all"
-      class="rounded-md px-1.5 py-0.5 text-primary hover:underline focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
+      class="inline-flex min-h-6 items-center rounded-md px-1.5 py-0.5 text-primary hover:underline focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
       hidden
     >
       Show all

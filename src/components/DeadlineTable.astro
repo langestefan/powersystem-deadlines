@@ -23,72 +23,124 @@ const rows = edition.deadlines.map((deadline) => ({
   outlook: outlookCalendarUrl(edition, deadline),
 }));
 
+// Big enough to hit with a thumb; the table cells reuse it unchanged.
 const linkClass =
-  'rounded px-1.5 py-0.5 text-xs text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground';
+  'inline-flex min-h-6 items-center rounded px-1.5 py-0.5 text-xs text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground';
 ---
 
 {
   rows.length === 0 ? (
     <p class="text-sm text-muted-foreground">No deadlines listed yet.</p>
   ) : (
-    <div class="overflow-x-auto">
-      <table class="w-full min-w-[36rem] text-sm">
-        <thead>
-          <tr class="border-b text-left text-xs tracking-wide uppercase opacity-70">
-            <th scope="col" class="py-2 pr-4 font-semibold">Milestone</th>
-            <th scope="col" class="py-2 pr-4 font-semibold">Date</th>
-            <th scope="col" class="py-2 pr-4 font-semibold">Countdown</th>
-            <th scope="col" class="py-2 font-semibold">Add to</th>
-          </tr>
-        </thead>
-        <tbody>
-          {rows.map(({ deadline, past, google, outlook }) => (
-            <tr class:list={['border-b last:border-0', past && 'opacity-55']}>
-              <td class="py-2.5 pr-4">
-                <span class="flex items-center gap-1.5">
-                  {past && <Check class="size-3.5 shrink-0" aria-label="Passed" />}
-                  {deadline.label}
-                </span>
-              </td>
-              <td class="py-2.5 pr-4 whitespace-nowrap">
-                {deadline.utc ? (
-                  <>
-                    {formatInZone(deadline.utc, deadline.timezone)}{' '}
-                    <span
-                      class="text-xs opacity-70"
-                      title={deadline.timezoneStated ? undefined : UNSTATED_TIMEZONE_NOTE}
-                    >
-                      {deadlineZoneLabel(deadline)}
-                    </span>
-                  </>
-                ) : (
-                  <span class="text-muted-foreground">To be announced</span>
-                )}
-              </td>
-              <td class="py-2.5 pr-4">
-                <Countdown target={deadline.utc} />
-              </td>
-              <td class="py-2.5">
-                {google && outlook ? (
-                  <span class="flex flex-wrap gap-0.5">
-                    <a class={linkClass} href={google} rel="noopener">
-                      Google
-                    </a>
-                    <a class={linkClass} href={outlook} rel="noopener">
-                      Outlook
-                    </a>
-                    <a class={linkClass} href={withBase(conferenceFeedPath(edition.id))}>
-                      .ics
-                    </a>
+    <>
+      {/*
+        Four columns need 36rem, which a phone does not have, and a table you
+        have to drag sideways hides the countdown -- the one thing the page is
+        for. Below `sm` the same rows are stacked instead.
+      */}
+      <ul class="sm:hidden">
+        {rows.map(({ deadline, past, google, outlook }) => (
+          <li class:list={['border-b py-3 first:pt-0 last:border-0 last:pb-0', past && 'opacity-55']}>
+            <p class="flex items-start gap-1.5 font-medium">
+              {past && <Check class="mt-1 size-3.5 shrink-0" aria-label="Passed" />}
+              {deadline.label}
+            </p>
+
+            <p class="mt-1 text-sm">
+              {deadline.utc ? (
+                <>
+                  {formatInZone(deadline.utc, deadline.timezone)}{' '}
+                  <span
+                    class="text-xs opacity-70"
+                    title={deadline.timezoneStated ? undefined : UNSTATED_TIMEZONE_NOTE}
+                  >
+                    {deadlineZoneLabel(deadline)}
                   </span>
-                ) : (
-                  <span class="px-1.5 text-xs text-muted-foreground">-</span>
-                )}
-              </td>
+                </>
+              ) : (
+                <span class="text-muted-foreground">To be announced</span>
+              )}
+            </p>
+
+            <div class="mt-1.5 flex flex-wrap items-center justify-between gap-x-4 gap-y-1">
+              <Countdown target={deadline.utc} />
+              {google && outlook && (
+                <span class="-mr-1.5 flex flex-wrap gap-0.5">
+                  <a class={linkClass} href={google} rel="noopener">
+                    Google
+                  </a>
+                  <a class={linkClass} href={outlook} rel="noopener">
+                    Outlook
+                  </a>
+                  <a class={linkClass} href={withBase(conferenceFeedPath(edition.id))}>
+                    .ics
+                  </a>
+                </span>
+              )}
+            </div>
+          </li>
+        ))}
+      </ul>
+
+      <div class="hidden overflow-x-auto sm:block">
+        <table class="w-full min-w-[36rem] text-sm">
+          <thead>
+            <tr class="border-b text-left text-xs tracking-wide uppercase opacity-70">
+              <th scope="col" class="py-2 pr-4 font-semibold">Milestone</th>
+              <th scope="col" class="py-2 pr-4 font-semibold">Date</th>
+              <th scope="col" class="py-2 pr-4 font-semibold">Countdown</th>
+              <th scope="col" class="py-2 font-semibold">Add to</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
+          </thead>
+          <tbody>
+            {rows.map(({ deadline, past, google, outlook }) => (
+              <tr class:list={['border-b last:border-0', past && 'opacity-55']}>
+                <td class="py-2.5 pr-4">
+                  <span class="flex items-center gap-1.5">
+                    {past && <Check class="size-3.5 shrink-0" aria-label="Passed" />}
+                    {deadline.label}
+                  </span>
+                </td>
+                <td class="py-2.5 pr-4 whitespace-nowrap">
+                  {deadline.utc ? (
+                    <>
+                      {formatInZone(deadline.utc, deadline.timezone)}{' '}
+                      <span
+                        class="text-xs opacity-70"
+                        title={deadline.timezoneStated ? undefined : UNSTATED_TIMEZONE_NOTE}
+                      >
+                        {deadlineZoneLabel(deadline)}
+                      </span>
+                    </>
+                  ) : (
+                    <span class="text-muted-foreground">To be announced</span>
+                  )}
+                </td>
+                <td class="py-2.5 pr-4">
+                  <Countdown target={deadline.utc} />
+                </td>
+                <td class="py-2.5">
+                  {google && outlook ? (
+                    <span class="flex flex-wrap gap-0.5">
+                      <a class={linkClass} href={google} rel="noopener">
+                        Google
+                      </a>
+                      <a class={linkClass} href={outlook} rel="noopener">
+                        Outlook
+                      </a>
+                      <a class={linkClass} href={withBase(conferenceFeedPath(edition.id))}>
+                        .ics
+                      </a>
+                    </span>
+                  ) : (
+                    <span class="px-1.5 text-xs text-muted-foreground">-</span>
+                  )}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </>
   )
 }

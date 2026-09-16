@@ -111,6 +111,12 @@ them did. A *missing* `verified:` is an error, enforced by the schema.
 
 ### Rendering model
 
+Every page must survive a 375px viewport with no horizontal scroll, which is checked by measuring
+`documentElement.scrollWidth` against `clientWidth`, not by eye. Two rules earn their keep: a grid
+or flex child holding something wide needs `min-w-0` or it grows the page instead of scrolling
+inside its own `overflow-x-auto`, and the header nav only shares a row with the brand and controls
+from `md` up, because the five links plus everything else need about 690px.
+
 Cards, tables, countdowns and the year calendar are server-rendered HTML. Interactivity is added on
 top of that DOM, never by re-rendering it:
 
