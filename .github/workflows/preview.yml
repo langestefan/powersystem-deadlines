@@ -1,0 +1,117 @@
+name: Preview
+
+# Publishes each pull request to its own sub-path of the same gh-pages branch
+# the live site is served from, so a change can be looked at before it is
+# merged. Removed again when the pull request closes.
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, closed]
+
+# One preview at a time per pull request. Pushing twice in quick succession
+# would otherwise leave two writers racing for gh-pages, and the Pages build
+# that follows a push has no concurrency guard of its own.
+concurrency:
+  group: pages-preview-${{ github.event.number }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  deploy:
+    # A pull request from a fork gets a read-only token, so this would fail at
+    # the push rather than be refused up front. Skip it instead.
+    if: >-
+      github.event.action != 'closed' &&
+      github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # SITE_URL drives the base prefix, every canonical URL and every feed URL,
+      # so pointing it at the sub-path is all it takes to make a build that
+      # works from there. IS_PREVIEW follows from it and adds a noindex.
+      - name: Build for the preview sub-path
+        env:
+          SITE_URL: https://langestefan.github.io/powersystem-deadlines/preview/pr-${{ github.event.number }}
+        run: npm run build
+
+      - name: Publish to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          destination_dir: preview/pr-${{ github.event.number }}
+          # Deletes nothing, anywhere. A preview shares a branch with the live
+          # site, and must not be able to remove a file from it. The cost is
+          # that a page deleted on the branch lingers inside the preview until
+          # the pull request closes and the whole directory goes.
+          keep_files: true
+          user_name: github-actions[bot]
+          user_email: github-actions[bot]@users.noreply.github.com
+          commit_message: 'preview: PR #${{ github.event.number }} (${{ github.sha }})'
+
+      # One comment that is rewritten in place, found again by the marker in its
+      # first line. A fresh comment per push would bury the pull request under
+      # a stack of identical links.
+      - name: Comment the preview link
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NUMBER: ${{ github.event.number }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          URL: https://langestefan.github.io/powersystem-deadlines/preview/pr-${{ github.event.number }}/
+        run: |
+          MARKER='<!-- pr-preview -->'
+          BODY="${MARKER}
+          ### Preview
+
+          ${URL}
+
+          Built from \`${HEAD_SHA:0:7}\` at $(date -u '+%Y-%m-%d %H:%M UTC'). Rebuilt on every
+          push to this branch and removed when it closes. GitHub Pages needs a minute or so
+          after the first build, and serves a stale copy for a little while after later ones."
+
+          # Strip the indentation this YAML block adds, or markdown reads the
+          # indented lines as a code block.
+          BODY=$(printf '%s\n' "$BODY" | sed 's/^          //')
+
+          ID=$(gh api "repos/${GITHUB_REPOSITORY}/issues/${NUMBER}/comments" --paginate \
+            --jq "map(select(.body | startswith(\"${MARKER}\"))) | first | .id // empty")
+
+          if [ -n "$ID" ]; then
+            gh api -X PATCH "repos/${GITHUB_REPOSITORY}/issues/comments/${ID}" -f body="$BODY"
+          else
+            gh api -X POST "repos/${GITHUB_REPOSITORY}/issues/${NUMBER}/comments" -f body="$BODY"
+          fi
+
+  # Runs on close whether or not the pull request was merged: either way the
+  # preview has done its job, and leaving it would publish it forever.
+  cleanup:
+    if: github.event.action == 'closed'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+
+      - name: Remove this pull request's preview
+        run: |
+          dir="preview/pr-${{ github.event.number }}"
+          if [ ! -d "$dir" ]; then
+            echo "No preview at $dir."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git rm -rq "$dir"
+          git commit -m "preview: remove PR #${{ github.event.number }}"
+          git push
