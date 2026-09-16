@@ -28,7 +28,6 @@ editions:
     format: in-person
     proceedings: IEEE Xplore
     submission_type: full-paper
-    timezone: AoE
     deadlines:
       - type: paper
         label: Full paper submission
@@ -44,5 +43,4 @@ editions:
         date: '2027-05-23 23:59:59'
     note: >-
       Co-sponsored by IEEE PES and KU Leuven. Papers are limited to six pages.
-      Submission opens in November 2026. Timezones are not stated in the call for
-      papers; AoE is assumed.
+      Submission opens in November 2026.

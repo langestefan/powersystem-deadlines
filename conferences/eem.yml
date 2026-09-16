@@ -23,7 +23,6 @@ editions:
     end: 2027-09-17
     format: in-person
     proceedings: IEEE Xplore
-    timezone: AoE
     deadlines:
       - type: paper
         label: Paper submission

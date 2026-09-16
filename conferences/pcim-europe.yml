@@ -27,7 +27,6 @@ editions:
     end: 2027-05-13
     format: in-person
     submission_type: extended-abstract
-    timezone: AoE
     deadlines:
       - type: abstract
         label: Abstract submission
@@ -40,6 +39,5 @@ editions:
         date: '2027-03-09 23:59:59'
     note: >-
       The same 14 October 2026 deadline covers synopses for the seminars held on
-      9-10 May 2027 at the Arvena Park Hotel, whose documentation is due 14 April
-      2027. Acceptance is expected in January 2027 without a stated date.
-      Timezones are not stated in the call for papers; AoE is assumed.
+      9-10 May 2027 at the Arvena Park Hotel, whose documentation is due 14
+      April 2027. Acceptance is expected in January 2027 without a stated date.

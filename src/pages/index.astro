@@ -64,7 +64,9 @@ const regionOptions = countBy(REGIONS, (edition, region) => edition.region === r
     Times are shown in the zone each call for papers states.
     <strong class="font-semibold text-foreground">AoE</strong> is Anywhere on Earth (UTC&minus;12):
     a deadline is still open until that date has passed everywhere in the world, so 23:59 AoE is
-    midday the next day in Europe.
+    midday the next day in Europe. When a call states no zone at all, the time is read as UTC+12
+    and marked <em>assumed</em>, so the countdown runs out before the real deadline rather
+    than after it.
   </p>
 
   <FilterBar

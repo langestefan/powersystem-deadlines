@@ -3,10 +3,11 @@ import { Check } from '@lucide/astro';
 
 import Countdown from '@/components/Countdown.astro';
 import type { ConferenceEdition } from '@/lib/conferences';
+import { deadlineZoneLabel, UNSTATED_TIMEZONE_NOTE } from '@/lib/conferences';
 import { googleCalendarUrl, outlookCalendarUrl } from '@/lib/addToCalendar';
 import { conferenceFeedPath } from '@/lib/feeds';
 import { withBase } from '@/lib/site';
-import { formatInZone, timezoneLabel } from '@/lib/time';
+import { formatInZone } from '@/lib/time';
 
 interface Props {
   edition: ConferenceEdition;
@@ -53,7 +54,12 @@ const linkClass =
                 {deadline.utc ? (
                   <>
                     {formatInZone(deadline.utc, deadline.timezone)}{' '}
-                    <span class="text-xs opacity-70">{timezoneLabel(deadline.timezone)}</span>
+                    <span
+                      class="text-xs opacity-70"
+                      title={deadline.timezoneStated ? undefined : UNSTATED_TIMEZONE_NOTE}
+                    >
+                      {deadlineZoneLabel(deadline)}
+                    </span>
                   </>
                 ) : (
                   <span class="text-muted-foreground">To be announced</span>

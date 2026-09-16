@@ -27,7 +27,6 @@ editions:
     format: in-person
     proceedings: IEEE Xplore
     submission_type: full-paper
-    timezone: AoE
     deadlines:
       - type: paper
         label: Paper submission
@@ -42,7 +41,7 @@ editions:
         label: Final paper submission
         date: '2026-10-20 23:59:59'
     note: >-
-      Themed "New Energy and Power Technologies Toward Carbon Neutrality", hosted
-      by Wuhan University. The call gives submission and notification as windows
-      rather than single dates; the closing date of each window is listed here.
-      Timezones are not stated; AoE is assumed.
+      Themed "New Energy and Power Technologies Toward Carbon Neutrality",
+      hosted by Wuhan University. The call gives submission and notification as
+      windows rather than single dates; the closing date of each window is
+      listed here.

@@ -23,7 +23,6 @@ editions:
     format: in-person
     proceedings: IEEE Xplore
     submission_type: extended-abstract
-    timezone: AoE
     deadlines:
       - type: abstract
         label: Digest submission
@@ -37,5 +36,4 @@ editions:
     note: >-
       Every accepted paper must be covered by a full conference registration
       before the final manuscript is submitted. The venue and dates were not yet
-      published when this entry was added. Timezones are not stated in the call
-      for papers; AoE is assumed.
+      published when this entry was added.

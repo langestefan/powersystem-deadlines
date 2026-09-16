@@ -26,7 +26,6 @@ editions:
     end: 2027-06-17
     format: in-person
     submission_type: abstract-first
-    timezone: AoE
     deadlines:
       - type: abstract
         label: Abstract submission
@@ -51,5 +50,4 @@ editions:
         date: '2027-05-28 23:59:59'
     note: >-
       29th edition. Submission is abstract-first: an accepted abstract is
-      required before a full paper can be submitted. Timezones are not stated in
-      the call for papers; AoE is assumed.
+      required before a full paper can be submitted.

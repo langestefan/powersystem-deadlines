@@ -27,7 +27,6 @@ editions:
     format: in-person
     proceedings: Electric Power Systems Research (EPSR) special issue
     submission_type: abstract-first
-    timezone: AoE
     deadlines:
       - type: abstract
         label: One-page abstract submission
@@ -46,5 +45,4 @@ editions:
         date: '2026-03-15 23:59:59'
     note: >-
       Submission is abstract-first: a one-page abstract must be accepted before
-      the full paper can be submitted. Timezones are not stated in the call for
-      papers; AoE is assumed.
+      the full paper can be submitted.

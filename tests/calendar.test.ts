@@ -49,6 +49,34 @@ function fixture(): ConferenceEdition {
   );
 }
 
+/** Same shape, but with no timezone stated anywhere, as most calls for papers are. */
+function unstatedFixture(): ConferenceEdition {
+  return flattenEdition(
+    {
+      name: 'TESTCONF',
+      full_name: 'Test Conference on Power Systems',
+      link: 'https://testconf.example.org/',
+      society: ['IEEE PES'],
+      frequency: 'annual',
+      tags: ['power-systems'],
+      editions: [],
+    },
+    'testconf',
+    {
+      year: 2027,
+      id: 'testconf27',
+      date: 'June 8-12, 2027',
+      verified: '2026-08-26',
+      format: 'in-person',
+      cancelled: false,
+      deadlines: [
+        { type: 'paper', label: 'Full paper submission', date: '2026-12-01 23:59:59' },
+      ],
+    },
+    NOW,
+  );
+}
+
 describe('flattenEdition', () => {
   const edition = fixture();
 
@@ -277,5 +305,23 @@ describe('the published feed, read back by a calendar client', () => {
     // compare calendar fields rather than the UTC instant.
     const start = conference!.start;
     expect([start.getFullYear(), start.getMonth() + 1, start.getDate()]).toEqual([2027, 6, 8]);
+  });
+});
+
+describe('an assumed timezone', () => {
+  const events = deadlineEvents([unstatedFixture()], SITE, DOMAIN);
+
+  it('is disclosed in the summary rather than printed as fact', () => {
+    expect(events[0]!.summary).toContain('UTC+12 (assumed)');
+  });
+
+  it('travels with the event, since a subscriber never sees the site', () => {
+    expect(events[0]!.description).toContain('states no timezone');
+  });
+
+  it('files the event on the stated day, exactly as a stated zone would', () => {
+    // The .ics day comes from the raw YAML date, so the assumption moves the
+    // countdown without moving the calendar entry a subscriber already has.
+    expect(events[0]!.start.toISOString().slice(0, 10)).toBe('2026-12-01');
   });
 });

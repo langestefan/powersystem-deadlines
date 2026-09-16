@@ -25,12 +25,10 @@ editions:
     format: in-person
     proceedings: IEEE Xplore
     submission_type: full-paper
-    timezone: AoE
     deadlines:
       - type: paper
         label: Paper submission
         date: '2026-07-01 23:59:59'
     note: >-
       58th edition. Papers are at most six pages and reviewed in stages, with
-      registration priced by submission date. Timezones are not stated in the
-      call for papers; AoE is assumed.
+      registration priced by submission date.

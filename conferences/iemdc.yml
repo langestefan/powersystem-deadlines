@@ -26,7 +26,6 @@ editions:
     format: in-person
     proceedings: IEEE Xplore
     submission_type: extended-abstract
-    timezone: AoE
     deadlines:
       - type: abstract
         label: Digest submission
@@ -39,4 +38,4 @@ editions:
         date: '2027-03-15 23:59:59'
     note: >-
       16th edition, marking the conference's 30th anniversary and returning to
-      Milwaukee. Timezones are not stated in the call for papers; AoE is assumed.
+      Milwaukee.

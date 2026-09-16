@@ -26,7 +26,6 @@ editions:
     format: in-person
     proceedings: IEEE Xplore
     submission_type: full-paper
-    timezone: AoE
     deadlines:
       - type: paper
         label: Paper submission (extended)
@@ -38,5 +37,4 @@ editions:
         label: Final submission and registration
         date: '2026-08-30 23:59:59'
     note: >-
-      52nd annual conference of the IES. Timezones are not stated in the call for
-      papers; AoE is assumed.
+      52nd annual conference of the IES.
