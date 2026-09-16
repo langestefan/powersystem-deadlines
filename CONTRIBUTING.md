@@ -65,7 +65,7 @@ editions:
 | `format`          | no       | `in-person` (default), `hybrid`, `online`                       |
 | `proceedings`     | no       | Where accepted papers appear, e.g. `IEEE Xplore`                |
 | `submission_type` | no       | `full-paper`, `abstract-first`, `extended-abstract`             |
-| `timezone`        | no       | Default timezone for this edition's deadlines                   |
+| `timezone`        | no       | Only when the CFP states one; see below                         |
 | `deadlines`       | no       | See below. An edition with none shows as "dates not announced"  |
 | `tags`            | no       | Extra tags on top of the series tags                            |
 | `note`            | no       | Anything a submitter should know                                |
@@ -78,11 +78,12 @@ deadlines:
   - type: paper
     label: Full paper submission
     date: '2026-10-15 23:59:59'
-    timezone: AoE
+    timezone: AoE # only if the call for papers says so; see Timezones below
 ```
 
 - `date` **must be quoted.** Unquoted, YAML reads it as a UTC timestamp and silently ignores the
   timezone. Validation rejects this.
+- `timezone` is optional, and leaving it out is itself a statement. See below.
 - Use the literal `'TBA'` when a milestone is announced but not yet dated, so the site can show
   that it is still expected.
 - `label` is shown to readers, so copy the wording from the call for papers.
@@ -115,16 +116,24 @@ error, so it never blocks an unrelated pull request.
 
 ### Timezones
 
-In order of preference:
+Set `timezone:` **only when the call for papers states one**, in whichever form it uses:
 
-1. `AoE`, Anywhere on Earth (UTC-12), what most calls for papers mean by "end of day".
-2. An IANA name: `Europe/Amsterdam`, `America/New_York`, `Asia/Shanghai`. Handles daylight saving.
+1. An IANA name: `Europe/Amsterdam`, `America/New_York`, `Asia/Shanghai`. Handles daylight saving,
+   so prefer it whenever the call names a place.
+2. `AoE`, Anywhere on Earth (UTC-12), which many IEEE calls do state outright.
 3. An offset: `UTC+2`, `GMT-5`, `UTC+05:30`.
 4. An abbreviation: `CET`, `EST`, `JST`. These are read as **fixed** offsets, so `CET` is always
    UTC+1 even in summer. Validation warns and suggests an IANA zone instead.
 
-If the call for papers does not state a timezone, leave it as `AoE` and say so in the `note`. Do
-not guess.
+**If the call does not state a timezone, leave the field out entirely.** The omission is how an
+entry records "not stated". The site then reads the time as **UTC+12**, the earliest zone it could
+plausibly mean, and shows it as `UTC+12 (assumed)` on the page and in the calendar feed, so the
+countdown runs out before the real deadline rather than after it.
+
+Do not write `AoE` for a call that does not say `AoE`. It looks like a harmless default and it is
+the opposite: AoE is the latest reading available anywhere on the planet, so it hands a submitter
+up to a day and a half that may not exist. Assuming it is what once kept a live countdown on
+CIRED's abstract deadline running for fourteen hours after submission had closed.
 
 ### Tags
 

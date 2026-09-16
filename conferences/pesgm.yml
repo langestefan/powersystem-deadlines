@@ -27,7 +27,6 @@ editions:
     format: in-person
     proceedings: IEEE Xplore
     submission_type: full-paper
-    timezone: AoE
     deadlines:
       - type: paper
         label: Paper submission
@@ -38,4 +37,3 @@ editions:
     note: >-
       Papers are limited to five pages. The submission site opens 6 October 2026
       and notifications are expected in mid-March 2027, without a stated date.
-      Timezones are not stated in the call for papers; AoE is assumed.

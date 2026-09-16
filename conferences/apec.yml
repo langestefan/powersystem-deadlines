@@ -27,7 +27,6 @@ editions:
     format: in-person
     proceedings: IEEE Xplore
     submission_type: extended-abstract
-    timezone: AoE
     deadlines:
       - type: abstract
         label: Technical session digest submission
@@ -40,5 +39,4 @@ editions:
         date: '2026-12-07 23:59:59'
     note: >-
       The digest deadline was extended from 14 to 21 August 2026. An author
-      manuscript training session is held on 12 November 2026. Timezones are not
-      stated in the call for papers; AoE is assumed.
+      manuscript training session is held on 12 November 2026.

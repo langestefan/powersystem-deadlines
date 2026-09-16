@@ -16,7 +16,13 @@ import { parse } from 'yaml';
 
 import { regionForCountry } from '../src/lib/regions.ts';
 import { REGIONS, TAGS } from '../src/lib/taxonomy.ts';
-import { fixedOffsetMinutes, isIanaZone, isTba, toUtc } from '../src/lib/time.ts';
+import {
+  fixedOffsetMinutes,
+  isIanaZone,
+  isTba,
+  toUtc,
+  UNSTATED_TIMEZONE,
+} from '../src/lib/time.ts';
 import { describeAge, verificationStatus } from '../src/lib/verification.ts';
 
 const NOW = new Date();
@@ -204,15 +210,10 @@ for (const name of files) {
         continue;
       }
 
+      // No timezone is not a mistake to warn about: it is how an entry records
+      // that the call for papers states none, and UNSTATED_TIMEZONE takes over.
       const timezone = deadline.timezone ?? edition.timezone;
-      if (!timezone) {
-        report(
-          file,
-          where,
-          'warning',
-          `Deadline "${label}" has no timezone; AoE is assumed. Set one if the CFP states it.`,
-        );
-      } else if (fixedOffsetMinutes(timezone) !== null && !isIanaZone(timezone)) {
+      if (timezone && fixedOffsetMinutes(timezone) !== null && !isIanaZone(timezone)) {
         const isOffsetForm = /^(AoE|UTC|GMT)/i.test(timezone);
         if (!isOffsetForm) {
           report(
@@ -232,7 +233,7 @@ for (const name of files) {
 
       let instant: Date;
       try {
-        instant = toUtc(deadline.date, timezone ?? 'AoE');
+        instant = toUtc(deadline.date, timezone ?? UNSTATED_TIMEZONE);
       } catch (error) {
         report(file, where, 'error', `Deadline "${label}": ${(error as Error).message}`);
         continue;

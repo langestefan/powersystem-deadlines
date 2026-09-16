@@ -26,7 +26,6 @@ editions:
     format: in-person
     proceedings: IEEE Xplore
     submission_type: full-paper
-    timezone: AoE
     deadlines:
       - type: paper
         label: Paper submission
@@ -35,5 +34,4 @@ editions:
         label: Final paper submission
         date: '2026-09-15 23:59:59'
     note: >-
-      Final paper submission opened 15 August 2026. Timezones are not stated in
-      the call for papers; AoE is assumed.
+      Final paper submission opened 15 August 2026.

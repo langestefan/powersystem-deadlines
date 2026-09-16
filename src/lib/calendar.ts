@@ -1,6 +1,12 @@
-import { locationLabel, type ConferenceEdition, type ResolvedDeadline } from './edition';
+import {
+  deadlineZoneLabel,
+  locationLabel,
+  UNSTATED_TIMEZONE_NOTE,
+  type ConferenceEdition,
+  type ResolvedDeadline,
+} from './edition';
 import type { IcsEvent } from './ics';
-import { formatInZone, formatTimeInZone, timezoneLabel } from './time';
+import { formatInZone, formatTimeInZone } from './time';
 import { tagLabel } from './taxonomy';
 
 /**
@@ -53,7 +59,7 @@ function describeEdition(
     lines.push(
       '',
       `${highlight.label}: ${formatInZone(highlight.utc, highlight.timezone)} ` +
-        `${timezoneLabel(highlight.timezone)}`,
+        `${deadlineZoneLabel(highlight)}`,
     );
   }
 
@@ -66,7 +72,7 @@ function describeEdition(
     for (const deadline of dated) {
       lines.push(
         `  ${deadline.label}: ${formatInZone(deadline.utc!, deadline.timezone)} ` +
-          `${timezoneLabel(deadline.timezone)}`,
+          `${deadlineZoneLabel(deadline)}`,
       );
     }
   }
@@ -74,6 +80,12 @@ function describeEdition(
   const tba = edition.deadlines.filter((d) => d.tba);
   if (tba.length) {
     lines.push('', `Not yet announced: ${tba.map((d) => d.label).join(', ')}`);
+  }
+
+  // A subscriber sees the event, not the site, so the assumption has to travel
+  // with it: the zone next to these times is ours, not the organisers'.
+  if (edition.deadlines.some((d) => d.utc && !d.timezoneStated)) {
+    lines.push('', UNSTATED_TIMEZONE_NOTE);
   }
 
   if (edition.note) lines.push('', edition.note);
@@ -112,7 +124,7 @@ export function deadlineSummary(
   if (!deadline.utc) return base;
 
   const time = formatTimeInZone(deadline.utc, deadline.timezone);
-  return `${base} (${time} ${timezoneLabel(deadline.timezone)})`;
+  return `${base} (${time} ${deadlineZoneLabel(deadline)})`;
 }
 
 /** One VEVENT per dated deadline across the given editions. */

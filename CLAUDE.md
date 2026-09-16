@@ -55,7 +55,10 @@ Layer boundaries that exist on purpose, and should stay:
   editions into `IcsEvent`s. Keep domain knowledge out of `ics.ts`.
 - **`time.ts`** owns every timezone conversion. Deadlines are stored as a wall-clock string plus a
   zone name and only become real instants here (`toUtc`). AoE is UTC−12; abbreviations like `CET`
-  are deliberately fixed offsets, never DST-resolved.
+  are deliberately fixed offsets, never DST-resolved. A deadline whose YAML states **no** zone is
+  not AoE: it resolves at `UNSTATED_TIMEZONE` (UTC+12), errs a day early rather than a day late,
+  and carries `timezoneStated: false` so every surface can disclose the guess. Print a zone through
+  `deadlineZoneLabel()`, never `timezoneLabel()` directly, or an assumption gets shown as fact.
 - **`overview.ts`** is the year calendar's data layer: editions → twelve months of day cells,
   Monday-first, with the week padding and month/year-crossing runs that are where the off-by-ones
   live. Pure and `astro:content`-free like `edition.ts`, so `tests/overview.test.ts` can drive it
@@ -139,6 +142,11 @@ CRLF) that are easy to regress invisibly, since a malformed feed still looks fin
   them as UTC `Date`s and the `timezone` field is silently ignored; both the schema and
   `validate.ts` reject this explicitly.
 - Use the literal `'TBA'` for an announced-but-undated milestone.
+- **Omit `timezone:` unless the call for papers states one.** The omission is the record that it
+  said nothing, and the site then reads the time as UTC+12 and labels it `(assumed)`. Writing `AoE`
+  on a call that never said AoE claims the latest reading on earth and hands a submitter up to a
+  day and a half that may not exist — that is how a live countdown once outlasted CIRED's abstract
+  deadline by fourteen hours.
 - Edition `id` is unique site-wide and appears in URLs *and* in ICS UIDs. Changing an ID breaks
   every subscriber's calendar entry. Convention: lowercase slug + two-digit year (`pscc26`).
 - ICS UIDs are `<id>-<type>[-<n>]@<domain>`, deliberately independent of dates and array order, so

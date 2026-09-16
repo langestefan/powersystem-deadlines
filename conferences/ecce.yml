@@ -29,7 +29,6 @@ editions:
     format: in-person
     proceedings: IEEE Xplore
     submission_type: extended-abstract
-    timezone: AoE
     deadlines:
       - type: abstract
         label: Digest submission
@@ -41,7 +40,6 @@ editions:
         label: Final paper with IEEE copyright form
         date: '2026-07-10 23:59:59'
     note: >-
-      Digests are single-column, at most five pages including references, and are
-      double-blind reviewed. The submission deadline was extended past 27
-      February 2026. Timezones are not stated in the call for papers; AoE is
-      assumed.
+      Digests are single-column, at most five pages including references, and
+      are double-blind reviewed. The submission deadline was extended past 27
+      February 2026.

@@ -1,6 +1,6 @@
-import type { ConferenceEdition } from './edition';
+import { deadlineZoneLabel, type ConferenceEdition } from './edition';
 import { deadlineTypeStyle, getTag, tagLabel, type TagId } from './taxonomy';
-import { formatTimeInZone, timezoneLabel } from './time';
+import { formatTimeInZone } from './time';
 
 /**
  * Turns editions into a year of calendar cells.
@@ -32,7 +32,7 @@ export interface OverviewDeadline {
   label: string;
   /** The stated clock time, e.g. "23:59". */
   time: string;
-  /** The zone as the CFP states it, e.g. "AoE". */
+  /** The zone as it should read, e.g. "AoE" or "UTC+12 (assumed)". */
   timezone: string;
   /** Deadline kind, e.g. "paper". */
   type: string;
@@ -144,7 +144,7 @@ export function buildYearOverview(
         editionName,
         label: deadline.label,
         time: formatTimeInZone(deadline.utc, deadline.timezone),
-        timezone: timezoneLabel(deadline.timezone),
+        timezone: deadlineZoneLabel(deadline),
         type: deadline.type,
         typeLabel: deadlineTypeStyle(deadline.type).label,
         dotClass: deadlineTypeStyle(deadline.type).dotClass,

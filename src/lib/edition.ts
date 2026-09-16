@@ -1,7 +1,7 @@
 import type { ConferenceSeriesData, DeadlineData, EditionData } from '../content.config';
 import { regionForCountry } from './regions';
 import { SUBMISSION_DEADLINE_TYPES, type Region, type Society, type TagId } from './taxonomy';
-import { isTba, toUtc, urgencyOf, type Urgency } from './time';
+import { isTba, timezoneLabel, toUtc, UNSTATED_TIMEZONE } from './time';
 
 /**
  * Conference edition types and the pure functions that derive them from the raw
@@ -12,7 +12,14 @@ import { isTba, toUtc, urgencyOf, type Urgency } from './time';
  * content collection and calls into here.
  */
 
-export const DEFAULT_TIMEZONE = 'AoE';
+/**
+ * Shown wherever an assumed zone appears, so the reader knows the site chose it
+ * rather than the call for papers.
+ */
+export const UNSTATED_TIMEZONE_NOTE =
+  'The call for papers states no timezone. This is counted as UTC+12, the earliest ' +
+  'it could plausibly mean, so the countdown runs out before the real deadline ' +
+  'rather than after it.';
 
 export interface ResolvedDeadline {
   type: string;
@@ -21,6 +28,11 @@ export interface ResolvedDeadline {
   raw: string;
   tba: boolean;
   timezone: string;
+  /**
+   * False when no call for papers stated a zone and UNSTATED_TIMEZONE was
+   * assumed, which the UI has to disclose rather than pass off as fact.
+   */
+  timezoneStated: boolean;
   /** Null when the deadline is TBA. */
   utc: Date | null;
   link?: string;
@@ -68,7 +80,8 @@ export function resolveDeadline(
   deadline: DeadlineData,
   editionTimezone: string | undefined,
 ): ResolvedDeadline {
-  const timezone = deadline.timezone ?? editionTimezone ?? DEFAULT_TIMEZONE;
+  const stated = deadline.timezone ?? editionTimezone;
+  const timezone = stated ?? UNSTATED_TIMEZONE;
   const tba = isTba(deadline.date);
 
   return {
@@ -77,6 +90,7 @@ export function resolveDeadline(
     raw: deadline.date,
     tba,
     timezone,
+    timezoneStated: stated !== undefined,
     utc: tba ? null : toUtc(deadline.date, timezone),
     link: deadline.link,
   };
@@ -162,9 +176,15 @@ export function tagsInUse(editions: ConferenceEdition[]): TagId[] {
   return [...used];
 }
 
-export function urgencyFor(edition: ConferenceEdition, now: Date = new Date()): Urgency {
-  const next = edition.nextDeadline ?? edition.nextAnyDeadline;
-  return next?.utc ? urgencyOf(next.utc, now) : 'passed';
+/**
+ * How a deadline's zone reads next to it: "AoE", "CET", "UTC+12 (assumed)".
+ *
+ * Every surface goes through this rather than timezoneLabel() directly, so an
+ * assumed zone can never be printed as though the call for papers said it.
+ */
+export function deadlineZoneLabel(deadline: ResolvedDeadline): string {
+  const label = timezoneLabel(deadline.timezone);
+  return deadline.timezoneStated ? label : `${label} (assumed)`;
 }
 
 /** "Delft, Netherlands" / "Online": the one-line location shown on a card. */

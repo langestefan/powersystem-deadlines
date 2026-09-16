@@ -4,10 +4,10 @@ import { CalendarDays, ExternalLink, MapPin } from '@lucide/astro';
 import Badge from '@/components/Badge.astro';
 import Countdown from '@/components/Countdown.astro';
 import type { ConferenceEdition } from '@/lib/conferences';
-import { locationLabel } from '@/lib/conferences';
+import { deadlineZoneLabel, locationLabel, UNSTATED_TIMEZONE_NOTE } from '@/lib/conferences';
 import { withBase } from '@/lib/site';
 import { getTag, tagLabel } from '@/lib/taxonomy';
-import { formatInZone, timezoneLabel } from '@/lib/time';
+import { formatInZone } from '@/lib/time';
 import { describeAge, editionVerification } from '@/lib/verification';
 
 interface Props {
@@ -97,7 +97,12 @@ const searchHaystack = [
           <dt class="sr-only">Deadline</dt>
           <dd>
             {formatInZone(headline.utc, headline.timezone)}{' '}
-            <span class="opacity-70">{timezoneLabel(headline.timezone)}</span>
+            <span
+              class="opacity-70"
+              title={headline.timezoneStated ? undefined : UNSTATED_TIMEZONE_NOTE}
+            >
+              {deadlineZoneLabel(headline)}
+            </span>
           </dd>
         </div>
       )

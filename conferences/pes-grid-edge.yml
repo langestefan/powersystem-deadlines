@@ -28,7 +28,6 @@ editions:
     format: in-person
     proceedings: IEEE Xplore
     submission_type: full-paper
-    timezone: AoE
     deadlines:
       - type: paper
         label: Paper and panel proposal submission
@@ -39,5 +38,4 @@ editions:
     note: >-
       Papers are limited to five pages, and panel proposals to a 350-word
       description. At least one author per accepted paper must register for the
-      paper to appear in IEEE Xplore. Timezones are not stated in the call for
-      participation; AoE is assumed.
+      paper to appear in IEEE Xplore.

@@ -59,6 +59,18 @@ const ABBREVIATION_OFFSETS: Record<string, number> = {
 /** Anywhere on Earth: the last timezone on the planet, UTC-12. */
 export const AOE_OFFSET_MINUTES = -12 * 60;
 
+/**
+ * The zone assumed when a call for papers states none at all.
+ *
+ * UTC+12 is the earliest a deadline could plausibly have been written in, so an
+ * unstated "23:59" read here runs out before the submission site closes rather
+ * than after it. The obvious alternative, AoE, is the most generous reading
+ * there is: it grants up to a day and a half that may not exist. Telling
+ * somebody a deadline is still open when it has closed is the one failure this
+ * site cannot afford, so an unstated zone errs early and says that it did.
+ */
+export const UNSTATED_TIMEZONE = 'UTC+12';
+
 export function isTba(value: string | null | undefined): boolean {
   return !value || value.trim().toUpperCase() === TBA;
 }

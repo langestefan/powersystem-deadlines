@@ -68,9 +68,16 @@ editions:
     # full-paper | abstract-first | extended-abstract
     submission_type: full-paper
 
-    # Default timezone for the deadlines below. Prefer "AoE" or an IANA name
-    # such as "Europe/Amsterdam". A per-deadline `timezone:` overrides this.
-    timezone: AoE
+    # Default timezone for the deadlines below, ONLY when the call for papers
+    # states one: "AoE", an IANA name such as "Europe/Amsterdam", or an offset.
+    # A per-deadline `timezone:` overrides it.
+    #
+    # If the call does not say, LEAVE THIS OUT. The site then reads the time as
+    # UTC+12, the earliest it could mean, and labels it "assumed" -- so the
+    # countdown runs out before the real deadline instead of after it. Writing
+    # "AoE" here claims the call said so, and AoE is the latest reading there
+    # is: it would hand a submitter up to a day and a half that may not exist.
+    # timezone: AoE
 
     deadlines:
       # `type` drives icons and the headline countdown. Recommended values:
