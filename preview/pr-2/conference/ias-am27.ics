@@ -1,0 +1,128 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IEEE IAS Annual Meeting 2027 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IEEE Industry Applications Society Ann
+ ual Meeting 2027.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/previe
+ w/pr-2/conference/ias-am27.ics
+BEGIN:VEVENT
+UID:ias-am27-abstract@langestefan.github.io
+DTSTAMP:20260916T145600Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+TRANSP:TRANSPARENT
+SUMMARY:IEEE IAS Annual Meeting 2027: Digest submission (23:59 UTC+12 (assu
+ med))
+DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
+ ual Meeting 2027)\n\nDigest submission: 7 Dec 2026\, 23:59 UTC+12 (assumed
+ )\n\nConference: Dates to be announced\nLocation: Location TBA\n\nAll date
+ s:\n  Digest submission: 7 Dec 2026\, 23:59 UTC+12 (assumed)\n  Author not
+ ification: 15 Feb 2027\, 23:59 UTC+12 (assumed)\n  Final paper with IEEE c
+ opyright form: 15 Apr 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers
+  states no timezone. This is counted as UTC+12\, the earliest it could pla
+ usibly mean\, so the countdown runs out before the real deadline rather th
+ an after it.\n\nEvery accepted paper must be covered by a full conference 
+ registration before the final manuscript is submitted. The venue and dates
+  were not yet published when this entry was added.\n\nCall for papers: htt
+ ps://ias-am.ieee.org/2027/\nDetails: https://langestefan.github.io/powersy
+ stem-deadlines/preview/pr-2/conference/ias-am27
+LOCATION:Location TBA
+URL;VALUE=URI:https://ias-am.ieee.org/2027/
+CATEGORIES:Machines & Drives,Power Electronics,Power Quality,Protection & A
+ utomation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ias-am27-notification@langestefan.github.io
+DTSTAMP:20260916T145600Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+TRANSP:TRANSPARENT
+SUMMARY:IEEE IAS Annual Meeting 2027: Author notification (23:59 UTC+12 (as
+ sumed))
+DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
+ ual Meeting 2027)\n\nAuthor notification: 15 Feb 2027\, 23:59 UTC+12 (assu
+ med)\n\nConference: Dates to be announced\nLocation: Location TBA\n\nAll d
+ ates:\n  Digest submission: 7 Dec 2026\, 23:59 UTC+12 (assumed)\n  Author 
+ notification: 15 Feb 2027\, 23:59 UTC+12 (assumed)\n  Final paper with IEE
+ E copyright form: 15 Apr 2027\, 23:59 UTC+12 (assumed)\n\nThe call for pap
+ ers states no timezone. This is counted as UTC+12\, the earliest it could 
+ plausibly mean\, so the countdown runs out before the real deadline rather
+  than after it.\n\nEvery accepted paper must be covered by a full conferen
+ ce registration before the final manuscript is submitted. The venue and da
+ tes were not yet published when this entry was added.\n\nCall for papers: 
+ https://ias-am.ieee.org/2027/\nDetails: https://langestefan.github.io/powe
+ rsystem-deadlines/preview/pr-2/conference/ias-am27
+LOCATION:Location TBA
+URL;VALUE=URI:https://ias-am.ieee.org/2027/
+CATEGORIES:Machines & Drives,Power Electronics,Power Quality,Protection & A
+ utomation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ias-am27-camera_ready@langestefan.github.io
+DTSTAMP:20260916T145600Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+TRANSP:TRANSPARENT
+SUMMARY:IEEE IAS Annual Meeting 2027: Final paper with IEEE copyright form 
+ (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
+ ual Meeting 2027)\n\nFinal paper with IEEE copyright form: 15 Apr 2027\, 2
+ 3:59 UTC+12 (assumed)\n\nConference: Dates to be announced\nLocation: Loca
+ tion TBA\n\nAll dates:\n  Digest submission: 7 Dec 2026\, 23:59 UTC+12 (as
+ sumed)\n  Author notification: 15 Feb 2027\, 23:59 UTC+12 (assumed)\n  Fin
+ al paper with IEEE copyright form: 15 Apr 2027\, 23:59 UTC+12 (assumed)\n\
+ nThe call for papers states no timezone. This is counted as UTC+12\, the e
+ arliest it could plausibly mean\, so the countdown runs out before the rea
+ l deadline rather than after it.\n\nEvery accepted paper must be covered b
+ y a full conference registration before the final manuscript is submitted.
+  The venue and dates were not yet published when this entry was added.\n\n
+ Call for papers: https://ias-am.ieee.org/2027/\nDetails: https://langestef
+ an.github.io/powersystem-deadlines/preview/pr-2/conference/ias-am27
+LOCATION:Location TBA
+URL;VALUE=URI:https://ias-am.ieee.org/2027/
+CATEGORIES:Machines & Drives,Power Electronics,Power Quality,Protection & A
+ utomation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+END:VCALENDAR

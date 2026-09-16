@@ -1,0 +1,200 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Power System Deadlines: Reliability & Planning
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines for conferences tagged "Reliability & Planning".
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/previe
+ w/pr-2/calendar/reliability-planning.ics
+BEGIN:VEVENT
+UID:pscc26-abstract@langestefan.github.io
+DTSTAMP:20260916T145600Z
+DTSTART;VALUE=DATE:20250615
+DTEND;VALUE=DATE:20250616
+TRANSP:TRANSPARENT
+SUMMARY:PSCC 2026: One-page abstract submission (23:59 UTC+12 (assumed))
+DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nOne-page ab
+ stract submission: 15 Jun 2025\, 23:59 UTC+12 (assumed)\n\nConference: Jun
+ e 8-12\, 2026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nA
+ ll dates:\n  One-page abstract submission: 15 Jun 2025\, 23:59 UTC+12 (ass
+ umed)\n  Abstract acceptance notification: 22 Jun 2025\, 23:59 UTC+12 (ass
+ umed)\n  Full paper submission: 15 Oct 2025\, 23:59 UTC+12 (assumed)\n  Ac
+ ceptance and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n  Fin
+ al manuscript submission: 15 Mar 2026\, 23:59 UTC+12 (assumed)\n\nThe call
+  for papers states no timezone. This is counted as UTC+12\, the earliest i
+ t could plausibly mean\, so the countdown runs out before the real deadlin
+ e rather than after it.\n\nSubmission is abstract-first: a one-page abstra
+ ct must be accepted before the full paper can be submitted.\n\nCall for pa
+ pers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/powersy
+ stem-deadlines/preview/pr-2/conference/pscc26
+LOCATION:Limassol\, Cyprus
+URL;VALUE=URI:https://pscc2026.cy/
+CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pscc26-notification@langestefan.github.io
+DTSTAMP:20260916T145600Z
+DTSTART;VALUE=DATE:20250622
+DTEND;VALUE=DATE:20250623
+TRANSP:TRANSPARENT
+SUMMARY:PSCC 2026: Abstract acceptance notification (23:59 UTC+12 (assumed)
+ )
+DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nAbstract ac
+ ceptance notification: 22 Jun 2025\, 23:59 UTC+12 (assumed)\n\nConference:
+  June 8-12\, 2026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\
+ n\nAll dates:\n  One-page abstract submission: 15 Jun 2025\, 23:59 UTC+12 
+ (assumed)\n  Abstract acceptance notification: 22 Jun 2025\, 23:59 UTC+12 
+ (assumed)\n  Full paper submission: 15 Oct 2025\, 23:59 UTC+12 (assumed)\n
+   Acceptance and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n 
+  Final manuscript submission: 15 Mar 2026\, 23:59 UTC+12 (assumed)\n\nThe 
+ call for papers states no timezone. This is counted as UTC+12\, the earlie
+ st it could plausibly mean\, so the countdown runs out before the real dea
+ dline rather than after it.\n\nSubmission is abstract-first: a one-page ab
+ stract must be accepted before the full paper can be submitted.\n\nCall fo
+ r papers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/pow
+ ersystem-deadlines/preview/pr-2/conference/pscc26
+LOCATION:Limassol\, Cyprus
+URL;VALUE=URI:https://pscc2026.cy/
+CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pscc26-paper@langestefan.github.io
+DTSTAMP:20260916T145600Z
+DTSTART;VALUE=DATE:20251015
+DTEND;VALUE=DATE:20251016
+TRANSP:TRANSPARENT
+SUMMARY:PSCC 2026: Full paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nFull paper 
+ submission: 15 Oct 2025\, 23:59 UTC+12 (assumed)\n\nConference: June 8-12\
+ , 2026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAll date
+ s:\n  One-page abstract submission: 15 Jun 2025\, 23:59 UTC+12 (assumed)\n
+   Abstract acceptance notification: 22 Jun 2025\, 23:59 UTC+12 (assumed)\n
+   Full paper submission: 15 Oct 2025\, 23:59 UTC+12 (assumed)\n  Acceptanc
+ e and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n  Final manu
+ script submission: 15 Mar 2026\, 23:59 UTC+12 (assumed)\n\nThe call for pa
+ pers states no timezone. This is counted as UTC+12\, the earliest it could
+  plausibly mean\, so the countdown runs out before the real deadline rathe
+ r than after it.\n\nSubmission is abstract-first: a one-page abstract must
+  be accepted before the full paper can be submitted.\n\nCall for papers: h
+ ttps://pscc2026.cy/\nDetails: https://langestefan.github.io/powersystem-de
+ adlines/preview/pr-2/conference/pscc26
+LOCATION:Limassol\, Cyprus
+URL;VALUE=URI:https://pscc2026.cy/
+CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pscc26-notification-2@langestefan.github.io
+DTSTAMP:20260916T145600Z
+DTSTART;VALUE=DATE:20260208
+DTEND;VALUE=DATE:20260209
+TRANSP:TRANSPARENT
+SUMMARY:PSCC 2026: Acceptance and revision requests (23:59 UTC+12 (assumed)
+ )
+DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nAcceptance 
+ and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n\nConference: 
+ June 8-12\, 2026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n
+ \nAll dates:\n  One-page abstract submission: 15 Jun 2025\, 23:59 UTC+12 (
+ assumed)\n  Abstract acceptance notification: 22 Jun 2025\, 23:59 UTC+12 (
+ assumed)\n  Full paper submission: 15 Oct 2025\, 23:59 UTC+12 (assumed)\n 
+  Acceptance and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n  
+ Final manuscript submission: 15 Mar 2026\, 23:59 UTC+12 (assumed)\n\nThe c
+ all for papers states no timezone. This is counted as UTC+12\, the earlies
+ t it could plausibly mean\, so the countdown runs out before the real dead
+ line rather than after it.\n\nSubmission is abstract-first: a one-page abs
+ tract must be accepted before the full paper can be submitted.\n\nCall for
+  papers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/powe
+ rsystem-deadlines/preview/pr-2/conference/pscc26
+LOCATION:Limassol\, Cyprus
+URL;VALUE=URI:https://pscc2026.cy/
+CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pscc26-camera_ready@langestefan.github.io
+DTSTAMP:20260916T145600Z
+DTSTART;VALUE=DATE:20260315
+DTEND;VALUE=DATE:20260316
+TRANSP:TRANSPARENT
+SUMMARY:PSCC 2026: Final manuscript submission (23:59 UTC+12 (assumed))
+DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nFinal manus
+ cript submission: 15 Mar 2026\, 23:59 UTC+12 (assumed)\n\nConference: June
+  8-12\, 2026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAl
+ l dates:\n  One-page abstract submission: 15 Jun 2025\, 23:59 UTC+12 (assu
+ med)\n  Abstract acceptance notification: 22 Jun 2025\, 23:59 UTC+12 (assu
+ med)\n  Full paper submission: 15 Oct 2025\, 23:59 UTC+12 (assumed)\n  Acc
+ eptance and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n  Fina
+ l manuscript submission: 15 Mar 2026\, 23:59 UTC+12 (assumed)\n\nThe call 
+ for papers states no timezone. This is counted as UTC+12\, the earliest it
+  could plausibly mean\, so the countdown runs out before the real deadline
+  rather than after it.\n\nSubmission is abstract-first: a one-page abstrac
+ t must be accepted before the full paper can be submitted.\n\nCall for pap
+ ers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/powersys
+ tem-deadlines/preview/pr-2/conference/pscc26
+LOCATION:Limassol\, Cyprus
+URL;VALUE=URI:https://pscc2026.cy/
+CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+END:VCALENDAR
