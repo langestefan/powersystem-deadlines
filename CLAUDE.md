@@ -70,6 +70,10 @@ Layer boundaries that exist on purpose, and should stay:
   date, and this module decides when that check has aged enough to warn about. Pure, so both
   `scripts/validate.ts` and the pages share one definition of "stale".
 
+`submissionStatus()` in `edition.ts` decides the homepage bucket. `closed` (every dated deadline
+has passed) and `unannounced` (TBA, or nothing listed) are deliberately separate states: they are
+opposite situations and reading one as the other is what a single "dates not announced" bucket did.
+
 A deadline is published as an **all-day event on the date the CFP states**, taken from the raw
 YAML string, never from the resolved UTC instant: `2026-07-31 23:59:59 AoE` is 1 August in UTC, and
 filing it there is how somebody submits a day late. Three places have to agree on this — `deadlineDay()`

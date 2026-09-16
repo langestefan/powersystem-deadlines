@@ -1,7 +1,7 @@
 import type { ConferenceSeriesData, DeadlineData, EditionData } from '../content.config';
 import { regionForCountry } from './regions';
 import { SUBMISSION_DEADLINE_TYPES, type Region, type Society, type TagId } from './taxonomy';
-import { isTba, timezoneLabel, toUtc, UNSTATED_TIMEZONE } from './time';
+import { isTba, timezoneLabel, toUtc, UNSTATED_TIMEZONE, urgencyOf } from './time';
 
 /**
  * Conference edition types and the pure functions that derive them from the raw
@@ -185,6 +185,36 @@ export function tagsInUse(editions: ConferenceEdition[]): TagId[] {
 export function deadlineZoneLabel(deadline: ResolvedDeadline): string {
   const label = timezoneLabel(deadline.timezone);
   return deadline.timezoneStated ? label : `${label} (assumed)`;
+}
+
+/**
+ * Where an edition stands for somebody who wants to submit to it.
+ *
+ * `closed` and `unannounced` are deliberately separate: a conference whose call
+ * has shut and one whose call has not opened are opposite situations, and
+ * showing both under "dates not announced" tells a reader the wrong thing about
+ * each.
+ */
+export type SubmissionStatus = 'urgent' | 'soon' | 'later' | 'closed' | 'unannounced';
+
+export function submissionStatus(
+  edition: ConferenceEdition,
+  now: Date = new Date(),
+): SubmissionStatus {
+  const next = edition.nextDeadline ?? edition.nextAnyDeadline;
+
+  if (next?.utc) {
+    const urgency = urgencyOf(next.utc, now);
+    if (urgency !== 'passed') return urgency;
+  }
+
+  // A dated deadline that has been and gone means submission is over, even if
+  // some later milestone is still TBA.
+  const hasPassedDeadline = edition.deadlines.some(
+    (deadline) => deadline.utc !== null && deadline.utc.getTime() <= now.getTime(),
+  );
+
+  return hasPassedDeadline ? 'closed' : 'unannounced';
 }
 
 /** "Delft, Netherlands" / "Online": the one-line location shown on a card. */

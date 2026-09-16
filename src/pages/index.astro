@@ -2,30 +2,39 @@
 import ConferenceCard from '@/components/ConferenceCard.astro';
 import FilterBar from '@/components/FilterBar.tsx';
 import BaseLayout from '@/layouts/BaseLayout.astro';
-import { getUpcomingEditions, type ConferenceEdition } from '@/lib/conferences';
+import {
+  getUpcomingEditions,
+  submissionStatus,
+  type ConferenceEdition,
+} from '@/lib/conferences';
 import { REGIONS, SOCIETIES, TAGS, tagLabel } from '@/lib/taxonomy';
-import { urgencyOf } from '@/lib/time';
 
 const editions = await getUpcomingEditions();
 
-/** Buckets shown as headings, in order. */
+/**
+ * Buckets shown as headings, in order. The last two are both "nothing to submit
+ * today", but for opposite reasons: one call has not opened, the other has
+ * shut. Lumping them together told a reader the wrong thing about each.
+ */
 const GROUPS = [
-  { id: 'urgent', title: 'Next 7 days' },
-  { id: 'soon', title: 'Next 30 days' },
-  { id: 'later', title: 'Later' },
-  { id: 'tba', title: 'Dates not announced' },
+  { id: 'urgent', title: 'Next 7 days', blurb: undefined },
+  { id: 'soon', title: 'Next 30 days', blurb: undefined },
+  { id: 'later', title: 'Later', blurb: undefined },
+  {
+    id: 'unannounced',
+    title: 'Dates not announced',
+    blurb: 'The call for papers has not given these dates yet.',
+  },
+  {
+    id: 'closed',
+    title: 'Submissions closed',
+    blurb: 'Every listed deadline has passed, but the conference is still ahead.',
+  },
 ] as const;
-
-function groupOf(edition: ConferenceEdition): (typeof GROUPS)[number]['id'] {
-  const next = edition.nextDeadline ?? edition.nextAnyDeadline;
-  if (!next?.utc) return 'tba';
-  const urgency = urgencyOf(next.utc);
-  return urgency === 'passed' ? 'tba' : urgency;
-}
 
 const grouped = GROUPS.map((group) => ({
   ...group,
-  editions: editions.filter((edition) => groupOf(edition) === group.id),
+  editions: editions.filter((edition) => submissionStatus(edition) === group.id),
 })).filter((group) => group.editions.length > 0);
 
 /** Filter options, each with the number of listed conferences it would match. */
@@ -65,8 +74,8 @@ const regionOptions = countBy(REGIONS, (edition, region) => edition.region === r
     <strong class="font-semibold text-foreground">AoE</strong> is Anywhere on Earth (UTC&minus;12):
     a deadline is still open until that date has passed everywhere in the world, so 23:59 AoE is
     midday the next day in Europe. When a call states no zone at all, the time is read as UTC+12
-    and marked <em>assumed</em>, so the countdown runs out before the real deadline rather
-    than after it.
+    and marked <em>assumed</em>, so the countdown runs out before the real deadline rather than
+    after it.
   </p>
 
   <FilterBar
@@ -89,10 +98,9 @@ const regionOptions = countBy(REGIONS, (edition, region) => edition.region === r
     {
       grouped.map((group) => (
         <section data-card-group>
-          <h2 class="mb-3 text-sm font-semibold tracking-wide uppercase opacity-70">
-            {group.title}
-          </h2>
-          <div class="space-y-3">
+          <h2 class="text-sm font-semibold tracking-wide uppercase opacity-70">{group.title}</h2>
+          {group.blurb && <p class="mt-1 text-sm text-muted-foreground">{group.blurb}</p>}
+          <div class="mt-3 space-y-3">
             {group.editions.map((edition) => (
               <div data-card-slot>
                 <ConferenceCard edition={edition} />
