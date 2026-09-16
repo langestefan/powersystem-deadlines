@@ -41,6 +41,8 @@ src/lib/conferences.ts         the ONLY module that imports `astro:content`; cac
   ↓ shaped by
 src/lib/edition.ts             pure functions: raw YAML shape → ConferenceEdition, resolved deadlines
   ↓ consumed by
+src/lib/{calendar,overview,addToCalendar}.ts   editions → .ics events, calendar cells, deep links
+  ↓ rendered by
 src/pages/**                   .astro pages and .ics.ts endpoints, all prerendered at build time
 ```
 
@@ -54,11 +56,23 @@ Layer boundaries that exist on purpose, and should stay:
 - **`time.ts`** owns every timezone conversion. Deadlines are stored as a wall-clock string plus a
   zone name and only become real instants here (`toUtc`). AoE is UTC−12; abbreviations like `CET`
   are deliberately fixed offsets, never DST-resolved.
+- **`overview.ts`** is the year calendar's data layer: editions → twelve months of day cells,
+  Monday-first, with the week padding and month/year-crossing runs that are where the off-by-ones
+  live. Pure and `astro:content`-free like `edition.ts`, so `tests/overview.test.ts` can drive it
+  directly. It also resolves each mark's Tailwind colour (`dotClass`, `barClass`) so no template
+  interpolates one.
 - **`feeds.ts`** defines each published feed once, so the endpoints that generate them and the
   `/subscribe` page that lists them cannot drift.
 - **`verification.ts`** owns the freshness rule: every edition carries a required `verified:`
   date, and this module decides when that check has aged enough to warn about. Pure, so both
   `scripts/validate.ts` and the pages share one definition of "stale".
+
+A deadline is published as an **all-day event on the date the CFP states**, taken from the raw
+YAML string, never from the resolved UTC instant: `2026-07-31 23:59:59 AoE` is 1 August in UTC, and
+filing it there is how somebody submits a day late. Three places have to agree on this — `deadlineDay()`
+in `calendar.ts` (the feeds), `deadlineDay()` in `overview.ts` (the calendar grid) and `addToCalendar.ts`
+(the Google/Outlook deep links, computed at build time so they work without JavaScript). Changing one
+means changing all three.
 
 ### Single sources of truth
 
@@ -66,11 +80,14 @@ Layer boundaries that exist on purpose, and should stay:
   feed URL. Changing hosting means editing that one constant (and `cname:` in `deploy.yml`).
   Link internal paths through `withBase()`, never by hand: it adds the base prefix and the trailing
   slash GitHub Pages would otherwise 301 to.
-- `src/lib/taxonomy.ts` — `TAGS`, `SOCIETIES`, `REGIONS`, `DEADLINE_TYPES`. These feed the schema
-  enums, so adding a tag here is what makes it usable in YAML; it also automatically creates a
-  `/calendar/<tag>.ics` feed. Update the tag list in `CONTRIBUTING.md` in the same change.
-  `SUBMISSION_DEADLINE_TYPES` decides which deadline drives the headline countdown — a notification
-  date must never hide a paper deadline.
+- `src/lib/taxonomy.ts` — `TAGS`, `SOCIETIES` and `REGIONS` feed the schema enums, so adding a tag
+  here is what makes it usable in YAML; it also automatically creates a `/calendar/<tag>.ics` feed.
+  Update the tag list in `CONTRIBUTING.md` in the same change. A deadline's `type` is deliberately
+  *not* an enum — a conference may invent one — so `DEADLINE_TYPES` is only the recommended list and
+  `deadlineTypeStyle()` falls back to "Other" for anything else. `DEADLINE_TYPE_STYLES` gives each
+  type its calendar colour and legend label, with types that mean the same thing to an author sharing
+  both (all three `*_proposal`s read "Proposal"). `SUBMISSION_DEADLINE_TYPES` decides which deadline
+  drives the headline countdown — a notification date must never hide a paper deadline.
 - `src/lib/regions.ts` — country → region. An unknown country is a validation error, not a guess.
 
 ### Validation is split in two
@@ -87,16 +104,32 @@ them did. A *missing* `verified:` is an error, enforced by the schema.
 
 ### Rendering model
 
-Cards, tables and countdowns are server-rendered HTML. Two small pieces of interactivity:
+Cards, tables, countdowns and the year calendar are server-rendered HTML. Interactivity is added on
+top of that DOM, never by re-rendering it:
 
 - `FilterBar.tsx` (`client:load`) filters the *existing* DOM by toggling `data-*`-tagged card slots
   and mirrors state into the query string. It does not re-render the list, so cards stay static and
   indexable.
 - A single `setInterval` in `BaseLayout.astro` ticks every `[data-countdown]` node on the page. Do
   not add a per-card React root for this.
+- `YearCalendar.astro` carries one inline `<script>`: a delegated listener that positions the day
+  popover from each cell's `data-detail` JSON, and a legend that doubles as switches hiding marks
+  already in the DOM. Same rule — one listener for the whole grid, not an island per day.
+- `SubscribeLinks.tsx` (`client:visible`) is the only other React island, for the copy buttons.
+
+`/overview` renders the current year itself instead of redirecting to `/overview/<year>`: GitHub
+Pages has no server-side redirect, so Astro would emit a meta-refresh stub. `/overview/<year>` pages
+are generated from `yearsWithData()`, so adding an edition in a new year creates its page.
 
 Time-dependent grouping ("next 7 days", upcoming vs. archive) is decided at **build** time, which is
 why `deploy.yml` also rebuilds on a daily cron.
+
+### Tests
+
+`tests/*.test.ts` mirrors `src/lib/*` one file per module, and covers exactly the modules that keep
+away from `astro:content`: `time`, `ics`, `calendar`, `overview`, `feeds`, `verification`,
+`addToCalendar`. `tests/ics.test.ts` asserts RFC 5545 details (75-octet folding, escaping order,
+CRLF) that are easy to regress invisibly, since a malformed feed still looks fine on the page.
 
 ## Working with conference data
 
