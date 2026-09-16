@@ -11,85 +11,26 @@ X-WR-CALDESC:Every submission deadline tracked here.
 SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
  ar/all.ics
 BEGIN:VEVENT
-UID:isgt-europe26-paper@langestefan.github.io
-DTSTAMP:20260916T043305Z
-DTSTART;VALUE=DATE:20260415
-DTEND;VALUE=DATE:20260416
-TRANSP:TRANSPARENT
-SUMMARY:ISGT Europe 2026: Paper submission (23:59 AoE)
-DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Europe (
- ISGT Europe 2026)\n\nPaper submission: 15 Apr 2026\, 23:59 AoE\n\nConferen
- ce: October 19-22\, 2026\nLocation: Budapest\, Hungary\n\nAll dates:\n  Pa
- per submission: 15 Apr 2026\, 23:59 AoE\n  Final paper submission: 15 Sept
-  2026\, 23:59 AoE\n\nFinal paper submission opened 15 August 2026. Timezon
- es are not stated in the call for papers\; AoE is assumed.\n\nCall for pap
- ers: https://ieee-isgt-europe.org/\nDetails: https://langestefan.github.io
- /powersystem-deadlines/conference/isgt-europe26
-LOCATION:Budapest\, Hungary
-URL;VALUE=URI:https://ieee-isgt-europe.org/
-CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:isgt-europe26-camera_ready@langestefan.github.io
-DTSTAMP:20260916T043305Z
-DTSTART;VALUE=DATE:20260915
-DTEND;VALUE=DATE:20260916
-TRANSP:TRANSPARENT
-SUMMARY:ISGT Europe 2026: Final paper submission (23:59 AoE)
-DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Europe (
- ISGT Europe 2026)\n\nFinal paper submission: 15 Sept 2026\, 23:59 AoE\n\nC
- onference: October 19-22\, 2026\nLocation: Budapest\, Hungary\n\nAll dates
- :\n  Paper submission: 15 Apr 2026\, 23:59 AoE\n  Final paper submission: 
- 15 Sept 2026\, 23:59 AoE\n\nFinal paper submission opened 15 August 2026. 
- Timezones are not stated in the call for papers\; AoE is assumed.\n\nCall 
- for papers: https://ieee-isgt-europe.org/\nDetails: https://langestefan.gi
- thub.io/powersystem-deadlines/conference/isgt-europe26
-LOCATION:Budapest\, Hungary
-URL;VALUE=URI:https://ieee-isgt-europe.org/
-CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pes-grid-edge27-paper@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20260724
 DTEND;VALUE=DATE:20260725
 TRANSP:TRANSPARENT
-SUMMARY:PES Grid Edge 2027: Paper and panel proposal submission (23:59 AoE)
+SUMMARY:PES Grid Edge 2027: Paper and panel proposal submission (23:59 UTC+
+ 12 (assumed))
 DESCRIPTION:IEEE PES Grid Edge Technologies Conference & Exposition (PES Gr
  id Edge 2027)\n\nPaper and panel proposal submission: 24 Jul 2026\, 23:59 
- AoE\n\nConference: April 19-22\, 2027\nLocation: Salt Lake City\, USA\nVen
- ue: Calvin L. Rampton Salt Palace Convention Center\n\nAll dates:\n  Paper
-  and panel proposal submission: 24 Jul 2026\, 23:59 AoE\n  Notification of
-  acceptance: 1 Oct 2026\, 23:59 AoE\n\nPapers are limited to five pages\, 
+ UTC+12 (assumed)\n\nConference: April 19-22\, 2027\nLocation: Salt Lake Ci
+ ty\, USA\nVenue: Calvin L. Rampton Salt Palace Convention Center\n\nAll da
+ tes:\n  Paper and panel proposal submission: 24 Jul 2026\, 23:59 UTC+12 (a
+ ssumed)\n  Notification of acceptance: 1 Oct 2026\, 23:59 UTC+12 (assumed)
+ \n\nThe call for papers states no timezone. This is counted as UTC+12\, th
+ e earliest it could plausibly mean\, so the countdown runs out before the 
+ real deadline rather than after it.\n\nPapers are limited to five pages\, 
  and panel proposals to a 350-word description. At least one author per acc
- epted paper must register for the paper to appear in IEEE Xplore. Timezone
- s are not stated in the call for participation\; AoE is assumed.\n\nCall f
- or papers: https://pes-gridedge.org/\nDetails: https://langestefan.github.
- io/powersystem-deadlines/conference/pes-grid-edge27
+ epted paper must register for the paper to appear in IEEE Xplore.\n\nCall 
+ for papers: https://pes-gridedge.org/\nDetails: https://langestefan.github
+ .io/powersystem-deadlines/conference/pes-grid-edge27
 LOCATION:Salt Lake City\, USA
 URL;VALUE=URI:https://pes-gridedge.org/
 CATEGORIES:Smart Grid,Distribution,Energy Storage,EV & Transportation,Micro
@@ -109,22 +50,25 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-grid-edge27-notification@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 TRANSP:TRANSPARENT
-SUMMARY:PES Grid Edge 2027: Notification of acceptance (23:59 AoE)
+SUMMARY:PES Grid Edge 2027: Notification of acceptance (23:59 UTC+12 (assum
+ ed))
 DESCRIPTION:IEEE PES Grid Edge Technologies Conference & Exposition (PES Gr
- id Edge 2027)\n\nNotification of acceptance: 1 Oct 2026\, 23:59 AoE\n\nCon
- ference: April 19-22\, 2027\nLocation: Salt Lake City\, USA\nVenue: Calvin
-  L. Rampton Salt Palace Convention Center\n\nAll dates:\n  Paper and panel
-  proposal submission: 24 Jul 2026\, 23:59 AoE\n  Notification of acceptanc
- e: 1 Oct 2026\, 23:59 AoE\n\nPapers are limited to five pages\, and panel 
+ id Edge 2027)\n\nNotification of acceptance: 1 Oct 2026\, 23:59 UTC+12 (as
+ sumed)\n\nConference: April 19-22\, 2027\nLocation: Salt Lake City\, USA\n
+ Venue: Calvin L. Rampton Salt Palace Convention Center\n\nAll dates:\n  Pa
+ per and panel proposal submission: 24 Jul 2026\, 23:59 UTC+12 (assumed)\n 
+  Notification of acceptance: 1 Oct 2026\, 23:59 UTC+12 (assumed)\n\nThe ca
+ ll for papers states no timezone. This is counted as UTC+12\, the earliest
+  it could plausibly mean\, so the countdown runs out before the real deadl
+ ine rather than after it.\n\nPapers are limited to five pages\, and panel 
  proposals to a 350-word description. At least one author per accepted pape
- r must register for the paper to appear in IEEE Xplore. Timezones are not 
- stated in the call for participation\; AoE is assumed.\n\nCall for papers:
-  https://pes-gridedge.org/\nDetails: https://langestefan.github.io/powersy
- stem-deadlines/conference/pes-grid-edge27
+ r must register for the paper to appear in IEEE Xplore.\n\nCall for papers
+ : https://pes-gridedge.org/\nDetails: https://langestefan.github.io/powers
+ ystem-deadlines/conference/pes-grid-edge27
 LOCATION:Salt Lake City\, USA
 URL;VALUE=URI:https://pes-gridedge.org/
 CATEGORIES:Smart Grid,Distribution,Energy Storage,EV & Transportation,Micro
@@ -144,24 +88,26 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pcim-europe27-abstract@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 TRANSP:TRANSPARENT
-SUMMARY:PCIM Europe 2027: Abstract submission (23:59 AoE)
+SUMMARY:PCIM Europe 2027: Abstract submission (23:59 UTC+12 (assumed))
 DESCRIPTION:International Exhibition and Conference for Power Electronics\,
   Intelligent Motion\, Renewable Energy and Energy Management (PCIM Europe 
- 2027)\n\nAbstract submission: 14 Oct 2026\, 23:59 AoE\n\nConference: May 1
- 1-13\, 2027\nLocation: Nuremberg\, Germany\nVenue: Nuremberg Exhibition Ce
- ntre\n\nAll dates:\n  Abstract submission: 14 Oct 2026\, 23:59 AoE\n  Full
-  manuscript submission: 9 Mar 2027\, 23:59 AoE\n\nNot yet announced: Accep
- tance notification and speaker registration\n\nThe same 14 October 2026 de
+ 2027)\n\nAbstract submission: 14 Oct 2026\, 23:59 UTC+12 (assumed)\n\nConf
+ erence: May 11-13\, 2027\nLocation: Nuremberg\, Germany\nVenue: Nuremberg 
+ Exhibition Centre\n\nAll dates:\n  Abstract submission: 14 Oct 2026\, 23:5
+ 9 UTC+12 (assumed)\n  Full manuscript submission: 9 Mar 2027\, 23:59 UTC+1
+ 2 (assumed)\n\nNot yet announced: Acceptance notification and speaker regi
+ stration\n\nThe call for papers states no timezone. This is counted as UTC
+ +12\, the earliest it could plausibly mean\, so the countdown runs out bef
+ ore the real deadline rather than after it.\n\nThe same 14 October 2026 de
  adline covers synopses for the seminars held on 9-10 May 2027 at the Arven
  a Park Hotel\, whose documentation is due 14 April 2027. Acceptance is exp
- ected in January 2027 without a stated date. Timezones are not stated in t
- he call for papers\; AoE is assumed.\n\nCall for papers: https://pcim.mesa
- go.com/nuernberg/en.html\nDetails: https://langestefan.github.io/powersyst
- em-deadlines/conference/pcim-europe27
+ ected in January 2027 without a stated date.\n\nCall for papers: https://p
+ cim.mesago.com/nuernberg/en.html\nDetails: https://langestefan.github.io/p
+ owersystem-deadlines/conference/pcim-europe27
 LOCATION:Nuremberg\, Germany
 URL;VALUE=URI:https://pcim.mesago.com/nuernberg/en.html
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
@@ -180,24 +126,27 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pcim-europe27-camera_ready@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 TRANSP:TRANSPARENT
-SUMMARY:PCIM Europe 2027: Full manuscript submission (23:59 AoE)
+SUMMARY:PCIM Europe 2027: Full manuscript submission (23:59 UTC+12 (assumed
+ ))
 DESCRIPTION:International Exhibition and Conference for Power Electronics\,
   Intelligent Motion\, Renewable Energy and Energy Management (PCIM Europe 
- 2027)\n\nFull manuscript submission: 9 Mar 2027\, 23:59 AoE\n\nConference:
-  May 11-13\, 2027\nLocation: Nuremberg\, Germany\nVenue: Nuremberg Exhibit
- ion Centre\n\nAll dates:\n  Abstract submission: 14 Oct 2026\, 23:59 AoE\n
-   Full manuscript submission: 9 Mar 2027\, 23:59 AoE\n\nNot yet announced:
-  Acceptance notification and speaker registration\n\nThe same 14 October 2
+ 2027)\n\nFull manuscript submission: 9 Mar 2027\, 23:59 UTC+12 (assumed)\n
+ \nConference: May 11-13\, 2027\nLocation: Nuremberg\, Germany\nVenue: Nure
+ mberg Exhibition Centre\n\nAll dates:\n  Abstract submission: 14 Oct 2026\
+ , 23:59 UTC+12 (assumed)\n  Full manuscript submission: 9 Mar 2027\, 23:59
+  UTC+12 (assumed)\n\nNot yet announced: Acceptance notification and speake
+ r registration\n\nThe call for papers states no timezone. This is counted 
+ as UTC+12\, the earliest it could plausibly mean\, so the countdown runs o
+ ut before the real deadline rather than after it.\n\nThe same 14 October 2
  026 deadline covers synopses for the seminars held on 9-10 May 2027 at the
   Arvena Park Hotel\, whose documentation is due 14 April 2027. Acceptance 
- is expected in January 2027 without a stated date. Timezones are not state
- d in the call for papers\; AoE is assumed.\n\nCall for papers: https://pci
- m.mesago.com/nuernberg/en.html\nDetails: https://langestefan.github.io/pow
- ersystem-deadlines/conference/pcim-europe27
+ is expected in January 2027 without a stated date.\n\nCall for papers: htt
+ ps://pcim.mesago.com/nuernberg/en.html\nDetails: https://langestefan.githu
+ b.io/powersystem-deadlines/conference/pcim-europe27
 LOCATION:Nuremberg\, Germany
 URL;VALUE=URI:https://pcim.mesago.com/nuernberg/en.html
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
@@ -216,23 +165,26 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-paper@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 TRANSP:TRANSPARENT
-SUMMARY:ISGT Asia 2026: Paper submission (23:59 AoE)
+SUMMARY:ISGT Asia 2026: Paper submission (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
- GT Asia 2026)\n\nPaper submission: 10 Sept 2026\, 23:59 AoE\n\nConference:
-  October 30 - November 1\, 2026\nLocation: Wuhan\, China\n\nAll dates:\n  
- Paper submission: 10 Sept 2026\, 23:59 AoE\n  Acceptance notification: 20 
- Sept 2026\, 23:59 AoE\n  Author registration: 10 Oct 2026\, 23:59 AoE\n  F
- inal paper submission: 20 Oct 2026\, 23:59 AoE\n\nThemed "New Energy and P
- ower Technologies Toward Carbon Neutrality"\, hosted by Wuhan University. 
- The call gives submission and notification as windows rather than single d
- ates\; the closing date of each window is listed here. Timezones are not s
- tated\; AoE is assumed.\n\nCall for papers: https://attend.ieee.org/isgt-a
- sia-2026/\nDetails: https://langestefan.github.io/powersystem-deadlines/co
- nference/isgt-asia26
+ GT Asia 2026)\n\nPaper submission: 10 Sept 2026\, 23:59 UTC+12 (assumed)\n
+ \nConference: October 30 - November 1\, 2026\nLocation: Wuhan\, China\n\nA
+ ll dates:\n  Paper submission: 10 Sept 2026\, 23:59 UTC+12 (assumed)\n  Ac
+ ceptance notification: 20 Sept 2026\, 23:59 UTC+12 (assumed)\n  Author reg
+ istration: 10 Oct 2026\, 23:59 UTC+12 (assumed)\n  Final paper submission:
+  20 Oct 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no tim
+ ezone. This is counted as UTC+12\, the earliest it could plausibly mean\, 
+ so the countdown runs out before the real deadline rather than after it.\n
+ \nThemed "New Energy and Power Technologies Toward Carbon Neutrality"\, ho
+ sted by Wuhan University. The call gives submission and notification as wi
+ ndows rather than single dates\; the closing date of each window is listed
+  here.\n\nCall for papers: https://attend.ieee.org/isgt-asia-2026/\nDetail
+ s: https://langestefan.github.io/powersystem-deadlines/conference/isgt-asi
+ a26
 LOCATION:Wuhan\, China
 URL;VALUE=URI:https://attend.ieee.org/isgt-asia-2026/
 CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
@@ -251,23 +203,26 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-notification@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 TRANSP:TRANSPARENT
-SUMMARY:ISGT Asia 2026: Acceptance notification (23:59 AoE)
+SUMMARY:ISGT Asia 2026: Acceptance notification (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
- GT Asia 2026)\n\nAcceptance notification: 20 Sept 2026\, 23:59 AoE\n\nConf
- erence: October 30 - November 1\, 2026\nLocation: Wuhan\, China\n\nAll dat
- es:\n  Paper submission: 10 Sept 2026\, 23:59 AoE\n  Acceptance notificati
- on: 20 Sept 2026\, 23:59 AoE\n  Author registration: 10 Oct 2026\, 23:59 A
- oE\n  Final paper submission: 20 Oct 2026\, 23:59 AoE\n\nThemed "New Energ
- y and Power Technologies Toward Carbon Neutrality"\, hosted by Wuhan Unive
- rsity. The call gives submission and notification as windows rather than s
- ingle dates\; the closing date of each window is listed here. Timezones ar
- e not stated\; AoE is assumed.\n\nCall for papers: https://attend.ieee.org
- /isgt-asia-2026/\nDetails: https://langestefan.github.io/powersystem-deadl
- ines/conference/isgt-asia26
+ GT Asia 2026)\n\nAcceptance notification: 20 Sept 2026\, 23:59 UTC+12 (ass
+ umed)\n\nConference: October 30 - November 1\, 2026\nLocation: Wuhan\, Chi
+ na\n\nAll dates:\n  Paper submission: 10 Sept 2026\, 23:59 UTC+12 (assumed
+ )\n  Acceptance notification: 20 Sept 2026\, 23:59 UTC+12 (assumed)\n  Aut
+ hor registration: 10 Oct 2026\, 23:59 UTC+12 (assumed)\n  Final paper subm
+ ission: 20 Oct 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states
+  no timezone. This is counted as UTC+12\, the earliest it could plausibly 
+ mean\, so the countdown runs out before the real deadline rather than afte
+ r it.\n\nThemed "New Energy and Power Technologies Toward Carbon Neutralit
+ y"\, hosted by Wuhan University. The call gives submission and notificatio
+ n as windows rather than single dates\; the closing date of each window is
+  listed here.\n\nCall for papers: https://attend.ieee.org/isgt-asia-2026/\
+ nDetails: https://langestefan.github.io/powersystem-deadlines/conference/i
+ sgt-asia26
 LOCATION:Wuhan\, China
 URL;VALUE=URI:https://attend.ieee.org/isgt-asia-2026/
 CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
@@ -286,23 +241,26 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-author_registration@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 TRANSP:TRANSPARENT
-SUMMARY:ISGT Asia 2026: Author registration (23:59 AoE)
+SUMMARY:ISGT Asia 2026: Author registration (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
- GT Asia 2026)\n\nAuthor registration: 10 Oct 2026\, 23:59 AoE\n\nConferenc
- e: October 30 - November 1\, 2026\nLocation: Wuhan\, China\n\nAll dates:\n
-   Paper submission: 10 Sept 2026\, 23:59 AoE\n  Acceptance notification: 2
- 0 Sept 2026\, 23:59 AoE\n  Author registration: 10 Oct 2026\, 23:59 AoE\n 
-  Final paper submission: 20 Oct 2026\, 23:59 AoE\n\nThemed "New Energy and
-  Power Technologies Toward Carbon Neutrality"\, hosted by Wuhan University
- . The call gives submission and notification as windows rather than single
-  dates\; the closing date of each window is listed here. Timezones are not
-  stated\; AoE is assumed.\n\nCall for papers: https://attend.ieee.org/isgt
- -asia-2026/\nDetails: https://langestefan.github.io/powersystem-deadlines/
- conference/isgt-asia26
+ GT Asia 2026)\n\nAuthor registration: 10 Oct 2026\, 23:59 UTC+12 (assumed)
+ \n\nConference: October 30 - November 1\, 2026\nLocation: Wuhan\, China\n\
+ nAll dates:\n  Paper submission: 10 Sept 2026\, 23:59 UTC+12 (assumed)\n  
+ Acceptance notification: 20 Sept 2026\, 23:59 UTC+12 (assumed)\n  Author r
+ egistration: 10 Oct 2026\, 23:59 UTC+12 (assumed)\n  Final paper submissio
+ n: 20 Oct 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no t
+ imezone. This is counted as UTC+12\, the earliest it could plausibly mean\
+ , so the countdown runs out before the real deadline rather than after it.
+ \n\nThemed "New Energy and Power Technologies Toward Carbon Neutrality"\, 
+ hosted by Wuhan University. The call gives submission and notification as 
+ windows rather than single dates\; the closing date of each window is list
+ ed here.\n\nCall for papers: https://attend.ieee.org/isgt-asia-2026/\nDeta
+ ils: https://langestefan.github.io/powersystem-deadlines/conference/isgt-a
+ sia26
 LOCATION:Wuhan\, China
 URL;VALUE=URI:https://attend.ieee.org/isgt-asia-2026/
 CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
@@ -321,23 +279,26 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-camera_ready@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 TRANSP:TRANSPARENT
-SUMMARY:ISGT Asia 2026: Final paper submission (23:59 AoE)
+SUMMARY:ISGT Asia 2026: Final paper submission (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
- GT Asia 2026)\n\nFinal paper submission: 20 Oct 2026\, 23:59 AoE\n\nConfer
- ence: October 30 - November 1\, 2026\nLocation: Wuhan\, China\n\nAll dates
- :\n  Paper submission: 10 Sept 2026\, 23:59 AoE\n  Acceptance notification
- : 20 Sept 2026\, 23:59 AoE\n  Author registration: 10 Oct 2026\, 23:59 AoE
- \n  Final paper submission: 20 Oct 2026\, 23:59 AoE\n\nThemed "New Energy 
- and Power Technologies Toward Carbon Neutrality"\, hosted by Wuhan Univers
- ity. The call gives submission and notification as windows rather than sin
- gle dates\; the closing date of each window is listed here. Timezones are 
- not stated\; AoE is assumed.\n\nCall for papers: https://attend.ieee.org/i
- sgt-asia-2026/\nDetails: https://langestefan.github.io/powersystem-deadlin
- es/conference/isgt-asia26
+ GT Asia 2026)\n\nFinal paper submission: 20 Oct 2026\, 23:59 UTC+12 (assum
+ ed)\n\nConference: October 30 - November 1\, 2026\nLocation: Wuhan\, China
+ \n\nAll dates:\n  Paper submission: 10 Sept 2026\, 23:59 UTC+12 (assumed)\
+ n  Acceptance notification: 20 Sept 2026\, 23:59 UTC+12 (assumed)\n  Autho
+ r registration: 10 Oct 2026\, 23:59 UTC+12 (assumed)\n  Final paper submis
+ sion: 20 Oct 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states n
+ o timezone. This is counted as UTC+12\, the earliest it could plausibly me
+ an\, so the countdown runs out before the real deadline rather than after 
+ it.\n\nThemed "New Energy and Power Technologies Toward Carbon Neutrality"
+ \, hosted by Wuhan University. The call gives submission and notification 
+ as windows rather than single dates\; the closing date of each window is l
+ isted here.\n\nCall for papers: https://attend.ieee.org/isgt-asia-2026/\nD
+ etails: https://langestefan.github.io/powersystem-deadlines/conference/isg
+ t-asia26
 LOCATION:Wuhan\, China
 URL;VALUE=URI:https://attend.ieee.org/isgt-asia-2026/
 CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
@@ -356,20 +317,23 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-abstract@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
-SUMMARY:IEMDC 2027: Digest submission (23:59 AoE)
+SUMMARY:IEMDC 2027: Digest submission (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
- DC 2027)\n\nDigest submission: 1 Nov 2026\, 23:59 AoE\n\nConference: May 1
- 7-20\, 2027\nLocation: Milwaukee\, USA\n\nAll dates:\n  Digest submission:
-  1 Nov 2026\, 23:59 AoE\n  Digest acceptance notification: 15 Jan 2027\, 2
- 3:59 AoE\n  Final paper submission and early registration: 15 Mar 2027\, 2
- 3:59 AoE\n\n16th edition\, marking the conference's 30th anniversary and r
- eturning to Milwaukee. Timezones are not stated in the call for papers\; A
- oE is assumed.\n\nCall for papers: https://www.iemdc.org/\nDetails: https:
- //langestefan.github.io/powersystem-deadlines/conference/iemdc27
+ DC 2027)\n\nDigest submission: 1 Nov 2026\, 23:59 UTC+12 (assumed)\n\nConf
+ erence: May 17-20\, 2027\nLocation: Milwaukee\, USA\n\nAll dates:\n  Diges
+ t submission: 1 Nov 2026\, 23:59 UTC+12 (assumed)\n  Digest acceptance not
+ ification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final paper submission 
+ and early registration: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call f
+ or papers states no timezone. This is counted as UTC+12\, the earliest it 
+ could plausibly mean\, so the countdown runs out before the real deadline 
+ rather than after it.\n\n16th edition\, marking the conference's 30th anni
+ versary and returning to Milwaukee.\n\nCall for papers: https://www.iemdc.
+ org/\nDetails: https://langestefan.github.io/powersystem-deadlines/confere
+ nce/iemdc27
 LOCATION:Milwaukee\, USA
 URL;VALUE=URI:https://www.iemdc.org/
 CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
@@ -388,21 +352,23 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-notification@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 TRANSP:TRANSPARENT
-SUMMARY:IEMDC 2027: Digest acceptance notification (23:59 AoE)
+SUMMARY:IEMDC 2027: Digest acceptance notification (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
- DC 2027)\n\nDigest acceptance notification: 15 Jan 2027\, 23:59 AoE\n\nCon
- ference: May 17-20\, 2027\nLocation: Milwaukee\, USA\n\nAll dates:\n  Dige
- st submission: 1 Nov 2026\, 23:59 AoE\n  Digest acceptance notification: 1
- 5 Jan 2027\, 23:59 AoE\n  Final paper submission and early registration: 1
- 5 Mar 2027\, 23:59 AoE\n\n16th edition\, marking the conference's 30th ann
- iversary and returning to Milwaukee. Timezones are not stated in the call 
- for papers\; AoE is assumed.\n\nCall for papers: https://www.iemdc.org/\nD
- etails: https://langestefan.github.io/powersystem-deadlines/conference/iem
- dc27
+ DC 2027)\n\nDigest acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (as
+ sumed)\n\nConference: May 17-20\, 2027\nLocation: Milwaukee\, USA\n\nAll d
+ ates:\n  Digest submission: 1 Nov 2026\, 23:59 UTC+12 (assumed)\n  Digest 
+ acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final pap
+ er submission and early registration: 15 Mar 2027\, 23:59 UTC+12 (assumed)
+ \n\nThe call for papers states no timezone. This is counted as UTC+12\, th
+ e earliest it could plausibly mean\, so the countdown runs out before the 
+ real deadline rather than after it.\n\n16th edition\, marking the conferen
+ ce's 30th anniversary and returning to Milwaukee.\n\nCall for papers: http
+ s://www.iemdc.org/\nDetails: https://langestefan.github.io/powersystem-dea
+ dlines/conference/iemdc27
 LOCATION:Milwaukee\, USA
 URL;VALUE=URI:https://www.iemdc.org/
 CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
@@ -421,22 +387,24 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-camera_ready@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
-SUMMARY:IEMDC 2027: Final paper submission and early registration (23:59 Ao
- E)
+SUMMARY:IEMDC 2027: Final paper submission and early registration (23:59 UT
+ C+12 (assumed))
 DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
  DC 2027)\n\nFinal paper submission and early registration: 15 Mar 2027\, 2
- 3:59 AoE\n\nConference: May 17-20\, 2027\nLocation: Milwaukee\, USA\n\nAll
-  dates:\n  Digest submission: 1 Nov 2026\, 23:59 AoE\n  Digest acceptance 
- notification: 15 Jan 2027\, 23:59 AoE\n  Final paper submission and early 
- registration: 15 Mar 2027\, 23:59 AoE\n\n16th edition\, marking the confer
- ence's 30th anniversary and returning to Milwaukee. Timezones are not stat
- ed in the call for papers\; AoE is assumed.\n\nCall for papers: https://ww
- w.iemdc.org/\nDetails: https://langestefan.github.io/powersystem-deadlines
- /conference/iemdc27
+ 3:59 UTC+12 (assumed)\n\nConference: May 17-20\, 2027\nLocation: Milwaukee
+ \, USA\n\nAll dates:\n  Digest submission: 1 Nov 2026\, 23:59 UTC+12 (assu
+ med)\n  Digest acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assume
+ d)\n  Final paper submission and early registration: 15 Mar 2027\, 23:59 U
+ TC+12 (assumed)\n\nThe call for papers states no timezone. This is counted
+  as UTC+12\, the earliest it could plausibly mean\, so the countdown runs 
+ out before the real deadline rather than after it.\n\n16th edition\, marki
+ ng the conference's 30th anniversary and returning to Milwaukee.\n\nCall f
+ or papers: https://www.iemdc.org/\nDetails: https://langestefan.github.io/
+ powersystem-deadlines/conference/iemdc27
 LOCATION:Milwaukee\, USA
 URL;VALUE=URI:https://www.iemdc.org/
 CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
@@ -455,19 +423,21 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pesgm27-paper@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 TRANSP:TRANSPARENT
-SUMMARY:IEEE PES GM 2027: Paper submission (23:59 AoE)
+SUMMARY:IEEE PES GM 2027: Paper submission (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE Power & Energy Society General Meeting (IEEE PES GM 2027)\
- n\nPaper submission: 10 Nov 2026\, 23:59 AoE\n\nConference: July 25-29\, 2
- 027\nLocation: San Francisco\, USA\n\nNot yet announced: Author notificati
- on\n\nPapers are limited to five pages. The submission site opens 6 Octobe
- r 2026 and notifications are expected in mid-March 2027\, without a stated
-  date. Timezones are not stated in the call for papers\; AoE is assumed.\n
- \nCall for papers: https://pes-gm.org/\nDetails: https://langestefan.githu
- b.io/powersystem-deadlines/conference/pesgm27
+ n\nPaper submission: 10 Nov 2026\, 23:59 UTC+12 (assumed)\n\nConference: J
+ uly 25-29\, 2027\nLocation: San Francisco\, USA\n\nNot yet announced: Auth
+ or notification\n\nThe call for papers states no timezone. This is counted
+  as UTC+12\, the earliest it could plausibly mean\, so the countdown runs 
+ out before the real deadline rather than after it.\n\nPapers are limited t
+ o five pages. The submission site opens 6 October 2026 and notifications a
+ re expected in mid-March 2027\, without a stated date.\n\nCall for papers:
+  https://pes-gm.org/\nDetails: https://langestefan.github.io/powersystem-d
+ eadlines/conference/pesgm27
 LOCATION:San Francisco\, USA
 URL;VALUE=URI:https://pes-gm.org/
 CATEGORIES:Power Systems,Transmission,Distribution,Renewables,Smart Grid
@@ -486,22 +456,25 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-abstract@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 TRANSP:TRANSPARENT
-SUMMARY:APEC 2027: Technical session digest submission (23:59 AoE)
+SUMMARY:APEC 2027: Technical session digest submission (23:59 UTC+12 (assum
+ ed))
 DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC 
- 2027)\n\nTechnical session digest submission: 21 Aug 2026\, 23:59 AoE\n\nC
- onference: March 7-11\, 2027\nLocation: New Orleans\, USA\nVenue: Ernest N
- . Morial Convention Center\n\nAll dates:\n  Technical session digest submi
- ssion: 21 Aug 2026\, 23:59 AoE\n  Acceptance and decline notices: 12 Oct 2
- 026\, 23:59 AoE\n  Final manuscript and author registration: 7 Dec 2026\, 
- 23:59 AoE\n\nThe digest deadline was extended from 14 to 21 August 2026. A
- n author manuscript training session is held on 12 November 2026. Timezone
- s are not stated in the call for papers\; AoE is assumed.\n\nCall for pape
- rs: https://apec-conf.org/\nDetails: https://langestefan.github.io/powersy
- stem-deadlines/conference/apec27
+ 2027)\n\nTechnical session digest submission: 21 Aug 2026\, 23:59 UTC+12 (
+ assumed)\n\nConference: March 7-11\, 2027\nLocation: New Orleans\, USA\nVe
+ nue: Ernest N. Morial Convention Center\n\nAll dates:\n  Technical session
+  digest submission: 21 Aug 2026\, 23:59 UTC+12 (assumed)\n  Acceptance and
+  decline notices: 12 Oct 2026\, 23:59 UTC+12 (assumed)\n  Final manuscript
+  and author registration: 7 Dec 2026\, 23:59 UTC+12 (assumed)\n\nThe call 
+ for papers states no timezone. This is counted as UTC+12\, the earliest it
+  could plausibly mean\, so the countdown runs out before the real deadline
+  rather than after it.\n\nThe digest deadline was extended from 14 to 21 A
+ ugust 2026. An author manuscript training session is held on 12 November 2
+ 026.\n\nCall for papers: https://apec-conf.org/\nDetails: https://langeste
+ fan.github.io/powersystem-deadlines/conference/apec27
 LOCATION:New Orleans\, USA
 URL;VALUE=URI:https://apec-conf.org/
 CATEGORIES:Power Electronics,Machines & Drives,Energy Storage,EV & Transpor
@@ -521,22 +494,24 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-notification@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 TRANSP:TRANSPARENT
-SUMMARY:APEC 2027: Acceptance and decline notices (23:59 AoE)
+SUMMARY:APEC 2027: Acceptance and decline notices (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC 
- 2027)\n\nAcceptance and decline notices: 12 Oct 2026\, 23:59 AoE\n\nConfer
- ence: March 7-11\, 2027\nLocation: New Orleans\, USA\nVenue: Ernest N. Mor
- ial Convention Center\n\nAll dates:\n  Technical session digest submission
- : 21 Aug 2026\, 23:59 AoE\n  Acceptance and decline notices: 12 Oct 2026\,
-  23:59 AoE\n  Final manuscript and author registration: 7 Dec 2026\, 23:59
-  AoE\n\nThe digest deadline was extended from 14 to 21 August 2026. An aut
- hor manuscript training session is held on 12 November 2026. Timezones are
-  not stated in the call for papers\; AoE is assumed.\n\nCall for papers: h
- ttps://apec-conf.org/\nDetails: https://langestefan.github.io/powersystem-
- deadlines/conference/apec27
+ 2027)\n\nAcceptance and decline notices: 12 Oct 2026\, 23:59 UTC+12 (assum
+ ed)\n\nConference: March 7-11\, 2027\nLocation: New Orleans\, USA\nVenue: 
+ Ernest N. Morial Convention Center\n\nAll dates:\n  Technical session dige
+ st submission: 21 Aug 2026\, 23:59 UTC+12 (assumed)\n  Acceptance and decl
+ ine notices: 12 Oct 2026\, 23:59 UTC+12 (assumed)\n  Final manuscript and 
+ author registration: 7 Dec 2026\, 23:59 UTC+12 (assumed)\n\nThe call for p
+ apers states no timezone. This is counted as UTC+12\, the earliest it coul
+ d plausibly mean\, so the countdown runs out before the real deadline rath
+ er than after it.\n\nThe digest deadline was extended from 14 to 21 August
+  2026. An author manuscript training session is held on 12 November 2026.\
+ n\nCall for papers: https://apec-conf.org/\nDetails: https://langestefan.g
+ ithub.io/powersystem-deadlines/conference/apec27
 LOCATION:New Orleans\, USA
 URL;VALUE=URI:https://apec-conf.org/
 CATEGORIES:Power Electronics,Machines & Drives,Energy Storage,EV & Transpor
@@ -556,22 +531,25 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-camera_ready@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 TRANSP:TRANSPARENT
-SUMMARY:APEC 2027: Final manuscript and author registration (23:59 AoE)
+SUMMARY:APEC 2027: Final manuscript and author registration (23:59 UTC+12 (
+ assumed))
 DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC 
- 2027)\n\nFinal manuscript and author registration: 7 Dec 2026\, 23:59 AoE\
- n\nConference: March 7-11\, 2027\nLocation: New Orleans\, USA\nVenue: Erne
- st N. Morial Convention Center\n\nAll dates:\n  Technical session digest s
- ubmission: 21 Aug 2026\, 23:59 AoE\n  Acceptance and decline notices: 12 O
- ct 2026\, 23:59 AoE\n  Final manuscript and author registration: 7 Dec 202
- 6\, 23:59 AoE\n\nThe digest deadline was extended from 14 to 21 August 202
- 6. An author manuscript training session is held on 12 November 2026. Time
- zones are not stated in the call for papers\; AoE is assumed.\n\nCall for 
- papers: https://apec-conf.org/\nDetails: https://langestefan.github.io/pow
- ersystem-deadlines/conference/apec27
+ 2027)\n\nFinal manuscript and author registration: 7 Dec 2026\, 23:59 UTC+
+ 12 (assumed)\n\nConference: March 7-11\, 2027\nLocation: New Orleans\, USA
+ \nVenue: Ernest N. Morial Convention Center\n\nAll dates:\n  Technical ses
+ sion digest submission: 21 Aug 2026\, 23:59 UTC+12 (assumed)\n  Acceptance
+  and decline notices: 12 Oct 2026\, 23:59 UTC+12 (assumed)\n  Final manusc
+ ript and author registration: 7 Dec 2026\, 23:59 UTC+12 (assumed)\n\nThe c
+ all for papers states no timezone. This is counted as UTC+12\, the earlies
+ t it could plausibly mean\, so the countdown runs out before the real dead
+ line rather than after it.\n\nThe digest deadline was extended from 14 to 
+ 21 August 2026. An author manuscript training session is held on 12 Novemb
+ er 2026.\n\nCall for papers: https://apec-conf.org/\nDetails: https://lang
+ estefan.github.io/powersystem-deadlines/conference/apec27
 LOCATION:New Orleans\, USA
 URL;VALUE=URI:https://apec-conf.org/
 CATEGORIES:Power Electronics,Machines & Drives,Energy Storage,EV & Transpor
@@ -591,22 +569,25 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ias-am27-abstract@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 TRANSP:TRANSPARENT
-SUMMARY:IEEE IAS Annual Meeting 2027: Digest submission (23:59 AoE)
+SUMMARY:IEEE IAS Annual Meeting 2027: Digest submission (23:59 UTC+12 (assu
+ med))
 DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
- ual Meeting 2027)\n\nDigest submission: 7 Dec 2026\, 23:59 AoE\n\nConferen
- ce: Dates to be announced\nLocation: Location TBA\n\nAll dates:\n  Digest 
- submission: 7 Dec 2026\, 23:59 AoE\n  Author notification: 15 Feb 2027\, 2
- 3:59 AoE\n  Final paper with IEEE copyright form: 15 Apr 2027\, 23:59 AoE\
- n\nEvery accepted paper must be covered by a full conference registration 
- before the final manuscript is submitted. The venue and dates were not yet
-  published when this entry was added. Timezones are not stated in the call
-  for papers\; AoE is assumed.\n\nCall for papers: https://ias-am.ieee.org/
- 2027/\nDetails: https://langestefan.github.io/powersystem-deadlines/confer
- ence/ias-am27
+ ual Meeting 2027)\n\nDigest submission: 7 Dec 2026\, 23:59 UTC+12 (assumed
+ )\n\nConference: Dates to be announced\nLocation: Location TBA\n\nAll date
+ s:\n  Digest submission: 7 Dec 2026\, 23:59 UTC+12 (assumed)\n  Author not
+ ification: 15 Feb 2027\, 23:59 UTC+12 (assumed)\n  Final paper with IEEE c
+ opyright form: 15 Apr 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers
+  states no timezone. This is counted as UTC+12\, the earliest it could pla
+ usibly mean\, so the countdown runs out before the real deadline rather th
+ an after it.\n\nEvery accepted paper must be covered by a full conference 
+ registration before the final manuscript is submitted. The venue and dates
+  were not yet published when this entry was added.\n\nCall for papers: htt
+ ps://ias-am.ieee.org/2027/\nDetails: https://langestefan.github.io/powersy
+ stem-deadlines/conference/ias-am27
 LOCATION:Location TBA
 URL;VALUE=URI:https://ias-am.ieee.org/2027/
 CATEGORIES:Machines & Drives,Power Electronics,Power Quality,Protection & A
@@ -626,22 +607,25 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ias-am27-notification@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270216
 TRANSP:TRANSPARENT
-SUMMARY:IEEE IAS Annual Meeting 2027: Author notification (23:59 AoE)
+SUMMARY:IEEE IAS Annual Meeting 2027: Author notification (23:59 UTC+12 (as
+ sumed))
 DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
- ual Meeting 2027)\n\nAuthor notification: 15 Feb 2027\, 23:59 AoE\n\nConfe
- rence: Dates to be announced\nLocation: Location TBA\n\nAll dates:\n  Dige
- st submission: 7 Dec 2026\, 23:59 AoE\n  Author notification: 15 Feb 2027\
- , 23:59 AoE\n  Final paper with IEEE copyright form: 15 Apr 2027\, 23:59 A
- oE\n\nEvery accepted paper must be covered by a full conference registrati
- on before the final manuscript is submitted. The venue and dates were not 
- yet published when this entry was added. Timezones are not stated in the c
- all for papers\; AoE is assumed.\n\nCall for papers: https://ias-am.ieee.o
- rg/2027/\nDetails: https://langestefan.github.io/powersystem-deadlines/con
- ference/ias-am27
+ ual Meeting 2027)\n\nAuthor notification: 15 Feb 2027\, 23:59 UTC+12 (assu
+ med)\n\nConference: Dates to be announced\nLocation: Location TBA\n\nAll d
+ ates:\n  Digest submission: 7 Dec 2026\, 23:59 UTC+12 (assumed)\n  Author 
+ notification: 15 Feb 2027\, 23:59 UTC+12 (assumed)\n  Final paper with IEE
+ E copyright form: 15 Apr 2027\, 23:59 UTC+12 (assumed)\n\nThe call for pap
+ ers states no timezone. This is counted as UTC+12\, the earliest it could 
+ plausibly mean\, so the countdown runs out before the real deadline rather
+  than after it.\n\nEvery accepted paper must be covered by a full conferen
+ ce registration before the final manuscript is submitted. The venue and da
+ tes were not yet published when this entry was added.\n\nCall for papers: 
+ https://ias-am.ieee.org/2027/\nDetails: https://langestefan.github.io/powe
+ rsystem-deadlines/conference/ias-am27
 LOCATION:Location TBA
 URL;VALUE=URI:https://ias-am.ieee.org/2027/
 CATEGORIES:Machines & Drives,Power Electronics,Power Quality,Protection & A
@@ -661,23 +645,25 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ias-am27-camera_ready@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
 SUMMARY:IEEE IAS Annual Meeting 2027: Final paper with IEEE copyright form 
- (23:59 AoE)
+ (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
  ual Meeting 2027)\n\nFinal paper with IEEE copyright form: 15 Apr 2027\, 2
- 3:59 AoE\n\nConference: Dates to be announced\nLocation: Location TBA\n\nA
- ll dates:\n  Digest submission: 7 Dec 2026\, 23:59 AoE\n  Author notificat
- ion: 15 Feb 2027\, 23:59 AoE\n  Final paper with IEEE copyright form: 15 A
- pr 2027\, 23:59 AoE\n\nEvery accepted paper must be covered by a full conf
- erence registration before the final manuscript is submitted. The venue an
- d dates were not yet published when this entry was added. Timezones are no
- t stated in the call for papers\; AoE is assumed.\n\nCall for papers: http
- s://ias-am.ieee.org/2027/\nDetails: https://langestefan.github.io/powersys
- tem-deadlines/conference/ias-am27
+ 3:59 UTC+12 (assumed)\n\nConference: Dates to be announced\nLocation: Loca
+ tion TBA\n\nAll dates:\n  Digest submission: 7 Dec 2026\, 23:59 UTC+12 (as
+ sumed)\n  Author notification: 15 Feb 2027\, 23:59 UTC+12 (assumed)\n  Fin
+ al paper with IEEE copyright form: 15 Apr 2027\, 23:59 UTC+12 (assumed)\n\
+ nThe call for papers states no timezone. This is counted as UTC+12\, the e
+ arliest it could plausibly mean\, so the countdown runs out before the rea
+ l deadline rather than after it.\n\nEvery accepted paper must be covered b
+ y a full conference registration before the final manuscript is submitted.
+  The venue and dates were not yet published when this entry was added.\n\n
+ Call for papers: https://ias-am.ieee.org/2027/\nDetails: https://langestef
+ an.github.io/powersystem-deadlines/conference/ias-am27
 LOCATION:Location TBA
 URL;VALUE=URI:https://ias-am.ieee.org/2027/
 CATEGORIES:Machines & Drives,Power Electronics,Power Quality,Protection & A
@@ -697,22 +683,103 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-abstract@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 TRANSP:TRANSPARENT
-SUMMARY:CIRED 2027: Abstract submission (23:59 AoE)
+SUMMARY:CIRED 2027: Abstract submission (23:59 UTC+12 (assumed))
 DESCRIPTION:International Conference and Exhibition on Electricity Distribu
- tion (CIRED 2027)\n\nAbstract submission: 14 Sept 2026\, 23:59 AoE\n\nConf
- erence: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAll dates:\n  A
- bstract submission: 14 Sept 2026\, 23:59 AoE\n  Notification of acceptance
- : 13 Nov 2026\, 23:59 AoE\n  Full paper submission: 22 Jan 2027\, 23:59 Ao
- E\n  Author's final notification of acceptance: 9 Apr 2027\, 23:59 AoE\n  
- Early bird registration deadline: 28 Apr 2027\, 23:59 AoE\n  Author regist
- ration deadline: 10 May 2027\, 23:59 AoE\n  Deadline to upload presentatio
- ns: 28 May 2027\, 23:59 AoE\n\n29th edition. Submission is abstract-first:
-  an accepted abstract is required before a full paper can be submitted. Ti
- mezones are not stated in the call for papers\; AoE is assumed.\n\nCall fo
+ tion (CIRED 2027)\n\nAbstract submission: 14 Sept 2026\, 23:59 UTC+12 (ass
+ umed)\n\nConference: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAl
+ l dates:\n  Abstract submission: 14 Sept 2026\, 23:59 UTC+12 (assumed)\n  
+ Notification of acceptance: 13 Nov 2026\, 23:59 UTC+12 (assumed)\n  Full p
+ aper submission: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Author's final no
+ tification of acceptance: 9 Apr 2027\, 23:59 UTC+12 (assumed)\n  Early bir
+ d registration deadline: 28 Apr 2027\, 23:59 UTC+12 (assumed)\n  Author re
+ gistration deadline: 10 May 2027\, 23:59 UTC+12 (assumed)\n  Deadline to u
+ pload presentations: 28 May 2027\, 23:59 UTC+12 (assumed)\n\nThe call for 
+ papers states no timezone. This is counted as UTC+12\, the earliest it cou
+ ld plausibly mean\, so the countdown runs out before the real deadline rat
+ her than after it.\n\n29th edition. Submission is abstract-first: an accep
+ ted abstract is required before a full paper can be submitted.\n\nCall for
+  papers: https://2027.cired.net/\nDetails: https://langestefan.github.io/p
+ owersystem-deadlines/conference/cired27
+LOCATION:Stockholm\, Sweden
+URL;VALUE=URI:https://2027.cired.net/
+CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cired27-notification@langestefan.github.io
+DTSTAMP:20260916T151404Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+TRANSP:TRANSPARENT
+SUMMARY:CIRED 2027: Notification of acceptance (23:59 UTC+12 (assumed))
+DESCRIPTION:International Conference and Exhibition on Electricity Distribu
+ tion (CIRED 2027)\n\nNotification of acceptance: 13 Nov 2026\, 23:59 UTC+1
+ 2 (assumed)\n\nConference: June 14-17\, 2027\nLocation: Stockholm\, Sweden
+ \n\nAll dates:\n  Abstract submission: 14 Sept 2026\, 23:59 UTC+12 (assume
+ d)\n  Notification of acceptance: 13 Nov 2026\, 23:59 UTC+12 (assumed)\n  
+ Full paper submission: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Author's fi
+ nal notification of acceptance: 9 Apr 2027\, 23:59 UTC+12 (assumed)\n  Ear
+ ly bird registration deadline: 28 Apr 2027\, 23:59 UTC+12 (assumed)\n  Aut
+ hor registration deadline: 10 May 2027\, 23:59 UTC+12 (assumed)\n  Deadlin
+ e to upload presentations: 28 May 2027\, 23:59 UTC+12 (assumed)\n\nThe cal
+ l for papers states no timezone. This is counted as UTC+12\, the earliest 
+ it could plausibly mean\, so the countdown runs out before the real deadli
+ ne rather than after it.\n\n29th edition. Submission is abstract-first: an
+  accepted abstract is required before a full paper can be submitted.\n\nCa
+ ll for papers: https://2027.cired.net/\nDetails: https://langestefan.githu
+ b.io/powersystem-deadlines/conference/cired27
+LOCATION:Stockholm\, Sweden
+URL;VALUE=URI:https://2027.cired.net/
+CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cired27-paper@langestefan.github.io
+DTSTAMP:20260916T151404Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+TRANSP:TRANSPARENT
+SUMMARY:CIRED 2027: Full paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:International Conference and Exhibition on Electricity Distribu
+ tion (CIRED 2027)\n\nFull paper submission: 22 Jan 2027\, 23:59 UTC+12 (as
+ sumed)\n\nConference: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nA
+ ll dates:\n  Abstract submission: 14 Sept 2026\, 23:59 UTC+12 (assumed)\n 
+  Notification of acceptance: 13 Nov 2026\, 23:59 UTC+12 (assumed)\n  Full 
+ paper submission: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Author's final n
+ otification of acceptance: 9 Apr 2027\, 23:59 UTC+12 (assumed)\n  Early bi
+ rd registration deadline: 28 Apr 2027\, 23:59 UTC+12 (assumed)\n  Author r
+ egistration deadline: 10 May 2027\, 23:59 UTC+12 (assumed)\n  Deadline to 
+ upload presentations: 28 May 2027\, 23:59 UTC+12 (assumed)\n\nThe call for
+  papers states no timezone. This is counted as UTC+12\, the earliest it co
+ uld plausibly mean\, so the countdown runs out before the real deadline ra
+ ther than after it.\n\n29th edition. Submission is abstract-first: an acce
+ pted abstract is required before a full paper can be submitted.\n\nCall fo
  r papers: https://2027.cired.net/\nDetails: https://langestefan.github.io/
  powersystem-deadlines/conference/cired27
 LOCATION:Stockholm\, Sweden
@@ -732,97 +799,29 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cired27-notification@langestefan.github.io
-DTSTAMP:20260916T043305Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-TRANSP:TRANSPARENT
-SUMMARY:CIRED 2027: Notification of acceptance (23:59 AoE)
-DESCRIPTION:International Conference and Exhibition on Electricity Distribu
- tion (CIRED 2027)\n\nNotification of acceptance: 13 Nov 2026\, 23:59 AoE\n
- \nConference: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAll dates
- :\n  Abstract submission: 14 Sept 2026\, 23:59 AoE\n  Notification of acce
- ptance: 13 Nov 2026\, 23:59 AoE\n  Full paper submission: 22 Jan 2027\, 23
- :59 AoE\n  Author's final notification of acceptance: 9 Apr 2027\, 23:59 A
- oE\n  Early bird registration deadline: 28 Apr 2027\, 23:59 AoE\n  Author 
- registration deadline: 10 May 2027\, 23:59 AoE\n  Deadline to upload prese
- ntations: 28 May 2027\, 23:59 AoE\n\n29th edition. Submission is abstract-
- first: an accepted abstract is required before a full paper can be submitt
- ed. Timezones are not stated in the call for papers\; AoE is assumed.\n\nC
- all for papers: https://2027.cired.net/\nDetails: https://langestefan.gith
- ub.io/powersystem-deadlines/conference/cired27
-LOCATION:Stockholm\, Sweden
-URL;VALUE=URI:https://2027.cired.net/
-CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:cired27-paper@langestefan.github.io
-DTSTAMP:20260916T043305Z
-DTSTART;VALUE=DATE:20270122
-DTEND;VALUE=DATE:20270123
-TRANSP:TRANSPARENT
-SUMMARY:CIRED 2027: Full paper submission (23:59 AoE)
-DESCRIPTION:International Conference and Exhibition on Electricity Distribu
- tion (CIRED 2027)\n\nFull paper submission: 22 Jan 2027\, 23:59 AoE\n\nCon
- ference: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAll dates:\n  
- Abstract submission: 14 Sept 2026\, 23:59 AoE\n  Notification of acceptanc
- e: 13 Nov 2026\, 23:59 AoE\n  Full paper submission: 22 Jan 2027\, 23:59 A
- oE\n  Author's final notification of acceptance: 9 Apr 2027\, 23:59 AoE\n 
-  Early bird registration deadline: 28 Apr 2027\, 23:59 AoE\n  Author regis
- tration deadline: 10 May 2027\, 23:59 AoE\n  Deadline to upload presentati
- ons: 28 May 2027\, 23:59 AoE\n\n29th edition. Submission is abstract-first
- : an accepted abstract is required before a full paper can be submitted. T
- imezones are not stated in the call for papers\; AoE is assumed.\n\nCall f
- or papers: https://2027.cired.net/\nDetails: https://langestefan.github.io
- /powersystem-deadlines/conference/cired27
-LOCATION:Stockholm\, Sweden
-URL;VALUE=URI:https://2027.cired.net/
-CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:cired27-notification-2@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20270409
 DTEND;VALUE=DATE:20270410
 TRANSP:TRANSPARENT
-SUMMARY:CIRED 2027: Author's final notification of acceptance (23:59 AoE)
+SUMMARY:CIRED 2027: Author's final notification of acceptance (23:59 UTC+12
+  (assumed))
 DESCRIPTION:International Conference and Exhibition on Electricity Distribu
  tion (CIRED 2027)\n\nAuthor's final notification of acceptance: 9 Apr 2027
- \, 23:59 AoE\n\nConference: June 14-17\, 2027\nLocation: Stockholm\, Swede
- n\n\nAll dates:\n  Abstract submission: 14 Sept 2026\, 23:59 AoE\n  Notifi
- cation of acceptance: 13 Nov 2026\, 23:59 AoE\n  Full paper submission: 22
-  Jan 2027\, 23:59 AoE\n  Author's final notification of acceptance: 9 Apr 
- 2027\, 23:59 AoE\n  Early bird registration deadline: 28 Apr 2027\, 23:59 
- AoE\n  Author registration deadline: 10 May 2027\, 23:59 AoE\n  Deadline t
- o upload presentations: 28 May 2027\, 23:59 AoE\n\n29th edition. Submissio
- n is abstract-first: an accepted abstract is required before a full paper 
- can be submitted. Timezones are not stated in the call for papers\; AoE is
-  assumed.\n\nCall for papers: https://2027.cired.net/\nDetails: https://la
- ngestefan.github.io/powersystem-deadlines/conference/cired27
+ \, 23:59 UTC+12 (assumed)\n\nConference: June 14-17\, 2027\nLocation: Stoc
+ kholm\, Sweden\n\nAll dates:\n  Abstract submission: 14 Sept 2026\, 23:59 
+ UTC+12 (assumed)\n  Notification of acceptance: 13 Nov 2026\, 23:59 UTC+12
+  (assumed)\n  Full paper submission: 22 Jan 2027\, 23:59 UTC+12 (assumed)\
+ n  Author's final notification of acceptance: 9 Apr 2027\, 23:59 UTC+12 (a
+ ssumed)\n  Early bird registration deadline: 28 Apr 2027\, 23:59 UTC+12 (a
+ ssumed)\n  Author registration deadline: 10 May 2027\, 23:59 UTC+12 (assum
+ ed)\n  Deadline to upload presentations: 28 May 2027\, 23:59 UTC+12 (assum
+ ed)\n\nThe call for papers states no timezone. This is counted as UTC+12\,
+  the earliest it could plausibly mean\, so the countdown runs out before t
+ he real deadline rather than after it.\n\n29th edition. Submission is abst
+ ract-first: an accepted abstract is required before a full paper can be su
+ bmitted.\n\nCall for papers: https://2027.cired.net/\nDetails: https://lan
+ gestefan.github.io/powersystem-deadlines/conference/cired27
 LOCATION:Stockholm\, Sweden
 URL;VALUE=URI:https://2027.cired.net/
 CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
@@ -841,24 +840,28 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-early_registration@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20270428
 DTEND;VALUE=DATE:20270429
 TRANSP:TRANSPARENT
-SUMMARY:CIRED 2027: Early bird registration deadline (23:59 AoE)
+SUMMARY:CIRED 2027: Early bird registration deadline (23:59 UTC+12 (assumed
+ ))
 DESCRIPTION:International Conference and Exhibition on Electricity Distribu
  tion (CIRED 2027)\n\nEarly bird registration deadline: 28 Apr 2027\, 23:59
-  AoE\n\nConference: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAll
-  dates:\n  Abstract submission: 14 Sept 2026\, 23:59 AoE\n  Notification o
- f acceptance: 13 Nov 2026\, 23:59 AoE\n  Full paper submission: 22 Jan 202
- 7\, 23:59 AoE\n  Author's final notification of acceptance: 9 Apr 2027\, 2
- 3:59 AoE\n  Early bird registration deadline: 28 Apr 2027\, 23:59 AoE\n  A
- uthor registration deadline: 10 May 2027\, 23:59 AoE\n  Deadline to upload
-  presentations: 28 May 2027\, 23:59 AoE\n\n29th edition. Submission is abs
- tract-first: an accepted abstract is required before a full paper can be s
- ubmitted. Timezones are not stated in the call for papers\; AoE is assumed
- .\n\nCall for papers: https://2027.cired.net/\nDetails: https://langestefa
- n.github.io/powersystem-deadlines/conference/cired27
+  UTC+12 (assumed)\n\nConference: June 14-17\, 2027\nLocation: Stockholm\, 
+ Sweden\n\nAll dates:\n  Abstract submission: 14 Sept 2026\, 23:59 UTC+12 (
+ assumed)\n  Notification of acceptance: 13 Nov 2026\, 23:59 UTC+12 (assume
+ d)\n  Full paper submission: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Autho
+ r's final notification of acceptance: 9 Apr 2027\, 23:59 UTC+12 (assumed)\
+ n  Early bird registration deadline: 28 Apr 2027\, 23:59 UTC+12 (assumed)\
+ n  Author registration deadline: 10 May 2027\, 23:59 UTC+12 (assumed)\n  D
+ eadline to upload presentations: 28 May 2027\, 23:59 UTC+12 (assumed)\n\nT
+ he call for papers states no timezone. This is counted as UTC+12\, the ear
+ liest it could plausibly mean\, so the countdown runs out before the real 
+ deadline rather than after it.\n\n29th edition. Submission is abstract-fir
+ st: an accepted abstract is required before a full paper can be submitted.
+ \n\nCall for papers: https://2027.cired.net/\nDetails: https://langestefan
+ .github.io/powersystem-deadlines/conference/cired27
 LOCATION:Stockholm\, Sweden
 URL;VALUE=URI:https://2027.cired.net/
 CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
@@ -877,24 +880,27 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-author_registration@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20270510
 DTEND;VALUE=DATE:20270511
 TRANSP:TRANSPARENT
-SUMMARY:CIRED 2027: Author registration deadline (23:59 AoE)
+SUMMARY:CIRED 2027: Author registration deadline (23:59 UTC+12 (assumed))
 DESCRIPTION:International Conference and Exhibition on Electricity Distribu
- tion (CIRED 2027)\n\nAuthor registration deadline: 10 May 2027\, 23:59 AoE
- \n\nConference: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAll dat
- es:\n  Abstract submission: 14 Sept 2026\, 23:59 AoE\n  Notification of ac
- ceptance: 13 Nov 2026\, 23:59 AoE\n  Full paper submission: 22 Jan 2027\, 
- 23:59 AoE\n  Author's final notification of acceptance: 9 Apr 2027\, 23:59
-  AoE\n  Early bird registration deadline: 28 Apr 2027\, 23:59 AoE\n  Autho
- r registration deadline: 10 May 2027\, 23:59 AoE\n  Deadline to upload pre
- sentations: 28 May 2027\, 23:59 AoE\n\n29th edition. Submission is abstrac
- t-first: an accepted abstract is required before a full paper can be submi
- tted. Timezones are not stated in the call for papers\; AoE is assumed.\n\
- nCall for papers: https://2027.cired.net/\nDetails: https://langestefan.gi
- thub.io/powersystem-deadlines/conference/cired27
+ tion (CIRED 2027)\n\nAuthor registration deadline: 10 May 2027\, 23:59 UTC
+ +12 (assumed)\n\nConference: June 14-17\, 2027\nLocation: Stockholm\, Swed
+ en\n\nAll dates:\n  Abstract submission: 14 Sept 2026\, 23:59 UTC+12 (assu
+ med)\n  Notification of acceptance: 13 Nov 2026\, 23:59 UTC+12 (assumed)\n
+   Full paper submission: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Author's 
+ final notification of acceptance: 9 Apr 2027\, 23:59 UTC+12 (assumed)\n  E
+ arly bird registration deadline: 28 Apr 2027\, 23:59 UTC+12 (assumed)\n  A
+ uthor registration deadline: 10 May 2027\, 23:59 UTC+12 (assumed)\n  Deadl
+ ine to upload presentations: 28 May 2027\, 23:59 UTC+12 (assumed)\n\nThe c
+ all for papers states no timezone. This is counted as UTC+12\, the earlies
+ t it could plausibly mean\, so the countdown runs out before the real dead
+ line rather than after it.\n\n29th edition. Submission is abstract-first: 
+ an accepted abstract is required before a full paper can be submitted.\n\n
+ Call for papers: https://2027.cired.net/\nDetails: https://langestefan.git
+ hub.io/powersystem-deadlines/conference/cired27
 LOCATION:Stockholm\, Sweden
 URL;VALUE=URI:https://2027.cired.net/
 CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
@@ -913,24 +919,28 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-presentation_upload@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20270528
 DTEND;VALUE=DATE:20270529
 TRANSP:TRANSPARENT
-SUMMARY:CIRED 2027: Deadline to upload presentations (23:59 AoE)
+SUMMARY:CIRED 2027: Deadline to upload presentations (23:59 UTC+12 (assumed
+ ))
 DESCRIPTION:International Conference and Exhibition on Electricity Distribu
  tion (CIRED 2027)\n\nDeadline to upload presentations: 28 May 2027\, 23:59
-  AoE\n\nConference: June 14-17\, 2027\nLocation: Stockholm\, Sweden\n\nAll
-  dates:\n  Abstract submission: 14 Sept 2026\, 23:59 AoE\n  Notification o
- f acceptance: 13 Nov 2026\, 23:59 AoE\n  Full paper submission: 22 Jan 202
- 7\, 23:59 AoE\n  Author's final notification of acceptance: 9 Apr 2027\, 2
- 3:59 AoE\n  Early bird registration deadline: 28 Apr 2027\, 23:59 AoE\n  A
- uthor registration deadline: 10 May 2027\, 23:59 AoE\n  Deadline to upload
-  presentations: 28 May 2027\, 23:59 AoE\n\n29th edition. Submission is abs
- tract-first: an accepted abstract is required before a full paper can be s
- ubmitted. Timezones are not stated in the call for papers\; AoE is assumed
- .\n\nCall for papers: https://2027.cired.net/\nDetails: https://langestefa
- n.github.io/powersystem-deadlines/conference/cired27
+  UTC+12 (assumed)\n\nConference: June 14-17\, 2027\nLocation: Stockholm\, 
+ Sweden\n\nAll dates:\n  Abstract submission: 14 Sept 2026\, 23:59 UTC+12 (
+ assumed)\n  Notification of acceptance: 13 Nov 2026\, 23:59 UTC+12 (assume
+ d)\n  Full paper submission: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Autho
+ r's final notification of acceptance: 9 Apr 2027\, 23:59 UTC+12 (assumed)\
+ n  Early bird registration deadline: 28 Apr 2027\, 23:59 UTC+12 (assumed)\
+ n  Author registration deadline: 10 May 2027\, 23:59 UTC+12 (assumed)\n  D
+ eadline to upload presentations: 28 May 2027\, 23:59 UTC+12 (assumed)\n\nT
+ he call for papers states no timezone. This is counted as UTC+12\, the ear
+ liest it could plausibly mean\, so the countdown runs out before the real 
+ deadline rather than after it.\n\n29th edition. Submission is abstract-fir
+ st: an accepted abstract is required before a full paper can be submitted.
+ \n\nCall for papers: https://2027.cired.net/\nDetails: https://langestefan
+ .github.io/powersystem-deadlines/conference/cired27
 LOCATION:Stockholm\, Sweden
 URL;VALUE=URI:https://2027.cired.net/
 CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
@@ -949,21 +959,24 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-paper@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 TRANSP:TRANSPARENT
-SUMMARY:PowerTech 2027: Full paper submission (23:59 AoE)
+SUMMARY:PowerTech 2027: Full paper submission (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nFull paper su
- bmission: 28 Feb 2027\, 23:59 AoE\n\nConference: September 5-9\, 2027\nLoc
- ation: Bruges\, Belgium\n\nAll dates:\n  Full paper submission: 28 Feb 202
- 7\, 23:59 AoE\n  Author notification: 23 Apr 2027\, 23:59 AoE\n  Author an
- d early bird registration deadline: 17 May 2027\, 23:59 AoE\n  Final paper
-  submission: 23 May 2027\, 23:59 AoE\n\nCo-sponsored by IEEE PES and KU Le
- uven. Papers are limited to six pages. Submission opens in November 2026. 
- Timezones are not stated in the call for papers\; AoE is assumed.\n\nCall 
- for papers: https://powertech2027.com/\nDetails: https://langestefan.githu
- b.io/powersystem-deadlines/conference/powertech27
+ bmission: 28 Feb 2027\, 23:59 UTC+12 (assumed)\n\nConference: September 5-
+ 9\, 2027\nLocation: Bruges\, Belgium\n\nAll dates:\n  Full paper submissio
+ n: 28 Feb 2027\, 23:59 UTC+12 (assumed)\n  Author notification: 23 Apr 202
+ 7\, 23:59 UTC+12 (assumed)\n  Author and early bird registration deadline:
+  17 May 2027\, 23:59 UTC+12 (assumed)\n  Final paper submission: 23 May 20
+ 27\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. Thi
+ s is counted as UTC+12\, the earliest it could plausibly mean\, so the cou
+ ntdown runs out before the real deadline rather than after it.\n\nCo-spons
+ ored by IEEE PES and KU Leuven. Papers are limited to six pages. Submissio
+ n opens in November 2026.\n\nCall for papers: https://powertech2027.com/\n
+ Details: https://langestefan.github.io/powersystem-deadlines/conference/po
+ wertech27
 LOCATION:Bruges\, Belgium
 URL;VALUE=URI:https://powertech2027.com/
 CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
@@ -983,21 +996,24 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-notification@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20270423
 DTEND;VALUE=DATE:20270424
 TRANSP:TRANSPARENT
-SUMMARY:PowerTech 2027: Author notification (23:59 AoE)
+SUMMARY:PowerTech 2027: Author notification (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nAuthor notifi
- cation: 23 Apr 2027\, 23:59 AoE\n\nConference: September 5-9\, 2027\nLocat
- ion: Bruges\, Belgium\n\nAll dates:\n  Full paper submission: 28 Feb 2027\
- , 23:59 AoE\n  Author notification: 23 Apr 2027\, 23:59 AoE\n  Author and 
- early bird registration deadline: 17 May 2027\, 23:59 AoE\n  Final paper s
- ubmission: 23 May 2027\, 23:59 AoE\n\nCo-sponsored by IEEE PES and KU Leuv
- en. Papers are limited to six pages. Submission opens in November 2026. Ti
- mezones are not stated in the call for papers\; AoE is assumed.\n\nCall fo
- r papers: https://powertech2027.com/\nDetails: https://langestefan.github.
- io/powersystem-deadlines/conference/powertech27
+ cation: 23 Apr 2027\, 23:59 UTC+12 (assumed)\n\nConference: September 5-9\
+ , 2027\nLocation: Bruges\, Belgium\n\nAll dates:\n  Full paper submission:
+  28 Feb 2027\, 23:59 UTC+12 (assumed)\n  Author notification: 23 Apr 2027\
+ , 23:59 UTC+12 (assumed)\n  Author and early bird registration deadline: 1
+ 7 May 2027\, 23:59 UTC+12 (assumed)\n  Final paper submission: 23 May 2027
+ \, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This 
+ is counted as UTC+12\, the earliest it could plausibly mean\, so the count
+ down runs out before the real deadline rather than after it.\n\nCo-sponsor
+ ed by IEEE PES and KU Leuven. Papers are limited to six pages. Submission 
+ opens in November 2026.\n\nCall for papers: https://powertech2027.com/\nDe
+ tails: https://langestefan.github.io/powersystem-deadlines/conference/powe
+ rtech27
 LOCATION:Bruges\, Belgium
 URL;VALUE=URI:https://powertech2027.com/
 CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
@@ -1017,22 +1033,25 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-author_registration@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 TRANSP:TRANSPARENT
 SUMMARY:PowerTech 2027: Author and early bird registration deadline (23:59 
- AoE)
+ UTC+12 (assumed))
 DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nAuthor and ea
- rly bird registration deadline: 17 May 2027\, 23:59 AoE\n\nConference: Sep
- tember 5-9\, 2027\nLocation: Bruges\, Belgium\n\nAll dates:\n  Full paper 
- submission: 28 Feb 2027\, 23:59 AoE\n  Author notification: 23 Apr 2027\, 
- 23:59 AoE\n  Author and early bird registration deadline: 17 May 2027\, 23
- :59 AoE\n  Final paper submission: 23 May 2027\, 23:59 AoE\n\nCo-sponsored
-  by IEEE PES and KU Leuven. Papers are limited to six pages. Submission op
- ens in November 2026. Timezones are not stated in the call for papers\; Ao
- E is assumed.\n\nCall for papers: https://powertech2027.com/\nDetails: htt
- ps://langestefan.github.io/powersystem-deadlines/conference/powertech27
+ rly bird registration deadline: 17 May 2027\, 23:59 UTC+12 (assumed)\n\nCo
+ nference: September 5-9\, 2027\nLocation: Bruges\, Belgium\n\nAll dates:\n
+   Full paper submission: 28 Feb 2027\, 23:59 UTC+12 (assumed)\n  Author no
+ tification: 23 Apr 2027\, 23:59 UTC+12 (assumed)\n  Author and early bird 
+ registration deadline: 17 May 2027\, 23:59 UTC+12 (assumed)\n  Final paper
+  submission: 23 May 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers s
+ tates no timezone. This is counted as UTC+12\, the earliest it could plaus
+ ibly mean\, so the countdown runs out before the real deadline rather than
+  after it.\n\nCo-sponsored by IEEE PES and KU Leuven. Papers are limited t
+ o six pages. Submission opens in November 2026.\n\nCall for papers: https:
+ //powertech2027.com/\nDetails: https://langestefan.github.io/powersystem-d
+ eadlines/conference/powertech27
 LOCATION:Bruges\, Belgium
 URL;VALUE=URI:https://powertech2027.com/
 CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
@@ -1052,21 +1071,24 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-camera_ready@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 TRANSP:TRANSPARENT
-SUMMARY:PowerTech 2027: Final paper submission (23:59 AoE)
+SUMMARY:PowerTech 2027: Final paper submission (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nFinal paper s
- ubmission: 23 May 2027\, 23:59 AoE\n\nConference: September 5-9\, 2027\nLo
- cation: Bruges\, Belgium\n\nAll dates:\n  Full paper submission: 28 Feb 20
- 27\, 23:59 AoE\n  Author notification: 23 Apr 2027\, 23:59 AoE\n  Author a
- nd early bird registration deadline: 17 May 2027\, 23:59 AoE\n  Final pape
- r submission: 23 May 2027\, 23:59 AoE\n\nCo-sponsored by IEEE PES and KU L
- euven. Papers are limited to six pages. Submission opens in November 2026.
-  Timezones are not stated in the call for papers\; AoE is assumed.\n\nCall
-  for papers: https://powertech2027.com/\nDetails: https://langestefan.gith
- ub.io/powersystem-deadlines/conference/powertech27
+ ubmission: 23 May 2027\, 23:59 UTC+12 (assumed)\n\nConference: September 5
+ -9\, 2027\nLocation: Bruges\, Belgium\n\nAll dates:\n  Full paper submissi
+ on: 28 Feb 2027\, 23:59 UTC+12 (assumed)\n  Author notification: 23 Apr 20
+ 27\, 23:59 UTC+12 (assumed)\n  Author and early bird registration deadline
+ : 17 May 2027\, 23:59 UTC+12 (assumed)\n  Final paper submission: 23 May 2
+ 027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. Th
+ is is counted as UTC+12\, the earliest it could plausibly mean\, so the co
+ untdown runs out before the real deadline rather than after it.\n\nCo-spon
+ sored by IEEE PES and KU Leuven. Papers are limited to six pages. Submissi
+ on opens in November 2026.\n\nCall for papers: https://powertech2027.com/\
+ nDetails: https://langestefan.github.io/powersystem-deadlines/conference/p
+ owertech27
 LOCATION:Bruges\, Belgium
 URL;VALUE=URI:https://powertech2027.com/
 CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
@@ -1086,22 +1108,25 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-abstract@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20250615
 DTEND;VALUE=DATE:20250616
 TRANSP:TRANSPARENT
-SUMMARY:PSCC 2026: One-page abstract submission (23:59 AoE)
+SUMMARY:PSCC 2026: One-page abstract submission (23:59 UTC+12 (assumed))
 DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nOne-page ab
- stract submission: 15 Jun 2025\, 23:59 AoE\n\nConference: June 8-12\, 2026
- \nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAll dates:\n  
- One-page abstract submission: 15 Jun 2025\, 23:59 AoE\n  Abstract acceptan
- ce notification: 22 Jun 2025\, 23:59 AoE\n  Full paper submission: 15 Oct 
- 2025\, 23:59 AoE\n  Acceptance and revision requests: 8 Feb 2026\, 23:59 A
- oE\n  Final manuscript submission: 15 Mar 2026\, 23:59 AoE\n\nSubmission i
- s abstract-first: a one-page abstract must be accepted before the full pap
- er can be submitted. Timezones are not stated in the call for papers\; AoE
-  is assumed.\n\nCall for papers: https://pscc2026.cy/\nDetails: https://la
- ngestefan.github.io/powersystem-deadlines/conference/pscc26
+ stract submission: 15 Jun 2025\, 23:59 UTC+12 (assumed)\n\nConference: Jun
+ e 8-12\, 2026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nA
+ ll dates:\n  One-page abstract submission: 15 Jun 2025\, 23:59 UTC+12 (ass
+ umed)\n  Abstract acceptance notification: 22 Jun 2025\, 23:59 UTC+12 (ass
+ umed)\n  Full paper submission: 15 Oct 2025\, 23:59 UTC+12 (assumed)\n  Ac
+ ceptance and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n  Fin
+ al manuscript submission: 15 Mar 2026\, 23:59 UTC+12 (assumed)\n\nThe call
+  for papers states no timezone. This is counted as UTC+12\, the earliest i
+ t could plausibly mean\, so the countdown runs out before the real deadlin
+ e rather than after it.\n\nSubmission is abstract-first: a one-page abstra
+ ct must be accepted before the full paper can be submitted.\n\nCall for pa
+ pers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/powersy
+ stem-deadlines/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -1120,22 +1145,26 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-notification@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20250622
 DTEND;VALUE=DATE:20250623
 TRANSP:TRANSPARENT
-SUMMARY:PSCC 2026: Abstract acceptance notification (23:59 AoE)
+SUMMARY:PSCC 2026: Abstract acceptance notification (23:59 UTC+12 (assumed)
+ )
 DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nAbstract ac
- ceptance notification: 22 Jun 2025\, 23:59 AoE\n\nConference: June 8-12\, 
- 2026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAll dates:
- \n  One-page abstract submission: 15 Jun 2025\, 23:59 AoE\n  Abstract acce
- ptance notification: 22 Jun 2025\, 23:59 AoE\n  Full paper submission: 15 
- Oct 2025\, 23:59 AoE\n  Acceptance and revision requests: 8 Feb 2026\, 23:
- 59 AoE\n  Final manuscript submission: 15 Mar 2026\, 23:59 AoE\n\nSubmissi
- on is abstract-first: a one-page abstract must be accepted before the full
-  paper can be submitted. Timezones are not stated in the call for papers\;
-  AoE is assumed.\n\nCall for papers: https://pscc2026.cy/\nDetails: https:
- //langestefan.github.io/powersystem-deadlines/conference/pscc26
+ ceptance notification: 22 Jun 2025\, 23:59 UTC+12 (assumed)\n\nConference:
+  June 8-12\, 2026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\
+ n\nAll dates:\n  One-page abstract submission: 15 Jun 2025\, 23:59 UTC+12 
+ (assumed)\n  Abstract acceptance notification: 22 Jun 2025\, 23:59 UTC+12 
+ (assumed)\n  Full paper submission: 15 Oct 2025\, 23:59 UTC+12 (assumed)\n
+   Acceptance and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n 
+  Final manuscript submission: 15 Mar 2026\, 23:59 UTC+12 (assumed)\n\nThe 
+ call for papers states no timezone. This is counted as UTC+12\, the earlie
+ st it could plausibly mean\, so the countdown runs out before the real dea
+ dline rather than after it.\n\nSubmission is abstract-first: a one-page ab
+ stract must be accepted before the full paper can be submitted.\n\nCall fo
+ r papers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/pow
+ ersystem-deadlines/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -1154,22 +1183,25 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-paper@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20251015
 DTEND;VALUE=DATE:20251016
 TRANSP:TRANSPARENT
-SUMMARY:PSCC 2026: Full paper submission (23:59 AoE)
+SUMMARY:PSCC 2026: Full paper submission (23:59 UTC+12 (assumed))
 DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nFull paper 
- submission: 15 Oct 2025\, 23:59 AoE\n\nConference: June 8-12\, 2026\nLocat
- ion: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAll dates:\n  One-pag
- e abstract submission: 15 Jun 2025\, 23:59 AoE\n  Abstract acceptance noti
- fication: 22 Jun 2025\, 23:59 AoE\n  Full paper submission: 15 Oct 2025\, 
- 23:59 AoE\n  Acceptance and revision requests: 8 Feb 2026\, 23:59 AoE\n  F
- inal manuscript submission: 15 Mar 2026\, 23:59 AoE\n\nSubmission is abstr
- act-first: a one-page abstract must be accepted before the full paper can 
- be submitted. Timezones are not stated in the call for papers\; AoE is ass
- umed.\n\nCall for papers: https://pscc2026.cy/\nDetails: https://langestef
- an.github.io/powersystem-deadlines/conference/pscc26
+ submission: 15 Oct 2025\, 23:59 UTC+12 (assumed)\n\nConference: June 8-12\
+ , 2026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAll date
+ s:\n  One-page abstract submission: 15 Jun 2025\, 23:59 UTC+12 (assumed)\n
+   Abstract acceptance notification: 22 Jun 2025\, 23:59 UTC+12 (assumed)\n
+   Full paper submission: 15 Oct 2025\, 23:59 UTC+12 (assumed)\n  Acceptanc
+ e and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n  Final manu
+ script submission: 15 Mar 2026\, 23:59 UTC+12 (assumed)\n\nThe call for pa
+ pers states no timezone. This is counted as UTC+12\, the earliest it could
+  plausibly mean\, so the countdown runs out before the real deadline rathe
+ r than after it.\n\nSubmission is abstract-first: a one-page abstract must
+  be accepted before the full paper can be submitted.\n\nCall for papers: h
+ ttps://pscc2026.cy/\nDetails: https://langestefan.github.io/powersystem-de
+ adlines/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -1188,22 +1220,26 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-notification-2@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20260208
 DTEND;VALUE=DATE:20260209
 TRANSP:TRANSPARENT
-SUMMARY:PSCC 2026: Acceptance and revision requests (23:59 AoE)
+SUMMARY:PSCC 2026: Acceptance and revision requests (23:59 UTC+12 (assumed)
+ )
 DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nAcceptance 
- and revision requests: 8 Feb 2026\, 23:59 AoE\n\nConference: June 8-12\, 2
- 026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAll dates:\
- n  One-page abstract submission: 15 Jun 2025\, 23:59 AoE\n  Abstract accep
- tance notification: 22 Jun 2025\, 23:59 AoE\n  Full paper submission: 15 O
- ct 2025\, 23:59 AoE\n  Acceptance and revision requests: 8 Feb 2026\, 23:5
- 9 AoE\n  Final manuscript submission: 15 Mar 2026\, 23:59 AoE\n\nSubmissio
- n is abstract-first: a one-page abstract must be accepted before the full 
- paper can be submitted. Timezones are not stated in the call for papers\; 
- AoE is assumed.\n\nCall for papers: https://pscc2026.cy/\nDetails: https:/
- /langestefan.github.io/powersystem-deadlines/conference/pscc26
+ and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n\nConference: 
+ June 8-12\, 2026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n
+ \nAll dates:\n  One-page abstract submission: 15 Jun 2025\, 23:59 UTC+12 (
+ assumed)\n  Abstract acceptance notification: 22 Jun 2025\, 23:59 UTC+12 (
+ assumed)\n  Full paper submission: 15 Oct 2025\, 23:59 UTC+12 (assumed)\n 
+  Acceptance and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n  
+ Final manuscript submission: 15 Mar 2026\, 23:59 UTC+12 (assumed)\n\nThe c
+ all for papers states no timezone. This is counted as UTC+12\, the earlies
+ t it could plausibly mean\, so the countdown runs out before the real dead
+ line rather than after it.\n\nSubmission is abstract-first: a one-page abs
+ tract must be accepted before the full paper can be submitted.\n\nCall for
+  papers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/powe
+ rsystem-deadlines/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -1222,22 +1258,25 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-camera_ready@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20260315
 DTEND;VALUE=DATE:20260316
 TRANSP:TRANSPARENT
-SUMMARY:PSCC 2026: Final manuscript submission (23:59 AoE)
+SUMMARY:PSCC 2026: Final manuscript submission (23:59 UTC+12 (assumed))
 DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nFinal manus
- cript submission: 15 Mar 2026\, 23:59 AoE\n\nConference: June 8-12\, 2026\
- nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAll dates:\n  O
- ne-page abstract submission: 15 Jun 2025\, 23:59 AoE\n  Abstract acceptanc
- e notification: 22 Jun 2025\, 23:59 AoE\n  Full paper submission: 15 Oct 2
- 025\, 23:59 AoE\n  Acceptance and revision requests: 8 Feb 2026\, 23:59 Ao
- E\n  Final manuscript submission: 15 Mar 2026\, 23:59 AoE\n\nSubmission is
-  abstract-first: a one-page abstract must be accepted before the full pape
- r can be submitted. Timezones are not stated in the call for papers\; AoE 
- is assumed.\n\nCall for papers: https://pscc2026.cy/\nDetails: https://lan
- gestefan.github.io/powersystem-deadlines/conference/pscc26
+ cript submission: 15 Mar 2026\, 23:59 UTC+12 (assumed)\n\nConference: June
+  8-12\, 2026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAl
+ l dates:\n  One-page abstract submission: 15 Jun 2025\, 23:59 UTC+12 (assu
+ med)\n  Abstract acceptance notification: 22 Jun 2025\, 23:59 UTC+12 (assu
+ med)\n  Full paper submission: 15 Oct 2025\, 23:59 UTC+12 (assumed)\n  Acc
+ eptance and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n  Fina
+ l manuscript submission: 15 Mar 2026\, 23:59 UTC+12 (assumed)\n\nThe call 
+ for papers states no timezone. This is counted as UTC+12\, the earliest it
+  could plausibly mean\, so the countdown runs out before the real deadline
+  rather than after it.\n\nSubmission is abstract-first: a one-page abstrac
+ t must be accepted before the full paper can be submitted.\n\nCall for pap
+ ers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/powersys
+ tem-deadlines/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -1256,21 +1295,23 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-abstract@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20260227
 DTEND;VALUE=DATE:20260228
 TRANSP:TRANSPARENT
-SUMMARY:ECCE 2026: Digest submission (23:59 AoE)
+SUMMARY:ECCE 2026: Digest submission (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nD
- igest submission: 27 Feb 2026\, 23:59 AoE\n\nConference: October 4-8\, 202
- 6\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest submission: 27 Feb
-  2026\, 23:59 AoE\n  Author notification: 22 May 2026\, 23:59 AoE\n  Final
-  paper with IEEE copyright form: 10 Jul 2026\, 23:59 AoE\n\nDigests are si
- ngle-column\, at most five pages including references\, and are double-bli
- nd reviewed. The submission deadline was extended past 27 February 2026. T
- imezones are not stated in the call for papers\; AoE is assumed.\n\nCall f
- or papers: https://www.ieee-ecce.org/2026/\nDetails: https://langestefan.g
- ithub.io/powersystem-deadlines/conference/ecce26
+ igest submission: 27 Feb 2026\, 23:59 UTC+12 (assumed)\n\nConference: Octo
+ ber 4-8\, 2026\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest submi
+ ssion: 27 Feb 2026\, 23:59 UTC+12 (assumed)\n  Author notification: 22 May
+  2026\, 23:59 UTC+12 (assumed)\n  Final paper with IEEE copyright form: 10
+  Jul 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezo
+ ne. This is counted as UTC+12\, the earliest it could plausibly mean\, so 
+ the countdown runs out before the real deadline rather than after it.\n\nD
+ igests are single-column\, at most five pages including references\, and a
+ re double-blind reviewed. The submission deadline was extended past 27 Feb
+ ruary 2026.\n\nCall for papers: https://www.ieee-ecce.org/2026/\nDetails: 
+ https://langestefan.github.io/powersystem-deadlines/conference/ecce26
 LOCATION:Vancouver\, Canada
 URL;VALUE=URI:https://www.ieee-ecce.org/2026/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
@@ -1290,21 +1331,23 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-notification@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
-SUMMARY:ECCE 2026: Author notification (23:59 AoE)
+SUMMARY:ECCE 2026: Author notification (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nA
- uthor notification: 22 May 2026\, 23:59 AoE\n\nConference: October 4-8\, 2
- 026\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest submission: 27 F
- eb 2026\, 23:59 AoE\n  Author notification: 22 May 2026\, 23:59 AoE\n  Fin
- al paper with IEEE copyright form: 10 Jul 2026\, 23:59 AoE\n\nDigests are 
- single-column\, at most five pages including references\, and are double-b
- lind reviewed. The submission deadline was extended past 27 February 2026.
-  Timezones are not stated in the call for papers\; AoE is assumed.\n\nCall
-  for papers: https://www.ieee-ecce.org/2026/\nDetails: https://langestefan
- .github.io/powersystem-deadlines/conference/ecce26
+ uthor notification: 22 May 2026\, 23:59 UTC+12 (assumed)\n\nConference: Oc
+ tober 4-8\, 2026\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest sub
+ mission: 27 Feb 2026\, 23:59 UTC+12 (assumed)\n  Author notification: 22 M
+ ay 2026\, 23:59 UTC+12 (assumed)\n  Final paper with IEEE copyright form: 
+ 10 Jul 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no time
+ zone. This is counted as UTC+12\, the earliest it could plausibly mean\, s
+ o the countdown runs out before the real deadline rather than after it.\n\
+ nDigests are single-column\, at most five pages including references\, and
+  are double-blind reviewed. The submission deadline was extended past 27 F
+ ebruary 2026.\n\nCall for papers: https://www.ieee-ecce.org/2026/\nDetails
+ : https://langestefan.github.io/powersystem-deadlines/conference/ecce26
 LOCATION:Vancouver\, Canada
 URL;VALUE=URI:https://www.ieee-ecce.org/2026/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
@@ -1324,21 +1367,25 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-camera_ready@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 TRANSP:TRANSPARENT
-SUMMARY:ECCE 2026: Final paper with IEEE copyright form (23:59 AoE)
+SUMMARY:ECCE 2026: Final paper with IEEE copyright form (23:59 UTC+12 (assu
+ med))
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nF
- inal paper with IEEE copyright form: 10 Jul 2026\, 23:59 AoE\n\nConference
- : October 4-8\, 2026\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest
-  submission: 27 Feb 2026\, 23:59 AoE\n  Author notification: 22 May 2026\,
-  23:59 AoE\n  Final paper with IEEE copyright form: 10 Jul 2026\, 23:59 Ao
- E\n\nDigests are single-column\, at most five pages including references\,
-  and are double-blind reviewed. The submission deadline was extended past 
- 27 February 2026. Timezones are not stated in the call for papers\; AoE is
-  assumed.\n\nCall for papers: https://www.ieee-ecce.org/2026/\nDetails: ht
- tps://langestefan.github.io/powersystem-deadlines/conference/ecce26
+ inal paper with IEEE copyright form: 10 Jul 2026\, 23:59 UTC+12 (assumed)\
+ n\nConference: October 4-8\, 2026\nLocation: Vancouver\, Canada\n\nAll dat
+ es:\n  Digest submission: 27 Feb 2026\, 23:59 UTC+12 (assumed)\n  Author n
+ otification: 22 May 2026\, 23:59 UTC+12 (assumed)\n  Final paper with IEEE
+  copyright form: 10 Jul 2026\, 23:59 UTC+12 (assumed)\n\nThe call for pape
+ rs states no timezone. This is counted as UTC+12\, the earliest it could p
+ lausibly mean\, so the countdown runs out before the real deadline rather 
+ than after it.\n\nDigests are single-column\, at most five pages including
+  references\, and are double-blind reviewed. The submission deadline was e
+ xtended past 27 February 2026.\n\nCall for papers: https://www.ieee-ecce.o
+ rg/2026/\nDetails: https://langestefan.github.io/powersystem-deadlines/con
+ ference/ecce26
 LOCATION:Vancouver\, Canada
 URL;VALUE=URI:https://www.ieee-ecce.org/2026/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
@@ -1358,19 +1405,21 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:naps26-paper@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 TRANSP:TRANSPARENT
-SUMMARY:NAPS 2026: Paper submission (23:59 AoE)
+SUMMARY:NAPS 2026: Paper submission (23:59 UTC+12 (assumed))
 DESCRIPTION:North American Power Symposium (NAPS 2026)\n\nPaper submission:
-  1 Jul 2026\, 23:59 AoE\n\nConference: October 11-13\, 2026\nLocation: Hou
- ghton\, USA\nVenue: Rozsa Center for the Performing Arts\, Michigan Techno
- logical University\n\n58th edition. Papers are at most six pages and revie
- wed in stages\, with registration priced by submission date. Timezones are
-  not stated in the call for papers\; AoE is assumed.\n\nCall for papers: h
- ttps://www.mtu.edu/ece/naps-2026/\nDetails: https://langestefan.github.io/
- powersystem-deadlines/conference/naps26
+  1 Jul 2026\, 23:59 UTC+12 (assumed)\n\nConference: October 11-13\, 2026\n
+ Location: Houghton\, USA\nVenue: Rozsa Center for the Performing Arts\, Mi
+ chigan Technological University\n\nThe call for papers states no timezone.
+  This is counted as UTC+12\, the earliest it could plausibly mean\, so the
+  countdown runs out before the real deadline rather than after it.\n\n58th
+  edition. Papers are at most six pages and reviewed in stages\, with regis
+ tration priced by submission date.\n\nCall for papers: https://www.mtu.edu
+ /ece/naps-2026/\nDetails: https://langestefan.github.io/powersystem-deadli
+ nes/conference/naps26
 LOCATION:Houghton\, USA
 URL;VALUE=URI:https://www.mtu.edu/ece/naps-2026/
 CATEGORIES:Power Systems,Computation & Optimization,Renewables
@@ -1389,20 +1438,22 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-paper@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 TRANSP:TRANSPARENT
-SUMMARY:IECON 2026: Paper submission (extended) (23:59 AoE)
+SUMMARY:IECON 2026: Paper submission (extended) (23:59 UTC+12 (assumed))
 DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
- ECON 2026)\n\nPaper submission (extended): 31 Jul 2026\, 23:59 AoE\n\nConf
- erence: October 18-21\, 2026\nLocation: Doha\, Qatar\n\nAll dates:\n  Pape
- r submission (extended): 31 Jul 2026\, 23:59 AoE\n  Acceptance notificatio
- n: 10 Aug 2026\, 23:59 AoE\n  Final submission and registration: 30 Aug 20
- 26\, 23:59 AoE\n\n52nd annual conference of the IES. Timezones are not sta
- ted in the call for papers\; AoE is assumed.\n\nCall for papers: https://w
- ww.iecon2026.org/\nDetails: https://langestefan.github.io/powersystem-dead
- lines/conference/iecon26
+ ECON 2026)\n\nPaper submission (extended): 31 Jul 2026\, 23:59 UTC+12 (ass
+ umed)\n\nConference: October 18-21\, 2026\nLocation: Doha\, Qatar\n\nAll d
+ ates:\n  Paper submission (extended): 31 Jul 2026\, 23:59 UTC+12 (assumed)
+ \n  Acceptance notification: 10 Aug 2026\, 23:59 UTC+12 (assumed)\n  Final
+  submission and registration: 30 Aug 2026\, 23:59 UTC+12 (assumed)\n\nThe 
+ call for papers states no timezone. This is counted as UTC+12\, the earlie
+ st it could plausibly mean\, so the countdown runs out before the real dea
+ dline rather than after it.\n\n52nd annual conference of the IES.\n\nCall 
+ for papers: https://www.iecon2026.org/\nDetails: https://langestefan.githu
+ b.io/powersystem-deadlines/conference/iecon26
 LOCATION:Doha\, Qatar
 URL;VALUE=URI:https://www.iecon2026.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -1421,20 +1472,22 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-notification@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 TRANSP:TRANSPARENT
-SUMMARY:IECON 2026: Acceptance notification (23:59 AoE)
+SUMMARY:IECON 2026: Acceptance notification (23:59 UTC+12 (assumed))
 DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
- ECON 2026)\n\nAcceptance notification: 10 Aug 2026\, 23:59 AoE\n\nConferen
- ce: October 18-21\, 2026\nLocation: Doha\, Qatar\n\nAll dates:\n  Paper su
- bmission (extended): 31 Jul 2026\, 23:59 AoE\n  Acceptance notification: 1
- 0 Aug 2026\, 23:59 AoE\n  Final submission and registration: 30 Aug 2026\,
-  23:59 AoE\n\n52nd annual conference of the IES. Timezones are not stated 
- in the call for papers\; AoE is assumed.\n\nCall for papers: https://www.i
- econ2026.org/\nDetails: https://langestefan.github.io/powersystem-deadline
- s/conference/iecon26
+ ECON 2026)\n\nAcceptance notification: 10 Aug 2026\, 23:59 UTC+12 (assumed
+ )\n\nConference: October 18-21\, 2026\nLocation: Doha\, Qatar\n\nAll dates
+ :\n  Paper submission (extended): 31 Jul 2026\, 23:59 UTC+12 (assumed)\n  
+ Acceptance notification: 10 Aug 2026\, 23:59 UTC+12 (assumed)\n  Final sub
+ mission and registration: 30 Aug 2026\, 23:59 UTC+12 (assumed)\n\nThe call
+  for papers states no timezone. This is counted as UTC+12\, the earliest i
+ t could plausibly mean\, so the countdown runs out before the real deadlin
+ e rather than after it.\n\n52nd annual conference of the IES.\n\nCall for 
+ papers: https://www.iecon2026.org/\nDetails: https://langestefan.github.io
+ /powersystem-deadlines/conference/iecon26
 LOCATION:Doha\, Qatar
 URL;VALUE=URI:https://www.iecon2026.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -1453,20 +1506,23 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-camera_ready@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
 TRANSP:TRANSPARENT
-SUMMARY:IECON 2026: Final submission and registration (23:59 AoE)
+SUMMARY:IECON 2026: Final submission and registration (23:59 UTC+12 (assume
+ d))
 DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
- ECON 2026)\n\nFinal submission and registration: 30 Aug 2026\, 23:59 AoE\n
- \nConference: October 18-21\, 2026\nLocation: Doha\, Qatar\n\nAll dates:\n
-   Paper submission (extended): 31 Jul 2026\, 23:59 AoE\n  Acceptance notif
- ication: 10 Aug 2026\, 23:59 AoE\n  Final submission and registration: 30 
- Aug 2026\, 23:59 AoE\n\n52nd annual conference of the IES. Timezones are n
- ot stated in the call for papers\; AoE is assumed.\n\nCall for papers: htt
- ps://www.iecon2026.org/\nDetails: https://langestefan.github.io/powersyste
- m-deadlines/conference/iecon26
+ ECON 2026)\n\nFinal submission and registration: 30 Aug 2026\, 23:59 UTC+1
+ 2 (assumed)\n\nConference: October 18-21\, 2026\nLocation: Doha\, Qatar\n\
+ nAll dates:\n  Paper submission (extended): 31 Jul 2026\, 23:59 UTC+12 (as
+ sumed)\n  Acceptance notification: 10 Aug 2026\, 23:59 UTC+12 (assumed)\n 
+  Final submission and registration: 30 Aug 2026\, 23:59 UTC+12 (assumed)\n
+ \nThe call for papers states no timezone. This is counted as UTC+12\, the 
+ earliest it could plausibly mean\, so the countdown runs out before the re
+ al deadline rather than after it.\n\n52nd annual conference of the IES.\n\
+ nCall for papers: https://www.iecon2026.org/\nDetails: https://langestefan
+ .github.io/powersystem-deadlines/conference/iecon26
 LOCATION:Doha\, Qatar
 URL;VALUE=URI:https://www.iecon2026.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -1484,21 +1540,89 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:isgt-europe26-paper@langestefan.github.io
+DTSTAMP:20260916T151404Z
+DTSTART;VALUE=DATE:20260415
+DTEND;VALUE=DATE:20260416
+TRANSP:TRANSPARENT
+SUMMARY:ISGT Europe 2026: Paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Europe (
+ ISGT Europe 2026)\n\nPaper submission: 15 Apr 2026\, 23:59 UTC+12 (assumed
+ )\n\nConference: October 19-22\, 2026\nLocation: Budapest\, Hungary\n\nAll
+  dates:\n  Paper submission: 15 Apr 2026\, 23:59 UTC+12 (assumed)\n  Final
+  paper submission: 15 Sept 2026\, 23:59 UTC+12 (assumed)\n\nThe call for p
+ apers states no timezone. This is counted as UTC+12\, the earliest it coul
+ d plausibly mean\, so the countdown runs out before the real deadline rath
+ er than after it.\n\nFinal paper submission opened 15 August 2026.\n\nCall
+  for papers: https://ieee-isgt-europe.org/\nDetails: https://langestefan.g
+ ithub.io/powersystem-deadlines/conference/isgt-europe26
+LOCATION:Budapest\, Hungary
+URL;VALUE=URI:https://ieee-isgt-europe.org/
+CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isgt-europe26-camera_ready@langestefan.github.io
+DTSTAMP:20260916T151404Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+TRANSP:TRANSPARENT
+SUMMARY:ISGT Europe 2026: Final paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Europe (
+ ISGT Europe 2026)\n\nFinal paper submission: 15 Sept 2026\, 23:59 UTC+12 (
+ assumed)\n\nConference: October 19-22\, 2026\nLocation: Budapest\, Hungary
+ \n\nAll dates:\n  Paper submission: 15 Apr 2026\, 23:59 UTC+12 (assumed)\n
+   Final paper submission: 15 Sept 2026\, 23:59 UTC+12 (assumed)\n\nThe cal
+ l for papers states no timezone. This is counted as UTC+12\, the earliest 
+ it could plausibly mean\, so the countdown runs out before the real deadli
+ ne rather than after it.\n\nFinal paper submission opened 15 August 2026.\
+ n\nCall for papers: https://ieee-isgt-europe.org/\nDetails: https://langes
+ tefan.github.io/powersystem-deadlines/conference/isgt-europe26
+LOCATION:Budapest\, Hungary
+URL;VALUE=URI:https://ieee-isgt-europe.org/
+CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:smartgridcomm26-paper@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20260503
 DTEND;VALUE=DATE:20260504
 TRANSP:TRANSPARENT
-SUMMARY:SmartGridComm 2026: Paper submission (23:59 AoE)
+SUMMARY:SmartGridComm 2026: Paper submission (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE International Conference on Communications\, Control\, and
   Computing Technologies for Smart Grids (SmartGridComm 2026)\n\nPaper subm
- ission: 3 May 2026\, 23:59 AoE\n\nConference: October 26-29\, 2026\nLocati
- on: College Station\, USA\n\nAll dates:\n  Paper submission: 3 May 2026\, 
- 23:59 AoE\n  Acceptance notification: 19 Jun 2026\, 23:59 AoE\n\nThe paper
-  deadline was extended from 15 April to 3 May 2026. Timezones are not stat
- ed in the call for papers\; AoE is assumed.\n\nCall for papers: https://sg
- c2026.ieee-smartgridcomm.org/\nDetails: https://langestefan.github.io/powe
- rsystem-deadlines/conference/smartgridcomm26
+ ission: 3 May 2026\, 23:59 UTC+12 (assumed)\n\nConference: October 26-29\,
+  2026\nLocation: College Station\, USA\n\nAll dates:\n  Paper submission: 
+ 3 May 2026\, 23:59 UTC+12 (assumed)\n  Acceptance notification: 19 Jun 202
+ 6\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This
+  is counted as UTC+12\, the earliest it could plausibly mean\, so the coun
+ tdown runs out before the real deadline rather than after it.\n\nThe paper
+  deadline was extended from 15 April to 3 May 2026.\n\nCall for papers: ht
+ tps://sgc2026.ieee-smartgridcomm.org/\nDetails: https://langestefan.github
+ .io/powersystem-deadlines/conference/smartgridcomm26
 LOCATION:College Station\, USA
 URL;VALUE=URI:https://sgc2026.ieee-smartgridcomm.org/
 CATEGORIES:Smart Grid,Cyber-Physical Security,Computation & Optimization,Di
@@ -1518,20 +1642,23 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:smartgridcomm26-notification@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 TRANSP:TRANSPARENT
-SUMMARY:SmartGridComm 2026: Acceptance notification (23:59 AoE)
+SUMMARY:SmartGridComm 2026: Acceptance notification (23:59 UTC+12 (assumed)
+ )
 DESCRIPTION:IEEE International Conference on Communications\, Control\, and
   Computing Technologies for Smart Grids (SmartGridComm 2026)\n\nAcceptance
-  notification: 19 Jun 2026\, 23:59 AoE\n\nConference: October 26-29\, 2026
- \nLocation: College Station\, USA\n\nAll dates:\n  Paper submission: 3 May
-  2026\, 23:59 AoE\n  Acceptance notification: 19 Jun 2026\, 23:59 AoE\n\nT
- he paper deadline was extended from 15 April to 3 May 2026. Timezones are 
- not stated in the call for papers\; AoE is assumed.\n\nCall for papers: ht
- tps://sgc2026.ieee-smartgridcomm.org/\nDetails: https://langestefan.github
- .io/powersystem-deadlines/conference/smartgridcomm26
+  notification: 19 Jun 2026\, 23:59 UTC+12 (assumed)\n\nConference: October
+  26-29\, 2026\nLocation: College Station\, USA\n\nAll dates:\n  Paper subm
+ ission: 3 May 2026\, 23:59 UTC+12 (assumed)\n  Acceptance notification: 19
+  Jun 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezo
+ ne. This is counted as UTC+12\, the earliest it could plausibly mean\, so 
+ the countdown runs out before the real deadline rather than after it.\n\nT
+ he paper deadline was extended from 15 April to 3 May 2026.\n\nCall for pa
+ pers: https://sgc2026.ieee-smartgridcomm.org/\nDetails: https://langestefa
+ n.github.io/powersystem-deadlines/conference/smartgridcomm26
 LOCATION:College Station\, USA
 URL;VALUE=URI:https://sgc2026.ieee-smartgridcomm.org/
 CATEGORIES:Smart Grid,Cyber-Physical Security,Computation & Optimization,Di

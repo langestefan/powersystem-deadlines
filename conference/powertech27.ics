@@ -12,21 +12,24 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/powertech27.ics
 BEGIN:VEVENT
 UID:powertech27-paper@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 TRANSP:TRANSPARENT
-SUMMARY:PowerTech 2027: Full paper submission (23:59 AoE)
+SUMMARY:PowerTech 2027: Full paper submission (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nFull paper su
- bmission: 28 Feb 2027\, 23:59 AoE\n\nConference: September 5-9\, 2027\nLoc
- ation: Bruges\, Belgium\n\nAll dates:\n  Full paper submission: 28 Feb 202
- 7\, 23:59 AoE\n  Author notification: 23 Apr 2027\, 23:59 AoE\n  Author an
- d early bird registration deadline: 17 May 2027\, 23:59 AoE\n  Final paper
-  submission: 23 May 2027\, 23:59 AoE\n\nCo-sponsored by IEEE PES and KU Le
- uven. Papers are limited to six pages. Submission opens in November 2026. 
- Timezones are not stated in the call for papers\; AoE is assumed.\n\nCall 
- for papers: https://powertech2027.com/\nDetails: https://langestefan.githu
- b.io/powersystem-deadlines/conference/powertech27
+ bmission: 28 Feb 2027\, 23:59 UTC+12 (assumed)\n\nConference: September 5-
+ 9\, 2027\nLocation: Bruges\, Belgium\n\nAll dates:\n  Full paper submissio
+ n: 28 Feb 2027\, 23:59 UTC+12 (assumed)\n  Author notification: 23 Apr 202
+ 7\, 23:59 UTC+12 (assumed)\n  Author and early bird registration deadline:
+  17 May 2027\, 23:59 UTC+12 (assumed)\n  Final paper submission: 23 May 20
+ 27\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. Thi
+ s is counted as UTC+12\, the earliest it could plausibly mean\, so the cou
+ ntdown runs out before the real deadline rather than after it.\n\nCo-spons
+ ored by IEEE PES and KU Leuven. Papers are limited to six pages. Submissio
+ n opens in November 2026.\n\nCall for papers: https://powertech2027.com/\n
+ Details: https://langestefan.github.io/powersystem-deadlines/conference/po
+ wertech27
 LOCATION:Bruges\, Belgium
 URL;VALUE=URI:https://powertech2027.com/
 CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
@@ -46,21 +49,24 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-notification@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20270423
 DTEND;VALUE=DATE:20270424
 TRANSP:TRANSPARENT
-SUMMARY:PowerTech 2027: Author notification (23:59 AoE)
+SUMMARY:PowerTech 2027: Author notification (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nAuthor notifi
- cation: 23 Apr 2027\, 23:59 AoE\n\nConference: September 5-9\, 2027\nLocat
- ion: Bruges\, Belgium\n\nAll dates:\n  Full paper submission: 28 Feb 2027\
- , 23:59 AoE\n  Author notification: 23 Apr 2027\, 23:59 AoE\n  Author and 
- early bird registration deadline: 17 May 2027\, 23:59 AoE\n  Final paper s
- ubmission: 23 May 2027\, 23:59 AoE\n\nCo-sponsored by IEEE PES and KU Leuv
- en. Papers are limited to six pages. Submission opens in November 2026. Ti
- mezones are not stated in the call for papers\; AoE is assumed.\n\nCall fo
- r papers: https://powertech2027.com/\nDetails: https://langestefan.github.
- io/powersystem-deadlines/conference/powertech27
+ cation: 23 Apr 2027\, 23:59 UTC+12 (assumed)\n\nConference: September 5-9\
+ , 2027\nLocation: Bruges\, Belgium\n\nAll dates:\n  Full paper submission:
+  28 Feb 2027\, 23:59 UTC+12 (assumed)\n  Author notification: 23 Apr 2027\
+ , 23:59 UTC+12 (assumed)\n  Author and early bird registration deadline: 1
+ 7 May 2027\, 23:59 UTC+12 (assumed)\n  Final paper submission: 23 May 2027
+ \, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This 
+ is counted as UTC+12\, the earliest it could plausibly mean\, so the count
+ down runs out before the real deadline rather than after it.\n\nCo-sponsor
+ ed by IEEE PES and KU Leuven. Papers are limited to six pages. Submission 
+ opens in November 2026.\n\nCall for papers: https://powertech2027.com/\nDe
+ tails: https://langestefan.github.io/powersystem-deadlines/conference/powe
+ rtech27
 LOCATION:Bruges\, Belgium
 URL;VALUE=URI:https://powertech2027.com/
 CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
@@ -80,22 +86,25 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-author_registration@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 TRANSP:TRANSPARENT
 SUMMARY:PowerTech 2027: Author and early bird registration deadline (23:59 
- AoE)
+ UTC+12 (assumed))
 DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nAuthor and ea
- rly bird registration deadline: 17 May 2027\, 23:59 AoE\n\nConference: Sep
- tember 5-9\, 2027\nLocation: Bruges\, Belgium\n\nAll dates:\n  Full paper 
- submission: 28 Feb 2027\, 23:59 AoE\n  Author notification: 23 Apr 2027\, 
- 23:59 AoE\n  Author and early bird registration deadline: 17 May 2027\, 23
- :59 AoE\n  Final paper submission: 23 May 2027\, 23:59 AoE\n\nCo-sponsored
-  by IEEE PES and KU Leuven. Papers are limited to six pages. Submission op
- ens in November 2026. Timezones are not stated in the call for papers\; Ao
- E is assumed.\n\nCall for papers: https://powertech2027.com/\nDetails: htt
- ps://langestefan.github.io/powersystem-deadlines/conference/powertech27
+ rly bird registration deadline: 17 May 2027\, 23:59 UTC+12 (assumed)\n\nCo
+ nference: September 5-9\, 2027\nLocation: Bruges\, Belgium\n\nAll dates:\n
+   Full paper submission: 28 Feb 2027\, 23:59 UTC+12 (assumed)\n  Author no
+ tification: 23 Apr 2027\, 23:59 UTC+12 (assumed)\n  Author and early bird 
+ registration deadline: 17 May 2027\, 23:59 UTC+12 (assumed)\n  Final paper
+  submission: 23 May 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers s
+ tates no timezone. This is counted as UTC+12\, the earliest it could plaus
+ ibly mean\, so the countdown runs out before the real deadline rather than
+  after it.\n\nCo-sponsored by IEEE PES and KU Leuven. Papers are limited t
+ o six pages. Submission opens in November 2026.\n\nCall for papers: https:
+ //powertech2027.com/\nDetails: https://langestefan.github.io/powersystem-d
+ eadlines/conference/powertech27
 LOCATION:Bruges\, Belgium
 URL;VALUE=URI:https://powertech2027.com/
 CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
@@ -115,21 +124,24 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-camera_ready@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 TRANSP:TRANSPARENT
-SUMMARY:PowerTech 2027: Final paper submission (23:59 AoE)
+SUMMARY:PowerTech 2027: Final paper submission (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nFinal paper s
- ubmission: 23 May 2027\, 23:59 AoE\n\nConference: September 5-9\, 2027\nLo
- cation: Bruges\, Belgium\n\nAll dates:\n  Full paper submission: 28 Feb 20
- 27\, 23:59 AoE\n  Author notification: 23 Apr 2027\, 23:59 AoE\n  Author a
- nd early bird registration deadline: 17 May 2027\, 23:59 AoE\n  Final pape
- r submission: 23 May 2027\, 23:59 AoE\n\nCo-sponsored by IEEE PES and KU L
- euven. Papers are limited to six pages. Submission opens in November 2026.
-  Timezones are not stated in the call for papers\; AoE is assumed.\n\nCall
-  for papers: https://powertech2027.com/\nDetails: https://langestefan.gith
- ub.io/powersystem-deadlines/conference/powertech27
+ ubmission: 23 May 2027\, 23:59 UTC+12 (assumed)\n\nConference: September 5
+ -9\, 2027\nLocation: Bruges\, Belgium\n\nAll dates:\n  Full paper submissi
+ on: 28 Feb 2027\, 23:59 UTC+12 (assumed)\n  Author notification: 23 Apr 20
+ 27\, 23:59 UTC+12 (assumed)\n  Author and early bird registration deadline
+ : 17 May 2027\, 23:59 UTC+12 (assumed)\n  Final paper submission: 23 May 2
+ 027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. Th
+ is is counted as UTC+12\, the earliest it could plausibly mean\, so the co
+ untdown runs out before the real deadline rather than after it.\n\nCo-spon
+ sored by IEEE PES and KU Leuven. Papers are limited to six pages. Submissi
+ on opens in November 2026.\n\nCall for papers: https://powertech2027.com/\
+ nDetails: https://langestefan.github.io/powersystem-deadlines/conference/p
+ owertech27
 LOCATION:Bruges\, Belgium
 URL;VALUE=URI:https://powertech2027.com/
 CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
@@ -149,20 +161,23 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-event@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20270905
 DTEND;VALUE=DATE:20270910
 TRANSP:TRANSPARENT
 SUMMARY:PowerTech 2027
 DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nConference: S
  eptember 5-9\, 2027\nLocation: Bruges\, Belgium\n\nAll dates:\n  Full pape
- r submission: 28 Feb 2027\, 23:59 AoE\n  Author notification: 23 Apr 2027\
- , 23:59 AoE\n  Author and early bird registration deadline: 17 May 2027\, 
- 23:59 AoE\n  Final paper submission: 23 May 2027\, 23:59 AoE\n\nCo-sponsor
- ed by IEEE PES and KU Leuven. Papers are limited to six pages. Submission 
- opens in November 2026. Timezones are not stated in the call for papers\; 
- AoE is assumed.\n\nCall for papers: https://powertech2027.com/\nDetails: h
- ttps://langestefan.github.io/powersystem-deadlines/conference/powertech27
+ r submission: 28 Feb 2027\, 23:59 UTC+12 (assumed)\n  Author notification:
+  23 Apr 2027\, 23:59 UTC+12 (assumed)\n  Author and early bird registratio
+ n deadline: 17 May 2027\, 23:59 UTC+12 (assumed)\n  Final paper submission
+ : 23 May 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no ti
+ mezone. This is counted as UTC+12\, the earliest it could plausibly mean\,
+  so the countdown runs out before the real deadline rather than after it.\
+ n\nCo-sponsored by IEEE PES and KU Leuven. Papers are limited to six pages
+ . Submission opens in November 2026.\n\nCall for papers: https://powertech
+ 2027.com/\nDetails: https://langestefan.github.io/powersystem-deadlines/co
+ nference/powertech27
 LOCATION:Bruges\, Belgium
 URL;VALUE=URI:https://powertech2027.com/
 CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza

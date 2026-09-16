@@ -13,51 +13,20 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/smartgridcomm26.ics
 BEGIN:VEVENT
 UID:smartgridcomm26-paper@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20260503
 DTEND;VALUE=DATE:20260504
 TRANSP:TRANSPARENT
-SUMMARY:SmartGridComm 2026: Paper submission (23:59 AoE)
+SUMMARY:SmartGridComm 2026: Paper submission (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE International Conference on Communications\, Control\, and
   Computing Technologies for Smart Grids (SmartGridComm 2026)\n\nPaper subm
- ission: 3 May 2026\, 23:59 AoE\n\nConference: October 26-29\, 2026\nLocati
- on: College Station\, USA\n\nAll dates:\n  Paper submission: 3 May 2026\, 
- 23:59 AoE\n  Acceptance notification: 19 Jun 2026\, 23:59 AoE\n\nThe paper
-  deadline was extended from 15 April to 3 May 2026. Timezones are not stat
- ed in the call for papers\; AoE is assumed.\n\nCall for papers: https://sg
- c2026.ieee-smartgridcomm.org/\nDetails: https://langestefan.github.io/powe
- rsystem-deadlines/conference/smartgridcomm26
-LOCATION:College Station\, USA
-URL;VALUE=URI:https://sgc2026.ieee-smartgridcomm.org/
-CATEGORIES:Smart Grid,Cyber-Physical Security,Computation & Optimization,Di
- stribution
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:smartgridcomm26-notification@langestefan.github.io
-DTSTAMP:20260916T043305Z
-DTSTART;VALUE=DATE:20260619
-DTEND;VALUE=DATE:20260620
-TRANSP:TRANSPARENT
-SUMMARY:SmartGridComm 2026: Acceptance notification (23:59 AoE)
-DESCRIPTION:IEEE International Conference on Communications\, Control\, and
-  Computing Technologies for Smart Grids (SmartGridComm 2026)\n\nAcceptance
-  notification: 19 Jun 2026\, 23:59 AoE\n\nConference: October 26-29\, 2026
- \nLocation: College Station\, USA\n\nAll dates:\n  Paper submission: 3 May
-  2026\, 23:59 AoE\n  Acceptance notification: 19 Jun 2026\, 23:59 AoE\n\nT
- he paper deadline was extended from 15 April to 3 May 2026. Timezones are 
- not stated in the call for papers\; AoE is assumed.\n\nCall for papers: ht
+ ission: 3 May 2026\, 23:59 UTC+12 (assumed)\n\nConference: October 26-29\,
+  2026\nLocation: College Station\, USA\n\nAll dates:\n  Paper submission: 
+ 3 May 2026\, 23:59 UTC+12 (assumed)\n  Acceptance notification: 19 Jun 202
+ 6\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This
+  is counted as UTC+12\, the earliest it could plausibly mean\, so the coun
+ tdown runs out before the real deadline rather than after it.\n\nThe paper
+  deadline was extended from 15 April to 3 May 2026.\n\nCall for papers: ht
  tps://sgc2026.ieee-smartgridcomm.org/\nDetails: https://langestefan.github
  .io/powersystem-deadlines/conference/smartgridcomm26
 LOCATION:College Station\, USA
@@ -78,8 +47,44 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:smartgridcomm26-notification@langestefan.github.io
+DTSTAMP:20260916T151404Z
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+TRANSP:TRANSPARENT
+SUMMARY:SmartGridComm 2026: Acceptance notification (23:59 UTC+12 (assumed)
+ )
+DESCRIPTION:IEEE International Conference on Communications\, Control\, and
+  Computing Technologies for Smart Grids (SmartGridComm 2026)\n\nAcceptance
+  notification: 19 Jun 2026\, 23:59 UTC+12 (assumed)\n\nConference: October
+  26-29\, 2026\nLocation: College Station\, USA\n\nAll dates:\n  Paper subm
+ ission: 3 May 2026\, 23:59 UTC+12 (assumed)\n  Acceptance notification: 19
+  Jun 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezo
+ ne. This is counted as UTC+12\, the earliest it could plausibly mean\, so 
+ the countdown runs out before the real deadline rather than after it.\n\nT
+ he paper deadline was extended from 15 April to 3 May 2026.\n\nCall for pa
+ pers: https://sgc2026.ieee-smartgridcomm.org/\nDetails: https://langestefa
+ n.github.io/powersystem-deadlines/conference/smartgridcomm26
+LOCATION:College Station\, USA
+URL;VALUE=URI:https://sgc2026.ieee-smartgridcomm.org/
+CATEGORIES:Smart Grid,Cyber-Physical Security,Computation & Optimization,Di
+ stribution
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:smartgridcomm26-event@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261030
 TRANSP:TRANSPARENT
@@ -87,11 +92,13 @@ SUMMARY:SmartGridComm 2026
 DESCRIPTION:IEEE International Conference on Communications\, Control\, and
   Computing Technologies for Smart Grids (SmartGridComm 2026)\n\nConference
  : October 26-29\, 2026\nLocation: College Station\, USA\n\nAll dates:\n  P
- aper submission: 3 May 2026\, 23:59 AoE\n  Acceptance notification: 19 Jun
-  2026\, 23:59 AoE\n\nThe paper deadline was extended from 15 April to 3 Ma
- y 2026. Timezones are not stated in the call for papers\; AoE is assumed.\
- n\nCall for papers: https://sgc2026.ieee-smartgridcomm.org/\nDetails: http
- s://langestefan.github.io/powersystem-deadlines/conference/smartgridcomm26
+ aper submission: 3 May 2026\, 23:59 UTC+12 (assumed)\n  Acceptance notific
+ ation: 19 Jun 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states 
+ no timezone. This is counted as UTC+12\, the earliest it could plausibly m
+ ean\, so the countdown runs out before the real deadline rather than after
+  it.\n\nThe paper deadline was extended from 15 April to 3 May 2026.\n\nCa
+ ll for papers: https://sgc2026.ieee-smartgridcomm.org/\nDetails: https://l
+ angestefan.github.io/powersystem-deadlines/conference/smartgridcomm26
 LOCATION:College Station\, USA
 URL;VALUE=URI:https://sgc2026.ieee-smartgridcomm.org/
 CATEGORIES:Smart Grid,Cyber-Physical Security,Computation & Optimization,Di

@@ -13,19 +13,21 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/isgt-europe26.ics
 BEGIN:VEVENT
 UID:isgt-europe26-paper@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20260415
 DTEND;VALUE=DATE:20260416
 TRANSP:TRANSPARENT
-SUMMARY:ISGT Europe 2026: Paper submission (23:59 AoE)
+SUMMARY:ISGT Europe 2026: Paper submission (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Europe (
- ISGT Europe 2026)\n\nPaper submission: 15 Apr 2026\, 23:59 AoE\n\nConferen
- ce: October 19-22\, 2026\nLocation: Budapest\, Hungary\n\nAll dates:\n  Pa
- per submission: 15 Apr 2026\, 23:59 AoE\n  Final paper submission: 15 Sept
-  2026\, 23:59 AoE\n\nFinal paper submission opened 15 August 2026. Timezon
- es are not stated in the call for papers\; AoE is assumed.\n\nCall for pap
- ers: https://ieee-isgt-europe.org/\nDetails: https://langestefan.github.io
- /powersystem-deadlines/conference/isgt-europe26
+ ISGT Europe 2026)\n\nPaper submission: 15 Apr 2026\, 23:59 UTC+12 (assumed
+ )\n\nConference: October 19-22\, 2026\nLocation: Budapest\, Hungary\n\nAll
+  dates:\n  Paper submission: 15 Apr 2026\, 23:59 UTC+12 (assumed)\n  Final
+  paper submission: 15 Sept 2026\, 23:59 UTC+12 (assumed)\n\nThe call for p
+ apers states no timezone. This is counted as UTC+12\, the earliest it coul
+ d plausibly mean\, so the countdown runs out before the real deadline rath
+ er than after it.\n\nFinal paper submission opened 15 August 2026.\n\nCall
+  for papers: https://ieee-isgt-europe.org/\nDetails: https://langestefan.g
+ ithub.io/powersystem-deadlines/conference/isgt-europe26
 LOCATION:Budapest\, Hungary
 URL;VALUE=URI:https://ieee-isgt-europe.org/
 CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
@@ -44,19 +46,21 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-europe26-camera_ready@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 TRANSP:TRANSPARENT
-SUMMARY:ISGT Europe 2026: Final paper submission (23:59 AoE)
+SUMMARY:ISGT Europe 2026: Final paper submission (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Europe (
- ISGT Europe 2026)\n\nFinal paper submission: 15 Sept 2026\, 23:59 AoE\n\nC
- onference: October 19-22\, 2026\nLocation: Budapest\, Hungary\n\nAll dates
- :\n  Paper submission: 15 Apr 2026\, 23:59 AoE\n  Final paper submission: 
- 15 Sept 2026\, 23:59 AoE\n\nFinal paper submission opened 15 August 2026. 
- Timezones are not stated in the call for papers\; AoE is assumed.\n\nCall 
- for papers: https://ieee-isgt-europe.org/\nDetails: https://langestefan.gi
- thub.io/powersystem-deadlines/conference/isgt-europe26
+ ISGT Europe 2026)\n\nFinal paper submission: 15 Sept 2026\, 23:59 UTC+12 (
+ assumed)\n\nConference: October 19-22\, 2026\nLocation: Budapest\, Hungary
+ \n\nAll dates:\n  Paper submission: 15 Apr 2026\, 23:59 UTC+12 (assumed)\n
+   Final paper submission: 15 Sept 2026\, 23:59 UTC+12 (assumed)\n\nThe cal
+ l for papers states no timezone. This is counted as UTC+12\, the earliest 
+ it could plausibly mean\, so the countdown runs out before the real deadli
+ ne rather than after it.\n\nFinal paper submission opened 15 August 2026.\
+ n\nCall for papers: https://ieee-isgt-europe.org/\nDetails: https://langes
+ tefan.github.io/powersystem-deadlines/conference/isgt-europe26
 LOCATION:Budapest\, Hungary
 URL;VALUE=URI:https://ieee-isgt-europe.org/
 CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
@@ -75,19 +79,20 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-europe26-event@langestefan.github.io
-DTSTAMP:20260916T043305Z
+DTSTAMP:20260916T151404Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261023
 TRANSP:TRANSPARENT
 SUMMARY:ISGT Europe 2026
 DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Europe (
  ISGT Europe 2026)\n\nConference: October 19-22\, 2026\nLocation: Budapest\
- , Hungary\n\nAll dates:\n  Paper submission: 15 Apr 2026\, 23:59 AoE\n  Fi
- nal paper submission: 15 Sept 2026\, 23:59 AoE\n\nFinal paper submission o
- pened 15 August 2026. Timezones are not stated in the call for papers\; Ao
- E is assumed.\n\nCall for papers: https://ieee-isgt-europe.org/\nDetails: 
- https://langestefan.github.io/powersystem-deadlines/conference/isgt-europe
- 26
+ , Hungary\n\nAll dates:\n  Paper submission: 15 Apr 2026\, 23:59 UTC+12 (a
+ ssumed)\n  Final paper submission: 15 Sept 2026\, 23:59 UTC+12 (assumed)\n
+ \nThe call for papers states no timezone. This is counted as UTC+12\, the 
+ earliest it could plausibly mean\, so the countdown runs out before the re
+ al deadline rather than after it.\n\nFinal paper submission opened 15 Augu
+ st 2026.\n\nCall for papers: https://ieee-isgt-europe.org/\nDetails: https
+ ://langestefan.github.io/powersystem-deadlines/conference/isgt-europe26
 LOCATION:Budapest\, Hungary
 URL;VALUE=URI:https://ieee-isgt-europe.org/
 CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
