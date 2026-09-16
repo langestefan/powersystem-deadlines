@@ -66,7 +66,9 @@ const searchHaystack = [
       </p>
     </div>
 
-    <div class="text-right">
+    <!-- Once this wraps under the title on a narrow screen, right-aligned text
+         reads as a stray indent, so it only right-aligns once it sits beside it. -->
+    <div class="text-left sm:text-right">
       {
         headline ? (
           <>
@@ -136,7 +138,7 @@ const searchHaystack = [
     <a
       href={edition.link}
       rel="noopener"
-      class="ml-auto inline-flex items-center gap-1 text-xs text-muted-foreground transition-colors hover:text-primary"
+      class="ml-auto inline-flex min-h-6 items-center gap-1 text-xs text-muted-foreground transition-colors hover:text-primary"
     >
       Call for papers
       <ExternalLink class="size-3" aria-hidden="true" />

@@ -64,7 +64,10 @@ const submissionLabels: Record<string, string> = {
   description={`Deadlines, dates and calendar feed for ${edition.fullName} ${edition.year}.`}
 >
   <nav class="mb-4 text-sm">
-    <a class="text-muted-foreground hover:text-foreground" href={withBase('/')}>
+    <a
+      class="inline-flex min-h-6 items-center text-muted-foreground hover:text-foreground"
+      href={withBase('/')}
+    >
       ← All deadlines
     </a>
   </nav>
@@ -102,7 +105,9 @@ const submissionLabels: Record<string, string> = {
   {edition.description && <p class="mt-4 max-w-2xl">{edition.description}</p>}
 
   <div class="mt-6 grid gap-6 lg:grid-cols-[minmax(0,1fr)_18rem]">
-    <div class="space-y-6">
+    <!-- min-w-0: without it a grid item grows to fit the widest child, and the
+         key-dates table would push the whole page sideways instead of scrolling. -->
+    <div class="min-w-0 space-y-6">
       <section class="rounded-lg border bg-card p-4 shadow-sm">
         <h2 class="mb-3 text-sm font-semibold tracking-wide uppercase opacity-70">
           Key dates
@@ -168,7 +173,7 @@ const submissionLabels: Record<string, string> = {
         <a
           href={edition.link}
           rel="noopener"
-          class="mt-4 inline-flex items-center gap-1.5 text-sm text-primary hover:underline"
+          class="mt-4 inline-flex min-h-6 items-center gap-1.5 text-sm text-primary hover:underline"
         >
           Official website
           <ExternalLink class="size-3.5" aria-hidden="true" />
