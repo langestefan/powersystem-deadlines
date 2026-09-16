@@ -5,7 +5,24 @@
  * and every calendar feed URL. When the custom domain is ready, change this line
  * and the `cname:` value in .github/workflows/deploy.yml. Nothing else.
  */
-export const SITE_URL = 'https://langestefan.github.io/powersystem-deadlines';
+const PRODUCTION_URL = 'https://langestefan.github.io/powersystem-deadlines';
+
+/**
+ * A build can be pointed somewhere else with SITE_URL in the environment, which
+ * is how .github/workflows/preview.yml puts a pull request at its own sub-path
+ * without the canonical URLs, feed URLs and base prefix of the real site
+ * leaking into it.
+ *
+ * Read from `process.env` rather than `import.meta.env` because astro.config.ts
+ * needs the same value while it is still plain Node, before Vite exists. The
+ * guard keeps this safe if the module is ever pulled into a client bundle;
+ * today every URL an island needs is computed at build time and passed in.
+ */
+export const SITE_URL =
+  (typeof process !== 'undefined' && process.env?.SITE_URL) || PRODUCTION_URL;
+
+/** True when this build points somewhere other than the real site. */
+export const IS_PREVIEW = SITE_URL !== PRODUCTION_URL;
 
 export const SITE_DOMAIN = new URL(SITE_URL).hostname;
 

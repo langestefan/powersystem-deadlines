@@ -85,6 +85,11 @@ means changing all three.
 
 - `src/lib/site.ts` — `SITE_URL` drives the Astro `site`/`base` config, canonical URLs and every
   feed URL. Changing hosting means editing that one constant (and `cname:` in `deploy.yml`).
+  `SITE_URL` in the environment overrides it for one build, which is the whole mechanism behind
+  `preview.yml`: a pull request is built for `/preview/pr-<n>/` and published to that sub-path of
+  the same `gh-pages` branch the live site uses. Previews set `IS_PREVIEW`, which adds a noindex,
+  publish with `keep_files: true` so they can never delete from the live site, and are carried
+  across a production deploy by a step in `deploy.yml`.
   Link internal paths through `withBase()`, never by hand: it adds the base prefix and the trailing
   slash GitHub Pages would otherwise 301 to.
 - `src/lib/taxonomy.ts` — `TAGS`, `SOCIETIES` and `REGIONS` feed the schema enums, so adding a tag

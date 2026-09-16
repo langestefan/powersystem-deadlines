@@ -33,6 +33,19 @@ jobs:
 
       - run: npm run build
 
+      # Publishing to the root of gh-pages clears the branch, and any open pull
+      # request keeps its preview in preview/ on that same branch. Carry those
+      # over into this build's output so they survive the deploy.
+      - name: Keep open pull request previews
+        run: |
+          if git fetch --depth=1 origin gh-pages 2>/dev/null \
+            && git cat-file -e FETCH_HEAD:preview 2>/dev/null; then
+            git archive FETCH_HEAD preview | tar -x -C dist
+            echo "Kept: $(ls dist/preview | tr '\n' ' ')"
+          else
+            echo "No previews to keep."
+          fi
+
       - name: Publish to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
         with:
