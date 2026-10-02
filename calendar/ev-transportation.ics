@@ -11,84 +11,8 @@ X-WR-CALDESC:Deadlines for conferences tagged "EV & Transportation".
 SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
  ar/ev-transportation.ics
 BEGIN:VEVENT
-UID:pes-grid-edge27-paper@langestefan.github.io
-DTSTAMP:20261001T043619Z
-DTSTART;VALUE=DATE:20260724
-DTEND;VALUE=DATE:20260725
-TRANSP:TRANSPARENT
-SUMMARY:PES Grid Edge 2027: Paper and panel proposal submission (23:59 UTC+
- 12 (assumed))
-DESCRIPTION:IEEE PES Grid Edge Technologies Conference & Exposition (PES Gr
- id Edge 2027)\n\nPaper and panel proposal submission: 24 Jul 2026\, 23:59 
- UTC+12 (assumed)\n\nConference: April 19-22\, 2027\nLocation: Salt Lake Ci
- ty\, USA\nVenue: Calvin L. Rampton Salt Palace Convention Center\n\nAll da
- tes:\n  Paper and panel proposal submission: 24 Jul 2026\, 23:59 UTC+12 (a
- ssumed)\n  Notification of acceptance: 1 Oct 2026\, 23:59 UTC+12 (assumed)
- \n\nThe call for papers states no timezone. This is counted as UTC+12\, th
- e earliest it could plausibly mean\, so the countdown runs out before the 
- real deadline rather than after it.\n\nPapers are limited to five pages\, 
- and panel proposals to a 350-word description. At least one author per acc
- epted paper must register for the paper to appear in IEEE Xplore.\n\nCall 
- for papers: https://pes-gridedge.org/\nDetails: https://langestefan.github
- .io/powersystem-deadlines/conference/pes-grid-edge27
-LOCATION:Salt Lake City\, USA
-URL;VALUE=URI:https://pes-gridedge.org/
-CATEGORIES:Smart Grid,Distribution,Energy Storage,EV & Transportation,Micro
- grids
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:pes-grid-edge27-notification@langestefan.github.io
-DTSTAMP:20261001T043619Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-TRANSP:TRANSPARENT
-SUMMARY:PES Grid Edge 2027: Notification of acceptance (23:59 UTC+12 (assum
- ed))
-DESCRIPTION:IEEE PES Grid Edge Technologies Conference & Exposition (PES Gr
- id Edge 2027)\n\nNotification of acceptance: 1 Oct 2026\, 23:59 UTC+12 (as
- sumed)\n\nConference: April 19-22\, 2027\nLocation: Salt Lake City\, USA\n
- Venue: Calvin L. Rampton Salt Palace Convention Center\n\nAll dates:\n  Pa
- per and panel proposal submission: 24 Jul 2026\, 23:59 UTC+12 (assumed)\n 
-  Notification of acceptance: 1 Oct 2026\, 23:59 UTC+12 (assumed)\n\nThe ca
- ll for papers states no timezone. This is counted as UTC+12\, the earliest
-  it could plausibly mean\, so the countdown runs out before the real deadl
- ine rather than after it.\n\nPapers are limited to five pages\, and panel 
- proposals to a 350-word description. At least one author per accepted pape
- r must register for the paper to appear in IEEE Xplore.\n\nCall for papers
- : https://pes-gridedge.org/\nDetails: https://langestefan.github.io/powers
- ystem-deadlines/conference/pes-grid-edge27
-LOCATION:Salt Lake City\, USA
-URL;VALUE=URI:https://pes-gridedge.org/
-CATEGORIES:Smart Grid,Distribution,Energy Storage,EV & Transportation,Micro
- grids
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:iemdc27-abstract@langestefan.github.io
-DTSTAMP:20261001T043619Z
+DTSTAMP:20261002T043535Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -123,7 +47,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-notification@langestefan.github.io
-DTSTAMP:20261001T043619Z
+DTSTAMP:20261002T043535Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 TRANSP:TRANSPARENT
@@ -158,7 +82,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-camera_ready@langestefan.github.io
-DTSTAMP:20261001T043619Z
+DTSTAMP:20261002T043535Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
@@ -194,7 +118,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-abstract@langestefan.github.io
-DTSTAMP:20261001T043619Z
+DTSTAMP:20261002T043535Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 TRANSP:TRANSPARENT
@@ -232,7 +156,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-notification@langestefan.github.io
-DTSTAMP:20261001T043619Z
+DTSTAMP:20261002T043535Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 TRANSP:TRANSPARENT
@@ -269,7 +193,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-camera_ready@langestefan.github.io
-DTSTAMP:20261001T043619Z
+DTSTAMP:20261002T043535Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 TRANSP:TRANSPARENT
@@ -307,7 +231,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-abstract@langestefan.github.io
-DTSTAMP:20261001T043619Z
+DTSTAMP:20261002T043535Z
 DTSTART;VALUE=DATE:20260227
 DTEND;VALUE=DATE:20260228
 TRANSP:TRANSPARENT
@@ -343,7 +267,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-notification@langestefan.github.io
-DTSTAMP:20261001T043619Z
+DTSTAMP:20261002T043535Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -379,7 +303,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-camera_ready@langestefan.github.io
-DTSTAMP:20261001T043619Z
+DTSTAMP:20261002T043535Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 TRANSP:TRANSPARENT
@@ -402,6 +326,82 @@ LOCATION:Vancouver\, Canada
 URL;VALUE=URI:https://www.ieee-ecce.org/2026/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
   & Transportation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pes-grid-edge27-paper@langestefan.github.io
+DTSTAMP:20261002T043535Z
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260725
+TRANSP:TRANSPARENT
+SUMMARY:PES Grid Edge 2027: Paper and panel proposal submission (23:59 UTC+
+ 12 (assumed))
+DESCRIPTION:IEEE PES Grid Edge Technologies Conference & Exposition (PES Gr
+ id Edge 2027)\n\nPaper and panel proposal submission: 24 Jul 2026\, 23:59 
+ UTC+12 (assumed)\n\nConference: April 19-22\, 2027\nLocation: Salt Lake Ci
+ ty\, USA\nVenue: Calvin L. Rampton Salt Palace Convention Center\n\nAll da
+ tes:\n  Paper and panel proposal submission: 24 Jul 2026\, 23:59 UTC+12 (a
+ ssumed)\n  Notification of acceptance: 1 Oct 2026\, 23:59 UTC+12 (assumed)
+ \n\nThe call for papers states no timezone. This is counted as UTC+12\, th
+ e earliest it could plausibly mean\, so the countdown runs out before the 
+ real deadline rather than after it.\n\nPapers are limited to five pages\, 
+ and panel proposals to a 350-word description. At least one author per acc
+ epted paper must register for the paper to appear in IEEE Xplore.\n\nCall 
+ for papers: https://pes-gridedge.org/\nDetails: https://langestefan.github
+ .io/powersystem-deadlines/conference/pes-grid-edge27
+LOCATION:Salt Lake City\, USA
+URL;VALUE=URI:https://pes-gridedge.org/
+CATEGORIES:Smart Grid,Distribution,Energy Storage,EV & Transportation,Micro
+ grids
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pes-grid-edge27-notification@langestefan.github.io
+DTSTAMP:20261002T043535Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+TRANSP:TRANSPARENT
+SUMMARY:PES Grid Edge 2027: Notification of acceptance (23:59 UTC+12 (assum
+ ed))
+DESCRIPTION:IEEE PES Grid Edge Technologies Conference & Exposition (PES Gr
+ id Edge 2027)\n\nNotification of acceptance: 1 Oct 2026\, 23:59 UTC+12 (as
+ sumed)\n\nConference: April 19-22\, 2027\nLocation: Salt Lake City\, USA\n
+ Venue: Calvin L. Rampton Salt Palace Convention Center\n\nAll dates:\n  Pa
+ per and panel proposal submission: 24 Jul 2026\, 23:59 UTC+12 (assumed)\n 
+  Notification of acceptance: 1 Oct 2026\, 23:59 UTC+12 (assumed)\n\nThe ca
+ ll for papers states no timezone. This is counted as UTC+12\, the earliest
+  it could plausibly mean\, so the countdown runs out before the real deadl
+ ine rather than after it.\n\nPapers are limited to five pages\, and panel 
+ proposals to a 350-word description. At least one author per accepted pape
+ r must register for the paper to appear in IEEE Xplore.\n\nCall for papers
+ : https://pes-gridedge.org/\nDetails: https://langestefan.github.io/powers
+ ystem-deadlines/conference/pes-grid-edge27
+LOCATION:Salt Lake City\, USA
+URL;VALUE=URI:https://pes-gridedge.org/
+CATEGORIES:Smart Grid,Distribution,Energy Storage,EV & Transportation,Micro
+ grids
 STATUS:CONFIRMED
 SEQUENCE:0
 BEGIN:VALARM
