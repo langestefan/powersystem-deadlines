@@ -78,6 +78,18 @@ const verifiedDay = z
     typeof value === 'string' ? value : value.toISOString().slice(0, 10),
   );
 
+/**
+ * One correction or update to an edition after it was first published: what
+ * changed, and the day the entry was changed. This is what the /changelog page
+ * is built from. Git history holds the same facts, but not in words a submitter
+ * would read.
+ */
+const changeSchema = z.object({
+  date: dayString,
+  /** One sentence, old value and new: "Paper deadline extended from 14 to 21 August 2026." */
+  summary: z.string().min(1),
+});
+
 const editionSchema = z.object({
   year: z.number().int().min(2000).max(2100),
   /** Globally unique. Convention: lowercase series slug + two-digit year, e.g. pscc26. */
@@ -107,6 +119,8 @@ const editionSchema = z.object({
   /** Tags in addition to the series tags. */
   tags: z.array(z.enum(TAG_IDS)).optional(),
   note: z.string().optional(),
+  /** Changes made to this edition since it was added, feeding /changelog. */
+  changes: z.array(changeSchema).optional(),
   /** Set when an edition is confirmed cancelled; kept for the archive. */
   cancelled: z.boolean().default(false),
 });
@@ -129,6 +143,7 @@ const conferenceSchema = z.object({
 export type ConferenceSeriesData = ReturnType<typeof conferenceSchema.parse>;
 export type EditionData = ReturnType<typeof editionSchema.parse>;
 export type DeadlineData = ReturnType<typeof deadlineSchema.parse>;
+export type ChangeData = ReturnType<typeof changeSchema.parse>;
 
 const conferences = defineCollection({
   loader: glob({

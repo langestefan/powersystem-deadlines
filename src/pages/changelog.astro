@@ -1,0 +1,58 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { changelogDays, formatChangeDate } from '@/lib/changelog';
+import { getAllEditions } from '@/lib/conferences';
+import { REPO_URL, withBase } from '@/lib/site';
+
+const days = changelogDays(await getAllEditions());
+---
+
+<BaseLayout
+  path="/changelog"
+  title="Changelog"
+  description="Every change made to a conference's dates and details, and when it was made."
+>
+  <div class="max-w-3xl">
+    <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">Changelog</h1>
+    <p class="mt-2 text-muted-foreground">
+      What changed in a conference's dates or details after it was listed, and the day the entry
+      here was changed. Newly added conferences are not listed. Routine re-checks that found
+      nothing new are not either; the
+      <a class="text-primary underline underline-offset-4" href={`${REPO_URL}/commits/main/conferences`}>commit history</a>
+      has those.
+    </p>
+
+    {
+      days.length === 0 ? (
+        <p class="mt-8 rounded-lg border border-dashed p-8 text-center text-muted-foreground">
+          No changes recorded yet.
+        </p>
+      ) : (
+        <div class="mt-8 space-y-8">
+          {days.map((day) => (
+            <section>
+              <h2 class="mb-3 text-sm font-semibold tracking-wide uppercase opacity-70">
+                <time datetime={day.date.toISOString().slice(0, 10)}>
+                  {formatChangeDate(day.date)}
+                </time>
+              </h2>
+              <ul class="divide-y rounded-lg border bg-card shadow-sm">
+                {day.entries.map((entry) => (
+                  <li class="flex flex-col gap-x-4 gap-y-0.5 p-4 text-sm sm:flex-row">
+                    <a
+                      class="shrink-0 font-medium text-primary hover:underline sm:w-44"
+                      href={withBase(`/conference/${entry.edition.id}`)}
+                    >
+                      {entry.edition.name} {entry.edition.year}
+                    </a>
+                    <span class="min-w-0">{entry.summary}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ))}
+        </div>
+      )
+    }
+  </div>
+</BaseLayout>

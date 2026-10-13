@@ -69,6 +69,7 @@ editions:
 | `deadlines`       | no       | See below. An edition with none shows as "dates not announced"  |
 | `tags`            | no       | Extra tags on top of the series tags                            |
 | `note`            | no       | Anything a submitter should know                                |
+| `changes`         | no       | What changed after the edition was listed; see below            |
 | `cancelled`       | no       | `true` if the edition was called off                            |
 
 ### Deadlines
@@ -113,6 +114,22 @@ on its own. Validation warns when an entry is going stale:
 
 Editions whose deadlines and event have all passed are exempt. Staleness is a warning, not an
 error, so it never blocks an unrelated pull request.
+
+### Recording a change
+
+When you correct or update an edition that is already listed, add an entry under its `changes:`
+saying what changed, with the date you made the edit. The [changelog](https://langestefan.github.io/powersystem-deadlines/changelog/)
+page and the edition's own page are built from these.
+
+```yaml
+changes:
+  - date: 2026-10-13
+    summary: Paper deadline extended from 14 to 21 August 2026.
+```
+
+- One entry per change, one sentence each, naming the old value and the new one.
+- `date` is the day the entry here was edited, not the day the conference announced it.
+- Not needed for a newly added edition, or for a re-check that only bumps `verified:`.
 
 ### Timezones
 

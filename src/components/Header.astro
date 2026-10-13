@@ -14,6 +14,7 @@ const links = [
   { href: '/overview', label: 'Calendar' },
   { href: '/subscribe', label: 'Subscribe' },
   { href: '/past', label: 'Archive' },
+  { href: '/changelog', label: 'Changes' },
   { href: '/about', label: 'About' },
 ];
 
@@ -21,17 +22,16 @@ const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWit
 ---
 
 <!--
-  The brand, five links and the controls need about 690px, so they only share a
-  row once there is room: below `md` the nav wraps onto a row of its own
-  (`w-full` plus flex-wrap) and scrolls sideways if even that is not enough.
-  The Subscribe button waits for `lg`, because until then it is 110px spent
-  repeating the Subscribe link two centimetres to its left. Ordering keeps the
-  source in reading order while putting the controls at the right-hand end of
-  both layouts, so the list is written once rather than once per breakpoint.
+  The brand, six links and the controls need about 815px on one row, and 925px
+  once the Subscribe button joins them, so they only share a row from `lg`:
+  below it the nav wraps onto a row of its own (`w-full` plus flex-wrap) and
+  scrolls sideways if even that is not enough. Ordering keeps the source in
+  reading order while putting the controls at the right-hand end of both
+  layouts, so the list is written once rather than once per breakpoint.
 -->
 <header class="sticky top-0 z-40 border-b bg-background/85 backdrop-blur">
   <div
-    class="mx-auto flex max-w-6xl flex-wrap items-center gap-x-4 px-4 pt-3 pb-1.5 sm:px-6 md:flex-nowrap md:py-3"
+    class="mx-auto flex max-w-6xl flex-wrap items-center gap-x-4 px-4 pt-3 pb-1.5 sm:px-6 lg:flex-nowrap lg:py-3"
   >
     <a
       href={withBase('/')}
@@ -42,7 +42,7 @@ const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWit
     </a>
 
     <nav
-      class="order-3 -mx-4 flex w-full items-center gap-1 overflow-x-auto px-4 pt-1.5 text-sm [scrollbar-width:none] sm:-mx-6 sm:px-6 md:order-2 md:mx-0 md:ml-auto md:w-auto md:overflow-visible md:px-0 md:pt-0 [&::-webkit-scrollbar]:hidden"
+      class="order-3 -mx-4 flex w-full items-center gap-1 overflow-x-auto px-4 pt-1.5 text-sm [scrollbar-width:none] sm:-mx-6 sm:px-6 lg:order-2 lg:mx-0 lg:ml-auto lg:w-auto lg:overflow-visible lg:px-0 lg:pt-0 [&::-webkit-scrollbar]:hidden"
       aria-label="Main"
     >
       {
@@ -61,7 +61,7 @@ const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWit
       }
     </nav>
 
-    <div class="order-2 ml-auto flex items-center gap-1 md:order-3 md:ml-0">
+    <div class="order-2 ml-auto flex items-center gap-1 lg:order-3 lg:ml-0">
       <a
         href={withBase('/subscribe')}
         class="hidden items-center gap-1.5 rounded-md bg-primary px-3 py-1.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90 lg:inline-flex"

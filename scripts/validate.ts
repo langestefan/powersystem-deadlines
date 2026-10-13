@@ -139,6 +139,19 @@ for (const name of files) {
       }
     }
 
+    // --- changelog ---------------------------------------------------------
+    // The schema checks each entry's shape. What it cannot see is a change
+    // dated ahead of today, which would sit at the top of /changelog for
+    // something that has not happened yet.
+    for (const change of Array.isArray(edition.changes) ? edition.changes : []) {
+      const day = asDay(change?.date);
+      if (day && /^\d{4}-\d{2}-\d{2}$/.test(day)) {
+        if (new Date(`${day}T00:00:00Z`).getTime() > NOW.getTime()) {
+          report(file, where, 'error', `A \`changes:\` entry is dated ${day}, in the future.`);
+        }
+      }
+    }
+
     // --- id / year agreement ---------------------------------------------
     const idYear = yearFromId(id);
     if (idYear !== null && typeof edition.year === 'number' && idYear !== edition.year) {
