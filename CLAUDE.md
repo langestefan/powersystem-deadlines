@@ -71,7 +71,7 @@ Layer boundaries that exist on purpose, and should stay:
   `scripts/validate.ts` and the pages share one definition of "stale".
 
 - **`changelog.ts`** gathers every edition's `changes:` (date, field, old value, new value) into
-  the newest-first rows behind the `/changelog` table. Pure, like `edition.ts`. The entries are
+  the newest-first cards on `/changelog`, one per edition per day. Pure, like `edition.ts`. The entries are
   recorded in the YAML, not derived from git, because CI checks out shallow.
 
 `submissionStatus()` in `edition.ts` decides the homepage bucket. `closed` (every dated deadline

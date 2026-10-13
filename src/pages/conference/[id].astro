@@ -137,7 +137,7 @@ const submissionLabels: Record<string, string> = {
         edition.changes.length > 0 && (
           <section class="rounded-lg border bg-card p-4 shadow-sm">
             <h2 class="mb-3 text-sm font-semibold tracking-wide uppercase opacity-70">Changes</h2>
-            <ChangelogTable entries={editionChangelog(edition)} />
+            <ChangelogTable entries={editionChangelog(edition)} showDate />
           </section>
         )
       }

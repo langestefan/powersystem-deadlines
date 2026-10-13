@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import { changelogEntries, editionChangelog, formatChangeDate } from '@/lib/changelog';
+import { changelogEntries, changelogGroups, editionChangelog, formatChangeDate } from '@/lib/changelog';
 import { flattenEdition, type ConferenceEdition } from '@/lib/edition';
 
 /**
@@ -117,6 +117,53 @@ describe('changelogEntries', () => {
 
   it('is empty when nothing has been recorded', () => {
     expect(changelogEntries([edition('AAA', 2027)])).toEqual([]);
+  });
+});
+
+describe('changelogGroups', () => {
+  it('gathers one edition\'s changes on one day into a single group', () => {
+    const groups = changelogGroups([
+      edition('AAA', 2027, [
+        { date: '2026-10-13', field: 'city', new: 'Rome' },
+        { date: '2026-10-13', field: 'venue', new: 'Hotel' },
+      ]),
+    ]);
+    expect(groups).toHaveLength(1);
+    expect(fields(groups[0]!.entries)).toEqual(['city', 'venue']);
+    expect(groups[0]!.edition.id).toBe('aaa27');
+    expect(groups[0]!.date).toEqual(new Date('2026-10-13T00:00:00Z'));
+  });
+
+  it('keeps the same edition on different days apart, newest first', () => {
+    const groups = changelogGroups([
+      edition('AAA', 2027, [
+        { date: '2026-09-01', field: 'paper', new: 'x' },
+        { date: '2026-10-13', field: 'venue', new: 'x' },
+      ]),
+    ]);
+    expect(groups.map((group) => fields(group.entries))).toEqual([['venue'], ['paper']]);
+  });
+
+  it('keeps different editions on the same day apart', () => {
+    const groups = changelogGroups([
+      edition('BBB', 2027, [{ date: '2026-10-13', field: 'b', new: 'x' }]),
+      edition('AAA', 2027, [{ date: '2026-10-13', field: 'a', new: 'x' }]),
+      edition('AAA', 2028, [{ date: '2026-10-13', field: 'a28', new: 'x' }]),
+    ]);
+    expect(groups.map((group) => group.edition.id)).toEqual(['aaa27', 'aaa28', 'bbb27']);
+  });
+
+  it('loses no change to the grouping', () => {
+    const editions = [
+      edition('AAA', 2027, [
+        { date: '2026-10-13', field: 'one', new: 'x' },
+        { date: '2026-09-01', field: 'two', new: 'x' },
+        { date: '2026-10-13', field: 'three', new: 'x' },
+      ]),
+      edition('BBB', 2027, [{ date: '2026-10-13', field: 'four', new: 'x' }]),
+    ];
+    const total = changelogGroups(editions).reduce((sum, group) => sum + group.entries.length, 0);
+    expect(total).toBe(4);
   });
 });
 

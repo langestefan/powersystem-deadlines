@@ -1,10 +1,11 @@
 ---
 import ChangelogTable from '@/components/ChangelogTable.astro';
 import BaseLayout from '@/layouts/BaseLayout.astro';
-import { changelogEntries } from '@/lib/changelog';
+import { changelogGroups, formatChangeDate } from '@/lib/changelog';
 import { getAllEditions } from '@/lib/conferences';
+import { withBase } from '@/lib/site';
 
-const entries = changelogEntries(await getAllEditions());
+const groups = changelogGroups(await getAllEditions());
 ---
 
 <BaseLayout
@@ -13,15 +14,40 @@ const entries = changelogEntries(await getAllEditions());
   description="Every change made to a conference's dates and details, and when it was made."
 >
   <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">Changelog</h1>
+  <p class="mt-2 text-muted-foreground">
+    Any changes in a conference's dates or details are listed here.
+  </p>
 
   {
-    entries.length === 0 ? (
+    groups.length === 0 ? (
       <p class="mt-8 rounded-lg border border-dashed p-8 text-center text-muted-foreground">
         No changes recorded yet.
       </p>
     ) : (
-      <div class="mt-6 rounded-lg border bg-card px-4 py-2 shadow-sm">
-        <ChangelogTable entries={entries} showConference />
+      <div class="mt-6 space-y-3">
+        {groups.map((group) => (
+          <article class="rounded-lg border bg-card p-4 shadow-sm transition-shadow hover:shadow-md">
+            <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+              <h2 class="text-lg leading-tight font-semibold">
+                <a
+                  href={withBase(`/conference/${group.edition.id}`)}
+                  class="hover:text-primary hover:underline"
+                >
+                  {group.edition.name} {group.edition.year}
+                </a>
+              </h2>
+              <p class="text-sm text-muted-foreground">
+                Changed{' '}
+                <time datetime={group.date.toISOString().slice(0, 10)}>
+                  {formatChangeDate(group.date)}
+                </time>
+              </p>
+            </div>
+            <div class="mt-2">
+              <ChangelogTable entries={group.entries} />
+            </div>
+          </article>
+        ))}
       </div>
     )
   }
