@@ -20,10 +20,10 @@ editions:
     city: Doha
     country: Qatar
     date: October 18-21, 2026
-    verified: 2026-08-26
+    verified: 2026-10-13
     start: 2026-10-18
     end: 2026-10-21
-    format: in-person
+    format: hybrid
     proceedings: IEEE Xplore
     submission_type: full-paper
     deadlines:
@@ -35,6 +35,7 @@ editions:
         date: '2026-08-10 23:59:59'
       - type: camera_ready
         label: Final submission and registration
-        date: '2026-08-30 23:59:59'
+        date: '2026-09-20 23:59:59'
     note: >-
-      52nd annual conference of the IES.
+      52nd annual conference of the IES, held in Doha with online participation
+      and presentation also offered.
