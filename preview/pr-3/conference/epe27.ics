@@ -13,7 +13,7 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/previe
  w/pr-3/conference/epe27.ics
 BEGIN:VEVENT
 UID:epe27-event@langestefan.github.io
-DTSTAMP:20261013T135914Z
+DTSTAMP:20261013T141411Z
 DTSTART;VALUE=DATE:20270830
 DTEND;VALUE=DATE:20270904
 TRANSP:TRANSPARENT
@@ -22,9 +22,9 @@ DESCRIPTION:European Conference on Power Electronics and Applications (EPE
  ECCE Europe 2027)\n\nConference: August 30 - September 3\, 2027\nLocation:
   Aachen\, Germany\nVenue: Eurogress Aachen\n\nNot yet announced: Paper sub
  mission\n\nChaired by RWTH Aachen. The call for papers had not been publis
- hed when this entry was added.\n\nCall for papers: https://www.ecce-europe
- .org/\nDetails: https://langestefan.github.io/powersystem-deadlines/previe
- w/pr-3/conference/epe27
+ hed as of 13 October 2026.\n\nCall for papers: https://www.ecce-europe.org
+ /\nDetails: https://langestefan.github.io/powersystem-deadlines/preview/pr
+ -3/conference/epe27
 LOCATION:Eurogress Aachen\, Aachen\, Germany
 URL;VALUE=URI:https://www.ecce-europe.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
