@@ -11,6 +11,8 @@ import { getAllEditions, locationLabel, type ConferenceEdition } from '@/lib/con
 import { conferenceFeedPath, feedUrl, googleSubscribeUrl, webcalUrl } from '@/lib/feeds';
 import { withBase } from '@/lib/site';
 import { getTag, tagLabel } from '@/lib/taxonomy';
+import ChangelogTable from '@/components/ChangelogTable.astro';
+import { editionChangelog } from '@/lib/changelog';
 import { describeAge, editionVerification } from '@/lib/verification';
 
 export const getStaticPaths: GetStaticPaths = async () => {
@@ -127,6 +129,15 @@ const submissionLabels: Record<string, string> = {
           <section class="rounded-lg border border-dashed p-4 text-sm">
             <h2 class="mb-1.5 font-semibold">Notes</h2>
             <p class="text-muted-foreground">{edition.note}</p>
+          </section>
+        )
+      }
+
+      {
+        edition.changes.length > 0 && (
+          <section class="rounded-lg border bg-card p-4 shadow-sm">
+            <h2 class="mb-3 text-sm font-semibold tracking-wide uppercase opacity-70">Changes</h2>
+            <ChangelogTable entries={editionChangelog(edition)} showDate />
           </section>
         )
       }

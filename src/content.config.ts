@@ -78,6 +78,35 @@ const verifiedDay = z
     typeof value === 'string' ? value : value.toISOString().slice(0, 10),
   );
 
+/**
+ * A value as it stood before or after a change. YAML reads a bare 2026-08-30
+ * as a Date and a bare 6 as a number, so both are accepted and normalised to
+ * the string the changelog prints.
+ */
+const changeValue = z
+  .union([z.string().min(1), z.number(), z.date()])
+  .transform((value) =>
+    value instanceof Date ? value.toISOString().slice(0, 10) : String(value),
+  );
+
+/**
+ * One changed field of an edition after it was first published: which field,
+ * its old and new value, and the day the entry was changed. This is what the
+ * /changelog table is built from. `old` is left out when a value was added,
+ * `new` when one was removed.
+ */
+const changeSchema = z
+  .object({
+    date: dayString,
+    /** The YAML field, or the deadline's `type` for a deadline: "venue", "camera_ready". */
+    field: z.string().min(1),
+    old: changeValue.optional(),
+    new: changeValue.optional(),
+  })
+  .refine((change) => change.old !== undefined || change.new !== undefined, {
+    error: 'A change needs an `old` value, a `new` value, or both.',
+  });
+
 const editionSchema = z.object({
   year: z.number().int().min(2000).max(2100),
   /** Globally unique. Convention: lowercase series slug + two-digit year, e.g. pscc26. */
@@ -107,6 +136,8 @@ const editionSchema = z.object({
   /** Tags in addition to the series tags. */
   tags: z.array(z.enum(TAG_IDS)).optional(),
   note: z.string().optional(),
+  /** Changes made to this edition since it was added, feeding /changelog. */
+  changes: z.array(changeSchema).optional(),
   /** Set when an edition is confirmed cancelled; kept for the archive. */
   cancelled: z.boolean().default(false),
 });
@@ -129,6 +160,7 @@ const conferenceSchema = z.object({
 export type ConferenceSeriesData = ReturnType<typeof conferenceSchema.parse>;
 export type EditionData = ReturnType<typeof editionSchema.parse>;
 export type DeadlineData = ReturnType<typeof deadlineSchema.parse>;
+export type ChangeData = ReturnType<typeof changeSchema.parse>;
 
 const conferences = defineCollection({
   loader: glob({

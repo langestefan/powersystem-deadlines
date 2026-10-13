@@ -1,0 +1,44 @@
+---
+import { formatChangeDate, type ChangelogEntry } from '@/lib/changelog';
+
+interface Props {
+  entries: ChangelogEntry[];
+  /** Off inside a changelog card, whose heading already carries the date. */
+  showDate?: boolean;
+}
+
+const { entries, showDate = false } = Astro.props;
+---
+
+<!-- Long values do not fit a phone, so the table scrolls inside its own box
+     rather than widening the page. -->
+<div class="overflow-x-auto">
+  <table class="w-full text-left text-sm">
+    <thead class="text-xs tracking-wide text-muted-foreground uppercase">
+      <tr class="border-b">
+        {showDate && <th scope="col" class="py-2 pr-4 font-semibold whitespace-nowrap">Date changed</th>}
+        <th scope="col" class="py-2 pr-4 font-semibold">Field</th>
+        <th scope="col" class="py-2 pr-4 font-semibold whitespace-nowrap">Old value</th>
+        <th scope="col" class="py-2 font-semibold whitespace-nowrap">New value</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y">
+      {
+        entries.map((entry) => (
+          <tr class="align-top">
+            {showDate && (
+              <td class="py-2 pr-4 whitespace-nowrap">
+                <time datetime={entry.date.toISOString().slice(0, 10)}>
+                  {formatChangeDate(entry.date)}
+                </time>
+              </td>
+            )}
+            <td class="w-36 py-2 pr-4 font-mono text-xs leading-5 whitespace-nowrap">{entry.field}</td>
+            <td class="w-2/5 min-w-28 py-2 pr-4 text-muted-foreground">{entry.old ?? '—'}</td>
+            <td class="min-w-28 py-2">{entry.new ?? '—'}</td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</div>

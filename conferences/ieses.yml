@@ -1,0 +1,49 @@
+name: IESES
+full_name: IEEE International Conference on Industrial Electronics for Sustainable Energy Systems
+link: https://www.ieee-ies.org/conferences
+society:
+  - IEEE IES
+frequency: biennial
+tags:
+  - power-electronics
+  - smart-grid
+  - renewables
+  - energy-storage
+  - microgrids
+description: >-
+  An IEEE Industrial Electronics Society conference on sustainable energy
+  technologies, from power electronics and storage to smart grids, microgrids
+  and transportation electrification.
+
+editions:
+  - year: 2027
+    id: ieses27
+    link: https://ieses2027.ieee-ies.org/
+    city: Guimarães
+    country: Portugal
+    venue: Hotel Guimarães
+    date: July 21-23, 2027
+    verified: 2026-10-13
+    start: 2027-07-21
+    end: 2027-07-23
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    deadlines:
+      - type: paper
+        label: Paper submission
+        date: '2027-01-31 23:59:59'
+      - type: notification
+        label: Paper notification
+        date: '2027-05-01 23:59:59'
+      - type: camera_ready
+        label: Camera-ready
+        date: '2027-07-01 23:59:59'
+      - type: early_registration
+        label: Early registration
+        date: '2027-07-01 23:59:59'
+    note: >-
+      5th edition of the conference. Papers are limited to 6 pages. The conference
+      website lists final paper submission and author registration on 1 July
+      2027, which is shown here; the call for papers flyer gives 1 June 2027 for
+      camera-ready and early registration.

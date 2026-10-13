@@ -103,3 +103,13 @@ editions:
 
     # Optional free text: anything a submitter should know.
     note: Accepted papers are considered for a journal special issue.
+
+    # Leave out for a new edition. When you later correct or update one, add an
+    # entry per changed field: the date of your edit, the field (a deadline's
+    # `type` for a deadline), and its old and new value. Omit `old` for a value
+    # that was added. The site's changelog table is built from these.
+    # changes:
+    #   - date: 2026-10-13
+    #     field: paper
+    #     old: '2026-12-01'
+    #     new: '2026-12-15'

@@ -20,7 +20,7 @@ editions:
     city: Budapest
     country: Hungary
     date: October 19-22, 2026
-    verified: 2026-08-26
+    verified: 2026-10-13
     start: 2026-10-19
     end: 2026-10-22
     format: in-person
@@ -30,8 +30,15 @@ editions:
       - type: paper
         label: Paper submission
         date: '2026-04-15 23:59:59'
+      - type: notification
+        label: Notification of decision
+        date: '2026-06-15 23:59:59'
       - type: camera_ready
         label: Final paper submission
         date: '2026-09-15 23:59:59'
     note: >-
-      Final paper submission opened 15 August 2026.
+      Final paper submission opened 3 August 2026.
+    changes:
+      - date: 2026-10-13
+        field: notification
+        new: '2026-06-15'

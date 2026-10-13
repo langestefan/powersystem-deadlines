@@ -70,6 +70,10 @@ Layer boundaries that exist on purpose, and should stay:
   date, and this module decides when that check has aged enough to warn about. Pure, so both
   `scripts/validate.ts` and the pages share one definition of "stale".
 
+- **`changelog.ts`** gathers every edition's `changes:` (date, field, old value, new value) into
+  the newest-first cards on `/changelog`, one per edition per day. Pure, like `edition.ts`. The entries are
+  recorded in the YAML, not derived from git, because CI checks out shallow.
+
 `submissionStatus()` in `edition.ts` decides the homepage bucket. `closed` (every dated deadline
 has passed) and `unannounced` (TBA, or nothing listed) are deliberately separate states: they are
 opposite situations and reading one as the other is what a single "dates not announced" bucket did.
@@ -120,7 +124,7 @@ Every page must survive a 375px viewport with no horizontal scroll, which is che
 `documentElement.scrollWidth` against `clientWidth`, not by eye. Two rules earn their keep: a grid
 or flex child holding something wide needs `min-w-0` or it grows the page instead of scrolling
 inside its own `overflow-x-auto`, and the header nav only shares a row with the brand and controls
-from `md` up, because the five links plus everything else need about 690px.
+from `lg` up, because the six links plus everything else need about 815px.
 
 Cards, tables, countdowns and the year calendar are server-rendered HTML. Interactivity is added on
 top of that DOM, never by re-rendering it:
@@ -146,7 +150,7 @@ why `deploy.yml` also rebuilds on a daily cron.
 
 `tests/*.test.ts` mirrors `src/lib/*` one file per module, and covers exactly the modules that keep
 away from `astro:content`: `time`, `ics`, `calendar`, `overview`, `feeds`, `verification`,
-`addToCalendar`. `tests/ics.test.ts` asserts RFC 5545 details (75-octet folding, escaping order,
+`addToCalendar`, `changelog`. `tests/ics.test.ts` asserts RFC 5545 details (75-octet folding, escaping order,
 CRLF) that are easy to regress invisibly, since a malformed feed still looks fine on the page.
 
 ## Working with conference data
@@ -168,6 +172,9 @@ CRLF) that are easy to regress invisibly, since a malformed feed still looks fin
   editing a date moves an existing calendar entry instead of creating a duplicate. Anything that
   changes UID composition is a breaking change for subscribers.
 - Every date must come from the official call for papers; `CONTRIBUTING.md` is the field reference.
+- When an existing edition's data changes, add an entry per changed field to its `changes:`
+  (`date` of the edit, `field`, `old`, `new`; a deadline's `type` is its field name). `/changelog`
+  and the edition page show them as a table. A new edition or a bare `verified:` bump needs none.
 - `verified:` records when a human last checked an edition against its CFP. Bump it on every
   re-check, including one that finds nothing changed — "still correct on this date" is the whole
   point, and it is the one thing the data cannot show on its own.

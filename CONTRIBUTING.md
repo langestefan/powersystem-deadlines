@@ -69,6 +69,7 @@ editions:
 | `deadlines`       | no       | See below. An edition with none shows as "dates not announced"  |
 | `tags`            | no       | Extra tags on top of the series tags                            |
 | `note`            | no       | Anything a submitter should know                                |
+| `changes`         | no       | What changed after the edition was listed; see below            |
 | `cancelled`       | no       | `true` if the edition was called off                            |
 
 ### Deadlines
@@ -113,6 +114,30 @@ on its own. Validation warns when an entry is going stale:
 
 Editions whose deadlines and event have all passed are exempt. Staleness is a warning, not an
 error, so it never blocks an unrelated pull request.
+
+### Recording a change
+
+When you correct or update an edition that is already listed, add an entry under its `changes:`
+for each field you changed. The [changelog](https://langestefan.github.io/powersystem-deadlines/changelog/)
+table and the edition's own page are built from these.
+
+```yaml
+changes:
+  - date: 2026-10-13
+    field: paper
+    old: '2026-08-14'
+    new: '2026-08-21'
+  - date: 2026-10-13
+    field: venue
+    new: Ergife Palace Hotel Roma
+```
+
+- `date` is the day the entry here was edited, not the day the conference announced it.
+- `field` is the YAML field that changed (`venue`, `format`, `date`). For a deadline, use its
+  `type` (`paper`, `camera_ready`).
+- `old` and `new` are the values before and after. Leave `old` out when the value was added, and
+  `new` out when it was removed.
+- Not needed for a newly added edition, or for a re-check that only bumps `verified:`.
 
 ### Timezones
 

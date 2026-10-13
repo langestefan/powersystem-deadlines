@@ -39,7 +39,7 @@ editions:
     country: Germany
     venue: Eurogress Aachen
     date: August 30 - September 3, 2027
-    verified: 2026-08-26
+    verified: 2026-10-13
     start: 2027-08-30
     end: 2027-09-03
     format: in-person
@@ -49,5 +49,5 @@ editions:
         label: Paper submission
         date: 'TBA'
     note: >-
-      Chaired by RWTH Aachen. The call for papers had not been published when
-      this entry was added.
+      Chaired by RWTH Aachen. The call for papers had not been published as of
+      13 October 2026.

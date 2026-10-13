@@ -38,6 +38,17 @@ export interface ResolvedDeadline {
   link?: string;
 }
 
+/** One changed field of an edition, as shown in the /changelog table. */
+export interface EditionChange {
+  /** The day the entry was changed, at UTC midnight. */
+  date: Date;
+  field: string;
+  /** Undefined when the value was added rather than replaced. */
+  old?: string;
+  /** Undefined when the value was removed. */
+  new?: string;
+}
+
 export interface ConferenceEdition {
   /** Unique across the whole site; used in URLs and ICS UIDs. */
   id: string;
@@ -65,6 +76,8 @@ export interface ConferenceEdition {
   proceedings?: string;
   submissionType?: EditionData['submission_type'];
   note?: string;
+  /** Changes made since the edition was added, newest first. */
+  changes: EditionChange[];
   cancelled: boolean;
   deadlines: ResolvedDeadline[];
   /** Soonest future deadline of a submission kind, driving the headline countdown. */
@@ -119,6 +132,10 @@ export function flattenEdition(
   const nextDeadline = future.find((d) => SUBMISSION_DEADLINE_TYPES.has(d.type)) ?? null;
   const nextAnyDeadline = future[0] ?? null;
 
+  const changes = (edition.changes ?? [])
+    .map((change) => ({ ...change, date: new Date(`${change.date}T00:00:00Z`) }))
+    .sort((a, b) => b.date.getTime() - a.date.getTime());
+
   const end = parseDay(edition.end);
   const start = parseDay(edition.start);
 
@@ -145,6 +162,7 @@ export function flattenEdition(
     proceedings: edition.proceedings,
     submissionType: edition.submission_type,
     note: edition.note,
+    changes,
     cancelled: edition.cancelled,
     deadlines,
     nextDeadline,
