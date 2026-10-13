@@ -42,6 +42,6 @@ editions:
       mid-October 2026, without a stated date.
     changes:
       - date: 2026-10-13
-        summary: >-
-          Notification of acceptance changed from 1 October 2026 to TBA; the call
-          only says mid-October 2026.
+        field: notification
+        old: '2026-10-01'
+        new: TBA

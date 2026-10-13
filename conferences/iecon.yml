@@ -41,9 +41,10 @@ editions:
       and presentation also offered.
     changes:
       - date: 2026-10-13
-        summary: >-
-          Final submission and registration corrected from 30 August to 20 September
-          2026.
+        field: camera_ready
+        old: '2026-08-30'
+        new: '2026-09-20'
       - date: 2026-10-13
-        summary: >-
-          Format changed from in-person to hybrid.
+        field: format
+        old: in-person
+        new: hybrid

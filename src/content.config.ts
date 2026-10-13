@@ -79,16 +79,33 @@ const verifiedDay = z
   );
 
 /**
- * One correction or update to an edition after it was first published: what
- * changed, and the day the entry was changed. This is what the /changelog page
- * is built from. Git history holds the same facts, but not in words a submitter
- * would read.
+ * A value as it stood before or after a change. YAML reads a bare 2026-08-30
+ * as a Date and a bare 6 as a number, so both are accepted and normalised to
+ * the string the changelog prints.
  */
-const changeSchema = z.object({
-  date: dayString,
-  /** One sentence, old value and new: "Paper deadline extended from 14 to 21 August 2026." */
-  summary: z.string().min(1),
-});
+const changeValue = z
+  .union([z.string().min(1), z.number(), z.date()])
+  .transform((value) =>
+    value instanceof Date ? value.toISOString().slice(0, 10) : String(value),
+  );
+
+/**
+ * One changed field of an edition after it was first published: which field,
+ * its old and new value, and the day the entry was changed. This is what the
+ * /changelog table is built from. `old` is left out when a value was added,
+ * `new` when one was removed.
+ */
+const changeSchema = z
+  .object({
+    date: dayString,
+    /** The YAML field, or the deadline's `type` for a deadline: "venue", "camera_ready". */
+    field: z.string().min(1),
+    old: changeValue.optional(),
+    new: changeValue.optional(),
+  })
+  .refine((change) => change.old !== undefined || change.new !== undefined, {
+    error: 'A change needs an `old` value, a `new` value, or both.',
+  });
 
 const editionSchema = z.object({
   year: z.number().int().min(2000).max(2100),

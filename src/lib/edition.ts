@@ -38,11 +38,15 @@ export interface ResolvedDeadline {
   link?: string;
 }
 
-/** A recorded change to an edition's data, as shown on /changelog. */
+/** One changed field of an edition, as shown in the /changelog table. */
 export interface EditionChange {
   /** The day the entry was changed, at UTC midnight. */
   date: Date;
-  summary: string;
+  field: string;
+  /** Undefined when the value was added rather than replaced. */
+  old?: string;
+  /** Undefined when the value was removed. */
+  new?: string;
 }
 
 export interface ConferenceEdition {
@@ -129,7 +133,7 @@ export function flattenEdition(
   const nextAnyDeadline = future[0] ?? null;
 
   const changes = (edition.changes ?? [])
-    .map((change) => ({ date: new Date(`${change.date}T00:00:00Z`), summary: change.summary }))
+    .map((change) => ({ ...change, date: new Date(`${change.date}T00:00:00Z`) }))
     .sort((a, b) => b.date.getTime() - a.date.getTime());
 
   const end = parseDay(edition.end);

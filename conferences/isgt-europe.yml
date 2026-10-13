@@ -40,5 +40,5 @@ editions:
       Final paper submission opened 3 August 2026.
     changes:
       - date: 2026-10-13
-        summary: >-
-          Notification of decision added: 15 June 2026.
+        field: notification
+        new: '2026-06-15'

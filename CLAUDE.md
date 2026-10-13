@@ -70,9 +70,9 @@ Layer boundaries that exist on purpose, and should stay:
   date, and this module decides when that check has aged enough to warn about. Pure, so both
   `scripts/validate.ts` and the pages share one definition of "stale".
 
-- **`changelog.ts`** gathers every edition's `changes:` into the newest-first, day-by-day list
-  behind `/changelog`. Pure, like `edition.ts`. The changelog is hand-written data, not derived
-  from git: CI checks out shallow, and a diff cannot say "extended" where a person can.
+- **`changelog.ts`** gathers every edition's `changes:` (date, field, old value, new value) into
+  the newest-first rows behind the `/changelog` table. Pure, like `edition.ts`. The entries are
+  recorded in the YAML, not derived from git, because CI checks out shallow.
 
 `submissionStatus()` in `edition.ts` decides the homepage bucket. `closed` (every dated deadline
 has passed) and `unannounced` (TBA, or nothing listed) are deliberately separate states: they are
@@ -172,9 +172,9 @@ CRLF) that are easy to regress invisibly, since a malformed feed still looks fin
   editing a date moves an existing calendar entry instead of creating a duplicate. Anything that
   changes UID composition is a breaking change for subscribers.
 - Every date must come from the official call for papers; `CONTRIBUTING.md` is the field reference.
-- When an existing edition's data changes, add an entry to its `changes:` (date of the edit plus
-  one sentence naming the old and new value). `/changelog` and the edition page show them. A new
-  edition or a bare `verified:` bump needs none.
+- When an existing edition's data changes, add an entry per changed field to its `changes:`
+  (`date` of the edit, `field`, `old`, `new`; a deadline's `type` is its field name). `/changelog`
+  and the edition page show them as a table. A new edition or a bare `verified:` bump needs none.
 - `verified:` records when a human last checked an edition against its CFP. Bump it on every
   re-check, including one that finds nothing changed — "still correct on this date" is the whole
   point, and it is the one thing the data cannot show on its own.

@@ -43,5 +43,5 @@ editions:
       The paper deadline was extended from 15 April to 3 May 2026.
     changes:
       - date: 2026-10-13
-        summary: >-
-          Camera-ready deadline added: 31 July 2026.
+        field: camera_ready
+        new: '2026-07-31'

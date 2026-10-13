@@ -105,8 +105,11 @@ editions:
     note: Accepted papers are considered for a journal special issue.
 
     # Leave out for a new edition. When you later correct or update one, add an
-    # entry per change: the date of your edit and one sentence naming the old
-    # value and the new one. The site's changelog page is built from these.
+    # entry per changed field: the date of your edit, the field (a deadline's
+    # `type` for a deadline), and its old and new value. Omit `old` for a value
+    # that was added. The site's changelog table is built from these.
     # changes:
     #   - date: 2026-10-13
-    #     summary: Paper deadline extended from 1 to 15 December 2026.
+    #     field: paper
+    #     old: '2026-12-01'
+    #     new: '2026-12-15'
