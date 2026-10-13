@@ -13,7 +13,7 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/previe
  w/pr-3/conference/epe27.ics
 BEGIN:VEVENT
 UID:epe27-event@langestefan.github.io
-DTSTAMP:20261013T143237Z
+DTSTAMP:20261013T143542Z
 DTSTART;VALUE=DATE:20270830
 DTEND;VALUE=DATE:20270904
 TRANSP:TRANSPARENT
