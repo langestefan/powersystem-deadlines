@@ -12,7 +12,7 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/previe
  w/pr-3/calendar/energy-storage.ics
 BEGIN:VEVENT
 UID:pcim-europe27-abstract@langestefan.github.io
-DTSTAMP:20261013T144653Z
+DTSTAMP:20261013T153308Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 TRANSP:TRANSPARENT
@@ -50,7 +50,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pcim-europe27-camera_ready@langestefan.github.io
-DTSTAMP:20261013T144653Z
+DTSTAMP:20261013T153308Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 TRANSP:TRANSPARENT
@@ -89,7 +89,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-abstract@langestefan.github.io
-DTSTAMP:20261013T144653Z
+DTSTAMP:20261013T153308Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 TRANSP:TRANSPARENT
@@ -127,7 +127,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-notification@langestefan.github.io
-DTSTAMP:20261013T144653Z
+DTSTAMP:20261013T153308Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 TRANSP:TRANSPARENT
@@ -164,7 +164,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-camera_ready@langestefan.github.io
-DTSTAMP:20261013T144653Z
+DTSTAMP:20261013T153308Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 TRANSP:TRANSPARENT
@@ -202,7 +202,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-paper@langestefan.github.io
-DTSTAMP:20261013T144653Z
+DTSTAMP:20261013T153308Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 TRANSP:TRANSPARENT
@@ -212,17 +212,16 @@ DESCRIPTION:IEEE International Conference on Industrial Electronics for Sus
  :59 UTC+12 (assumed)\n\nConference: July 21-23\, 2027\nLocation: Guimarãe
  s\, Portugal\nVenue: Hotel Guimarães\n\nAll dates:\n  Paper submission: 3
  1 Jan 2027\, 23:59 UTC+12 (assumed)\n  Paper notification: 1 May 2027\, 23
- :59 UTC+12 (assumed)\n  Camera-ready: 1 Jun 2027\, 23:59 UTC+12 (assumed)\
- n  Early registration: 1 Jun 2027\, 23:59 UTC+12 (assumed)\n\nThe call for
+ :59 UTC+12 (assumed)\n  Camera-ready: 1 Jul 2027\, 23:59 UTC+12 (assumed)\
+ n  Early registration: 1 Jul 2027\, 23:59 UTC+12 (assumed)\n\nThe call for
   papers states no timezone. This is counted as UTC+12\, the earliest it co
  uld plausibly mean\, so the countdown runs out before the real deadline ra
  ther than after it.\n\n5th edition of the conference. Papers are limited t
- o 6 pages. The call for papers flyer gives 1 June 2027 for camera-ready an
- d early registration\, while the conference website lists final paper subm
- ission and author registration on 1 July 2027\; the earlier date is shown 
- here.\n\nCall for papers: https://ieses2027.ieee-ies.org/\nDetails: https:
- //langestefan.github.io/powersystem-deadlines/preview/pr-3/conference/iese
- s27
+ o 6 pages. The conference website lists final paper submission and author 
+ registration on 1 July 2027\, which is shown here\; the call for papers fl
+ yer gives 1 June 2027 for camera-ready and early registration.\n\nCall for
+  papers: https://ieses2027.ieee-ies.org/\nDetails: https://langestefan.git
+ hub.io/powersystem-deadlines/preview/pr-3/conference/ieses27
 LOCATION:Guimarães\, Portugal
 URL;VALUE=URI:https://ieses2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Smart Grid,Renewables,Energy Storage,Microgrid
@@ -242,7 +241,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-notification@langestefan.github.io
-DTSTAMP:20261013T144653Z
+DTSTAMP:20261013T153308Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 TRANSP:TRANSPARENT
@@ -252,17 +251,16 @@ DESCRIPTION:IEEE International Conference on Industrial Electronics for Sus
  3:59 UTC+12 (assumed)\n\nConference: July 21-23\, 2027\nLocation: Guimarã
  es\, Portugal\nVenue: Hotel Guimarães\n\nAll dates:\n  Paper submission: 
  31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Paper notification: 1 May 2027\, 2
- 3:59 UTC+12 (assumed)\n  Camera-ready: 1 Jun 2027\, 23:59 UTC+12 (assumed)
- \n  Early registration: 1 Jun 2027\, 23:59 UTC+12 (assumed)\n\nThe call fo
+ 3:59 UTC+12 (assumed)\n  Camera-ready: 1 Jul 2027\, 23:59 UTC+12 (assumed)
+ \n  Early registration: 1 Jul 2027\, 23:59 UTC+12 (assumed)\n\nThe call fo
  r papers states no timezone. This is counted as UTC+12\, the earliest it c
  ould plausibly mean\, so the countdown runs out before the real deadline r
  ather than after it.\n\n5th edition of the conference. Papers are limited 
- to 6 pages. The call for papers flyer gives 1 June 2027 for camera-ready a
- nd early registration\, while the conference website lists final paper sub
- mission and author registration on 1 July 2027\; the earlier date is shown
-  here.\n\nCall for papers: https://ieses2027.ieee-ies.org/\nDetails: https
- ://langestefan.github.io/powersystem-deadlines/preview/pr-3/conference/ies
- es27
+ to 6 pages. The conference website lists final paper submission and author
+  registration on 1 July 2027\, which is shown here\; the call for papers f
+ lyer gives 1 June 2027 for camera-ready and early registration.\n\nCall fo
+ r papers: https://ieses2027.ieee-ies.org/\nDetails: https://langestefan.gi
+ thub.io/powersystem-deadlines/preview/pr-3/conference/ieses27
 LOCATION:Guimarães\, Portugal
 URL;VALUE=URI:https://ieses2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Smart Grid,Renewables,Energy Storage,Microgrid
@@ -282,26 +280,26 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-camera_ready@langestefan.github.io
-DTSTAMP:20261013T144653Z
-DTSTART;VALUE=DATE:20270601
-DTEND;VALUE=DATE:20270602
+DTSTAMP:20261013T153308Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
 TRANSP:TRANSPARENT
 SUMMARY:IESES 2027: Camera-ready (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE International Conference on Industrial Electronics for Sus
- tainable Energy Systems (IESES 2027)\n\nCamera-ready: 1 Jun 2027\, 23:59 U
+ tainable Energy Systems (IESES 2027)\n\nCamera-ready: 1 Jul 2027\, 23:59 U
  TC+12 (assumed)\n\nConference: July 21-23\, 2027\nLocation: Guimarães\, P
  ortugal\nVenue: Hotel Guimarães\n\nAll dates:\n  Paper submission: 31 Jan
   2027\, 23:59 UTC+12 (assumed)\n  Paper notification: 1 May 2027\, 23:59 U
- TC+12 (assumed)\n  Camera-ready: 1 Jun 2027\, 23:59 UTC+12 (assumed)\n  Ea
- rly registration: 1 Jun 2027\, 23:59 UTC+12 (assumed)\n\nThe call for pape
+ TC+12 (assumed)\n  Camera-ready: 1 Jul 2027\, 23:59 UTC+12 (assumed)\n  Ea
+ rly registration: 1 Jul 2027\, 23:59 UTC+12 (assumed)\n\nThe call for pape
  rs states no timezone. This is counted as UTC+12\, the earliest it could p
  lausibly mean\, so the countdown runs out before the real deadline rather 
  than after it.\n\n5th edition of the conference. Papers are limited to 6 p
- ages. The call for papers flyer gives 1 June 2027 for camera-ready and ear
- ly registration\, while the conference website lists final paper submissio
- n and author registration on 1 July 2027\; the earlier date is shown here.
- \n\nCall for papers: https://ieses2027.ieee-ies.org/\nDetails: https://lan
- gestefan.github.io/powersystem-deadlines/preview/pr-3/conference/ieses27
+ ages. The conference website lists final paper submission and author regis
+ tration on 1 July 2027\, which is shown here\; the call for papers flyer g
+ ives 1 June 2027 for camera-ready and early registration.\n\nCall for pape
+ rs: https://ieses2027.ieee-ies.org/\nDetails: https://langestefan.github.i
+ o/powersystem-deadlines/preview/pr-3/conference/ieses27
 LOCATION:Guimarães\, Portugal
 URL;VALUE=URI:https://ieses2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Smart Grid,Renewables,Energy Storage,Microgrid
@@ -321,27 +319,26 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-early_registration@langestefan.github.io
-DTSTAMP:20261013T144653Z
-DTSTART;VALUE=DATE:20270601
-DTEND;VALUE=DATE:20270602
+DTSTAMP:20261013T153308Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
 TRANSP:TRANSPARENT
 SUMMARY:IESES 2027: Early registration (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE International Conference on Industrial Electronics for Sus
- tainable Energy Systems (IESES 2027)\n\nEarly registration: 1 Jun 2027\, 2
+ tainable Energy Systems (IESES 2027)\n\nEarly registration: 1 Jul 2027\, 2
  3:59 UTC+12 (assumed)\n\nConference: July 21-23\, 2027\nLocation: Guimarã
  es\, Portugal\nVenue: Hotel Guimarães\n\nAll dates:\n  Paper submission: 
  31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Paper notification: 1 May 2027\, 2
- 3:59 UTC+12 (assumed)\n  Camera-ready: 1 Jun 2027\, 23:59 UTC+12 (assumed)
- \n  Early registration: 1 Jun 2027\, 23:59 UTC+12 (assumed)\n\nThe call fo
+ 3:59 UTC+12 (assumed)\n  Camera-ready: 1 Jul 2027\, 23:59 UTC+12 (assumed)
+ \n  Early registration: 1 Jul 2027\, 23:59 UTC+12 (assumed)\n\nThe call fo
  r papers states no timezone. This is counted as UTC+12\, the earliest it c
  ould plausibly mean\, so the countdown runs out before the real deadline r
  ather than after it.\n\n5th edition of the conference. Papers are limited 
- to 6 pages. The call for papers flyer gives 1 June 2027 for camera-ready a
- nd early registration\, while the conference website lists final paper sub
- mission and author registration on 1 July 2027\; the earlier date is shown
-  here.\n\nCall for papers: https://ieses2027.ieee-ies.org/\nDetails: https
- ://langestefan.github.io/powersystem-deadlines/preview/pr-3/conference/ies
- es27
+ to 6 pages. The conference website lists final paper submission and author
+  registration on 1 July 2027\, which is shown here\; the call for papers f
+ lyer gives 1 June 2027 for camera-ready and early registration.\n\nCall fo
+ r papers: https://ieses2027.ieee-ies.org/\nDetails: https://langestefan.gi
+ thub.io/powersystem-deadlines/preview/pr-3/conference/ieses27
 LOCATION:Guimarães\, Portugal
 URL;VALUE=URI:https://ieses2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Smart Grid,Renewables,Energy Storage,Microgrid
@@ -361,7 +358,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-abstract@langestefan.github.io
-DTSTAMP:20261013T144653Z
+DTSTAMP:20261013T153308Z
 DTSTART;VALUE=DATE:20260227
 DTEND;VALUE=DATE:20260228
 TRANSP:TRANSPARENT
@@ -398,7 +395,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-notification@langestefan.github.io
-DTSTAMP:20261013T144653Z
+DTSTAMP:20261013T153308Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -435,7 +432,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-camera_ready@langestefan.github.io
-DTSTAMP:20261013T144653Z
+DTSTAMP:20261013T153308Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 TRANSP:TRANSPARENT
@@ -473,7 +470,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-grid-edge27-paper@langestefan.github.io
-DTSTAMP:20261013T144653Z
+DTSTAMP:20261013T153308Z
 DTSTART;VALUE=DATE:20260724
 DTEND;VALUE=DATE:20260725
 TRANSP:TRANSPARENT
