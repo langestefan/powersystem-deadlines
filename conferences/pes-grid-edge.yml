@@ -22,7 +22,7 @@ editions:
     country: USA
     venue: Calvin L. Rampton Salt Palace Convention Center
     date: April 19-22, 2027
-    verified: 2026-08-26
+    verified: 2026-10-13
     start: 2027-04-19
     end: 2027-04-22
     format: in-person
@@ -34,8 +34,9 @@ editions:
         date: '2026-07-24 23:59:59'
       - type: notification
         label: Notification of acceptance
-        date: '2026-10-01 23:59:59'
+        date: 'TBA'
     note: >-
       Papers are limited to five pages, and panel proposals to a 350-word
       description. At least one author per accepted paper must register for the
-      paper to appear in IEEE Xplore.
+      paper to appear in IEEE Xplore. Notification of acceptance is expected by
+      mid-October 2026, without a stated date.
