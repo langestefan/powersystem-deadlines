@@ -1,0 +1,88 @@
+name: ISIE
+full_name: IEEE International Symposium on Industrial Electronics
+link: https://www.ieee-ies.org/conferences
+society:
+  - IEEE IES
+frequency: annual
+tags:
+  - power-electronics
+  - machines-drives
+  - renewables
+  - smart-grid
+description: >-
+  The IEEE Industrial Electronics Society's symposium, covering power
+  electronics, electrical machines and drives, energy systems, control and
+  industrial informatics.
+
+editions:
+  - year: 2026
+    id: isie26
+    link: https://attend.ieee.org/isie-2026
+    city: Nagoya
+    country: Japan
+    venue: WINC AICHI
+    date: June 23-26, 2026
+    verified: 2026-10-14
+    start: 2026-06-23
+    end: 2026-06-26
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    deadlines:
+      - type: paper
+        label: Full paper submission (extended)
+        date: '2026-03-15 23:59:59'
+        timezone: Asia/Tokyo
+      - type: notification
+        label: Notification of paper acceptance (extended)
+        date: '2026-04-24 23:59:59'
+      - type: camera_ready
+        label: Final manuscript submission (extended)
+        date: '2026-05-22 23:59:59'
+        timezone: Asia/Tokyo
+      - type: early_registration
+        label: Early-bird registration
+        date: '2026-05-22 23:59:59'
+        timezone: Asia/Tokyo
+      - type: paper
+        label: Work-in-progress papers
+        date: '2026-05-25 23:59:59'
+    note: >-
+      35th edition. The full paper deadline was extended twice, from 31 January
+      2026.
+
+  - year: 2027
+    id: isie27
+    link: https://isie2027.ieee-ies.org/
+    city: Paris
+    country: France
+    venue: Pierre et Marie Curie Campus
+    date: June 30 - July 3, 2027
+    verified: 2026-10-14
+    start: 2027-06-30
+    end: 2027-07-03
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    deadlines:
+      - type: workshop_proposal
+        label: Special session proposal
+        date: '2026-11-01 23:59:59'
+      - type: tutorial_proposal
+        label: Tutorial session proposal
+        date: '2026-11-01 23:59:59'
+      - type: paper
+        label: Regular paper submission
+        date: '2026-12-15 23:59:59'
+      - type: panel_proposal
+        label: Panel session proposal
+        date: '2027-02-01 23:59:59'
+      - type: notification
+        label: Regular paper acceptance notification
+        date: '2027-03-15 23:59:59'
+      - type: paper
+        label: Work-in-progress paper submission
+        date: '2027-04-01 23:59:59'
+    note: >-
+      36th edition, themed on industrial electronics for the energy transition
+      and the digital transformation of industry.
