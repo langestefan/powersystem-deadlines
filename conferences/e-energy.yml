@@ -1,0 +1,47 @@
+name: e-Energy
+full_name: ACM International Conference on Future and Sustainable Energy Systems
+link: https://energy.acm.org/
+society:
+  - ACM
+frequency: annual
+tags:
+  - smart-grid
+  - computation-optimization
+  - energy-markets
+  - renewables
+description: >-
+  The flagship conference of ACM SIGEnergy, at the intersection of computing,
+  communication and energy systems: data-driven grid operation, optimisation,
+  markets and sustainable computing.
+
+editions:
+  - year: 2026
+    id: e-energy26
+    city: Banff
+    country: Canada
+    venue: Banff Centre for Arts and Creativity
+    date: June 22-25, 2026
+    verified: 2026-10-14
+    start: 2026-06-22
+    end: 2026-06-25
+    format: in-person
+    proceedings: ACM Digital Library
+    deadlines: []
+    note: >-
+      17th edition, held as part of ACM Sustainability Week together with
+      BuildSys. Submission had already closed when this entry was added, so no
+      deadlines are recorded for this edition.
+
+  - year: 2027
+    id: e-energy27
+    date: 2027, dates to be announced
+    verified: 2026-10-14
+    format: in-person
+    proceedings: ACM Digital Library
+    deadlines:
+      - type: paper
+        label: Paper submission
+        date: 'TBA'
+    note: >-
+      Host city and call for papers not yet announced as of 14 October 2026.
+      Recent editions have had a fall and a winter submission round.
