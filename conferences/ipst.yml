@@ -1,0 +1,45 @@
+name: IPST
+full_name: International Conference on Power Systems Transients
+link: https://ipstconf.org/
+society:
+  - Other
+frequency: biennial
+tags:
+  - power-systems
+  - computation-optimization
+  - hvdc-facts
+  - protection-automation
+description: >-
+  The international forum on electromagnetic transients in power systems:
+  modelling, simulation, real-time and EMT tools, and transient phenomena in
+  networks and equipment. Held every two years.
+
+editions:
+  - year: 2027
+    id: ipst27
+    link: https://ipst2027.org/
+    city: Bologna
+    country: Italy
+    venue: Royal Hotel Carlton
+    date: June 6-10, 2027
+    verified: 2026-10-14
+    start: 2027-06-06
+    end: 2027-06-10
+    format: in-person
+    submission_type: full-paper
+    deadlines:
+      - type: paper
+        label: First submission (full paper)
+        date: '2026-12-18 23:59:59'
+      - type: notification
+        label: Author notification
+        date: '2027-02-19 23:59:59'
+      - type: camera_ready
+        label: Final paper submission
+        date: '2027-03-19 23:59:59'
+      - type: notification
+        label: Final notification to authors
+        date: '2027-04-09 23:59:59'
+    note: >-
+      Organised with the University of Bologna. Early registration runs until
+      6 April 2027.

@@ -1,0 +1,58 @@
+name: IAEE European
+full_name: IAEE European Conference
+link: https://iaee.org/
+society:
+  - Other
+frequency: annual
+tags:
+  - energy-markets
+  - renewables
+description: >-
+  The European conference of the International Association for Energy
+  Economics, on energy economics, markets, regulation and policy.
+
+editions:
+  - year: 2026
+    id: iaee-european26
+    link: https://iaee.org/events/2026-european-conference
+    city: Munich
+    country: Germany
+    date: September 6-10, 2026
+    verified: 2026-10-14
+    start: 2026-09-06
+    end: 2026-09-10
+    format: in-person
+    submission_type: abstract-first
+    deadlines:
+      - type: abstract
+        label: Abstract submission
+        date: '2026-04-10 23:59:59'
+      - type: best_paper
+        label: Best paper submission
+        date: '2026-05-08 23:59:59'
+      - type: notification
+        label: Notification of acceptance
+        date: '2026-05-22 23:59:59'
+      - type: early_registration
+        label: Early bird registration
+        date: '2026-07-03 23:59:59'
+    note: >-
+      19th IAEE European Conference, supported by the Technical University of
+      Munich, with a PhD day on 3-5 September 2026.
+
+  - year: 2027
+    id: iaee-european27
+    city: Madrid
+    country: Spain
+    date: 2027, dates to be announced
+    verified: 2026-10-14
+    format: in-person
+    submission_type: abstract-first
+    deadlines:
+      - type: abstract
+        label: Abstract submission
+        date: 'TBA'
+    note: >-
+      20th IAEE European Conference, organised with the Spanish affiliate AEEE.
+      Dates and the call for papers had not been published as of 14 October
+      2026.

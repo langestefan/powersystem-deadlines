@@ -1,0 +1,51 @@
+name: PEDG
+full_name: IEEE International Symposium on Power Electronics for Distributed Generation Systems
+link: https://www.ieee-pels.org/conferences/
+society:
+  - IEEE PELS
+frequency: annual
+tags:
+  - power-electronics
+  - renewables
+  - microgrids
+  - energy-storage
+description: >-
+  An IEEE PELS symposium on the theory, design and deployment of power
+  electronics for distributed generation, energy storage and renewable sources.
+
+editions:
+  - year: 2026
+    id: pedg26
+    link: https://www.elo.usm.cl/PEDG2026/
+    city: Viña del Mar
+    country: Chile
+    date: June 21-24, 2026
+    verified: 2026-10-14
+    start: 2026-06-21
+    end: 2026-06-24
+    format: in-person
+    proceedings: IEEE Xplore
+    deadlines: []
+    note: >-
+      17th edition, organised with Universidad Técnica Federico Santa María.
+      Submission had already closed when this entry was added, so no deadlines
+      are recorded for this edition.
+
+  - year: 2027
+    id: pedg27
+    city: Edmonton
+    country: Canada
+    date: June 13-16, 2027
+    verified: 2026-10-14
+    start: 2027-06-13
+    end: 2027-06-16
+    format: in-person
+    proceedings: IEEE Xplore
+    deadlines:
+      - type: paper
+        label: Digest submission
+        date: 'TBA'
+    note: >-
+      18th edition, co-located with the IEEE eGRID workshop. Dates and city are
+      from the IEEE PELS conference schedule; the call for papers had not been
+      published as of 14 October 2026.

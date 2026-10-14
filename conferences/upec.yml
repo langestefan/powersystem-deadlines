@@ -1,0 +1,65 @@
+name: UPEC
+full_name: International Universities Power Engineering Conference
+link: https://cyprusconferences.org/upec2027/
+society:
+  - Other
+frequency: annual
+tags:
+  - power-systems
+  - smart-grid
+  - renewables
+  - energy-markets
+  - ev-transportation
+description: >-
+  A long-running power engineering conference rooted in the European
+  university community, with broad coverage from power system operation and
+  planning to renewables, storage, markets and policy.
+
+editions:
+  - year: 2026
+    id: upec26
+    city: Cagliari
+    country: Italy
+    venue: University of Cagliari
+    date: August 30 - September 2, 2026
+    verified: 2026-10-14
+    start: 2026-08-30
+    end: 2026-09-02
+    format: in-person
+    proceedings: IEEE Xplore
+    deadlines: []
+    note: >-
+      61st edition, themed "Bridging Power Engineering Heritage and the
+      AI-Driven Energy Future". Submission had already closed when this entry
+      was added, so no deadlines are recorded for this edition.
+
+  - year: 2027
+    id: upec27
+    city: Larnaca
+    country: Cyprus
+    venue: Radisson Beach Resort
+    date: August 31 - September 3, 2027
+    verified: 2026-10-14
+    start: 2027-08-31
+    end: 2027-09-03
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    deadlines:
+      - type: paper
+        label: Paper submission
+        date: '2027-04-30 23:59:59'
+      - type: notification
+        label: Notification of acceptance
+        date: '2027-06-18 23:59:59'
+      - type: early_registration
+        label: Early bird registration
+        date: '2027-06-25 23:59:59'
+      - type: camera_ready
+        label: Camera-ready paper and copyright transfer
+        date: '2027-07-16 23:59:59'
+    note: >-
+      62nd edition, organised by Frederick University and the PHAETHON Centre of
+      Excellence, themed on decarbonising the grid through multi-sector
+      synergies. Paper submission opens on 1 February 2027; early submissions
+      get rolling notification.

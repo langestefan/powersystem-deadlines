@@ -1,0 +1,82 @@
+name: RPG
+full_name: IET International Conference on Renewable Power Generation and Future Power Systems
+link: https://renewablepower.theiet.org/
+society:
+  - IET
+frequency: annual
+tags:
+  - renewables
+  - power-systems
+  - energy-markets
+  - ev-transportation
+  - energy-storage
+description: >-
+  The IET's renewable power generation conference, covering wind, solar,
+  hydrogen and EV charging alongside network planning, power demand, and policy
+  and market design. It runs as RPG Global in the UK and RPG China.
+
+editions:
+  - year: 2027
+    id: rpg-global27
+    link: https://renewablepower.theiet.org/rpg-global-2027
+    city: Birmingham
+    country: United Kingdom
+    venue: 'IET Birmingham: Austin Court'
+    date: May 26-27, 2027
+    verified: 2026-10-14
+    start: 2027-05-26
+    end: 2027-05-27
+    format: in-person
+    proceedings: IET Conference Proceedings
+    submission_type: full-paper
+    deadlines:
+      - type: paper
+        label: Full paper submission
+        date: '2026-12-11 23:59:59'
+        link: https://renewablepower.theiet.org/rpg-global-2027/call-for-submissions
+      - type: notification
+        label: Author notification
+        date: '2027-02-16 23:59:59'
+      - type: author_registration
+        label: Author registration
+        date: '2027-04-15 23:59:59'
+    note: >-
+      RPG Global 2027. Full papers are peer reviewed and indexed in IET Inspec,
+      IEEE Xplore and Ei Compendex.
+
+  - year: 2027
+    id: rpg-china27
+    link: https://renewablepower.theiet.org/rpg-china-2027
+    country: China
+    date: October 29-31, 2027
+    verified: 2026-10-14
+    start: 2027-10-29
+    end: 2027-10-31
+    format: in-person
+    proceedings: IET Conference Proceedings
+    submission_type: abstract-first
+    deadlines:
+      - type: abstract
+        label: Abstract submission
+        date: '2027-03-15 23:59:59'
+      - type: notification
+        label: Notification of abstract acceptance
+        date: '2027-04-02 23:59:59'
+      - type: paper
+        label: Submission of full papers
+        date: '2027-05-17 23:59:59'
+      - type: notification
+        label: Notification of full paper acceptance
+        date: '2027-06-14 23:59:59'
+      - type: camera_ready
+        label: Requested rework paper submission
+        date: '2027-06-28 23:59:59'
+      - type: camera_ready
+        label: Paper modification deadline
+        date: '2027-07-09 23:59:59'
+      - type: early_registration
+        label: Early bird registration
+        date: '2027-07-26 23:59:59'
+    note: >-
+      RPG China 2027. The host city in China had not been announced on the
+      conference website as of 14 October 2026.

@@ -1,0 +1,57 @@
+name: PMAPS
+full_name: International Conference on Probabilistic Methods Applied to Power Systems
+link: https://www.pmaps.world/
+society:
+  - IEEE PES
+  - Other
+frequency: biennial
+tags:
+  - reliability-planning
+  - power-systems
+  - computation-optimization
+  - renewables
+description: >-
+  The conference on probabilistic methods for power systems: reliability and
+  adequacy, risk, uncertainty and stochastic planning and operation. Held every
+  two years since 1986.
+
+editions:
+  - year: 2026
+    id: pmaps26
+    link: https://pmaps2026.utah.edu/
+    city: Salt Lake City
+    country: USA
+    venue: University of Utah
+    date: September 21-24, 2026
+    verified: 2026-10-14
+    start: 2026-09-21
+    end: 2026-09-24
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    deadlines:
+      - type: paper
+        label: Paper submission (extended)
+        date: '2026-03-15 23:59:59'
+        timezone: AoE
+      - type: notification
+        label: Notification
+        date: '2026-05-30 23:59:59'
+    note: >-
+      19th edition, co-organised by the University of Utah and WECC, themed
+      "Towards Reliable Power Grids in the Age of AI and Large Loads". The paper
+      deadline was extended twice, from 15 February 2026.
+
+  - year: 2028
+    id: pmaps28
+    date: 2028, dates to be announced
+    verified: 2026-10-14
+    format: in-person
+    proceedings: IEEE Xplore
+    deadlines:
+      - type: paper
+        label: Paper submission
+        date: 'TBA'
+    note: >-
+      The conference runs every two years. Host and dates for 2028 had not been
+      announced as of 14 October 2026.

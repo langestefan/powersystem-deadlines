@@ -1,0 +1,56 @@
+name: FutureGrid (GreenTech)
+full_name: IEEE FutureGrid Conference and Expo (formerly IEEE Green Technologies Conference)
+link: https://ieeegreentech.org/
+society:
+  - Other
+frequency: annual
+tags:
+  - renewables
+  - smart-grid
+  - energy-storage
+  - power-systems
+description: >-
+  The IEEE Green Technologies Conference, renamed FutureGrid from 2027: grid
+  modernisation, renewable integration, storage and sustainable energy
+  technology.
+
+editions:
+  - year: 2026
+    id: greentech26
+    city: Boulder
+    country: USA
+    date: March 25-27, 2026
+    verified: 2026-10-14
+    start: 2026-03-25
+    end: 2026-03-27
+    format: in-person
+    proceedings: IEEE Xplore
+    deadlines:
+      - type: paper
+        label: Paper submission
+        date: '2025-11-16 23:59:59'
+      - type: tutorial_proposal
+        label: Tutorial, workshop and panel proposals
+        date: '2025-12-14 23:59:59'
+    note: >-
+      18th annual IEEE Green Technologies Conference (GreenTech 2026).
+
+  - year: 2027
+    id: futuregrid27
+    city: Denver
+    country: USA
+    date: October 3-6, 2027
+    verified: 2026-10-14
+    start: 2027-10-03
+    end: 2027-10-06
+    format: in-person
+    proceedings: IEEE Xplore
+    deadlines:
+      - type: paper
+        label: Paper submission
+        date: 'TBA'
+    note: >-
+      First edition under the FutureGrid name. Dates are from the conference
+      website and the city from the IEEE PELS conference schedule (which gives
+      4-6 October, likely the main programme). The call for papers had not been
+      published as of 14 October 2026.

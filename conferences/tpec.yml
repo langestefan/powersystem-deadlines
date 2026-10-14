@@ -1,0 +1,78 @@
+name: TPEC
+full_name: IEEE Texas Power and Energy Conference
+link: https://tpec.engr.tamu.edu/
+society:
+  - IEEE PES
+  - IEEE PELS
+  - IEEE IAS
+frequency: annual
+tags:
+  - power-systems
+  - power-electronics
+  - machines-drives
+  - energy-markets
+  - cyber-physical-security
+description: >-
+  A power and energy conference at Texas A&M University, run by the IEEE
+  PES-PELS-IAS joint student organization and popular with graduate students.
+  Accepted papers presented in person go to IEEE Xplore.
+
+editions:
+  - year: 2026
+    id: tpec26
+    link: https://tpec.engr.tamu.edu/tpec-2026.html
+    city: College Station
+    country: USA
+    venue: Memorial Student Center, Texas A&M University
+    date: February 8-10, 2026
+    verified: 2026-10-14
+    start: 2026-02-08
+    end: 2026-02-10
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    deadlines:
+      - type: paper
+        label: Paper submission (extended)
+        date: '2025-11-24 23:59:59'
+      - type: notification
+        label: Notice of acceptance
+        date: '2026-01-02 23:59:59'
+    note: >-
+      10th edition.
+
+  - year: 2027
+    id: tpec27
+    city: College Station
+    country: USA
+    venue: Memorial Student Center, Texas A&M University
+    date: February 7-9, 2027
+    verified: 2026-10-14
+    start: 2027-02-07
+    end: 2027-02-09
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    deadlines:
+      - type: paper
+        label: Full paper (first period)
+        date: '2026-09-15 23:59:59'
+      - type: notification
+        label: Decision (first period)
+        date: '2026-10-05 23:59:59'
+      - type: paper
+        label: Full paper (second period)
+        date: '2026-10-15 23:59:59'
+      - type: notification
+        label: Decision (second period)
+        date: '2026-11-05 23:59:59'
+      - type: paper
+        label: Full paper (third period)
+        date: '2026-11-15 23:59:59'
+      - type: notification
+        label: Decision (third period)
+        date: '2027-01-05 23:59:59'
+    note: >-
+      Three submission periods; submitting in the first or second earns a
+      cheaper registration rate. Papers are up to 6 pages and must be presented
+      in person to reach IEEE Xplore.
