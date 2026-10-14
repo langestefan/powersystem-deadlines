@@ -1,0 +1,48 @@
+name: SEST
+full_name: International Conference on Smart Energy Systems and Technologies
+link: https://sest2026.com/
+society:
+  - Other
+frequency: irregular
+tags:
+  - smart-grid
+  - microgrids
+  - energy-storage
+  - ev-transportation
+  - power-systems
+description: >-
+  A European conference on smart energy systems: monitoring and control across
+  electricity, gas, heat and water networks, microgrids, storage, electric
+  vehicles and smart buildings.
+
+editions:
+  - year: 2026
+    id: sest26
+    city: Ciudad Real
+    country: Spain
+    venue: Escuela Técnica Superior de Ingeniería Industrial de Ciudad Real
+    date: September 2-4, 2026
+    verified: 2026-10-14
+    start: 2026-09-02
+    end: 2026-09-04
+    format: in-person
+    submission_type: abstract-first
+    deadlines:
+      - type: abstract
+        label: Abstract submission (extended)
+        date: '2026-03-02 23:59:59'
+      - type: paper
+        label: Hard full paper submission (extended)
+        date: '2026-04-27 23:59:59'
+      - type: notification
+        label: Notification of acceptance
+        date: '2026-06-15 23:59:59'
+      - type: camera_ready
+        label: Final paper submission
+        date: '2026-06-29 23:59:59'
+      - type: author_registration
+        label: Final registration deadline for authors
+        date: '2026-07-13 23:59:59'
+    note: >-
+      8th edition. The abstract deadline was extended from 16 February 2026 and
+      the full paper deadline from 16 March 2026.
