@@ -1,0 +1,199 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IEEE PES T&D 2026 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IEEE PES Transmission and Distribution
+  Conference and Exposition 2026.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/previe
+ w/pr-4/conference/pes-td26.ics
+BEGIN:VEVENT
+UID:pes-td26-tutorial_proposal@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20250606
+DTEND;VALUE=DATE:20250607
+TRANSP:TRANSPARENT
+SUMMARY:IEEE PES T&D 2026: Tutorial proposal (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE PES Transmission and Distribution Conference and Expositio
+ n (IEEE PES T&D 2026)\n\nTutorial proposal: 6 Jun 2025\, 23:59 UTC+12 (ass
+ umed)\n\nConference: May 4-7\, 2026\nLocation: Chicago\, USA\nVenue: McCor
+ mick Place\n\nAll dates:\n  Tutorial proposal: 6 Jun 2025\, 23:59 UTC+12 (
+ assumed)\n  Panel proposals to technical committee chairs: 1 Aug 2025\, 23
+ :59 UTC+12 (assumed)\n  Submission deadline for papers\, presentations and
+  panels: 14 Aug 2025\, 23:59 UTC+12 (assumed)\n  Notifications delivered: 
+ 4 Nov 2025\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timez
+ one. This is counted as UTC+12\, the earliest it could plausibly mean\, so
+  the countdown runs out before the real deadline rather than after it.\n\n
+ Themed "Powering Reliability\, Engineering Resilience". The submission sit
+ e opened on 10 July 2025. A separate call-for-papers page gave 28 August 2
+ 025 for papers\; the 14 August date from the call for participation is rec
+ orded here.\n\nCall for papers: https://ieeet-d.org/\nDetails: https://lan
+ gestefan.github.io/powersystem-deadlines/preview/pr-4/conference/pes-td26
+LOCATION:Chicago\, USA
+URL;VALUE=URI:https://ieeet-d.org/
+CATEGORIES:Transmission,Distribution,Power Systems,Protection & Automation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pes-td26-panel_proposal@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20250801
+DTEND;VALUE=DATE:20250802
+TRANSP:TRANSPARENT
+SUMMARY:IEEE PES T&D 2026: Panel proposals to technical committee chairs (2
+ 3:59 UTC+12 (assumed))
+DESCRIPTION:IEEE PES Transmission and Distribution Conference and Expositio
+ n (IEEE PES T&D 2026)\n\nPanel proposals to technical committee chairs: 1 
+ Aug 2025\, 23:59 UTC+12 (assumed)\n\nConference: May 4-7\, 2026\nLocation:
+  Chicago\, USA\nVenue: McCormick Place\n\nAll dates:\n  Tutorial proposal:
+  6 Jun 2025\, 23:59 UTC+12 (assumed)\n  Panel proposals to technical commi
+ ttee chairs: 1 Aug 2025\, 23:59 UTC+12 (assumed)\n  Submission deadline fo
+ r papers\, presentations and panels: 14 Aug 2025\, 23:59 UTC+12 (assumed)\
+ n  Notifications delivered: 4 Nov 2025\, 23:59 UTC+12 (assumed)\n\nThe cal
+ l for papers states no timezone. This is counted as UTC+12\, the earliest 
+ it could plausibly mean\, so the countdown runs out before the real deadli
+ ne rather than after it.\n\nThemed "Powering Reliability\, Engineering Res
+ ilience". The submission site opened on 10 July 2025. A separate call-for-
+ papers page gave 28 August 2025 for papers\; the 14 August date from the c
+ all for participation is recorded here.\n\nCall for papers: https://ieeet-
+ d.org/\nDetails: https://langestefan.github.io/powersystem-deadlines/previ
+ ew/pr-4/conference/pes-td26
+LOCATION:Chicago\, USA
+URL;VALUE=URI:https://ieeet-d.org/
+CATEGORIES:Transmission,Distribution,Power Systems,Protection & Automation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pes-td26-paper@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20250814
+DTEND;VALUE=DATE:20250815
+TRANSP:TRANSPARENT
+SUMMARY:IEEE PES T&D 2026: Submission deadline for papers\, presentations a
+ nd panels (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE PES Transmission and Distribution Conference and Expositio
+ n (IEEE PES T&D 2026)\n\nSubmission deadline for papers\, presentations an
+ d panels: 14 Aug 2025\, 23:59 UTC+12 (assumed)\n\nConference: May 4-7\, 20
+ 26\nLocation: Chicago\, USA\nVenue: McCormick Place\n\nAll dates:\n  Tutor
+ ial proposal: 6 Jun 2025\, 23:59 UTC+12 (assumed)\n  Panel proposals to te
+ chnical committee chairs: 1 Aug 2025\, 23:59 UTC+12 (assumed)\n  Submissio
+ n deadline for papers\, presentations and panels: 14 Aug 2025\, 23:59 UTC+
+ 12 (assumed)\n  Notifications delivered: 4 Nov 2025\, 23:59 UTC+12 (assume
+ d)\n\nThe call for papers states no timezone. This is counted as UTC+12\, 
+ the earliest it could plausibly mean\, so the countdown runs out before th
+ e real deadline rather than after it.\n\nThemed "Powering Reliability\, En
+ gineering Resilience". The submission site opened on 10 July 2025. A separ
+ ate call-for-papers page gave 28 August 2025 for papers\; the 14 August da
+ te from the call for participation is recorded here.\n\nCall for papers: h
+ ttps://ieeet-d.org/\nDetails: https://langestefan.github.io/powersystem-de
+ adlines/preview/pr-4/conference/pes-td26
+LOCATION:Chicago\, USA
+URL;VALUE=URI:https://ieeet-d.org/
+CATEGORIES:Transmission,Distribution,Power Systems,Protection & Automation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pes-td26-notification@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20251104
+DTEND;VALUE=DATE:20251105
+TRANSP:TRANSPARENT
+SUMMARY:IEEE PES T&D 2026: Notifications delivered (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE PES Transmission and Distribution Conference and Expositio
+ n (IEEE PES T&D 2026)\n\nNotifications delivered: 4 Nov 2025\, 23:59 UTC+1
+ 2 (assumed)\n\nConference: May 4-7\, 2026\nLocation: Chicago\, USA\nVenue:
+  McCormick Place\n\nAll dates:\n  Tutorial proposal: 6 Jun 2025\, 23:59 UT
+ C+12 (assumed)\n  Panel proposals to technical committee chairs: 1 Aug 202
+ 5\, 23:59 UTC+12 (assumed)\n  Submission deadline for papers\, presentatio
+ ns and panels: 14 Aug 2025\, 23:59 UTC+12 (assumed)\n  Notifications deliv
+ ered: 4 Nov 2025\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no
+  timezone. This is counted as UTC+12\, the earliest it could plausibly mea
+ n\, so the countdown runs out before the real deadline rather than after i
+ t.\n\nThemed "Powering Reliability\, Engineering Resilience". The submissi
+ on site opened on 10 July 2025. A separate call-for-papers page gave 28 Au
+ gust 2025 for papers\; the 14 August date from the call for participation 
+ is recorded here.\n\nCall for papers: https://ieeet-d.org/\nDetails: https
+ ://langestefan.github.io/powersystem-deadlines/preview/pr-4/conference/pes
+ -td26
+LOCATION:Chicago\, USA
+URL;VALUE=URI:https://ieeet-d.org/
+CATEGORIES:Transmission,Distribution,Power Systems,Protection & Automation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pes-td26-event@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20260504
+DTEND;VALUE=DATE:20260508
+TRANSP:TRANSPARENT
+SUMMARY:IEEE PES T&D 2026
+DESCRIPTION:IEEE PES Transmission and Distribution Conference and Expositio
+ n (IEEE PES T&D 2026)\n\nConference: May 4-7\, 2026\nLocation: Chicago\, U
+ SA\nVenue: McCormick Place\n\nAll dates:\n  Tutorial proposal: 6 Jun 2025\
+ , 23:59 UTC+12 (assumed)\n  Panel proposals to technical committee chairs:
+  1 Aug 2025\, 23:59 UTC+12 (assumed)\n  Submission deadline for papers\, p
+ resentations and panels: 14 Aug 2025\, 23:59 UTC+12 (assumed)\n  Notificat
+ ions delivered: 4 Nov 2025\, 23:59 UTC+12 (assumed)\n\nThe call for papers
+  states no timezone. This is counted as UTC+12\, the earliest it could pla
+ usibly mean\, so the countdown runs out before the real deadline rather th
+ an after it.\n\nThemed "Powering Reliability\, Engineering Resilience". Th
+ e submission site opened on 10 July 2025. A separate call-for-papers page 
+ gave 28 August 2025 for papers\; the 14 August date from the call for part
+ icipation is recorded here.\n\nCall for papers: https://ieeet-d.org/\nDeta
+ ils: https://langestefan.github.io/powersystem-deadlines/preview/pr-4/conf
+ erence/pes-td26
+LOCATION:McCormick Place\, Chicago\, USA
+URL;VALUE=URI:https://ieeet-d.org/
+CATEGORIES:Transmission,Distribution,Power Systems,Protection & Automation
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

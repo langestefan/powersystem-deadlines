@@ -1,0 +1,244 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Power System Deadlines: Power Quality
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines for conferences tagged "Power Quality".
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/previe
+ w/pr-4/calendar/power-quality.ics
+BEGIN:VEVENT
+UID:ias-am27-abstract@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+TRANSP:TRANSPARENT
+SUMMARY:IEEE IAS Annual Meeting 2027: Digest submission (23:59 UTC+12 (assu
+ med))
+DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
+ ual Meeting 2027)\n\nDigest submission: 7 Dec 2026\, 23:59 UTC+12 (assumed
+ )\n\nConference: June 27 - July 1\, 2027\nLocation: Rome\, Italy\nVenue: E
+ rgife Palace Hotel Roma\n\nAll dates:\n  Digest submission: 7 Dec 2026\, 2
+ 3:59 UTC+12 (assumed)\n  Author notification: 15 Feb 2027\, 23:59 UTC+12 (
+ assumed)\n  Final paper with IEEE copyright form: 15 Apr 2027\, 23:59 UTC+
+ 12 (assumed)\n\nThe call for papers states no timezone. This is counted as
+  UTC+12\, the earliest it could plausibly mean\, so the countdown runs out
+  before the real deadline rather than after it.\n\nEvery accepted paper mu
+ st be covered by a full conference registration before the final manuscrip
+ t is submitted\, and must be presented in person. This edition incorporate
+ s the I&CPS Europe conference.\n\nCall for papers: https://ias-am.ieee.org
+ /2027/\nDetails: https://langestefan.github.io/powersystem-deadlines/previ
+ ew/pr-4/conference/ias-am27
+LOCATION:Rome\, Italy
+URL;VALUE=URI:https://ias-am.ieee.org/2027/
+CATEGORIES:Machines & Drives,Power Electronics,Power Quality,Protection & A
+ utomation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ias-am27-notification@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+TRANSP:TRANSPARENT
+SUMMARY:IEEE IAS Annual Meeting 2027: Author notification (23:59 UTC+12 (as
+ sumed))
+DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
+ ual Meeting 2027)\n\nAuthor notification: 15 Feb 2027\, 23:59 UTC+12 (assu
+ med)\n\nConference: June 27 - July 1\, 2027\nLocation: Rome\, Italy\nVenue
+ : Ergife Palace Hotel Roma\n\nAll dates:\n  Digest submission: 7 Dec 2026\
+ , 23:59 UTC+12 (assumed)\n  Author notification: 15 Feb 2027\, 23:59 UTC+1
+ 2 (assumed)\n  Final paper with IEEE copyright form: 15 Apr 2027\, 23:59 U
+ TC+12 (assumed)\n\nThe call for papers states no timezone. This is counted
+  as UTC+12\, the earliest it could plausibly mean\, so the countdown runs 
+ out before the real deadline rather than after it.\n\nEvery accepted paper
+  must be covered by a full conference registration before the final manusc
+ ript is submitted\, and must be presented in person. This edition incorpor
+ ates the I&CPS Europe conference.\n\nCall for papers: https://ias-am.ieee.
+ org/2027/\nDetails: https://langestefan.github.io/powersystem-deadlines/pr
+ eview/pr-4/conference/ias-am27
+LOCATION:Rome\, Italy
+URL;VALUE=URI:https://ias-am.ieee.org/2027/
+CATEGORIES:Machines & Drives,Power Electronics,Power Quality,Protection & A
+ utomation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ias-am27-camera_ready@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+TRANSP:TRANSPARENT
+SUMMARY:IEEE IAS Annual Meeting 2027: Final paper with IEEE copyright form 
+ (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
+ ual Meeting 2027)\n\nFinal paper with IEEE copyright form: 15 Apr 2027\, 2
+ 3:59 UTC+12 (assumed)\n\nConference: June 27 - July 1\, 2027\nLocation: Ro
+ me\, Italy\nVenue: Ergife Palace Hotel Roma\n\nAll dates:\n  Digest submis
+ sion: 7 Dec 2026\, 23:59 UTC+12 (assumed)\n  Author notification: 15 Feb 2
+ 027\, 23:59 UTC+12 (assumed)\n  Final paper with IEEE copyright form: 15 A
+ pr 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone
+ . This is counted as UTC+12\, the earliest it could plausibly mean\, so th
+ e countdown runs out before the real deadline rather than after it.\n\nEve
+ ry accepted paper must be covered by a full conference registration before
+  the final manuscript is submitted\, and must be presented in person. This
+  edition incorporates the I&CPS Europe conference.\n\nCall for papers: htt
+ ps://ias-am.ieee.org/2027/\nDetails: https://langestefan.github.io/powersy
+ stem-deadlines/preview/pr-4/conference/ias-am27
+LOCATION:Rome\, Italy
+URL;VALUE=URI:https://ias-am.ieee.org/2027/
+CATEGORIES:Machines & Drives,Power Electronics,Power Quality,Protection & A
+ utomation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eeeic26-workshop_proposal@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260102
+TRANSP:TRANSPARENT
+SUMMARY:EEEIC 2026: Special session proposal (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE International Conference on Environment and Electrical Eng
+ ineering (EEEIC 2026)\n\nSpecial session proposal: 1 Jan 2026\, 23:59 UTC+
+ 12 (assumed)\n\nConference: June 29 - July 2\, 2026\nLocation: Lisbon\, Po
+ rtugal\nVenue: Centro de Congressos\, Instituto Superior Técnico\n\nAll d
+ ates:\n  Special session proposal: 1 Jan 2026\, 23:59 UTC+12 (assumed)\n  
+ Paper submission end: 11 May 2026\, 23:59 UTC+12 (assumed)\n  Early bird r
+ egistration: 31 May 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers s
+ tates no timezone. This is counted as UTC+12\, the earliest it could plaus
+ ibly mean\, so the countdown runs out before the real deadline rather than
+  after it.\n\n26th edition. Submission opened on 2 February 2026. Papers w
+ ere notified within three weeks of submission and final versions were due 
+ two weeks after notification. The site lists both 4 May and 11 May 2026 as
+  the end of submission\; the later date is recorded here.\n\nCall for pape
+ rs: https://www.eeeic.net/\nDetails: https://langestefan.github.io/powersy
+ stem-deadlines/preview/pr-4/conference/eeeic26
+LOCATION:Lisbon\, Portugal
+URL;VALUE=URI:https://www.eeeic.net/
+CATEGORIES:Power Systems,Renewables,Smart Grid,Energy Storage,Power Quality
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eeeic26-paper@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20260511
+DTEND;VALUE=DATE:20260512
+TRANSP:TRANSPARENT
+SUMMARY:EEEIC 2026: Paper submission end (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE International Conference on Environment and Electrical Eng
+ ineering (EEEIC 2026)\n\nPaper submission end: 11 May 2026\, 23:59 UTC+12 
+ (assumed)\n\nConference: June 29 - July 2\, 2026\nLocation: Lisbon\, Portu
+ gal\nVenue: Centro de Congressos\, Instituto Superior Técnico\n\nAll date
+ s:\n  Special session proposal: 1 Jan 2026\, 23:59 UTC+12 (assumed)\n  Pap
+ er submission end: 11 May 2026\, 23:59 UTC+12 (assumed)\n  Early bird regi
+ stration: 31 May 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers stat
+ es no timezone. This is counted as UTC+12\, the earliest it could plausibl
+ y mean\, so the countdown runs out before the real deadline rather than af
+ ter it.\n\n26th edition. Submission opened on 2 February 2026. Papers were
+  notified within three weeks of submission and final versions were due two
+  weeks after notification. The site lists both 4 May and 11 May 2026 as th
+ e end of submission\; the later date is recorded here.\n\nCall for papers:
+  https://www.eeeic.net/\nDetails: https://langestefan.github.io/powersyste
+ m-deadlines/preview/pr-4/conference/eeeic26
+LOCATION:Lisbon\, Portugal
+URL;VALUE=URI:https://www.eeeic.net/
+CATEGORIES:Power Systems,Renewables,Smart Grid,Energy Storage,Power Quality
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eeeic26-early_registration@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+TRANSP:TRANSPARENT
+SUMMARY:EEEIC 2026: Early bird registration (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE International Conference on Environment and Electrical Eng
+ ineering (EEEIC 2026)\n\nEarly bird registration: 31 May 2026\, 23:59 UTC+
+ 12 (assumed)\n\nConference: June 29 - July 2\, 2026\nLocation: Lisbon\, Po
+ rtugal\nVenue: Centro de Congressos\, Instituto Superior Técnico\n\nAll d
+ ates:\n  Special session proposal: 1 Jan 2026\, 23:59 UTC+12 (assumed)\n  
+ Paper submission end: 11 May 2026\, 23:59 UTC+12 (assumed)\n  Early bird r
+ egistration: 31 May 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers s
+ tates no timezone. This is counted as UTC+12\, the earliest it could plaus
+ ibly mean\, so the countdown runs out before the real deadline rather than
+  after it.\n\n26th edition. Submission opened on 2 February 2026. Papers w
+ ere notified within three weeks of submission and final versions were due 
+ two weeks after notification. The site lists both 4 May and 11 May 2026 as
+  the end of submission\; the later date is recorded here.\n\nCall for pape
+ rs: https://www.eeeic.net/\nDetails: https://langestefan.github.io/powersy
+ stem-deadlines/preview/pr-4/conference/eeeic26
+LOCATION:Lisbon\, Portugal
+URL;VALUE=URI:https://www.eeeic.net/
+CATEGORIES:Power Systems,Renewables,Smart Grid,Energy Storage,Power Quality
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+END:VCALENDAR

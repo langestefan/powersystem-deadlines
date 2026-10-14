@@ -1,0 +1,227 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ISIE 2026 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IEEE International Symposium on Indust
+ rial Electronics 2026.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/previe
+ w/pr-4/conference/isie26.ics
+BEGIN:VEVENT
+UID:isie26-paper@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20260315
+DTEND;VALUE=DATE:20260316
+TRANSP:TRANSPARENT
+SUMMARY:ISIE 2026: Full paper submission (extended) (23:59 Asia/Tokyo)
+DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
+ 26)\n\nFull paper submission (extended): 15 Mar 2026\, 23:59 Asia/Tokyo\n\
+ nConference: June 23-26\, 2026\nLocation: Nagoya\, Japan\nVenue: WINC AICH
+ I\n\nAll dates:\n  Full paper submission (extended): 15 Mar 2026\, 23:59 A
+ sia/Tokyo\n  Notification of paper acceptance (extended): 24 Apr 2026\, 23
+ :59 UTC+12 (assumed)\n  Final manuscript submission (extended): 22 May 202
+ 6\, 23:59 Asia/Tokyo\n  Early-bird registration: 22 May 2026\, 23:59 Asia/
+ Tokyo\n  Work-in-progress papers: 25 May 2026\, 23:59 UTC+12 (assumed)\n\n
+ The call for papers states no timezone. This is counted as UTC+12\, the ea
+ rliest it could plausibly mean\, so the countdown runs out before the real
+  deadline rather than after it.\n\n35th edition. The full paper deadline w
+ as extended twice\, from 31 January 2026.\n\nCall for papers: https://atte
+ nd.ieee.org/isie-2026\nDetails: https://langestefan.github.io/powersystem-
+ deadlines/preview/pr-4/conference/isie26
+LOCATION:Nagoya\, Japan
+URL;VALUE=URI:https://attend.ieee.org/isie-2026
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isie26-notification@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20260424
+DTEND;VALUE=DATE:20260425
+TRANSP:TRANSPARENT
+SUMMARY:ISIE 2026: Notification of paper acceptance (extended) (23:59 UTC+1
+ 2 (assumed))
+DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
+ 26)\n\nNotification of paper acceptance (extended): 24 Apr 2026\, 23:59 UT
+ C+12 (assumed)\n\nConference: June 23-26\, 2026\nLocation: Nagoya\, Japan\
+ nVenue: WINC AICHI\n\nAll dates:\n  Full paper submission (extended): 15 M
+ ar 2026\, 23:59 Asia/Tokyo\n  Notification of paper acceptance (extended):
+  24 Apr 2026\, 23:59 UTC+12 (assumed)\n  Final manuscript submission (exte
+ nded): 22 May 2026\, 23:59 Asia/Tokyo\n  Early-bird registration: 22 May 2
+ 026\, 23:59 Asia/Tokyo\n  Work-in-progress papers: 25 May 2026\, 23:59 UTC
+ +12 (assumed)\n\nThe call for papers states no timezone. This is counted a
+ s UTC+12\, the earliest it could plausibly mean\, so the countdown runs ou
+ t before the real deadline rather than after it.\n\n35th edition. The full
+  paper deadline was extended twice\, from 31 January 2026.\n\nCall for pap
+ ers: https://attend.ieee.org/isie-2026\nDetails: https://langestefan.githu
+ b.io/powersystem-deadlines/preview/pr-4/conference/isie26
+LOCATION:Nagoya\, Japan
+URL;VALUE=URI:https://attend.ieee.org/isie-2026
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isie26-camera_ready@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260523
+TRANSP:TRANSPARENT
+SUMMARY:ISIE 2026: Final manuscript submission (extended) (23:59 Asia/Tokyo
+ )
+DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
+ 26)\n\nFinal manuscript submission (extended): 22 May 2026\, 23:59 Asia/To
+ kyo\n\nConference: June 23-26\, 2026\nLocation: Nagoya\, Japan\nVenue: WIN
+ C AICHI\n\nAll dates:\n  Full paper submission (extended): 15 Mar 2026\, 2
+ 3:59 Asia/Tokyo\n  Notification of paper acceptance (extended): 24 Apr 202
+ 6\, 23:59 UTC+12 (assumed)\n  Final manuscript submission (extended): 22 M
+ ay 2026\, 23:59 Asia/Tokyo\n  Early-bird registration: 22 May 2026\, 23:59
+  Asia/Tokyo\n  Work-in-progress papers: 25 May 2026\, 23:59 UTC+12 (assume
+ d)\n\nThe call for papers states no timezone. This is counted as UTC+12\, 
+ the earliest it could plausibly mean\, so the countdown runs out before th
+ e real deadline rather than after it.\n\n35th edition. The full paper dead
+ line was extended twice\, from 31 January 2026.\n\nCall for papers: https:
+ //attend.ieee.org/isie-2026\nDetails: https://langestefan.github.io/powers
+ ystem-deadlines/preview/pr-4/conference/isie26
+LOCATION:Nagoya\, Japan
+URL;VALUE=URI:https://attend.ieee.org/isie-2026
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isie26-early_registration@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260523
+TRANSP:TRANSPARENT
+SUMMARY:ISIE 2026: Early-bird registration (23:59 Asia/Tokyo)
+DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
+ 26)\n\nEarly-bird registration: 22 May 2026\, 23:59 Asia/Tokyo\n\nConferen
+ ce: June 23-26\, 2026\nLocation: Nagoya\, Japan\nVenue: WINC AICHI\n\nAll 
+ dates:\n  Full paper submission (extended): 15 Mar 2026\, 23:59 Asia/Tokyo
+ \n  Notification of paper acceptance (extended): 24 Apr 2026\, 23:59 UTC+1
+ 2 (assumed)\n  Final manuscript submission (extended): 22 May 2026\, 23:59
+  Asia/Tokyo\n  Early-bird registration: 22 May 2026\, 23:59 Asia/Tokyo\n  
+ Work-in-progress papers: 25 May 2026\, 23:59 UTC+12 (assumed)\n\nThe call 
+ for papers states no timezone. This is counted as UTC+12\, the earliest it
+  could plausibly mean\, so the countdown runs out before the real deadline
+  rather than after it.\n\n35th edition. The full paper deadline was extend
+ ed twice\, from 31 January 2026.\n\nCall for papers: https://attend.ieee.o
+ rg/isie-2026\nDetails: https://langestefan.github.io/powersystem-deadlines
+ /preview/pr-4/conference/isie26
+LOCATION:Nagoya\, Japan
+URL;VALUE=URI:https://attend.ieee.org/isie-2026
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isie26-paper-2@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
+TRANSP:TRANSPARENT
+SUMMARY:ISIE 2026: Work-in-progress papers (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
+ 26)\n\nWork-in-progress papers: 25 May 2026\, 23:59 UTC+12 (assumed)\n\nCo
+ nference: June 23-26\, 2026\nLocation: Nagoya\, Japan\nVenue: WINC AICHI\n
+ \nAll dates:\n  Full paper submission (extended): 15 Mar 2026\, 23:59 Asia
+ /Tokyo\n  Notification of paper acceptance (extended): 24 Apr 2026\, 23:59
+  UTC+12 (assumed)\n  Final manuscript submission (extended): 22 May 2026\,
+  23:59 Asia/Tokyo\n  Early-bird registration: 22 May 2026\, 23:59 Asia/Tok
+ yo\n  Work-in-progress papers: 25 May 2026\, 23:59 UTC+12 (assumed)\n\nThe
+  call for papers states no timezone. This is counted as UTC+12\, the earli
+ est it could plausibly mean\, so the countdown runs out before the real de
+ adline rather than after it.\n\n35th edition. The full paper deadline was 
+ extended twice\, from 31 January 2026.\n\nCall for papers: https://attend.
+ ieee.org/isie-2026\nDetails: https://langestefan.github.io/powersystem-dea
+ dlines/preview/pr-4/conference/isie26
+LOCATION:Nagoya\, Japan
+URL;VALUE=URI:https://attend.ieee.org/isie-2026
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isie26-event@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20260623
+DTEND;VALUE=DATE:20260627
+TRANSP:TRANSPARENT
+SUMMARY:ISIE 2026
+DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
+ 26)\n\nConference: June 23-26\, 2026\nLocation: Nagoya\, Japan\nVenue: WIN
+ C AICHI\n\nAll dates:\n  Full paper submission (extended): 15 Mar 2026\, 2
+ 3:59 Asia/Tokyo\n  Notification of paper acceptance (extended): 24 Apr 202
+ 6\, 23:59 UTC+12 (assumed)\n  Final manuscript submission (extended): 22 M
+ ay 2026\, 23:59 Asia/Tokyo\n  Early-bird registration: 22 May 2026\, 23:59
+  Asia/Tokyo\n  Work-in-progress papers: 25 May 2026\, 23:59 UTC+12 (assume
+ d)\n\nThe call for papers states no timezone. This is counted as UTC+12\, 
+ the earliest it could plausibly mean\, so the countdown runs out before th
+ e real deadline rather than after it.\n\n35th edition. The full paper dead
+ line was extended twice\, from 31 January 2026.\n\nCall for papers: https:
+ //attend.ieee.org/isie-2026\nDetails: https://langestefan.github.io/powers
+ ystem-deadlines/preview/pr-4/conference/isie26
+LOCATION:WINC AICHI\, Nagoya\, Japan
+URL;VALUE=URI:https://attend.ieee.org/isie-2026
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

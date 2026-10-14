@@ -1,0 +1,278 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ISIE 2027 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IEEE International Symposium on Indust
+ rial Electronics 2027.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/previe
+ w/pr-4/conference/isie27.ics
+BEGIN:VEVENT
+UID:isie27-workshop_proposal@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+TRANSP:TRANSPARENT
+SUMMARY:ISIE 2027: Special session proposal (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
+ 27)\n\nSpecial session proposal: 1 Nov 2026\, 23:59 UTC+12 (assumed)\n\nCo
+ nference: June 30 - July 3\, 2027\nLocation: Paris\, France\nVenue: Pierre
+  et Marie Curie Campus\n\nAll dates:\n  Special session proposal: 1 Nov 20
+ 26\, 23:59 UTC+12 (assumed)\n  Tutorial session proposal: 1 Nov 2026\, 23:
+ 59 UTC+12 (assumed)\n  Regular paper submission: 15 Dec 2026\, 23:59 UTC+1
+ 2 (assumed)\n  Panel session proposal: 1 Feb 2027\, 23:59 UTC+12 (assumed)
+ \n  Regular paper acceptance notification: 15 Mar 2027\, 23:59 UTC+12 (ass
+ umed)\n  Work-in-progress paper submission: 1 Apr 2027\, 23:59 UTC+12 (ass
+ umed)\n\nThe call for papers states no timezone. This is counted as UTC+12
+ \, the earliest it could plausibly mean\, so the countdown runs out before
+  the real deadline rather than after it.\n\n36th edition\, themed on indus
+ trial electronics for the energy transition and the digital transformation
+  of industry.\n\nCall for papers: https://isie2027.ieee-ies.org/\nDetails:
+  https://langestefan.github.io/powersystem-deadlines/preview/pr-4/conferen
+ ce/isie27
+LOCATION:Paris\, France
+URL;VALUE=URI:https://isie2027.ieee-ies.org/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isie27-tutorial_proposal@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+TRANSP:TRANSPARENT
+SUMMARY:ISIE 2027: Tutorial session proposal (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
+ 27)\n\nTutorial session proposal: 1 Nov 2026\, 23:59 UTC+12 (assumed)\n\nC
+ onference: June 30 - July 3\, 2027\nLocation: Paris\, France\nVenue: Pierr
+ e et Marie Curie Campus\n\nAll dates:\n  Special session proposal: 1 Nov 2
+ 026\, 23:59 UTC+12 (assumed)\n  Tutorial session proposal: 1 Nov 2026\, 23
+ :59 UTC+12 (assumed)\n  Regular paper submission: 15 Dec 2026\, 23:59 UTC+
+ 12 (assumed)\n  Panel session proposal: 1 Feb 2027\, 23:59 UTC+12 (assumed
+ )\n  Regular paper acceptance notification: 15 Mar 2027\, 23:59 UTC+12 (as
+ sumed)\n  Work-in-progress paper submission: 1 Apr 2027\, 23:59 UTC+12 (as
+ sumed)\n\nThe call for papers states no timezone. This is counted as UTC+1
+ 2\, the earliest it could plausibly mean\, so the countdown runs out befor
+ e the real deadline rather than after it.\n\n36th edition\, themed on indu
+ strial electronics for the energy transition and the digital transformatio
+ n of industry.\n\nCall for papers: https://isie2027.ieee-ies.org/\nDetails
+ : https://langestefan.github.io/powersystem-deadlines/preview/pr-4/confere
+ nce/isie27
+LOCATION:Paris\, France
+URL;VALUE=URI:https://isie2027.ieee-ies.org/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isie27-paper@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+TRANSP:TRANSPARENT
+SUMMARY:ISIE 2027: Regular paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
+ 27)\n\nRegular paper submission: 15 Dec 2026\, 23:59 UTC+12 (assumed)\n\nC
+ onference: June 30 - July 3\, 2027\nLocation: Paris\, France\nVenue: Pierr
+ e et Marie Curie Campus\n\nAll dates:\n  Special session proposal: 1 Nov 2
+ 026\, 23:59 UTC+12 (assumed)\n  Tutorial session proposal: 1 Nov 2026\, 23
+ :59 UTC+12 (assumed)\n  Regular paper submission: 15 Dec 2026\, 23:59 UTC+
+ 12 (assumed)\n  Panel session proposal: 1 Feb 2027\, 23:59 UTC+12 (assumed
+ )\n  Regular paper acceptance notification: 15 Mar 2027\, 23:59 UTC+12 (as
+ sumed)\n  Work-in-progress paper submission: 1 Apr 2027\, 23:59 UTC+12 (as
+ sumed)\n\nThe call for papers states no timezone. This is counted as UTC+1
+ 2\, the earliest it could plausibly mean\, so the countdown runs out befor
+ e the real deadline rather than after it.\n\n36th edition\, themed on indu
+ strial electronics for the energy transition and the digital transformatio
+ n of industry.\n\nCall for papers: https://isie2027.ieee-ies.org/\nDetails
+ : https://langestefan.github.io/powersystem-deadlines/preview/pr-4/confere
+ nce/isie27
+LOCATION:Paris\, France
+URL;VALUE=URI:https://isie2027.ieee-ies.org/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isie27-panel_proposal@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+TRANSP:TRANSPARENT
+SUMMARY:ISIE 2027: Panel session proposal (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
+ 27)\n\nPanel session proposal: 1 Feb 2027\, 23:59 UTC+12 (assumed)\n\nConf
+ erence: June 30 - July 3\, 2027\nLocation: Paris\, France\nVenue: Pierre e
+ t Marie Curie Campus\n\nAll dates:\n  Special session proposal: 1 Nov 2026
+ \, 23:59 UTC+12 (assumed)\n  Tutorial session proposal: 1 Nov 2026\, 23:59
+  UTC+12 (assumed)\n  Regular paper submission: 15 Dec 2026\, 23:59 UTC+12 
+ (assumed)\n  Panel session proposal: 1 Feb 2027\, 23:59 UTC+12 (assumed)\n
+   Regular paper acceptance notification: 15 Mar 2027\, 23:59 UTC+12 (assum
+ ed)\n  Work-in-progress paper submission: 1 Apr 2027\, 23:59 UTC+12 (assum
+ ed)\n\nThe call for papers states no timezone. This is counted as UTC+12\,
+  the earliest it could plausibly mean\, so the countdown runs out before t
+ he real deadline rather than after it.\n\n36th edition\, themed on industr
+ ial electronics for the energy transition and the digital transformation o
+ f industry.\n\nCall for papers: https://isie2027.ieee-ies.org/\nDetails: h
+ ttps://langestefan.github.io/powersystem-deadlines/preview/pr-4/conference
+ /isie27
+LOCATION:Paris\, France
+URL;VALUE=URI:https://isie2027.ieee-ies.org/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isie27-notification@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+TRANSP:TRANSPARENT
+SUMMARY:ISIE 2027: Regular paper acceptance notification (23:59 UTC+12 (ass
+ umed))
+DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
+ 27)\n\nRegular paper acceptance notification: 15 Mar 2027\, 23:59 UTC+12 (
+ assumed)\n\nConference: June 30 - July 3\, 2027\nLocation: Paris\, France\
+ nVenue: Pierre et Marie Curie Campus\n\nAll dates:\n  Special session prop
+ osal: 1 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial session proposal: 1 
+ Nov 2026\, 23:59 UTC+12 (assumed)\n  Regular paper submission: 15 Dec 2026
+ \, 23:59 UTC+12 (assumed)\n  Panel session proposal: 1 Feb 2027\, 23:59 UT
+ C+12 (assumed)\n  Regular paper acceptance notification: 15 Mar 2027\, 23:
+ 59 UTC+12 (assumed)\n  Work-in-progress paper submission: 1 Apr 2027\, 23:
+ 59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is cou
+ nted as UTC+12\, the earliest it could plausibly mean\, so the countdown r
+ uns out before the real deadline rather than after it.\n\n36th edition\, t
+ hemed on industrial electronics for the energy transition and the digital 
+ transformation of industry.\n\nCall for papers: https://isie2027.ieee-ies.
+ org/\nDetails: https://langestefan.github.io/powersystem-deadlines/preview
+ /pr-4/conference/isie27
+LOCATION:Paris\, France
+URL;VALUE=URI:https://isie2027.ieee-ies.org/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isie27-paper-2@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+TRANSP:TRANSPARENT
+SUMMARY:ISIE 2027: Work-in-progress paper submission (23:59 UTC+12 (assumed
+ ))
+DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
+ 27)\n\nWork-in-progress paper submission: 1 Apr 2027\, 23:59 UTC+12 (assum
+ ed)\n\nConference: June 30 - July 3\, 2027\nLocation: Paris\, France\nVenu
+ e: Pierre et Marie Curie Campus\n\nAll dates:\n  Special session proposal:
+  1 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial session proposal: 1 Nov 2
+ 026\, 23:59 UTC+12 (assumed)\n  Regular paper submission: 15 Dec 2026\, 23
+ :59 UTC+12 (assumed)\n  Panel session proposal: 1 Feb 2027\, 23:59 UTC+12 
+ (assumed)\n  Regular paper acceptance notification: 15 Mar 2027\, 23:59 UT
+ C+12 (assumed)\n  Work-in-progress paper submission: 1 Apr 2027\, 23:59 UT
+ C+12 (assumed)\n\nThe call for papers states no timezone. This is counted 
+ as UTC+12\, the earliest it could plausibly mean\, so the countdown runs o
+ ut before the real deadline rather than after it.\n\n36th edition\, themed
+  on industrial electronics for the energy transition and the digital trans
+ formation of industry.\n\nCall for papers: https://isie2027.ieee-ies.org/\
+ nDetails: https://langestefan.github.io/powersystem-deadlines/preview/pr-4
+ /conference/isie27
+LOCATION:Paris\, France
+URL;VALUE=URI:https://isie2027.ieee-ies.org/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isie27-event@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270704
+TRANSP:TRANSPARENT
+SUMMARY:ISIE 2027
+DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
+ 27)\n\nConference: June 30 - July 3\, 2027\nLocation: Paris\, France\nVenu
+ e: Pierre et Marie Curie Campus\n\nAll dates:\n  Special session proposal:
+  1 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial session proposal: 1 Nov 2
+ 026\, 23:59 UTC+12 (assumed)\n  Regular paper submission: 15 Dec 2026\, 23
+ :59 UTC+12 (assumed)\n  Panel session proposal: 1 Feb 2027\, 23:59 UTC+12 
+ (assumed)\n  Regular paper acceptance notification: 15 Mar 2027\, 23:59 UT
+ C+12 (assumed)\n  Work-in-progress paper submission: 1 Apr 2027\, 23:59 UT
+ C+12 (assumed)\n\nThe call for papers states no timezone. This is counted 
+ as UTC+12\, the earliest it could plausibly mean\, so the countdown runs o
+ ut before the real deadline rather than after it.\n\n36th edition\, themed
+  on industrial electronics for the energy transition and the digital trans
+ formation of industry.\n\nCall for papers: https://isie2027.ieee-ies.org/\
+ nDetails: https://langestefan.github.io/powersystem-deadlines/preview/pr-4
+ /conference/isie27
+LOCATION:Pierre et Marie Curie Campus\, Paris\, France
+URL;VALUE=URI:https://isie2027.ieee-ies.org/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

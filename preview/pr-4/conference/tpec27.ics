@@ -1,0 +1,284 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:TPEC 2027 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IEEE Texas Power and Energy Conference
+  2027.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/previe
+ w/pr-4/conference/tpec27.ics
+BEGIN:VEVENT
+UID:tpec27-paper@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+TRANSP:TRANSPARENT
+SUMMARY:TPEC 2027: Full paper (first period) (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Texas Power and Energy Conference (TPEC 2027)\n\nFull pape
+ r (first period): 15 Sept 2026\, 23:59 UTC+12 (assumed)\n\nConference: Feb
+ ruary 7-9\, 2027\nLocation: College Station\, USA\nVenue: Memorial Student
+  Center\, Texas A&M University\n\nAll dates:\n  Full paper (first period):
+  15 Sept 2026\, 23:59 UTC+12 (assumed)\n  Decision (first period): 5 Oct 2
+ 026\, 23:59 UTC+12 (assumed)\n  Full paper (second period): 15 Oct 2026\, 
+ 23:59 UTC+12 (assumed)\n  Decision (second period): 5 Nov 2026\, 23:59 UTC
+ +12 (assumed)\n  Full paper (third period): 15 Nov 2026\, 23:59 UTC+12 (as
+ sumed)\n  Decision (third period): 5 Jan 2027\, 23:59 UTC+12 (assumed)\n\n
+ The call for papers states no timezone. This is counted as UTC+12\, the ea
+ rliest it could plausibly mean\, so the countdown runs out before the real
+  deadline rather than after it.\n\nThree submission periods\; submitting i
+ n the first or second earns a cheaper registration rate. Papers are up to 
+ 6 pages and must be presented in person to reach IEEE Xplore.\n\nCall for 
+ papers: https://tpec.engr.tamu.edu/\nDetails: https://langestefan.github.i
+ o/powersystem-deadlines/preview/pr-4/conference/tpec27
+LOCATION:College Station\, USA
+URL;VALUE=URI:https://tpec.engr.tamu.edu/
+CATEGORIES:Power Systems,Power Electronics,Machines & Drives,Energy Markets
+ ,Cyber-Physical Security
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tpec27-notification@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+TRANSP:TRANSPARENT
+SUMMARY:TPEC 2027: Decision (first period) (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Texas Power and Energy Conference (TPEC 2027)\n\nDecision 
+ (first period): 5 Oct 2026\, 23:59 UTC+12 (assumed)\n\nConference: Februar
+ y 7-9\, 2027\nLocation: College Station\, USA\nVenue: Memorial Student Cen
+ ter\, Texas A&M University\n\nAll dates:\n  Full paper (first period): 15 
+ Sept 2026\, 23:59 UTC+12 (assumed)\n  Decision (first period): 5 Oct 2026\
+ , 23:59 UTC+12 (assumed)\n  Full paper (second period): 15 Oct 2026\, 23:5
+ 9 UTC+12 (assumed)\n  Decision (second period): 5 Nov 2026\, 23:59 UTC+12 
+ (assumed)\n  Full paper (third period): 15 Nov 2026\, 23:59 UTC+12 (assume
+ d)\n  Decision (third period): 5 Jan 2027\, 23:59 UTC+12 (assumed)\n\nThe 
+ call for papers states no timezone. This is counted as UTC+12\, the earlie
+ st it could plausibly mean\, so the countdown runs out before the real dea
+ dline rather than after it.\n\nThree submission periods\; submitting in th
+ e first or second earns a cheaper registration rate. Papers are up to 6 pa
+ ges and must be presented in person to reach IEEE Xplore.\n\nCall for pape
+ rs: https://tpec.engr.tamu.edu/\nDetails: https://langestefan.github.io/po
+ wersystem-deadlines/preview/pr-4/conference/tpec27
+LOCATION:College Station\, USA
+URL;VALUE=URI:https://tpec.engr.tamu.edu/
+CATEGORIES:Power Systems,Power Electronics,Machines & Drives,Energy Markets
+ ,Cyber-Physical Security
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tpec27-paper-2@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+TRANSP:TRANSPARENT
+SUMMARY:TPEC 2027: Full paper (second period) (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Texas Power and Energy Conference (TPEC 2027)\n\nFull pape
+ r (second period): 15 Oct 2026\, 23:59 UTC+12 (assumed)\n\nConference: Feb
+ ruary 7-9\, 2027\nLocation: College Station\, USA\nVenue: Memorial Student
+  Center\, Texas A&M University\n\nAll dates:\n  Full paper (first period):
+  15 Sept 2026\, 23:59 UTC+12 (assumed)\n  Decision (first period): 5 Oct 2
+ 026\, 23:59 UTC+12 (assumed)\n  Full paper (second period): 15 Oct 2026\, 
+ 23:59 UTC+12 (assumed)\n  Decision (second period): 5 Nov 2026\, 23:59 UTC
+ +12 (assumed)\n  Full paper (third period): 15 Nov 2026\, 23:59 UTC+12 (as
+ sumed)\n  Decision (third period): 5 Jan 2027\, 23:59 UTC+12 (assumed)\n\n
+ The call for papers states no timezone. This is counted as UTC+12\, the ea
+ rliest it could plausibly mean\, so the countdown runs out before the real
+  deadline rather than after it.\n\nThree submission periods\; submitting i
+ n the first or second earns a cheaper registration rate. Papers are up to 
+ 6 pages and must be presented in person to reach IEEE Xplore.\n\nCall for 
+ papers: https://tpec.engr.tamu.edu/\nDetails: https://langestefan.github.i
+ o/powersystem-deadlines/preview/pr-4/conference/tpec27
+LOCATION:College Station\, USA
+URL;VALUE=URI:https://tpec.engr.tamu.edu/
+CATEGORIES:Power Systems,Power Electronics,Machines & Drives,Energy Markets
+ ,Cyber-Physical Security
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tpec27-notification-2@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+TRANSP:TRANSPARENT
+SUMMARY:TPEC 2027: Decision (second period) (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Texas Power and Energy Conference (TPEC 2027)\n\nDecision 
+ (second period): 5 Nov 2026\, 23:59 UTC+12 (assumed)\n\nConference: Februa
+ ry 7-9\, 2027\nLocation: College Station\, USA\nVenue: Memorial Student Ce
+ nter\, Texas A&M University\n\nAll dates:\n  Full paper (first period): 15
+  Sept 2026\, 23:59 UTC+12 (assumed)\n  Decision (first period): 5 Oct 2026
+ \, 23:59 UTC+12 (assumed)\n  Full paper (second period): 15 Oct 2026\, 23:
+ 59 UTC+12 (assumed)\n  Decision (second period): 5 Nov 2026\, 23:59 UTC+12
+  (assumed)\n  Full paper (third period): 15 Nov 2026\, 23:59 UTC+12 (assum
+ ed)\n  Decision (third period): 5 Jan 2027\, 23:59 UTC+12 (assumed)\n\nThe
+  call for papers states no timezone. This is counted as UTC+12\, the earli
+ est it could plausibly mean\, so the countdown runs out before the real de
+ adline rather than after it.\n\nThree submission periods\; submitting in t
+ he first or second earns a cheaper registration rate. Papers are up to 6 p
+ ages and must be presented in person to reach IEEE Xplore.\n\nCall for pap
+ ers: https://tpec.engr.tamu.edu/\nDetails: https://langestefan.github.io/p
+ owersystem-deadlines/preview/pr-4/conference/tpec27
+LOCATION:College Station\, USA
+URL;VALUE=URI:https://tpec.engr.tamu.edu/
+CATEGORIES:Power Systems,Power Electronics,Machines & Drives,Energy Markets
+ ,Cyber-Physical Security
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tpec27-paper-3@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+TRANSP:TRANSPARENT
+SUMMARY:TPEC 2027: Full paper (third period) (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Texas Power and Energy Conference (TPEC 2027)\n\nFull pape
+ r (third period): 15 Nov 2026\, 23:59 UTC+12 (assumed)\n\nConference: Febr
+ uary 7-9\, 2027\nLocation: College Station\, USA\nVenue: Memorial Student 
+ Center\, Texas A&M University\n\nAll dates:\n  Full paper (first period): 
+ 15 Sept 2026\, 23:59 UTC+12 (assumed)\n  Decision (first period): 5 Oct 20
+ 26\, 23:59 UTC+12 (assumed)\n  Full paper (second period): 15 Oct 2026\, 2
+ 3:59 UTC+12 (assumed)\n  Decision (second period): 5 Nov 2026\, 23:59 UTC+
+ 12 (assumed)\n  Full paper (third period): 15 Nov 2026\, 23:59 UTC+12 (ass
+ umed)\n  Decision (third period): 5 Jan 2027\, 23:59 UTC+12 (assumed)\n\nT
+ he call for papers states no timezone. This is counted as UTC+12\, the ear
+ liest it could plausibly mean\, so the countdown runs out before the real 
+ deadline rather than after it.\n\nThree submission periods\; submitting in
+  the first or second earns a cheaper registration rate. Papers are up to 6
+  pages and must be presented in person to reach IEEE Xplore.\n\nCall for p
+ apers: https://tpec.engr.tamu.edu/\nDetails: https://langestefan.github.io
+ /powersystem-deadlines/preview/pr-4/conference/tpec27
+LOCATION:College Station\, USA
+URL;VALUE=URI:https://tpec.engr.tamu.edu/
+CATEGORIES:Power Systems,Power Electronics,Machines & Drives,Energy Markets
+ ,Cyber-Physical Security
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tpec27-notification-3@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+TRANSP:TRANSPARENT
+SUMMARY:TPEC 2027: Decision (third period) (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Texas Power and Energy Conference (TPEC 2027)\n\nDecision 
+ (third period): 5 Jan 2027\, 23:59 UTC+12 (assumed)\n\nConference: Februar
+ y 7-9\, 2027\nLocation: College Station\, USA\nVenue: Memorial Student Cen
+ ter\, Texas A&M University\n\nAll dates:\n  Full paper (first period): 15 
+ Sept 2026\, 23:59 UTC+12 (assumed)\n  Decision (first period): 5 Oct 2026\
+ , 23:59 UTC+12 (assumed)\n  Full paper (second period): 15 Oct 2026\, 23:5
+ 9 UTC+12 (assumed)\n  Decision (second period): 5 Nov 2026\, 23:59 UTC+12 
+ (assumed)\n  Full paper (third period): 15 Nov 2026\, 23:59 UTC+12 (assume
+ d)\n  Decision (third period): 5 Jan 2027\, 23:59 UTC+12 (assumed)\n\nThe 
+ call for papers states no timezone. This is counted as UTC+12\, the earlie
+ st it could plausibly mean\, so the countdown runs out before the real dea
+ dline rather than after it.\n\nThree submission periods\; submitting in th
+ e first or second earns a cheaper registration rate. Papers are up to 6 pa
+ ges and must be presented in person to reach IEEE Xplore.\n\nCall for pape
+ rs: https://tpec.engr.tamu.edu/\nDetails: https://langestefan.github.io/po
+ wersystem-deadlines/preview/pr-4/conference/tpec27
+LOCATION:College Station\, USA
+URL;VALUE=URI:https://tpec.engr.tamu.edu/
+CATEGORIES:Power Systems,Power Electronics,Machines & Drives,Energy Markets
+ ,Cyber-Physical Security
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tpec27-event@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270210
+TRANSP:TRANSPARENT
+SUMMARY:TPEC 2027
+DESCRIPTION:IEEE Texas Power and Energy Conference (TPEC 2027)\n\nConferenc
+ e: February 7-9\, 2027\nLocation: College Station\, USA\nVenue: Memorial S
+ tudent Center\, Texas A&M University\n\nAll dates:\n  Full paper (first pe
+ riod): 15 Sept 2026\, 23:59 UTC+12 (assumed)\n  Decision (first period): 5
+  Oct 2026\, 23:59 UTC+12 (assumed)\n  Full paper (second period): 15 Oct 2
+ 026\, 23:59 UTC+12 (assumed)\n  Decision (second period): 5 Nov 2026\, 23:
+ 59 UTC+12 (assumed)\n  Full paper (third period): 15 Nov 2026\, 23:59 UTC+
+ 12 (assumed)\n  Decision (third period): 5 Jan 2027\, 23:59 UTC+12 (assume
+ d)\n\nThe call for papers states no timezone. This is counted as UTC+12\, 
+ the earliest it could plausibly mean\, so the countdown runs out before th
+ e real deadline rather than after it.\n\nThree submission periods\; submit
+ ting in the first or second earns a cheaper registration rate. Papers are 
+ up to 6 pages and must be presented in person to reach IEEE Xplore.\n\nCal
+ l for papers: https://tpec.engr.tamu.edu/\nDetails: https://langestefan.gi
+ thub.io/powersystem-deadlines/preview/pr-4/conference/tpec27
+LOCATION:Memorial Student Center\, Texas A&M University\, College Station\,
+  USA
+URL;VALUE=URI:https://tpec.engr.tamu.edu/
+CATEGORIES:Power Systems,Power Electronics,Machines & Drives,Energy Markets
+ ,Cyber-Physical Security
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

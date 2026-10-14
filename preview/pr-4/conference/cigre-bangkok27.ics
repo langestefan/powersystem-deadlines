@@ -1,0 +1,351 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CIGRE Symposium 2027 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for CIGRE International Symposium 2027.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/previe
+ w/pr-4/conference/cigre-bangkok27.ics
+BEGIN:VEVENT
+UID:cigre-bangkok27-abstract@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027: Synopsis upload (23:59 UTC+12 (assumed))
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nSynopsi
+ s upload: 11 Jan 2027\, 23:59 UTC+12 (assumed)\n\nConference: November 8-1
+ 2\, 2027\nLocation: Bangkok\, Thailand\nVenue: Queen Sirikit National Conv
+ ention Center (QSNCC)\n\nAll dates:\n  Synopsis upload: 11 Jan 2027\, 23:5
+ 9 UTC+12 (assumed)\n  Selection of synopses by SCs: 14 Feb 2027\, 23:59 UT
+ C+12 (assumed)\n  Full paper upload: 25 Jul 2027\, 23:59 UTC+12 (assumed)\
+ n  Feedback to authors of full papers: 12 Sept 2027\, 23:59 UTC+12 (assume
+ d)\n  Final papers: 26 Sept 2027\, 23:59 UTC+12 (assumed)\n  Final papers 
+ on ConfTool: 10 Oct 2027\, 23:59 UTC+12 (assumed)\n  PowerPoint presentati
+ on: 24 Oct 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no 
+ timezone. This is counted as UTC+12\, the earliest it could plausibly mean
+ \, so the countdown runs out before the real deadline rather than after it
+ .\n\nTheme "Shaping the Future of Grids – Resilience\, Intelligence\, an
+ d Innovation for the Energy Transition"\, hosted by CIGRE Thailand. The sy
+ nopsis portal opened on 7 September 2026.\n\nCall for papers: https://www.
+ cigre.org/event/symposium/2027/TH/bangkok/call-for-papers-cigre-symposium-
+ 2027\nDetails: https://langestefan.github.io/powersystem-deadlines/preview
+ /pr-4/conference/cigre-bangkok27
+LOCATION:Bangkok\, Thailand
+URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
+ r-papers-cigre-symposium-2027
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-bangkok27-notification@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027: Selection of synopses by SCs (23:59 UTC+12 (a
+ ssumed))
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nSelecti
+ on of synopses by SCs: 14 Feb 2027\, 23:59 UTC+12 (assumed)\n\nConference:
+  November 8-12\, 2027\nLocation: Bangkok\, Thailand\nVenue: Queen Sirikit 
+ National Convention Center (QSNCC)\n\nAll dates:\n  Synopsis upload: 11 Ja
+ n 2027\, 23:59 UTC+12 (assumed)\n  Selection of synopses by SCs: 14 Feb 20
+ 27\, 23:59 UTC+12 (assumed)\n  Full paper upload: 25 Jul 2027\, 23:59 UTC+
+ 12 (assumed)\n  Feedback to authors of full papers: 12 Sept 2027\, 23:59 U
+ TC+12 (assumed)\n  Final papers: 26 Sept 2027\, 23:59 UTC+12 (assumed)\n  
+ Final papers on ConfTool: 10 Oct 2027\, 23:59 UTC+12 (assumed)\n  PowerPoi
+ nt presentation: 24 Oct 2027\, 23:59 UTC+12 (assumed)\n\nThe call for pape
+ rs states no timezone. This is counted as UTC+12\, the earliest it could p
+ lausibly mean\, so the countdown runs out before the real deadline rather 
+ than after it.\n\nTheme "Shaping the Future of Grids – Resilience\, Inte
+ lligence\, and Innovation for the Energy Transition"\, hosted by CIGRE Tha
+ iland. The synopsis portal opened on 7 September 2026.\n\nCall for papers:
+  https://www.cigre.org/event/symposium/2027/TH/bangkok/call-for-papers-cig
+ re-symposium-2027\nDetails: https://langestefan.github.io/powersystem-dead
+ lines/preview/pr-4/conference/cigre-bangkok27
+LOCATION:Bangkok\, Thailand
+URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
+ r-papers-cigre-symposium-2027
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-bangkok27-paper@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20270725
+DTEND;VALUE=DATE:20270726
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027: Full paper upload (23:59 UTC+12 (assumed))
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFull pa
+ per upload: 25 Jul 2027\, 23:59 UTC+12 (assumed)\n\nConference: November 8
+ -12\, 2027\nLocation: Bangkok\, Thailand\nVenue: Queen Sirikit National Co
+ nvention Center (QSNCC)\n\nAll dates:\n  Synopsis upload: 11 Jan 2027\, 23
+ :59 UTC+12 (assumed)\n  Selection of synopses by SCs: 14 Feb 2027\, 23:59 
+ UTC+12 (assumed)\n  Full paper upload: 25 Jul 2027\, 23:59 UTC+12 (assumed
+ )\n  Feedback to authors of full papers: 12 Sept 2027\, 23:59 UTC+12 (assu
+ med)\n  Final papers: 26 Sept 2027\, 23:59 UTC+12 (assumed)\n  Final paper
+ s on ConfTool: 10 Oct 2027\, 23:59 UTC+12 (assumed)\n  PowerPoint presenta
+ tion: 24 Oct 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states n
+ o timezone. This is counted as UTC+12\, the earliest it could plausibly me
+ an\, so the countdown runs out before the real deadline rather than after 
+ it.\n\nTheme "Shaping the Future of Grids – Resilience\, Intelligence\, 
+ and Innovation for the Energy Transition"\, hosted by CIGRE Thailand. The 
+ synopsis portal opened on 7 September 2026.\n\nCall for papers: https://ww
+ w.cigre.org/event/symposium/2027/TH/bangkok/call-for-papers-cigre-symposiu
+ m-2027\nDetails: https://langestefan.github.io/powersystem-deadlines/previ
+ ew/pr-4/conference/cigre-bangkok27
+LOCATION:Bangkok\, Thailand
+URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
+ r-papers-cigre-symposium-2027
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-bangkok27-notification-2@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20270912
+DTEND;VALUE=DATE:20270913
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027: Feedback to authors of full papers (23:59 UTC
+ +12 (assumed))
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFeedbac
+ k to authors of full papers: 12 Sept 2027\, 23:59 UTC+12 (assumed)\n\nConf
+ erence: November 8-12\, 2027\nLocation: Bangkok\, Thailand\nVenue: Queen S
+ irikit National Convention Center (QSNCC)\n\nAll dates:\n  Synopsis upload
+ : 11 Jan 2027\, 23:59 UTC+12 (assumed)\n  Selection of synopses by SCs: 14
+  Feb 2027\, 23:59 UTC+12 (assumed)\n  Full paper upload: 25 Jul 2027\, 23:
+ 59 UTC+12 (assumed)\n  Feedback to authors of full papers: 12 Sept 2027\, 
+ 23:59 UTC+12 (assumed)\n  Final papers: 26 Sept 2027\, 23:59 UTC+12 (assum
+ ed)\n  Final papers on ConfTool: 10 Oct 2027\, 23:59 UTC+12 (assumed)\n  P
+ owerPoint presentation: 24 Oct 2027\, 23:59 UTC+12 (assumed)\n\nThe call f
+ or papers states no timezone. This is counted as UTC+12\, the earliest it 
+ could plausibly mean\, so the countdown runs out before the real deadline 
+ rather than after it.\n\nTheme "Shaping the Future of Grids – Resilience
+ \, Intelligence\, and Innovation for the Energy Transition"\, hosted by CI
+ GRE Thailand. The synopsis portal opened on 7 September 2026.\n\nCall for 
+ papers: https://www.cigre.org/event/symposium/2027/TH/bangkok/call-for-pap
+ ers-cigre-symposium-2027\nDetails: https://langestefan.github.io/powersyst
+ em-deadlines/preview/pr-4/conference/cigre-bangkok27
+LOCATION:Bangkok\, Thailand
+URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
+ r-papers-cigre-symposium-2027
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-bangkok27-camera_ready@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027: Final papers (23:59 UTC+12 (assumed))
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFinal p
+ apers: 26 Sept 2027\, 23:59 UTC+12 (assumed)\n\nConference: November 8-12\
+ , 2027\nLocation: Bangkok\, Thailand\nVenue: Queen Sirikit National Conven
+ tion Center (QSNCC)\n\nAll dates:\n  Synopsis upload: 11 Jan 2027\, 23:59 
+ UTC+12 (assumed)\n  Selection of synopses by SCs: 14 Feb 2027\, 23:59 UTC+
+ 12 (assumed)\n  Full paper upload: 25 Jul 2027\, 23:59 UTC+12 (assumed)\n 
+  Feedback to authors of full papers: 12 Sept 2027\, 23:59 UTC+12 (assumed)
+ \n  Final papers: 26 Sept 2027\, 23:59 UTC+12 (assumed)\n  Final papers on
+  ConfTool: 10 Oct 2027\, 23:59 UTC+12 (assumed)\n  PowerPoint presentation
+ : 24 Oct 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no ti
+ mezone. This is counted as UTC+12\, the earliest it could plausibly mean\,
+  so the countdown runs out before the real deadline rather than after it.\
+ n\nTheme "Shaping the Future of Grids – Resilience\, Intelligence\, and 
+ Innovation for the Energy Transition"\, hosted by CIGRE Thailand. The syno
+ psis portal opened on 7 September 2026.\n\nCall for papers: https://www.ci
+ gre.org/event/symposium/2027/TH/bangkok/call-for-papers-cigre-symposium-20
+ 27\nDetails: https://langestefan.github.io/powersystem-deadlines/preview/p
+ r-4/conference/cigre-bangkok27
+LOCATION:Bangkok\, Thailand
+URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
+ r-papers-cigre-symposium-2027
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-bangkok27-camera_ready-2@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20271010
+DTEND;VALUE=DATE:20271011
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027: Final papers on ConfTool (23:59 UTC+12 (assum
+ ed))
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFinal p
+ apers on ConfTool: 10 Oct 2027\, 23:59 UTC+12 (assumed)\n\nConference: Nov
+ ember 8-12\, 2027\nLocation: Bangkok\, Thailand\nVenue: Queen Sirikit Nati
+ onal Convention Center (QSNCC)\n\nAll dates:\n  Synopsis upload: 11 Jan 20
+ 27\, 23:59 UTC+12 (assumed)\n  Selection of synopses by SCs: 14 Feb 2027\,
+  23:59 UTC+12 (assumed)\n  Full paper upload: 25 Jul 2027\, 23:59 UTC+12 (
+ assumed)\n  Feedback to authors of full papers: 12 Sept 2027\, 23:59 UTC+1
+ 2 (assumed)\n  Final papers: 26 Sept 2027\, 23:59 UTC+12 (assumed)\n  Fina
+ l papers on ConfTool: 10 Oct 2027\, 23:59 UTC+12 (assumed)\n  PowerPoint p
+ resentation: 24 Oct 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers s
+ tates no timezone. This is counted as UTC+12\, the earliest it could plaus
+ ibly mean\, so the countdown runs out before the real deadline rather than
+  after it.\n\nTheme "Shaping the Future of Grids – Resilience\, Intellig
+ ence\, and Innovation for the Energy Transition"\, hosted by CIGRE Thailan
+ d. The synopsis portal opened on 7 September 2026.\n\nCall for papers: htt
+ ps://www.cigre.org/event/symposium/2027/TH/bangkok/call-for-papers-cigre-s
+ ymposium-2027\nDetails: https://langestefan.github.io/powersystem-deadline
+ s/preview/pr-4/conference/cigre-bangkok27
+LOCATION:Bangkok\, Thailand
+URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
+ r-papers-cigre-symposium-2027
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-bangkok27-presentation_upload@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027: PowerPoint presentation (23:59 UTC+12 (assume
+ d))
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nPowerPo
+ int presentation: 24 Oct 2027\, 23:59 UTC+12 (assumed)\n\nConference: Nove
+ mber 8-12\, 2027\nLocation: Bangkok\, Thailand\nVenue: Queen Sirikit Natio
+ nal Convention Center (QSNCC)\n\nAll dates:\n  Synopsis upload: 11 Jan 202
+ 7\, 23:59 UTC+12 (assumed)\n  Selection of synopses by SCs: 14 Feb 2027\, 
+ 23:59 UTC+12 (assumed)\n  Full paper upload: 25 Jul 2027\, 23:59 UTC+12 (a
+ ssumed)\n  Feedback to authors of full papers: 12 Sept 2027\, 23:59 UTC+12
+  (assumed)\n  Final papers: 26 Sept 2027\, 23:59 UTC+12 (assumed)\n  Final
+  papers on ConfTool: 10 Oct 2027\, 23:59 UTC+12 (assumed)\n  PowerPoint pr
+ esentation: 24 Oct 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers st
+ ates no timezone. This is counted as UTC+12\, the earliest it could plausi
+ bly mean\, so the countdown runs out before the real deadline rather than 
+ after it.\n\nTheme "Shaping the Future of Grids – Resilience\, Intellige
+ nce\, and Innovation for the Energy Transition"\, hosted by CIGRE Thailand
+ . The synopsis portal opened on 7 September 2026.\n\nCall for papers: http
+ s://www.cigre.org/event/symposium/2027/TH/bangkok/call-for-papers-cigre-sy
+ mposium-2027\nDetails: https://langestefan.github.io/powersystem-deadlines
+ /preview/pr-4/conference/cigre-bangkok27
+LOCATION:Bangkok\, Thailand
+URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
+ r-papers-cigre-symposium-2027
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-bangkok27-event@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20271108
+DTEND;VALUE=DATE:20271113
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nConfere
+ nce: November 8-12\, 2027\nLocation: Bangkok\, Thailand\nVenue: Queen Siri
+ kit National Convention Center (QSNCC)\n\nAll dates:\n  Synopsis upload: 1
+ 1 Jan 2027\, 23:59 UTC+12 (assumed)\n  Selection of synopses by SCs: 14 Fe
+ b 2027\, 23:59 UTC+12 (assumed)\n  Full paper upload: 25 Jul 2027\, 23:59 
+ UTC+12 (assumed)\n  Feedback to authors of full papers: 12 Sept 2027\, 23:
+ 59 UTC+12 (assumed)\n  Final papers: 26 Sept 2027\, 23:59 UTC+12 (assumed)
+ \n  Final papers on ConfTool: 10 Oct 2027\, 23:59 UTC+12 (assumed)\n  Powe
+ rPoint presentation: 24 Oct 2027\, 23:59 UTC+12 (assumed)\n\nThe call for 
+ papers states no timezone. This is counted as UTC+12\, the earliest it cou
+ ld plausibly mean\, so the countdown runs out before the real deadline rat
+ her than after it.\n\nTheme "Shaping the Future of Grids – Resilience\, 
+ Intelligence\, and Innovation for the Energy Transition"\, hosted by CIGRE
+  Thailand. The synopsis portal opened on 7 September 2026.\n\nCall for pap
+ ers: https://www.cigre.org/event/symposium/2027/TH/bangkok/call-for-papers
+ -cigre-symposium-2027\nDetails: https://langestefan.github.io/powersystem-
+ deadlines/preview/pr-4/conference/cigre-bangkok27
+LOCATION:Queen Sirikit National Convention Center (QSNCC)\, Bangkok\, Thail
+ and
+URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
+ r-papers-cigre-symposium-2027
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

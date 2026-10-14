@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:COMPEL 2027 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IEEE Workshop on Control and Modeling 
+ for Power Electronics 2027.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/previe
+ w/pr-4/conference/compel27.ics
+BEGIN:VEVENT
+UID:compel27-event@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20270613
+DTEND;VALUE=DATE:20270617
+TRANSP:TRANSPARENT
+SUMMARY:COMPEL 2027
+DESCRIPTION:IEEE Workshop on Control and Modeling for Power Electronics (CO
+ MPEL 2027)\n\nConference: June 13-16\, 2027\nLocation: Austin\, USA\n\nNot
+  yet announced: Digest submission\n\nDates and city are from the IEEE PELS
+  conference schedule\; the call for papers had not been published as of 14
+  October 2026.\n\nCall for papers: https://www.ieee-pels.org/conferences/\
+ nDetails: https://langestefan.github.io/powersystem-deadlines/preview/pr-4
+ /conference/compel27
+LOCATION:Austin\, USA
+URL;VALUE=URI:https://www.ieee-pels.org/conferences/
+CATEGORIES:Power Electronics,Computation & Optimization
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

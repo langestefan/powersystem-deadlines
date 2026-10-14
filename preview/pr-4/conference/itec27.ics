@@ -1,0 +1,185 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITEC 2027 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IEEE Transportation Electrification Co
+ nference and Expo 2027.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/previe
+ w/pr-4/conference/itec27.ics
+BEGIN:VEVENT
+UID:itec27-paper@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+TRANSP:TRANSPARENT
+SUMMARY:ITEC 2027: Final paper proposal digest submission (23:59 UTC+12 (as
+ sumed))
+DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
+ 027)\n\nFinal paper proposal digest submission: 20 Nov 2026\, 23:59 UTC+12
+  (assumed)\n\nConference: June 16-18\, 2027\nLocation: Novi\, USA\nVenue: 
+ VIBE Credit Union Showplace\n\nAll dates:\n  Final paper proposal digest s
+ ubmission: 20 Nov 2026\, 23:59 UTC+12 (assumed)\n  Author notification of 
+ acceptance: 1 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submis
+ sion: 1 Apr 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 1 Apr 20
+ 27\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. Thi
+ s is counted as UTC+12\, the earliest it could plausibly mean\, so the cou
+ ntdown runs out before the real deadline rather than after it.\n\nCall for
+  papers: https://itec-conf.com/\nDetails: https://langestefan.github.io/po
+ wersystem-deadlines/preview/pr-4/conference/itec27
+LOCATION:Novi\, USA
+URL;VALUE=URI:https://itec-conf.com/authors/call-for-papers/
+CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
+ torage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:itec27-notification@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+TRANSP:TRANSPARENT
+SUMMARY:ITEC 2027: Author notification of acceptance (23:59 UTC+12 (assumed
+ ))
+DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
+ 027)\n\nAuthor notification of acceptance: 1 Mar 2027\, 23:59 UTC+12 (assu
+ med)\n\nConference: June 16-18\, 2027\nLocation: Novi\, USA\nVenue: VIBE C
+ redit Union Showplace\n\nAll dates:\n  Final paper proposal digest submiss
+ ion: 20 Nov 2026\, 23:59 UTC+12 (assumed)\n  Author notification of accept
+ ance: 1 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 
+ 1 Apr 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 1 Apr 2027\, 2
+ 3:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is c
+ ounted as UTC+12\, the earliest it could plausibly mean\, so the countdown
+  runs out before the real deadline rather than after it.\n\nCall for paper
+ s: https://itec-conf.com/\nDetails: https://langestefan.github.io/powersys
+ tem-deadlines/preview/pr-4/conference/itec27
+LOCATION:Novi\, USA
+URL;VALUE=URI:https://itec-conf.com/
+CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
+ torage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:itec27-camera_ready@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+TRANSP:TRANSPARENT
+SUMMARY:ITEC 2027: Final manuscript submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
+ 027)\n\nFinal manuscript submission: 1 Apr 2027\, 23:59 UTC+12 (assumed)\n
+ \nConference: June 16-18\, 2027\nLocation: Novi\, USA\nVenue: VIBE Credit 
+ Union Showplace\n\nAll dates:\n  Final paper proposal digest submission: 2
+ 0 Nov 2026\, 23:59 UTC+12 (assumed)\n  Author notification of acceptance: 
+ 1 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 1 Apr 
+ 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 1 Apr 2027\, 23:59 U
+ TC+12 (assumed)\n\nThe call for papers states no timezone. This is counted
+  as UTC+12\, the earliest it could plausibly mean\, so the countdown runs 
+ out before the real deadline rather than after it.\n\nCall for papers: htt
+ ps://itec-conf.com/\nDetails: https://langestefan.github.io/powersystem-de
+ adlines/preview/pr-4/conference/itec27
+LOCATION:Novi\, USA
+URL;VALUE=URI:https://itec-conf.com/
+CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
+ torage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:itec27-author_registration@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+TRANSP:TRANSPARENT
+SUMMARY:ITEC 2027: Author registration (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
+ 027)\n\nAuthor registration: 1 Apr 2027\, 23:59 UTC+12 (assumed)\n\nConfer
+ ence: June 16-18\, 2027\nLocation: Novi\, USA\nVenue: VIBE Credit Union Sh
+ owplace\n\nAll dates:\n  Final paper proposal digest submission: 20 Nov 20
+ 26\, 23:59 UTC+12 (assumed)\n  Author notification of acceptance: 1 Mar 20
+ 27\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 1 Apr 2027\, 2
+ 3:59 UTC+12 (assumed)\n  Author registration: 1 Apr 2027\, 23:59 UTC+12 (a
+ ssumed)\n\nThe call for papers states no timezone. This is counted as UTC+
+ 12\, the earliest it could plausibly mean\, so the countdown runs out befo
+ re the real deadline rather than after it.\n\nCall for papers: https://ite
+ c-conf.com/\nDetails: https://langestefan.github.io/powersystem-deadlines/
+ preview/pr-4/conference/itec27
+LOCATION:Novi\, USA
+URL;VALUE=URI:https://itec-conf.com/
+CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
+ torage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:itec27-event@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20270616
+DTEND;VALUE=DATE:20270619
+TRANSP:TRANSPARENT
+SUMMARY:ITEC 2027
+DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
+ 027)\n\nConference: June 16-18\, 2027\nLocation: Novi\, USA\nVenue: VIBE C
+ redit Union Showplace\n\nAll dates:\n  Final paper proposal digest submiss
+ ion: 20 Nov 2026\, 23:59 UTC+12 (assumed)\n  Author notification of accept
+ ance: 1 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 
+ 1 Apr 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 1 Apr 2027\, 2
+ 3:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is c
+ ounted as UTC+12\, the earliest it could plausibly mean\, so the countdown
+  runs out before the real deadline rather than after it.\n\nCall for paper
+ s: https://itec-conf.com/\nDetails: https://langestefan.github.io/powersys
+ tem-deadlines/preview/pr-4/conference/itec27
+LOCATION:VIBE Credit Union Showplace\, Novi\, USA
+URL;VALUE=URI:https://itec-conf.com/
+CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
+ torage
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

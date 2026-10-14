@@ -1,0 +1,184 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IAEE European 2026 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IAEE European Conference 2026.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/previe
+ w/pr-4/conference/iaee-european26.ics
+BEGIN:VEVENT
+UID:iaee-european26-abstract@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20260410
+DTEND;VALUE=DATE:20260411
+TRANSP:TRANSPARENT
+SUMMARY:IAEE European 2026: Abstract submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IAEE European Conference (IAEE European 2026)\n\nAbstract submi
+ ssion: 10 Apr 2026\, 23:59 UTC+12 (assumed)\n\nConference: September 6-10\
+ , 2026\nLocation: Munich\, Germany\n\nAll dates:\n  Abstract submission: 1
+ 0 Apr 2026\, 23:59 UTC+12 (assumed)\n  Best paper submission: 8 May 2026\,
+  23:59 UTC+12 (assumed)\n  Notification of acceptance: 22 May 2026\, 23:59
+  UTC+12 (assumed)\n  Early bird registration: 3 Jul 2026\, 23:59 UTC+12 (a
+ ssumed)\n\nThe call for papers states no timezone. This is counted as UTC+
+ 12\, the earliest it could plausibly mean\, so the countdown runs out befo
+ re the real deadline rather than after it.\n\n19th IAEE European Conferenc
+ e\, supported by the Technical University of Munich\, with a PhD day on 3-
+ 5 September 2026.\n\nCall for papers: https://iaee.org/events/2026-europea
+ n-conference\nDetails: https://langestefan.github.io/powersystem-deadlines
+ /preview/pr-4/conference/iaee-european26
+LOCATION:Munich\, Germany
+URL;VALUE=URI:https://iaee.org/events/2026-european-conference
+CATEGORIES:Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iaee-european26-best_paper@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20260508
+DTEND;VALUE=DATE:20260509
+TRANSP:TRANSPARENT
+SUMMARY:IAEE European 2026: Best paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IAEE European Conference (IAEE European 2026)\n\nBest paper sub
+ mission: 8 May 2026\, 23:59 UTC+12 (assumed)\n\nConference: September 6-10
+ \, 2026\nLocation: Munich\, Germany\n\nAll dates:\n  Abstract submission: 
+ 10 Apr 2026\, 23:59 UTC+12 (assumed)\n  Best paper submission: 8 May 2026\
+ , 23:59 UTC+12 (assumed)\n  Notification of acceptance: 22 May 2026\, 23:5
+ 9 UTC+12 (assumed)\n  Early bird registration: 3 Jul 2026\, 23:59 UTC+12 (
+ assumed)\n\nThe call for papers states no timezone. This is counted as UTC
+ +12\, the earliest it could plausibly mean\, so the countdown runs out bef
+ ore the real deadline rather than after it.\n\n19th IAEE European Conferen
+ ce\, supported by the Technical University of Munich\, with a PhD day on 3
+ -5 September 2026.\n\nCall for papers: https://iaee.org/events/2026-europe
+ an-conference\nDetails: https://langestefan.github.io/powersystem-deadline
+ s/preview/pr-4/conference/iaee-european26
+LOCATION:Munich\, Germany
+URL;VALUE=URI:https://iaee.org/events/2026-european-conference
+CATEGORIES:Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iaee-european26-notification@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260523
+TRANSP:TRANSPARENT
+SUMMARY:IAEE European 2026: Notification of acceptance (23:59 UTC+12 (assum
+ ed))
+DESCRIPTION:IAEE European Conference (IAEE European 2026)\n\nNotification o
+ f acceptance: 22 May 2026\, 23:59 UTC+12 (assumed)\n\nConference: Septembe
+ r 6-10\, 2026\nLocation: Munich\, Germany\n\nAll dates:\n  Abstract submis
+ sion: 10 Apr 2026\, 23:59 UTC+12 (assumed)\n  Best paper submission: 8 May
+  2026\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 22 May 2026\
+ , 23:59 UTC+12 (assumed)\n  Early bird registration: 3 Jul 2026\, 23:59 UT
+ C+12 (assumed)\n\nThe call for papers states no timezone. This is counted 
+ as UTC+12\, the earliest it could plausibly mean\, so the countdown runs o
+ ut before the real deadline rather than after it.\n\n19th IAEE European Co
+ nference\, supported by the Technical University of Munich\, with a PhD da
+ y on 3-5 September 2026.\n\nCall for papers: https://iaee.org/events/2026-
+ european-conference\nDetails: https://langestefan.github.io/powersystem-de
+ adlines/preview/pr-4/conference/iaee-european26
+LOCATION:Munich\, Germany
+URL;VALUE=URI:https://iaee.org/events/2026-european-conference
+CATEGORIES:Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iaee-european26-early_registration@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+TRANSP:TRANSPARENT
+SUMMARY:IAEE European 2026: Early bird registration (23:59 UTC+12 (assumed)
+ )
+DESCRIPTION:IAEE European Conference (IAEE European 2026)\n\nEarly bird reg
+ istration: 3 Jul 2026\, 23:59 UTC+12 (assumed)\n\nConference: September 6-
+ 10\, 2026\nLocation: Munich\, Germany\n\nAll dates:\n  Abstract submission
+ : 10 Apr 2026\, 23:59 UTC+12 (assumed)\n  Best paper submission: 8 May 202
+ 6\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 22 May 2026\, 23
+ :59 UTC+12 (assumed)\n  Early bird registration: 3 Jul 2026\, 23:59 UTC+12
+  (assumed)\n\nThe call for papers states no timezone. This is counted as U
+ TC+12\, the earliest it could plausibly mean\, so the countdown runs out b
+ efore the real deadline rather than after it.\n\n19th IAEE European Confer
+ ence\, supported by the Technical University of Munich\, with a PhD day on
+  3-5 September 2026.\n\nCall for papers: https://iaee.org/events/2026-euro
+ pean-conference\nDetails: https://langestefan.github.io/powersystem-deadli
+ nes/preview/pr-4/conference/iaee-european26
+LOCATION:Munich\, Germany
+URL;VALUE=URI:https://iaee.org/events/2026-european-conference
+CATEGORIES:Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iaee-european26-event@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260911
+TRANSP:TRANSPARENT
+SUMMARY:IAEE European 2026
+DESCRIPTION:IAEE European Conference (IAEE European 2026)\n\nConference: Se
+ ptember 6-10\, 2026\nLocation: Munich\, Germany\n\nAll dates:\n  Abstract 
+ submission: 10 Apr 2026\, 23:59 UTC+12 (assumed)\n  Best paper submission:
+  8 May 2026\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 22 May
+  2026\, 23:59 UTC+12 (assumed)\n  Early bird registration: 3 Jul 2026\, 23
+ :59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is co
+ unted as UTC+12\, the earliest it could plausibly mean\, so the countdown 
+ runs out before the real deadline rather than after it.\n\n19th IAEE Europ
+ ean Conference\, supported by the Technical University of Munich\, with a 
+ PhD day on 3-5 September 2026.\n\nCall for papers: https://iaee.org/events
+ /2026-european-conference\nDetails: https://langestefan.github.io/powersys
+ tem-deadlines/preview/pr-4/conference/iaee-european26
+LOCATION:Munich\, Germany
+URL;VALUE=URI:https://iaee.org/events/2026-european-conference
+CATEGORIES:Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

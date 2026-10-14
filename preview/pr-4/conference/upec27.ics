@@ -1,0 +1,203 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UPEC 2027 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for International Universities Power Engin
+ eering Conference 2027.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/previe
+ w/pr-4/conference/upec27.ics
+BEGIN:VEVENT
+UID:upec27-paper@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+TRANSP:TRANSPARENT
+SUMMARY:UPEC 2027: Paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:International Universities Power Engineering Conference (UPEC 2
+ 027)\n\nPaper submission: 30 Apr 2027\, 23:59 UTC+12 (assumed)\n\nConferen
+ ce: August 31 - September 3\, 2027\nLocation: Larnaca\, Cyprus\nVenue: Rad
+ isson Beach Resort\n\nAll dates:\n  Paper submission: 30 Apr 2027\, 23:59 
+ UTC+12 (assumed)\n  Notification of acceptance: 18 Jun 2027\, 23:59 UTC+12
+  (assumed)\n  Early bird registration: 25 Jun 2027\, 23:59 UTC+12 (assumed
+ )\n  Camera-ready paper and copyright transfer: 16 Jul 2027\, 23:59 UTC+12
+  (assumed)\n\nThe call for papers states no timezone. This is counted as U
+ TC+12\, the earliest it could plausibly mean\, so the countdown runs out b
+ efore the real deadline rather than after it.\n\n62nd edition\, organised 
+ by Frederick University and the PHAETHON Centre of Excellence\, themed on 
+ decarbonising the grid through multi-sector synergies. Paper submission op
+ ens on 1 February 2027\; early submissions get rolling notification.\n\nCa
+ ll for papers: https://cyprusconferences.org/upec2027/\nDetails: https://l
+ angestefan.github.io/powersystem-deadlines/preview/pr-4/conference/upec27
+LOCATION:Larnaca\, Cyprus
+URL;VALUE=URI:https://cyprusconferences.org/upec2027/
+CATEGORIES:Power Systems,Smart Grid,Renewables,Energy Markets,EV & Transpor
+ tation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:upec27-notification@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20270618
+DTEND;VALUE=DATE:20270619
+TRANSP:TRANSPARENT
+SUMMARY:UPEC 2027: Notification of acceptance (23:59 UTC+12 (assumed))
+DESCRIPTION:International Universities Power Engineering Conference (UPEC 2
+ 027)\n\nNotification of acceptance: 18 Jun 2027\, 23:59 UTC+12 (assumed)\n
+ \nConference: August 31 - September 3\, 2027\nLocation: Larnaca\, Cyprus\n
+ Venue: Radisson Beach Resort\n\nAll dates:\n  Paper submission: 30 Apr 202
+ 7\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 18 Jun 2027\, 23
+ :59 UTC+12 (assumed)\n  Early bird registration: 25 Jun 2027\, 23:59 UTC+1
+ 2 (assumed)\n  Camera-ready paper and copyright transfer: 16 Jul 2027\, 23
+ :59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is co
+ unted as UTC+12\, the earliest it could plausibly mean\, so the countdown 
+ runs out before the real deadline rather than after it.\n\n62nd edition\, 
+ organised by Frederick University and the PHAETHON Centre of Excellence\, 
+ themed on decarbonising the grid through multi-sector synergies. Paper sub
+ mission opens on 1 February 2027\; early submissions get rolling notificat
+ ion.\n\nCall for papers: https://cyprusconferences.org/upec2027/\nDetails:
+  https://langestefan.github.io/powersystem-deadlines/preview/pr-4/conferen
+ ce/upec27
+LOCATION:Larnaca\, Cyprus
+URL;VALUE=URI:https://cyprusconferences.org/upec2027/
+CATEGORIES:Power Systems,Smart Grid,Renewables,Energy Markets,EV & Transpor
+ tation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:upec27-early_registration@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20270625
+DTEND;VALUE=DATE:20270626
+TRANSP:TRANSPARENT
+SUMMARY:UPEC 2027: Early bird registration (23:59 UTC+12 (assumed))
+DESCRIPTION:International Universities Power Engineering Conference (UPEC 2
+ 027)\n\nEarly bird registration: 25 Jun 2027\, 23:59 UTC+12 (assumed)\n\nC
+ onference: August 31 - September 3\, 2027\nLocation: Larnaca\, Cyprus\nVen
+ ue: Radisson Beach Resort\n\nAll dates:\n  Paper submission: 30 Apr 2027\,
+  23:59 UTC+12 (assumed)\n  Notification of acceptance: 18 Jun 2027\, 23:59
+  UTC+12 (assumed)\n  Early bird registration: 25 Jun 2027\, 23:59 UTC+12 (
+ assumed)\n  Camera-ready paper and copyright transfer: 16 Jul 2027\, 23:59
+  UTC+12 (assumed)\n\nThe call for papers states no timezone. This is count
+ ed as UTC+12\, the earliest it could plausibly mean\, so the countdown run
+ s out before the real deadline rather than after it.\n\n62nd edition\, org
+ anised by Frederick University and the PHAETHON Centre of Excellence\, the
+ med on decarbonising the grid through multi-sector synergies. Paper submis
+ sion opens on 1 February 2027\; early submissions get rolling notification
+ .\n\nCall for papers: https://cyprusconferences.org/upec2027/\nDetails: ht
+ tps://langestefan.github.io/powersystem-deadlines/preview/pr-4/conference/
+ upec27
+LOCATION:Larnaca\, Cyprus
+URL;VALUE=URI:https://cyprusconferences.org/upec2027/
+CATEGORIES:Power Systems,Smart Grid,Renewables,Energy Markets,EV & Transpor
+ tation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:upec27-camera_ready@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20270716
+DTEND;VALUE=DATE:20270717
+TRANSP:TRANSPARENT
+SUMMARY:UPEC 2027: Camera-ready paper and copyright transfer (23:59 UTC+12 
+ (assumed))
+DESCRIPTION:International Universities Power Engineering Conference (UPEC 2
+ 027)\n\nCamera-ready paper and copyright transfer: 16 Jul 2027\, 23:59 UTC
+ +12 (assumed)\n\nConference: August 31 - September 3\, 2027\nLocation: Lar
+ naca\, Cyprus\nVenue: Radisson Beach Resort\n\nAll dates:\n  Paper submiss
+ ion: 30 Apr 2027\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 1
+ 8 Jun 2027\, 23:59 UTC+12 (assumed)\n  Early bird registration: 25 Jun 202
+ 7\, 23:59 UTC+12 (assumed)\n  Camera-ready paper and copyright transfer: 1
+ 6 Jul 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timez
+ one. This is counted as UTC+12\, the earliest it could plausibly mean\, so
+  the countdown runs out before the real deadline rather than after it.\n\n
+ 62nd edition\, organised by Frederick University and the PHAETHON Centre o
+ f Excellence\, themed on decarbonising the grid through multi-sector syner
+ gies. Paper submission opens on 1 February 2027\; early submissions get ro
+ lling notification.\n\nCall for papers: https://cyprusconferences.org/upec
+ 2027/\nDetails: https://langestefan.github.io/powersystem-deadlines/previe
+ w/pr-4/conference/upec27
+LOCATION:Larnaca\, Cyprus
+URL;VALUE=URI:https://cyprusconferences.org/upec2027/
+CATEGORIES:Power Systems,Smart Grid,Renewables,Energy Markets,EV & Transpor
+ tation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:upec27-event@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20270831
+DTEND;VALUE=DATE:20270904
+TRANSP:TRANSPARENT
+SUMMARY:UPEC 2027
+DESCRIPTION:International Universities Power Engineering Conference (UPEC 2
+ 027)\n\nConference: August 31 - September 3\, 2027\nLocation: Larnaca\, Cy
+ prus\nVenue: Radisson Beach Resort\n\nAll dates:\n  Paper submission: 30 A
+ pr 2027\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 18 Jun 202
+ 7\, 23:59 UTC+12 (assumed)\n  Early bird registration: 25 Jun 2027\, 23:59
+  UTC+12 (assumed)\n  Camera-ready paper and copyright transfer: 16 Jul 202
+ 7\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This
+  is counted as UTC+12\, the earliest it could plausibly mean\, so the coun
+ tdown runs out before the real deadline rather than after it.\n\n62nd edit
+ ion\, organised by Frederick University and the PHAETHON Centre of Excelle
+ nce\, themed on decarbonising the grid through multi-sector synergies. Pap
+ er submission opens on 1 February 2027\; early submissions get rolling not
+ ification.\n\nCall for papers: https://cyprusconferences.org/upec2027/\nDe
+ tails: https://langestefan.github.io/powersystem-deadlines/preview/pr-4/co
+ nference/upec27
+LOCATION:Radisson Beach Resort\, Larnaca\, Cyprus
+URL;VALUE=URI:https://cyprusconferences.org/upec2027/
+CATEGORIES:Power Systems,Smart Grid,Renewables,Energy Markets,EV & Transpor
+ tation
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

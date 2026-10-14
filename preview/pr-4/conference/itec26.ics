@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITEC 2026 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IEEE Transportation Electrification Co
+ nference and Expo 2026.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/previe
+ w/pr-4/conference/itec26.ics
+BEGIN:VEVENT
+UID:itec26-event@langestefan.github.io
+DTSTAMP:20261014T100920Z
+DTSTART;VALUE=DATE:20260610
+DTEND;VALUE=DATE:20260613
+TRANSP:TRANSPARENT
+SUMMARY:ITEC 2026
+DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
+ 026)\n\nConference: June 10-12\, 2026\nLocation: Novi\, USA\nVenue: VIBE C
+ redit Union Showplace\n\nSubmission had already closed when this entry was
+  added\, so no deadlines are recorded for this edition.\n\nCall for papers
+ : https://itec-conf.com/\nDetails: https://langestefan.github.io/powersyst
+ em-deadlines/preview/pr-4/conference/itec26
+LOCATION:VIBE Credit Union Showplace\, Novi\, USA
+URL;VALUE=URI:https://itec-conf.com/
+CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
+ torage
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

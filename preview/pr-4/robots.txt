@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://langestefan.github.io/powersystem-deadlines/preview/pr-4/sitemap-index.xml
