@@ -1,0 +1,63 @@
+name: ECCE Asia
+full_name: IEEE Energy Conversion Congress and Exposition Asia
+link: https://www.ieee-pels.org/conferences/ecce-asia/
+society:
+  - IEEE PELS
+  - Other
+frequency: annual
+tags:
+  - power-electronics
+  - machines-drives
+  - renewables
+  - energy-storage
+description: >-
+  The Asian edition of ECCE, sponsored by IEEE PELS. It rotates between the host
+  conferences of several countries: ICPE in Korea, IPEC in Japan, IPEMC in China
+  and others, each running as that year's ECCE Asia.
+
+editions:
+  - year: 2026
+    id: ecce-asia26
+    city: Nagasaki
+    country: Japan
+    date: May 31 - June 4, 2026
+    verified: 2026-10-14
+    start: 2026-05-31
+    end: 2026-06-04
+    format: in-person
+    proceedings: IEEE Xplore
+    deadlines: []
+    note: >-
+      Held as IPEC-Nagasaki 2026 (International Power Electronics Conference).
+      Submission had already closed when this entry was added, so no deadlines
+      are recorded for this edition.
+
+  - year: 2027
+    id: ecce-asia27
+    link: https://www.icpe-conf.org/
+    city: Seoul
+    country: South Korea
+    venue: COEX Magok
+    date: May 23-26, 2027
+    verified: 2026-10-14
+    start: 2027-05-23
+    end: 2027-05-26
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: extended-abstract
+    deadlines:
+      - type: paper
+        label: Digest submission
+        date: '2026-10-25 23:59:59'
+      - type: notification
+        label: Acceptance notification
+        date: '2027-01-15 23:59:59'
+      - type: camera_ready
+        label: Final manuscript submission
+        date: '2027-03-12 23:59:59'
+      - type: early_registration
+        label: Early registration
+        date: '2027-03-31 23:59:59'
+    note: >-
+      Held as ICPE 2027-ECCE Asia, the 12th International Conference on Power
+      Electronics.
