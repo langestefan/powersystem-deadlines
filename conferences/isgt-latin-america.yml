@@ -1,0 +1,31 @@
+name: ISGT Latin America
+full_name: IEEE PES Innovative Smart Grid Technologies Conference Latin America
+link: https://www.ieee-isgt-latam.org/
+society:
+  - IEEE PES
+frequency: biennial
+tags:
+  - smart-grid
+  - renewables
+  - energy-storage
+  - power-systems
+description: >-
+  The Latin American edition of IEEE PES ISGT, on smart grids, renewable
+  integration, storage and the regulation that enables them.
+
+editions:
+  - year: 2027
+    id: isgt-latam27
+    region: Latin America
+    date: 2027, dates to be announced
+    verified: 2026-10-14
+    format: in-person
+    proceedings: IEEE Xplore
+    deadlines:
+      - type: paper
+        label: Full paper submission
+        date: 'TBA'
+    note: >-
+      The series runs every two years; the last edition was in Panama City in
+      September 2025. Host city and call for papers not yet announced as of
+      14 October 2026.
