@@ -1,0 +1,90 @@
+name: CIGRE Symposium
+full_name: CIGRE International Symposium
+link: https://www.cigre.org/GB/events/cigre-symposia
+society:
+  - CIGRE
+frequency: irregular
+tags:
+  - power-systems
+  - transmission
+  - distribution
+  - hvdc-facts
+  - energy-markets
+description: >-
+  CIGRE's international symposia, held between the biennial Paris Sessions and
+  hosted by national committees. Each one has its own theme and preferential
+  subjects drawn from the CIGRE Study Committees.
+
+editions:
+  - year: 2027
+    id: cigre-heidelberg27
+    link: https://www.cigresymposium2027.de/
+    city: Heidelberg
+    country: Germany
+    venue: Heidelberg Congress Center
+    date: April 27-30, 2027
+    verified: 2026-10-14
+    start: 2027-04-27
+    end: 2027-04-30
+    format: in-person
+    submission_type: abstract-first
+    deadlines:
+      - type: abstract
+        label: Synopsis submission
+        date: '2026-11-02 23:59:59'
+      - type: notification
+        label: Synopsis selection and author notification
+        date: '2026-11-30 23:59:59'
+      - type: paper
+        label: Full paper
+        date: '2027-02-07 23:59:59'
+      - type: notification
+        label: Feedback to full-paper authors
+        date: '2027-03-07 23:59:59'
+      - type: camera_ready
+        label: Final papers to ConfTool
+        date: '2027-03-29 23:59:59'
+    note: >-
+      Theme "One Grid – Technological Innovations for Integrated Power Systems",
+      hosted by the German National Committee and held alongside the VDE ETG
+      Kongress (26-27 April) at the same venue. Synopses are submitted through
+      ConfTool; all synopses, papers and presentations must be in English.
+
+  - year: 2027
+    id: cigre-bangkok27
+    link: https://www.cigre.org/event/symposium/2027/TH/bangkok/call-for-papers-cigre-symposium-2027
+    city: Bangkok
+    country: Thailand
+    venue: Queen Sirikit National Convention Center (QSNCC)
+    date: November 8-12, 2027
+    verified: 2026-10-14
+    start: 2027-11-08
+    end: 2027-11-12
+    format: in-person
+    submission_type: abstract-first
+    deadlines:
+      - type: abstract
+        label: Synopsis upload
+        date: '2027-01-11 23:59:59'
+      - type: notification
+        label: Selection of synopses by SCs
+        date: '2027-02-14 23:59:59'
+      - type: paper
+        label: Full paper upload
+        date: '2027-07-25 23:59:59'
+      - type: notification
+        label: Feedback to authors of full papers
+        date: '2027-09-12 23:59:59'
+      - type: camera_ready
+        label: Final papers
+        date: '2027-09-26 23:59:59'
+      - type: camera_ready
+        label: Final papers on ConfTool
+        date: '2027-10-10 23:59:59'
+      - type: presentation_upload
+        label: PowerPoint presentation
+        date: '2027-10-24 23:59:59'
+    note: >-
+      Theme "Shaping the Future of Grids – Resilience, Intelligence, and
+      Innovation for the Energy Transition", hosted by CIGRE Thailand. The
+      synopsis portal opened on 7 September 2026.
