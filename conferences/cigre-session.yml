@@ -1,0 +1,74 @@
+name: CIGRE Session
+full_name: CIGRE Paris Session
+link: https://session.cigre.org/
+society:
+  - CIGRE
+frequency: biennial
+tags:
+  - power-systems
+  - transmission
+  - distribution
+  - hvdc-facts
+  - protection-automation
+  - energy-markets
+description: >-
+  CIGRE's biennial general session in Paris, covering all sixteen Study
+  Committees from equipment and HVDC to system operation, markets and
+  regulation. Synopses and papers go through the author's CIGRE National
+  Committee.
+
+editions:
+  - year: 2026
+    id: cigre-session26
+    city: Paris
+    country: France
+    venue: Palais des Congrès de Paris
+    date: August 23-28, 2026
+    verified: 2026-10-14
+    start: 2026-08-23
+    end: 2026-08-28
+    format: in-person
+    submission_type: abstract-first
+    deadlines:
+      - type: abstract
+        label: Synopsis to the National Committee
+        date: '2025-07-07 23:59:59'
+      - type: notification
+        label: Synopsis acceptance notification
+        date: '2025-10-20 23:59:59'
+      - type: paper
+        label: Full paper to the National Committee
+        date: '2026-01-12 23:59:59'
+      - type: camera_ready
+        label: Revised version
+        date: '2026-04-10 23:59:59'
+      - type: notification
+        label: Full paper acceptance notification
+        date: '2026-05-11 23:59:59'
+      - type: poster
+        label: Poster
+        date: '2026-06-29 23:59:59'
+      - type: presentation_upload
+        label: Contributions at the session
+        date: '2026-08-07 23:59:59'
+    note: >-
+      Deadlines are those for authors submitting through a National Committee;
+      authors from countries without one had later deadlines with the Central
+      Office.
+
+  - year: 2028
+    id: cigre-session28
+    city: Paris
+    country: France
+    date: 2028, dates to be announced
+    verified: 2026-10-14
+    format: in-person
+    submission_type: abstract-first
+    deadlines:
+      - type: abstract
+        label: Synopsis submission
+        date: 'TBA'
+    note: >-
+      The Paris Session is held every even year in late August. The call for
+      papers had not been published as of 14 October 2026; for 2026 the
+      synopsis deadline was about thirteen months before the session.
