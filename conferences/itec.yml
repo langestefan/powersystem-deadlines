@@ -1,0 +1,61 @@
+name: ITEC
+full_name: IEEE Transportation Electrification Conference and Expo
+link: https://itec-conf.com/
+society:
+  - IEEE PELS
+  - IEEE PES
+  - IEEE IAS
+frequency: annual
+tags:
+  - ev-transportation
+  - power-electronics
+  - machines-drives
+  - energy-storage
+description: >-
+  The IEEE conference and expo on electrified transportation: electric
+  vehicles, charging and grid interface, batteries, machines and drives, and the
+  power electronics behind them.
+
+editions:
+  - year: 2026
+    id: itec26
+    city: Novi
+    country: USA
+    venue: VIBE Credit Union Showplace
+    date: June 10-12, 2026
+    verified: 2026-10-14
+    start: 2026-06-10
+    end: 2026-06-12
+    format: in-person
+    proceedings: IEEE Xplore
+    deadlines: []
+    note: >-
+      Submission had already closed when this entry was added, so no deadlines
+      are recorded for this edition.
+
+  - year: 2027
+    id: itec27
+    city: Novi
+    country: USA
+    venue: VIBE Credit Union Showplace
+    date: June 16-18, 2027
+    verified: 2026-10-14
+    start: 2027-06-16
+    end: 2027-06-18
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: extended-abstract
+    deadlines:
+      - type: paper
+        label: Final paper proposal digest submission
+        date: '2026-11-20 23:59:59'
+        link: https://itec-conf.com/authors/call-for-papers/
+      - type: notification
+        label: Author notification of acceptance
+        date: '2027-03-01 23:59:59'
+      - type: camera_ready
+        label: Final manuscript submission
+        date: '2027-04-01 23:59:59'
+      - type: author_registration
+        label: Author registration
+        date: '2027-04-01 23:59:59'
