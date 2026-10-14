@@ -1,0 +1,59 @@
+name: PowerAfrica
+full_name: IEEE PES/IAS PowerAfrica Conference
+link: https://ieee-powerafrica.org/
+society:
+  - IEEE PES
+  - IEEE IAS
+frequency: annual
+tags:
+  - power-systems
+  - renewables
+  - distribution
+  - microgrids
+description: >-
+  The IEEE PES and IAS conference for power and energy in Africa, covering
+  resilient energy systems, electrification, renewables and industrial
+  decarbonisation.
+
+editions:
+  - year: 2026
+    id: powerafrica26
+    city: Nairobi
+    country: Kenya
+    venue: Safari Park
+    date: September 21-25, 2026
+    verified: 2026-10-14
+    start: 2026-09-21
+    end: 2026-09-25
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    deadlines:
+      - type: paper
+        label: Paper submission (extended)
+        date: '2026-04-30 23:59:59'
+      - type: notification
+        label: Notification of acceptance (extended)
+        date: '2026-06-01 23:59:59'
+      - type: camera_ready
+        label: Camera ready submission
+        date: '2026-06-22 23:59:59'
+      - type: early_registration
+        label: Early bird registration (extended)
+        date: '2026-09-07 23:59:59'
+    note: >-
+      The paper deadline was extended from 7 April 2026.
+
+  - year: 2027
+    id: powerafrica27
+    region: Africa
+    date: 2027, dates to be announced
+    verified: 2026-10-14
+    format: in-person
+    proceedings: IEEE Xplore
+    deadlines:
+      - type: paper
+        label: Paper submission
+        date: 'TBA'
+    note: >-
+      Host city and call for papers not yet announced as of 14 October 2026.
