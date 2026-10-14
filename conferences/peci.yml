@@ -1,0 +1,54 @@
+name: PECI
+full_name: IEEE Power and Energy Conference at Illinois
+link: https://peci.ece.illinois.edu/
+society:
+  - Other
+frequency: annual
+tags:
+  - power-systems
+  - power-electronics
+  - renewables
+description: >-
+  A student-run power and energy conference at the University of Illinois
+  Urbana-Champaign, open to all areas of power and energy systems, with a
+  digest-first submission process and a poster track.
+
+editions:
+  - year: 2026
+    id: peci26
+    city: Urbana-Champaign
+    country: USA
+    venue: Electrical and Computer Engineering Building (ECEB), UIUC
+    date: April 16-17, 2026
+    verified: 2026-10-14
+    start: 2026-04-16
+    end: 2026-04-17
+    format: in-person
+    deadlines: []
+    note: >-
+      17th edition. Submission had already closed when this entry was added, so
+      no deadlines are recorded for this edition.
+
+  - year: 2027
+    id: peci27
+    city: Urbana-Champaign
+    country: USA
+    venue: Electrical and Computer Engineering Building (ECEB), UIUC
+    date: April 15-16, 2027
+    verified: 2026-10-14
+    start: 2027-04-15
+    end: 2027-04-16
+    format: in-person
+    submission_type: extended-abstract
+    deadlines:
+      - type: paper
+        label: Digest submission
+        date: '2027-01-22 23:59:59'
+      - type: notification
+        label: Acceptance notification
+        date: '2027-02-26 23:59:59'
+      - type: camera_ready
+        label: Final paper submission
+        date: '2027-03-26 23:59:59'
+    note: >-
+      18th edition, themed "Reliability in an Era of Rapid Power Growth".
