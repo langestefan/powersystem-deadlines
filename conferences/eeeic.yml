@@ -1,0 +1,60 @@
+name: EEEIC
+full_name: IEEE International Conference on Environment and Electrical Engineering
+link: https://www.eeeic.net/
+society:
+  - Other
+frequency: annual
+tags:
+  - power-systems
+  - renewables
+  - smart-grid
+  - energy-storage
+  - power-quality
+description: >-
+  A European conference on electrical engineering and the environment: power
+  systems and smart grids, renewable integration, storage, power quality and
+  energy efficiency. Held together with IEEE Industrial and Commercial Power
+  Systems Europe.
+
+editions:
+  - year: 2026
+    id: eeeic26
+    city: Lisbon
+    country: Portugal
+    venue: Centro de Congressos, Instituto Superior Técnico
+    date: June 29 - July 2, 2026
+    verified: 2026-10-14
+    start: 2026-06-29
+    end: 2026-07-02
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    deadlines:
+      - type: workshop_proposal
+        label: Special session proposal
+        date: '2026-01-01 23:59:59'
+      - type: paper
+        label: Paper submission end
+        date: '2026-05-11 23:59:59'
+      - type: early_registration
+        label: Early bird registration
+        date: '2026-05-31 23:59:59'
+    note: >-
+      26th edition. Submission opened on 2 February 2026. Papers were
+      notified within three weeks of submission and final versions were due
+      two weeks after notification. The site lists both 4 May and 11 May 2026
+      as the end of submission; the later date is recorded here.
+
+  - year: 2027
+    id: eeeic27
+    region: Europe
+    date: 2027, dates to be announced
+    verified: 2026-10-14
+    format: in-person
+    deadlines:
+      - type: paper
+        label: Paper submission
+        date: 'TBA'
+    note: >-
+      27th edition. The conference has run every year; neither the host city
+      nor the call for papers had been announced as of 14 October 2026.
