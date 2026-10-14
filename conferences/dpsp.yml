@@ -1,0 +1,97 @@
+name: DPSP
+full_name: IET International Conference on Developments in Power System Protection
+link: https://dpsp.theiet.org/
+society:
+  - IET
+frequency: annual
+tags:
+  - protection-automation
+  - power-systems
+  - cyber-physical-security
+description: >-
+  The IET's conference on power system protection, aimed at both utility
+  engineers and researchers. It alternates between a Global edition in London
+  and regional editions in Europe and Asia-Pacific.
+
+editions:
+  - year: 2026
+    id: dpsp-global26
+    city: London
+    country: United Kingdom
+    venue: 'IET London: Savoy Place'
+    date: March 2-6, 2026
+    verified: 2026-10-14
+    start: 2026-03-02
+    end: 2026-03-06
+    format: in-person
+    proceedings: IET Conference Proceedings
+    submission_type: abstract-first
+    deadlines:
+      - type: abstract
+        label: Abstract submission (extended)
+        date: '2025-07-11 23:59:59'
+      - type: paper
+        label: Full paper submission
+        date: '2025-10-31 23:59:59'
+      - type: notification
+        label: Author notification
+        date: '2025-12-10 23:59:59'
+      - type: author_registration
+        label: Author registration
+        date: '2025-12-22 23:59:59'
+      - type: presentation_upload
+        label: Final presentation submission
+        date: '2026-02-20 23:59:59'
+    note: >-
+      20th edition (DPSP Global 2026).
+
+  - year: 2027
+    id: dpsp-europe27
+    link: https://dpsp.theiet.org/2027-europe
+    city: Munich
+    country: Germany
+    venue: Hilton Munich City
+    date: April 14-16, 2027
+    verified: 2026-10-14
+    start: 2027-04-14
+    end: 2027-04-16
+    format: in-person
+    proceedings: IET Conference Proceedings
+    submission_type: full-paper
+    deadlines:
+      - type: paper
+        label: Full paper submission
+        date: '2026-10-30 23:59:59'
+      - type: notification
+        label: Author notification
+        date: '2027-01-22 23:59:59'
+      - type: author_registration
+        label: Author registration
+        date: '2027-02-08 23:59:59'
+      - type: presentation_upload
+        label: Presentation submission
+        date: '2027-03-15 23:59:59'
+    note: >-
+      DPSP Europe 2027, co-hosted with TU Munich. Full papers only, with no
+      separate abstract stage; papers are indexed in IET Inspec, IEEE Xplore,
+      Ei Compendex and Scopus.
+
+  - year: 2028
+    id: dpsp-global28
+    link: https://dpsp.theiet.org/2028-global
+    city: London
+    country: United Kingdom
+    venue: 'IET London: Savoy Place'
+    date: March 27-30, 2028
+    verified: 2026-10-14
+    start: 2028-03-27
+    end: 2028-03-30
+    format: in-person
+    proceedings: IET Conference Proceedings
+    deadlines:
+      - type: paper
+        label: Paper submission
+        date: 'TBA'
+    note: >-
+      DPSP Global 2028. The call for submissions had not been published as of
+      14 October 2026.
