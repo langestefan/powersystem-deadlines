@@ -1,0 +1,34 @@
+name: GT&D Latin America
+full_name: IEEE PES Generation, Transmission and Distribution Conference and Exposition Latin America
+link: https://gtdla27.ieee.org.co/
+society:
+  - IEEE PES
+frequency: irregular
+tags:
+  - power-systems
+  - transmission
+  - distribution
+  - renewables
+description: >-
+  The IEEE PES conference and exposition for generation, transmission and
+  distribution in Latin America, bringing together utilities, industry and
+  academia from across the region.
+
+editions:
+  - year: 2027
+    id: gtd-latam27
+    city: Medellín
+    country: Colombia
+    date: March 8-10, 2027
+    verified: 2026-10-14
+    start: 2027-03-08
+    end: 2027-03-10
+    format: in-person
+    proceedings: IEEE Xplore
+    deadlines:
+      - type: paper
+        label: Paper submission
+        date: '2026-11-01 23:59:59'
+        link: https://easychair.org/conferences/?conf=ieeepesgtdlatinameri0
+    note: >-
+      Submissions go through EasyChair. The conference website is in Spanish.
