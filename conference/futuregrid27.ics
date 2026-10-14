@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FutureGrid (GreenTech) 2027 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IEEE FutureGrid Conference and Expo (f
+ ormerly IEEE Green Technologies Conference) 2027.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
+ ence/futuregrid27.ics
+BEGIN:VEVENT
+UID:futuregrid27-event@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20271003
+DTEND;VALUE=DATE:20271007
+TRANSP:TRANSPARENT
+SUMMARY:FutureGrid (GreenTech) 2027
+DESCRIPTION:IEEE FutureGrid Conference and Expo (formerly IEEE Green Techno
+ logies Conference) (FutureGrid (GreenTech) 2027)\n\nConference: October 3-
+ 6\, 2027\nLocation: Denver\, USA\n\nNot yet announced: Paper submission\n\
+ nFirst edition under the FutureGrid name. Dates are from the conference we
+ bsite and the city from the IEEE PELS conference schedule (which gives 4-6
+  October\, likely the main programme). The call for papers had not been pu
+ blished as of 14 October 2026.\n\nCall for papers: https://ieeegreentech.o
+ rg/\nDetails: https://langestefan.github.io/powersystem-deadlines/conferen
+ ce/futuregrid27
+LOCATION:Denver\, USA
+URL;VALUE=URI:https://ieeegreentech.org/
+CATEGORIES:Renewables,Smart Grid,Energy Storage,Power Systems
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

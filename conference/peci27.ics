@@ -1,0 +1,144 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PECI 2027 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IEEE Power and Energy Conference at Il
+ linois 2027.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
+ ence/peci27.ics
+BEGIN:VEVENT
+UID:peci27-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+TRANSP:TRANSPARENT
+SUMMARY:PECI 2027: Digest submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Power and Energy Conference at Illinois (PECI 2027)\n\nDig
+ est submission: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n\nConference: April 
+ 15-16\, 2027\nLocation: Urbana-Champaign\, USA\nVenue: Electrical and Comp
+ uter Engineering Building (ECEB)\, UIUC\n\nAll dates:\n  Digest submission
+ : 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Acceptance notification: 26 Feb 
+ 2027\, 23:59 UTC+12 (assumed)\n  Final paper submission: 26 Mar 2027\, 23:
+ 59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is cou
+ nted as UTC+12\, the earliest it could plausibly mean\, so the countdown r
+ uns out before the real deadline rather than after it.\n\n18th edition\, t
+ hemed "Reliability in an Era of Rapid Power Growth".\n\nCall for papers: h
+ ttps://peci.ece.illinois.edu/\nDetails: https://langestefan.github.io/powe
+ rsystem-deadlines/conference/peci27
+LOCATION:Urbana-Champaign\, USA
+URL;VALUE=URI:https://peci.ece.illinois.edu/
+CATEGORIES:Power Systems,Power Electronics,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:peci27-notification@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+TRANSP:TRANSPARENT
+SUMMARY:PECI 2027: Acceptance notification (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Power and Energy Conference at Illinois (PECI 2027)\n\nAcc
+ eptance notification: 26 Feb 2027\, 23:59 UTC+12 (assumed)\n\nConference: 
+ April 15-16\, 2027\nLocation: Urbana-Champaign\, USA\nVenue: Electrical an
+ d Computer Engineering Building (ECEB)\, UIUC\n\nAll dates:\n  Digest subm
+ ission: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Acceptance notification: 2
+ 6 Feb 2027\, 23:59 UTC+12 (assumed)\n  Final paper submission: 26 Mar 2027
+ \, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This 
+ is counted as UTC+12\, the earliest it could plausibly mean\, so the count
+ down runs out before the real deadline rather than after it.\n\n18th editi
+ on\, themed "Reliability in an Era of Rapid Power Growth".\n\nCall for pap
+ ers: https://peci.ece.illinois.edu/\nDetails: https://langestefan.github.i
+ o/powersystem-deadlines/conference/peci27
+LOCATION:Urbana-Champaign\, USA
+URL;VALUE=URI:https://peci.ece.illinois.edu/
+CATEGORIES:Power Systems,Power Electronics,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:peci27-camera_ready@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+TRANSP:TRANSPARENT
+SUMMARY:PECI 2027: Final paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Power and Energy Conference at Illinois (PECI 2027)\n\nFin
+ al paper submission: 26 Mar 2027\, 23:59 UTC+12 (assumed)\n\nConference: A
+ pril 15-16\, 2027\nLocation: Urbana-Champaign\, USA\nVenue: Electrical and
+  Computer Engineering Building (ECEB)\, UIUC\n\nAll dates:\n  Digest submi
+ ssion: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Acceptance notification: 26
+  Feb 2027\, 23:59 UTC+12 (assumed)\n  Final paper submission: 26 Mar 2027\
+ , 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This i
+ s counted as UTC+12\, the earliest it could plausibly mean\, so the countd
+ own runs out before the real deadline rather than after it.\n\n18th editio
+ n\, themed "Reliability in an Era of Rapid Power Growth".\n\nCall for pape
+ rs: https://peci.ece.illinois.edu/\nDetails: https://langestefan.github.io
+ /powersystem-deadlines/conference/peci27
+LOCATION:Urbana-Champaign\, USA
+URL;VALUE=URI:https://peci.ece.illinois.edu/
+CATEGORIES:Power Systems,Power Electronics,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:peci27-event@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270417
+TRANSP:TRANSPARENT
+SUMMARY:PECI 2027
+DESCRIPTION:IEEE Power and Energy Conference at Illinois (PECI 2027)\n\nCon
+ ference: April 15-16\, 2027\nLocation: Urbana-Champaign\, USA\nVenue: Elec
+ trical and Computer Engineering Building (ECEB)\, UIUC\n\nAll dates:\n  Di
+ gest submission: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Acceptance notifi
+ cation: 26 Feb 2027\, 23:59 UTC+12 (assumed)\n  Final paper submission: 26
+  Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezo
+ ne. This is counted as UTC+12\, the earliest it could plausibly mean\, so 
+ the countdown runs out before the real deadline rather than after it.\n\n1
+ 8th edition\, themed "Reliability in an Era of Rapid Power Growth".\n\nCal
+ l for papers: https://peci.ece.illinois.edu/\nDetails: https://langestefan
+ .github.io/powersystem-deadlines/conference/peci27
+LOCATION:Electrical and Computer Engineering Building (ECEB)\, UIUC\, Urban
+ a-Champaign\, USA
+URL;VALUE=URI:https://peci.ece.illinois.edu/
+CATEGORIES:Power Systems,Power Electronics,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

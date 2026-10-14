@@ -12,7 +12,7 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
  ar/energy-storage.ics
 BEGIN:VEVENT
 UID:pcim-europe27-abstract@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 TRANSP:TRANSPARENT
@@ -50,7 +50,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pcim-europe27-camera_ready@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 TRANSP:TRANSPARENT
@@ -88,8 +88,299 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ecce-asia27-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+TRANSP:TRANSPARENT
+SUMMARY:ECCE Asia 2027: Digest submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia 
+ 2027)\n\nDigest submission: 25 Oct 2026\, 23:59 UTC+12 (assumed)\n\nConfer
+ ence: May 23-26\, 2027\nLocation: Seoul\, South Korea\nVenue: COEX Magok\n
+ \nAll dates:\n  Digest submission: 25 Oct 2026\, 23:59 UTC+12 (assumed)\n 
+  Acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final ma
+ nuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n  Early registr
+ ation: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states 
+ no timezone. This is counted as UTC+12\, the earliest it could plausibly m
+ ean\, so the countdown runs out before the real deadline rather than after
+  it.\n\nHeld as ICPE 2027-ECCE Asia\, the 12th International Conference on
+  Power Electronics.\n\nCall for papers: https://www.icpe-conf.org/\nDetail
+ s: https://langestefan.github.io/powersystem-deadlines/conference/ecce-asi
+ a27
+LOCATION:Seoul\, South Korea
+URL;VALUE=URI:https://www.icpe-conf.org/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecce-asia27-notification@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+TRANSP:TRANSPARENT
+SUMMARY:ECCE Asia 2027: Acceptance notification (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia 
+ 2027)\n\nAcceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n\n
+ Conference: May 23-26\, 2027\nLocation: Seoul\, South Korea\nVenue: COEX M
+ agok\n\nAll dates:\n  Digest submission: 25 Oct 2026\, 23:59 UTC+12 (assum
+ ed)\n  Acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n  Fi
+ nal manuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n  Early r
+ egistration: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers s
+ tates no timezone. This is counted as UTC+12\, the earliest it could plaus
+ ibly mean\, so the countdown runs out before the real deadline rather than
+  after it.\n\nHeld as ICPE 2027-ECCE Asia\, the 12th International Confere
+ nce on Power Electronics.\n\nCall for papers: https://www.icpe-conf.org/\n
+ Details: https://langestefan.github.io/powersystem-deadlines/conference/ec
+ ce-asia27
+LOCATION:Seoul\, South Korea
+URL;VALUE=URI:https://www.icpe-conf.org/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecce-asia27-camera_ready@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+TRANSP:TRANSPARENT
+SUMMARY:ECCE Asia 2027: Final manuscript submission (23:59 UTC+12 (assumed)
+ )
+DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia 
+ 2027)\n\nFinal manuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)
+ \n\nConference: May 23-26\, 2027\nLocation: Seoul\, South Korea\nVenue: CO
+ EX Magok\n\nAll dates:\n  Digest submission: 25 Oct 2026\, 23:59 UTC+12 (a
+ ssumed)\n  Acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n
+   Final manuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n  Ear
+ ly registration: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for pape
+ rs states no timezone. This is counted as UTC+12\, the earliest it could p
+ lausibly mean\, so the countdown runs out before the real deadline rather 
+ than after it.\n\nHeld as ICPE 2027-ECCE Asia\, the 12th International Con
+ ference on Power Electronics.\n\nCall for papers: https://www.icpe-conf.or
+ g/\nDetails: https://langestefan.github.io/powersystem-deadlines/conferenc
+ e/ecce-asia27
+LOCATION:Seoul\, South Korea
+URL;VALUE=URI:https://www.icpe-conf.org/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecce-asia27-early_registration@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+TRANSP:TRANSPARENT
+SUMMARY:ECCE Asia 2027: Early registration (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia 
+ 2027)\n\nEarly registration: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nConfe
+ rence: May 23-26\, 2027\nLocation: Seoul\, South Korea\nVenue: COEX Magok\
+ n\nAll dates:\n  Digest submission: 25 Oct 2026\, 23:59 UTC+12 (assumed)\n
+   Acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final m
+ anuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n  Early regist
+ ration: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states
+  no timezone. This is counted as UTC+12\, the earliest it could plausibly 
+ mean\, so the countdown runs out before the real deadline rather than afte
+ r it.\n\nHeld as ICPE 2027-ECCE Asia\, the 12th International Conference o
+ n Power Electronics.\n\nCall for papers: https://www.icpe-conf.org/\nDetai
+ ls: https://langestefan.github.io/powersystem-deadlines/conference/ecce-as
+ ia27
+LOCATION:Seoul\, South Korea
+URL;VALUE=URI:https://www.icpe-conf.org/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:itec27-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+TRANSP:TRANSPARENT
+SUMMARY:ITEC 2027: Final paper proposal digest submission (23:59 UTC+12 (as
+ sumed))
+DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
+ 027)\n\nFinal paper proposal digest submission: 20 Nov 2026\, 23:59 UTC+12
+  (assumed)\n\nConference: June 16-18\, 2027\nLocation: Novi\, USA\nVenue: 
+ VIBE Credit Union Showplace\n\nAll dates:\n  Final paper proposal digest s
+ ubmission: 20 Nov 2026\, 23:59 UTC+12 (assumed)\n  Author notification of 
+ acceptance: 1 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submis
+ sion: 1 Apr 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 1 Apr 20
+ 27\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. Thi
+ s is counted as UTC+12\, the earliest it could plausibly mean\, so the cou
+ ntdown runs out before the real deadline rather than after it.\n\nCall for
+  papers: https://itec-conf.com/\nDetails: https://langestefan.github.io/po
+ wersystem-deadlines/conference/itec27
+LOCATION:Novi\, USA
+URL;VALUE=URI:https://itec-conf.com/authors/call-for-papers/
+CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
+ torage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:itec27-notification@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+TRANSP:TRANSPARENT
+SUMMARY:ITEC 2027: Author notification of acceptance (23:59 UTC+12 (assumed
+ ))
+DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
+ 027)\n\nAuthor notification of acceptance: 1 Mar 2027\, 23:59 UTC+12 (assu
+ med)\n\nConference: June 16-18\, 2027\nLocation: Novi\, USA\nVenue: VIBE C
+ redit Union Showplace\n\nAll dates:\n  Final paper proposal digest submiss
+ ion: 20 Nov 2026\, 23:59 UTC+12 (assumed)\n  Author notification of accept
+ ance: 1 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 
+ 1 Apr 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 1 Apr 2027\, 2
+ 3:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is c
+ ounted as UTC+12\, the earliest it could plausibly mean\, so the countdown
+  runs out before the real deadline rather than after it.\n\nCall for paper
+ s: https://itec-conf.com/\nDetails: https://langestefan.github.io/powersys
+ tem-deadlines/conference/itec27
+LOCATION:Novi\, USA
+URL;VALUE=URI:https://itec-conf.com/
+CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
+ torage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:itec27-camera_ready@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+TRANSP:TRANSPARENT
+SUMMARY:ITEC 2027: Final manuscript submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
+ 027)\n\nFinal manuscript submission: 1 Apr 2027\, 23:59 UTC+12 (assumed)\n
+ \nConference: June 16-18\, 2027\nLocation: Novi\, USA\nVenue: VIBE Credit 
+ Union Showplace\n\nAll dates:\n  Final paper proposal digest submission: 2
+ 0 Nov 2026\, 23:59 UTC+12 (assumed)\n  Author notification of acceptance: 
+ 1 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 1 Apr 
+ 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 1 Apr 2027\, 23:59 U
+ TC+12 (assumed)\n\nThe call for papers states no timezone. This is counted
+  as UTC+12\, the earliest it could plausibly mean\, so the countdown runs 
+ out before the real deadline rather than after it.\n\nCall for papers: htt
+ ps://itec-conf.com/\nDetails: https://langestefan.github.io/powersystem-de
+ adlines/conference/itec27
+LOCATION:Novi\, USA
+URL;VALUE=URI:https://itec-conf.com/
+CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
+ torage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:itec27-author_registration@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+TRANSP:TRANSPARENT
+SUMMARY:ITEC 2027: Author registration (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
+ 027)\n\nAuthor registration: 1 Apr 2027\, 23:59 UTC+12 (assumed)\n\nConfer
+ ence: June 16-18\, 2027\nLocation: Novi\, USA\nVenue: VIBE Credit Union Sh
+ owplace\n\nAll dates:\n  Final paper proposal digest submission: 20 Nov 20
+ 26\, 23:59 UTC+12 (assumed)\n  Author notification of acceptance: 1 Mar 20
+ 27\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 1 Apr 2027\, 2
+ 3:59 UTC+12 (assumed)\n  Author registration: 1 Apr 2027\, 23:59 UTC+12 (a
+ ssumed)\n\nThe call for papers states no timezone. This is counted as UTC+
+ 12\, the earliest it could plausibly mean\, so the countdown runs out befo
+ re the real deadline rather than after it.\n\nCall for papers: https://ite
+ c-conf.com/\nDetails: https://langestefan.github.io/powersystem-deadlines/
+ conference/itec27
+LOCATION:Novi\, USA
+URL;VALUE=URI:https://itec-conf.com/
+CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
+ torage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:apec27-abstract@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 TRANSP:TRANSPARENT
@@ -127,7 +418,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-notification@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 TRANSP:TRANSPARENT
@@ -164,7 +455,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-camera_ready@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 TRANSP:TRANSPARENT
@@ -201,8 +492,120 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:rpg-global27-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027: Full paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nFull paper submission: 11 Dec 2026\, 23
+ :59 UTC+12 (assumed)\n\nConference: May 26-27\, 2027\nLocation: Birmingham
+ \, United Kingdom\nVenue: IET Birmingham: Austin Court\n\nAll dates:\n  Fu
+ ll paper submission: 11 Dec 2026\, 23:59 UTC+12 (assumed)\n  Author notifi
+ cation: 16 Feb 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 15 Ap
+ r 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone.
+  This is counted as UTC+12\, the earliest it could plausibly mean\, so the
+  countdown runs out before the real deadline rather than after it.\n\nRPG 
+ Global 2027. Full papers are peer reviewed and indexed in IET Inspec\, IEE
+ E Xplore and Ei Compendex.\n\nCall for papers: https://renewablepower.thei
+ et.org/rpg-global-2027\nDetails: https://langestefan.github.io/powersystem
+ -deadlines/conference/rpg-global27
+LOCATION:Birmingham\, United Kingdom
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-global-2027/call-for-su
+ bmissions
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rpg-global27-notification@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027: Author notification (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nAuthor notification: 16 Feb 2027\, 23:5
+ 9 UTC+12 (assumed)\n\nConference: May 26-27\, 2027\nLocation: Birmingham\,
+  United Kingdom\nVenue: IET Birmingham: Austin Court\n\nAll dates:\n  Full
+  paper submission: 11 Dec 2026\, 23:59 UTC+12 (assumed)\n  Author notifica
+ tion: 16 Feb 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 15 Apr 
+ 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. T
+ his is counted as UTC+12\, the earliest it could plausibly mean\, so the c
+ ountdown runs out before the real deadline rather than after it.\n\nRPG Gl
+ obal 2027. Full papers are peer reviewed and indexed in IET Inspec\, IEEE 
+ Xplore and Ei Compendex.\n\nCall for papers: https://renewablepower.theiet
+ .org/rpg-global-2027\nDetails: https://langestefan.github.io/powersystem-d
+ eadlines/conference/rpg-global27
+LOCATION:Birmingham\, United Kingdom
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-global-2027
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rpg-global27-author_registration@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027: Author registration (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nAuthor registration: 15 Apr 2027\, 23:5
+ 9 UTC+12 (assumed)\n\nConference: May 26-27\, 2027\nLocation: Birmingham\,
+  United Kingdom\nVenue: IET Birmingham: Austin Court\n\nAll dates:\n  Full
+  paper submission: 11 Dec 2026\, 23:59 UTC+12 (assumed)\n  Author notifica
+ tion: 16 Feb 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 15 Apr 
+ 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. T
+ his is counted as UTC+12\, the earliest it could plausibly mean\, so the c
+ ountdown runs out before the real deadline rather than after it.\n\nRPG Gl
+ obal 2027. Full papers are peer reviewed and indexed in IET Inspec\, IEEE 
+ Xplore and Ei Compendex.\n\nCall for papers: https://renewablepower.theiet
+ .org/rpg-global-2027\nDetails: https://langestefan.github.io/powersystem-d
+ eadlines/conference/rpg-global27
+LOCATION:Birmingham\, United Kingdom
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-global-2027
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ieses27-paper@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 TRANSP:TRANSPARENT
@@ -241,7 +644,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-notification@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 TRANSP:TRANSPARENT
@@ -280,7 +683,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-camera_ready@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270702
 TRANSP:TRANSPARENT
@@ -319,7 +722,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-early_registration@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270702
 TRANSP:TRANSPARENT
@@ -357,8 +760,677 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:rpg-china27-abstract@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027: Abstract submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nAbstract submission: 15 Mar 2027\, 23:5
+ 9 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\nLocation: China\n\
+ nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n
+   Notification of abstract acceptance: 2 Apr 2027\, 23:59 UTC+12 (assumed)
+ \n  Submission of full papers: 17 May 2027\, 23:59 UTC+12 (assumed)\n  Not
+ ification of full paper acceptance: 14 Jun 2027\, 23:59 UTC+12 (assumed)\n
+   Requested rework paper submission: 28 Jun 2027\, 23:59 UTC+12 (assumed)\
+ n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+12 (assumed)\n  Ear
+ ly bird registration: 26 Jul 2027\, 23:59 UTC+12 (assumed)\n\nThe call for
+  papers states no timezone. This is counted as UTC+12\, the earliest it co
+ uld plausibly mean\, so the countdown runs out before the real deadline ra
+ ther than after it.\n\nRPG China 2027. The host city in China had not been
+  announced on the conference website as of 14 October 2026.\n\nCall for pa
+ pers: https://renewablepower.theiet.org/rpg-china-2027\nDetails: https://l
+ angestefan.github.io/powersystem-deadlines/conference/rpg-china27
+LOCATION:China
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rpg-china27-notification@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027: Notification of abstract acceptance (23:59 UTC+12 (assume
+ d))
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nNotification of abstract acceptance: 2 
+ Apr 2027\, 23:59 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\nLoc
+ ation: China\n\nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 UTC
+ +12 (assumed)\n  Notification of abstract acceptance: 2 Apr 2027\, 23:59 U
+ TC+12 (assumed)\n  Submission of full papers: 17 May 2027\, 23:59 UTC+12 (
+ assumed)\n  Notification of full paper acceptance: 14 Jun 2027\, 23:59 UTC
+ +12 (assumed)\n  Requested rework paper submission: 28 Jun 2027\, 23:59 UT
+ C+12 (assumed)\n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+12 (
+ assumed)\n  Early bird registration: 26 Jul 2027\, 23:59 UTC+12 (assumed)\
+ n\nThe call for papers states no timezone. This is counted as UTC+12\, the
+  earliest it could plausibly mean\, so the countdown runs out before the r
+ eal deadline rather than after it.\n\nRPG China 2027. The host city in Chi
+ na had not been announced on the conference website as of 14 October 2026.
+ \n\nCall for papers: https://renewablepower.theiet.org/rpg-china-2027\nDet
+ ails: https://langestefan.github.io/powersystem-deadlines/conference/rpg-c
+ hina27
+LOCATION:China
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rpg-china27-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027: Submission of full papers (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nSubmission of full papers: 17 May 2027\
+ , 23:59 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\nLocation: Ch
+ ina\n\nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 UTC+12 (assu
+ med)\n  Notification of abstract acceptance: 2 Apr 2027\, 23:59 UTC+12 (as
+ sumed)\n  Submission of full papers: 17 May 2027\, 23:59 UTC+12 (assumed)\
+ n  Notification of full paper acceptance: 14 Jun 2027\, 23:59 UTC+12 (assu
+ med)\n  Requested rework paper submission: 28 Jun 2027\, 23:59 UTC+12 (ass
+ umed)\n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+12 (assumed)\
+ n  Early bird registration: 26 Jul 2027\, 23:59 UTC+12 (assumed)\n\nThe ca
+ ll for papers states no timezone. This is counted as UTC+12\, the earliest
+  it could plausibly mean\, so the countdown runs out before the real deadl
+ ine rather than after it.\n\nRPG China 2027. The host city in China had no
+ t been announced on the conference website as of 14 October 2026.\n\nCall 
+ for papers: https://renewablepower.theiet.org/rpg-china-2027\nDetails: htt
+ ps://langestefan.github.io/powersystem-deadlines/conference/rpg-china27
+LOCATION:China
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rpg-china27-notification-2@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270615
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027: Notification of full paper acceptance (23:59 UTC+12 (assu
+ med))
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nNotification of full paper acceptance: 
+ 14 Jun 2027\, 23:59 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\n
+ Location: China\n\nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 
+ UTC+12 (assumed)\n  Notification of abstract acceptance: 2 Apr 2027\, 23:5
+ 9 UTC+12 (assumed)\n  Submission of full papers: 17 May 2027\, 23:59 UTC+1
+ 2 (assumed)\n  Notification of full paper acceptance: 14 Jun 2027\, 23:59 
+ UTC+12 (assumed)\n  Requested rework paper submission: 28 Jun 2027\, 23:59
+  UTC+12 (assumed)\n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+1
+ 2 (assumed)\n  Early bird registration: 26 Jul 2027\, 23:59 UTC+12 (assume
+ d)\n\nThe call for papers states no timezone. This is counted as UTC+12\, 
+ the earliest it could plausibly mean\, so the countdown runs out before th
+ e real deadline rather than after it.\n\nRPG China 2027. The host city in 
+ China had not been announced on the conference website as of 14 October 20
+ 26.\n\nCall for papers: https://renewablepower.theiet.org/rpg-china-2027\n
+ Details: https://langestefan.github.io/powersystem-deadlines/conference/rp
+ g-china27
+LOCATION:China
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rpg-china27-camera_ready@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270629
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027: Requested rework paper submission (23:59 UTC+12 (assumed)
+ )
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nRequested rework paper submission: 28 J
+ un 2027\, 23:59 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\nLoca
+ tion: China\n\nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 UTC+
+ 12 (assumed)\n  Notification of abstract acceptance: 2 Apr 2027\, 23:59 UT
+ C+12 (assumed)\n  Submission of full papers: 17 May 2027\, 23:59 UTC+12 (a
+ ssumed)\n  Notification of full paper acceptance: 14 Jun 2027\, 23:59 UTC+
+ 12 (assumed)\n  Requested rework paper submission: 28 Jun 2027\, 23:59 UTC
+ +12 (assumed)\n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+12 (a
+ ssumed)\n  Early bird registration: 26 Jul 2027\, 23:59 UTC+12 (assumed)\n
+ \nThe call for papers states no timezone. This is counted as UTC+12\, the 
+ earliest it could plausibly mean\, so the countdown runs out before the re
+ al deadline rather than after it.\n\nRPG China 2027. The host city in Chin
+ a had not been announced on the conference website as of 14 October 2026.\
+ n\nCall for papers: https://renewablepower.theiet.org/rpg-china-2027\nDeta
+ ils: https://langestefan.github.io/powersystem-deadlines/conference/rpg-ch
+ ina27
+LOCATION:China
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rpg-china27-camera_ready-2@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270710
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027: Paper modification deadline (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nPaper modification deadline: 9 Jul 2027
+ \, 23:59 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\nLocation: C
+ hina\n\nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 UTC+12 (ass
+ umed)\n  Notification of abstract acceptance: 2 Apr 2027\, 23:59 UTC+12 (a
+ ssumed)\n  Submission of full papers: 17 May 2027\, 23:59 UTC+12 (assumed)
+ \n  Notification of full paper acceptance: 14 Jun 2027\, 23:59 UTC+12 (ass
+ umed)\n  Requested rework paper submission: 28 Jun 2027\, 23:59 UTC+12 (as
+ sumed)\n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+12 (assumed)
+ \n  Early bird registration: 26 Jul 2027\, 23:59 UTC+12 (assumed)\n\nThe c
+ all for papers states no timezone. This is counted as UTC+12\, the earlies
+ t it could plausibly mean\, so the countdown runs out before the real dead
+ line rather than after it.\n\nRPG China 2027. The host city in China had n
+ ot been announced on the conference website as of 14 October 2026.\n\nCall
+  for papers: https://renewablepower.theiet.org/rpg-china-2027\nDetails: ht
+ tps://langestefan.github.io/powersystem-deadlines/conference/rpg-china27
+LOCATION:China
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rpg-china27-early_registration@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270726
+DTEND;VALUE=DATE:20270727
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027: Early bird registration (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nEarly bird registration: 26 Jul 2027\, 
+ 23:59 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\nLocation: Chin
+ a\n\nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 UTC+12 (assume
+ d)\n  Notification of abstract acceptance: 2 Apr 2027\, 23:59 UTC+12 (assu
+ med)\n  Submission of full papers: 17 May 2027\, 23:59 UTC+12 (assumed)\n 
+  Notification of full paper acceptance: 14 Jun 2027\, 23:59 UTC+12 (assume
+ d)\n  Requested rework paper submission: 28 Jun 2027\, 23:59 UTC+12 (assum
+ ed)\n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+12 (assumed)\n 
+  Early bird registration: 26 Jul 2027\, 23:59 UTC+12 (assumed)\n\nThe call
+  for papers states no timezone. This is counted as UTC+12\, the earliest i
+ t could plausibly mean\, so the countdown runs out before the real deadlin
+ e rather than after it.\n\nRPG China 2027. The host city in China had not 
+ been announced on the conference website as of 14 October 2026.\n\nCall fo
+ r papers: https://renewablepower.theiet.org/rpg-china-2027\nDetails: https
+ ://langestefan.github.io/powersystem-deadlines/conference/rpg-china27
+LOCATION:China
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:greentech26-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20251116
+DTEND;VALUE=DATE:20251117
+TRANSP:TRANSPARENT
+SUMMARY:FutureGrid (GreenTech) 2026: Paper submission (23:59 UTC+12 (assume
+ d))
+DESCRIPTION:IEEE FutureGrid Conference and Expo (formerly IEEE Green Techno
+ logies Conference) (FutureGrid (GreenTech) 2026)\n\nPaper submission: 16 N
+ ov 2025\, 23:59 UTC+12 (assumed)\n\nConference: March 25-27\, 2026\nLocati
+ on: Boulder\, USA\n\nAll dates:\n  Paper submission: 16 Nov 2025\, 23:59 U
+ TC+12 (assumed)\n  Tutorial\, workshop and panel proposals: 14 Dec 2025\, 
+ 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is 
+ counted as UTC+12\, the earliest it could plausibly mean\, so the countdow
+ n runs out before the real deadline rather than after it.\n\n18th annual I
+ EEE Green Technologies Conference (GreenTech 2026).\n\nCall for papers: ht
+ tps://ieeegreentech.org/\nDetails: https://langestefan.github.io/powersyst
+ em-deadlines/conference/greentech26
+LOCATION:Boulder\, USA
+URL;VALUE=URI:https://ieeegreentech.org/
+CATEGORIES:Renewables,Smart Grid,Energy Storage,Power Systems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:greentech26-tutorial_proposal@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20251214
+DTEND;VALUE=DATE:20251215
+TRANSP:TRANSPARENT
+SUMMARY:FutureGrid (GreenTech) 2026: Tutorial\, workshop and panel proposal
+ s (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE FutureGrid Conference and Expo (formerly IEEE Green Techno
+ logies Conference) (FutureGrid (GreenTech) 2026)\n\nTutorial\, workshop an
+ d panel proposals: 14 Dec 2025\, 23:59 UTC+12 (assumed)\n\nConference: Mar
+ ch 25-27\, 2026\nLocation: Boulder\, USA\n\nAll dates:\n  Paper submission
+ : 16 Nov 2025\, 23:59 UTC+12 (assumed)\n  Tutorial\, workshop and panel pr
+ oposals: 14 Dec 2025\, 23:59 UTC+12 (assumed)\n\nThe call for papers state
+ s no timezone. This is counted as UTC+12\, the earliest it could plausibly
+  mean\, so the countdown runs out before the real deadline rather than aft
+ er it.\n\n18th annual IEEE Green Technologies Conference (GreenTech 2026).
+ \n\nCall for papers: https://ieeegreentech.org/\nDetails: https://langeste
+ fan.github.io/powersystem-deadlines/conference/greentech26
+LOCATION:Boulder\, USA
+URL;VALUE=URI:https://ieeegreentech.org/
+CATEGORIES:Renewables,Smart Grid,Energy Storage,Power Systems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eeeic26-workshop_proposal@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260102
+TRANSP:TRANSPARENT
+SUMMARY:EEEIC 2026: Special session proposal (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE International Conference on Environment and Electrical Eng
+ ineering (EEEIC 2026)\n\nSpecial session proposal: 1 Jan 2026\, 23:59 UTC+
+ 12 (assumed)\n\nConference: June 29 - July 2\, 2026\nLocation: Lisbon\, Po
+ rtugal\nVenue: Centro de Congressos\, Instituto Superior Técnico\n\nAll d
+ ates:\n  Special session proposal: 1 Jan 2026\, 23:59 UTC+12 (assumed)\n  
+ Paper submission end: 11 May 2026\, 23:59 UTC+12 (assumed)\n  Early bird r
+ egistration: 31 May 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers s
+ tates no timezone. This is counted as UTC+12\, the earliest it could plaus
+ ibly mean\, so the countdown runs out before the real deadline rather than
+  after it.\n\n26th edition. Submission opened on 2 February 2026. Papers w
+ ere notified within three weeks of submission and final versions were due 
+ two weeks after notification. The site lists both 4 May and 11 May 2026 as
+  the end of submission\; the later date is recorded here.\n\nCall for pape
+ rs: https://www.eeeic.net/\nDetails: https://langestefan.github.io/powersy
+ stem-deadlines/conference/eeeic26
+LOCATION:Lisbon\, Portugal
+URL;VALUE=URI:https://www.eeeic.net/
+CATEGORIES:Power Systems,Renewables,Smart Grid,Energy Storage,Power Quality
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eeeic26-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260511
+DTEND;VALUE=DATE:20260512
+TRANSP:TRANSPARENT
+SUMMARY:EEEIC 2026: Paper submission end (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE International Conference on Environment and Electrical Eng
+ ineering (EEEIC 2026)\n\nPaper submission end: 11 May 2026\, 23:59 UTC+12 
+ (assumed)\n\nConference: June 29 - July 2\, 2026\nLocation: Lisbon\, Portu
+ gal\nVenue: Centro de Congressos\, Instituto Superior Técnico\n\nAll date
+ s:\n  Special session proposal: 1 Jan 2026\, 23:59 UTC+12 (assumed)\n  Pap
+ er submission end: 11 May 2026\, 23:59 UTC+12 (assumed)\n  Early bird regi
+ stration: 31 May 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers stat
+ es no timezone. This is counted as UTC+12\, the earliest it could plausibl
+ y mean\, so the countdown runs out before the real deadline rather than af
+ ter it.\n\n26th edition. Submission opened on 2 February 2026. Papers were
+  notified within three weeks of submission and final versions were due two
+  weeks after notification. The site lists both 4 May and 11 May 2026 as th
+ e end of submission\; the later date is recorded here.\n\nCall for papers:
+  https://www.eeeic.net/\nDetails: https://langestefan.github.io/powersyste
+ m-deadlines/conference/eeeic26
+LOCATION:Lisbon\, Portugal
+URL;VALUE=URI:https://www.eeeic.net/
+CATEGORIES:Power Systems,Renewables,Smart Grid,Energy Storage,Power Quality
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eeeic26-early_registration@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+TRANSP:TRANSPARENT
+SUMMARY:EEEIC 2026: Early bird registration (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE International Conference on Environment and Electrical Eng
+ ineering (EEEIC 2026)\n\nEarly bird registration: 31 May 2026\, 23:59 UTC+
+ 12 (assumed)\n\nConference: June 29 - July 2\, 2026\nLocation: Lisbon\, Po
+ rtugal\nVenue: Centro de Congressos\, Instituto Superior Técnico\n\nAll d
+ ates:\n  Special session proposal: 1 Jan 2026\, 23:59 UTC+12 (assumed)\n  
+ Paper submission end: 11 May 2026\, 23:59 UTC+12 (assumed)\n  Early bird r
+ egistration: 31 May 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers s
+ tates no timezone. This is counted as UTC+12\, the earliest it could plaus
+ ibly mean\, so the countdown runs out before the real deadline rather than
+  after it.\n\n26th edition. Submission opened on 2 February 2026. Papers w
+ ere notified within three weeks of submission and final versions were due 
+ two weeks after notification. The site lists both 4 May and 11 May 2026 as
+  the end of submission\; the later date is recorded here.\n\nCall for pape
+ rs: https://www.eeeic.net/\nDetails: https://langestefan.github.io/powersy
+ stem-deadlines/conference/eeeic26
+LOCATION:Lisbon\, Portugal
+URL;VALUE=URI:https://www.eeeic.net/
+CATEGORIES:Power Systems,Renewables,Smart Grid,Energy Storage,Power Quality
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sest26-abstract@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260302
+DTEND;VALUE=DATE:20260303
+TRANSP:TRANSPARENT
+SUMMARY:SEST 2026: Abstract submission (extended) (23:59 UTC+12 (assumed))
+DESCRIPTION:International Conference on Smart Energy Systems and Technologi
+ es (SEST 2026)\n\nAbstract submission (extended): 2 Mar 2026\, 23:59 UTC+1
+ 2 (assumed)\n\nConference: September 2-4\, 2026\nLocation: Ciudad Real\, S
+ pain\nVenue: Escuela Técnica Superior de Ingeniería Industrial de Ciudad
+  Real\n\nAll dates:\n  Abstract submission (extended): 2 Mar 2026\, 23:59 
+ UTC+12 (assumed)\n  Hard full paper submission (extended): 27 Apr 2026\, 2
+ 3:59 UTC+12 (assumed)\n  Notification of acceptance: 15 Jun 2026\, 23:59 U
+ TC+12 (assumed)\n  Final paper submission: 29 Jun 2026\, 23:59 UTC+12 (ass
+ umed)\n  Final registration deadline for authors: 13 Jul 2026\, 23:59 UTC+
+ 12 (assumed)\n\nThe call for papers states no timezone. This is counted as
+  UTC+12\, the earliest it could plausibly mean\, so the countdown runs out
+  before the real deadline rather than after it.\n\n8th edition. The abstra
+ ct deadline was extended from 16 February 2026 and the full paper deadline
+  from 16 March 2026.\n\nCall for papers: https://sest2026.com/\nDetails: h
+ ttps://langestefan.github.io/powersystem-deadlines/conference/sest26
+LOCATION:Ciudad Real\, Spain
+URL;VALUE=URI:https://sest2026.com/
+CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
+ ystems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sest26-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260427
+DTEND;VALUE=DATE:20260428
+TRANSP:TRANSPARENT
+SUMMARY:SEST 2026: Hard full paper submission (extended) (23:59 UTC+12 (ass
+ umed))
+DESCRIPTION:International Conference on Smart Energy Systems and Technologi
+ es (SEST 2026)\n\nHard full paper submission (extended): 27 Apr 2026\, 23:
+ 59 UTC+12 (assumed)\n\nConference: September 2-4\, 2026\nLocation: Ciudad 
+ Real\, Spain\nVenue: Escuela Técnica Superior de Ingeniería Industrial d
+ e Ciudad Real\n\nAll dates:\n  Abstract submission (extended): 2 Mar 2026\
+ , 23:59 UTC+12 (assumed)\n  Hard full paper submission (extended): 27 Apr 
+ 2026\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 15 Jun 2026\,
+  23:59 UTC+12 (assumed)\n  Final paper submission: 29 Jun 2026\, 23:59 UTC
+ +12 (assumed)\n  Final registration deadline for authors: 13 Jul 2026\, 23
+ :59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is co
+ unted as UTC+12\, the earliest it could plausibly mean\, so the countdown 
+ runs out before the real deadline rather than after it.\n\n8th edition. Th
+ e abstract deadline was extended from 16 February 2026 and the full paper 
+ deadline from 16 March 2026.\n\nCall for papers: https://sest2026.com/\nDe
+ tails: https://langestefan.github.io/powersystem-deadlines/conference/sest
+ 26
+LOCATION:Ciudad Real\, Spain
+URL;VALUE=URI:https://sest2026.com/
+CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
+ ystems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sest26-notification@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260616
+TRANSP:TRANSPARENT
+SUMMARY:SEST 2026: Notification of acceptance (23:59 UTC+12 (assumed))
+DESCRIPTION:International Conference on Smart Energy Systems and Technologi
+ es (SEST 2026)\n\nNotification of acceptance: 15 Jun 2026\, 23:59 UTC+12 (
+ assumed)\n\nConference: September 2-4\, 2026\nLocation: Ciudad Real\, Spai
+ n\nVenue: Escuela Técnica Superior de Ingeniería Industrial de Ciudad Re
+ al\n\nAll dates:\n  Abstract submission (extended): 2 Mar 2026\, 23:59 UTC
+ +12 (assumed)\n  Hard full paper submission (extended): 27 Apr 2026\, 23:5
+ 9 UTC+12 (assumed)\n  Notification of acceptance: 15 Jun 2026\, 23:59 UTC+
+ 12 (assumed)\n  Final paper submission: 29 Jun 2026\, 23:59 UTC+12 (assume
+ d)\n  Final registration deadline for authors: 13 Jul 2026\, 23:59 UTC+12 
+ (assumed)\n\nThe call for papers states no timezone. This is counted as UT
+ C+12\, the earliest it could plausibly mean\, so the countdown runs out be
+ fore the real deadline rather than after it.\n\n8th edition. The abstract 
+ deadline was extended from 16 February 2026 and the full paper deadline fr
+ om 16 March 2026.\n\nCall for papers: https://sest2026.com/\nDetails: http
+ s://langestefan.github.io/powersystem-deadlines/conference/sest26
+LOCATION:Ciudad Real\, Spain
+URL;VALUE=URI:https://sest2026.com/
+CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
+ ystems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sest26-camera_ready@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+TRANSP:TRANSPARENT
+SUMMARY:SEST 2026: Final paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:International Conference on Smart Energy Systems and Technologi
+ es (SEST 2026)\n\nFinal paper submission: 29 Jun 2026\, 23:59 UTC+12 (assu
+ med)\n\nConference: September 2-4\, 2026\nLocation: Ciudad Real\, Spain\nV
+ enue: Escuela Técnica Superior de Ingeniería Industrial de Ciudad Real\n
+ \nAll dates:\n  Abstract submission (extended): 2 Mar 2026\, 23:59 UTC+12 
+ (assumed)\n  Hard full paper submission (extended): 27 Apr 2026\, 23:59 UT
+ C+12 (assumed)\n  Notification of acceptance: 15 Jun 2026\, 23:59 UTC+12 (
+ assumed)\n  Final paper submission: 29 Jun 2026\, 23:59 UTC+12 (assumed)\n
+   Final registration deadline for authors: 13 Jul 2026\, 23:59 UTC+12 (ass
+ umed)\n\nThe call for papers states no timezone. This is counted as UTC+12
+ \, the earliest it could plausibly mean\, so the countdown runs out before
+  the real deadline rather than after it.\n\n8th edition. The abstract dead
+ line was extended from 16 February 2026 and the full paper deadline from 1
+ 6 March 2026.\n\nCall for papers: https://sest2026.com/\nDetails: https://
+ langestefan.github.io/powersystem-deadlines/conference/sest26
+LOCATION:Ciudad Real\, Spain
+URL;VALUE=URI:https://sest2026.com/
+CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
+ ystems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sest26-author_registration@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260713
+DTEND;VALUE=DATE:20260714
+TRANSP:TRANSPARENT
+SUMMARY:SEST 2026: Final registration deadline for authors (23:59 UTC+12 (a
+ ssumed))
+DESCRIPTION:International Conference on Smart Energy Systems and Technologi
+ es (SEST 2026)\n\nFinal registration deadline for authors: 13 Jul 2026\, 2
+ 3:59 UTC+12 (assumed)\n\nConference: September 2-4\, 2026\nLocation: Ciuda
+ d Real\, Spain\nVenue: Escuela Técnica Superior de Ingeniería Industrial
+  de Ciudad Real\n\nAll dates:\n  Abstract submission (extended): 2 Mar 202
+ 6\, 23:59 UTC+12 (assumed)\n  Hard full paper submission (extended): 27 Ap
+ r 2026\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 15 Jun 2026
+ \, 23:59 UTC+12 (assumed)\n  Final paper submission: 29 Jun 2026\, 23:59 U
+ TC+12 (assumed)\n  Final registration deadline for authors: 13 Jul 2026\, 
+ 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is 
+ counted as UTC+12\, the earliest it could plausibly mean\, so the countdow
+ n runs out before the real deadline rather than after it.\n\n8th edition. 
+ The abstract deadline was extended from 16 February 2026 and the full pape
+ r deadline from 16 March 2026.\n\nCall for papers: https://sest2026.com/\n
+ Details: https://langestefan.github.io/powersystem-deadlines/conference/se
+ st26
+LOCATION:Ciudad Real\, Spain
+URL;VALUE=URI:https://sest2026.com/
+CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
+ ystems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ecce26-abstract@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20260227
 DTEND;VALUE=DATE:20260228
 TRANSP:TRANSPARENT
@@ -394,7 +1466,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-notification@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -430,7 +1502,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-camera_ready@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 TRANSP:TRANSPARENT
@@ -468,7 +1540,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-grid-edge27-paper@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20260724
 DTEND;VALUE=DATE:20260725
 TRANSP:TRANSPARENT

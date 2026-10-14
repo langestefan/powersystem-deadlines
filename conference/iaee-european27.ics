@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IAEE European 2027 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IAEE European Conference 2027.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
+ ence/iaee-european27.ics
+END:VCALENDAR

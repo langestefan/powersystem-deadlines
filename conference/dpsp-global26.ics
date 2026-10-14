@@ -1,0 +1,219 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:DPSP 2026 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IET International Conference on Develo
+ pments in Power System Protection 2026.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
+ ence/dpsp-global26.ics
+BEGIN:VEVENT
+UID:dpsp-global26-abstract@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20250711
+DTEND;VALUE=DATE:20250712
+TRANSP:TRANSPARENT
+SUMMARY:DPSP 2026: Abstract submission (extended) (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Developments in Power System Pr
+ otection (DPSP 2026)\n\nAbstract submission (extended): 11 Jul 2025\, 23:5
+ 9 UTC+12 (assumed)\n\nConference: March 2-6\, 2026\nLocation: London\, Uni
+ ted Kingdom\nVenue: IET London: Savoy Place\n\nAll dates:\n  Abstract subm
+ ission (extended): 11 Jul 2025\, 23:59 UTC+12 (assumed)\n  Full paper subm
+ ission: 31 Oct 2025\, 23:59 UTC+12 (assumed)\n  Author notification: 10 De
+ c 2025\, 23:59 UTC+12 (assumed)\n  Author registration: 22 Dec 2025\, 23:5
+ 9 UTC+12 (assumed)\n  Final presentation submission: 20 Feb 2026\, 23:59 U
+ TC+12 (assumed)\n\nThe call for papers states no timezone. This is counted
+  as UTC+12\, the earliest it could plausibly mean\, so the countdown runs 
+ out before the real deadline rather than after it.\n\n20th edition (DPSP G
+ lobal 2026).\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https:
+ //langestefan.github.io/powersystem-deadlines/conference/dpsp-global26
+LOCATION:London\, United Kingdom
+URL;VALUE=URI:https://dpsp.theiet.org/
+CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dpsp-global26-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20251031
+DTEND;VALUE=DATE:20251101
+TRANSP:TRANSPARENT
+SUMMARY:DPSP 2026: Full paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Developments in Power System Pr
+ otection (DPSP 2026)\n\nFull paper submission: 31 Oct 2025\, 23:59 UTC+12 
+ (assumed)\n\nConference: March 2-6\, 2026\nLocation: London\, United Kingd
+ om\nVenue: IET London: Savoy Place\n\nAll dates:\n  Abstract submission (e
+ xtended): 11 Jul 2025\, 23:59 UTC+12 (assumed)\n  Full paper submission: 3
+ 1 Oct 2025\, 23:59 UTC+12 (assumed)\n  Author notification: 10 Dec 2025\, 
+ 23:59 UTC+12 (assumed)\n  Author registration: 22 Dec 2025\, 23:59 UTC+12 
+ (assumed)\n  Final presentation submission: 20 Feb 2026\, 23:59 UTC+12 (as
+ sumed)\n\nThe call for papers states no timezone. This is counted as UTC+1
+ 2\, the earliest it could plausibly mean\, so the countdown runs out befor
+ e the real deadline rather than after it.\n\n20th edition (DPSP Global 202
+ 6).\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https://langest
+ efan.github.io/powersystem-deadlines/conference/dpsp-global26
+LOCATION:London\, United Kingdom
+URL;VALUE=URI:https://dpsp.theiet.org/
+CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dpsp-global26-notification@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20251210
+DTEND;VALUE=DATE:20251211
+TRANSP:TRANSPARENT
+SUMMARY:DPSP 2026: Author notification (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Developments in Power System Pr
+ otection (DPSP 2026)\n\nAuthor notification: 10 Dec 2025\, 23:59 UTC+12 (a
+ ssumed)\n\nConference: March 2-6\, 2026\nLocation: London\, United Kingdom
+ \nVenue: IET London: Savoy Place\n\nAll dates:\n  Abstract submission (ext
+ ended): 11 Jul 2025\, 23:59 UTC+12 (assumed)\n  Full paper submission: 31 
+ Oct 2025\, 23:59 UTC+12 (assumed)\n  Author notification: 10 Dec 2025\, 23
+ :59 UTC+12 (assumed)\n  Author registration: 22 Dec 2025\, 23:59 UTC+12 (a
+ ssumed)\n  Final presentation submission: 20 Feb 2026\, 23:59 UTC+12 (assu
+ med)\n\nThe call for papers states no timezone. This is counted as UTC+12\
+ , the earliest it could plausibly mean\, so the countdown runs out before 
+ the real deadline rather than after it.\n\n20th edition (DPSP Global 2026)
+ .\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https://langestef
+ an.github.io/powersystem-deadlines/conference/dpsp-global26
+LOCATION:London\, United Kingdom
+URL;VALUE=URI:https://dpsp.theiet.org/
+CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dpsp-global26-author_registration@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20251222
+DTEND;VALUE=DATE:20251223
+TRANSP:TRANSPARENT
+SUMMARY:DPSP 2026: Author registration (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Developments in Power System Pr
+ otection (DPSP 2026)\n\nAuthor registration: 22 Dec 2025\, 23:59 UTC+12 (a
+ ssumed)\n\nConference: March 2-6\, 2026\nLocation: London\, United Kingdom
+ \nVenue: IET London: Savoy Place\n\nAll dates:\n  Abstract submission (ext
+ ended): 11 Jul 2025\, 23:59 UTC+12 (assumed)\n  Full paper submission: 31 
+ Oct 2025\, 23:59 UTC+12 (assumed)\n  Author notification: 10 Dec 2025\, 23
+ :59 UTC+12 (assumed)\n  Author registration: 22 Dec 2025\, 23:59 UTC+12 (a
+ ssumed)\n  Final presentation submission: 20 Feb 2026\, 23:59 UTC+12 (assu
+ med)\n\nThe call for papers states no timezone. This is counted as UTC+12\
+ , the earliest it could plausibly mean\, so the countdown runs out before 
+ the real deadline rather than after it.\n\n20th edition (DPSP Global 2026)
+ .\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https://langestef
+ an.github.io/powersystem-deadlines/conference/dpsp-global26
+LOCATION:London\, United Kingdom
+URL;VALUE=URI:https://dpsp.theiet.org/
+CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dpsp-global26-presentation_upload@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260220
+DTEND;VALUE=DATE:20260221
+TRANSP:TRANSPARENT
+SUMMARY:DPSP 2026: Final presentation submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Developments in Power System Pr
+ otection (DPSP 2026)\n\nFinal presentation submission: 20 Feb 2026\, 23:59
+  UTC+12 (assumed)\n\nConference: March 2-6\, 2026\nLocation: London\, Unit
+ ed Kingdom\nVenue: IET London: Savoy Place\n\nAll dates:\n  Abstract submi
+ ssion (extended): 11 Jul 2025\, 23:59 UTC+12 (assumed)\n  Full paper submi
+ ssion: 31 Oct 2025\, 23:59 UTC+12 (assumed)\n  Author notification: 10 Dec
+  2025\, 23:59 UTC+12 (assumed)\n  Author registration: 22 Dec 2025\, 23:59
+  UTC+12 (assumed)\n  Final presentation submission: 20 Feb 2026\, 23:59 UT
+ C+12 (assumed)\n\nThe call for papers states no timezone. This is counted 
+ as UTC+12\, the earliest it could plausibly mean\, so the countdown runs o
+ ut before the real deadline rather than after it.\n\n20th edition (DPSP Gl
+ obal 2026).\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https:/
+ /langestefan.github.io/powersystem-deadlines/conference/dpsp-global26
+LOCATION:London\, United Kingdom
+URL;VALUE=URI:https://dpsp.theiet.org/
+CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dpsp-global26-event@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260302
+DTEND;VALUE=DATE:20260307
+TRANSP:TRANSPARENT
+SUMMARY:DPSP 2026
+DESCRIPTION:IET International Conference on Developments in Power System Pr
+ otection (DPSP 2026)\n\nConference: March 2-6\, 2026\nLocation: London\, U
+ nited Kingdom\nVenue: IET London: Savoy Place\n\nAll dates:\n  Abstract su
+ bmission (extended): 11 Jul 2025\, 23:59 UTC+12 (assumed)\n  Full paper su
+ bmission: 31 Oct 2025\, 23:59 UTC+12 (assumed)\n  Author notification: 10 
+ Dec 2025\, 23:59 UTC+12 (assumed)\n  Author registration: 22 Dec 2025\, 23
+ :59 UTC+12 (assumed)\n  Final presentation submission: 20 Feb 2026\, 23:59
+  UTC+12 (assumed)\n\nThe call for papers states no timezone. This is count
+ ed as UTC+12\, the earliest it could plausibly mean\, so the countdown run
+ s out before the real deadline rather than after it.\n\n20th edition (DPSP
+  Global 2026).\n\nCall for papers: https://dpsp.theiet.org/\nDetails: http
+ s://langestefan.github.io/powersystem-deadlines/conference/dpsp-global26
+LOCATION:IET London: Savoy Place\, London\, United Kingdom
+URL;VALUE=URI:https://dpsp.theiet.org/
+CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

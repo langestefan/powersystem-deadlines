@@ -1,0 +1,107 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FutureGrid (GreenTech) 2026 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IEEE FutureGrid Conference and Expo (f
+ ormerly IEEE Green Technologies Conference) 2026.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
+ ence/greentech26.ics
+BEGIN:VEVENT
+UID:greentech26-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20251116
+DTEND;VALUE=DATE:20251117
+TRANSP:TRANSPARENT
+SUMMARY:FutureGrid (GreenTech) 2026: Paper submission (23:59 UTC+12 (assume
+ d))
+DESCRIPTION:IEEE FutureGrid Conference and Expo (formerly IEEE Green Techno
+ logies Conference) (FutureGrid (GreenTech) 2026)\n\nPaper submission: 16 N
+ ov 2025\, 23:59 UTC+12 (assumed)\n\nConference: March 25-27\, 2026\nLocati
+ on: Boulder\, USA\n\nAll dates:\n  Paper submission: 16 Nov 2025\, 23:59 U
+ TC+12 (assumed)\n  Tutorial\, workshop and panel proposals: 14 Dec 2025\, 
+ 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is 
+ counted as UTC+12\, the earliest it could plausibly mean\, so the countdow
+ n runs out before the real deadline rather than after it.\n\n18th annual I
+ EEE Green Technologies Conference (GreenTech 2026).\n\nCall for papers: ht
+ tps://ieeegreentech.org/\nDetails: https://langestefan.github.io/powersyst
+ em-deadlines/conference/greentech26
+LOCATION:Boulder\, USA
+URL;VALUE=URI:https://ieeegreentech.org/
+CATEGORIES:Renewables,Smart Grid,Energy Storage,Power Systems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:greentech26-tutorial_proposal@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20251214
+DTEND;VALUE=DATE:20251215
+TRANSP:TRANSPARENT
+SUMMARY:FutureGrid (GreenTech) 2026: Tutorial\, workshop and panel proposal
+ s (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE FutureGrid Conference and Expo (formerly IEEE Green Techno
+ logies Conference) (FutureGrid (GreenTech) 2026)\n\nTutorial\, workshop an
+ d panel proposals: 14 Dec 2025\, 23:59 UTC+12 (assumed)\n\nConference: Mar
+ ch 25-27\, 2026\nLocation: Boulder\, USA\n\nAll dates:\n  Paper submission
+ : 16 Nov 2025\, 23:59 UTC+12 (assumed)\n  Tutorial\, workshop and panel pr
+ oposals: 14 Dec 2025\, 23:59 UTC+12 (assumed)\n\nThe call for papers state
+ s no timezone. This is counted as UTC+12\, the earliest it could plausibly
+  mean\, so the countdown runs out before the real deadline rather than aft
+ er it.\n\n18th annual IEEE Green Technologies Conference (GreenTech 2026).
+ \n\nCall for papers: https://ieeegreentech.org/\nDetails: https://langeste
+ fan.github.io/powersystem-deadlines/conference/greentech26
+LOCATION:Boulder\, USA
+URL;VALUE=URI:https://ieeegreentech.org/
+CATEGORIES:Renewables,Smart Grid,Energy Storage,Power Systems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:greentech26-event@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260325
+DTEND;VALUE=DATE:20260328
+TRANSP:TRANSPARENT
+SUMMARY:FutureGrid (GreenTech) 2026
+DESCRIPTION:IEEE FutureGrid Conference and Expo (formerly IEEE Green Techno
+ logies Conference) (FutureGrid (GreenTech) 2026)\n\nConference: March 25-2
+ 7\, 2026\nLocation: Boulder\, USA\n\nAll dates:\n  Paper submission: 16 No
+ v 2025\, 23:59 UTC+12 (assumed)\n  Tutorial\, workshop and panel proposals
+ : 14 Dec 2025\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no ti
+ mezone. This is counted as UTC+12\, the earliest it could plausibly mean\,
+  so the countdown runs out before the real deadline rather than after it.\
+ n\n18th annual IEEE Green Technologies Conference (GreenTech 2026).\n\nCal
+ l for papers: https://ieeegreentech.org/\nDetails: https://langestefan.git
+ hub.io/powersystem-deadlines/conference/greentech26
+LOCATION:Boulder\, USA
+URL;VALUE=URI:https://ieeegreentech.org/
+CATEGORIES:Renewables,Smart Grid,Energy Storage,Power Systems
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PEDG 2027 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IEEE International Symposium on Power 
+ Electronics for Distributed Generation Systems 2027.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
+ ence/pedg27.ics
+BEGIN:VEVENT
+UID:pedg27-event@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270613
+DTEND;VALUE=DATE:20270617
+TRANSP:TRANSPARENT
+SUMMARY:PEDG 2027
+DESCRIPTION:IEEE International Symposium on Power Electronics for Distribut
+ ed Generation Systems (PEDG 2027)\n\nConference: June 13-16\, 2027\nLocati
+ on: Edmonton\, Canada\n\nNot yet announced: Digest submission\n\n18th edit
+ ion\, co-located with the IEEE eGRID workshop. Dates and city are from the
+  IEEE PELS conference schedule\; the call for papers had not been publishe
+ d as of 14 October 2026.\n\nCall for papers: https://www.ieee-pels.org/con
+ ferences/\nDetails: https://langestefan.github.io/powersystem-deadlines/co
+ nference/pedg27
+LOCATION:Edmonton\, Canada
+URL;VALUE=URI:https://www.ieee-pels.org/conferences/
+CATEGORIES:Power Electronics,Renewables,Microgrids,Energy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

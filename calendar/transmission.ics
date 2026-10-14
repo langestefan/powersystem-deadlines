@@ -11,8 +11,248 @@ X-WR-CALDESC:Deadlines for conferences tagged "Transmission".
 SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
  ar/transmission.ics
 BEGIN:VEVENT
+UID:gtd-latam27-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+TRANSP:TRANSPARENT
+SUMMARY:GT&D Latin America 2027: Paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE PES Generation\, Transmission and Distribution Conference 
+ and Exposition Latin America (GT&D Latin America 2027)\n\nPaper submission
+ : 1 Nov 2026\, 23:59 UTC+12 (assumed)\n\nConference: March 8-10\, 2027\nLo
+ cation: Medellín\, Colombia\n\nThe call for papers states no timezone. Th
+ is is counted as UTC+12\, the earliest it could plausibly mean\, so the co
+ untdown runs out before the real deadline rather than after it.\n\nSubmiss
+ ions go through EasyChair. The conference website is in Spanish.\n\nCall f
+ or papers: https://gtdla27.ieee.org.co/\nDetails: https://langestefan.gith
+ ub.io/powersystem-deadlines/conference/gtd-latam27
+LOCATION:Medellín\, Colombia
+URL;VALUE=URI:https://easychair.org/conferences/?conf=ieeepesgtdlatinameri0
+CATEGORIES:Power Systems,Transmission,Distribution,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-heidelberg27-abstract@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027: Synopsis submission (23:59 UTC+12 (assumed))
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nSynopsi
+ s submission: 2 Nov 2026\, 23:59 UTC+12 (assumed)\n\nConference: April 27-
+ 30\, 2027\nLocation: Heidelberg\, Germany\nVenue: Heidelberg Congress Cent
+ er\n\nAll dates:\n  Synopsis submission: 2 Nov 2026\, 23:59 UTC+12 (assume
+ d)\n  Synopsis selection and author notification: 30 Nov 2026\, 23:59 UTC+
+ 12 (assumed)\n  Full paper: 7 Feb 2027\, 23:59 UTC+12 (assumed)\n  Feedbac
+ k to full-paper authors: 7 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final pape
+ rs to ConfTool: 29 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for paper
+ s states no timezone. This is counted as UTC+12\, the earliest it could pl
+ ausibly mean\, so the countdown runs out before the real deadline rather t
+ han after it.\n\nTheme "One Grid – Technological Innovations for Integra
+ ted Power Systems"\, hosted by the German National Committee and held alon
+ gside the VDE ETG Kongress (26-27 April) at the same venue. Synopses are s
+ ubmitted through ConfTool\; all synopses\, papers and presentations must b
+ e in English.\n\nCall for papers: https://www.cigresymposium2027.de/\nDeta
+ ils: https://langestefan.github.io/powersystem-deadlines/conference/cigre-
+ heidelberg27
+LOCATION:Heidelberg\, Germany
+URL;VALUE=URI:https://www.cigresymposium2027.de/
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-heidelberg27-notification@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027: Synopsis selection and author notification (2
+ 3:59 UTC+12 (assumed))
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nSynopsi
+ s selection and author notification: 30 Nov 2026\, 23:59 UTC+12 (assumed)\
+ n\nConference: April 27-30\, 2027\nLocation: Heidelberg\, Germany\nVenue: 
+ Heidelberg Congress Center\n\nAll dates:\n  Synopsis submission: 2 Nov 202
+ 6\, 23:59 UTC+12 (assumed)\n  Synopsis selection and author notification: 
+ 30 Nov 2026\, 23:59 UTC+12 (assumed)\n  Full paper: 7 Feb 2027\, 23:59 UTC
+ +12 (assumed)\n  Feedback to full-paper authors: 7 Mar 2027\, 23:59 UTC+12
+  (assumed)\n  Final papers to ConfTool: 29 Mar 2027\, 23:59 UTC+12 (assume
+ d)\n\nThe call for papers states no timezone. This is counted as UTC+12\, 
+ the earliest it could plausibly mean\, so the countdown runs out before th
+ e real deadline rather than after it.\n\nTheme "One Grid – Technological
+  Innovations for Integrated Power Systems"\, hosted by the German National
+  Committee and held alongside the VDE ETG Kongress (26-27 April) at the sa
+ me venue. Synopses are submitted through ConfTool\; all synopses\, papers 
+ and presentations must be in English.\n\nCall for papers: https://www.cigr
+ esymposium2027.de/\nDetails: https://langestefan.github.io/powersystem-dea
+ dlines/conference/cigre-heidelberg27
+LOCATION:Heidelberg\, Germany
+URL;VALUE=URI:https://www.cigresymposium2027.de/
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-heidelberg27-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027: Full paper (23:59 UTC+12 (assumed))
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFull pa
+ per: 7 Feb 2027\, 23:59 UTC+12 (assumed)\n\nConference: April 27-30\, 2027
+ \nLocation: Heidelberg\, Germany\nVenue: Heidelberg Congress Center\n\nAll
+  dates:\n  Synopsis submission: 2 Nov 2026\, 23:59 UTC+12 (assumed)\n  Syn
+ opsis selection and author notification: 30 Nov 2026\, 23:59 UTC+12 (assum
+ ed)\n  Full paper: 7 Feb 2027\, 23:59 UTC+12 (assumed)\n  Feedback to full
+ -paper authors: 7 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final papers to Con
+ fTool: 29 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states 
+ no timezone. This is counted as UTC+12\, the earliest it could plausibly m
+ ean\, so the countdown runs out before the real deadline rather than after
+  it.\n\nTheme "One Grid – Technological Innovations for Integrated Power
+  Systems"\, hosted by the German National Committee and held alongside the
+  VDE ETG Kongress (26-27 April) at the same venue. Synopses are submitted 
+ through ConfTool\; all synopses\, papers and presentations must be in Engl
+ ish.\n\nCall for papers: https://www.cigresymposium2027.de/\nDetails: http
+ s://langestefan.github.io/powersystem-deadlines/conference/cigre-heidelber
+ g27
+LOCATION:Heidelberg\, Germany
+URL;VALUE=URI:https://www.cigresymposium2027.de/
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-heidelberg27-notification-2@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027: Feedback to full-paper authors (23:59 UTC+12 
+ (assumed))
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFeedbac
+ k to full-paper authors: 7 Mar 2027\, 23:59 UTC+12 (assumed)\n\nConference
+ : April 27-30\, 2027\nLocation: Heidelberg\, Germany\nVenue: Heidelberg Co
+ ngress Center\n\nAll dates:\n  Synopsis submission: 2 Nov 2026\, 23:59 UTC
+ +12 (assumed)\n  Synopsis selection and author notification: 30 Nov 2026\,
+  23:59 UTC+12 (assumed)\n  Full paper: 7 Feb 2027\, 23:59 UTC+12 (assumed)
+ \n  Feedback to full-paper authors: 7 Mar 2027\, 23:59 UTC+12 (assumed)\n 
+  Final papers to ConfTool: 29 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe cal
+ l for papers states no timezone. This is counted as UTC+12\, the earliest 
+ it could plausibly mean\, so the countdown runs out before the real deadli
+ ne rather than after it.\n\nTheme "One Grid – Technological Innovations 
+ for Integrated Power Systems"\, hosted by the German National Committee an
+ d held alongside the VDE ETG Kongress (26-27 April) at the same venue. Syn
+ opses are submitted through ConfTool\; all synopses\, papers and presentat
+ ions must be in English.\n\nCall for papers: https://www.cigresymposium202
+ 7.de/\nDetails: https://langestefan.github.io/powersystem-deadlines/confer
+ ence/cigre-heidelberg27
+LOCATION:Heidelberg\, Germany
+URL;VALUE=URI:https://www.cigresymposium2027.de/
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-heidelberg27-camera_ready@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027: Final papers to ConfTool (23:59 UTC+12 (assum
+ ed))
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFinal p
+ apers to ConfTool: 29 Mar 2027\, 23:59 UTC+12 (assumed)\n\nConference: Apr
+ il 27-30\, 2027\nLocation: Heidelberg\, Germany\nVenue: Heidelberg Congres
+ s Center\n\nAll dates:\n  Synopsis submission: 2 Nov 2026\, 23:59 UTC+12 (
+ assumed)\n  Synopsis selection and author notification: 30 Nov 2026\, 23:5
+ 9 UTC+12 (assumed)\n  Full paper: 7 Feb 2027\, 23:59 UTC+12 (assumed)\n  F
+ eedback to full-paper authors: 7 Mar 2027\, 23:59 UTC+12 (assumed)\n  Fina
+ l papers to ConfTool: 29 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for
+  papers states no timezone. This is counted as UTC+12\, the earliest it co
+ uld plausibly mean\, so the countdown runs out before the real deadline ra
+ ther than after it.\n\nTheme "One Grid – Technological Innovations for I
+ ntegrated Power Systems"\, hosted by the German National Committee and hel
+ d alongside the VDE ETG Kongress (26-27 April) at the same venue. Synopses
+  are submitted through ConfTool\; all synopses\, papers and presentations 
+ must be in English.\n\nCall for papers: https://www.cigresymposium2027.de/
+ \nDetails: https://langestefan.github.io/powersystem-deadlines/conference/
+ cigre-heidelberg27
+LOCATION:Heidelberg\, Germany
+URL;VALUE=URI:https://www.cigresymposium2027.de/
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:pesgm27-paper@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 TRANSP:TRANSPARENT
@@ -44,8 +284,313 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:cigre-bangkok27-abstract@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027: Synopsis upload (23:59 UTC+12 (assumed))
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nSynopsi
+ s upload: 11 Jan 2027\, 23:59 UTC+12 (assumed)\n\nConference: November 8-1
+ 2\, 2027\nLocation: Bangkok\, Thailand\nVenue: Queen Sirikit National Conv
+ ention Center (QSNCC)\n\nAll dates:\n  Synopsis upload: 11 Jan 2027\, 23:5
+ 9 UTC+12 (assumed)\n  Selection of synopses by SCs: 14 Feb 2027\, 23:59 UT
+ C+12 (assumed)\n  Full paper upload: 25 Jul 2027\, 23:59 UTC+12 (assumed)\
+ n  Feedback to authors of full papers: 12 Sept 2027\, 23:59 UTC+12 (assume
+ d)\n  Final papers: 26 Sept 2027\, 23:59 UTC+12 (assumed)\n  Final papers 
+ on ConfTool: 10 Oct 2027\, 23:59 UTC+12 (assumed)\n  PowerPoint presentati
+ on: 24 Oct 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no 
+ timezone. This is counted as UTC+12\, the earliest it could plausibly mean
+ \, so the countdown runs out before the real deadline rather than after it
+ .\n\nTheme "Shaping the Future of Grids – Resilience\, Intelligence\, an
+ d Innovation for the Energy Transition"\, hosted by CIGRE Thailand. The sy
+ nopsis portal opened on 7 September 2026.\n\nCall for papers: https://www.
+ cigre.org/event/symposium/2027/TH/bangkok/call-for-papers-cigre-symposium-
+ 2027\nDetails: https://langestefan.github.io/powersystem-deadlines/confere
+ nce/cigre-bangkok27
+LOCATION:Bangkok\, Thailand
+URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
+ r-papers-cigre-symposium-2027
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-bangkok27-notification@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027: Selection of synopses by SCs (23:59 UTC+12 (a
+ ssumed))
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nSelecti
+ on of synopses by SCs: 14 Feb 2027\, 23:59 UTC+12 (assumed)\n\nConference:
+  November 8-12\, 2027\nLocation: Bangkok\, Thailand\nVenue: Queen Sirikit 
+ National Convention Center (QSNCC)\n\nAll dates:\n  Synopsis upload: 11 Ja
+ n 2027\, 23:59 UTC+12 (assumed)\n  Selection of synopses by SCs: 14 Feb 20
+ 27\, 23:59 UTC+12 (assumed)\n  Full paper upload: 25 Jul 2027\, 23:59 UTC+
+ 12 (assumed)\n  Feedback to authors of full papers: 12 Sept 2027\, 23:59 U
+ TC+12 (assumed)\n  Final papers: 26 Sept 2027\, 23:59 UTC+12 (assumed)\n  
+ Final papers on ConfTool: 10 Oct 2027\, 23:59 UTC+12 (assumed)\n  PowerPoi
+ nt presentation: 24 Oct 2027\, 23:59 UTC+12 (assumed)\n\nThe call for pape
+ rs states no timezone. This is counted as UTC+12\, the earliest it could p
+ lausibly mean\, so the countdown runs out before the real deadline rather 
+ than after it.\n\nTheme "Shaping the Future of Grids – Resilience\, Inte
+ lligence\, and Innovation for the Energy Transition"\, hosted by CIGRE Tha
+ iland. The synopsis portal opened on 7 September 2026.\n\nCall for papers:
+  https://www.cigre.org/event/symposium/2027/TH/bangkok/call-for-papers-cig
+ re-symposium-2027\nDetails: https://langestefan.github.io/powersystem-dead
+ lines/conference/cigre-bangkok27
+LOCATION:Bangkok\, Thailand
+URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
+ r-papers-cigre-symposium-2027
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-bangkok27-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270725
+DTEND;VALUE=DATE:20270726
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027: Full paper upload (23:59 UTC+12 (assumed))
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFull pa
+ per upload: 25 Jul 2027\, 23:59 UTC+12 (assumed)\n\nConference: November 8
+ -12\, 2027\nLocation: Bangkok\, Thailand\nVenue: Queen Sirikit National Co
+ nvention Center (QSNCC)\n\nAll dates:\n  Synopsis upload: 11 Jan 2027\, 23
+ :59 UTC+12 (assumed)\n  Selection of synopses by SCs: 14 Feb 2027\, 23:59 
+ UTC+12 (assumed)\n  Full paper upload: 25 Jul 2027\, 23:59 UTC+12 (assumed
+ )\n  Feedback to authors of full papers: 12 Sept 2027\, 23:59 UTC+12 (assu
+ med)\n  Final papers: 26 Sept 2027\, 23:59 UTC+12 (assumed)\n  Final paper
+ s on ConfTool: 10 Oct 2027\, 23:59 UTC+12 (assumed)\n  PowerPoint presenta
+ tion: 24 Oct 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states n
+ o timezone. This is counted as UTC+12\, the earliest it could plausibly me
+ an\, so the countdown runs out before the real deadline rather than after 
+ it.\n\nTheme "Shaping the Future of Grids – Resilience\, Intelligence\, 
+ and Innovation for the Energy Transition"\, hosted by CIGRE Thailand. The 
+ synopsis portal opened on 7 September 2026.\n\nCall for papers: https://ww
+ w.cigre.org/event/symposium/2027/TH/bangkok/call-for-papers-cigre-symposiu
+ m-2027\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
+ rence/cigre-bangkok27
+LOCATION:Bangkok\, Thailand
+URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
+ r-papers-cigre-symposium-2027
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-bangkok27-notification-2@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270912
+DTEND;VALUE=DATE:20270913
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027: Feedback to authors of full papers (23:59 UTC
+ +12 (assumed))
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFeedbac
+ k to authors of full papers: 12 Sept 2027\, 23:59 UTC+12 (assumed)\n\nConf
+ erence: November 8-12\, 2027\nLocation: Bangkok\, Thailand\nVenue: Queen S
+ irikit National Convention Center (QSNCC)\n\nAll dates:\n  Synopsis upload
+ : 11 Jan 2027\, 23:59 UTC+12 (assumed)\n  Selection of synopses by SCs: 14
+  Feb 2027\, 23:59 UTC+12 (assumed)\n  Full paper upload: 25 Jul 2027\, 23:
+ 59 UTC+12 (assumed)\n  Feedback to authors of full papers: 12 Sept 2027\, 
+ 23:59 UTC+12 (assumed)\n  Final papers: 26 Sept 2027\, 23:59 UTC+12 (assum
+ ed)\n  Final papers on ConfTool: 10 Oct 2027\, 23:59 UTC+12 (assumed)\n  P
+ owerPoint presentation: 24 Oct 2027\, 23:59 UTC+12 (assumed)\n\nThe call f
+ or papers states no timezone. This is counted as UTC+12\, the earliest it 
+ could plausibly mean\, so the countdown runs out before the real deadline 
+ rather than after it.\n\nTheme "Shaping the Future of Grids – Resilience
+ \, Intelligence\, and Innovation for the Energy Transition"\, hosted by CI
+ GRE Thailand. The synopsis portal opened on 7 September 2026.\n\nCall for 
+ papers: https://www.cigre.org/event/symposium/2027/TH/bangkok/call-for-pap
+ ers-cigre-symposium-2027\nDetails: https://langestefan.github.io/powersyst
+ em-deadlines/conference/cigre-bangkok27
+LOCATION:Bangkok\, Thailand
+URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
+ r-papers-cigre-symposium-2027
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-bangkok27-camera_ready@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027: Final papers (23:59 UTC+12 (assumed))
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFinal p
+ apers: 26 Sept 2027\, 23:59 UTC+12 (assumed)\n\nConference: November 8-12\
+ , 2027\nLocation: Bangkok\, Thailand\nVenue: Queen Sirikit National Conven
+ tion Center (QSNCC)\n\nAll dates:\n  Synopsis upload: 11 Jan 2027\, 23:59 
+ UTC+12 (assumed)\n  Selection of synopses by SCs: 14 Feb 2027\, 23:59 UTC+
+ 12 (assumed)\n  Full paper upload: 25 Jul 2027\, 23:59 UTC+12 (assumed)\n 
+  Feedback to authors of full papers: 12 Sept 2027\, 23:59 UTC+12 (assumed)
+ \n  Final papers: 26 Sept 2027\, 23:59 UTC+12 (assumed)\n  Final papers on
+  ConfTool: 10 Oct 2027\, 23:59 UTC+12 (assumed)\n  PowerPoint presentation
+ : 24 Oct 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no ti
+ mezone. This is counted as UTC+12\, the earliest it could plausibly mean\,
+  so the countdown runs out before the real deadline rather than after it.\
+ n\nTheme "Shaping the Future of Grids – Resilience\, Intelligence\, and 
+ Innovation for the Energy Transition"\, hosted by CIGRE Thailand. The syno
+ psis portal opened on 7 September 2026.\n\nCall for papers: https://www.ci
+ gre.org/event/symposium/2027/TH/bangkok/call-for-papers-cigre-symposium-20
+ 27\nDetails: https://langestefan.github.io/powersystem-deadlines/conferenc
+ e/cigre-bangkok27
+LOCATION:Bangkok\, Thailand
+URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
+ r-papers-cigre-symposium-2027
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-bangkok27-camera_ready-2@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20271010
+DTEND;VALUE=DATE:20271011
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027: Final papers on ConfTool (23:59 UTC+12 (assum
+ ed))
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFinal p
+ apers on ConfTool: 10 Oct 2027\, 23:59 UTC+12 (assumed)\n\nConference: Nov
+ ember 8-12\, 2027\nLocation: Bangkok\, Thailand\nVenue: Queen Sirikit Nati
+ onal Convention Center (QSNCC)\n\nAll dates:\n  Synopsis upload: 11 Jan 20
+ 27\, 23:59 UTC+12 (assumed)\n  Selection of synopses by SCs: 14 Feb 2027\,
+  23:59 UTC+12 (assumed)\n  Full paper upload: 25 Jul 2027\, 23:59 UTC+12 (
+ assumed)\n  Feedback to authors of full papers: 12 Sept 2027\, 23:59 UTC+1
+ 2 (assumed)\n  Final papers: 26 Sept 2027\, 23:59 UTC+12 (assumed)\n  Fina
+ l papers on ConfTool: 10 Oct 2027\, 23:59 UTC+12 (assumed)\n  PowerPoint p
+ resentation: 24 Oct 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers s
+ tates no timezone. This is counted as UTC+12\, the earliest it could plaus
+ ibly mean\, so the countdown runs out before the real deadline rather than
+  after it.\n\nTheme "Shaping the Future of Grids – Resilience\, Intellig
+ ence\, and Innovation for the Energy Transition"\, hosted by CIGRE Thailan
+ d. The synopsis portal opened on 7 September 2026.\n\nCall for papers: htt
+ ps://www.cigre.org/event/symposium/2027/TH/bangkok/call-for-papers-cigre-s
+ ymposium-2027\nDetails: https://langestefan.github.io/powersystem-deadline
+ s/conference/cigre-bangkok27
+LOCATION:Bangkok\, Thailand
+URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
+ r-papers-cigre-symposium-2027
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-bangkok27-presentation_upload@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027: PowerPoint presentation (23:59 UTC+12 (assume
+ d))
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nPowerPo
+ int presentation: 24 Oct 2027\, 23:59 UTC+12 (assumed)\n\nConference: Nove
+ mber 8-12\, 2027\nLocation: Bangkok\, Thailand\nVenue: Queen Sirikit Natio
+ nal Convention Center (QSNCC)\n\nAll dates:\n  Synopsis upload: 11 Jan 202
+ 7\, 23:59 UTC+12 (assumed)\n  Selection of synopses by SCs: 14 Feb 2027\, 
+ 23:59 UTC+12 (assumed)\n  Full paper upload: 25 Jul 2027\, 23:59 UTC+12 (a
+ ssumed)\n  Feedback to authors of full papers: 12 Sept 2027\, 23:59 UTC+12
+  (assumed)\n  Final papers: 26 Sept 2027\, 23:59 UTC+12 (assumed)\n  Final
+  papers on ConfTool: 10 Oct 2027\, 23:59 UTC+12 (assumed)\n  PowerPoint pr
+ esentation: 24 Oct 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers st
+ ates no timezone. This is counted as UTC+12\, the earliest it could plausi
+ bly mean\, so the countdown runs out before the real deadline rather than 
+ after it.\n\nTheme "Shaping the Future of Grids – Resilience\, Intellige
+ nce\, and Innovation for the Energy Transition"\, hosted by CIGRE Thailand
+ . The synopsis portal opened on 7 September 2026.\n\nCall for papers: http
+ s://www.cigre.org/event/symposium/2027/TH/bangkok/call-for-papers-cigre-sy
+ mposium-2027\nDetails: https://langestefan.github.io/powersystem-deadlines
+ /conference/cigre-bangkok27
+LOCATION:Bangkok\, Thailand
+URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
+ r-papers-cigre-symposium-2027
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:powertech27-paper@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 TRANSP:TRANSPARENT
@@ -82,7 +627,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-notification@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20270423
 DTEND;VALUE=DATE:20270424
 TRANSP:TRANSPARENT
@@ -119,7 +664,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-author_registration@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 TRANSP:TRANSPARENT
@@ -157,7 +702,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-camera_ready@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 TRANSP:TRANSPARENT
@@ -179,6 +724,452 @@ LOCATION:Bruges\, Belgium
 URL;VALUE=URI:https://powertech2027.com/
 CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
  tion,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pes-td26-tutorial_proposal@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20250606
+DTEND;VALUE=DATE:20250607
+TRANSP:TRANSPARENT
+SUMMARY:IEEE PES T&D 2026: Tutorial proposal (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE PES Transmission and Distribution Conference and Expositio
+ n (IEEE PES T&D 2026)\n\nTutorial proposal: 6 Jun 2025\, 23:59 UTC+12 (ass
+ umed)\n\nConference: May 4-7\, 2026\nLocation: Chicago\, USA\nVenue: McCor
+ mick Place\n\nAll dates:\n  Tutorial proposal: 6 Jun 2025\, 23:59 UTC+12 (
+ assumed)\n  Panel proposals to technical committee chairs: 1 Aug 2025\, 23
+ :59 UTC+12 (assumed)\n  Submission deadline for papers\, presentations and
+  panels: 14 Aug 2025\, 23:59 UTC+12 (assumed)\n  Notifications delivered: 
+ 4 Nov 2025\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timez
+ one. This is counted as UTC+12\, the earliest it could plausibly mean\, so
+  the countdown runs out before the real deadline rather than after it.\n\n
+ Themed "Powering Reliability\, Engineering Resilience". The submission sit
+ e opened on 10 July 2025. A separate call-for-papers page gave 28 August 2
+ 025 for papers\; the 14 August date from the call for participation is rec
+ orded here.\n\nCall for papers: https://ieeet-d.org/\nDetails: https://lan
+ gestefan.github.io/powersystem-deadlines/conference/pes-td26
+LOCATION:Chicago\, USA
+URL;VALUE=URI:https://ieeet-d.org/
+CATEGORIES:Transmission,Distribution,Power Systems,Protection & Automation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pes-td26-panel_proposal@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20250801
+DTEND;VALUE=DATE:20250802
+TRANSP:TRANSPARENT
+SUMMARY:IEEE PES T&D 2026: Panel proposals to technical committee chairs (2
+ 3:59 UTC+12 (assumed))
+DESCRIPTION:IEEE PES Transmission and Distribution Conference and Expositio
+ n (IEEE PES T&D 2026)\n\nPanel proposals to technical committee chairs: 1 
+ Aug 2025\, 23:59 UTC+12 (assumed)\n\nConference: May 4-7\, 2026\nLocation:
+  Chicago\, USA\nVenue: McCormick Place\n\nAll dates:\n  Tutorial proposal:
+  6 Jun 2025\, 23:59 UTC+12 (assumed)\n  Panel proposals to technical commi
+ ttee chairs: 1 Aug 2025\, 23:59 UTC+12 (assumed)\n  Submission deadline fo
+ r papers\, presentations and panels: 14 Aug 2025\, 23:59 UTC+12 (assumed)\
+ n  Notifications delivered: 4 Nov 2025\, 23:59 UTC+12 (assumed)\n\nThe cal
+ l for papers states no timezone. This is counted as UTC+12\, the earliest 
+ it could plausibly mean\, so the countdown runs out before the real deadli
+ ne rather than after it.\n\nThemed "Powering Reliability\, Engineering Res
+ ilience". The submission site opened on 10 July 2025. A separate call-for-
+ papers page gave 28 August 2025 for papers\; the 14 August date from the c
+ all for participation is recorded here.\n\nCall for papers: https://ieeet-
+ d.org/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
+ rence/pes-td26
+LOCATION:Chicago\, USA
+URL;VALUE=URI:https://ieeet-d.org/
+CATEGORIES:Transmission,Distribution,Power Systems,Protection & Automation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pes-td26-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20250814
+DTEND;VALUE=DATE:20250815
+TRANSP:TRANSPARENT
+SUMMARY:IEEE PES T&D 2026: Submission deadline for papers\, presentations a
+ nd panels (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE PES Transmission and Distribution Conference and Expositio
+ n (IEEE PES T&D 2026)\n\nSubmission deadline for papers\, presentations an
+ d panels: 14 Aug 2025\, 23:59 UTC+12 (assumed)\n\nConference: May 4-7\, 20
+ 26\nLocation: Chicago\, USA\nVenue: McCormick Place\n\nAll dates:\n  Tutor
+ ial proposal: 6 Jun 2025\, 23:59 UTC+12 (assumed)\n  Panel proposals to te
+ chnical committee chairs: 1 Aug 2025\, 23:59 UTC+12 (assumed)\n  Submissio
+ n deadline for papers\, presentations and panels: 14 Aug 2025\, 23:59 UTC+
+ 12 (assumed)\n  Notifications delivered: 4 Nov 2025\, 23:59 UTC+12 (assume
+ d)\n\nThe call for papers states no timezone. This is counted as UTC+12\, 
+ the earliest it could plausibly mean\, so the countdown runs out before th
+ e real deadline rather than after it.\n\nThemed "Powering Reliability\, En
+ gineering Resilience". The submission site opened on 10 July 2025. A separ
+ ate call-for-papers page gave 28 August 2025 for papers\; the 14 August da
+ te from the call for participation is recorded here.\n\nCall for papers: h
+ ttps://ieeet-d.org/\nDetails: https://langestefan.github.io/powersystem-de
+ adlines/conference/pes-td26
+LOCATION:Chicago\, USA
+URL;VALUE=URI:https://ieeet-d.org/
+CATEGORIES:Transmission,Distribution,Power Systems,Protection & Automation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pes-td26-notification@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20251104
+DTEND;VALUE=DATE:20251105
+TRANSP:TRANSPARENT
+SUMMARY:IEEE PES T&D 2026: Notifications delivered (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE PES Transmission and Distribution Conference and Expositio
+ n (IEEE PES T&D 2026)\n\nNotifications delivered: 4 Nov 2025\, 23:59 UTC+1
+ 2 (assumed)\n\nConference: May 4-7\, 2026\nLocation: Chicago\, USA\nVenue:
+  McCormick Place\n\nAll dates:\n  Tutorial proposal: 6 Jun 2025\, 23:59 UT
+ C+12 (assumed)\n  Panel proposals to technical committee chairs: 1 Aug 202
+ 5\, 23:59 UTC+12 (assumed)\n  Submission deadline for papers\, presentatio
+ ns and panels: 14 Aug 2025\, 23:59 UTC+12 (assumed)\n  Notifications deliv
+ ered: 4 Nov 2025\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no
+  timezone. This is counted as UTC+12\, the earliest it could plausibly mea
+ n\, so the countdown runs out before the real deadline rather than after i
+ t.\n\nThemed "Powering Reliability\, Engineering Resilience". The submissi
+ on site opened on 10 July 2025. A separate call-for-papers page gave 28 Au
+ gust 2025 for papers\; the 14 August date from the call for participation 
+ is recorded here.\n\nCall for papers: https://ieeet-d.org/\nDetails: https
+ ://langestefan.github.io/powersystem-deadlines/conference/pes-td26
+LOCATION:Chicago\, USA
+URL;VALUE=URI:https://ieeet-d.org/
+CATEGORIES:Transmission,Distribution,Power Systems,Protection & Automation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-session26-abstract@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20250707
+DTEND;VALUE=DATE:20250708
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Session 2026: Synopsis to the National Committee (23:59 UTC+1
+ 2 (assumed))
+DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nSynopsis to the Nat
+ ional Committee: 7 Jul 2025\, 23:59 UTC+12 (assumed)\n\nConference: August
+  23-28\, 2026\nLocation: Paris\, France\nVenue: Palais des Congrès de Par
+ is\n\nAll dates:\n  Synopsis to the National Committee: 7 Jul 2025\, 23:59
+  UTC+12 (assumed)\n  Synopsis acceptance notification: 20 Oct 2025\, 23:59
+  UTC+12 (assumed)\n  Full paper to the National Committee: 12 Jan 2026\, 2
+ 3:59 UTC+12 (assumed)\n  Revised version: 10 Apr 2026\, 23:59 UTC+12 (assu
+ med)\n  Full paper acceptance notification: 11 May 2026\, 23:59 UTC+12 (as
+ sumed)\n  Poster: 29 Jun 2026\, 23:59 UTC+12 (assumed)\n  Contributions at
+  the session: 7 Aug 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers s
+ tates no timezone. This is counted as UTC+12\, the earliest it could plaus
+ ibly mean\, so the countdown runs out before the real deadline rather than
+  after it.\n\nDeadlines are those for authors submitting through a Nationa
+ l Committee\; authors from countries without one had later deadlines with 
+ the Central Office.\n\nCall for papers: https://session.cigre.org/\nDetail
+ s: https://langestefan.github.io/powersystem-deadlines/conference/cigre-se
+ ssion26
+LOCATION:Paris\, France
+URL;VALUE=URI:https://session.cigre.org/
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
+ & Automation,Energy Markets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-session26-notification@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20251020
+DTEND;VALUE=DATE:20251021
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Session 2026: Synopsis acceptance notification (23:59 UTC+12 
+ (assumed))
+DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nSynopsis acceptance
+  notification: 20 Oct 2025\, 23:59 UTC+12 (assumed)\n\nConference: August 
+ 23-28\, 2026\nLocation: Paris\, France\nVenue: Palais des Congrès de Pari
+ s\n\nAll dates:\n  Synopsis to the National Committee: 7 Jul 2025\, 23:59 
+ UTC+12 (assumed)\n  Synopsis acceptance notification: 20 Oct 2025\, 23:59 
+ UTC+12 (assumed)\n  Full paper to the National Committee: 12 Jan 2026\, 23
+ :59 UTC+12 (assumed)\n  Revised version: 10 Apr 2026\, 23:59 UTC+12 (assum
+ ed)\n  Full paper acceptance notification: 11 May 2026\, 23:59 UTC+12 (ass
+ umed)\n  Poster: 29 Jun 2026\, 23:59 UTC+12 (assumed)\n  Contributions at 
+ the session: 7 Aug 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers st
+ ates no timezone. This is counted as UTC+12\, the earliest it could plausi
+ bly mean\, so the countdown runs out before the real deadline rather than 
+ after it.\n\nDeadlines are those for authors submitting through a National
+  Committee\; authors from countries without one had later deadlines with t
+ he Central Office.\n\nCall for papers: https://session.cigre.org/\nDetails
+ : https://langestefan.github.io/powersystem-deadlines/conference/cigre-ses
+ sion26
+LOCATION:Paris\, France
+URL;VALUE=URI:https://session.cigre.org/
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
+ & Automation,Energy Markets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-session26-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260112
+DTEND;VALUE=DATE:20260113
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Session 2026: Full paper to the National Committee (23:59 UTC
+ +12 (assumed))
+DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nFull paper to the N
+ ational Committee: 12 Jan 2026\, 23:59 UTC+12 (assumed)\n\nConference: Aug
+ ust 23-28\, 2026\nLocation: Paris\, France\nVenue: Palais des Congrès de 
+ Paris\n\nAll dates:\n  Synopsis to the National Committee: 7 Jul 2025\, 23
+ :59 UTC+12 (assumed)\n  Synopsis acceptance notification: 20 Oct 2025\, 23
+ :59 UTC+12 (assumed)\n  Full paper to the National Committee: 12 Jan 2026\
+ , 23:59 UTC+12 (assumed)\n  Revised version: 10 Apr 2026\, 23:59 UTC+12 (a
+ ssumed)\n  Full paper acceptance notification: 11 May 2026\, 23:59 UTC+12 
+ (assumed)\n  Poster: 29 Jun 2026\, 23:59 UTC+12 (assumed)\n  Contributions
+  at the session: 7 Aug 2026\, 23:59 UTC+12 (assumed)\n\nThe call for paper
+ s states no timezone. This is counted as UTC+12\, the earliest it could pl
+ ausibly mean\, so the countdown runs out before the real deadline rather t
+ han after it.\n\nDeadlines are those for authors submitting through a Nati
+ onal Committee\; authors from countries without one had later deadlines wi
+ th the Central Office.\n\nCall for papers: https://session.cigre.org/\nDet
+ ails: https://langestefan.github.io/powersystem-deadlines/conference/cigre
+ -session26
+LOCATION:Paris\, France
+URL;VALUE=URI:https://session.cigre.org/
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
+ & Automation,Energy Markets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-session26-camera_ready@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260410
+DTEND;VALUE=DATE:20260411
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Session 2026: Revised version (23:59 UTC+12 (assumed))
+DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nRevised version: 10
+  Apr 2026\, 23:59 UTC+12 (assumed)\n\nConference: August 23-28\, 2026\nLoc
+ ation: Paris\, France\nVenue: Palais des Congrès de Paris\n\nAll dates:\n
+   Synopsis to the National Committee: 7 Jul 2025\, 23:59 UTC+12 (assumed)\
+ n  Synopsis acceptance notification: 20 Oct 2025\, 23:59 UTC+12 (assumed)\
+ n  Full paper to the National Committee: 12 Jan 2026\, 23:59 UTC+12 (assum
+ ed)\n  Revised version: 10 Apr 2026\, 23:59 UTC+12 (assumed)\n  Full paper
+  acceptance notification: 11 May 2026\, 23:59 UTC+12 (assumed)\n  Poster: 
+ 29 Jun 2026\, 23:59 UTC+12 (assumed)\n  Contributions at the session: 7 Au
+ g 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone.
+  This is counted as UTC+12\, the earliest it could plausibly mean\, so the
+  countdown runs out before the real deadline rather than after it.\n\nDead
+ lines are those for authors submitting through a National Committee\; auth
+ ors from countries without one had later deadlines with the Central Office
+ .\n\nCall for papers: https://session.cigre.org/\nDetails: https://langest
+ efan.github.io/powersystem-deadlines/conference/cigre-session26
+LOCATION:Paris\, France
+URL;VALUE=URI:https://session.cigre.org/
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
+ & Automation,Energy Markets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-session26-notification-2@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260511
+DTEND;VALUE=DATE:20260512
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Session 2026: Full paper acceptance notification (23:59 UTC+1
+ 2 (assumed))
+DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nFull paper acceptan
+ ce notification: 11 May 2026\, 23:59 UTC+12 (assumed)\n\nConference: Augus
+ t 23-28\, 2026\nLocation: Paris\, France\nVenue: Palais des Congrès de Pa
+ ris\n\nAll dates:\n  Synopsis to the National Committee: 7 Jul 2025\, 23:5
+ 9 UTC+12 (assumed)\n  Synopsis acceptance notification: 20 Oct 2025\, 23:5
+ 9 UTC+12 (assumed)\n  Full paper to the National Committee: 12 Jan 2026\, 
+ 23:59 UTC+12 (assumed)\n  Revised version: 10 Apr 2026\, 23:59 UTC+12 (ass
+ umed)\n  Full paper acceptance notification: 11 May 2026\, 23:59 UTC+12 (a
+ ssumed)\n  Poster: 29 Jun 2026\, 23:59 UTC+12 (assumed)\n  Contributions a
+ t the session: 7 Aug 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers 
+ states no timezone. This is counted as UTC+12\, the earliest it could plau
+ sibly mean\, so the countdown runs out before the real deadline rather tha
+ n after it.\n\nDeadlines are those for authors submitting through a Nation
+ al Committee\; authors from countries without one had later deadlines with
+  the Central Office.\n\nCall for papers: https://session.cigre.org/\nDetai
+ ls: https://langestefan.github.io/powersystem-deadlines/conference/cigre-s
+ ession26
+LOCATION:Paris\, France
+URL;VALUE=URI:https://session.cigre.org/
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
+ & Automation,Energy Markets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-session26-poster@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Session 2026: Poster (23:59 UTC+12 (assumed))
+DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nPoster: 29 Jun 2026
+ \, 23:59 UTC+12 (assumed)\n\nConference: August 23-28\, 2026\nLocation: Pa
+ ris\, France\nVenue: Palais des Congrès de Paris\n\nAll dates:\n  Synopsi
+ s to the National Committee: 7 Jul 2025\, 23:59 UTC+12 (assumed)\n  Synops
+ is acceptance notification: 20 Oct 2025\, 23:59 UTC+12 (assumed)\n  Full p
+ aper to the National Committee: 12 Jan 2026\, 23:59 UTC+12 (assumed)\n  Re
+ vised version: 10 Apr 2026\, 23:59 UTC+12 (assumed)\n  Full paper acceptan
+ ce notification: 11 May 2026\, 23:59 UTC+12 (assumed)\n  Poster: 29 Jun 20
+ 26\, 23:59 UTC+12 (assumed)\n  Contributions at the session: 7 Aug 2026\, 
+ 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is 
+ counted as UTC+12\, the earliest it could plausibly mean\, so the countdow
+ n runs out before the real deadline rather than after it.\n\nDeadlines are
+  those for authors submitting through a National Committee\; authors from 
+ countries without one had later deadlines with the Central Office.\n\nCall
+  for papers: https://session.cigre.org/\nDetails: https://langestefan.gith
+ ub.io/powersystem-deadlines/conference/cigre-session26
+LOCATION:Paris\, France
+URL;VALUE=URI:https://session.cigre.org/
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
+ & Automation,Energy Markets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-session26-presentation_upload@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Session 2026: Contributions at the session (23:59 UTC+12 (ass
+ umed))
+DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nContributions at th
+ e session: 7 Aug 2026\, 23:59 UTC+12 (assumed)\n\nConference: August 23-28
+ \, 2026\nLocation: Paris\, France\nVenue: Palais des Congrès de Paris\n\n
+ All dates:\n  Synopsis to the National Committee: 7 Jul 2025\, 23:59 UTC+1
+ 2 (assumed)\n  Synopsis acceptance notification: 20 Oct 2025\, 23:59 UTC+1
+ 2 (assumed)\n  Full paper to the National Committee: 12 Jan 2026\, 23:59 U
+ TC+12 (assumed)\n  Revised version: 10 Apr 2026\, 23:59 UTC+12 (assumed)\n
+   Full paper acceptance notification: 11 May 2026\, 23:59 UTC+12 (assumed)
+ \n  Poster: 29 Jun 2026\, 23:59 UTC+12 (assumed)\n  Contributions at the s
+ ession: 7 Aug 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states 
+ no timezone. This is counted as UTC+12\, the earliest it could plausibly m
+ ean\, so the countdown runs out before the real deadline rather than after
+  it.\n\nDeadlines are those for authors submitting through a National Comm
+ ittee\; authors from countries without one had later deadlines with the Ce
+ ntral Office.\n\nCall for papers: https://session.cigre.org/\nDetails: htt
+ ps://langestefan.github.io/powersystem-deadlines/conference/cigre-session2
+ 6
+LOCATION:Paris\, France
+URL;VALUE=URI:https://session.cigre.org/
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
+ & Automation,Energy Markets
 STATUS:CONFIRMED
 SEQUENCE:0
 BEGIN:VALARM

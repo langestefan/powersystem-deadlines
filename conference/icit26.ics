@@ -1,0 +1,227 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ICIT 2026 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IEEE International Conference on Indus
+ trial Technology 2026.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
+ ence/icit26.ics
+BEGIN:VEVENT
+UID:icit26-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20251115
+DTEND;VALUE=DATE:20251116
+TRANSP:TRANSPARENT
+SUMMARY:ICIT 2026: Paper submission (regular and special session) (23:59 UT
+ C+12 (assumed))
+DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
+ 26)\n\nPaper submission (regular and special session): 15 Nov 2025\, 23:59
+  UTC+12 (assumed)\n\nConference: March 4-6\, 2026\nLocation: Monterrey\, M
+ exico\nVenue: Centro de Internacionalización UANL\n\nAll dates:\n  Paper 
+ submission (regular and special session): 15 Nov 2025\, 23:59 UTC+12 (assu
+ med)\n  Work-in-progress paper submission: 30 Nov 2025\, 23:59 UTC+12 (ass
+ umed)\n  Paper acceptance notification: 12 Jan 2026\, 23:59 UTC+12 (assume
+ d)\n  Final paper submission: 31 Jan 2026\, 23:59 UTC+12 (assumed)\n  Auth
+ or registration: 31 Jan 2026\, 23:59 UTC+12 (assumed)\n\nThe call for pape
+ rs states no timezone. This is counted as UTC+12\, the earliest it could p
+ lausibly mean\, so the countdown runs out before the real deadline rather 
+ than after it.\n\n27th edition\, hosted by Universidad Autónoma de Nuevo 
+ León.\n\nCall for papers: https://icit2026.ieee-ies.org/\nDetails: https:
+ //langestefan.github.io/powersystem-deadlines/conference/icit26
+LOCATION:Monterrey\, Mexico
+URL;VALUE=URI:https://icit2026.ieee-ies.org/
+CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:icit26-paper-2@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20251130
+DTEND;VALUE=DATE:20251201
+TRANSP:TRANSPARENT
+SUMMARY:ICIT 2026: Work-in-progress paper submission (23:59 UTC+12 (assumed
+ ))
+DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
+ 26)\n\nWork-in-progress paper submission: 30 Nov 2025\, 23:59 UTC+12 (assu
+ med)\n\nConference: March 4-6\, 2026\nLocation: Monterrey\, Mexico\nVenue:
+  Centro de Internacionalización UANL\n\nAll dates:\n  Paper submission (r
+ egular and special session): 15 Nov 2025\, 23:59 UTC+12 (assumed)\n  Work-
+ in-progress paper submission: 30 Nov 2025\, 23:59 UTC+12 (assumed)\n  Pape
+ r acceptance notification: 12 Jan 2026\, 23:59 UTC+12 (assumed)\n  Final p
+ aper submission: 31 Jan 2026\, 23:59 UTC+12 (assumed)\n  Author registrati
+ on: 31 Jan 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no 
+ timezone. This is counted as UTC+12\, the earliest it could plausibly mean
+ \, so the countdown runs out before the real deadline rather than after it
+ .\n\n27th edition\, hosted by Universidad Autónoma de Nuevo León.\n\nCal
+ l for papers: https://icit2026.ieee-ies.org/\nDetails: https://langestefan
+ .github.io/powersystem-deadlines/conference/icit26
+LOCATION:Monterrey\, Mexico
+URL;VALUE=URI:https://icit2026.ieee-ies.org/
+CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:icit26-notification@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260112
+DTEND;VALUE=DATE:20260113
+TRANSP:TRANSPARENT
+SUMMARY:ICIT 2026: Paper acceptance notification (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
+ 26)\n\nPaper acceptance notification: 12 Jan 2026\, 23:59 UTC+12 (assumed)
+ \n\nConference: March 4-6\, 2026\nLocation: Monterrey\, Mexico\nVenue: Cen
+ tro de Internacionalización UANL\n\nAll dates:\n  Paper submission (regul
+ ar and special session): 15 Nov 2025\, 23:59 UTC+12 (assumed)\n  Work-in-p
+ rogress paper submission: 30 Nov 2025\, 23:59 UTC+12 (assumed)\n  Paper ac
+ ceptance notification: 12 Jan 2026\, 23:59 UTC+12 (assumed)\n  Final paper
+  submission: 31 Jan 2026\, 23:59 UTC+12 (assumed)\n  Author registration: 
+ 31 Jan 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no time
+ zone. This is counted as UTC+12\, the earliest it could plausibly mean\, s
+ o the countdown runs out before the real deadline rather than after it.\n\
+ n27th edition\, hosted by Universidad Autónoma de Nuevo León.\n\nCall fo
+ r papers: https://icit2026.ieee-ies.org/\nDetails: https://langestefan.git
+ hub.io/powersystem-deadlines/conference/icit26
+LOCATION:Monterrey\, Mexico
+URL;VALUE=URI:https://icit2026.ieee-ies.org/
+CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:icit26-camera_ready@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260131
+DTEND;VALUE=DATE:20260201
+TRANSP:TRANSPARENT
+SUMMARY:ICIT 2026: Final paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
+ 26)\n\nFinal paper submission: 31 Jan 2026\, 23:59 UTC+12 (assumed)\n\nCon
+ ference: March 4-6\, 2026\nLocation: Monterrey\, Mexico\nVenue: Centro de 
+ Internacionalización UANL\n\nAll dates:\n  Paper submission (regular and 
+ special session): 15 Nov 2025\, 23:59 UTC+12 (assumed)\n  Work-in-progress
+  paper submission: 30 Nov 2025\, 23:59 UTC+12 (assumed)\n  Paper acceptanc
+ e notification: 12 Jan 2026\, 23:59 UTC+12 (assumed)\n  Final paper submis
+ sion: 31 Jan 2026\, 23:59 UTC+12 (assumed)\n  Author registration: 31 Jan 
+ 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. T
+ his is counted as UTC+12\, the earliest it could plausibly mean\, so the c
+ ountdown runs out before the real deadline rather than after it.\n\n27th e
+ dition\, hosted by Universidad Autónoma de Nuevo León.\n\nCall for paper
+ s: https://icit2026.ieee-ies.org/\nDetails: https://langestefan.github.io/
+ powersystem-deadlines/conference/icit26
+LOCATION:Monterrey\, Mexico
+URL;VALUE=URI:https://icit2026.ieee-ies.org/
+CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:icit26-author_registration@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260131
+DTEND;VALUE=DATE:20260201
+TRANSP:TRANSPARENT
+SUMMARY:ICIT 2026: Author registration (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
+ 26)\n\nAuthor registration: 31 Jan 2026\, 23:59 UTC+12 (assumed)\n\nConfer
+ ence: March 4-6\, 2026\nLocation: Monterrey\, Mexico\nVenue: Centro de Int
+ ernacionalización UANL\n\nAll dates:\n  Paper submission (regular and spe
+ cial session): 15 Nov 2025\, 23:59 UTC+12 (assumed)\n  Work-in-progress pa
+ per submission: 30 Nov 2025\, 23:59 UTC+12 (assumed)\n  Paper acceptance n
+ otification: 12 Jan 2026\, 23:59 UTC+12 (assumed)\n  Final paper submissio
+ n: 31 Jan 2026\, 23:59 UTC+12 (assumed)\n  Author registration: 31 Jan 202
+ 6\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This
+  is counted as UTC+12\, the earliest it could plausibly mean\, so the coun
+ tdown runs out before the real deadline rather than after it.\n\n27th edit
+ ion\, hosted by Universidad Autónoma de Nuevo León.\n\nCall for papers: 
+ https://icit2026.ieee-ies.org/\nDetails: https://langestefan.github.io/pow
+ ersystem-deadlines/conference/icit26
+LOCATION:Monterrey\, Mexico
+URL;VALUE=URI:https://icit2026.ieee-ies.org/
+CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:icit26-event@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260304
+DTEND;VALUE=DATE:20260307
+TRANSP:TRANSPARENT
+SUMMARY:ICIT 2026
+DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
+ 26)\n\nConference: March 4-6\, 2026\nLocation: Monterrey\, Mexico\nVenue: 
+ Centro de Internacionalización UANL\n\nAll dates:\n  Paper submission (re
+ gular and special session): 15 Nov 2025\, 23:59 UTC+12 (assumed)\n  Work-i
+ n-progress paper submission: 30 Nov 2025\, 23:59 UTC+12 (assumed)\n  Paper
+  acceptance notification: 12 Jan 2026\, 23:59 UTC+12 (assumed)\n  Final pa
+ per submission: 31 Jan 2026\, 23:59 UTC+12 (assumed)\n  Author registratio
+ n: 31 Jan 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no t
+ imezone. This is counted as UTC+12\, the earliest it could plausibly mean\
+ , so the countdown runs out before the real deadline rather than after it.
+ \n\n27th edition\, hosted by Universidad Autónoma de Nuevo León.\n\nCall
+  for papers: https://icit2026.ieee-ies.org/\nDetails: https://langestefan.
+ github.io/powersystem-deadlines/conference/icit26
+LOCATION:Centro de Internacionalización UANL\, Monterrey\, Mexico
+URL;VALUE=URI:https://icit2026.ieee-ies.org/
+CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

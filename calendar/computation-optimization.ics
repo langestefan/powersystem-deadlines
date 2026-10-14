@@ -11,8 +11,156 @@ X-WR-CALDESC:Deadlines for conferences tagged "Computation & Optimization".
 SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
  ar/computation-optimization.ics
 BEGIN:VEVENT
+UID:ipst27-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+TRANSP:TRANSPARENT
+SUMMARY:IPST 2027: First submission (full paper) (23:59 UTC+12 (assumed))
+DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
+ )\n\nFirst submission (full paper): 18 Dec 2026\, 23:59 UTC+12 (assumed)\n
+ \nConference: June 6-10\, 2027\nLocation: Bologna\, Italy\nVenue: Royal Ho
+ tel Carlton\n\nAll dates:\n  First submission (full paper): 18 Dec 2026\, 
+ 23:59 UTC+12 (assumed)\n  Author notification: 19 Feb 2027\, 23:59 UTC+12 
+ (assumed)\n  Final paper submission: 19 Mar 2027\, 23:59 UTC+12 (assumed)\
+ n  Final notification to authors: 9 Apr 2027\, 23:59 UTC+12 (assumed)\n\nT
+ he call for papers states no timezone. This is counted as UTC+12\, the ear
+ liest it could plausibly mean\, so the countdown runs out before the real 
+ deadline rather than after it.\n\nOrganised with the University of Bologna
+ . Early registration runs until 6 April 2027.\n\nCall for papers: https://
+ ipst2027.org/\nDetails: https://langestefan.github.io/powersystem-deadline
+ s/conference/ipst27
+LOCATION:Bologna\, Italy
+URL;VALUE=URI:https://ipst2027.org/
+CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
+  & Automation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ipst27-notification@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+TRANSP:TRANSPARENT
+SUMMARY:IPST 2027: Author notification (23:59 UTC+12 (assumed))
+DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
+ )\n\nAuthor notification: 19 Feb 2027\, 23:59 UTC+12 (assumed)\n\nConferen
+ ce: June 6-10\, 2027\nLocation: Bologna\, Italy\nVenue: Royal Hotel Carlto
+ n\n\nAll dates:\n  First submission (full paper): 18 Dec 2026\, 23:59 UTC+
+ 12 (assumed)\n  Author notification: 19 Feb 2027\, 23:59 UTC+12 (assumed)\
+ n  Final paper submission: 19 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final n
+ otification to authors: 9 Apr 2027\, 23:59 UTC+12 (assumed)\n\nThe call fo
+ r papers states no timezone. This is counted as UTC+12\, the earliest it c
+ ould plausibly mean\, so the countdown runs out before the real deadline r
+ ather than after it.\n\nOrganised with the University of Bologna. Early re
+ gistration runs until 6 April 2027.\n\nCall for papers: https://ipst2027.o
+ rg/\nDetails: https://langestefan.github.io/powersystem-deadlines/conferen
+ ce/ipst27
+LOCATION:Bologna\, Italy
+URL;VALUE=URI:https://ipst2027.org/
+CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
+  & Automation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ipst27-camera_ready@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+TRANSP:TRANSPARENT
+SUMMARY:IPST 2027: Final paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
+ )\n\nFinal paper submission: 19 Mar 2027\, 23:59 UTC+12 (assumed)\n\nConfe
+ rence: June 6-10\, 2027\nLocation: Bologna\, Italy\nVenue: Royal Hotel Car
+ lton\n\nAll dates:\n  First submission (full paper): 18 Dec 2026\, 23:59 U
+ TC+12 (assumed)\n  Author notification: 19 Feb 2027\, 23:59 UTC+12 (assume
+ d)\n  Final paper submission: 19 Mar 2027\, 23:59 UTC+12 (assumed)\n  Fina
+ l notification to authors: 9 Apr 2027\, 23:59 UTC+12 (assumed)\n\nThe call
+  for papers states no timezone. This is counted as UTC+12\, the earliest i
+ t could plausibly mean\, so the countdown runs out before the real deadlin
+ e rather than after it.\n\nOrganised with the University of Bologna. Early
+  registration runs until 6 April 2027.\n\nCall for papers: https://ipst202
+ 7.org/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
+ rence/ipst27
+LOCATION:Bologna\, Italy
+URL;VALUE=URI:https://ipst2027.org/
+CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
+  & Automation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ipst27-notification-2@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+TRANSP:TRANSPARENT
+SUMMARY:IPST 2027: Final notification to authors (23:59 UTC+12 (assumed))
+DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
+ )\n\nFinal notification to authors: 9 Apr 2027\, 23:59 UTC+12 (assumed)\n\
+ nConference: June 6-10\, 2027\nLocation: Bologna\, Italy\nVenue: Royal Hot
+ el Carlton\n\nAll dates:\n  First submission (full paper): 18 Dec 2026\, 2
+ 3:59 UTC+12 (assumed)\n  Author notification: 19 Feb 2027\, 23:59 UTC+12 (
+ assumed)\n  Final paper submission: 19 Mar 2027\, 23:59 UTC+12 (assumed)\n
+   Final notification to authors: 9 Apr 2027\, 23:59 UTC+12 (assumed)\n\nTh
+ e call for papers states no timezone. This is counted as UTC+12\, the earl
+ iest it could plausibly mean\, so the countdown runs out before the real d
+ eadline rather than after it.\n\nOrganised with the University of Bologna.
+  Early registration runs until 6 April 2027.\n\nCall for papers: https://i
+ pst2027.org/\nDetails: https://langestefan.github.io/powersystem-deadlines
+ /conference/ipst27
+LOCATION:Bologna\, Italy
+URL;VALUE=URI:https://ipst2027.org/
+CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
+  & Automation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:powertech27-paper@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 TRANSP:TRANSPARENT
@@ -49,7 +197,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-notification@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20270423
 DTEND;VALUE=DATE:20270424
 TRANSP:TRANSPARENT
@@ -86,7 +234,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-author_registration@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 TRANSP:TRANSPARENT
@@ -124,7 +272,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-camera_ready@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 TRANSP:TRANSPARENT
@@ -161,7 +309,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-abstract@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20250615
 DTEND;VALUE=DATE:20250616
 TRANSP:TRANSPARENT
@@ -198,7 +346,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-notification@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20250622
 DTEND;VALUE=DATE:20250623
 TRANSP:TRANSPARENT
@@ -236,7 +384,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-paper@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20251015
 DTEND;VALUE=DATE:20251016
 TRANSP:TRANSPARENT
@@ -273,7 +421,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-notification-2@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20260208
 DTEND;VALUE=DATE:20260209
 TRANSP:TRANSPARENT
@@ -311,7 +459,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-camera_ready@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20260315
 DTEND;VALUE=DATE:20260316
 TRANSP:TRANSPARENT
@@ -347,8 +495,190 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:compel26-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260408
+DTEND;VALUE=DATE:20260409
+TRANSP:TRANSPARENT
+SUMMARY:COMPEL 2026: Digest submission (extended) (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Workshop on Control and Modeling for Power Electronics (CO
+ MPEL 2026)\n\nDigest submission (extended): 8 Apr 2026\, 23:59 UTC+12 (ass
+ umed)\n\nConference: July 20-23\, 2026\nLocation: Cambridge\, United Kingd
+ om\nVenue: Downing College\, University of Cambridge\n\nAll dates:\n  Dige
+ st submission (extended): 8 Apr 2026\, 23:59 UTC+12 (assumed)\n  Notificat
+ ion of acceptance: 14 May 2026\, 23:59 UTC+12 (assumed)\n  Full paper subm
+ ission (extended): 23 Jun 2026\, 23:59 UTC+12 (assumed)\n\nThe call for pa
+ pers states no timezone. This is counted as UTC+12\, the earliest it could
+  plausibly mean\, so the countdown runs out before the real deadline rathe
+ r than after it.\n\n27th edition. Digests of up to five pages\, double-bli
+ nd. The digest deadline was extended from 31 March 2026.\n\nCall for paper
+ s: https://attend.ieee.org/compel-2026\nDetails: https://langestefan.githu
+ b.io/powersystem-deadlines/conference/compel26
+LOCATION:Cambridge\, United Kingdom
+URL;VALUE=URI:https://attend.ieee.org/compel-2026
+CATEGORIES:Power Electronics,Computation & Optimization
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:compel26-notification@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260514
+DTEND;VALUE=DATE:20260515
+TRANSP:TRANSPARENT
+SUMMARY:COMPEL 2026: Notification of acceptance (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Workshop on Control and Modeling for Power Electronics (CO
+ MPEL 2026)\n\nNotification of acceptance: 14 May 2026\, 23:59 UTC+12 (assu
+ med)\n\nConference: July 20-23\, 2026\nLocation: Cambridge\, United Kingdo
+ m\nVenue: Downing College\, University of Cambridge\n\nAll dates:\n  Diges
+ t submission (extended): 8 Apr 2026\, 23:59 UTC+12 (assumed)\n  Notificati
+ on of acceptance: 14 May 2026\, 23:59 UTC+12 (assumed)\n  Full paper submi
+ ssion (extended): 23 Jun 2026\, 23:59 UTC+12 (assumed)\n\nThe call for pap
+ ers states no timezone. This is counted as UTC+12\, the earliest it could 
+ plausibly mean\, so the countdown runs out before the real deadline rather
+  than after it.\n\n27th edition. Digests of up to five pages\, double-blin
+ d. The digest deadline was extended from 31 March 2026.\n\nCall for papers
+ : https://attend.ieee.org/compel-2026\nDetails: https://langestefan.github
+ .io/powersystem-deadlines/conference/compel26
+LOCATION:Cambridge\, United Kingdom
+URL;VALUE=URI:https://attend.ieee.org/compel-2026
+CATEGORIES:Power Electronics,Computation & Optimization
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:compel26-camera_ready@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260623
+DTEND;VALUE=DATE:20260624
+TRANSP:TRANSPARENT
+SUMMARY:COMPEL 2026: Full paper submission (extended) (23:59 UTC+12 (assume
+ d))
+DESCRIPTION:IEEE Workshop on Control and Modeling for Power Electronics (CO
+ MPEL 2026)\n\nFull paper submission (extended): 23 Jun 2026\, 23:59 UTC+12
+  (assumed)\n\nConference: July 20-23\, 2026\nLocation: Cambridge\, United 
+ Kingdom\nVenue: Downing College\, University of Cambridge\n\nAll dates:\n 
+  Digest submission (extended): 8 Apr 2026\, 23:59 UTC+12 (assumed)\n  Noti
+ fication of acceptance: 14 May 2026\, 23:59 UTC+12 (assumed)\n  Full paper
+  submission (extended): 23 Jun 2026\, 23:59 UTC+12 (assumed)\n\nThe call f
+ or papers states no timezone. This is counted as UTC+12\, the earliest it 
+ could plausibly mean\, so the countdown runs out before the real deadline 
+ rather than after it.\n\n27th edition. Digests of up to five pages\, doubl
+ e-blind. The digest deadline was extended from 31 March 2026.\n\nCall for 
+ papers: https://attend.ieee.org/compel-2026\nDetails: https://langestefan.
+ github.io/powersystem-deadlines/conference/compel26
+LOCATION:Cambridge\, United Kingdom
+URL;VALUE=URI:https://attend.ieee.org/compel-2026
+CATEGORIES:Power Electronics,Computation & Optimization
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pmaps26-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260315
+DTEND;VALUE=DATE:20260316
+TRANSP:TRANSPARENT
+SUMMARY:PMAPS 2026: Paper submission (extended) (23:59 AoE)
+DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
+ wer Systems (PMAPS 2026)\n\nPaper submission (extended): 15 Mar 2026\, 23:
+ 59 AoE\n\nConference: September 21-24\, 2026\nLocation: Salt Lake City\, U
+ SA\nVenue: University of Utah\n\nAll dates:\n  Paper submission (extended)
+ : 15 Mar 2026\, 23:59 AoE\n  Notification: 30 May 2026\, 23:59 UTC+12 (ass
+ umed)\n\nThe call for papers states no timezone. This is counted as UTC+12
+ \, the earliest it could plausibly mean\, so the countdown runs out before
+  the real deadline rather than after it.\n\n19th edition\, co-organised by
+  the University of Utah and WECC\, themed "Towards Reliable Power Grids in
+  the Age of AI and Large Loads". The paper deadline was extended twice\, f
+ rom 15 February 2026.\n\nCall for papers: https://pmaps2026.utah.edu/\nDet
+ ails: https://langestefan.github.io/powersystem-deadlines/conference/pmaps
+ 26
+LOCATION:Salt Lake City\, USA
+URL;VALUE=URI:https://pmaps2026.utah.edu/
+CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,
+ Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pmaps26-notification@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260530
+DTEND;VALUE=DATE:20260531
+TRANSP:TRANSPARENT
+SUMMARY:PMAPS 2026: Notification (23:59 UTC+12 (assumed))
+DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
+ wer Systems (PMAPS 2026)\n\nNotification: 30 May 2026\, 23:59 UTC+12 (assu
+ med)\n\nConference: September 21-24\, 2026\nLocation: Salt Lake City\, USA
+ \nVenue: University of Utah\n\nAll dates:\n  Paper submission (extended): 
+ 15 Mar 2026\, 23:59 AoE\n  Notification: 30 May 2026\, 23:59 UTC+12 (assum
+ ed)\n\nThe call for papers states no timezone. This is counted as UTC+12\,
+  the earliest it could plausibly mean\, so the countdown runs out before t
+ he real deadline rather than after it.\n\n19th edition\, co-organised by t
+ he University of Utah and WECC\, themed "Towards Reliable Power Grids in t
+ he Age of AI and Large Loads". The paper deadline was extended twice\, fro
+ m 15 February 2026.\n\nCall for papers: https://pmaps2026.utah.edu/\nDetai
+ ls: https://langestefan.github.io/powersystem-deadlines/conference/pmaps26
+LOCATION:Salt Lake City\, USA
+URL;VALUE=URI:https://pmaps2026.utah.edu/
+CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,
+ Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:naps26-paper@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 TRANSP:TRANSPARENT
@@ -381,7 +711,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:smartgridcomm26-paper@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20260503
 DTEND;VALUE=DATE:20260504
 TRANSP:TRANSPARENT
@@ -417,7 +747,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:smartgridcomm26-notification@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 TRANSP:TRANSPARENT
@@ -454,7 +784,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:smartgridcomm26-camera_ready@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 TRANSP:TRANSPARENT
@@ -476,6 +806,188 @@ LOCATION:College Station\, USA
 URL;VALUE=URI:https://sgc2026.ieee-smartgridcomm.org/
 CATEGORIES:Smart Grid,Cyber-Physical Security,Computation & Optimization,Di
  stribution
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hicss27-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260616
+TRANSP:TRANSPARENT
+SUMMARY:HICSS 2027: Paper submission (23:59 Pacific/Honolulu)
+DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
+ \n\nPaper submission: 15 Jun 2026\, 23:59 Pacific/Honolulu\n\nConference: 
+ January 5-8\, 2027\nLocation: Waikoloa\, USA\nVenue: Hilton Waikoloa Villa
+ ge\n\nAll dates:\n  Paper submission: 15 Jun 2026\, 23:59 Pacific/Honolulu
+ \n  Notification of acceptance/rejection: 17 Aug 2026\, 23:59 Pacific/Hono
+ lulu\n  Revised manuscript (conditionally accepted): 4 Sept 2026\, 23:59 P
+ acific/Honolulu\n  Final manuscript submission: 22 Sept 2026\, 23:59 Pacif
+ ic/Honolulu\n  Author registration: 1 Oct 2026\, 23:59 Pacific/Honolulu\n\
+ nHICSS-60. Submissions are due by 11:59 pm HST\; papers go to the Electric
+  Energy Systems track.\n\nCall for papers: https://hicss.hawaii.edu/\nDeta
+ ils: https://langestefan.github.io/powersystem-deadlines/conference/hicss2
+ 7
+LOCATION:Waikoloa\, USA
+URL;VALUE=URI:https://hicss.hawaii.edu/
+CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil
+ ity & Planning
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hicss27-notification@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260818
+TRANSP:TRANSPARENT
+SUMMARY:HICSS 2027: Notification of acceptance/rejection (23:59 Pacific/Hon
+ olulu)
+DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
+ \n\nNotification of acceptance/rejection: 17 Aug 2026\, 23:59 Pacific/Hono
+ lulu\n\nConference: January 5-8\, 2027\nLocation: Waikoloa\, USA\nVenue: H
+ ilton Waikoloa Village\n\nAll dates:\n  Paper submission: 15 Jun 2026\, 23
+ :59 Pacific/Honolulu\n  Notification of acceptance/rejection: 17 Aug 2026\
+ , 23:59 Pacific/Honolulu\n  Revised manuscript (conditionally accepted): 4
+  Sept 2026\, 23:59 Pacific/Honolulu\n  Final manuscript submission: 22 Sep
+ t 2026\, 23:59 Pacific/Honolulu\n  Author registration: 1 Oct 2026\, 23:59
+  Pacific/Honolulu\n\nHICSS-60. Submissions are due by 11:59 pm HST\; paper
+ s go to the Electric Energy Systems track.\n\nCall for papers: https://hic
+ ss.hawaii.edu/\nDetails: https://langestefan.github.io/powersystem-deadlin
+ es/conference/hicss27
+LOCATION:Waikoloa\, USA
+URL;VALUE=URI:https://hicss.hawaii.edu/
+CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil
+ ity & Planning
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hicss27-camera_ready@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+TRANSP:TRANSPARENT
+SUMMARY:HICSS 2027: Revised manuscript (conditionally accepted) (23:59 Paci
+ fic/Honolulu)
+DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
+ \n\nRevised manuscript (conditionally accepted): 4 Sept 2026\, 23:59 Pacif
+ ic/Honolulu\n\nConference: January 5-8\, 2027\nLocation: Waikoloa\, USA\nV
+ enue: Hilton Waikoloa Village\n\nAll dates:\n  Paper submission: 15 Jun 20
+ 26\, 23:59 Pacific/Honolulu\n  Notification of acceptance/rejection: 17 Au
+ g 2026\, 23:59 Pacific/Honolulu\n  Revised manuscript (conditionally accep
+ ted): 4 Sept 2026\, 23:59 Pacific/Honolulu\n  Final manuscript submission:
+  22 Sept 2026\, 23:59 Pacific/Honolulu\n  Author registration: 1 Oct 2026\
+ , 23:59 Pacific/Honolulu\n\nHICSS-60. Submissions are due by 11:59 pm HST\
+ ; papers go to the Electric Energy Systems track.\n\nCall for papers: http
+ s://hicss.hawaii.edu/\nDetails: https://langestefan.github.io/powersystem-
+ deadlines/conference/hicss27
+LOCATION:Waikoloa\, USA
+URL;VALUE=URI:https://hicss.hawaii.edu/
+CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil
+ ity & Planning
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hicss27-camera_ready-2@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+TRANSP:TRANSPARENT
+SUMMARY:HICSS 2027: Final manuscript submission (23:59 Pacific/Honolulu)
+DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
+ \n\nFinal manuscript submission: 22 Sept 2026\, 23:59 Pacific/Honolulu\n\n
+ Conference: January 5-8\, 2027\nLocation: Waikoloa\, USA\nVenue: Hilton Wa
+ ikoloa Village\n\nAll dates:\n  Paper submission: 15 Jun 2026\, 23:59 Paci
+ fic/Honolulu\n  Notification of acceptance/rejection: 17 Aug 2026\, 23:59 
+ Pacific/Honolulu\n  Revised manuscript (conditionally accepted): 4 Sept 20
+ 26\, 23:59 Pacific/Honolulu\n  Final manuscript submission: 22 Sept 2026\,
+  23:59 Pacific/Honolulu\n  Author registration: 1 Oct 2026\, 23:59 Pacific
+ /Honolulu\n\nHICSS-60. Submissions are due by 11:59 pm HST\; papers go to 
+ the Electric Energy Systems track.\n\nCall for papers: https://hicss.hawai
+ i.edu/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
+ rence/hicss27
+LOCATION:Waikoloa\, USA
+URL;VALUE=URI:https://hicss.hawaii.edu/
+CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil
+ ity & Planning
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hicss27-author_registration@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+TRANSP:TRANSPARENT
+SUMMARY:HICSS 2027: Author registration (23:59 Pacific/Honolulu)
+DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
+ \n\nAuthor registration: 1 Oct 2026\, 23:59 Pacific/Honolulu\n\nConference
+ : January 5-8\, 2027\nLocation: Waikoloa\, USA\nVenue: Hilton Waikoloa Vil
+ lage\n\nAll dates:\n  Paper submission: 15 Jun 2026\, 23:59 Pacific/Honolu
+ lu\n  Notification of acceptance/rejection: 17 Aug 2026\, 23:59 Pacific/Ho
+ nolulu\n  Revised manuscript (conditionally accepted): 4 Sept 2026\, 23:59
+  Pacific/Honolulu\n  Final manuscript submission: 22 Sept 2026\, 23:59 Pac
+ ific/Honolulu\n  Author registration: 1 Oct 2026\, 23:59 Pacific/Honolulu\
+ n\nHICSS-60. Submissions are due by 11:59 pm HST\; papers go to the Electr
+ ic Energy Systems track.\n\nCall for papers: https://hicss.hawaii.edu/\nDe
+ tails: https://langestefan.github.io/powersystem-deadlines/conference/hics
+ s27
+LOCATION:Waikoloa\, USA
+URL;VALUE=URI:https://hicss.hawaii.edu/
+CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil
+ ity & Planning
 STATUS:CONFIRMED
 SEQUENCE:0
 BEGIN:VALARM

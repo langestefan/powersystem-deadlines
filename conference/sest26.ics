@@ -1,0 +1,242 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SEST 2026 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for International Conference on Smart Ener
+ gy Systems and Technologies 2026.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
+ ence/sest26.ics
+BEGIN:VEVENT
+UID:sest26-abstract@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260302
+DTEND;VALUE=DATE:20260303
+TRANSP:TRANSPARENT
+SUMMARY:SEST 2026: Abstract submission (extended) (23:59 UTC+12 (assumed))
+DESCRIPTION:International Conference on Smart Energy Systems and Technologi
+ es (SEST 2026)\n\nAbstract submission (extended): 2 Mar 2026\, 23:59 UTC+1
+ 2 (assumed)\n\nConference: September 2-4\, 2026\nLocation: Ciudad Real\, S
+ pain\nVenue: Escuela Técnica Superior de Ingeniería Industrial de Ciudad
+  Real\n\nAll dates:\n  Abstract submission (extended): 2 Mar 2026\, 23:59 
+ UTC+12 (assumed)\n  Hard full paper submission (extended): 27 Apr 2026\, 2
+ 3:59 UTC+12 (assumed)\n  Notification of acceptance: 15 Jun 2026\, 23:59 U
+ TC+12 (assumed)\n  Final paper submission: 29 Jun 2026\, 23:59 UTC+12 (ass
+ umed)\n  Final registration deadline for authors: 13 Jul 2026\, 23:59 UTC+
+ 12 (assumed)\n\nThe call for papers states no timezone. This is counted as
+  UTC+12\, the earliest it could plausibly mean\, so the countdown runs out
+  before the real deadline rather than after it.\n\n8th edition. The abstra
+ ct deadline was extended from 16 February 2026 and the full paper deadline
+  from 16 March 2026.\n\nCall for papers: https://sest2026.com/\nDetails: h
+ ttps://langestefan.github.io/powersystem-deadlines/conference/sest26
+LOCATION:Ciudad Real\, Spain
+URL;VALUE=URI:https://sest2026.com/
+CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
+ ystems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sest26-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260427
+DTEND;VALUE=DATE:20260428
+TRANSP:TRANSPARENT
+SUMMARY:SEST 2026: Hard full paper submission (extended) (23:59 UTC+12 (ass
+ umed))
+DESCRIPTION:International Conference on Smart Energy Systems and Technologi
+ es (SEST 2026)\n\nHard full paper submission (extended): 27 Apr 2026\, 23:
+ 59 UTC+12 (assumed)\n\nConference: September 2-4\, 2026\nLocation: Ciudad 
+ Real\, Spain\nVenue: Escuela Técnica Superior de Ingeniería Industrial d
+ e Ciudad Real\n\nAll dates:\n  Abstract submission (extended): 2 Mar 2026\
+ , 23:59 UTC+12 (assumed)\n  Hard full paper submission (extended): 27 Apr 
+ 2026\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 15 Jun 2026\,
+  23:59 UTC+12 (assumed)\n  Final paper submission: 29 Jun 2026\, 23:59 UTC
+ +12 (assumed)\n  Final registration deadline for authors: 13 Jul 2026\, 23
+ :59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is co
+ unted as UTC+12\, the earliest it could plausibly mean\, so the countdown 
+ runs out before the real deadline rather than after it.\n\n8th edition. Th
+ e abstract deadline was extended from 16 February 2026 and the full paper 
+ deadline from 16 March 2026.\n\nCall for papers: https://sest2026.com/\nDe
+ tails: https://langestefan.github.io/powersystem-deadlines/conference/sest
+ 26
+LOCATION:Ciudad Real\, Spain
+URL;VALUE=URI:https://sest2026.com/
+CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
+ ystems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sest26-notification@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260616
+TRANSP:TRANSPARENT
+SUMMARY:SEST 2026: Notification of acceptance (23:59 UTC+12 (assumed))
+DESCRIPTION:International Conference on Smart Energy Systems and Technologi
+ es (SEST 2026)\n\nNotification of acceptance: 15 Jun 2026\, 23:59 UTC+12 (
+ assumed)\n\nConference: September 2-4\, 2026\nLocation: Ciudad Real\, Spai
+ n\nVenue: Escuela Técnica Superior de Ingeniería Industrial de Ciudad Re
+ al\n\nAll dates:\n  Abstract submission (extended): 2 Mar 2026\, 23:59 UTC
+ +12 (assumed)\n  Hard full paper submission (extended): 27 Apr 2026\, 23:5
+ 9 UTC+12 (assumed)\n  Notification of acceptance: 15 Jun 2026\, 23:59 UTC+
+ 12 (assumed)\n  Final paper submission: 29 Jun 2026\, 23:59 UTC+12 (assume
+ d)\n  Final registration deadline for authors: 13 Jul 2026\, 23:59 UTC+12 
+ (assumed)\n\nThe call for papers states no timezone. This is counted as UT
+ C+12\, the earliest it could plausibly mean\, so the countdown runs out be
+ fore the real deadline rather than after it.\n\n8th edition. The abstract 
+ deadline was extended from 16 February 2026 and the full paper deadline fr
+ om 16 March 2026.\n\nCall for papers: https://sest2026.com/\nDetails: http
+ s://langestefan.github.io/powersystem-deadlines/conference/sest26
+LOCATION:Ciudad Real\, Spain
+URL;VALUE=URI:https://sest2026.com/
+CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
+ ystems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sest26-camera_ready@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+TRANSP:TRANSPARENT
+SUMMARY:SEST 2026: Final paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:International Conference on Smart Energy Systems and Technologi
+ es (SEST 2026)\n\nFinal paper submission: 29 Jun 2026\, 23:59 UTC+12 (assu
+ med)\n\nConference: September 2-4\, 2026\nLocation: Ciudad Real\, Spain\nV
+ enue: Escuela Técnica Superior de Ingeniería Industrial de Ciudad Real\n
+ \nAll dates:\n  Abstract submission (extended): 2 Mar 2026\, 23:59 UTC+12 
+ (assumed)\n  Hard full paper submission (extended): 27 Apr 2026\, 23:59 UT
+ C+12 (assumed)\n  Notification of acceptance: 15 Jun 2026\, 23:59 UTC+12 (
+ assumed)\n  Final paper submission: 29 Jun 2026\, 23:59 UTC+12 (assumed)\n
+   Final registration deadline for authors: 13 Jul 2026\, 23:59 UTC+12 (ass
+ umed)\n\nThe call for papers states no timezone. This is counted as UTC+12
+ \, the earliest it could plausibly mean\, so the countdown runs out before
+  the real deadline rather than after it.\n\n8th edition. The abstract dead
+ line was extended from 16 February 2026 and the full paper deadline from 1
+ 6 March 2026.\n\nCall for papers: https://sest2026.com/\nDetails: https://
+ langestefan.github.io/powersystem-deadlines/conference/sest26
+LOCATION:Ciudad Real\, Spain
+URL;VALUE=URI:https://sest2026.com/
+CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
+ ystems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sest26-author_registration@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260713
+DTEND;VALUE=DATE:20260714
+TRANSP:TRANSPARENT
+SUMMARY:SEST 2026: Final registration deadline for authors (23:59 UTC+12 (a
+ ssumed))
+DESCRIPTION:International Conference on Smart Energy Systems and Technologi
+ es (SEST 2026)\n\nFinal registration deadline for authors: 13 Jul 2026\, 2
+ 3:59 UTC+12 (assumed)\n\nConference: September 2-4\, 2026\nLocation: Ciuda
+ d Real\, Spain\nVenue: Escuela Técnica Superior de Ingeniería Industrial
+  de Ciudad Real\n\nAll dates:\n  Abstract submission (extended): 2 Mar 202
+ 6\, 23:59 UTC+12 (assumed)\n  Hard full paper submission (extended): 27 Ap
+ r 2026\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 15 Jun 2026
+ \, 23:59 UTC+12 (assumed)\n  Final paper submission: 29 Jun 2026\, 23:59 U
+ TC+12 (assumed)\n  Final registration deadline for authors: 13 Jul 2026\, 
+ 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is 
+ counted as UTC+12\, the earliest it could plausibly mean\, so the countdow
+ n runs out before the real deadline rather than after it.\n\n8th edition. 
+ The abstract deadline was extended from 16 February 2026 and the full pape
+ r deadline from 16 March 2026.\n\nCall for papers: https://sest2026.com/\n
+ Details: https://langestefan.github.io/powersystem-deadlines/conference/se
+ st26
+LOCATION:Ciudad Real\, Spain
+URL;VALUE=URI:https://sest2026.com/
+CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
+ ystems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sest26-event@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260905
+TRANSP:TRANSPARENT
+SUMMARY:SEST 2026
+DESCRIPTION:International Conference on Smart Energy Systems and Technologi
+ es (SEST 2026)\n\nConference: September 2-4\, 2026\nLocation: Ciudad Real\
+ , Spain\nVenue: Escuela Técnica Superior de Ingeniería Industrial de Ciu
+ dad Real\n\nAll dates:\n  Abstract submission (extended): 2 Mar 2026\, 23:
+ 59 UTC+12 (assumed)\n  Hard full paper submission (extended): 27 Apr 2026\
+ , 23:59 UTC+12 (assumed)\n  Notification of acceptance: 15 Jun 2026\, 23:5
+ 9 UTC+12 (assumed)\n  Final paper submission: 29 Jun 2026\, 23:59 UTC+12 (
+ assumed)\n  Final registration deadline for authors: 13 Jul 2026\, 23:59 U
+ TC+12 (assumed)\n\nThe call for papers states no timezone. This is counted
+  as UTC+12\, the earliest it could plausibly mean\, so the countdown runs 
+ out before the real deadline rather than after it.\n\n8th edition. The abs
+ tract deadline was extended from 16 February 2026 and the full paper deadl
+ ine from 16 March 2026.\n\nCall for papers: https://sest2026.com/\nDetails
+ : https://langestefan.github.io/powersystem-deadlines/conference/sest26
+LOCATION:Escuela Técnica Superior de Ingeniería Industrial de Ciudad Real
+ \, Ciudad Real\, Spain
+URL;VALUE=URI:https://sest2026.com/
+CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
+ ystems
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

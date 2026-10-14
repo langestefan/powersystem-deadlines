@@ -1,0 +1,188 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IPST 2027 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for International Conference on Power Syst
+ ems Transients 2027.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
+ ence/ipst27.ics
+BEGIN:VEVENT
+UID:ipst27-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+TRANSP:TRANSPARENT
+SUMMARY:IPST 2027: First submission (full paper) (23:59 UTC+12 (assumed))
+DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
+ )\n\nFirst submission (full paper): 18 Dec 2026\, 23:59 UTC+12 (assumed)\n
+ \nConference: June 6-10\, 2027\nLocation: Bologna\, Italy\nVenue: Royal Ho
+ tel Carlton\n\nAll dates:\n  First submission (full paper): 18 Dec 2026\, 
+ 23:59 UTC+12 (assumed)\n  Author notification: 19 Feb 2027\, 23:59 UTC+12 
+ (assumed)\n  Final paper submission: 19 Mar 2027\, 23:59 UTC+12 (assumed)\
+ n  Final notification to authors: 9 Apr 2027\, 23:59 UTC+12 (assumed)\n\nT
+ he call for papers states no timezone. This is counted as UTC+12\, the ear
+ liest it could plausibly mean\, so the countdown runs out before the real 
+ deadline rather than after it.\n\nOrganised with the University of Bologna
+ . Early registration runs until 6 April 2027.\n\nCall for papers: https://
+ ipst2027.org/\nDetails: https://langestefan.github.io/powersystem-deadline
+ s/conference/ipst27
+LOCATION:Bologna\, Italy
+URL;VALUE=URI:https://ipst2027.org/
+CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
+  & Automation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ipst27-notification@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+TRANSP:TRANSPARENT
+SUMMARY:IPST 2027: Author notification (23:59 UTC+12 (assumed))
+DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
+ )\n\nAuthor notification: 19 Feb 2027\, 23:59 UTC+12 (assumed)\n\nConferen
+ ce: June 6-10\, 2027\nLocation: Bologna\, Italy\nVenue: Royal Hotel Carlto
+ n\n\nAll dates:\n  First submission (full paper): 18 Dec 2026\, 23:59 UTC+
+ 12 (assumed)\n  Author notification: 19 Feb 2027\, 23:59 UTC+12 (assumed)\
+ n  Final paper submission: 19 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final n
+ otification to authors: 9 Apr 2027\, 23:59 UTC+12 (assumed)\n\nThe call fo
+ r papers states no timezone. This is counted as UTC+12\, the earliest it c
+ ould plausibly mean\, so the countdown runs out before the real deadline r
+ ather than after it.\n\nOrganised with the University of Bologna. Early re
+ gistration runs until 6 April 2027.\n\nCall for papers: https://ipst2027.o
+ rg/\nDetails: https://langestefan.github.io/powersystem-deadlines/conferen
+ ce/ipst27
+LOCATION:Bologna\, Italy
+URL;VALUE=URI:https://ipst2027.org/
+CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
+  & Automation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ipst27-camera_ready@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+TRANSP:TRANSPARENT
+SUMMARY:IPST 2027: Final paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
+ )\n\nFinal paper submission: 19 Mar 2027\, 23:59 UTC+12 (assumed)\n\nConfe
+ rence: June 6-10\, 2027\nLocation: Bologna\, Italy\nVenue: Royal Hotel Car
+ lton\n\nAll dates:\n  First submission (full paper): 18 Dec 2026\, 23:59 U
+ TC+12 (assumed)\n  Author notification: 19 Feb 2027\, 23:59 UTC+12 (assume
+ d)\n  Final paper submission: 19 Mar 2027\, 23:59 UTC+12 (assumed)\n  Fina
+ l notification to authors: 9 Apr 2027\, 23:59 UTC+12 (assumed)\n\nThe call
+  for papers states no timezone. This is counted as UTC+12\, the earliest i
+ t could plausibly mean\, so the countdown runs out before the real deadlin
+ e rather than after it.\n\nOrganised with the University of Bologna. Early
+  registration runs until 6 April 2027.\n\nCall for papers: https://ipst202
+ 7.org/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
+ rence/ipst27
+LOCATION:Bologna\, Italy
+URL;VALUE=URI:https://ipst2027.org/
+CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
+  & Automation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ipst27-notification-2@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+TRANSP:TRANSPARENT
+SUMMARY:IPST 2027: Final notification to authors (23:59 UTC+12 (assumed))
+DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
+ )\n\nFinal notification to authors: 9 Apr 2027\, 23:59 UTC+12 (assumed)\n\
+ nConference: June 6-10\, 2027\nLocation: Bologna\, Italy\nVenue: Royal Hot
+ el Carlton\n\nAll dates:\n  First submission (full paper): 18 Dec 2026\, 2
+ 3:59 UTC+12 (assumed)\n  Author notification: 19 Feb 2027\, 23:59 UTC+12 (
+ assumed)\n  Final paper submission: 19 Mar 2027\, 23:59 UTC+12 (assumed)\n
+   Final notification to authors: 9 Apr 2027\, 23:59 UTC+12 (assumed)\n\nTh
+ e call for papers states no timezone. This is counted as UTC+12\, the earl
+ iest it could plausibly mean\, so the countdown runs out before the real d
+ eadline rather than after it.\n\nOrganised with the University of Bologna.
+  Early registration runs until 6 April 2027.\n\nCall for papers: https://i
+ pst2027.org/\nDetails: https://langestefan.github.io/powersystem-deadlines
+ /conference/ipst27
+LOCATION:Bologna\, Italy
+URL;VALUE=URI:https://ipst2027.org/
+CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
+  & Automation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ipst27-event@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270606
+DTEND;VALUE=DATE:20270611
+TRANSP:TRANSPARENT
+SUMMARY:IPST 2027
+DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
+ )\n\nConference: June 6-10\, 2027\nLocation: Bologna\, Italy\nVenue: Royal
+  Hotel Carlton\n\nAll dates:\n  First submission (full paper): 18 Dec 2026
+ \, 23:59 UTC+12 (assumed)\n  Author notification: 19 Feb 2027\, 23:59 UTC+
+ 12 (assumed)\n  Final paper submission: 19 Mar 2027\, 23:59 UTC+12 (assume
+ d)\n  Final notification to authors: 9 Apr 2027\, 23:59 UTC+12 (assumed)\n
+ \nThe call for papers states no timezone. This is counted as UTC+12\, the 
+ earliest it could plausibly mean\, so the countdown runs out before the re
+ al deadline rather than after it.\n\nOrganised with the University of Bolo
+ gna. Early registration runs until 6 April 2027.\n\nCall for papers: https
+ ://ipst2027.org/\nDetails: https://langestefan.github.io/powersystem-deadl
+ ines/conference/ipst27
+LOCATION:Royal Hotel Carlton\, Bologna\, Italy
+URL;VALUE=URI:https://ipst2027.org/
+CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
+  & Automation
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

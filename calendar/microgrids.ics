@@ -12,7 +12,7 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
  ar/microgrids.ics
 BEGIN:VEVENT
 UID:ieses27-paper@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 TRANSP:TRANSPARENT
@@ -51,7 +51,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-notification@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 TRANSP:TRANSPARENT
@@ -90,7 +90,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-camera_ready@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270702
 TRANSP:TRANSPARENT
@@ -129,7 +129,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-early_registration@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270702
 TRANSP:TRANSPARENT
@@ -167,8 +167,354 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sest26-abstract@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260302
+DTEND;VALUE=DATE:20260303
+TRANSP:TRANSPARENT
+SUMMARY:SEST 2026: Abstract submission (extended) (23:59 UTC+12 (assumed))
+DESCRIPTION:International Conference on Smart Energy Systems and Technologi
+ es (SEST 2026)\n\nAbstract submission (extended): 2 Mar 2026\, 23:59 UTC+1
+ 2 (assumed)\n\nConference: September 2-4\, 2026\nLocation: Ciudad Real\, S
+ pain\nVenue: Escuela Técnica Superior de Ingeniería Industrial de Ciudad
+  Real\n\nAll dates:\n  Abstract submission (extended): 2 Mar 2026\, 23:59 
+ UTC+12 (assumed)\n  Hard full paper submission (extended): 27 Apr 2026\, 2
+ 3:59 UTC+12 (assumed)\n  Notification of acceptance: 15 Jun 2026\, 23:59 U
+ TC+12 (assumed)\n  Final paper submission: 29 Jun 2026\, 23:59 UTC+12 (ass
+ umed)\n  Final registration deadline for authors: 13 Jul 2026\, 23:59 UTC+
+ 12 (assumed)\n\nThe call for papers states no timezone. This is counted as
+  UTC+12\, the earliest it could plausibly mean\, so the countdown runs out
+  before the real deadline rather than after it.\n\n8th edition. The abstra
+ ct deadline was extended from 16 February 2026 and the full paper deadline
+  from 16 March 2026.\n\nCall for papers: https://sest2026.com/\nDetails: h
+ ttps://langestefan.github.io/powersystem-deadlines/conference/sest26
+LOCATION:Ciudad Real\, Spain
+URL;VALUE=URI:https://sest2026.com/
+CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
+ ystems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sest26-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260427
+DTEND;VALUE=DATE:20260428
+TRANSP:TRANSPARENT
+SUMMARY:SEST 2026: Hard full paper submission (extended) (23:59 UTC+12 (ass
+ umed))
+DESCRIPTION:International Conference on Smart Energy Systems and Technologi
+ es (SEST 2026)\n\nHard full paper submission (extended): 27 Apr 2026\, 23:
+ 59 UTC+12 (assumed)\n\nConference: September 2-4\, 2026\nLocation: Ciudad 
+ Real\, Spain\nVenue: Escuela Técnica Superior de Ingeniería Industrial d
+ e Ciudad Real\n\nAll dates:\n  Abstract submission (extended): 2 Mar 2026\
+ , 23:59 UTC+12 (assumed)\n  Hard full paper submission (extended): 27 Apr 
+ 2026\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 15 Jun 2026\,
+  23:59 UTC+12 (assumed)\n  Final paper submission: 29 Jun 2026\, 23:59 UTC
+ +12 (assumed)\n  Final registration deadline for authors: 13 Jul 2026\, 23
+ :59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is co
+ unted as UTC+12\, the earliest it could plausibly mean\, so the countdown 
+ runs out before the real deadline rather than after it.\n\n8th edition. Th
+ e abstract deadline was extended from 16 February 2026 and the full paper 
+ deadline from 16 March 2026.\n\nCall for papers: https://sest2026.com/\nDe
+ tails: https://langestefan.github.io/powersystem-deadlines/conference/sest
+ 26
+LOCATION:Ciudad Real\, Spain
+URL;VALUE=URI:https://sest2026.com/
+CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
+ ystems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sest26-notification@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260616
+TRANSP:TRANSPARENT
+SUMMARY:SEST 2026: Notification of acceptance (23:59 UTC+12 (assumed))
+DESCRIPTION:International Conference on Smart Energy Systems and Technologi
+ es (SEST 2026)\n\nNotification of acceptance: 15 Jun 2026\, 23:59 UTC+12 (
+ assumed)\n\nConference: September 2-4\, 2026\nLocation: Ciudad Real\, Spai
+ n\nVenue: Escuela Técnica Superior de Ingeniería Industrial de Ciudad Re
+ al\n\nAll dates:\n  Abstract submission (extended): 2 Mar 2026\, 23:59 UTC
+ +12 (assumed)\n  Hard full paper submission (extended): 27 Apr 2026\, 23:5
+ 9 UTC+12 (assumed)\n  Notification of acceptance: 15 Jun 2026\, 23:59 UTC+
+ 12 (assumed)\n  Final paper submission: 29 Jun 2026\, 23:59 UTC+12 (assume
+ d)\n  Final registration deadline for authors: 13 Jul 2026\, 23:59 UTC+12 
+ (assumed)\n\nThe call for papers states no timezone. This is counted as UT
+ C+12\, the earliest it could plausibly mean\, so the countdown runs out be
+ fore the real deadline rather than after it.\n\n8th edition. The abstract 
+ deadline was extended from 16 February 2026 and the full paper deadline fr
+ om 16 March 2026.\n\nCall for papers: https://sest2026.com/\nDetails: http
+ s://langestefan.github.io/powersystem-deadlines/conference/sest26
+LOCATION:Ciudad Real\, Spain
+URL;VALUE=URI:https://sest2026.com/
+CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
+ ystems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sest26-camera_ready@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+TRANSP:TRANSPARENT
+SUMMARY:SEST 2026: Final paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:International Conference on Smart Energy Systems and Technologi
+ es (SEST 2026)\n\nFinal paper submission: 29 Jun 2026\, 23:59 UTC+12 (assu
+ med)\n\nConference: September 2-4\, 2026\nLocation: Ciudad Real\, Spain\nV
+ enue: Escuela Técnica Superior de Ingeniería Industrial de Ciudad Real\n
+ \nAll dates:\n  Abstract submission (extended): 2 Mar 2026\, 23:59 UTC+12 
+ (assumed)\n  Hard full paper submission (extended): 27 Apr 2026\, 23:59 UT
+ C+12 (assumed)\n  Notification of acceptance: 15 Jun 2026\, 23:59 UTC+12 (
+ assumed)\n  Final paper submission: 29 Jun 2026\, 23:59 UTC+12 (assumed)\n
+   Final registration deadline for authors: 13 Jul 2026\, 23:59 UTC+12 (ass
+ umed)\n\nThe call for papers states no timezone. This is counted as UTC+12
+ \, the earliest it could plausibly mean\, so the countdown runs out before
+  the real deadline rather than after it.\n\n8th edition. The abstract dead
+ line was extended from 16 February 2026 and the full paper deadline from 1
+ 6 March 2026.\n\nCall for papers: https://sest2026.com/\nDetails: https://
+ langestefan.github.io/powersystem-deadlines/conference/sest26
+LOCATION:Ciudad Real\, Spain
+URL;VALUE=URI:https://sest2026.com/
+CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
+ ystems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sest26-author_registration@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260713
+DTEND;VALUE=DATE:20260714
+TRANSP:TRANSPARENT
+SUMMARY:SEST 2026: Final registration deadline for authors (23:59 UTC+12 (a
+ ssumed))
+DESCRIPTION:International Conference on Smart Energy Systems and Technologi
+ es (SEST 2026)\n\nFinal registration deadline for authors: 13 Jul 2026\, 2
+ 3:59 UTC+12 (assumed)\n\nConference: September 2-4\, 2026\nLocation: Ciuda
+ d Real\, Spain\nVenue: Escuela Técnica Superior de Ingeniería Industrial
+  de Ciudad Real\n\nAll dates:\n  Abstract submission (extended): 2 Mar 202
+ 6\, 23:59 UTC+12 (assumed)\n  Hard full paper submission (extended): 27 Ap
+ r 2026\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 15 Jun 2026
+ \, 23:59 UTC+12 (assumed)\n  Final paper submission: 29 Jun 2026\, 23:59 U
+ TC+12 (assumed)\n  Final registration deadline for authors: 13 Jul 2026\, 
+ 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is 
+ counted as UTC+12\, the earliest it could plausibly mean\, so the countdow
+ n runs out before the real deadline rather than after it.\n\n8th edition. 
+ The abstract deadline was extended from 16 February 2026 and the full pape
+ r deadline from 16 March 2026.\n\nCall for papers: https://sest2026.com/\n
+ Details: https://langestefan.github.io/powersystem-deadlines/conference/se
+ st26
+LOCATION:Ciudad Real\, Spain
+URL;VALUE=URI:https://sest2026.com/
+CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
+ ystems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:powerafrica26-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+TRANSP:TRANSPARENT
+SUMMARY:PowerAfrica 2026: Paper submission (extended) (23:59 UTC+12 (assume
+ d))
+DESCRIPTION:IEEE PES/IAS PowerAfrica Conference (PowerAfrica 2026)\n\nPaper
+  submission (extended): 30 Apr 2026\, 23:59 UTC+12 (assumed)\n\nConference
+ : September 21-25\, 2026\nLocation: Nairobi\, Kenya\nVenue: Safari Park\n\
+ nAll dates:\n  Paper submission (extended): 30 Apr 2026\, 23:59 UTC+12 (as
+ sumed)\n  Notification of acceptance (extended): 1 Jun 2026\, 23:59 UTC+12
+  (assumed)\n  Camera ready submission: 22 Jun 2026\, 23:59 UTC+12 (assumed
+ )\n  Early bird registration (extended): 7 Sept 2026\, 23:59 UTC+12 (assum
+ ed)\n\nThe call for papers states no timezone. This is counted as UTC+12\,
+  the earliest it could plausibly mean\, so the countdown runs out before t
+ he real deadline rather than after it.\n\nThe paper deadline was extended 
+ from 7 April 2026.\n\nCall for papers: https://ieee-powerafrica.org/\nDeta
+ ils: https://langestefan.github.io/powersystem-deadlines/conference/powera
+ frica26
+LOCATION:Nairobi\, Kenya
+URL;VALUE=URI:https://ieee-powerafrica.org/
+CATEGORIES:Power Systems,Renewables,Distribution,Microgrids
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:powerafrica26-notification@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+TRANSP:TRANSPARENT
+SUMMARY:PowerAfrica 2026: Notification of acceptance (extended) (23:59 UTC+
+ 12 (assumed))
+DESCRIPTION:IEEE PES/IAS PowerAfrica Conference (PowerAfrica 2026)\n\nNotif
+ ication of acceptance (extended): 1 Jun 2026\, 23:59 UTC+12 (assumed)\n\nC
+ onference: September 21-25\, 2026\nLocation: Nairobi\, Kenya\nVenue: Safar
+ i Park\n\nAll dates:\n  Paper submission (extended): 30 Apr 2026\, 23:59 U
+ TC+12 (assumed)\n  Notification of acceptance (extended): 1 Jun 2026\, 23:
+ 59 UTC+12 (assumed)\n  Camera ready submission: 22 Jun 2026\, 23:59 UTC+12
+  (assumed)\n  Early bird registration (extended): 7 Sept 2026\, 23:59 UTC+
+ 12 (assumed)\n\nThe call for papers states no timezone. This is counted as
+  UTC+12\, the earliest it could plausibly mean\, so the countdown runs out
+  before the real deadline rather than after it.\n\nThe paper deadline was 
+ extended from 7 April 2026.\n\nCall for papers: https://ieee-powerafrica.o
+ rg/\nDetails: https://langestefan.github.io/powersystem-deadlines/conferen
+ ce/powerafrica26
+LOCATION:Nairobi\, Kenya
+URL;VALUE=URI:https://ieee-powerafrica.org/
+CATEGORIES:Power Systems,Renewables,Distribution,Microgrids
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:powerafrica26-camera_ready@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260622
+DTEND;VALUE=DATE:20260623
+TRANSP:TRANSPARENT
+SUMMARY:PowerAfrica 2026: Camera ready submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE PES/IAS PowerAfrica Conference (PowerAfrica 2026)\n\nCamer
+ a ready submission: 22 Jun 2026\, 23:59 UTC+12 (assumed)\n\nConference: Se
+ ptember 21-25\, 2026\nLocation: Nairobi\, Kenya\nVenue: Safari Park\n\nAll
+  dates:\n  Paper submission (extended): 30 Apr 2026\, 23:59 UTC+12 (assume
+ d)\n  Notification of acceptance (extended): 1 Jun 2026\, 23:59 UTC+12 (as
+ sumed)\n  Camera ready submission: 22 Jun 2026\, 23:59 UTC+12 (assumed)\n 
+  Early bird registration (extended): 7 Sept 2026\, 23:59 UTC+12 (assumed)\
+ n\nThe call for papers states no timezone. This is counted as UTC+12\, the
+  earliest it could plausibly mean\, so the countdown runs out before the r
+ eal deadline rather than after it.\n\nThe paper deadline was extended from
+  7 April 2026.\n\nCall for papers: https://ieee-powerafrica.org/\nDetails:
+  https://langestefan.github.io/powersystem-deadlines/conference/powerafric
+ a26
+LOCATION:Nairobi\, Kenya
+URL;VALUE=URI:https://ieee-powerafrica.org/
+CATEGORIES:Power Systems,Renewables,Distribution,Microgrids
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:powerafrica26-early_registration@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+TRANSP:TRANSPARENT
+SUMMARY:PowerAfrica 2026: Early bird registration (extended) (23:59 UTC+12 
+ (assumed))
+DESCRIPTION:IEEE PES/IAS PowerAfrica Conference (PowerAfrica 2026)\n\nEarly
+  bird registration (extended): 7 Sept 2026\, 23:59 UTC+12 (assumed)\n\nCon
+ ference: September 21-25\, 2026\nLocation: Nairobi\, Kenya\nVenue: Safari 
+ Park\n\nAll dates:\n  Paper submission (extended): 30 Apr 2026\, 23:59 UTC
+ +12 (assumed)\n  Notification of acceptance (extended): 1 Jun 2026\, 23:59
+  UTC+12 (assumed)\n  Camera ready submission: 22 Jun 2026\, 23:59 UTC+12 (
+ assumed)\n  Early bird registration (extended): 7 Sept 2026\, 23:59 UTC+12
+  (assumed)\n\nThe call for papers states no timezone. This is counted as U
+ TC+12\, the earliest it could plausibly mean\, so the countdown runs out b
+ efore the real deadline rather than after it.\n\nThe paper deadline was ex
+ tended from 7 April 2026.\n\nCall for papers: https://ieee-powerafrica.org
+ /\nDetails: https://langestefan.github.io/powersystem-deadlines/conference
+ /powerafrica26
+LOCATION:Nairobi\, Kenya
+URL;VALUE=URI:https://ieee-powerafrica.org/
+CATEGORIES:Power Systems,Renewables,Distribution,Microgrids
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:pes-grid-edge27-paper@langestefan.github.io
-DTSTAMP:20261014T043525Z
+DTSTAMP:20261014T111406Z
 DTSTART;VALUE=DATE:20260724
 DTEND;VALUE=DATE:20260725
 TRANSP:TRANSPARENT

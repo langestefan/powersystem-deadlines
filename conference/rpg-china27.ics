@@ -1,0 +1,330 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:RPG 2027 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IET International Conference on Renewa
+ ble Power Generation and Future Power Systems 2027.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
+ ence/rpg-china27.ics
+BEGIN:VEVENT
+UID:rpg-china27-abstract@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027: Abstract submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nAbstract submission: 15 Mar 2027\, 23:5
+ 9 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\nLocation: China\n\
+ nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n
+   Notification of abstract acceptance: 2 Apr 2027\, 23:59 UTC+12 (assumed)
+ \n  Submission of full papers: 17 May 2027\, 23:59 UTC+12 (assumed)\n  Not
+ ification of full paper acceptance: 14 Jun 2027\, 23:59 UTC+12 (assumed)\n
+   Requested rework paper submission: 28 Jun 2027\, 23:59 UTC+12 (assumed)\
+ n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+12 (assumed)\n  Ear
+ ly bird registration: 26 Jul 2027\, 23:59 UTC+12 (assumed)\n\nThe call for
+  papers states no timezone. This is counted as UTC+12\, the earliest it co
+ uld plausibly mean\, so the countdown runs out before the real deadline ra
+ ther than after it.\n\nRPG China 2027. The host city in China had not been
+  announced on the conference website as of 14 October 2026.\n\nCall for pa
+ pers: https://renewablepower.theiet.org/rpg-china-2027\nDetails: https://l
+ angestefan.github.io/powersystem-deadlines/conference/rpg-china27
+LOCATION:China
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rpg-china27-notification@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027: Notification of abstract acceptance (23:59 UTC+12 (assume
+ d))
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nNotification of abstract acceptance: 2 
+ Apr 2027\, 23:59 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\nLoc
+ ation: China\n\nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 UTC
+ +12 (assumed)\n  Notification of abstract acceptance: 2 Apr 2027\, 23:59 U
+ TC+12 (assumed)\n  Submission of full papers: 17 May 2027\, 23:59 UTC+12 (
+ assumed)\n  Notification of full paper acceptance: 14 Jun 2027\, 23:59 UTC
+ +12 (assumed)\n  Requested rework paper submission: 28 Jun 2027\, 23:59 UT
+ C+12 (assumed)\n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+12 (
+ assumed)\n  Early bird registration: 26 Jul 2027\, 23:59 UTC+12 (assumed)\
+ n\nThe call for papers states no timezone. This is counted as UTC+12\, the
+  earliest it could plausibly mean\, so the countdown runs out before the r
+ eal deadline rather than after it.\n\nRPG China 2027. The host city in Chi
+ na had not been announced on the conference website as of 14 October 2026.
+ \n\nCall for papers: https://renewablepower.theiet.org/rpg-china-2027\nDet
+ ails: https://langestefan.github.io/powersystem-deadlines/conference/rpg-c
+ hina27
+LOCATION:China
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rpg-china27-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027: Submission of full papers (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nSubmission of full papers: 17 May 2027\
+ , 23:59 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\nLocation: Ch
+ ina\n\nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 UTC+12 (assu
+ med)\n  Notification of abstract acceptance: 2 Apr 2027\, 23:59 UTC+12 (as
+ sumed)\n  Submission of full papers: 17 May 2027\, 23:59 UTC+12 (assumed)\
+ n  Notification of full paper acceptance: 14 Jun 2027\, 23:59 UTC+12 (assu
+ med)\n  Requested rework paper submission: 28 Jun 2027\, 23:59 UTC+12 (ass
+ umed)\n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+12 (assumed)\
+ n  Early bird registration: 26 Jul 2027\, 23:59 UTC+12 (assumed)\n\nThe ca
+ ll for papers states no timezone. This is counted as UTC+12\, the earliest
+  it could plausibly mean\, so the countdown runs out before the real deadl
+ ine rather than after it.\n\nRPG China 2027. The host city in China had no
+ t been announced on the conference website as of 14 October 2026.\n\nCall 
+ for papers: https://renewablepower.theiet.org/rpg-china-2027\nDetails: htt
+ ps://langestefan.github.io/powersystem-deadlines/conference/rpg-china27
+LOCATION:China
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rpg-china27-notification-2@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270615
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027: Notification of full paper acceptance (23:59 UTC+12 (assu
+ med))
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nNotification of full paper acceptance: 
+ 14 Jun 2027\, 23:59 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\n
+ Location: China\n\nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 
+ UTC+12 (assumed)\n  Notification of abstract acceptance: 2 Apr 2027\, 23:5
+ 9 UTC+12 (assumed)\n  Submission of full papers: 17 May 2027\, 23:59 UTC+1
+ 2 (assumed)\n  Notification of full paper acceptance: 14 Jun 2027\, 23:59 
+ UTC+12 (assumed)\n  Requested rework paper submission: 28 Jun 2027\, 23:59
+  UTC+12 (assumed)\n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+1
+ 2 (assumed)\n  Early bird registration: 26 Jul 2027\, 23:59 UTC+12 (assume
+ d)\n\nThe call for papers states no timezone. This is counted as UTC+12\, 
+ the earliest it could plausibly mean\, so the countdown runs out before th
+ e real deadline rather than after it.\n\nRPG China 2027. The host city in 
+ China had not been announced on the conference website as of 14 October 20
+ 26.\n\nCall for papers: https://renewablepower.theiet.org/rpg-china-2027\n
+ Details: https://langestefan.github.io/powersystem-deadlines/conference/rp
+ g-china27
+LOCATION:China
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rpg-china27-camera_ready@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270629
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027: Requested rework paper submission (23:59 UTC+12 (assumed)
+ )
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nRequested rework paper submission: 28 J
+ un 2027\, 23:59 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\nLoca
+ tion: China\n\nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 UTC+
+ 12 (assumed)\n  Notification of abstract acceptance: 2 Apr 2027\, 23:59 UT
+ C+12 (assumed)\n  Submission of full papers: 17 May 2027\, 23:59 UTC+12 (a
+ ssumed)\n  Notification of full paper acceptance: 14 Jun 2027\, 23:59 UTC+
+ 12 (assumed)\n  Requested rework paper submission: 28 Jun 2027\, 23:59 UTC
+ +12 (assumed)\n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+12 (a
+ ssumed)\n  Early bird registration: 26 Jul 2027\, 23:59 UTC+12 (assumed)\n
+ \nThe call for papers states no timezone. This is counted as UTC+12\, the 
+ earliest it could plausibly mean\, so the countdown runs out before the re
+ al deadline rather than after it.\n\nRPG China 2027. The host city in Chin
+ a had not been announced on the conference website as of 14 October 2026.\
+ n\nCall for papers: https://renewablepower.theiet.org/rpg-china-2027\nDeta
+ ils: https://langestefan.github.io/powersystem-deadlines/conference/rpg-ch
+ ina27
+LOCATION:China
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rpg-china27-camera_ready-2@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270710
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027: Paper modification deadline (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nPaper modification deadline: 9 Jul 2027
+ \, 23:59 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\nLocation: C
+ hina\n\nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 UTC+12 (ass
+ umed)\n  Notification of abstract acceptance: 2 Apr 2027\, 23:59 UTC+12 (a
+ ssumed)\n  Submission of full papers: 17 May 2027\, 23:59 UTC+12 (assumed)
+ \n  Notification of full paper acceptance: 14 Jun 2027\, 23:59 UTC+12 (ass
+ umed)\n  Requested rework paper submission: 28 Jun 2027\, 23:59 UTC+12 (as
+ sumed)\n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+12 (assumed)
+ \n  Early bird registration: 26 Jul 2027\, 23:59 UTC+12 (assumed)\n\nThe c
+ all for papers states no timezone. This is counted as UTC+12\, the earlies
+ t it could plausibly mean\, so the countdown runs out before the real dead
+ line rather than after it.\n\nRPG China 2027. The host city in China had n
+ ot been announced on the conference website as of 14 October 2026.\n\nCall
+  for papers: https://renewablepower.theiet.org/rpg-china-2027\nDetails: ht
+ tps://langestefan.github.io/powersystem-deadlines/conference/rpg-china27
+LOCATION:China
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rpg-china27-early_registration@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270726
+DTEND;VALUE=DATE:20270727
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027: Early bird registration (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nEarly bird registration: 26 Jul 2027\, 
+ 23:59 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\nLocation: Chin
+ a\n\nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 UTC+12 (assume
+ d)\n  Notification of abstract acceptance: 2 Apr 2027\, 23:59 UTC+12 (assu
+ med)\n  Submission of full papers: 17 May 2027\, 23:59 UTC+12 (assumed)\n 
+  Notification of full paper acceptance: 14 Jun 2027\, 23:59 UTC+12 (assume
+ d)\n  Requested rework paper submission: 28 Jun 2027\, 23:59 UTC+12 (assum
+ ed)\n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+12 (assumed)\n 
+  Early bird registration: 26 Jul 2027\, 23:59 UTC+12 (assumed)\n\nThe call
+  for papers states no timezone. This is counted as UTC+12\, the earliest i
+ t could plausibly mean\, so the countdown runs out before the real deadlin
+ e rather than after it.\n\nRPG China 2027. The host city in China had not 
+ been announced on the conference website as of 14 October 2026.\n\nCall fo
+ r papers: https://renewablepower.theiet.org/rpg-china-2027\nDetails: https
+ ://langestefan.github.io/powersystem-deadlines/conference/rpg-china27
+LOCATION:China
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rpg-china27-event@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271101
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nConference: October 29-31\, 2027\nLocat
+ ion: China\n\nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 UTC+1
+ 2 (assumed)\n  Notification of abstract acceptance: 2 Apr 2027\, 23:59 UTC
+ +12 (assumed)\n  Submission of full papers: 17 May 2027\, 23:59 UTC+12 (as
+ sumed)\n  Notification of full paper acceptance: 14 Jun 2027\, 23:59 UTC+1
+ 2 (assumed)\n  Requested rework paper submission: 28 Jun 2027\, 23:59 UTC+
+ 12 (assumed)\n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+12 (as
+ sumed)\n  Early bird registration: 26 Jul 2027\, 23:59 UTC+12 (assumed)\n\
+ nThe call for papers states no timezone. This is counted as UTC+12\, the e
+ arliest it could plausibly mean\, so the countdown runs out before the rea
+ l deadline rather than after it.\n\nRPG China 2027. The host city in China
+  had not been announced on the conference website as of 14 October 2026.\n
+ \nCall for papers: https://renewablepower.theiet.org/rpg-china-2027\nDetai
+ ls: https://langestefan.github.io/powersystem-deadlines/conference/rpg-chi
+ na27
+LOCATION:China
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

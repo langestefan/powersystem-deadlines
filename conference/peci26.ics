@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PECI 2026 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IEEE Power and Energy Conference at Il
+ linois 2026.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
+ ence/peci26.ics
+BEGIN:VEVENT
+UID:peci26-event@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20260416
+DTEND;VALUE=DATE:20260418
+TRANSP:TRANSPARENT
+SUMMARY:PECI 2026
+DESCRIPTION:IEEE Power and Energy Conference at Illinois (PECI 2026)\n\nCon
+ ference: April 16-17\, 2026\nLocation: Urbana-Champaign\, USA\nVenue: Elec
+ trical and Computer Engineering Building (ECEB)\, UIUC\n\n17th edition. Su
+ bmission had already closed when this entry was added\, so no deadlines ar
+ e recorded for this edition.\n\nCall for papers: https://peci.ece.illinois
+ .edu/\nDetails: https://langestefan.github.io/powersystem-deadlines/confer
+ ence/peci26
+LOCATION:Electrical and Computer Engineering Building (ECEB)\, UIUC\, Urban
+ a-Champaign\, USA
+URL;VALUE=URI:https://peci.ece.illinois.edu/
+CATEGORIES:Power Systems,Power Electronics,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

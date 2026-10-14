@@ -1,0 +1,152 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:RPG 2027 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IET International Conference on Renewa
+ ble Power Generation and Future Power Systems 2027.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
+ ence/rpg-global27.ics
+BEGIN:VEVENT
+UID:rpg-global27-paper@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027: Full paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nFull paper submission: 11 Dec 2026\, 23
+ :59 UTC+12 (assumed)\n\nConference: May 26-27\, 2027\nLocation: Birmingham
+ \, United Kingdom\nVenue: IET Birmingham: Austin Court\n\nAll dates:\n  Fu
+ ll paper submission: 11 Dec 2026\, 23:59 UTC+12 (assumed)\n  Author notifi
+ cation: 16 Feb 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 15 Ap
+ r 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone.
+  This is counted as UTC+12\, the earliest it could plausibly mean\, so the
+  countdown runs out before the real deadline rather than after it.\n\nRPG 
+ Global 2027. Full papers are peer reviewed and indexed in IET Inspec\, IEE
+ E Xplore and Ei Compendex.\n\nCall for papers: https://renewablepower.thei
+ et.org/rpg-global-2027\nDetails: https://langestefan.github.io/powersystem
+ -deadlines/conference/rpg-global27
+LOCATION:Birmingham\, United Kingdom
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-global-2027/call-for-su
+ bmissions
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rpg-global27-notification@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027: Author notification (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nAuthor notification: 16 Feb 2027\, 23:5
+ 9 UTC+12 (assumed)\n\nConference: May 26-27\, 2027\nLocation: Birmingham\,
+  United Kingdom\nVenue: IET Birmingham: Austin Court\n\nAll dates:\n  Full
+  paper submission: 11 Dec 2026\, 23:59 UTC+12 (assumed)\n  Author notifica
+ tion: 16 Feb 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 15 Apr 
+ 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. T
+ his is counted as UTC+12\, the earliest it could plausibly mean\, so the c
+ ountdown runs out before the real deadline rather than after it.\n\nRPG Gl
+ obal 2027. Full papers are peer reviewed and indexed in IET Inspec\, IEEE 
+ Xplore and Ei Compendex.\n\nCall for papers: https://renewablepower.theiet
+ .org/rpg-global-2027\nDetails: https://langestefan.github.io/powersystem-d
+ eadlines/conference/rpg-global27
+LOCATION:Birmingham\, United Kingdom
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-global-2027
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rpg-global27-author_registration@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027: Author registration (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nAuthor registration: 15 Apr 2027\, 23:5
+ 9 UTC+12 (assumed)\n\nConference: May 26-27\, 2027\nLocation: Birmingham\,
+  United Kingdom\nVenue: IET Birmingham: Austin Court\n\nAll dates:\n  Full
+  paper submission: 11 Dec 2026\, 23:59 UTC+12 (assumed)\n  Author notifica
+ tion: 16 Feb 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 15 Apr 
+ 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. T
+ his is counted as UTC+12\, the earliest it could plausibly mean\, so the c
+ ountdown runs out before the real deadline rather than after it.\n\nRPG Gl
+ obal 2027. Full papers are peer reviewed and indexed in IET Inspec\, IEEE 
+ Xplore and Ei Compendex.\n\nCall for papers: https://renewablepower.theiet
+ .org/rpg-global-2027\nDetails: https://langestefan.github.io/powersystem-d
+ eadlines/conference/rpg-global27
+LOCATION:Birmingham\, United Kingdom
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-global-2027
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rpg-global27-event@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270528
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nConference: May 26-27\, 2027\nLocation:
+  Birmingham\, United Kingdom\nVenue: IET Birmingham: Austin Court\n\nAll d
+ ates:\n  Full paper submission: 11 Dec 2026\, 23:59 UTC+12 (assumed)\n  Au
+ thor notification: 16 Feb 2027\, 23:59 UTC+12 (assumed)\n  Author registra
+ tion: 15 Apr 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states n
+ o timezone. This is counted as UTC+12\, the earliest it could plausibly me
+ an\, so the countdown runs out before the real deadline rather than after 
+ it.\n\nRPG Global 2027. Full papers are peer reviewed and indexed in IET I
+ nspec\, IEEE Xplore and Ei Compendex.\n\nCall for papers: https://renewabl
+ epower.theiet.org/rpg-global-2027\nDetails: https://langestefan.github.io/
+ powersystem-deadlines/conference/rpg-global27
+LOCATION:IET Birmingham: Austin Court\, Birmingham\, United Kingdom
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-global-2027
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

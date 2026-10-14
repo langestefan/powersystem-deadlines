@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:DPSP 2028 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IET International Conference on Develo
+ pments in Power System Protection 2028.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
+ ence/dpsp-global28.ics
+BEGIN:VEVENT
+UID:dpsp-global28-event@langestefan.github.io
+DTSTAMP:20261014T111406Z
+DTSTART;VALUE=DATE:20280327
+DTEND;VALUE=DATE:20280331
+TRANSP:TRANSPARENT
+SUMMARY:DPSP 2028
+DESCRIPTION:IET International Conference on Developments in Power System Pr
+ otection (DPSP 2028)\n\nConference: March 27-30\, 2028\nLocation: London\,
+  United Kingdom\nVenue: IET London: Savoy Place\n\nNot yet announced: Pape
+ r submission\n\nDPSP Global 2028. The call for submissions had not been pu
+ blished as of 14 October 2026.\n\nCall for papers: https://dpsp.theiet.org
+ /2028-global\nDetails: https://langestefan.github.io/powersystem-deadlines
+ /conference/dpsp-global28
+LOCATION:IET London: Savoy Place\, London\, United Kingdom
+URL;VALUE=URI:https://dpsp.theiet.org/2028-global
+CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR
