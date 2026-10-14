@@ -1,0 +1,84 @@
+name: ICIT
+full_name: IEEE International Conference on Industrial Technology
+link: https://www.ieee-ies.org/conferences
+society:
+  - IEEE IES
+frequency: annual
+tags:
+  - power-electronics
+  - machines-drives
+  - smart-grid
+  - renewables
+description: >-
+  The IEEE Industrial Electronics Society's conference on industrial technology,
+  from power electronics, drives and energy systems to automation and
+  industrial informatics.
+
+editions:
+  - year: 2026
+    id: icit26
+    link: https://icit2026.ieee-ies.org/
+    city: Monterrey
+    country: Mexico
+    venue: Centro de Internacionalización UANL
+    date: March 4-6, 2026
+    verified: 2026-10-14
+    start: 2026-03-04
+    end: 2026-03-06
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    deadlines:
+      - type: paper
+        label: Paper submission (regular and special session)
+        date: '2025-11-15 23:59:59'
+      - type: paper
+        label: Work-in-progress paper submission
+        date: '2025-11-30 23:59:59'
+      - type: notification
+        label: Paper acceptance notification
+        date: '2026-01-12 23:59:59'
+      - type: camera_ready
+        label: Final paper submission
+        date: '2026-01-31 23:59:59'
+      - type: author_registration
+        label: Author registration
+        date: '2026-01-31 23:59:59'
+    note: >-
+      27th edition, hosted by Universidad Autónoma de Nuevo León.
+
+  - year: 2027
+    id: icit27
+    link: https://icit2027.ieee-ies.org/
+    city: Florianópolis
+    country: Brazil
+    venue: Majestic Palace Hotel
+    date: March 17-19, 2027
+    verified: 2026-10-14
+    start: 2027-03-17
+    end: 2027-03-19
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    deadlines:
+      - type: paper
+        label: Regular paper submission (extended, hard deadline)
+        date: '2026-10-26 23:59:59'
+      - type: paper
+        label: Work-in-progress paper submission
+        date: '2026-10-26 23:59:59'
+      - type: tutorial_proposal
+        label: Tutorial proposal
+        date: '2026-11-13 23:59:59'
+      - type: notification
+        label: Paper acceptance notification
+        date: '2026-12-11 23:59:59'
+      - type: camera_ready
+        label: Final paper submission
+        date: '2027-01-18 23:59:59'
+      - type: author_registration
+        label: Author registration
+        date: '2027-01-18 23:59:59'
+    note: >-
+      Hosted by Universidade Federal de Santa Catarina. The regular paper
+      deadline was extended from 12 October 2026.
