@@ -78,11 +78,36 @@ editions:
         label: Panel session proposal
         date: '2027-02-01 23:59:59'
       - type: notification
+        label: Early acceptance notification for authors requiring a visa
+        date: '2027-03-01 23:59:59'
+      - type: notification
         label: Regular paper acceptance notification
         date: '2027-03-15 23:59:59'
       - type: paper
         label: Work-in-progress paper submission
         date: '2027-04-01 23:59:59'
+      - type: camera_ready
+        label: Final manuscript submission
+        date: '2027-04-15 23:59:59'
+      - type: author_registration
+        label: Author registration
+        date: '2027-04-15 23:59:59'
+      - type: notification
+        label: Work-in-progress paper acceptance notification
+        date: '2027-05-01 23:59:59'
     note: >-
       36th edition, themed on industrial electronics for the energy transition
       and the digital transformation of industry.
+    changes:
+      - date: 2026-10-14
+        field: notification
+        new: '2027-03-01'
+      - date: 2026-10-14
+        field: camera_ready
+        new: '2027-04-15'
+      - date: 2026-10-14
+        field: author_registration
+        new: '2027-04-15'
+      - date: 2026-10-14
+        field: notification
+        new: '2027-05-01'

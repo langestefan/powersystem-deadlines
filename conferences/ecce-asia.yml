@@ -49,6 +49,7 @@ editions:
       - type: paper
         label: Digest submission
         date: '2026-10-25 23:59:59'
+        timezone: Asia/Seoul
       - type: notification
         label: Acceptance notification
         date: '2027-01-15 23:59:59'
@@ -61,3 +62,8 @@ editions:
     note: >-
       Held as ICPE 2027-ECCE Asia, the 12th International Conference on Power
       Electronics.
+    changes:
+      - date: 2026-10-14
+        field: paper
+        old: 2026-10-25 23:59 (timezone not stated)
+        new: 2026-10-25 23:59 KST

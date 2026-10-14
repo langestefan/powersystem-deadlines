@@ -1,6 +1,6 @@
 name: PMAPS
 full_name: International Conference on Probabilistic Methods Applied to Power Systems
-link: https://www.pmaps.world/
+link: https://pmaps2026.utah.edu/
 society:
   - IEEE PES
   - Other
@@ -33,14 +33,24 @@ editions:
       - type: paper
         label: Paper submission (extended)
         date: '2026-03-15 23:59:59'
-        timezone: AoE
       - type: notification
         label: Notification
         date: '2026-05-30 23:59:59'
+      - type: camera_ready
+        label: Final paper submission
+        date: '2026-06-30 23:59:59'
     note: >-
       19th edition, co-organised by the University of Utah and WECC, themed
       "Towards Reliable Power Grids in the Age of AI and Large Loads". The paper
       deadline was extended twice, from 15 February 2026.
+    changes:
+      - date: 2026-10-14
+        field: paper
+        old: 2026-03-15 23:59 AoE
+        new: 2026-03-15 23:59 (timezone not stated)
+      - date: 2026-10-14
+        field: camera_ready
+        new: '2026-06-30'
 
   - year: 2028
     id: pmaps28

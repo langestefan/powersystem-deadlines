@@ -23,7 +23,7 @@ editions:
     country: Portugal
     venue: Hotel Guimarães
     date: July 21-23, 2027
-    verified: 2026-10-13
+    verified: 2026-10-14
     start: 2027-07-21
     end: 2027-07-23
     format: in-person
@@ -39,11 +39,18 @@ editions:
       - type: camera_ready
         label: Camera-ready
         date: '2027-07-01 23:59:59'
-      - type: early_registration
-        label: Early registration
+      - type: author_registration
+        label: Author registration
         date: '2027-07-01 23:59:59'
     note: >-
       5th edition of the conference. Papers are limited to 6 pages. The conference
       website lists final paper submission and author registration on 1 July
       2027, which is shown here; the call for papers flyer gives 1 June 2027 for
       camera-ready and early registration.
+    changes:
+      - date: 2026-10-14
+        field: early_registration
+        old: '2027-07-01'
+      - date: 2026-10-14
+        field: author_registration
+        new: '2027-07-01'

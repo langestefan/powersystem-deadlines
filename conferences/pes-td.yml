@@ -47,9 +47,13 @@ editions:
 
   - year: 2028
     id: pes-td28
-    region: North America
-    date: 2028, dates to be announced
+    city: Atlanta
+    country: USA
+    venue: Georgia World Congress Center
+    date: April 24-27, 2028
     verified: 2026-10-14
+    start: 2028-04-24
+    end: 2028-04-27
     format: in-person
     proceedings: IEEE Xplore
     deadlines:
@@ -59,3 +63,17 @@ editions:
     note: >-
       The conference runs every two years. The 2028 call for papers had not
       been published as of 14 October 2026.
+    changes:
+      - date: 2026-10-14
+        field: date
+        old: 2028, dates to be announced
+        new: April 24-27, 2028
+      - date: 2026-10-14
+        field: city
+        new: Atlanta
+      - date: 2026-10-14
+        field: country
+        new: USA
+      - date: 2026-10-14
+        field: venue
+        new: Georgia World Congress Center

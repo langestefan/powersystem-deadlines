@@ -47,6 +47,7 @@ editions:
   - year: 2027
     id: rpg-china27
     link: https://renewablepower.theiet.org/rpg-china-2027
+    city: Shanghai
     country: China
     date: October 29-31, 2027
     verified: 2026-10-14
@@ -78,5 +79,12 @@ editions:
         label: Early bird registration
         date: '2027-07-26 23:59:59'
     note: >-
-      RPG China 2027. The host city in China had not been announced on the
-      conference website as of 14 October 2026.
+      RPG China 2027, the 16th edition, organised jointly with Shanghai Jiao Tong
+      University. The conference landing page gives 2 April 2027 for full papers,
+      but the author information page lists 2 April as the abstract notification
+      and 17 May 2027 for full papers; the author information page is followed
+      here.
+    changes:
+      - date: 2026-10-14
+        field: city
+        new: Shanghai

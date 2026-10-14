@@ -20,7 +20,7 @@ editions:
     city: Milwaukee
     country: USA
     date: May 17-20, 2027
-    verified: 2026-10-13
+    verified: 2026-10-14
     start: 2027-05-17
     end: 2027-05-20
     format: in-person
@@ -30,6 +30,12 @@ editions:
       - type: abstract
         label: Digest submission
         date: '2026-11-01 23:59:59'
+      - type: workshop_proposal
+        label: Special session proposal
+        date: '2026-11-01 23:59:59'
+      - type: tutorial_proposal
+        label: Tutorial proposal
+        date: '2026-11-15 23:59:59'
       - type: notification
         label: Digest acceptance notification
         date: '2027-01-15 23:59:59'
@@ -39,3 +45,10 @@ editions:
     note: >-
       16th edition, marking the conference's 30th anniversary and returning to
       Milwaukee.
+    changes:
+      - date: 2026-10-14
+        field: workshop_proposal
+        new: '2026-11-01'
+      - date: 2026-10-14
+        field: tutorial_proposal
+        new: '2026-11-15'

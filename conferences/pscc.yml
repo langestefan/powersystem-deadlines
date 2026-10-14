@@ -21,7 +21,7 @@ editions:
     country: Cyprus
     venue: St. Raphael Resort
     date: June 8-12, 2026
-    verified: 2026-08-26
+    verified: 2026-10-14
     start: 2026-06-08
     end: 2026-06-12
     format: in-person
@@ -41,8 +41,14 @@ editions:
         label: Acceptance and revision requests
         date: '2026-02-08 23:59:59'
       - type: camera_ready
-        label: Final manuscript submission
-        date: '2026-03-15 23:59:59'
+        label: Final manuscript submission (extended)
+        date: '2026-03-22 23:59:59'
     note: >-
       Submission is abstract-first: a one-page abstract must be accepted before
-      the full paper can be submitted.
+      the full paper can be submitted. The final manuscript deadline was
+      extended from 15 to 22 March 2026.
+    changes:
+      - date: 2026-10-14
+        field: camera_ready
+        old: '2026-03-15'
+        new: '2026-03-22'
