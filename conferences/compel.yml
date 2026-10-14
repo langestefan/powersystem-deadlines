@@ -1,0 +1,60 @@
+name: COMPEL
+full_name: IEEE Workshop on Control and Modeling for Power Electronics
+link: https://www.ieee-pels.org/conferences/
+society:
+  - IEEE PELS
+frequency: annual
+tags:
+  - power-electronics
+  - computation-optimization
+description: >-
+  The flagship conference of the IEEE PELS technical committee on control and
+  modeling of power electronics: converter modeling, simulation, control and
+  design optimization. It alternates between the Americas and elsewhere.
+
+editions:
+  - year: 2026
+    id: compel26
+    link: https://attend.ieee.org/compel-2026
+    city: Cambridge
+    country: United Kingdom
+    venue: Downing College, University of Cambridge
+    date: July 20-23, 2026
+    verified: 2026-10-14
+    start: 2026-07-20
+    end: 2026-07-23
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: extended-abstract
+    deadlines:
+      - type: paper
+        label: Digest submission (extended)
+        date: '2026-04-08 23:59:59'
+      - type: notification
+        label: Notification of acceptance
+        date: '2026-05-14 23:59:59'
+      - type: camera_ready
+        label: Full paper submission (extended)
+        date: '2026-06-23 23:59:59'
+    note: >-
+      27th edition. Digests of up to five pages, double-blind. The digest
+      deadline was extended from 31 March 2026.
+
+  - year: 2027
+    id: compel27
+    city: Austin
+    country: USA
+    date: June 13-16, 2027
+    verified: 2026-10-14
+    start: 2027-06-13
+    end: 2027-06-16
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: extended-abstract
+    deadlines:
+      - type: paper
+        label: Digest submission
+        date: 'TBA'
+    note: >-
+      Dates and city are from the IEEE PELS conference schedule; the call for
+      papers had not been published as of 14 October 2026.
