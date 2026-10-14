@@ -13,15 +13,50 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/ecce-asia27.ics
 BEGIN:VEVENT
 UID:ecce-asia27-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 TRANSP:TRANSPARENT
-SUMMARY:ECCE Asia 2027: Digest submission (23:59 UTC+12 (assumed))
+SUMMARY:ECCE Asia 2027: Digest submission (23:59 Asia/Seoul)
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia 
- 2027)\n\nDigest submission: 25 Oct 2026\, 23:59 UTC+12 (assumed)\n\nConfer
- ence: May 23-26\, 2027\nLocation: Seoul\, South Korea\nVenue: COEX Magok\n
- \nAll dates:\n  Digest submission: 25 Oct 2026\, 23:59 UTC+12 (assumed)\n 
+ 2027)\n\nDigest submission: 25 Oct 2026\, 23:59 Asia/Seoul\n\nConference: 
+ May 23-26\, 2027\nLocation: Seoul\, South Korea\nVenue: COEX Magok\n\nAll 
+ dates:\n  Digest submission: 25 Oct 2026\, 23:59 Asia/Seoul\n  Acceptance 
+ notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript sub
+ mission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n  Early registration: 31 Ma
+ r 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone.
+  This is counted as UTC+12\, the earliest it could plausibly mean\, so the
+  countdown runs out before the real deadline rather than after it.\n\nHeld
+  as ICPE 2027-ECCE Asia\, the 12th International Conference on Power Elect
+ ronics.\n\nCall for papers: https://www.icpe-conf.org/\nDetails: https://l
+ angestefan.github.io/powersystem-deadlines/conference/ecce-asia27
+LOCATION:Seoul\, South Korea
+URL;VALUE=URI:https://www.icpe-conf.org/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecce-asia27-notification@langestefan.github.io
+DTSTAMP:20261014T121559Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+TRANSP:TRANSPARENT
+SUMMARY:ECCE Asia 2027: Acceptance notification (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia 
+ 2027)\n\nAcceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n\n
+ Conference: May 23-26\, 2027\nLocation: Seoul\, South Korea\nVenue: COEX M
+ agok\n\nAll dates:\n  Digest submission: 25 Oct 2026\, 23:59 Asia/Seoul\n 
   Acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final ma
  nuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n  Early registr
  ation: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states 
@@ -48,44 +83,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ecce-asia27-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
-DTSTART;VALUE=DATE:20270115
-DTEND;VALUE=DATE:20270116
-TRANSP:TRANSPARENT
-SUMMARY:ECCE Asia 2027: Acceptance notification (23:59 UTC+12 (assumed))
-DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia 
- 2027)\n\nAcceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n\n
- Conference: May 23-26\, 2027\nLocation: Seoul\, South Korea\nVenue: COEX M
- agok\n\nAll dates:\n  Digest submission: 25 Oct 2026\, 23:59 UTC+12 (assum
- ed)\n  Acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n  Fi
- nal manuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n  Early r
- egistration: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers s
- tates no timezone. This is counted as UTC+12\, the earliest it could plaus
- ibly mean\, so the countdown runs out before the real deadline rather than
-  after it.\n\nHeld as ICPE 2027-ECCE Asia\, the 12th International Confere
- nce on Power Electronics.\n\nCall for papers: https://www.icpe-conf.org/\n
- Details: https://langestefan.github.io/powersystem-deadlines/conference/ec
- ce-asia27
-LOCATION:Seoul\, South Korea
-URL;VALUE=URI:https://www.icpe-conf.org/
-CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:ecce-asia27-camera_ready@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 TRANSP:TRANSPARENT
@@ -94,16 +93,16 @@ SUMMARY:ECCE Asia 2027: Final manuscript submission (23:59 UTC+12 (assumed)
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia 
  2027)\n\nFinal manuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)
  \n\nConference: May 23-26\, 2027\nLocation: Seoul\, South Korea\nVenue: CO
- EX Magok\n\nAll dates:\n  Digest submission: 25 Oct 2026\, 23:59 UTC+12 (a
- ssumed)\n  Acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n
-   Final manuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n  Ear
- ly registration: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for pape
- rs states no timezone. This is counted as UTC+12\, the earliest it could p
- lausibly mean\, so the countdown runs out before the real deadline rather 
- than after it.\n\nHeld as ICPE 2027-ECCE Asia\, the 12th International Con
- ference on Power Electronics.\n\nCall for papers: https://www.icpe-conf.or
- g/\nDetails: https://langestefan.github.io/powersystem-deadlines/conferenc
- e/ecce-asia27
+ EX Magok\n\nAll dates:\n  Digest submission: 25 Oct 2026\, 23:59 Asia/Seou
+ l\n  Acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n  Fina
+ l manuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n  Early reg
+ istration: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers sta
+ tes no timezone. This is counted as UTC+12\, the earliest it could plausib
+ ly mean\, so the countdown runs out before the real deadline rather than a
+ fter it.\n\nHeld as ICPE 2027-ECCE Asia\, the 12th International Conferenc
+ e on Power Electronics.\n\nCall for papers: https://www.icpe-conf.org/\nDe
+ tails: https://langestefan.github.io/powersystem-deadlines/conference/ecce
+ -asia27
 LOCATION:Seoul\, South Korea
 URL;VALUE=URI:https://www.icpe-conf.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
@@ -122,7 +121,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce-asia27-early_registration@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 TRANSP:TRANSPARENT
@@ -130,16 +129,15 @@ SUMMARY:ECCE Asia 2027: Early registration (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia 
  2027)\n\nEarly registration: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nConfe
  rence: May 23-26\, 2027\nLocation: Seoul\, South Korea\nVenue: COEX Magok\
- n\nAll dates:\n  Digest submission: 25 Oct 2026\, 23:59 UTC+12 (assumed)\n
-   Acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final m
- anuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n  Early regist
- ration: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states
-  no timezone. This is counted as UTC+12\, the earliest it could plausibly 
- mean\, so the countdown runs out before the real deadline rather than afte
- r it.\n\nHeld as ICPE 2027-ECCE Asia\, the 12th International Conference o
- n Power Electronics.\n\nCall for papers: https://www.icpe-conf.org/\nDetai
- ls: https://langestefan.github.io/powersystem-deadlines/conference/ecce-as
- ia27
+ n\nAll dates:\n  Digest submission: 25 Oct 2026\, 23:59 Asia/Seoul\n  Acce
+ ptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final manuscr
+ ipt submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n  Early registration
+ : 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no ti
+ mezone. This is counted as UTC+12\, the earliest it could plausibly mean\,
+  so the countdown runs out before the real deadline rather than after it.\
+ n\nHeld as ICPE 2027-ECCE Asia\, the 12th International Conference on Powe
+ r Electronics.\n\nCall for papers: https://www.icpe-conf.org/\nDetails: ht
+ tps://langestefan.github.io/powersystem-deadlines/conference/ecce-asia27
 LOCATION:Seoul\, South Korea
 URL;VALUE=URI:https://www.icpe-conf.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
@@ -158,23 +156,23 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce-asia27-event@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270527
 TRANSP:TRANSPARENT
 SUMMARY:ECCE Asia 2027
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia 
  2027)\n\nConference: May 23-26\, 2027\nLocation: Seoul\, South Korea\nVenu
- e: COEX Magok\n\nAll dates:\n  Digest submission: 25 Oct 2026\, 23:59 UTC+
- 12 (assumed)\n  Acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assum
- ed)\n  Final manuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n
-   Early registration: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for
-  papers states no timezone. This is counted as UTC+12\, the earliest it co
- uld plausibly mean\, so the countdown runs out before the real deadline ra
- ther than after it.\n\nHeld as ICPE 2027-ECCE Asia\, the 12th Internationa
- l Conference on Power Electronics.\n\nCall for papers: https://www.icpe-co
- nf.org/\nDetails: https://langestefan.github.io/powersystem-deadlines/conf
- erence/ecce-asia27
+ e: COEX Magok\n\nAll dates:\n  Digest submission: 25 Oct 2026\, 23:59 Asia
+ /Seoul\n  Acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n 
+  Final manuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n  Earl
+ y registration: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for paper
+ s states no timezone. This is counted as UTC+12\, the earliest it could pl
+ ausibly mean\, so the countdown runs out before the real deadline rather t
+ han after it.\n\nHeld as ICPE 2027-ECCE Asia\, the 12th International Conf
+ erence on Power Electronics.\n\nCall for papers: https://www.icpe-conf.org
+ /\nDetails: https://langestefan.github.io/powersystem-deadlines/conference
+ /ecce-asia27
 LOCATION:COEX Magok\, Seoul\, South Korea
 URL;VALUE=URI:https://www.icpe-conf.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage

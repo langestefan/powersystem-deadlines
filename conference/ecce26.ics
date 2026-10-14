@@ -13,23 +13,24 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/ecce26.ics
 BEGIN:VEVENT
 UID:ecce26-abstract@langestefan.github.io
-DTSTAMP:20261014T111406Z
-DTSTART;VALUE=DATE:20260227
-DTEND;VALUE=DATE:20260228
+DTSTAMP:20261014T121559Z
+DTSTART;VALUE=DATE:20260313
+DTEND;VALUE=DATE:20260314
 TRANSP:TRANSPARENT
-SUMMARY:ECCE 2026: Digest submission (23:59 UTC+12 (assumed))
+SUMMARY:ECCE 2026: Digest submission (extended) (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nD
- igest submission: 27 Feb 2026\, 23:59 UTC+12 (assumed)\n\nConference: Octo
- ber 4-8\, 2026\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest submi
- ssion: 27 Feb 2026\, 23:59 UTC+12 (assumed)\n  Author notification: 22 May
-  2026\, 23:59 UTC+12 (assumed)\n  Final paper with IEEE copyright form: 10
-  Jul 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezo
- ne. This is counted as UTC+12\, the earliest it could plausibly mean\, so 
- the countdown runs out before the real deadline rather than after it.\n\nD
- igests are single-column\, at most five pages including references\, and a
- re double-blind reviewed. The submission deadline was extended past 27 Feb
- ruary 2026.\n\nCall for papers: https://www.ieee-ecce.org/2026/\nDetails: 
- https://langestefan.github.io/powersystem-deadlines/conference/ecce26
+ igest submission (extended): 13 Mar 2026\, 23:59 UTC+12 (assumed)\n\nConfe
+ rence: October 4-8\, 2026\nLocation: Vancouver\, Canada\n\nAll dates:\n  D
+ igest submission (extended): 13 Mar 2026\, 23:59 UTC+12 (assumed)\n  Autho
+ r notification: 22 May 2026\, 23:59 UTC+12 (assumed)\n  Final paper with I
+ EEE copyright form: 10 Jul 2026\, 23:59 UTC+12 (assumed)\n\nThe call for p
+ apers states no timezone. This is counted as UTC+12\, the earliest it coul
+ d plausibly mean\, so the countdown runs out before the real deadline rath
+ er than after it.\n\nDigests are single-column\, at most five pages includ
+ ing references\, and are double-blind reviewed. The submission deadline wa
+ s extended from 27 February to 13 March 2026.\n\nCall for papers: https://
+ www.ieee-ecce.org/2026/\nDetails: https://langestefan.github.io/powersyste
+ m-deadlines/conference/ecce26
 LOCATION:Vancouver\, Canada
 URL;VALUE=URI:https://www.ieee-ecce.org/2026/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
@@ -49,7 +50,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -57,15 +58,16 @@ SUMMARY:ECCE 2026: Author notification (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nA
  uthor notification: 22 May 2026\, 23:59 UTC+12 (assumed)\n\nConference: Oc
  tober 4-8\, 2026\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest sub
- mission: 27 Feb 2026\, 23:59 UTC+12 (assumed)\n  Author notification: 22 M
- ay 2026\, 23:59 UTC+12 (assumed)\n  Final paper with IEEE copyright form: 
- 10 Jul 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no time
- zone. This is counted as UTC+12\, the earliest it could plausibly mean\, s
- o the countdown runs out before the real deadline rather than after it.\n\
- nDigests are single-column\, at most five pages including references\, and
-  are double-blind reviewed. The submission deadline was extended past 27 F
- ebruary 2026.\n\nCall for papers: https://www.ieee-ecce.org/2026/\nDetails
- : https://langestefan.github.io/powersystem-deadlines/conference/ecce26
+ mission (extended): 13 Mar 2026\, 23:59 UTC+12 (assumed)\n  Author notific
+ ation: 22 May 2026\, 23:59 UTC+12 (assumed)\n  Final paper with IEEE copyr
+ ight form: 10 Jul 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers sta
+ tes no timezone. This is counted as UTC+12\, the earliest it could plausib
+ ly mean\, so the countdown runs out before the real deadline rather than a
+ fter it.\n\nDigests are single-column\, at most five pages including refer
+ ences\, and are double-blind reviewed. The submission deadline was extende
+ d from 27 February to 13 March 2026.\n\nCall for papers: https://www.ieee-
+ ecce.org/2026/\nDetails: https://langestefan.github.io/powersystem-deadlin
+ es/conference/ecce26
 LOCATION:Vancouver\, Canada
 URL;VALUE=URI:https://www.ieee-ecce.org/2026/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
@@ -85,7 +87,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-camera_ready@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 TRANSP:TRANSPARENT
@@ -94,16 +96,16 @@ SUMMARY:ECCE 2026: Final paper with IEEE copyright form (23:59 UTC+12 (assu
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nF
  inal paper with IEEE copyright form: 10 Jul 2026\, 23:59 UTC+12 (assumed)\
  n\nConference: October 4-8\, 2026\nLocation: Vancouver\, Canada\n\nAll dat
- es:\n  Digest submission: 27 Feb 2026\, 23:59 UTC+12 (assumed)\n  Author n
- otification: 22 May 2026\, 23:59 UTC+12 (assumed)\n  Final paper with IEEE
-  copyright form: 10 Jul 2026\, 23:59 UTC+12 (assumed)\n\nThe call for pape
- rs states no timezone. This is counted as UTC+12\, the earliest it could p
- lausibly mean\, so the countdown runs out before the real deadline rather 
- than after it.\n\nDigests are single-column\, at most five pages including
-  references\, and are double-blind reviewed. The submission deadline was e
- xtended past 27 February 2026.\n\nCall for papers: https://www.ieee-ecce.o
- rg/2026/\nDetails: https://langestefan.github.io/powersystem-deadlines/con
- ference/ecce26
+ es:\n  Digest submission (extended): 13 Mar 2026\, 23:59 UTC+12 (assumed)\
+ n  Author notification: 22 May 2026\, 23:59 UTC+12 (assumed)\n  Final pape
+ r with IEEE copyright form: 10 Jul 2026\, 23:59 UTC+12 (assumed)\n\nThe ca
+ ll for papers states no timezone. This is counted as UTC+12\, the earliest
+  it could plausibly mean\, so the countdown runs out before the real deadl
+ ine rather than after it.\n\nDigests are single-column\, at most five page
+ s including references\, and are double-blind reviewed. The submission dea
+ dline was extended from 27 February to 13 March 2026.\n\nCall for papers: 
+ https://www.ieee-ecce.org/2026/\nDetails: https://langestefan.github.io/po
+ wersystem-deadlines/conference/ecce26
 LOCATION:Vancouver\, Canada
 URL;VALUE=URI:https://www.ieee-ecce.org/2026/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
@@ -123,23 +125,23 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-event@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261009
 TRANSP:TRANSPARENT
 SUMMARY:ECCE 2026
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nC
  onference: October 4-8\, 2026\nLocation: Vancouver\, Canada\n\nAll dates:\
- n  Digest submission: 27 Feb 2026\, 23:59 UTC+12 (assumed)\n  Author notif
- ication: 22 May 2026\, 23:59 UTC+12 (assumed)\n  Final paper with IEEE cop
- yright form: 10 Jul 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers s
- tates no timezone. This is counted as UTC+12\, the earliest it could plaus
- ibly mean\, so the countdown runs out before the real deadline rather than
-  after it.\n\nDigests are single-column\, at most five pages including ref
- erences\, and are double-blind reviewed. The submission deadline was exten
- ded past 27 February 2026.\n\nCall for papers: https://www.ieee-ecce.org/2
- 026/\nDetails: https://langestefan.github.io/powersystem-deadlines/confere
- nce/ecce26
+ n  Digest submission (extended): 13 Mar 2026\, 23:59 UTC+12 (assumed)\n  A
+ uthor notification: 22 May 2026\, 23:59 UTC+12 (assumed)\n  Final paper wi
+ th IEEE copyright form: 10 Jul 2026\, 23:59 UTC+12 (assumed)\n\nThe call f
+ or papers states no timezone. This is counted as UTC+12\, the earliest it 
+ could plausibly mean\, so the countdown runs out before the real deadline 
+ rather than after it.\n\nDigests are single-column\, at most five pages in
+ cluding references\, and are double-blind reviewed. The submission deadlin
+ e was extended from 27 February to 13 March 2026.\n\nCall for papers: http
+ s://www.ieee-ecce.org/2026/\nDetails: https://langestefan.github.io/powers
+ ystem-deadlines/conference/ecce26
 LOCATION:Vancouver\, Canada
 URL;VALUE=URI:https://www.ieee-ecce.org/2026/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV

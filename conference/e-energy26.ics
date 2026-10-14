@@ -13,7 +13,7 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/e-energy26.ics
 BEGIN:VEVENT
 UID:e-energy26-event@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20260622
 DTEND;VALUE=DATE:20260626
 TRANSP:TRANSPARENT

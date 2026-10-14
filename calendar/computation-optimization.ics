@@ -12,7 +12,7 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
  ar/computation-optimization.ics
 BEGIN:VEVENT
 UID:ipst27-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 TRANSP:TRANSPARENT
@@ -49,7 +49,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ipst27-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270220
 TRANSP:TRANSPARENT
@@ -86,7 +86,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ipst27-camera_ready@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20270319
 DTEND;VALUE=DATE:20270320
 TRANSP:TRANSPARENT
@@ -123,7 +123,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ipst27-notification-2@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20270409
 DTEND;VALUE=DATE:20270410
 TRANSP:TRANSPARENT
@@ -160,7 +160,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 TRANSP:TRANSPARENT
@@ -197,7 +197,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20270423
 DTEND;VALUE=DATE:20270424
 TRANSP:TRANSPARENT
@@ -234,7 +234,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-author_registration@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 TRANSP:TRANSPARENT
@@ -272,7 +272,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-camera_ready@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 TRANSP:TRANSPARENT
@@ -309,7 +309,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-abstract@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20250615
 DTEND;VALUE=DATE:20250616
 TRANSP:TRANSPARENT
@@ -321,13 +321,14 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nOne-page ab
  umed)\n  Abstract acceptance notification: 22 Jun 2025\, 23:59 UTC+12 (ass
  umed)\n  Full paper submission: 15 Oct 2025\, 23:59 UTC+12 (assumed)\n  Ac
  ceptance and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n  Fin
- al manuscript submission: 15 Mar 2026\, 23:59 UTC+12 (assumed)\n\nThe call
-  for papers states no timezone. This is counted as UTC+12\, the earliest i
- t could plausibly mean\, so the countdown runs out before the real deadlin
- e rather than after it.\n\nSubmission is abstract-first: a one-page abstra
- ct must be accepted before the full paper can be submitted.\n\nCall for pa
- pers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/powersy
- stem-deadlines/conference/pscc26
+ al manuscript submission (extended): 22 Mar 2026\, 23:59 UTC+12 (assumed)\
+ n\nThe call for papers states no timezone. This is counted as UTC+12\, the
+  earliest it could plausibly mean\, so the countdown runs out before the r
+ eal deadline rather than after it.\n\nSubmission is abstract-first: a one-
+ page abstract must be accepted before the full paper can be submitted. The
+  final manuscript deadline was extended from 15 to 22 March 2026.\n\nCall 
+ for papers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/p
+ owersystem-deadlines/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -346,7 +347,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20250622
 DTEND;VALUE=DATE:20250623
 TRANSP:TRANSPARENT
@@ -359,13 +360,14 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nAbstract ac
  (assumed)\n  Abstract acceptance notification: 22 Jun 2025\, 23:59 UTC+12 
  (assumed)\n  Full paper submission: 15 Oct 2025\, 23:59 UTC+12 (assumed)\n
    Acceptance and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n 
-  Final manuscript submission: 15 Mar 2026\, 23:59 UTC+12 (assumed)\n\nThe 
- call for papers states no timezone. This is counted as UTC+12\, the earlie
- st it could plausibly mean\, so the countdown runs out before the real dea
- dline rather than after it.\n\nSubmission is abstract-first: a one-page ab
- stract must be accepted before the full paper can be submitted.\n\nCall fo
- r papers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/pow
- ersystem-deadlines/conference/pscc26
+  Final manuscript submission (extended): 22 Mar 2026\, 23:59 UTC+12 (assum
+ ed)\n\nThe call for papers states no timezone. This is counted as UTC+12\,
+  the earliest it could plausibly mean\, so the countdown runs out before t
+ he real deadline rather than after it.\n\nSubmission is abstract-first: a 
+ one-page abstract must be accepted before the full paper can be submitted.
+  The final manuscript deadline was extended from 15 to 22 March 2026.\n\nC
+ all for papers: https://pscc2026.cy/\nDetails: https://langestefan.github.
+ io/powersystem-deadlines/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -384,7 +386,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20251015
 DTEND;VALUE=DATE:20251016
 TRANSP:TRANSPARENT
@@ -396,86 +398,12 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nFull paper
    Abstract acceptance notification: 22 Jun 2025\, 23:59 UTC+12 (assumed)\n
    Full paper submission: 15 Oct 2025\, 23:59 UTC+12 (assumed)\n  Acceptanc
  e and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n  Final manu
- script submission: 15 Mar 2026\, 23:59 UTC+12 (assumed)\n\nThe call for pa
- pers states no timezone. This is counted as UTC+12\, the earliest it could
-  plausibly mean\, so the countdown runs out before the real deadline rathe
- r than after it.\n\nSubmission is abstract-first: a one-page abstract must
-  be accepted before the full paper can be submitted.\n\nCall for papers: h
- ttps://pscc2026.cy/\nDetails: https://langestefan.github.io/powersystem-de
- adlines/conference/pscc26
-LOCATION:Limassol\, Cyprus
-URL;VALUE=URI:https://pscc2026.cy/
-CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:pscc26-notification-2@langestefan.github.io
-DTSTAMP:20261014T111406Z
-DTSTART;VALUE=DATE:20260208
-DTEND;VALUE=DATE:20260209
-TRANSP:TRANSPARENT
-SUMMARY:PSCC 2026: Acceptance and revision requests (23:59 UTC+12 (assumed)
- )
-DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nAcceptance 
- and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n\nConference: 
- June 8-12\, 2026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n
- \nAll dates:\n  One-page abstract submission: 15 Jun 2025\, 23:59 UTC+12 (
- assumed)\n  Abstract acceptance notification: 22 Jun 2025\, 23:59 UTC+12 (
- assumed)\n  Full paper submission: 15 Oct 2025\, 23:59 UTC+12 (assumed)\n 
-  Acceptance and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n  
- Final manuscript submission: 15 Mar 2026\, 23:59 UTC+12 (assumed)\n\nThe c
- all for papers states no timezone. This is counted as UTC+12\, the earlies
- t it could plausibly mean\, so the countdown runs out before the real dead
- line rather than after it.\n\nSubmission is abstract-first: a one-page abs
- tract must be accepted before the full paper can be submitted.\n\nCall for
-  papers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/powe
- rsystem-deadlines/conference/pscc26
-LOCATION:Limassol\, Cyprus
-URL;VALUE=URI:https://pscc2026.cy/
-CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:pscc26-camera_ready@langestefan.github.io
-DTSTAMP:20261014T111406Z
-DTSTART;VALUE=DATE:20260315
-DTEND;VALUE=DATE:20260316
-TRANSP:TRANSPARENT
-SUMMARY:PSCC 2026: Final manuscript submission (23:59 UTC+12 (assumed))
-DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nFinal manus
- cript submission: 15 Mar 2026\, 23:59 UTC+12 (assumed)\n\nConference: June
-  8-12\, 2026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAl
- l dates:\n  One-page abstract submission: 15 Jun 2025\, 23:59 UTC+12 (assu
- med)\n  Abstract acceptance notification: 22 Jun 2025\, 23:59 UTC+12 (assu
- med)\n  Full paper submission: 15 Oct 2025\, 23:59 UTC+12 (assumed)\n  Acc
- eptance and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n  Fina
- l manuscript submission: 15 Mar 2026\, 23:59 UTC+12 (assumed)\n\nThe call 
- for papers states no timezone. This is counted as UTC+12\, the earliest it
-  could plausibly mean\, so the countdown runs out before the real deadline
-  rather than after it.\n\nSubmission is abstract-first: a one-page abstrac
- t must be accepted before the full paper can be submitted.\n\nCall for pap
+ script submission (extended): 22 Mar 2026\, 23:59 UTC+12 (assumed)\n\nThe 
+ call for papers states no timezone. This is counted as UTC+12\, the earlie
+ st it could plausibly mean\, so the countdown runs out before the real dea
+ dline rather than after it.\n\nSubmission is abstract-first: a one-page ab
+ stract must be accepted before the full paper can be submitted. The final 
+ manuscript deadline was extended from 15 to 22 March 2026.\n\nCall for pap
  ers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/powersys
  tem-deadlines/conference/pscc26
 LOCATION:Limassol\, Cyprus
@@ -495,8 +423,86 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:pscc26-notification-2@langestefan.github.io
+DTSTAMP:20261014T121559Z
+DTSTART;VALUE=DATE:20260208
+DTEND;VALUE=DATE:20260209
+TRANSP:TRANSPARENT
+SUMMARY:PSCC 2026: Acceptance and revision requests (23:59 UTC+12 (assumed)
+ )
+DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nAcceptance 
+ and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n\nConference: 
+ June 8-12\, 2026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n
+ \nAll dates:\n  One-page abstract submission: 15 Jun 2025\, 23:59 UTC+12 (
+ assumed)\n  Abstract acceptance notification: 22 Jun 2025\, 23:59 UTC+12 (
+ assumed)\n  Full paper submission: 15 Oct 2025\, 23:59 UTC+12 (assumed)\n 
+  Acceptance and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n  
+ Final manuscript submission (extended): 22 Mar 2026\, 23:59 UTC+12 (assume
+ d)\n\nThe call for papers states no timezone. This is counted as UTC+12\, 
+ the earliest it could plausibly mean\, so the countdown runs out before th
+ e real deadline rather than after it.\n\nSubmission is abstract-first: a o
+ ne-page abstract must be accepted before the full paper can be submitted. 
+ The final manuscript deadline was extended from 15 to 22 March 2026.\n\nCa
+ ll for papers: https://pscc2026.cy/\nDetails: https://langestefan.github.i
+ o/powersystem-deadlines/conference/pscc26
+LOCATION:Limassol\, Cyprus
+URL;VALUE=URI:https://pscc2026.cy/
+CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pscc26-camera_ready@langestefan.github.io
+DTSTAMP:20261014T121559Z
+DTSTART;VALUE=DATE:20260322
+DTEND;VALUE=DATE:20260323
+TRANSP:TRANSPARENT
+SUMMARY:PSCC 2026: Final manuscript submission (extended) (23:59 UTC+12 (as
+ sumed))
+DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nFinal manus
+ cript submission (extended): 22 Mar 2026\, 23:59 UTC+12 (assumed)\n\nConfe
+ rence: June 8-12\, 2026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael R
+ esort\n\nAll dates:\n  One-page abstract submission: 15 Jun 2025\, 23:59 U
+ TC+12 (assumed)\n  Abstract acceptance notification: 22 Jun 2025\, 23:59 U
+ TC+12 (assumed)\n  Full paper submission: 15 Oct 2025\, 23:59 UTC+12 (assu
+ med)\n  Acceptance and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assum
+ ed)\n  Final manuscript submission (extended): 22 Mar 2026\, 23:59 UTC+12 
+ (assumed)\n\nThe call for papers states no timezone. This is counted as UT
+ C+12\, the earliest it could plausibly mean\, so the countdown runs out be
+ fore the real deadline rather than after it.\n\nSubmission is abstract-fir
+ st: a one-page abstract must be accepted before the full paper can be subm
+ itted. The final manuscript deadline was extended from 15 to 22 March 2026
+ .\n\nCall for papers: https://pscc2026.cy/\nDetails: https://langestefan.g
+ ithub.io/powersystem-deadlines/conference/pscc26
+LOCATION:Limassol\, Cyprus
+URL;VALUE=URI:https://pscc2026.cy/
+CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:compel26-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20260408
 DTEND;VALUE=DATE:20260409
 TRANSP:TRANSPARENT
@@ -532,7 +538,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:compel26-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20260514
 DTEND;VALUE=DATE:20260515
 TRANSP:TRANSPARENT
@@ -568,7 +574,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:compel26-camera_ready@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20260623
 DTEND;VALUE=DATE:20260624
 TRANSP:TRANSPARENT
@@ -605,24 +611,25 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pmaps26-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20260315
 DTEND;VALUE=DATE:20260316
 TRANSP:TRANSPARENT
-SUMMARY:PMAPS 2026: Paper submission (extended) (23:59 AoE)
+SUMMARY:PMAPS 2026: Paper submission (extended) (23:59 UTC+12 (assumed))
 DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
  wer Systems (PMAPS 2026)\n\nPaper submission (extended): 15 Mar 2026\, 23:
- 59 AoE\n\nConference: September 21-24\, 2026\nLocation: Salt Lake City\, U
- SA\nVenue: University of Utah\n\nAll dates:\n  Paper submission (extended)
- : 15 Mar 2026\, 23:59 AoE\n  Notification: 30 May 2026\, 23:59 UTC+12 (ass
- umed)\n\nThe call for papers states no timezone. This is counted as UTC+12
- \, the earliest it could plausibly mean\, so the countdown runs out before
-  the real deadline rather than after it.\n\n19th edition\, co-organised by
-  the University of Utah and WECC\, themed "Towards Reliable Power Grids in
-  the Age of AI and Large Loads". The paper deadline was extended twice\, f
- rom 15 February 2026.\n\nCall for papers: https://pmaps2026.utah.edu/\nDet
- ails: https://langestefan.github.io/powersystem-deadlines/conference/pmaps
- 26
+ 59 UTC+12 (assumed)\n\nConference: September 21-24\, 2026\nLocation: Salt 
+ Lake City\, USA\nVenue: University of Utah\n\nAll dates:\n  Paper submissi
+ on (extended): 15 Mar 2026\, 23:59 UTC+12 (assumed)\n  Notification: 30 Ma
+ y 2026\, 23:59 UTC+12 (assumed)\n  Final paper submission: 30 Jun 2026\, 2
+ 3:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is c
+ ounted as UTC+12\, the earliest it could plausibly mean\, so the countdown
+  runs out before the real deadline rather than after it.\n\n19th edition\,
+  co-organised by the University of Utah and WECC\, themed "Towards Reliabl
+ e Power Grids in the Age of AI and Large Loads". The paper deadline was ex
+ tended twice\, from 15 February 2026.\n\nCall for papers: https://pmaps202
+ 6.utah.edu/\nDetails: https://langestefan.github.io/powersystem-deadlines/
+ conference/pmaps26
 LOCATION:Salt Lake City\, USA
 URL;VALUE=URI:https://pmaps2026.utah.edu/
 CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,
@@ -642,7 +649,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pmaps26-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20260530
 DTEND;VALUE=DATE:20260531
 TRANSP:TRANSPARENT
@@ -651,14 +658,54 @@ DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
  wer Systems (PMAPS 2026)\n\nNotification: 30 May 2026\, 23:59 UTC+12 (assu
  med)\n\nConference: September 21-24\, 2026\nLocation: Salt Lake City\, USA
  \nVenue: University of Utah\n\nAll dates:\n  Paper submission (extended): 
- 15 Mar 2026\, 23:59 AoE\n  Notification: 30 May 2026\, 23:59 UTC+12 (assum
- ed)\n\nThe call for papers states no timezone. This is counted as UTC+12\,
-  the earliest it could plausibly mean\, so the countdown runs out before t
- he real deadline rather than after it.\n\n19th edition\, co-organised by t
- he University of Utah and WECC\, themed "Towards Reliable Power Grids in t
- he Age of AI and Large Loads". The paper deadline was extended twice\, fro
- m 15 February 2026.\n\nCall for papers: https://pmaps2026.utah.edu/\nDetai
- ls: https://langestefan.github.io/powersystem-deadlines/conference/pmaps26
+ 15 Mar 2026\, 23:59 UTC+12 (assumed)\n  Notification: 30 May 2026\, 23:59 
+ UTC+12 (assumed)\n  Final paper submission: 30 Jun 2026\, 23:59 UTC+12 (as
+ sumed)\n\nThe call for papers states no timezone. This is counted as UTC+1
+ 2\, the earliest it could plausibly mean\, so the countdown runs out befor
+ e the real deadline rather than after it.\n\n19th edition\, co-organised b
+ y the University of Utah and WECC\, themed "Towards Reliable Power Grids i
+ n the Age of AI and Large Loads". The paper deadline was extended twice\, 
+ from 15 February 2026.\n\nCall for papers: https://pmaps2026.utah.edu/\nDe
+ tails: https://langestefan.github.io/powersystem-deadlines/conference/pmap
+ s26
+LOCATION:Salt Lake City\, USA
+URL;VALUE=URI:https://pmaps2026.utah.edu/
+CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,
+ Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pmaps26-camera_ready@langestefan.github.io
+DTSTAMP:20261014T121559Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+TRANSP:TRANSPARENT
+SUMMARY:PMAPS 2026: Final paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
+ wer Systems (PMAPS 2026)\n\nFinal paper submission: 30 Jun 2026\, 23:59 UT
+ C+12 (assumed)\n\nConference: September 21-24\, 2026\nLocation: Salt Lake 
+ City\, USA\nVenue: University of Utah\n\nAll dates:\n  Paper submission (e
+ xtended): 15 Mar 2026\, 23:59 UTC+12 (assumed)\n  Notification: 30 May 202
+ 6\, 23:59 UTC+12 (assumed)\n  Final paper submission: 30 Jun 2026\, 23:59 
+ UTC+12 (assumed)\n\nThe call for papers states no timezone. This is counte
+ d as UTC+12\, the earliest it could plausibly mean\, so the countdown runs
+  out before the real deadline rather than after it.\n\n19th edition\, co-o
+ rganised by the University of Utah and WECC\, themed "Towards Reliable Pow
+ er Grids in the Age of AI and Large Loads". The paper deadline was extende
+ d twice\, from 15 February 2026.\n\nCall for papers: https://pmaps2026.uta
+ h.edu/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
+ rence/pmaps26
 LOCATION:Salt Lake City\, USA
 URL;VALUE=URI:https://pmaps2026.utah.edu/
 CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,
@@ -678,7 +725,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:naps26-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 TRANSP:TRANSPARENT
@@ -711,7 +758,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:smartgridcomm26-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20260503
 DTEND;VALUE=DATE:20260504
 TRANSP:TRANSPARENT
@@ -747,7 +794,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:smartgridcomm26-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 TRANSP:TRANSPARENT
@@ -784,7 +831,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:smartgridcomm26-camera_ready@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 TRANSP:TRANSPARENT
@@ -821,7 +868,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hicss27-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 TRANSP:TRANSPARENT
@@ -857,7 +904,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hicss27-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
 TRANSP:TRANSPARENT
@@ -894,7 +941,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hicss27-camera_ready@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 TRANSP:TRANSPARENT
@@ -931,7 +978,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hicss27-camera_ready-2@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 TRANSP:TRANSPARENT
@@ -967,7 +1014,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hicss27-author_registration@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 TRANSP:TRANSPARENT

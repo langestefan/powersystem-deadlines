@@ -13,24 +13,25 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/pmaps26.ics
 BEGIN:VEVENT
 UID:pmaps26-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20260315
 DTEND;VALUE=DATE:20260316
 TRANSP:TRANSPARENT
-SUMMARY:PMAPS 2026: Paper submission (extended) (23:59 AoE)
+SUMMARY:PMAPS 2026: Paper submission (extended) (23:59 UTC+12 (assumed))
 DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
  wer Systems (PMAPS 2026)\n\nPaper submission (extended): 15 Mar 2026\, 23:
- 59 AoE\n\nConference: September 21-24\, 2026\nLocation: Salt Lake City\, U
- SA\nVenue: University of Utah\n\nAll dates:\n  Paper submission (extended)
- : 15 Mar 2026\, 23:59 AoE\n  Notification: 30 May 2026\, 23:59 UTC+12 (ass
- umed)\n\nThe call for papers states no timezone. This is counted as UTC+12
- \, the earliest it could plausibly mean\, so the countdown runs out before
-  the real deadline rather than after it.\n\n19th edition\, co-organised by
-  the University of Utah and WECC\, themed "Towards Reliable Power Grids in
-  the Age of AI and Large Loads". The paper deadline was extended twice\, f
- rom 15 February 2026.\n\nCall for papers: https://pmaps2026.utah.edu/\nDet
- ails: https://langestefan.github.io/powersystem-deadlines/conference/pmaps
- 26
+ 59 UTC+12 (assumed)\n\nConference: September 21-24\, 2026\nLocation: Salt 
+ Lake City\, USA\nVenue: University of Utah\n\nAll dates:\n  Paper submissi
+ on (extended): 15 Mar 2026\, 23:59 UTC+12 (assumed)\n  Notification: 30 Ma
+ y 2026\, 23:59 UTC+12 (assumed)\n  Final paper submission: 30 Jun 2026\, 2
+ 3:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is c
+ ounted as UTC+12\, the earliest it could plausibly mean\, so the countdown
+  runs out before the real deadline rather than after it.\n\n19th edition\,
+  co-organised by the University of Utah and WECC\, themed "Towards Reliabl
+ e Power Grids in the Age of AI and Large Loads". The paper deadline was ex
+ tended twice\, from 15 February 2026.\n\nCall for papers: https://pmaps202
+ 6.utah.edu/\nDetails: https://langestefan.github.io/powersystem-deadlines/
+ conference/pmaps26
 LOCATION:Salt Lake City\, USA
 URL;VALUE=URI:https://pmaps2026.utah.edu/
 CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,
@@ -50,7 +51,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pmaps26-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20260530
 DTEND;VALUE=DATE:20260531
 TRANSP:TRANSPARENT
@@ -59,14 +60,54 @@ DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
  wer Systems (PMAPS 2026)\n\nNotification: 30 May 2026\, 23:59 UTC+12 (assu
  med)\n\nConference: September 21-24\, 2026\nLocation: Salt Lake City\, USA
  \nVenue: University of Utah\n\nAll dates:\n  Paper submission (extended): 
- 15 Mar 2026\, 23:59 AoE\n  Notification: 30 May 2026\, 23:59 UTC+12 (assum
- ed)\n\nThe call for papers states no timezone. This is counted as UTC+12\,
-  the earliest it could plausibly mean\, so the countdown runs out before t
- he real deadline rather than after it.\n\n19th edition\, co-organised by t
- he University of Utah and WECC\, themed "Towards Reliable Power Grids in t
- he Age of AI and Large Loads". The paper deadline was extended twice\, fro
- m 15 February 2026.\n\nCall for papers: https://pmaps2026.utah.edu/\nDetai
- ls: https://langestefan.github.io/powersystem-deadlines/conference/pmaps26
+ 15 Mar 2026\, 23:59 UTC+12 (assumed)\n  Notification: 30 May 2026\, 23:59 
+ UTC+12 (assumed)\n  Final paper submission: 30 Jun 2026\, 23:59 UTC+12 (as
+ sumed)\n\nThe call for papers states no timezone. This is counted as UTC+1
+ 2\, the earliest it could plausibly mean\, so the countdown runs out befor
+ e the real deadline rather than after it.\n\n19th edition\, co-organised b
+ y the University of Utah and WECC\, themed "Towards Reliable Power Grids i
+ n the Age of AI and Large Loads". The paper deadline was extended twice\, 
+ from 15 February 2026.\n\nCall for papers: https://pmaps2026.utah.edu/\nDe
+ tails: https://langestefan.github.io/powersystem-deadlines/conference/pmap
+ s26
+LOCATION:Salt Lake City\, USA
+URL;VALUE=URI:https://pmaps2026.utah.edu/
+CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,
+ Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pmaps26-camera_ready@langestefan.github.io
+DTSTAMP:20261014T121559Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+TRANSP:TRANSPARENT
+SUMMARY:PMAPS 2026: Final paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
+ wer Systems (PMAPS 2026)\n\nFinal paper submission: 30 Jun 2026\, 23:59 UT
+ C+12 (assumed)\n\nConference: September 21-24\, 2026\nLocation: Salt Lake 
+ City\, USA\nVenue: University of Utah\n\nAll dates:\n  Paper submission (e
+ xtended): 15 Mar 2026\, 23:59 UTC+12 (assumed)\n  Notification: 30 May 202
+ 6\, 23:59 UTC+12 (assumed)\n  Final paper submission: 30 Jun 2026\, 23:59 
+ UTC+12 (assumed)\n\nThe call for papers states no timezone. This is counte
+ d as UTC+12\, the earliest it could plausibly mean\, so the countdown runs
+  out before the real deadline rather than after it.\n\n19th edition\, co-o
+ rganised by the University of Utah and WECC\, themed "Towards Reliable Pow
+ er Grids in the Age of AI and Large Loads". The paper deadline was extende
+ d twice\, from 15 February 2026.\n\nCall for papers: https://pmaps2026.uta
+ h.edu/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
+ rence/pmaps26
 LOCATION:Salt Lake City\, USA
 URL;VALUE=URI:https://pmaps2026.utah.edu/
 CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,
@@ -86,7 +127,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pmaps26-event@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121559Z
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260925
 TRANSP:TRANSPARENT
@@ -94,15 +135,16 @@ SUMMARY:PMAPS 2026
 DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
  wer Systems (PMAPS 2026)\n\nConference: September 21-24\, 2026\nLocation: 
  Salt Lake City\, USA\nVenue: University of Utah\n\nAll dates:\n  Paper sub
- mission (extended): 15 Mar 2026\, 23:59 AoE\n  Notification: 30 May 2026\,
-  23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is
-  counted as UTC+12\, the earliest it could plausibly mean\, so the countdo
- wn runs out before the real deadline rather than after it.\n\n19th edition
- \, co-organised by the University of Utah and WECC\, themed "Towards Relia
- ble Power Grids in the Age of AI and Large Loads". The paper deadline was 
- extended twice\, from 15 February 2026.\n\nCall for papers: https://pmaps2
- 026.utah.edu/\nDetails: https://langestefan.github.io/powersystem-deadline
- s/conference/pmaps26
+ mission (extended): 15 Mar 2026\, 23:59 UTC+12 (assumed)\n  Notification: 
+ 30 May 2026\, 23:59 UTC+12 (assumed)\n  Final paper submission: 30 Jun 202
+ 6\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This
+  is counted as UTC+12\, the earliest it could plausibly mean\, so the coun
+ tdown runs out before the real deadline rather than after it.\n\n19th edit
+ ion\, co-organised by the University of Utah and WECC\, themed "Towards Re
+ liable Power Grids in the Age of AI and Large Loads". The paper deadline w
+ as extended twice\, from 15 February 2026.\n\nCall for papers: https://pma
+ ps2026.utah.edu/\nDetails: https://langestefan.github.io/powersystem-deadl
+ ines/conference/pmaps26
 LOCATION:University of Utah\, Salt Lake City\, USA
 URL;VALUE=URI:https://pmaps2026.utah.edu/
 CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,

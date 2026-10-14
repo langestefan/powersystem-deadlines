@@ -12,7 +12,7 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
  ar/power-systems.ics
 BEGIN:VEVENT
 UID:tpec27-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 TRANSP:TRANSPARENT
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tpec27-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 TRANSP:TRANSPARENT
@@ -92,7 +92,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tpec27-paper-2@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 TRANSP:TRANSPARENT
@@ -132,7 +132,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tpec27-notification-2@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 TRANSP:TRANSPARENT
@@ -172,7 +172,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tpec27-paper-3@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 TRANSP:TRANSPARENT
@@ -212,7 +212,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tpec27-notification-3@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
 TRANSP:TRANSPARENT
@@ -252,7 +252,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 TRANSP:TRANSPARENT
@@ -290,7 +290,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 TRANSP:TRANSPARENT
@@ -328,7 +328,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-author_registration@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 TRANSP:TRANSPARENT
@@ -366,7 +366,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-camera_ready@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 TRANSP:TRANSPARENT
@@ -404,7 +404,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dpsp-europe27-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 TRANSP:TRANSPARENT
@@ -441,7 +441,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dpsp-europe27-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 TRANSP:TRANSPARENT
@@ -478,7 +478,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dpsp-europe27-author_registration@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270208
 DTEND;VALUE=DATE:20270209
 TRANSP:TRANSPARENT
@@ -515,7 +515,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dpsp-europe27-presentation_upload@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
@@ -552,7 +552,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gtd-latam27-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -584,7 +584,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-heidelberg27-abstract@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 TRANSP:TRANSPARENT
@@ -625,7 +625,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-heidelberg27-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 TRANSP:TRANSPARENT
@@ -667,7 +667,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-heidelberg27-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 TRANSP:TRANSPARENT
@@ -708,7 +708,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-heidelberg27-notification-2@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 TRANSP:TRANSPARENT
@@ -750,7 +750,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-heidelberg27-camera_ready@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270329
 DTEND;VALUE=DATE:20270330
 TRANSP:TRANSPARENT
@@ -792,7 +792,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pesgm27-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 TRANSP:TRANSPARENT
@@ -825,7 +825,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-global27-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 TRANSP:TRANSPARENT
@@ -863,7 +863,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-global27-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270217
 TRANSP:TRANSPARENT
@@ -900,7 +900,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-global27-author_registration@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
@@ -937,7 +937,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ipst27-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 TRANSP:TRANSPARENT
@@ -974,7 +974,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ipst27-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270220
 TRANSP:TRANSPARENT
@@ -1011,7 +1011,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ipst27-camera_ready@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270319
 DTEND;VALUE=DATE:20270320
 TRANSP:TRANSPARENT
@@ -1048,7 +1048,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ipst27-notification-2@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270409
 DTEND;VALUE=DATE:20270410
 TRANSP:TRANSPARENT
@@ -1085,7 +1085,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-abstract@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270111
 DTEND;VALUE=DATE:20270112
 TRANSP:TRANSPARENT
@@ -1128,7 +1128,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 TRANSP:TRANSPARENT
@@ -1172,7 +1172,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270725
 DTEND;VALUE=DATE:20270726
 TRANSP:TRANSPARENT
@@ -1215,7 +1215,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-notification-2@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270912
 DTEND;VALUE=DATE:20270913
 TRANSP:TRANSPARENT
@@ -1259,7 +1259,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-camera_ready@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270926
 DTEND;VALUE=DATE:20270927
 TRANSP:TRANSPARENT
@@ -1302,7 +1302,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-camera_ready-2@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20271010
 DTEND;VALUE=DATE:20271011
 TRANSP:TRANSPARENT
@@ -1346,7 +1346,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-presentation_upload@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20271024
 DTEND;VALUE=DATE:20271025
 TRANSP:TRANSPARENT
@@ -1390,7 +1390,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-abstract@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 TRANSP:TRANSPARENT
@@ -1429,7 +1429,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 TRANSP:TRANSPARENT
@@ -1468,7 +1468,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 TRANSP:TRANSPARENT
@@ -1507,7 +1507,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-notification-2@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270409
 DTEND;VALUE=DATE:20270410
 TRANSP:TRANSPARENT
@@ -1547,7 +1547,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-early_registration@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270428
 DTEND;VALUE=DATE:20270429
 TRANSP:TRANSPARENT
@@ -1587,7 +1587,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-author_registration@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270510
 DTEND;VALUE=DATE:20270511
 TRANSP:TRANSPARENT
@@ -1626,7 +1626,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-presentation_upload@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270528
 DTEND;VALUE=DATE:20270529
 TRANSP:TRANSPARENT
@@ -1666,7 +1666,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:peci27-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 TRANSP:TRANSPARENT
@@ -1701,7 +1701,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:peci27-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270226
 DTEND;VALUE=DATE:20270227
 TRANSP:TRANSPARENT
@@ -1736,7 +1736,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:peci27-camera_ready@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 TRANSP:TRANSPARENT
@@ -1771,7 +1771,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 TRANSP:TRANSPARENT
@@ -1808,7 +1808,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270423
 DTEND;VALUE=DATE:20270424
 TRANSP:TRANSPARENT
@@ -1845,7 +1845,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-author_registration@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 TRANSP:TRANSPARENT
@@ -1883,7 +1883,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-camera_ready@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 TRANSP:TRANSPARENT
@@ -1920,28 +1920,31 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-abstract@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
 SUMMARY:RPG 2027: Abstract submission (23:59 UTC+12 (assumed))
 DESCRIPTION:IET International Conference on Renewable Power Generation and 
  Future Power Systems (RPG 2027)\n\nAbstract submission: 15 Mar 2027\, 23:5
- 9 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\nLocation: China\n\
- nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n
-   Notification of abstract acceptance: 2 Apr 2027\, 23:59 UTC+12 (assumed)
- \n  Submission of full papers: 17 May 2027\, 23:59 UTC+12 (assumed)\n  Not
- ification of full paper acceptance: 14 Jun 2027\, 23:59 UTC+12 (assumed)\n
-   Requested rework paper submission: 28 Jun 2027\, 23:59 UTC+12 (assumed)\
- n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+12 (assumed)\n  Ear
- ly bird registration: 26 Jul 2027\, 23:59 UTC+12 (assumed)\n\nThe call for
-  papers states no timezone. This is counted as UTC+12\, the earliest it co
- uld plausibly mean\, so the countdown runs out before the real deadline ra
- ther than after it.\n\nRPG China 2027. The host city in China had not been
-  announced on the conference website as of 14 October 2026.\n\nCall for pa
- pers: https://renewablepower.theiet.org/rpg-china-2027\nDetails: https://l
- angestefan.github.io/powersystem-deadlines/conference/rpg-china27
-LOCATION:China
+ 9 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\nLocation: Shanghai
+ \, China\n\nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 UTC+12 
+ (assumed)\n  Notification of abstract acceptance: 2 Apr 2027\, 23:59 UTC+1
+ 2 (assumed)\n  Submission of full papers: 17 May 2027\, 23:59 UTC+12 (assu
+ med)\n  Notification of full paper acceptance: 14 Jun 2027\, 23:59 UTC+12 
+ (assumed)\n  Requested rework paper submission: 28 Jun 2027\, 23:59 UTC+12
+  (assumed)\n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+12 (assu
+ med)\n  Early bird registration: 26 Jul 2027\, 23:59 UTC+12 (assumed)\n\nT
+ he call for papers states no timezone. This is counted as UTC+12\, the ear
+ liest it could plausibly mean\, so the countdown runs out before the real 
+ deadline rather than after it.\n\nRPG China 2027\, the 16th edition\, orga
+ nised jointly with Shanghai Jiao Tong University. The conference landing p
+ age gives 2 April 2027 for full papers\, but the author information page l
+ ists 2 April as the abstract notification and 17 May 2027 for full papers\
+ ; the author information page is followed here.\n\nCall for papers: https:
+ //renewablepower.theiet.org/rpg-china-2027\nDetails: https://langestefan.g
+ ithub.io/powersystem-deadlines/conference/rpg-china27
+LOCATION:Shanghai\, China
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
 CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
  gy Storage
@@ -1960,7 +1963,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270402
 DTEND;VALUE=DATE:20270403
 TRANSP:TRANSPARENT
@@ -1969,21 +1972,23 @@ SUMMARY:RPG 2027: Notification of abstract acceptance (23:59 UTC+12 (assume
 DESCRIPTION:IET International Conference on Renewable Power Generation and 
  Future Power Systems (RPG 2027)\n\nNotification of abstract acceptance: 2 
  Apr 2027\, 23:59 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\nLoc
- ation: China\n\nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 UTC
- +12 (assumed)\n  Notification of abstract acceptance: 2 Apr 2027\, 23:59 U
- TC+12 (assumed)\n  Submission of full papers: 17 May 2027\, 23:59 UTC+12 (
- assumed)\n  Notification of full paper acceptance: 14 Jun 2027\, 23:59 UTC
- +12 (assumed)\n  Requested rework paper submission: 28 Jun 2027\, 23:59 UT
- C+12 (assumed)\n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+12 (
- assumed)\n  Early bird registration: 26 Jul 2027\, 23:59 UTC+12 (assumed)\
- n\nThe call for papers states no timezone. This is counted as UTC+12\, the
-  earliest it could plausibly mean\, so the countdown runs out before the r
- eal deadline rather than after it.\n\nRPG China 2027. The host city in Chi
- na had not been announced on the conference website as of 14 October 2026.
- \n\nCall for papers: https://renewablepower.theiet.org/rpg-china-2027\nDet
- ails: https://langestefan.github.io/powersystem-deadlines/conference/rpg-c
- hina27
-LOCATION:China
+ ation: Shanghai\, China\n\nAll dates:\n  Abstract submission: 15 Mar 2027\
+ , 23:59 UTC+12 (assumed)\n  Notification of abstract acceptance: 2 Apr 202
+ 7\, 23:59 UTC+12 (assumed)\n  Submission of full papers: 17 May 2027\, 23:
+ 59 UTC+12 (assumed)\n  Notification of full paper acceptance: 14 Jun 2027\
+ , 23:59 UTC+12 (assumed)\n  Requested rework paper submission: 28 Jun 2027
+ \, 23:59 UTC+12 (assumed)\n  Paper modification deadline: 9 Jul 2027\, 23:
+ 59 UTC+12 (assumed)\n  Early bird registration: 26 Jul 2027\, 23:59 UTC+12
+  (assumed)\n\nThe call for papers states no timezone. This is counted as U
+ TC+12\, the earliest it could plausibly mean\, so the countdown runs out b
+ efore the real deadline rather than after it.\n\nRPG China 2027\, the 16th
+  edition\, organised jointly with Shanghai Jiao Tong University. The confe
+ rence landing page gives 2 April 2027 for full papers\, but the author inf
+ ormation page lists 2 April as the abstract notification and 17 May 2027 f
+ or full papers\; the author information page is followed here.\n\nCall for
+  papers: https://renewablepower.theiet.org/rpg-china-2027\nDetails: https:
+ //langestefan.github.io/powersystem-deadlines/conference/rpg-china27
+LOCATION:Shanghai\, China
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
 CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
  gy Storage
@@ -2002,28 +2007,31 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 TRANSP:TRANSPARENT
 SUMMARY:RPG 2027: Submission of full papers (23:59 UTC+12 (assumed))
 DESCRIPTION:IET International Conference on Renewable Power Generation and 
  Future Power Systems (RPG 2027)\n\nSubmission of full papers: 17 May 2027\
- , 23:59 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\nLocation: Ch
- ina\n\nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 UTC+12 (assu
- med)\n  Notification of abstract acceptance: 2 Apr 2027\, 23:59 UTC+12 (as
- sumed)\n  Submission of full papers: 17 May 2027\, 23:59 UTC+12 (assumed)\
- n  Notification of full paper acceptance: 14 Jun 2027\, 23:59 UTC+12 (assu
- med)\n  Requested rework paper submission: 28 Jun 2027\, 23:59 UTC+12 (ass
- umed)\n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+12 (assumed)\
- n  Early bird registration: 26 Jul 2027\, 23:59 UTC+12 (assumed)\n\nThe ca
- ll for papers states no timezone. This is counted as UTC+12\, the earliest
-  it could plausibly mean\, so the countdown runs out before the real deadl
- ine rather than after it.\n\nRPG China 2027. The host city in China had no
- t been announced on the conference website as of 14 October 2026.\n\nCall 
- for papers: https://renewablepower.theiet.org/rpg-china-2027\nDetails: htt
- ps://langestefan.github.io/powersystem-deadlines/conference/rpg-china27
-LOCATION:China
+ , 23:59 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\nLocation: Sh
+ anghai\, China\n\nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 U
+ TC+12 (assumed)\n  Notification of abstract acceptance: 2 Apr 2027\, 23:59
+  UTC+12 (assumed)\n  Submission of full papers: 17 May 2027\, 23:59 UTC+12
+  (assumed)\n  Notification of full paper acceptance: 14 Jun 2027\, 23:59 U
+ TC+12 (assumed)\n  Requested rework paper submission: 28 Jun 2027\, 23:59 
+ UTC+12 (assumed)\n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+12
+  (assumed)\n  Early bird registration: 26 Jul 2027\, 23:59 UTC+12 (assumed
+ )\n\nThe call for papers states no timezone. This is counted as UTC+12\, t
+ he earliest it could plausibly mean\, so the countdown runs out before the
+  real deadline rather than after it.\n\nRPG China 2027\, the 16th edition\
+ , organised jointly with Shanghai Jiao Tong University. The conference lan
+ ding page gives 2 April 2027 for full papers\, but the author information 
+ page lists 2 April as the abstract notification and 17 May 2027 for full p
+ apers\; the author information page is followed here.\n\nCall for papers: 
+ https://renewablepower.theiet.org/rpg-china-2027\nDetails: https://langest
+ efan.github.io/powersystem-deadlines/conference/rpg-china27
+LOCATION:Shanghai\, China
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
 CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
  gy Storage
@@ -2042,7 +2050,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-notification-2@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270614
 DTEND;VALUE=DATE:20270615
 TRANSP:TRANSPARENT
@@ -2051,21 +2059,23 @@ SUMMARY:RPG 2027: Notification of full paper acceptance (23:59 UTC+12 (assu
 DESCRIPTION:IET International Conference on Renewable Power Generation and 
  Future Power Systems (RPG 2027)\n\nNotification of full paper acceptance: 
  14 Jun 2027\, 23:59 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\n
- Location: China\n\nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 
- UTC+12 (assumed)\n  Notification of abstract acceptance: 2 Apr 2027\, 23:5
- 9 UTC+12 (assumed)\n  Submission of full papers: 17 May 2027\, 23:59 UTC+1
- 2 (assumed)\n  Notification of full paper acceptance: 14 Jun 2027\, 23:59 
- UTC+12 (assumed)\n  Requested rework paper submission: 28 Jun 2027\, 23:59
-  UTC+12 (assumed)\n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+1
- 2 (assumed)\n  Early bird registration: 26 Jul 2027\, 23:59 UTC+12 (assume
- d)\n\nThe call for papers states no timezone. This is counted as UTC+12\, 
- the earliest it could plausibly mean\, so the countdown runs out before th
- e real deadline rather than after it.\n\nRPG China 2027. The host city in 
- China had not been announced on the conference website as of 14 October 20
- 26.\n\nCall for papers: https://renewablepower.theiet.org/rpg-china-2027\n
- Details: https://langestefan.github.io/powersystem-deadlines/conference/rp
- g-china27
-LOCATION:China
+ Location: Shanghai\, China\n\nAll dates:\n  Abstract submission: 15 Mar 20
+ 27\, 23:59 UTC+12 (assumed)\n  Notification of abstract acceptance: 2 Apr 
+ 2027\, 23:59 UTC+12 (assumed)\n  Submission of full papers: 17 May 2027\, 
+ 23:59 UTC+12 (assumed)\n  Notification of full paper acceptance: 14 Jun 20
+ 27\, 23:59 UTC+12 (assumed)\n  Requested rework paper submission: 28 Jun 2
+ 027\, 23:59 UTC+12 (assumed)\n  Paper modification deadline: 9 Jul 2027\, 
+ 23:59 UTC+12 (assumed)\n  Early bird registration: 26 Jul 2027\, 23:59 UTC
+ +12 (assumed)\n\nThe call for papers states no timezone. This is counted a
+ s UTC+12\, the earliest it could plausibly mean\, so the countdown runs ou
+ t before the real deadline rather than after it.\n\nRPG China 2027\, the 1
+ 6th edition\, organised jointly with Shanghai Jiao Tong University. The co
+ nference landing page gives 2 April 2027 for full papers\, but the author 
+ information page lists 2 April as the abstract notification and 17 May 202
+ 7 for full papers\; the author information page is followed here.\n\nCall 
+ for papers: https://renewablepower.theiet.org/rpg-china-2027\nDetails: htt
+ ps://langestefan.github.io/powersystem-deadlines/conference/rpg-china27
+LOCATION:Shanghai\, China
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
 CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
  gy Storage
@@ -2084,7 +2094,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-camera_ready@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270628
 DTEND;VALUE=DATE:20270629
 TRANSP:TRANSPARENT
@@ -2093,21 +2103,23 @@ SUMMARY:RPG 2027: Requested rework paper submission (23:59 UTC+12 (assumed)
 DESCRIPTION:IET International Conference on Renewable Power Generation and 
  Future Power Systems (RPG 2027)\n\nRequested rework paper submission: 28 J
  un 2027\, 23:59 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\nLoca
- tion: China\n\nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 UTC+
- 12 (assumed)\n  Notification of abstract acceptance: 2 Apr 2027\, 23:59 UT
- C+12 (assumed)\n  Submission of full papers: 17 May 2027\, 23:59 UTC+12 (a
- ssumed)\n  Notification of full paper acceptance: 14 Jun 2027\, 23:59 UTC+
- 12 (assumed)\n  Requested rework paper submission: 28 Jun 2027\, 23:59 UTC
- +12 (assumed)\n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+12 (a
- ssumed)\n  Early bird registration: 26 Jul 2027\, 23:59 UTC+12 (assumed)\n
- \nThe call for papers states no timezone. This is counted as UTC+12\, the 
- earliest it could plausibly mean\, so the countdown runs out before the re
- al deadline rather than after it.\n\nRPG China 2027. The host city in Chin
- a had not been announced on the conference website as of 14 October 2026.\
- n\nCall for papers: https://renewablepower.theiet.org/rpg-china-2027\nDeta
- ils: https://langestefan.github.io/powersystem-deadlines/conference/rpg-ch
- ina27
-LOCATION:China
+ tion: Shanghai\, China\n\nAll dates:\n  Abstract submission: 15 Mar 2027\,
+  23:59 UTC+12 (assumed)\n  Notification of abstract acceptance: 2 Apr 2027
+ \, 23:59 UTC+12 (assumed)\n  Submission of full papers: 17 May 2027\, 23:5
+ 9 UTC+12 (assumed)\n  Notification of full paper acceptance: 14 Jun 2027\,
+  23:59 UTC+12 (assumed)\n  Requested rework paper submission: 28 Jun 2027\
+ , 23:59 UTC+12 (assumed)\n  Paper modification deadline: 9 Jul 2027\, 23:5
+ 9 UTC+12 (assumed)\n  Early bird registration: 26 Jul 2027\, 23:59 UTC+12 
+ (assumed)\n\nThe call for papers states no timezone. This is counted as UT
+ C+12\, the earliest it could plausibly mean\, so the countdown runs out be
+ fore the real deadline rather than after it.\n\nRPG China 2027\, the 16th 
+ edition\, organised jointly with Shanghai Jiao Tong University. The confer
+ ence landing page gives 2 April 2027 for full papers\, but the author info
+ rmation page lists 2 April as the abstract notification and 17 May 2027 fo
+ r full papers\; the author information page is followed here.\n\nCall for 
+ papers: https://renewablepower.theiet.org/rpg-china-2027\nDetails: https:/
+ /langestefan.github.io/powersystem-deadlines/conference/rpg-china27
+LOCATION:Shanghai\, China
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
 CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
  gy Storage
@@ -2126,28 +2138,31 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-camera_ready-2@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270710
 TRANSP:TRANSPARENT
 SUMMARY:RPG 2027: Paper modification deadline (23:59 UTC+12 (assumed))
 DESCRIPTION:IET International Conference on Renewable Power Generation and 
  Future Power Systems (RPG 2027)\n\nPaper modification deadline: 9 Jul 2027
- \, 23:59 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\nLocation: C
- hina\n\nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 UTC+12 (ass
- umed)\n  Notification of abstract acceptance: 2 Apr 2027\, 23:59 UTC+12 (a
- ssumed)\n  Submission of full papers: 17 May 2027\, 23:59 UTC+12 (assumed)
- \n  Notification of full paper acceptance: 14 Jun 2027\, 23:59 UTC+12 (ass
- umed)\n  Requested rework paper submission: 28 Jun 2027\, 23:59 UTC+12 (as
- sumed)\n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+12 (assumed)
- \n  Early bird registration: 26 Jul 2027\, 23:59 UTC+12 (assumed)\n\nThe c
- all for papers states no timezone. This is counted as UTC+12\, the earlies
- t it could plausibly mean\, so the countdown runs out before the real dead
- line rather than after it.\n\nRPG China 2027. The host city in China had n
- ot been announced on the conference website as of 14 October 2026.\n\nCall
-  for papers: https://renewablepower.theiet.org/rpg-china-2027\nDetails: ht
- tps://langestefan.github.io/powersystem-deadlines/conference/rpg-china27
-LOCATION:China
+ \, 23:59 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\nLocation: S
+ hanghai\, China\n\nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 
+ UTC+12 (assumed)\n  Notification of abstract acceptance: 2 Apr 2027\, 23:5
+ 9 UTC+12 (assumed)\n  Submission of full papers: 17 May 2027\, 23:59 UTC+1
+ 2 (assumed)\n  Notification of full paper acceptance: 14 Jun 2027\, 23:59 
+ UTC+12 (assumed)\n  Requested rework paper submission: 28 Jun 2027\, 23:59
+  UTC+12 (assumed)\n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+1
+ 2 (assumed)\n  Early bird registration: 26 Jul 2027\, 23:59 UTC+12 (assume
+ d)\n\nThe call for papers states no timezone. This is counted as UTC+12\, 
+ the earliest it could plausibly mean\, so the countdown runs out before th
+ e real deadline rather than after it.\n\nRPG China 2027\, the 16th edition
+ \, organised jointly with Shanghai Jiao Tong University. The conference la
+ nding page gives 2 April 2027 for full papers\, but the author information
+  page lists 2 April as the abstract notification and 17 May 2027 for full 
+ papers\; the author information page is followed here.\n\nCall for papers:
+  https://renewablepower.theiet.org/rpg-china-2027\nDetails: https://langes
+ tefan.github.io/powersystem-deadlines/conference/rpg-china27
+LOCATION:Shanghai\, China
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
 CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
  gy Storage
@@ -2166,28 +2181,31 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-early_registration@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270726
 DTEND;VALUE=DATE:20270727
 TRANSP:TRANSPARENT
 SUMMARY:RPG 2027: Early bird registration (23:59 UTC+12 (assumed))
 DESCRIPTION:IET International Conference on Renewable Power Generation and 
  Future Power Systems (RPG 2027)\n\nEarly bird registration: 26 Jul 2027\, 
- 23:59 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\nLocation: Chin
- a\n\nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 UTC+12 (assume
- d)\n  Notification of abstract acceptance: 2 Apr 2027\, 23:59 UTC+12 (assu
- med)\n  Submission of full papers: 17 May 2027\, 23:59 UTC+12 (assumed)\n 
-  Notification of full paper acceptance: 14 Jun 2027\, 23:59 UTC+12 (assume
- d)\n  Requested rework paper submission: 28 Jun 2027\, 23:59 UTC+12 (assum
- ed)\n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+12 (assumed)\n 
-  Early bird registration: 26 Jul 2027\, 23:59 UTC+12 (assumed)\n\nThe call
-  for papers states no timezone. This is counted as UTC+12\, the earliest i
- t could plausibly mean\, so the countdown runs out before the real deadlin
- e rather than after it.\n\nRPG China 2027. The host city in China had not 
- been announced on the conference website as of 14 October 2026.\n\nCall fo
- r papers: https://renewablepower.theiet.org/rpg-china-2027\nDetails: https
- ://langestefan.github.io/powersystem-deadlines/conference/rpg-china27
-LOCATION:China
+ 23:59 UTC+12 (assumed)\n\nConference: October 29-31\, 2027\nLocation: Shan
+ ghai\, China\n\nAll dates:\n  Abstract submission: 15 Mar 2027\, 23:59 UTC
+ +12 (assumed)\n  Notification of abstract acceptance: 2 Apr 2027\, 23:59 U
+ TC+12 (assumed)\n  Submission of full papers: 17 May 2027\, 23:59 UTC+12 (
+ assumed)\n  Notification of full paper acceptance: 14 Jun 2027\, 23:59 UTC
+ +12 (assumed)\n  Requested rework paper submission: 28 Jun 2027\, 23:59 UT
+ C+12 (assumed)\n  Paper modification deadline: 9 Jul 2027\, 23:59 UTC+12 (
+ assumed)\n  Early bird registration: 26 Jul 2027\, 23:59 UTC+12 (assumed)\
+ n\nThe call for papers states no timezone. This is counted as UTC+12\, the
+  earliest it could plausibly mean\, so the countdown runs out before the r
+ eal deadline rather than after it.\n\nRPG China 2027\, the 16th edition\, 
+ organised jointly with Shanghai Jiao Tong University. The conference landi
+ ng page gives 2 April 2027 for full papers\, but the author information pa
+ ge lists 2 April as the abstract notification and 17 May 2027 for full pap
+ ers\; the author information page is followed here.\n\nCall for papers: ht
+ tps://renewablepower.theiet.org/rpg-china-2027\nDetails: https://langestef
+ an.github.io/powersystem-deadlines/conference/rpg-china27
+LOCATION:Shanghai\, China
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
 CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
  gy Storage
@@ -2206,7 +2224,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:upec27-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270501
 TRANSP:TRANSPARENT
@@ -2245,7 +2263,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:upec27-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270618
 DTEND;VALUE=DATE:20270619
 TRANSP:TRANSPARENT
@@ -2284,7 +2302,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:upec27-early_registration@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270625
 DTEND;VALUE=DATE:20270626
 TRANSP:TRANSPARENT
@@ -2323,7 +2341,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:upec27-camera_ready@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20270716
 DTEND;VALUE=DATE:20270717
 TRANSP:TRANSPARENT
@@ -2364,7 +2382,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tpec26-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20251124
 DTEND;VALUE=DATE:20251125
 TRANSP:TRANSPARENT
@@ -2398,7 +2416,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tpec26-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260102
 DTEND;VALUE=DATE:20260103
 TRANSP:TRANSPARENT
@@ -2432,7 +2450,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dpsp-global26-abstract@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20250711
 DTEND;VALUE=DATE:20250712
 TRANSP:TRANSPARENT
@@ -2468,7 +2486,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dpsp-global26-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20251031
 DTEND;VALUE=DATE:20251101
 TRANSP:TRANSPARENT
@@ -2504,7 +2522,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dpsp-global26-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20251210
 DTEND;VALUE=DATE:20251211
 TRANSP:TRANSPARENT
@@ -2540,7 +2558,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dpsp-global26-author_registration@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20251222
 DTEND;VALUE=DATE:20251223
 TRANSP:TRANSPARENT
@@ -2576,7 +2594,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dpsp-global26-presentation_upload@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260220
 DTEND;VALUE=DATE:20260221
 TRANSP:TRANSPARENT
@@ -2612,7 +2630,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:greentech26-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20251116
 DTEND;VALUE=DATE:20251117
 TRANSP:TRANSPARENT
@@ -2647,7 +2665,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:greentech26-tutorial_proposal@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20251214
 DTEND;VALUE=DATE:20251215
 TRANSP:TRANSPARENT
@@ -2682,7 +2700,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-td26-tutorial_proposal@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20250606
 DTEND;VALUE=DATE:20250607
 TRANSP:TRANSPARENT
@@ -2720,7 +2738,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-td26-panel_proposal@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20250801
 DTEND;VALUE=DATE:20250802
 TRANSP:TRANSPARENT
@@ -2760,7 +2778,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-td26-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20250814
 DTEND;VALUE=DATE:20250815
 TRANSP:TRANSPARENT
@@ -2800,7 +2818,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-td26-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20251104
 DTEND;VALUE=DATE:20251105
 TRANSP:TRANSPARENT
@@ -2838,7 +2856,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-abstract@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20250615
 DTEND;VALUE=DATE:20250616
 TRANSP:TRANSPARENT
@@ -2850,13 +2868,14 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nOne-page ab
  umed)\n  Abstract acceptance notification: 22 Jun 2025\, 23:59 UTC+12 (ass
  umed)\n  Full paper submission: 15 Oct 2025\, 23:59 UTC+12 (assumed)\n  Ac
  ceptance and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n  Fin
- al manuscript submission: 15 Mar 2026\, 23:59 UTC+12 (assumed)\n\nThe call
-  for papers states no timezone. This is counted as UTC+12\, the earliest i
- t could plausibly mean\, so the countdown runs out before the real deadlin
- e rather than after it.\n\nSubmission is abstract-first: a one-page abstra
- ct must be accepted before the full paper can be submitted.\n\nCall for pa
- pers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/powersy
- stem-deadlines/conference/pscc26
+ al manuscript submission (extended): 22 Mar 2026\, 23:59 UTC+12 (assumed)\
+ n\nThe call for papers states no timezone. This is counted as UTC+12\, the
+  earliest it could plausibly mean\, so the countdown runs out before the r
+ eal deadline rather than after it.\n\nSubmission is abstract-first: a one-
+ page abstract must be accepted before the full paper can be submitted. The
+  final manuscript deadline was extended from 15 to 22 March 2026.\n\nCall 
+ for papers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/p
+ owersystem-deadlines/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -2875,7 +2894,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20250622
 DTEND;VALUE=DATE:20250623
 TRANSP:TRANSPARENT
@@ -2888,13 +2907,14 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nAbstract ac
  (assumed)\n  Abstract acceptance notification: 22 Jun 2025\, 23:59 UTC+12 
  (assumed)\n  Full paper submission: 15 Oct 2025\, 23:59 UTC+12 (assumed)\n
    Acceptance and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n 
-  Final manuscript submission: 15 Mar 2026\, 23:59 UTC+12 (assumed)\n\nThe 
- call for papers states no timezone. This is counted as UTC+12\, the earlie
- st it could plausibly mean\, so the countdown runs out before the real dea
- dline rather than after it.\n\nSubmission is abstract-first: a one-page ab
- stract must be accepted before the full paper can be submitted.\n\nCall fo
- r papers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/pow
- ersystem-deadlines/conference/pscc26
+  Final manuscript submission (extended): 22 Mar 2026\, 23:59 UTC+12 (assum
+ ed)\n\nThe call for papers states no timezone. This is counted as UTC+12\,
+  the earliest it could plausibly mean\, so the countdown runs out before t
+ he real deadline rather than after it.\n\nSubmission is abstract-first: a 
+ one-page abstract must be accepted before the full paper can be submitted.
+  The final manuscript deadline was extended from 15 to 22 March 2026.\n\nC
+ all for papers: https://pscc2026.cy/\nDetails: https://langestefan.github.
+ io/powersystem-deadlines/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -2913,7 +2933,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20251015
 DTEND;VALUE=DATE:20251016
 TRANSP:TRANSPARENT
@@ -2925,86 +2945,12 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nFull paper
    Abstract acceptance notification: 22 Jun 2025\, 23:59 UTC+12 (assumed)\n
    Full paper submission: 15 Oct 2025\, 23:59 UTC+12 (assumed)\n  Acceptanc
  e and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n  Final manu
- script submission: 15 Mar 2026\, 23:59 UTC+12 (assumed)\n\nThe call for pa
- pers states no timezone. This is counted as UTC+12\, the earliest it could
-  plausibly mean\, so the countdown runs out before the real deadline rathe
- r than after it.\n\nSubmission is abstract-first: a one-page abstract must
-  be accepted before the full paper can be submitted.\n\nCall for papers: h
- ttps://pscc2026.cy/\nDetails: https://langestefan.github.io/powersystem-de
- adlines/conference/pscc26
-LOCATION:Limassol\, Cyprus
-URL;VALUE=URI:https://pscc2026.cy/
-CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:pscc26-notification-2@langestefan.github.io
-DTSTAMP:20261014T111406Z
-DTSTART;VALUE=DATE:20260208
-DTEND;VALUE=DATE:20260209
-TRANSP:TRANSPARENT
-SUMMARY:PSCC 2026: Acceptance and revision requests (23:59 UTC+12 (assumed)
- )
-DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nAcceptance 
- and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n\nConference: 
- June 8-12\, 2026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n
- \nAll dates:\n  One-page abstract submission: 15 Jun 2025\, 23:59 UTC+12 (
- assumed)\n  Abstract acceptance notification: 22 Jun 2025\, 23:59 UTC+12 (
- assumed)\n  Full paper submission: 15 Oct 2025\, 23:59 UTC+12 (assumed)\n 
-  Acceptance and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n  
- Final manuscript submission: 15 Mar 2026\, 23:59 UTC+12 (assumed)\n\nThe c
- all for papers states no timezone. This is counted as UTC+12\, the earlies
- t it could plausibly mean\, so the countdown runs out before the real dead
- line rather than after it.\n\nSubmission is abstract-first: a one-page abs
- tract must be accepted before the full paper can be submitted.\n\nCall for
-  papers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/powe
- rsystem-deadlines/conference/pscc26
-LOCATION:Limassol\, Cyprus
-URL;VALUE=URI:https://pscc2026.cy/
-CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:pscc26-camera_ready@langestefan.github.io
-DTSTAMP:20261014T111406Z
-DTSTART;VALUE=DATE:20260315
-DTEND;VALUE=DATE:20260316
-TRANSP:TRANSPARENT
-SUMMARY:PSCC 2026: Final manuscript submission (23:59 UTC+12 (assumed))
-DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nFinal manus
- cript submission: 15 Mar 2026\, 23:59 UTC+12 (assumed)\n\nConference: June
-  8-12\, 2026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n\nAl
- l dates:\n  One-page abstract submission: 15 Jun 2025\, 23:59 UTC+12 (assu
- med)\n  Abstract acceptance notification: 22 Jun 2025\, 23:59 UTC+12 (assu
- med)\n  Full paper submission: 15 Oct 2025\, 23:59 UTC+12 (assumed)\n  Acc
- eptance and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n  Fina
- l manuscript submission: 15 Mar 2026\, 23:59 UTC+12 (assumed)\n\nThe call 
- for papers states no timezone. This is counted as UTC+12\, the earliest it
-  could plausibly mean\, so the countdown runs out before the real deadline
-  rather than after it.\n\nSubmission is abstract-first: a one-page abstrac
- t must be accepted before the full paper can be submitted.\n\nCall for pap
+ script submission (extended): 22 Mar 2026\, 23:59 UTC+12 (assumed)\n\nThe 
+ call for papers states no timezone. This is counted as UTC+12\, the earlie
+ st it could plausibly mean\, so the countdown runs out before the real dea
+ dline rather than after it.\n\nSubmission is abstract-first: a one-page ab
+ stract must be accepted before the full paper can be submitted. The final 
+ manuscript deadline was extended from 15 to 22 March 2026.\n\nCall for pap
  ers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/powersys
  tem-deadlines/conference/pscc26
 LOCATION:Limassol\, Cyprus
@@ -3024,8 +2970,86 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:pscc26-notification-2@langestefan.github.io
+DTSTAMP:20261014T121558Z
+DTSTART;VALUE=DATE:20260208
+DTEND;VALUE=DATE:20260209
+TRANSP:TRANSPARENT
+SUMMARY:PSCC 2026: Acceptance and revision requests (23:59 UTC+12 (assumed)
+ )
+DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nAcceptance 
+ and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n\nConference: 
+ June 8-12\, 2026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael Resort\n
+ \nAll dates:\n  One-page abstract submission: 15 Jun 2025\, 23:59 UTC+12 (
+ assumed)\n  Abstract acceptance notification: 22 Jun 2025\, 23:59 UTC+12 (
+ assumed)\n  Full paper submission: 15 Oct 2025\, 23:59 UTC+12 (assumed)\n 
+  Acceptance and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assumed)\n  
+ Final manuscript submission (extended): 22 Mar 2026\, 23:59 UTC+12 (assume
+ d)\n\nThe call for papers states no timezone. This is counted as UTC+12\, 
+ the earliest it could plausibly mean\, so the countdown runs out before th
+ e real deadline rather than after it.\n\nSubmission is abstract-first: a o
+ ne-page abstract must be accepted before the full paper can be submitted. 
+ The final manuscript deadline was extended from 15 to 22 March 2026.\n\nCa
+ ll for papers: https://pscc2026.cy/\nDetails: https://langestefan.github.i
+ o/powersystem-deadlines/conference/pscc26
+LOCATION:Limassol\, Cyprus
+URL;VALUE=URI:https://pscc2026.cy/
+CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pscc26-camera_ready@langestefan.github.io
+DTSTAMP:20261014T121558Z
+DTSTART;VALUE=DATE:20260322
+DTEND;VALUE=DATE:20260323
+TRANSP:TRANSPARENT
+SUMMARY:PSCC 2026: Final manuscript submission (extended) (23:59 UTC+12 (as
+ sumed))
+DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nFinal manus
+ cript submission (extended): 22 Mar 2026\, 23:59 UTC+12 (assumed)\n\nConfe
+ rence: June 8-12\, 2026\nLocation: Limassol\, Cyprus\nVenue: St. Raphael R
+ esort\n\nAll dates:\n  One-page abstract submission: 15 Jun 2025\, 23:59 U
+ TC+12 (assumed)\n  Abstract acceptance notification: 22 Jun 2025\, 23:59 U
+ TC+12 (assumed)\n  Full paper submission: 15 Oct 2025\, 23:59 UTC+12 (assu
+ med)\n  Acceptance and revision requests: 8 Feb 2026\, 23:59 UTC+12 (assum
+ ed)\n  Final manuscript submission (extended): 22 Mar 2026\, 23:59 UTC+12 
+ (assumed)\n\nThe call for papers states no timezone. This is counted as UT
+ C+12\, the earliest it could plausibly mean\, so the countdown runs out be
+ fore the real deadline rather than after it.\n\nSubmission is abstract-fir
+ st: a one-page abstract must be accepted before the full paper can be subm
+ itted. The final manuscript deadline was extended from 15 to 22 March 2026
+ .\n\nCall for papers: https://pscc2026.cy/\nDetails: https://langestefan.g
+ ithub.io/powersystem-deadlines/conference/pscc26
+LOCATION:Limassol\, Cyprus
+URL;VALUE=URI:https://pscc2026.cy/
+CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:eeeic26-workshop_proposal@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260101
 DTEND;VALUE=DATE:20260102
 TRANSP:TRANSPARENT
@@ -3063,7 +3087,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eeeic26-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260511
 DTEND;VALUE=DATE:20260512
 TRANSP:TRANSPARENT
@@ -3101,7 +3125,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eeeic26-early_registration@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260531
 DTEND;VALUE=DATE:20260601
 TRANSP:TRANSPARENT
@@ -3139,7 +3163,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-abstract@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20250707
 DTEND;VALUE=DATE:20250708
 TRANSP:TRANSPARENT
@@ -3181,7 +3205,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20251020
 DTEND;VALUE=DATE:20251021
 TRANSP:TRANSPARENT
@@ -3223,7 +3247,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260112
 DTEND;VALUE=DATE:20260113
 TRANSP:TRANSPARENT
@@ -3265,7 +3289,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-camera_ready@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260410
 DTEND;VALUE=DATE:20260411
 TRANSP:TRANSPARENT
@@ -3305,7 +3329,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-notification-2@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260511
 DTEND;VALUE=DATE:20260512
 TRANSP:TRANSPARENT
@@ -3347,7 +3371,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-poster@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20260630
 TRANSP:TRANSPARENT
@@ -3387,7 +3411,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-presentation_upload@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 TRANSP:TRANSPARENT
@@ -3429,7 +3453,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sest26-abstract@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260302
 DTEND;VALUE=DATE:20260303
 TRANSP:TRANSPARENT
@@ -3468,7 +3492,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sest26-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260427
 DTEND;VALUE=DATE:20260428
 TRANSP:TRANSPARENT
@@ -3509,7 +3533,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sest26-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 TRANSP:TRANSPARENT
@@ -3548,7 +3572,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sest26-camera_ready@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20260630
 TRANSP:TRANSPARENT
@@ -3587,7 +3611,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sest26-author_registration@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260713
 DTEND;VALUE=DATE:20260714
 TRANSP:TRANSPARENT
@@ -3628,24 +3652,25 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pmaps26-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260315
 DTEND;VALUE=DATE:20260316
 TRANSP:TRANSPARENT
-SUMMARY:PMAPS 2026: Paper submission (extended) (23:59 AoE)
+SUMMARY:PMAPS 2026: Paper submission (extended) (23:59 UTC+12 (assumed))
 DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
  wer Systems (PMAPS 2026)\n\nPaper submission (extended): 15 Mar 2026\, 23:
- 59 AoE\n\nConference: September 21-24\, 2026\nLocation: Salt Lake City\, U
- SA\nVenue: University of Utah\n\nAll dates:\n  Paper submission (extended)
- : 15 Mar 2026\, 23:59 AoE\n  Notification: 30 May 2026\, 23:59 UTC+12 (ass
- umed)\n\nThe call for papers states no timezone. This is counted as UTC+12
- \, the earliest it could plausibly mean\, so the countdown runs out before
-  the real deadline rather than after it.\n\n19th edition\, co-organised by
-  the University of Utah and WECC\, themed "Towards Reliable Power Grids in
-  the Age of AI and Large Loads". The paper deadline was extended twice\, f
- rom 15 February 2026.\n\nCall for papers: https://pmaps2026.utah.edu/\nDet
- ails: https://langestefan.github.io/powersystem-deadlines/conference/pmaps
- 26
+ 59 UTC+12 (assumed)\n\nConference: September 21-24\, 2026\nLocation: Salt 
+ Lake City\, USA\nVenue: University of Utah\n\nAll dates:\n  Paper submissi
+ on (extended): 15 Mar 2026\, 23:59 UTC+12 (assumed)\n  Notification: 30 Ma
+ y 2026\, 23:59 UTC+12 (assumed)\n  Final paper submission: 30 Jun 2026\, 2
+ 3:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is c
+ ounted as UTC+12\, the earliest it could plausibly mean\, so the countdown
+  runs out before the real deadline rather than after it.\n\n19th edition\,
+  co-organised by the University of Utah and WECC\, themed "Towards Reliabl
+ e Power Grids in the Age of AI and Large Loads". The paper deadline was ex
+ tended twice\, from 15 February 2026.\n\nCall for papers: https://pmaps202
+ 6.utah.edu/\nDetails: https://langestefan.github.io/powersystem-deadlines/
+ conference/pmaps26
 LOCATION:Salt Lake City\, USA
 URL;VALUE=URI:https://pmaps2026.utah.edu/
 CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,
@@ -3665,7 +3690,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pmaps26-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260530
 DTEND;VALUE=DATE:20260531
 TRANSP:TRANSPARENT
@@ -3674,14 +3699,54 @@ DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
  wer Systems (PMAPS 2026)\n\nNotification: 30 May 2026\, 23:59 UTC+12 (assu
  med)\n\nConference: September 21-24\, 2026\nLocation: Salt Lake City\, USA
  \nVenue: University of Utah\n\nAll dates:\n  Paper submission (extended): 
- 15 Mar 2026\, 23:59 AoE\n  Notification: 30 May 2026\, 23:59 UTC+12 (assum
- ed)\n\nThe call for papers states no timezone. This is counted as UTC+12\,
-  the earliest it could plausibly mean\, so the countdown runs out before t
- he real deadline rather than after it.\n\n19th edition\, co-organised by t
- he University of Utah and WECC\, themed "Towards Reliable Power Grids in t
- he Age of AI and Large Loads". The paper deadline was extended twice\, fro
- m 15 February 2026.\n\nCall for papers: https://pmaps2026.utah.edu/\nDetai
- ls: https://langestefan.github.io/powersystem-deadlines/conference/pmaps26
+ 15 Mar 2026\, 23:59 UTC+12 (assumed)\n  Notification: 30 May 2026\, 23:59 
+ UTC+12 (assumed)\n  Final paper submission: 30 Jun 2026\, 23:59 UTC+12 (as
+ sumed)\n\nThe call for papers states no timezone. This is counted as UTC+1
+ 2\, the earliest it could plausibly mean\, so the countdown runs out befor
+ e the real deadline rather than after it.\n\n19th edition\, co-organised b
+ y the University of Utah and WECC\, themed "Towards Reliable Power Grids i
+ n the Age of AI and Large Loads". The paper deadline was extended twice\, 
+ from 15 February 2026.\n\nCall for papers: https://pmaps2026.utah.edu/\nDe
+ tails: https://langestefan.github.io/powersystem-deadlines/conference/pmap
+ s26
+LOCATION:Salt Lake City\, USA
+URL;VALUE=URI:https://pmaps2026.utah.edu/
+CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,
+ Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pmaps26-camera_ready@langestefan.github.io
+DTSTAMP:20261014T121558Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+TRANSP:TRANSPARENT
+SUMMARY:PMAPS 2026: Final paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
+ wer Systems (PMAPS 2026)\n\nFinal paper submission: 30 Jun 2026\, 23:59 UT
+ C+12 (assumed)\n\nConference: September 21-24\, 2026\nLocation: Salt Lake 
+ City\, USA\nVenue: University of Utah\n\nAll dates:\n  Paper submission (e
+ xtended): 15 Mar 2026\, 23:59 UTC+12 (assumed)\n  Notification: 30 May 202
+ 6\, 23:59 UTC+12 (assumed)\n  Final paper submission: 30 Jun 2026\, 23:59 
+ UTC+12 (assumed)\n\nThe call for papers states no timezone. This is counte
+ d as UTC+12\, the earliest it could plausibly mean\, so the countdown runs
+  out before the real deadline rather than after it.\n\n19th edition\, co-o
+ rganised by the University of Utah and WECC\, themed "Towards Reliable Pow
+ er Grids in the Age of AI and Large Loads". The paper deadline was extende
+ d twice\, from 15 February 2026.\n\nCall for papers: https://pmaps2026.uta
+ h.edu/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
+ rence/pmaps26
 LOCATION:Salt Lake City\, USA
 URL;VALUE=URI:https://pmaps2026.utah.edu/
 CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,
@@ -3701,7 +3766,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powerafrica26-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
 TRANSP:TRANSPARENT
@@ -3738,7 +3803,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powerafrica26-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 TRANSP:TRANSPARENT
@@ -3775,7 +3840,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powerafrica26-camera_ready@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260622
 DTEND;VALUE=DATE:20260623
 TRANSP:TRANSPARENT
@@ -3811,7 +3876,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powerafrica26-early_registration@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 TRANSP:TRANSPARENT
@@ -3848,7 +3913,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:naps26-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 TRANSP:TRANSPARENT
@@ -3881,7 +3946,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-europe26-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260415
 DTEND;VALUE=DATE:20260416
 TRANSP:TRANSPARENT
@@ -3915,7 +3980,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-europe26-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 TRANSP:TRANSPARENT
@@ -3949,7 +4014,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-europe26-camera_ready@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 TRANSP:TRANSPARENT
@@ -3983,7 +4048,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hicss27-paper@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 TRANSP:TRANSPARENT
@@ -4019,7 +4084,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hicss27-notification@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
 TRANSP:TRANSPARENT
@@ -4056,7 +4121,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hicss27-camera_ready@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 TRANSP:TRANSPARENT
@@ -4093,7 +4158,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hicss27-camera_ready-2@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 TRANSP:TRANSPARENT
@@ -4129,7 +4194,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hicss27-author_registration@langestefan.github.io
-DTSTAMP:20261014T111406Z
+DTSTAMP:20261014T121558Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 TRANSP:TRANSPARENT
