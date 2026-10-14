@@ -1,0 +1,61 @@
+name: IEEE PES T&D
+full_name: IEEE PES Transmission and Distribution Conference and Exposition
+link: https://ieeet-d.org/
+society:
+  - IEEE PES
+frequency: biennial
+tags:
+  - transmission
+  - distribution
+  - power-systems
+  - protection-automation
+description: >-
+  IEEE PES's large North American conference and exhibition for transmission
+  and distribution, aimed at utilities and industry as well as researchers.
+  Held every two years.
+
+editions:
+  - year: 2026
+    id: pes-td26
+    city: Chicago
+    country: USA
+    venue: McCormick Place
+    date: May 4-7, 2026
+    verified: 2026-10-14
+    start: 2026-05-04
+    end: 2026-05-07
+    format: in-person
+    proceedings: IEEE Xplore
+    deadlines:
+      - type: tutorial_proposal
+        label: Tutorial proposal
+        date: '2025-06-06 23:59:59'
+      - type: panel_proposal
+        label: Panel proposals to technical committee chairs
+        date: '2025-08-01 23:59:59'
+      - type: paper
+        label: Submission deadline for papers, presentations and panels
+        date: '2025-08-14 23:59:59'
+      - type: notification
+        label: Notifications delivered
+        date: '2025-11-04 23:59:59'
+    note: >-
+      Themed "Powering Reliability, Engineering Resilience". The submission
+      site opened on 10 July 2025. A separate call-for-papers page gave 28
+      August 2025 for papers; the 14 August date from the call for
+      participation is recorded here.
+
+  - year: 2028
+    id: pes-td28
+    region: North America
+    date: 2028, dates to be announced
+    verified: 2026-10-14
+    format: in-person
+    proceedings: IEEE Xplore
+    deadlines:
+      - type: paper
+        label: Paper submission
+        date: 'TBA'
+    note: >-
+      The conference runs every two years. The 2028 call for papers had not
+      been published as of 14 October 2026.
