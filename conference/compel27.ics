@@ -13,7 +13,7 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/compel27.ics
 BEGIN:VEVENT
 UID:compel27-event@langestefan.github.io
-DTSTAMP:20261015T043310Z
+DTSTAMP:20261016T043329Z
 DTSTART;VALUE=DATE:20270613
 DTEND;VALUE=DATE:20270617
 TRANSP:TRANSPARENT
