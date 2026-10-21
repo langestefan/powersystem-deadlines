@@ -1,0 +1,37 @@
+name: PVPMC Workshop
+full_name: PV Performance Modeling Collaborative Workshop
+link: https://pvpmc.sandia.gov/
+society:
+  - Other
+frequency: annual
+tags:
+  - renewables
+  - energy-storage
+description: >-
+  Sandia's technical workshop on PV system performance: solar resource
+  assessment, performance modeling and uncertainty, degradation, monitoring and
+  O&M analytics, and PV + storage hybrids. Presentation-based, from abstracts.
+
+editions:
+  - year: 2027
+    id: pvpmc27
+    city: Sacramento
+    country: USA
+    date: May 11-13, 2027
+    verified: 2026-10-21
+    start: 2027-05-11
+    end: 2027-05-13
+    deadlines:
+      - type: abstract
+        label: Abstracts due
+        date: '2026-12-18 23:59:59'
+    note: >-
+      Co-organized by Sandia National Laboratories, GroundWork Renewables and
+      Terabase Energy. Abstracts are at most 300 words plus one figure, with a
+      short summary for the program, submitted at
+      https://abstracts.pvpmc-workshops.org/. All presentations must be
+      technically focused; sales pitches are not accepted. Proposals for
+      software tutorials and PV technical working group meetings are also
+      invited. Students who submit
+      an abstract and a one-page research statement may be eligible for free
+      registration and a travel grant.
