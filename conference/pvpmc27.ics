@@ -1,0 +1,78 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PVPMC Workshop 2027 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for PV Performance Modeling Collaborative 
+ Workshop 2027.
+SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
+ ence/pvpmc27.ics
+BEGIN:VEVENT
+UID:pvpmc27-abstract@langestefan.github.io
+DTSTAMP:20261021T112023Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+TRANSP:TRANSPARENT
+SUMMARY:PVPMC Workshop 2027: Abstracts due (23:59 UTC+12 (assumed))
+DESCRIPTION:PV Performance Modeling Collaborative Workshop (PVPMC Workshop 
+ 2027)\n\nAbstracts due: 18 Dec 2026\, 23:59 UTC+12 (assumed)\n\nConference
+ : May 11-13\, 2027\nLocation: Sacramento\, USA\n\nThe call for papers stat
+ es no timezone. This is counted as UTC+12\, the earliest it could plausibl
+ y mean\, so the countdown runs out before the real deadline rather than af
+ ter it.\n\nCo-organized by Sandia National Laboratories\, GroundWork Renew
+ ables and Terabase Energy. Abstracts are at most 300 words plus one figure
+ \, with a short summary for the program\, submitted at https://abstracts.p
+ vpmc-workshops.org/. All presentations must be technically focused\; sales
+  pitches are not accepted. Proposals for software tutorials and PV technic
+ al working group meetings are also invited. Students who submit an abstrac
+ t and a one-page research statement may be eligible for free registration 
+ and a travel grant.\n\nCall for papers: https://pvpmc.sandia.gov/\nDetails
+ : https://langestefan.github.io/powersystem-deadlines/conference/pvpmc27
+LOCATION:Sacramento\, USA
+URL;VALUE=URI:https://pvpmc.sandia.gov/
+CATEGORIES:Renewables,Energy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pvpmc27-event@langestefan.github.io
+DTSTAMP:20261021T112023Z
+DTSTART;VALUE=DATE:20270511
+DTEND;VALUE=DATE:20270514
+TRANSP:TRANSPARENT
+SUMMARY:PVPMC Workshop 2027
+DESCRIPTION:PV Performance Modeling Collaborative Workshop (PVPMC Workshop 
+ 2027)\n\nConference: May 11-13\, 2027\nLocation: Sacramento\, USA\n\nThe c
+ all for papers states no timezone. This is counted as UTC+12\, the earlies
+ t it could plausibly mean\, so the countdown runs out before the real dead
+ line rather than after it.\n\nCo-organized by Sandia National Laboratories
+ \, GroundWork Renewables and Terabase Energy. Abstracts are at most 300 wo
+ rds plus one figure\, with a short summary for the program\, submitted at 
+ https://abstracts.pvpmc-workshops.org/. All presentations must be technica
+ lly focused\; sales pitches are not accepted. Proposals for software tutor
+ ials and PV technical working group meetings are also invited. Students wh
+ o submit an abstract and a one-page research statement may be eligible for
+  free registration and a travel grant.\n\nCall for papers: https://pvpmc.s
+ andia.gov/\nDetails: https://langestefan.github.io/powersystem-deadlines/c
+ onference/pvpmc27
+LOCATION:Sacramento\, USA
+URL;VALUE=URI:https://pvpmc.sandia.gov/
+CATEGORIES:Renewables,Energy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

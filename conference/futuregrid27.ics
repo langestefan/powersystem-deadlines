@@ -13,7 +13,7 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/futuregrid27.ics
 BEGIN:VEVENT
 UID:futuregrid27-event@langestefan.github.io
-DTSTAMP:20261021T043419Z
+DTSTAMP:20261021T112023Z
 DTSTART;VALUE=DATE:20271003
 DTEND;VALUE=DATE:20271007
 TRANSP:TRANSPARENT
