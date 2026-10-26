@@ -13,7 +13,7 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/upec26.ics
 BEGIN:VEVENT
 UID:upec26-event@langestefan.github.io
-DTSTAMP:20261025T043316Z
+DTSTAMP:20261026T043807Z
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260903
 TRANSP:TRANSPARENT
