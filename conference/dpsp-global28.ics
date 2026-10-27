@@ -13,7 +13,7 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/dpsp-global28.ics
 BEGIN:VEVENT
 UID:dpsp-global28-event@langestefan.github.io
-DTSTAMP:20261026T043807Z
+DTSTAMP:20261027T043426Z
 DTSTART;VALUE=DATE:20280327
 DTEND;VALUE=DATE:20280331
 TRANSP:TRANSPARENT
