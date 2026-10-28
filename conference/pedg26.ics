@@ -13,7 +13,7 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/pedg26.ics
 BEGIN:VEVENT
 UID:pedg26-event@langestefan.github.io
-DTSTAMP:20261027T043426Z
+DTSTAMP:20261028T042646Z
 DTSTART;VALUE=DATE:20260621
 DTEND;VALUE=DATE:20260625
 TRANSP:TRANSPARENT
