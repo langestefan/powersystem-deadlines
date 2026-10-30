@@ -2,10 +2,10 @@
  * Single source of truth for where this site lives.
  *
  * Changing SITE_URL here updates the Astro `site` config, every canonical URL,
- * and every calendar feed URL. When the custom domain is ready, change this line
+ * and every calendar feed URL. To move hosting, change this line
  * and the `cname:` value in .github/workflows/deploy.yml. Nothing else.
  */
-const PRODUCTION_URL = 'https://langestefan.github.io/powersystem-deadlines';
+const PRODUCTION_URL = 'https://powersystemdeadlines.org';
 
 /**
  * A build can be pointed somewhere else with SITE_URL in the environment, which

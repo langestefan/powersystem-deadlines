@@ -55,7 +55,7 @@ jobs:
           user_name: github-actions[bot]
           user_email: github-actions[bot]@users.noreply.github.com
           commit_message: 'deploy: ${{ github.event.head_commit.message || github.sha }}'
-          # TODO: uncomment once the custom domain's DNS points here, and update
-          # SITE_URL in src/lib/site.ts to match. Setting a domain you do not own
-          # breaks the github.io URL, so this stays off until then.
-          # cname: powersystem-deadlines.org
+          # Writes the CNAME file into every deploy. Without it each publish would
+          # wipe the file and GitHub would drop the custom domain. Must match
+          # SITE_URL in src/lib/site.ts.
+          cname: powersystemdeadlines.org

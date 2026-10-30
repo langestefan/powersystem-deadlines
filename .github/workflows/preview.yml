@@ -41,7 +41,7 @@ jobs:
       # works from there. IS_PREVIEW follows from it and adds a noindex.
       - name: Build for the preview sub-path
         env:
-          SITE_URL: https://langestefan.github.io/powersystem-deadlines/preview/pr-${{ github.event.number }}
+          SITE_URL: https://powersystemdeadlines.org/preview/pr-${{ github.event.number }}
         run: npm run build
 
       - name: Publish to gh-pages
@@ -68,7 +68,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NUMBER: ${{ github.event.number }}
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
-          URL: https://langestefan.github.io/powersystem-deadlines/preview/pr-${{ github.event.number }}/
+          URL: https://powersystemdeadlines.org/preview/pr-${{ github.event.number }}/
         run: |
           MARKER='<!-- pr-preview -->'
           BODY="${MARKER}

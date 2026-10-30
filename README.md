@@ -2,18 +2,18 @@
 
 Submission deadlines for power system conferences, with calendar feeds.
 
-<https://langestefan.github.io/powersystem-deadlines>
+<https://powersystemdeadlines.org>
 
 ## Feeds
 
 | Feed             | URL                                                                        |
 | ---------------- | -------------------------------------------------------------------------- |
-| All deadlines    | `https://langestefan.github.io/powersystem-deadlines/calendar/all.ics`     |
-| Conference dates | `https://langestefan.github.io/powersystem-deadlines/calendar/events.ics`  |
+| All deadlines    | `https://powersystemdeadlines.org/calendar/all.ics`     |
+| Conference dates | `https://powersystemdeadlines.org/calendar/events.ics`  |
 | One topic        | `.../calendar/<tag>.ics`, e.g. `power-electronics.ics`                      |
 | One conference   | `.../conference/<id>.ics`, e.g. `pscc26.ics`                                |
 
-The [subscribe page](https://langestefan.github.io/powersystem-deadlines/subscribe) has one-click
+The [subscribe page](https://powersystemdeadlines.org/subscribe) has one-click
 links for Google Calendar, Apple Calendar and Outlook.
 
 ## Contributing

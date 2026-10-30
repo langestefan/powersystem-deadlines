@@ -118,7 +118,7 @@ error, so it never blocks an unrelated pull request.
 ### Recording a change
 
 When you correct or update an edition that is already listed, add an entry under its `changes:`
-for each field you changed. The [changelog](https://langestefan.github.io/powersystem-deadlines/changelog/)
+for each field you changed. The [changelog](https://powersystemdeadlines.org/changelog/)
 table and the edition's own page are built from these.
 
 ```yaml
