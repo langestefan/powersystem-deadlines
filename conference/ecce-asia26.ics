@@ -13,7 +13,7 @@ SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
  ence/ecce-asia26.ics
 BEGIN:VEVENT
 UID:ecce-asia26-event@langestefan.github.io
-DTSTAMP:20261029T042727Z
+DTSTAMP:20261030T042631Z
 DTSTART;VALUE=DATE:20260531
 DTEND;VALUE=DATE:20260605
 TRANSP:TRANSPARENT
