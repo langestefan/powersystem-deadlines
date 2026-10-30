@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:ECCE 2026 deadlines
@@ -9,11 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for IEEE Energy Conversion Congress and Ex
  position 2026.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/ecce26.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/ecce26.ics
 BEGIN:VEVENT
-UID:ecce26-abstract@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ecce26-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260313
 DTEND;VALUE=DATE:20260314
 TRANSP:TRANSPARENT
@@ -29,8 +28,8 @@ DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nD
  er than after it.\n\nDigests are single-column\, at most five pages includ
  ing references\, and are double-blind reviewed. The submission deadline wa
  s extended from 27 February to 13 March 2026.\n\nCall for papers: https://
- www.ieee-ecce.org/2026/\nDetails: https://langestefan.github.io/powersyste
- m-deadlines/conference/ecce26
+ www.ieee-ecce.org/2026/\nDetails: https://powersystemdeadlines.org/confere
+ nce/ecce26
 LOCATION:Vancouver\, Canada
 URL;VALUE=URI:https://www.ieee-ecce.org/2026/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
@@ -49,8 +48,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ecce26-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ecce26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -66,8 +65,8 @@ DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nA
  fter it.\n\nDigests are single-column\, at most five pages including refer
  ences\, and are double-blind reviewed. The submission deadline was extende
  d from 27 February to 13 March 2026.\n\nCall for papers: https://www.ieee-
- ecce.org/2026/\nDetails: https://langestefan.github.io/powersystem-deadlin
- es/conference/ecce26
+ ecce.org/2026/\nDetails: https://powersystemdeadlines.org/conference/ecce2
+ 6
 LOCATION:Vancouver\, Canada
 URL;VALUE=URI:https://www.ieee-ecce.org/2026/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
@@ -86,8 +85,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ecce26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ecce26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 TRANSP:TRANSPARENT
@@ -104,8 +103,8 @@ DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nF
  ine rather than after it.\n\nDigests are single-column\, at most five page
  s including references\, and are double-blind reviewed. The submission dea
  dline was extended from 27 February to 13 March 2026.\n\nCall for papers: 
- https://www.ieee-ecce.org/2026/\nDetails: https://langestefan.github.io/po
- wersystem-deadlines/conference/ecce26
+ https://www.ieee-ecce.org/2026/\nDetails: https://powersystemdeadlines.org
+ /conference/ecce26
 LOCATION:Vancouver\, Canada
 URL;VALUE=URI:https://www.ieee-ecce.org/2026/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
@@ -124,8 +123,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ecce26-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ecce26-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261009
 TRANSP:TRANSPARENT
@@ -140,8 +139,8 @@ DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nC
  rather than after it.\n\nDigests are single-column\, at most five pages in
  cluding references\, and are double-blind reviewed. The submission deadlin
  e was extended from 27 February to 13 March 2026.\n\nCall for papers: http
- s://www.ieee-ecce.org/2026/\nDetails: https://langestefan.github.io/powers
- ystem-deadlines/conference/ecce26
+ s://www.ieee-ecce.org/2026/\nDetails: https://powersystemdeadlines.org/con
+ ference/ecce26
 LOCATION:Vancouver\, Canada
 URL;VALUE=URI:https://www.ieee-ecce.org/2026/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV

@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:PES Grid Edge 2027 deadlines
@@ -9,11 +9,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for IEEE PES Grid Edge Technologies Confer
  ence & Exposition 2027.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/pes-grid-edge27.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/pes-grid-edge2
+ 7.ics
 BEGIN:VEVENT
-UID:pes-grid-edge27-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pes-grid-edge27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260724
 DTEND;VALUE=DATE:20260725
 TRANSP:TRANSPARENT
@@ -30,8 +30,8 @@ DESCRIPTION:IEEE PES Grid Edge Technologies Conference & Exposition (PES Gr
  escription. At least one author per accepted paper must register for the p
  aper to appear in IEEE Xplore. Notification of acceptance is expected by m
  id-October 2026\, without a stated date.\n\nCall for papers: https://pes-g
- ridedge.org/\nDetails: https://langestefan.github.io/powersystem-deadlines
- /conference/pes-grid-edge27
+ ridedge.org/\nDetails: https://powersystemdeadlines.org/conference/pes-gri
+ d-edge27
 LOCATION:Salt Lake City\, USA
 URL;VALUE=URI:https://pes-gridedge.org/
 CATEGORIES:Smart Grid,Distribution,Energy Storage,EV & Transportation,Micro
@@ -50,8 +50,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pes-grid-edge27-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pes-grid-edge27-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270419
 DTEND;VALUE=DATE:20270423
 TRANSP:TRANSPARENT
@@ -66,8 +66,8 @@ DESCRIPTION:IEEE PES Grid Edge Technologies Conference & Exposition (PES Gr
  ription. At least one author per accepted paper must register for the pape
  r to appear in IEEE Xplore. Notification of acceptance is expected by mid-
  October 2026\, without a stated date.\n\nCall for papers: https://pes-grid
- edge.org/\nDetails: https://langestefan.github.io/powersystem-deadlines/co
- nference/pes-grid-edge27
+ edge.org/\nDetails: https://powersystemdeadlines.org/conference/pes-grid-e
+ dge27
 LOCATION:Calvin L. Rampton Salt Palace Convention Center\, Salt Lake City\,
   USA
 URL;VALUE=URI:https://pes-gridedge.org/

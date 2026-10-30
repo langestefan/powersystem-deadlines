@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:IAEE European 2026 deadlines
@@ -8,11 +8,11 @@ X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for IAEE European Conference 2026.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/iaee-european26.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/iaee-european2
+ 6.ics
 BEGIN:VEVENT
-UID:iaee-european26-abstract@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:iaee-european26-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260410
 DTEND;VALUE=DATE:20260411
 TRANSP:TRANSPARENT
@@ -28,8 +28,8 @@ DESCRIPTION:IAEE European Conference (IAEE European 2026)\n\nAbstract submi
  re the real deadline rather than after it.\n\n19th IAEE European Conferenc
  e\, supported by the Technical University of Munich\, with a PhD day on 3-
  5 September 2026.\n\nCall for papers: https://iaee.org/events/2026-europea
- n-conference\nDetails: https://langestefan.github.io/powersystem-deadlines
- /conference/iaee-european26
+ n-conference\nDetails: https://powersystemdeadlines.org/conference/iaee-eu
+ ropean26
 LOCATION:Munich\, Germany
 URL;VALUE=URI:https://iaee.org/events/2026-european-conference
 CATEGORIES:Energy Markets,Renewables
@@ -47,8 +47,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:iaee-european26-best_paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:iaee-european26-best_paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260508
 DTEND;VALUE=DATE:20260509
 TRANSP:TRANSPARENT
@@ -64,8 +64,8 @@ DESCRIPTION:IAEE European Conference (IAEE European 2026)\n\nBest paper sub
  ore the real deadline rather than after it.\n\n19th IAEE European Conferen
  ce\, supported by the Technical University of Munich\, with a PhD day on 3
  -5 September 2026.\n\nCall for papers: https://iaee.org/events/2026-europe
- an-conference\nDetails: https://langestefan.github.io/powersystem-deadline
- s/conference/iaee-european26
+ an-conference\nDetails: https://powersystemdeadlines.org/conference/iaee-e
+ uropean26
 LOCATION:Munich\, Germany
 URL;VALUE=URI:https://iaee.org/events/2026-european-conference
 CATEGORIES:Energy Markets,Renewables
@@ -83,8 +83,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:iaee-european26-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:iaee-european26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -101,8 +101,8 @@ DESCRIPTION:IAEE European Conference (IAEE European 2026)\n\nNotification o
  ut before the real deadline rather than after it.\n\n19th IAEE European Co
  nference\, supported by the Technical University of Munich\, with a PhD da
  y on 3-5 September 2026.\n\nCall for papers: https://iaee.org/events/2026-
- european-conference\nDetails: https://langestefan.github.io/powersystem-de
- adlines/conference/iaee-european26
+ european-conference\nDetails: https://powersystemdeadlines.org/conference/
+ iaee-european26
 LOCATION:Munich\, Germany
 URL;VALUE=URI:https://iaee.org/events/2026-european-conference
 CATEGORIES:Energy Markets,Renewables
@@ -120,8 +120,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:iaee-european26-early_registration@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:iaee-european26-early_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260703
 DTEND;VALUE=DATE:20260704
 TRANSP:TRANSPARENT
@@ -138,8 +138,8 @@ DESCRIPTION:IAEE European Conference (IAEE European 2026)\n\nEarly bird reg
  efore the real deadline rather than after it.\n\n19th IAEE European Confer
  ence\, supported by the Technical University of Munich\, with a PhD day on
   3-5 September 2026.\n\nCall for papers: https://iaee.org/events/2026-euro
- pean-conference\nDetails: https://langestefan.github.io/powersystem-deadli
- nes/conference/iaee-european26
+ pean-conference\nDetails: https://powersystemdeadlines.org/conference/iaee
+ -european26
 LOCATION:Munich\, Germany
 URL;VALUE=URI:https://iaee.org/events/2026-european-conference
 CATEGORIES:Energy Markets,Renewables
@@ -157,8 +157,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:iaee-european26-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:iaee-european26-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260906
 DTEND;VALUE=DATE:20260911
 TRANSP:TRANSPARENT
@@ -173,8 +173,8 @@ DESCRIPTION:IAEE European Conference (IAEE European 2026)\n\nConference: Se
  runs out before the real deadline rather than after it.\n\n19th IAEE Europ
  ean Conference\, supported by the Technical University of Munich\, with a 
  PhD day on 3-5 September 2026.\n\nCall for papers: https://iaee.org/events
- /2026-european-conference\nDetails: https://langestefan.github.io/powersys
- tem-deadlines/conference/iaee-european26
+ /2026-european-conference\nDetails: https://powersystemdeadlines.org/confe
+ rence/iaee-european26
 LOCATION:Munich\, Germany
 URL;VALUE=URI:https://iaee.org/events/2026-european-conference
 CATEGORIES:Energy Markets,Renewables

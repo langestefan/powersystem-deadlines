@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:ECCE Asia 2027 deadlines
@@ -9,11 +9,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for IEEE Energy Conversion Congress and Ex
  position Asia 2027.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/ecce-asia27.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/ecce-asia27.ic
+ s
 BEGIN:VEVENT
-UID:ecce-asia27-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ecce-asia27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 TRANSP:TRANSPARENT
@@ -28,8 +28,8 @@ DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia
   This is counted as UTC+12\, the earliest it could plausibly mean\, so the
   countdown runs out before the real deadline rather than after it.\n\nHeld
   as ICPE 2027-ECCE Asia\, the 12th International Conference on Power Elect
- ronics.\n\nCall for papers: https://www.icpe-conf.org/\nDetails: https://l
- angestefan.github.io/powersystem-deadlines/conference/ecce-asia27
+ ronics.\n\nCall for papers: https://www.icpe-conf.org/\nDetails: https://p
+ owersystemdeadlines.org/conference/ecce-asia27
 LOCATION:Seoul\, South Korea
 URL;VALUE=URI:https://www.icpe-conf.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
@@ -47,8 +47,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ecce-asia27-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ecce-asia27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 TRANSP:TRANSPARENT
@@ -64,8 +64,7 @@ DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia
  ean\, so the countdown runs out before the real deadline rather than after
   it.\n\nHeld as ICPE 2027-ECCE Asia\, the 12th International Conference on
   Power Electronics.\n\nCall for papers: https://www.icpe-conf.org/\nDetail
- s: https://langestefan.github.io/powersystem-deadlines/conference/ecce-asi
- a27
+ s: https://powersystemdeadlines.org/conference/ecce-asia27
 LOCATION:Seoul\, South Korea
 URL;VALUE=URI:https://www.icpe-conf.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
@@ -83,8 +82,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ecce-asia27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ecce-asia27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 TRANSP:TRANSPARENT
@@ -101,8 +100,7 @@ DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia
  ly mean\, so the countdown runs out before the real deadline rather than a
  fter it.\n\nHeld as ICPE 2027-ECCE Asia\, the 12th International Conferenc
  e on Power Electronics.\n\nCall for papers: https://www.icpe-conf.org/\nDe
- tails: https://langestefan.github.io/powersystem-deadlines/conference/ecce
- -asia27
+ tails: https://powersystemdeadlines.org/conference/ecce-asia27
 LOCATION:Seoul\, South Korea
 URL;VALUE=URI:https://www.icpe-conf.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
@@ -120,8 +118,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ecce-asia27-early_registration@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ecce-asia27-early_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 TRANSP:TRANSPARENT
@@ -137,7 +135,7 @@ DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia
   so the countdown runs out before the real deadline rather than after it.\
  n\nHeld as ICPE 2027-ECCE Asia\, the 12th International Conference on Powe
  r Electronics.\n\nCall for papers: https://www.icpe-conf.org/\nDetails: ht
- tps://langestefan.github.io/powersystem-deadlines/conference/ecce-asia27
+ tps://powersystemdeadlines.org/conference/ecce-asia27
 LOCATION:Seoul\, South Korea
 URL;VALUE=URI:https://www.icpe-conf.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
@@ -155,8 +153,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ecce-asia27-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ecce-asia27-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270527
 TRANSP:TRANSPARENT
@@ -171,8 +169,7 @@ DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia
  ausibly mean\, so the countdown runs out before the real deadline rather t
  han after it.\n\nHeld as ICPE 2027-ECCE Asia\, the 12th International Conf
  erence on Power Electronics.\n\nCall for papers: https://www.icpe-conf.org
- /\nDetails: https://langestefan.github.io/powersystem-deadlines/conference
- /ecce-asia27
+ /\nDetails: https://powersystemdeadlines.org/conference/ecce-asia27
 LOCATION:COEX Magok\, Seoul\, South Korea
 URL;VALUE=URI:https://www.icpe-conf.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage

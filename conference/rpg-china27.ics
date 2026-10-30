@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:RPG 2027 deadlines
@@ -9,11 +9,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for IET International Conference on Renewa
  ble Power Generation and Future Power Systems 2027.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/rpg-china27.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/rpg-china27.ic
+ s
 BEGIN:VEVENT
-UID:rpg-china27-abstract@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:rpg-china27-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
@@ -35,8 +35,8 @@ DESCRIPTION:IET International Conference on Renewable Power Generation and
  age gives 2 April 2027 for full papers\, but the author information page l
  ists 2 April as the abstract notification and 17 May 2027 for full papers\
  ; the author information page is followed here.\n\nCall for papers: https:
- //renewablepower.theiet.org/rpg-china-2027\nDetails: https://langestefan.g
- ithub.io/powersystem-deadlines/conference/rpg-china27
+ //renewablepower.theiet.org/rpg-china-2027\nDetails: https://powersystemde
+ adlines.org/conference/rpg-china27
 LOCATION:Shanghai\, China
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
 CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
@@ -55,8 +55,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rpg-china27-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:rpg-china27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270402
 DTEND;VALUE=DATE:20270403
 TRANSP:TRANSPARENT
@@ -80,7 +80,7 @@ DESCRIPTION:IET International Conference on Renewable Power Generation and
  ormation page lists 2 April as the abstract notification and 17 May 2027 f
  or full papers\; the author information page is followed here.\n\nCall for
   papers: https://renewablepower.theiet.org/rpg-china-2027\nDetails: https:
- //langestefan.github.io/powersystem-deadlines/conference/rpg-china27
+ //powersystemdeadlines.org/conference/rpg-china27
 LOCATION:Shanghai\, China
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
 CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
@@ -99,8 +99,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rpg-china27-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:rpg-china27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 TRANSP:TRANSPARENT
@@ -122,8 +122,8 @@ DESCRIPTION:IET International Conference on Renewable Power Generation and
  ding page gives 2 April 2027 for full papers\, but the author information 
  page lists 2 April as the abstract notification and 17 May 2027 for full p
  apers\; the author information page is followed here.\n\nCall for papers: 
- https://renewablepower.theiet.org/rpg-china-2027\nDetails: https://langest
- efan.github.io/powersystem-deadlines/conference/rpg-china27
+ https://renewablepower.theiet.org/rpg-china-2027\nDetails: https://powersy
+ stemdeadlines.org/conference/rpg-china27
 LOCATION:Shanghai\, China
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
 CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
@@ -142,8 +142,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rpg-china27-notification-2@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:rpg-china27-notification-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270614
 DTEND;VALUE=DATE:20270615
 TRANSP:TRANSPARENT
@@ -167,7 +167,7 @@ DESCRIPTION:IET International Conference on Renewable Power Generation and
  information page lists 2 April as the abstract notification and 17 May 202
  7 for full papers\; the author information page is followed here.\n\nCall 
  for papers: https://renewablepower.theiet.org/rpg-china-2027\nDetails: htt
- ps://langestefan.github.io/powersystem-deadlines/conference/rpg-china27
+ ps://powersystemdeadlines.org/conference/rpg-china27
 LOCATION:Shanghai\, China
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
 CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
@@ -186,8 +186,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rpg-china27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:rpg-china27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270628
 DTEND;VALUE=DATE:20270629
 TRANSP:TRANSPARENT
@@ -211,7 +211,7 @@ DESCRIPTION:IET International Conference on Renewable Power Generation and
  rmation page lists 2 April as the abstract notification and 17 May 2027 fo
  r full papers\; the author information page is followed here.\n\nCall for 
  papers: https://renewablepower.theiet.org/rpg-china-2027\nDetails: https:/
- /langestefan.github.io/powersystem-deadlines/conference/rpg-china27
+ /powersystemdeadlines.org/conference/rpg-china27
 LOCATION:Shanghai\, China
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
 CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
@@ -230,8 +230,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rpg-china27-camera_ready-2@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:rpg-china27-camera_ready-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270710
 TRANSP:TRANSPARENT
@@ -253,8 +253,8 @@ DESCRIPTION:IET International Conference on Renewable Power Generation and
  nding page gives 2 April 2027 for full papers\, but the author information
   page lists 2 April as the abstract notification and 17 May 2027 for full 
  papers\; the author information page is followed here.\n\nCall for papers:
-  https://renewablepower.theiet.org/rpg-china-2027\nDetails: https://langes
- tefan.github.io/powersystem-deadlines/conference/rpg-china27
+  https://renewablepower.theiet.org/rpg-china-2027\nDetails: https://powers
+ ystemdeadlines.org/conference/rpg-china27
 LOCATION:Shanghai\, China
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
 CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
@@ -273,8 +273,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rpg-china27-early_registration@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:rpg-china27-early_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270726
 DTEND;VALUE=DATE:20270727
 TRANSP:TRANSPARENT
@@ -296,8 +296,8 @@ DESCRIPTION:IET International Conference on Renewable Power Generation and
  ng page gives 2 April 2027 for full papers\, but the author information pa
  ge lists 2 April as the abstract notification and 17 May 2027 for full pap
  ers\; the author information page is followed here.\n\nCall for papers: ht
- tps://renewablepower.theiet.org/rpg-china-2027\nDetails: https://langestef
- an.github.io/powersystem-deadlines/conference/rpg-china27
+ tps://renewablepower.theiet.org/rpg-china-2027\nDetails: https://powersyst
+ emdeadlines.org/conference/rpg-china27
 LOCATION:Shanghai\, China
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
 CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
@@ -316,8 +316,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rpg-china27-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:rpg-china27-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20271029
 DTEND;VALUE=DATE:20271101
 TRANSP:TRANSPARENT
@@ -339,7 +339,7 @@ DESCRIPTION:IET International Conference on Renewable Power Generation and
  mation page lists 2 April as the abstract notification and 17 May 2027 for
   full papers\; the author information page is followed here.\n\nCall for p
  apers: https://renewablepower.theiet.org/rpg-china-2027\nDetails: https://
- langestefan.github.io/powersystem-deadlines/conference/rpg-china27
+ powersystemdeadlines.org/conference/rpg-china27
 LOCATION:Shanghai\, China
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
 CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener

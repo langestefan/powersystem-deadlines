@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:PCIM Europe 2027 deadlines
@@ -10,11 +10,11 @@ X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for International Exhibition and Conferenc
  e for Power Electronics\, Intelligent Motion\, Renewable Energy and Energy
   Management 2027.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/pcim-europe27.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/pcim-europe27.
+ ics
 BEGIN:VEVENT
-UID:pcim-europe27-abstract@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pcim-europe27-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 TRANSP:TRANSPARENT
@@ -32,8 +32,8 @@ DESCRIPTION:International Exhibition and Conference for Power Electronics\,
  adline covers synopses for the seminars held on 9-10 May 2027 at the Arven
  a Park Hotel\, whose documentation is due 14 April 2027. Acceptance is exp
  ected in January 2027 without a stated date.\n\nCall for papers: https://p
- cim.mesago.com/nuernberg/en.html\nDetails: https://langestefan.github.io/p
- owersystem-deadlines/conference/pcim-europe27
+ cim.mesago.com/nuernberg/en.html\nDetails: https://powersystemdeadlines.or
+ g/conference/pcim-europe27
 LOCATION:Nuremberg\, Germany
 URL;VALUE=URI:https://pcim.mesago.com/nuernberg/en.html
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
@@ -51,8 +51,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pcim-europe27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pcim-europe27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 TRANSP:TRANSPARENT
@@ -71,8 +71,8 @@ DESCRIPTION:International Exhibition and Conference for Power Electronics\,
  026 deadline covers synopses for the seminars held on 9-10 May 2027 at the
   Arvena Park Hotel\, whose documentation is due 14 April 2027. Acceptance 
  is expected in January 2027 without a stated date.\n\nCall for papers: htt
- ps://pcim.mesago.com/nuernberg/en.html\nDetails: https://langestefan.githu
- b.io/powersystem-deadlines/conference/pcim-europe27
+ ps://pcim.mesago.com/nuernberg/en.html\nDetails: https://powersystemdeadli
+ nes.org/conference/pcim-europe27
 LOCATION:Nuremberg\, Germany
 URL;VALUE=URI:https://pcim.mesago.com/nuernberg/en.html
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
@@ -90,8 +90,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pcim-europe27-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pcim-europe27-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270511
 DTEND;VALUE=DATE:20270514
 TRANSP:TRANSPARENT
@@ -108,8 +108,8 @@ DESCRIPTION:International Exhibition and Conference for Power Electronics\,
  tober 2026 deadline covers synopses for the seminars held on 9-10 May 2027
   at the Arvena Park Hotel\, whose documentation is due 14 April 2027. Acce
  ptance is expected in January 2027 without a stated date.\n\nCall for pape
- rs: https://pcim.mesago.com/nuernberg/en.html\nDetails: https://langestefa
- n.github.io/powersystem-deadlines/conference/pcim-europe27
+ rs: https://pcim.mesago.com/nuernberg/en.html\nDetails: https://powersyste
+ mdeadlines.org/conference/pcim-europe27
 LOCATION:Nuremberg Exhibition Centre\, Nuremberg\, Germany
 URL;VALUE=URI:https://pcim.mesago.com/nuernberg/en.html
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage

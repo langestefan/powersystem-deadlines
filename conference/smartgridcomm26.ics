@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:SmartGridComm 2026 deadlines
@@ -9,11 +9,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for IEEE International Conference on Commu
  nications\, Control\, and Computing Technologies for Smart Grids 2026.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/smartgridcomm26.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/smartgridcomm2
+ 6.ics
 BEGIN:VEVENT
-UID:smartgridcomm26-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:smartgridcomm26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260503
 DTEND;VALUE=DATE:20260504
 TRANSP:TRANSPARENT
@@ -28,8 +28,8 @@ DESCRIPTION:IEEE International Conference on Communications\, Control\, and
   counted as UTC+12\, the earliest it could plausibly mean\, so the countdo
  wn runs out before the real deadline rather than after it.\n\nThe paper de
  adline was extended from 15 April to 3 May 2026.\n\nCall for papers: https
- ://sgc2026.ieee-smartgridcomm.org/\nDetails: https://langestefan.github.io
- /powersystem-deadlines/conference/smartgridcomm26
+ ://sgc2026.ieee-smartgridcomm.org/\nDetails: https://powersystemdeadlines.
+ org/conference/smartgridcomm26
 LOCATION:College Station\, USA
 URL;VALUE=URI:https://sgc2026.ieee-smartgridcomm.org/
 CATEGORIES:Smart Grid,Cyber-Physical Security,Computation & Optimization,Di
@@ -48,8 +48,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:smartgridcomm26-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:smartgridcomm26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 TRANSP:TRANSPARENT
@@ -65,8 +65,8 @@ DESCRIPTION:IEEE International Conference on Communications\, Control\, and
   This is counted as UTC+12\, the earliest it could plausibly mean\, so the
   countdown runs out before the real deadline rather than after it.\n\nThe 
  paper deadline was extended from 15 April to 3 May 2026.\n\nCall for paper
- s: https://sgc2026.ieee-smartgridcomm.org/\nDetails: https://langestefan.g
- ithub.io/powersystem-deadlines/conference/smartgridcomm26
+ s: https://sgc2026.ieee-smartgridcomm.org/\nDetails: https://powersystemde
+ adlines.org/conference/smartgridcomm26
 LOCATION:College Station\, USA
 URL;VALUE=URI:https://sgc2026.ieee-smartgridcomm.org/
 CATEGORIES:Smart Grid,Cyber-Physical Security,Computation & Optimization,Di
@@ -85,8 +85,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:smartgridcomm26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:smartgridcomm26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 TRANSP:TRANSPARENT
@@ -102,8 +102,8 @@ DESCRIPTION:IEEE International Conference on Communications\, Control\, and
  ezone. This is counted as UTC+12\, the earliest it could plausibly mean\, 
  so the countdown runs out before the real deadline rather than after it.\n
  \nThe paper deadline was extended from 15 April to 3 May 2026.\n\nCall for
-  papers: https://sgc2026.ieee-smartgridcomm.org/\nDetails: https://langest
- efan.github.io/powersystem-deadlines/conference/smartgridcomm26
+  papers: https://sgc2026.ieee-smartgridcomm.org/\nDetails: https://powersy
+ stemdeadlines.org/conference/smartgridcomm26
 LOCATION:College Station\, USA
 URL;VALUE=URI:https://sgc2026.ieee-smartgridcomm.org/
 CATEGORIES:Smart Grid,Cyber-Physical Security,Computation & Optimization,Di
@@ -122,8 +122,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:smartgridcomm26-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:smartgridcomm26-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261030
 TRANSP:TRANSPARENT
@@ -137,8 +137,8 @@ DESCRIPTION:IEEE International Conference on Communications\, Control\, and
  timezone. This is counted as UTC+12\, the earliest it could plausibly mean
  \, so the countdown runs out before the real deadline rather than after it
  .\n\nThe paper deadline was extended from 15 April to 3 May 2026.\n\nCall 
- for papers: https://sgc2026.ieee-smartgridcomm.org/\nDetails: https://lang
- estefan.github.io/powersystem-deadlines/conference/smartgridcomm26
+ for papers: https://sgc2026.ieee-smartgridcomm.org/\nDetails: https://powe
+ rsystemdeadlines.org/conference/smartgridcomm26
 LOCATION:College Station\, USA
 URL;VALUE=URI:https://sgc2026.ieee-smartgridcomm.org/
 CATEGORIES:Smart Grid,Cyber-Physical Security,Computation & Optimization,Di

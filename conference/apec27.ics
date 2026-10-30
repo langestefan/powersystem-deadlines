@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:APEC 2027 deadlines
@@ -9,11 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for IEEE Applied Power Electronics Confere
  nce and Exposition 2027.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/apec27.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/apec27.ics
 BEGIN:VEVENT
-UID:apec27-abstract@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:apec27-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 TRANSP:TRANSPARENT
@@ -30,8 +29,8 @@ DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC
   could plausibly mean\, so the countdown runs out before the real deadline
   rather than after it.\n\nThe digest deadline was extended from 14 to 21 A
  ugust 2026. An author manuscript training session is held on 12 November 2
- 026.\n\nCall for papers: https://apec-conf.org/\nDetails: https://langeste
- fan.github.io/powersystem-deadlines/conference/apec27
+ 026.\n\nCall for papers: https://apec-conf.org/\nDetails: https://powersys
+ temdeadlines.org/conference/apec27
 LOCATION:New Orleans\, USA
 URL;VALUE=URI:https://apec-conf.org/
 CATEGORIES:Power Electronics,Machines & Drives,Energy Storage,EV & Transpor
@@ -50,8 +49,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:apec27-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:apec27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 TRANSP:TRANSPARENT
@@ -67,8 +66,8 @@ DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC
  d plausibly mean\, so the countdown runs out before the real deadline rath
  er than after it.\n\nThe digest deadline was extended from 14 to 21 August
   2026. An author manuscript training session is held on 12 November 2026.\
- n\nCall for papers: https://apec-conf.org/\nDetails: https://langestefan.g
- ithub.io/powersystem-deadlines/conference/apec27
+ n\nCall for papers: https://apec-conf.org/\nDetails: https://powersystemde
+ adlines.org/conference/apec27
 LOCATION:New Orleans\, USA
 URL;VALUE=URI:https://apec-conf.org/
 CATEGORIES:Power Electronics,Machines & Drives,Energy Storage,EV & Transpor
@@ -87,8 +86,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:apec27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:apec27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 TRANSP:TRANSPARENT
@@ -105,8 +104,8 @@ DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC
  t it could plausibly mean\, so the countdown runs out before the real dead
  line rather than after it.\n\nThe digest deadline was extended from 14 to 
  21 August 2026. An author manuscript training session is held on 12 Novemb
- er 2026.\n\nCall for papers: https://apec-conf.org/\nDetails: https://lang
- estefan.github.io/powersystem-deadlines/conference/apec27
+ er 2026.\n\nCall for papers: https://apec-conf.org/\nDetails: https://powe
+ rsystemdeadlines.org/conference/apec27
 LOCATION:New Orleans\, USA
 URL;VALUE=URI:https://apec-conf.org/
 CATEGORIES:Power Electronics,Machines & Drives,Energy Storage,EV & Transpor
@@ -125,8 +124,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:apec27-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:apec27-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270312
 TRANSP:TRANSPARENT
@@ -141,8 +140,8 @@ DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC
  uld plausibly mean\, so the countdown runs out before the real deadline ra
  ther than after it.\n\nThe digest deadline was extended from 14 to 21 Augu
  st 2026. An author manuscript training session is held on 12 November 2026
- .\n\nCall for papers: https://apec-conf.org/\nDetails: https://langestefan
- .github.io/powersystem-deadlines/conference/apec27
+ .\n\nCall for papers: https://apec-conf.org/\nDetails: https://powersystem
+ deadlines.org/conference/apec27
 LOCATION:Ernest N. Morial Convention Center\, New Orleans\, USA
 URL;VALUE=URI:https://apec-conf.org/
 CATEGORIES:Power Electronics,Machines & Drives,Energy Storage,EV & Transpor

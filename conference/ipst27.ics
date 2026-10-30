@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:IPST 2027 deadlines
@@ -9,11 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for International Conference on Power Syst
  ems Transients 2027.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/ipst27.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/ipst27.ics
 BEGIN:VEVENT
-UID:ipst27-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ipst27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 TRANSP:TRANSPARENT
@@ -29,8 +28,7 @@ DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
  liest it could plausibly mean\, so the countdown runs out before the real 
  deadline rather than after it.\n\nOrganised with the University of Bologna
  . Early registration runs until 6 April 2027.\n\nCall for papers: https://
- ipst2027.org/\nDetails: https://langestefan.github.io/powersystem-deadline
- s/conference/ipst27
+ ipst2027.org/\nDetails: https://powersystemdeadlines.org/conference/ipst27
 LOCATION:Bologna\, Italy
 URL;VALUE=URI:https://ipst2027.org/
 CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
@@ -49,8 +47,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ipst27-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ipst27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270220
 TRANSP:TRANSPARENT
@@ -66,8 +64,7 @@ DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
  ould plausibly mean\, so the countdown runs out before the real deadline r
  ather than after it.\n\nOrganised with the University of Bologna. Early re
  gistration runs until 6 April 2027.\n\nCall for papers: https://ipst2027.o
- rg/\nDetails: https://langestefan.github.io/powersystem-deadlines/conferen
- ce/ipst27
+ rg/\nDetails: https://powersystemdeadlines.org/conference/ipst27
 LOCATION:Bologna\, Italy
 URL;VALUE=URI:https://ipst2027.org/
 CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
@@ -86,8 +83,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ipst27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ipst27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270319
 DTEND;VALUE=DATE:20270320
 TRANSP:TRANSPARENT
@@ -103,8 +100,7 @@ DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
  t could plausibly mean\, so the countdown runs out before the real deadlin
  e rather than after it.\n\nOrganised with the University of Bologna. Early
   registration runs until 6 April 2027.\n\nCall for papers: https://ipst202
- 7.org/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
- rence/ipst27
+ 7.org/\nDetails: https://powersystemdeadlines.org/conference/ipst27
 LOCATION:Bologna\, Italy
 URL;VALUE=URI:https://ipst2027.org/
 CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
@@ -123,8 +119,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ipst27-notification-2@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ipst27-notification-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270409
 DTEND;VALUE=DATE:20270410
 TRANSP:TRANSPARENT
@@ -140,8 +136,7 @@ DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
  iest it could plausibly mean\, so the countdown runs out before the real d
  eadline rather than after it.\n\nOrganised with the University of Bologna.
   Early registration runs until 6 April 2027.\n\nCall for papers: https://i
- pst2027.org/\nDetails: https://langestefan.github.io/powersystem-deadlines
- /conference/ipst27
+ pst2027.org/\nDetails: https://powersystemdeadlines.org/conference/ipst27
 LOCATION:Bologna\, Italy
 URL;VALUE=URI:https://ipst2027.org/
 CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
@@ -160,8 +155,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ipst27-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ipst27-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270611
 TRANSP:TRANSPARENT
@@ -176,8 +171,8 @@ DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
  earliest it could plausibly mean\, so the countdown runs out before the re
  al deadline rather than after it.\n\nOrganised with the University of Bolo
  gna. Early registration runs until 6 April 2027.\n\nCall for papers: https
- ://ipst2027.org/\nDetails: https://langestefan.github.io/powersystem-deadl
- ines/conference/ipst27
+ ://ipst2027.org/\nDetails: https://powersystemdeadlines.org/conference/ips
+ t27
 LOCATION:Royal Hotel Carlton\, Bologna\, Italy
 URL;VALUE=URI:https://ipst2027.org/
 CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection

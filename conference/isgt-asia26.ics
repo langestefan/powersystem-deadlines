@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:ISGT Asia 2026 deadlines
@@ -9,11 +9,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for IEEE PES Innovative Smart Grid Technol
  ogies Conference Asia 2026.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/isgt-asia26.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/isgt-asia26.ic
+ s
 BEGIN:VEVENT
-UID:isgt-asia26-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:isgt-asia26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 TRANSP:TRANSPARENT
@@ -31,8 +31,7 @@ DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
  sted by Wuhan University. The call gives submission and notification as wi
  ndows rather than single dates\; the closing date of each window is listed
   here.\n\nCall for papers: https://attend.ieee.org/isgt-asia-2026/\nDetail
- s: https://langestefan.github.io/powersystem-deadlines/conference/isgt-asi
- a26
+ s: https://powersystemdeadlines.org/conference/isgt-asia26
 LOCATION:Wuhan\, China
 URL;VALUE=URI:https://attend.ieee.org/isgt-asia-2026/
 CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
@@ -50,8 +49,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isgt-asia26-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:isgt-asia26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 TRANSP:TRANSPARENT
@@ -69,8 +68,7 @@ DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
  y"\, hosted by Wuhan University. The call gives submission and notificatio
  n as windows rather than single dates\; the closing date of each window is
   listed here.\n\nCall for papers: https://attend.ieee.org/isgt-asia-2026/\
- nDetails: https://langestefan.github.io/powersystem-deadlines/conference/i
- sgt-asia26
+ nDetails: https://powersystemdeadlines.org/conference/isgt-asia26
 LOCATION:Wuhan\, China
 URL;VALUE=URI:https://attend.ieee.org/isgt-asia-2026/
 CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
@@ -88,8 +86,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isgt-asia26-author_registration@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:isgt-asia26-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 TRANSP:TRANSPARENT
@@ -107,8 +105,7 @@ DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
  hosted by Wuhan University. The call gives submission and notification as 
  windows rather than single dates\; the closing date of each window is list
  ed here.\n\nCall for papers: https://attend.ieee.org/isgt-asia-2026/\nDeta
- ils: https://langestefan.github.io/powersystem-deadlines/conference/isgt-a
- sia26
+ ils: https://powersystemdeadlines.org/conference/isgt-asia26
 LOCATION:Wuhan\, China
 URL;VALUE=URI:https://attend.ieee.org/isgt-asia-2026/
 CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
@@ -126,8 +123,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isgt-asia26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:isgt-asia26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 TRANSP:TRANSPARENT
@@ -145,8 +142,7 @@ DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
  \, hosted by Wuhan University. The call gives submission and notification 
  as windows rather than single dates\; the closing date of each window is l
  isted here.\n\nCall for papers: https://attend.ieee.org/isgt-asia-2026/\nD
- etails: https://langestefan.github.io/powersystem-deadlines/conference/isg
- t-asia26
+ etails: https://powersystemdeadlines.org/conference/isgt-asia26
 LOCATION:Wuhan\, China
 URL;VALUE=URI:https://attend.ieee.org/isgt-asia-2026/
 CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
@@ -164,8 +160,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isgt-asia26-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:isgt-asia26-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -182,8 +178,7 @@ DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
  eutrality"\, hosted by Wuhan University. The call gives submission and not
  ification as windows rather than single dates\; the closing date of each w
  indow is listed here.\n\nCall for papers: https://attend.ieee.org/isgt-asi
- a-2026/\nDetails: https://langestefan.github.io/powersystem-deadlines/conf
- erence/isgt-asia26
+ a-2026/\nDetails: https://powersystemdeadlines.org/conference/isgt-asia26
 LOCATION:Wuhan\, China
 URL;VALUE=URI:https://attend.ieee.org/isgt-asia-2026/
 CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems

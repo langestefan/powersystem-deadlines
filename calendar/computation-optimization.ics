@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Power System Deadlines: Computation & Optimization
@@ -8,11 +8,11 @@ X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines for conferences tagged "Computation & Optimization".
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
- ar/computation-optimization.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/calendar/computation-opti
+ mization.ics
 BEGIN:VEVENT
-UID:ipst27-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ipst27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 TRANSP:TRANSPARENT
@@ -28,8 +28,7 @@ DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
  liest it could plausibly mean\, so the countdown runs out before the real 
  deadline rather than after it.\n\nOrganised with the University of Bologna
  . Early registration runs until 6 April 2027.\n\nCall for papers: https://
- ipst2027.org/\nDetails: https://langestefan.github.io/powersystem-deadline
- s/conference/ipst27
+ ipst2027.org/\nDetails: https://powersystemdeadlines.org/conference/ipst27
 LOCATION:Bologna\, Italy
 URL;VALUE=URI:https://ipst2027.org/
 CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
@@ -48,8 +47,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ipst27-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ipst27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270220
 TRANSP:TRANSPARENT
@@ -65,8 +64,7 @@ DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
  ould plausibly mean\, so the countdown runs out before the real deadline r
  ather than after it.\n\nOrganised with the University of Bologna. Early re
  gistration runs until 6 April 2027.\n\nCall for papers: https://ipst2027.o
- rg/\nDetails: https://langestefan.github.io/powersystem-deadlines/conferen
- ce/ipst27
+ rg/\nDetails: https://powersystemdeadlines.org/conference/ipst27
 LOCATION:Bologna\, Italy
 URL;VALUE=URI:https://ipst2027.org/
 CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
@@ -85,8 +83,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ipst27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ipst27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270319
 DTEND;VALUE=DATE:20270320
 TRANSP:TRANSPARENT
@@ -102,8 +100,7 @@ DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
  t could plausibly mean\, so the countdown runs out before the real deadlin
  e rather than after it.\n\nOrganised with the University of Bologna. Early
   registration runs until 6 April 2027.\n\nCall for papers: https://ipst202
- 7.org/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
- rence/ipst27
+ 7.org/\nDetails: https://powersystemdeadlines.org/conference/ipst27
 LOCATION:Bologna\, Italy
 URL;VALUE=URI:https://ipst2027.org/
 CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
@@ -122,8 +119,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ipst27-notification-2@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ipst27-notification-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270409
 DTEND;VALUE=DATE:20270410
 TRANSP:TRANSPARENT
@@ -139,8 +136,7 @@ DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
  iest it could plausibly mean\, so the countdown runs out before the real d
  eadline rather than after it.\n\nOrganised with the University of Bologna.
   Early registration runs until 6 April 2027.\n\nCall for papers: https://i
- pst2027.org/\nDetails: https://langestefan.github.io/powersystem-deadlines
- /conference/ipst27
+ pst2027.org/\nDetails: https://powersystemdeadlines.org/conference/ipst27
 LOCATION:Bologna\, Italy
 URL;VALUE=URI:https://ipst2027.org/
 CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
@@ -159,8 +155,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:powertech27-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:powertech27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 TRANSP:TRANSPARENT
@@ -176,8 +172,7 @@ DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nFull paper su
  ntdown runs out before the real deadline rather than after it.\n\nCo-spons
  ored by IEEE PES and KU Leuven. Papers are limited to six pages. Submissio
  n opens in November 2026.\n\nCall for papers: https://powertech2027.com/\n
- Details: https://langestefan.github.io/powersystem-deadlines/conference/po
- wertech27
+ Details: https://powersystemdeadlines.org/conference/powertech27
 LOCATION:Bruges\, Belgium
 URL;VALUE=URI:https://powertech2027.com/
 CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
@@ -196,8 +191,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:powertech27-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:powertech27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270423
 DTEND;VALUE=DATE:20270424
 TRANSP:TRANSPARENT
@@ -213,8 +208,7 @@ DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nAuthor notifi
  down runs out before the real deadline rather than after it.\n\nCo-sponsor
  ed by IEEE PES and KU Leuven. Papers are limited to six pages. Submission 
  opens in November 2026.\n\nCall for papers: https://powertech2027.com/\nDe
- tails: https://langestefan.github.io/powersystem-deadlines/conference/powe
- rtech27
+ tails: https://powersystemdeadlines.org/conference/powertech27
 LOCATION:Bruges\, Belgium
 URL;VALUE=URI:https://powertech2027.com/
 CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
@@ -233,8 +227,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:powertech27-author_registration@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:powertech27-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 TRANSP:TRANSPARENT
@@ -251,8 +245,8 @@ DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nAuthor and ea
  ibly mean\, so the countdown runs out before the real deadline rather than
   after it.\n\nCo-sponsored by IEEE PES and KU Leuven. Papers are limited t
  o six pages. Submission opens in November 2026.\n\nCall for papers: https:
- //powertech2027.com/\nDetails: https://langestefan.github.io/powersystem-d
- eadlines/conference/powertech27
+ //powertech2027.com/\nDetails: https://powersystemdeadlines.org/conference
+ /powertech27
 LOCATION:Bruges\, Belgium
 URL;VALUE=URI:https://powertech2027.com/
 CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
@@ -271,8 +265,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:powertech27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:powertech27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 TRANSP:TRANSPARENT
@@ -288,8 +282,7 @@ DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nFinal paper s
  untdown runs out before the real deadline rather than after it.\n\nCo-spon
  sored by IEEE PES and KU Leuven. Papers are limited to six pages. Submissi
  on opens in November 2026.\n\nCall for papers: https://powertech2027.com/\
- nDetails: https://langestefan.github.io/powersystem-deadlines/conference/p
- owertech27
+ nDetails: https://powersystemdeadlines.org/conference/powertech27
 LOCATION:Bruges\, Belgium
 URL;VALUE=URI:https://powertech2027.com/
 CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
@@ -308,8 +301,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pscc26-abstract@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pscc26-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20250615
 DTEND;VALUE=DATE:20250616
 TRANSP:TRANSPARENT
@@ -327,8 +320,8 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nOne-page ab
  eal deadline rather than after it.\n\nSubmission is abstract-first: a one-
  page abstract must be accepted before the full paper can be submitted. The
   final manuscript deadline was extended from 15 to 22 March 2026.\n\nCall 
- for papers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/p
- owersystem-deadlines/conference/pscc26
+ for papers: https://pscc2026.cy/\nDetails: https://powersystemdeadlines.or
+ g/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -346,8 +339,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pscc26-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pscc26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20250622
 DTEND;VALUE=DATE:20250623
 TRANSP:TRANSPARENT
@@ -366,8 +359,8 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nAbstract ac
  he real deadline rather than after it.\n\nSubmission is abstract-first: a 
  one-page abstract must be accepted before the full paper can be submitted.
   The final manuscript deadline was extended from 15 to 22 March 2026.\n\nC
- all for papers: https://pscc2026.cy/\nDetails: https://langestefan.github.
- io/powersystem-deadlines/conference/pscc26
+ all for papers: https://pscc2026.cy/\nDetails: https://powersystemdeadline
+ s.org/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -385,8 +378,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pscc26-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pscc26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20251015
 DTEND;VALUE=DATE:20251016
 TRANSP:TRANSPARENT
@@ -404,8 +397,8 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nFull paper
  dline rather than after it.\n\nSubmission is abstract-first: a one-page ab
  stract must be accepted before the full paper can be submitted. The final 
  manuscript deadline was extended from 15 to 22 March 2026.\n\nCall for pap
- ers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/powersys
- tem-deadlines/conference/pscc26
+ ers: https://pscc2026.cy/\nDetails: https://powersystemdeadlines.org/confe
+ rence/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -423,8 +416,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pscc26-notification-2@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pscc26-notification-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260208
 DTEND;VALUE=DATE:20260209
 TRANSP:TRANSPARENT
@@ -443,8 +436,8 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nAcceptance
  e real deadline rather than after it.\n\nSubmission is abstract-first: a o
  ne-page abstract must be accepted before the full paper can be submitted. 
  The final manuscript deadline was extended from 15 to 22 March 2026.\n\nCa
- ll for papers: https://pscc2026.cy/\nDetails: https://langestefan.github.i
- o/powersystem-deadlines/conference/pscc26
+ ll for papers: https://pscc2026.cy/\nDetails: https://powersystemdeadlines
+ .org/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -462,8 +455,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pscc26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pscc26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
 TRANSP:TRANSPARENT
@@ -482,8 +475,8 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nFinal manus
  fore the real deadline rather than after it.\n\nSubmission is abstract-fir
  st: a one-page abstract must be accepted before the full paper can be subm
  itted. The final manuscript deadline was extended from 15 to 22 March 2026
- .\n\nCall for papers: https://pscc2026.cy/\nDetails: https://langestefan.g
- ithub.io/powersystem-deadlines/conference/pscc26
+ .\n\nCall for papers: https://pscc2026.cy/\nDetails: https://powersystemde
+ adlines.org/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -501,8 +494,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:compel26-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:compel26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260408
 DTEND;VALUE=DATE:20260409
 TRANSP:TRANSPARENT
@@ -518,8 +511,8 @@ DESCRIPTION:IEEE Workshop on Control and Modeling for Power Electronics (CO
   plausibly mean\, so the countdown runs out before the real deadline rathe
  r than after it.\n\n27th edition. Digests of up to five pages\, double-bli
  nd. The digest deadline was extended from 31 March 2026.\n\nCall for paper
- s: https://attend.ieee.org/compel-2026\nDetails: https://langestefan.githu
- b.io/powersystem-deadlines/conference/compel26
+ s: https://attend.ieee.org/compel-2026\nDetails: https://powersystemdeadli
+ nes.org/conference/compel26
 LOCATION:Cambridge\, United Kingdom
 URL;VALUE=URI:https://attend.ieee.org/compel-2026
 CATEGORIES:Power Electronics,Computation & Optimization
@@ -537,8 +530,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:compel26-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:compel26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260514
 DTEND;VALUE=DATE:20260515
 TRANSP:TRANSPARENT
@@ -554,8 +547,8 @@ DESCRIPTION:IEEE Workshop on Control and Modeling for Power Electronics (CO
  plausibly mean\, so the countdown runs out before the real deadline rather
   than after it.\n\n27th edition. Digests of up to five pages\, double-blin
  d. The digest deadline was extended from 31 March 2026.\n\nCall for papers
- : https://attend.ieee.org/compel-2026\nDetails: https://langestefan.github
- .io/powersystem-deadlines/conference/compel26
+ : https://attend.ieee.org/compel-2026\nDetails: https://powersystemdeadlin
+ es.org/conference/compel26
 LOCATION:Cambridge\, United Kingdom
 URL;VALUE=URI:https://attend.ieee.org/compel-2026
 CATEGORIES:Power Electronics,Computation & Optimization
@@ -573,8 +566,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:compel26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:compel26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260623
 DTEND;VALUE=DATE:20260624
 TRANSP:TRANSPARENT
@@ -591,8 +584,8 @@ DESCRIPTION:IEEE Workshop on Control and Modeling for Power Electronics (CO
  could plausibly mean\, so the countdown runs out before the real deadline 
  rather than after it.\n\n27th edition. Digests of up to five pages\, doubl
  e-blind. The digest deadline was extended from 31 March 2026.\n\nCall for 
- papers: https://attend.ieee.org/compel-2026\nDetails: https://langestefan.
- github.io/powersystem-deadlines/conference/compel26
+ papers: https://attend.ieee.org/compel-2026\nDetails: https://powersystemd
+ eadlines.org/conference/compel26
 LOCATION:Cambridge\, United Kingdom
 URL;VALUE=URI:https://attend.ieee.org/compel-2026
 CATEGORIES:Power Electronics,Computation & Optimization
@@ -610,8 +603,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pmaps26-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pmaps26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260315
 DTEND;VALUE=DATE:20260316
 TRANSP:TRANSPARENT
@@ -628,8 +621,7 @@ DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
   co-organised by the University of Utah and WECC\, themed "Towards Reliabl
  e Power Grids in the Age of AI and Large Loads". The paper deadline was ex
  tended twice\, from 15 February 2026.\n\nCall for papers: https://pmaps202
- 6.utah.edu/\nDetails: https://langestefan.github.io/powersystem-deadlines/
- conference/pmaps26
+ 6.utah.edu/\nDetails: https://powersystemdeadlines.org/conference/pmaps26
 LOCATION:Salt Lake City\, USA
 URL;VALUE=URI:https://pmaps2026.utah.edu/
 CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,
@@ -648,8 +640,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pmaps26-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pmaps26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260530
 DTEND;VALUE=DATE:20260531
 TRANSP:TRANSPARENT
@@ -666,8 +658,7 @@ DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
  y the University of Utah and WECC\, themed "Towards Reliable Power Grids i
  n the Age of AI and Large Loads". The paper deadline was extended twice\, 
  from 15 February 2026.\n\nCall for papers: https://pmaps2026.utah.edu/\nDe
- tails: https://langestefan.github.io/powersystem-deadlines/conference/pmap
- s26
+ tails: https://powersystemdeadlines.org/conference/pmaps26
 LOCATION:Salt Lake City\, USA
 URL;VALUE=URI:https://pmaps2026.utah.edu/
 CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,
@@ -686,8 +677,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pmaps26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pmaps26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 TRANSP:TRANSPARENT
@@ -704,8 +695,7 @@ DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
  rganised by the University of Utah and WECC\, themed "Towards Reliable Pow
  er Grids in the Age of AI and Large Loads". The paper deadline was extende
  d twice\, from 15 February 2026.\n\nCall for papers: https://pmaps2026.uta
- h.edu/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
- rence/pmaps26
+ h.edu/\nDetails: https://powersystemdeadlines.org/conference/pmaps26
 LOCATION:Salt Lake City\, USA
 URL;VALUE=URI:https://pmaps2026.utah.edu/
 CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,
@@ -724,8 +714,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:naps26-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:naps26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 TRANSP:TRANSPARENT
@@ -738,8 +728,8 @@ DESCRIPTION:North American Power Symposium (NAPS 2026)\n\nPaper submission:
   countdown runs out before the real deadline rather than after it.\n\n58th
   edition. Papers are at most six pages and reviewed in stages\, with regis
  tration priced by submission date.\n\nCall for papers: https://www.mtu.edu
- /ece/naps-2026/\nDetails: https://langestefan.github.io/powersystem-deadli
- nes/conference/naps26
+ /ece/naps-2026/\nDetails: https://powersystemdeadlines.org/conference/naps
+ 26
 LOCATION:Houghton\, USA
 URL;VALUE=URI:https://www.mtu.edu/ece/naps-2026/
 CATEGORIES:Power Systems,Computation & Optimization,Renewables
@@ -757,8 +747,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:smartgridcomm26-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:smartgridcomm26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260503
 DTEND;VALUE=DATE:20260504
 TRANSP:TRANSPARENT
@@ -773,8 +763,8 @@ DESCRIPTION:IEEE International Conference on Communications\, Control\, and
   counted as UTC+12\, the earliest it could plausibly mean\, so the countdo
  wn runs out before the real deadline rather than after it.\n\nThe paper de
  adline was extended from 15 April to 3 May 2026.\n\nCall for papers: https
- ://sgc2026.ieee-smartgridcomm.org/\nDetails: https://langestefan.github.io
- /powersystem-deadlines/conference/smartgridcomm26
+ ://sgc2026.ieee-smartgridcomm.org/\nDetails: https://powersystemdeadlines.
+ org/conference/smartgridcomm26
 LOCATION:College Station\, USA
 URL;VALUE=URI:https://sgc2026.ieee-smartgridcomm.org/
 CATEGORIES:Smart Grid,Cyber-Physical Security,Computation & Optimization,Di
@@ -793,8 +783,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:smartgridcomm26-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:smartgridcomm26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 TRANSP:TRANSPARENT
@@ -810,8 +800,8 @@ DESCRIPTION:IEEE International Conference on Communications\, Control\, and
   This is counted as UTC+12\, the earliest it could plausibly mean\, so the
   countdown runs out before the real deadline rather than after it.\n\nThe 
  paper deadline was extended from 15 April to 3 May 2026.\n\nCall for paper
- s: https://sgc2026.ieee-smartgridcomm.org/\nDetails: https://langestefan.g
- ithub.io/powersystem-deadlines/conference/smartgridcomm26
+ s: https://sgc2026.ieee-smartgridcomm.org/\nDetails: https://powersystemde
+ adlines.org/conference/smartgridcomm26
 LOCATION:College Station\, USA
 URL;VALUE=URI:https://sgc2026.ieee-smartgridcomm.org/
 CATEGORIES:Smart Grid,Cyber-Physical Security,Computation & Optimization,Di
@@ -830,8 +820,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:smartgridcomm26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:smartgridcomm26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 TRANSP:TRANSPARENT
@@ -847,8 +837,8 @@ DESCRIPTION:IEEE International Conference on Communications\, Control\, and
  ezone. This is counted as UTC+12\, the earliest it could plausibly mean\, 
  so the countdown runs out before the real deadline rather than after it.\n
  \nThe paper deadline was extended from 15 April to 3 May 2026.\n\nCall for
-  papers: https://sgc2026.ieee-smartgridcomm.org/\nDetails: https://langest
- efan.github.io/powersystem-deadlines/conference/smartgridcomm26
+  papers: https://sgc2026.ieee-smartgridcomm.org/\nDetails: https://powersy
+ stemdeadlines.org/conference/smartgridcomm26
 LOCATION:College Station\, USA
 URL;VALUE=URI:https://sgc2026.ieee-smartgridcomm.org/
 CATEGORIES:Smart Grid,Cyber-Physical Security,Computation & Optimization,Di
@@ -867,8 +857,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:hicss27-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:hicss27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 TRANSP:TRANSPARENT
@@ -883,8 +873,7 @@ DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
  ic/Honolulu\n  Author registration: 1 Oct 2026\, 23:59 Pacific/Honolulu\n\
  nHICSS-60. Submissions are due by 11:59 pm HST\; papers go to the Electric
   Energy Systems track.\n\nCall for papers: https://hicss.hawaii.edu/\nDeta
- ils: https://langestefan.github.io/powersystem-deadlines/conference/hicss2
- 7
+ ils: https://powersystemdeadlines.org/conference/hicss27
 LOCATION:Waikoloa\, USA
 URL;VALUE=URI:https://hicss.hawaii.edu/
 CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil
@@ -903,8 +892,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:hicss27-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:hicss27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
 TRANSP:TRANSPARENT
@@ -920,8 +909,8 @@ DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
  t 2026\, 23:59 Pacific/Honolulu\n  Author registration: 1 Oct 2026\, 23:59
   Pacific/Honolulu\n\nHICSS-60. Submissions are due by 11:59 pm HST\; paper
  s go to the Electric Energy Systems track.\n\nCall for papers: https://hic
- ss.hawaii.edu/\nDetails: https://langestefan.github.io/powersystem-deadlin
- es/conference/hicss27
+ ss.hawaii.edu/\nDetails: https://powersystemdeadlines.org/conference/hicss
+ 27
 LOCATION:Waikoloa\, USA
 URL;VALUE=URI:https://hicss.hawaii.edu/
 CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil
@@ -940,8 +929,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:hicss27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:hicss27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 TRANSP:TRANSPARENT
@@ -957,8 +946,8 @@ DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
   22 Sept 2026\, 23:59 Pacific/Honolulu\n  Author registration: 1 Oct 2026\
  , 23:59 Pacific/Honolulu\n\nHICSS-60. Submissions are due by 11:59 pm HST\
  ; papers go to the Electric Energy Systems track.\n\nCall for papers: http
- s://hicss.hawaii.edu/\nDetails: https://langestefan.github.io/powersystem-
- deadlines/conference/hicss27
+ s://hicss.hawaii.edu/\nDetails: https://powersystemdeadlines.org/conferenc
+ e/hicss27
 LOCATION:Waikoloa\, USA
 URL;VALUE=URI:https://hicss.hawaii.edu/
 CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil
@@ -977,8 +966,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:hicss27-camera_ready-2@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:hicss27-camera_ready-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 TRANSP:TRANSPARENT
@@ -993,8 +982,7 @@ DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
   23:59 Pacific/Honolulu\n  Author registration: 1 Oct 2026\, 23:59 Pacific
  /Honolulu\n\nHICSS-60. Submissions are due by 11:59 pm HST\; papers go to 
  the Electric Energy Systems track.\n\nCall for papers: https://hicss.hawai
- i.edu/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
- rence/hicss27
+ i.edu/\nDetails: https://powersystemdeadlines.org/conference/hicss27
 LOCATION:Waikoloa\, USA
 URL;VALUE=URI:https://hicss.hawaii.edu/
 CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil
@@ -1013,8 +1001,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:hicss27-author_registration@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:hicss27-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 TRANSP:TRANSPARENT
@@ -1029,8 +1017,7 @@ DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
  ific/Honolulu\n  Author registration: 1 Oct 2026\, 23:59 Pacific/Honolulu\
  n\nHICSS-60. Submissions are due by 11:59 pm HST\; papers go to the Electr
  ic Energy Systems track.\n\nCall for papers: https://hicss.hawaii.edu/\nDe
- tails: https://langestefan.github.io/powersystem-deadlines/conference/hics
- s27
+ tails: https://powersystemdeadlines.org/conference/hicss27
 LOCATION:Waikoloa\, USA
 URL;VALUE=URI:https://hicss.hawaii.edu/
 CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil

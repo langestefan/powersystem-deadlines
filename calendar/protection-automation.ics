@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Power System Deadlines: Protection & Automation
@@ -8,159 +8,11 @@ X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines for conferences tagged "Protection & Automation".
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
- ar/protection-automation.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/calendar/protection-autom
+ ation.ics
 BEGIN:VEVENT
-UID:dpsp-europe27-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-TRANSP:TRANSPARENT
-SUMMARY:DPSP 2027: Full paper submission (23:59 UTC+12 (assumed))
-DESCRIPTION:IET International Conference on Developments in Power System Pr
- otection (DPSP 2027)\n\nFull paper submission: 30 Oct 2026\, 23:59 UTC+12 
- (assumed)\n\nConference: April 14-16\, 2027\nLocation: Munich\, Germany\nV
- enue: Hilton Munich City\n\nAll dates:\n  Full paper submission: 30 Oct 20
- 26\, 23:59 UTC+12 (assumed)\n  Author notification: 22 Jan 2027\, 23:59 UT
- C+12 (assumed)\n  Author registration: 8 Feb 2027\, 23:59 UTC+12 (assumed)
- \n  Presentation submission: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe c
- all for papers states no timezone. This is counted as UTC+12\, the earlies
- t it could plausibly mean\, so the countdown runs out before the real dead
- line rather than after it.\n\nDPSP Europe 2027\, co-hosted with TU Munich.
-  Full papers only\, with no separate abstract stage\; papers are indexed i
- n IET Inspec\, IEEE Xplore\, Ei Compendex and Scopus.\n\nCall for papers: 
- https://dpsp.theiet.org/2027-europe\nDetails: https://langestefan.github.i
- o/powersystem-deadlines/conference/dpsp-europe27
-LOCATION:Munich\, Germany
-URL;VALUE=URI:https://dpsp.theiet.org/2027-europe
-CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:dpsp-europe27-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
-DTSTART;VALUE=DATE:20270122
-DTEND;VALUE=DATE:20270123
-TRANSP:TRANSPARENT
-SUMMARY:DPSP 2027: Author notification (23:59 UTC+12 (assumed))
-DESCRIPTION:IET International Conference on Developments in Power System Pr
- otection (DPSP 2027)\n\nAuthor notification: 22 Jan 2027\, 23:59 UTC+12 (a
- ssumed)\n\nConference: April 14-16\, 2027\nLocation: Munich\, Germany\nVen
- ue: Hilton Munich City\n\nAll dates:\n  Full paper submission: 30 Oct 2026
- \, 23:59 UTC+12 (assumed)\n  Author notification: 22 Jan 2027\, 23:59 UTC+
- 12 (assumed)\n  Author registration: 8 Feb 2027\, 23:59 UTC+12 (assumed)\n
-   Presentation submission: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe cal
- l for papers states no timezone. This is counted as UTC+12\, the earliest 
- it could plausibly mean\, so the countdown runs out before the real deadli
- ne rather than after it.\n\nDPSP Europe 2027\, co-hosted with TU Munich. F
- ull papers only\, with no separate abstract stage\; papers are indexed in 
- IET Inspec\, IEEE Xplore\, Ei Compendex and Scopus.\n\nCall for papers: ht
- tps://dpsp.theiet.org/2027-europe\nDetails: https://langestefan.github.io/
- powersystem-deadlines/conference/dpsp-europe27
-LOCATION:Munich\, Germany
-URL;VALUE=URI:https://dpsp.theiet.org/2027-europe
-CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:dpsp-europe27-author_registration@langestefan.github.io
-DTSTAMP:20261030T042631Z
-DTSTART;VALUE=DATE:20270208
-DTEND;VALUE=DATE:20270209
-TRANSP:TRANSPARENT
-SUMMARY:DPSP 2027: Author registration (23:59 UTC+12 (assumed))
-DESCRIPTION:IET International Conference on Developments in Power System Pr
- otection (DPSP 2027)\n\nAuthor registration: 8 Feb 2027\, 23:59 UTC+12 (as
- sumed)\n\nConference: April 14-16\, 2027\nLocation: Munich\, Germany\nVenu
- e: Hilton Munich City\n\nAll dates:\n  Full paper submission: 30 Oct 2026\
- , 23:59 UTC+12 (assumed)\n  Author notification: 22 Jan 2027\, 23:59 UTC+1
- 2 (assumed)\n  Author registration: 8 Feb 2027\, 23:59 UTC+12 (assumed)\n 
-  Presentation submission: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call
-  for papers states no timezone. This is counted as UTC+12\, the earliest i
- t could plausibly mean\, so the countdown runs out before the real deadlin
- e rather than after it.\n\nDPSP Europe 2027\, co-hosted with TU Munich. Fu
- ll papers only\, with no separate abstract stage\; papers are indexed in I
- ET Inspec\, IEEE Xplore\, Ei Compendex and Scopus.\n\nCall for papers: htt
- ps://dpsp.theiet.org/2027-europe\nDetails: https://langestefan.github.io/p
- owersystem-deadlines/conference/dpsp-europe27
-LOCATION:Munich\, Germany
-URL;VALUE=URI:https://dpsp.theiet.org/2027-europe
-CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:dpsp-europe27-presentation_upload@langestefan.github.io
-DTSTAMP:20261030T042631Z
-DTSTART;VALUE=DATE:20270315
-DTEND;VALUE=DATE:20270316
-TRANSP:TRANSPARENT
-SUMMARY:DPSP 2027: Presentation submission (23:59 UTC+12 (assumed))
-DESCRIPTION:IET International Conference on Developments in Power System Pr
- otection (DPSP 2027)\n\nPresentation submission: 15 Mar 2027\, 23:59 UTC+1
- 2 (assumed)\n\nConference: April 14-16\, 2027\nLocation: Munich\, Germany\
- nVenue: Hilton Munich City\n\nAll dates:\n  Full paper submission: 30 Oct 
- 2026\, 23:59 UTC+12 (assumed)\n  Author notification: 22 Jan 2027\, 23:59 
- UTC+12 (assumed)\n  Author registration: 8 Feb 2027\, 23:59 UTC+12 (assume
- d)\n  Presentation submission: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe
-  call for papers states no timezone. This is counted as UTC+12\, the earli
- est it could plausibly mean\, so the countdown runs out before the real de
- adline rather than after it.\n\nDPSP Europe 2027\, co-hosted with TU Munic
- h. Full papers only\, with no separate abstract stage\; papers are indexed
-  in IET Inspec\, IEEE Xplore\, Ei Compendex and Scopus.\n\nCall for papers
- : https://dpsp.theiet.org/2027-europe\nDetails: https://langestefan.github
- .io/powersystem-deadlines/conference/dpsp-europe27
-LOCATION:Munich\, Germany
-URL;VALUE=URI:https://dpsp.theiet.org/2027-europe
-CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ias-am27-abstract@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ias-am27-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 TRANSP:TRANSPARENT
@@ -178,8 +30,7 @@ DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
  st be covered by a full conference registration before the final manuscrip
  t is submitted\, and must be presented in person. This edition incorporate
  s the I&CPS Europe conference.\n\nCall for papers: https://ias-am.ieee.org
- /2027/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
- rence/ias-am27
+ /2027/\nDetails: https://powersystemdeadlines.org/conference/ias-am27
 LOCATION:Rome\, Italy
 URL;VALUE=URI:https://ias-am.ieee.org/2027/
 CATEGORIES:Machines & Drives,Power Electronics,Power Quality,Protection & A
@@ -198,8 +49,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ias-am27-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ias-am27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270216
 TRANSP:TRANSPARENT
@@ -217,8 +68,7 @@ DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
   must be covered by a full conference registration before the final manusc
  ript is submitted\, and must be presented in person. This edition incorpor
  ates the I&CPS Europe conference.\n\nCall for papers: https://ias-am.ieee.
- org/2027/\nDetails: https://langestefan.github.io/powersystem-deadlines/co
- nference/ias-am27
+ org/2027/\nDetails: https://powersystemdeadlines.org/conference/ias-am27
 LOCATION:Rome\, Italy
 URL;VALUE=URI:https://ias-am.ieee.org/2027/
 CATEGORIES:Machines & Drives,Power Electronics,Power Quality,Protection & A
@@ -237,8 +87,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ias-am27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ias-am27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
@@ -256,8 +106,8 @@ DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
  ry accepted paper must be covered by a full conference registration before
   the final manuscript is submitted\, and must be presented in person. This
   edition incorporates the I&CPS Europe conference.\n\nCall for papers: htt
- ps://ias-am.ieee.org/2027/\nDetails: https://langestefan.github.io/powersy
- stem-deadlines/conference/ias-am27
+ ps://ias-am.ieee.org/2027/\nDetails: https://powersystemdeadlines.org/conf
+ erence/ias-am27
 LOCATION:Rome\, Italy
 URL;VALUE=URI:https://ias-am.ieee.org/2027/
 CATEGORIES:Machines & Drives,Power Electronics,Power Quality,Protection & A
@@ -276,8 +126,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ipst27-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ipst27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 TRANSP:TRANSPARENT
@@ -293,8 +143,7 @@ DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
  liest it could plausibly mean\, so the countdown runs out before the real 
  deadline rather than after it.\n\nOrganised with the University of Bologna
  . Early registration runs until 6 April 2027.\n\nCall for papers: https://
- ipst2027.org/\nDetails: https://langestefan.github.io/powersystem-deadline
- s/conference/ipst27
+ ipst2027.org/\nDetails: https://powersystemdeadlines.org/conference/ipst27
 LOCATION:Bologna\, Italy
 URL;VALUE=URI:https://ipst2027.org/
 CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
@@ -313,8 +162,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ipst27-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ipst27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270220
 TRANSP:TRANSPARENT
@@ -330,8 +179,7 @@ DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
  ould plausibly mean\, so the countdown runs out before the real deadline r
  ather than after it.\n\nOrganised with the University of Bologna. Early re
  gistration runs until 6 April 2027.\n\nCall for papers: https://ipst2027.o
- rg/\nDetails: https://langestefan.github.io/powersystem-deadlines/conferen
- ce/ipst27
+ rg/\nDetails: https://powersystemdeadlines.org/conference/ipst27
 LOCATION:Bologna\, Italy
 URL;VALUE=URI:https://ipst2027.org/
 CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
@@ -350,8 +198,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ipst27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ipst27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270319
 DTEND;VALUE=DATE:20270320
 TRANSP:TRANSPARENT
@@ -367,8 +215,7 @@ DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
  t could plausibly mean\, so the countdown runs out before the real deadlin
  e rather than after it.\n\nOrganised with the University of Bologna. Early
   registration runs until 6 April 2027.\n\nCall for papers: https://ipst202
- 7.org/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
- rence/ipst27
+ 7.org/\nDetails: https://powersystemdeadlines.org/conference/ipst27
 LOCATION:Bologna\, Italy
 URL;VALUE=URI:https://ipst2027.org/
 CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
@@ -387,8 +234,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ipst27-notification-2@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ipst27-notification-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270409
 DTEND;VALUE=DATE:20270410
 TRANSP:TRANSPARENT
@@ -404,8 +251,7 @@ DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
  iest it could plausibly mean\, so the countdown runs out before the real d
  eadline rather than after it.\n\nOrganised with the University of Bologna.
   Early registration runs until 6 April 2027.\n\nCall for papers: https://i
- pst2027.org/\nDetails: https://langestefan.github.io/powersystem-deadlines
- /conference/ipst27
+ pst2027.org/\nDetails: https://powersystemdeadlines.org/conference/ipst27
 LOCATION:Bologna\, Italy
 URL;VALUE=URI:https://ipst2027.org/
 CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
@@ -424,8 +270,156 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dpsp-global26-abstract@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:dpsp-europe27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+TRANSP:TRANSPARENT
+SUMMARY:DPSP 2027: Full paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Developments in Power System Pr
+ otection (DPSP 2027)\n\nFull paper submission: 30 Oct 2026\, 23:59 UTC+12 
+ (assumed)\n\nConference: April 14-16\, 2027\nLocation: Munich\, Germany\nV
+ enue: Hilton Munich City\n\nAll dates:\n  Full paper submission: 30 Oct 20
+ 26\, 23:59 UTC+12 (assumed)\n  Author notification: 22 Jan 2027\, 23:59 UT
+ C+12 (assumed)\n  Author registration: 8 Feb 2027\, 23:59 UTC+12 (assumed)
+ \n  Presentation submission: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe c
+ all for papers states no timezone. This is counted as UTC+12\, the earlies
+ t it could plausibly mean\, so the countdown runs out before the real dead
+ line rather than after it.\n\nDPSP Europe 2027\, co-hosted with TU Munich.
+  Full papers only\, with no separate abstract stage\; papers are indexed i
+ n IET Inspec\, IEEE Xplore\, Ei Compendex and Scopus.\n\nCall for papers: 
+ https://dpsp.theiet.org/2027-europe\nDetails: https://powersystemdeadlines
+ .org/conference/dpsp-europe27
+LOCATION:Munich\, Germany
+URL;VALUE=URI:https://dpsp.theiet.org/2027-europe
+CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dpsp-europe27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+TRANSP:TRANSPARENT
+SUMMARY:DPSP 2027: Author notification (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Developments in Power System Pr
+ otection (DPSP 2027)\n\nAuthor notification: 22 Jan 2027\, 23:59 UTC+12 (a
+ ssumed)\n\nConference: April 14-16\, 2027\nLocation: Munich\, Germany\nVen
+ ue: Hilton Munich City\n\nAll dates:\n  Full paper submission: 30 Oct 2026
+ \, 23:59 UTC+12 (assumed)\n  Author notification: 22 Jan 2027\, 23:59 UTC+
+ 12 (assumed)\n  Author registration: 8 Feb 2027\, 23:59 UTC+12 (assumed)\n
+   Presentation submission: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe cal
+ l for papers states no timezone. This is counted as UTC+12\, the earliest 
+ it could plausibly mean\, so the countdown runs out before the real deadli
+ ne rather than after it.\n\nDPSP Europe 2027\, co-hosted with TU Munich. F
+ ull papers only\, with no separate abstract stage\; papers are indexed in 
+ IET Inspec\, IEEE Xplore\, Ei Compendex and Scopus.\n\nCall for papers: ht
+ tps://dpsp.theiet.org/2027-europe\nDetails: https://powersystemdeadlines.o
+ rg/conference/dpsp-europe27
+LOCATION:Munich\, Germany
+URL;VALUE=URI:https://dpsp.theiet.org/2027-europe
+CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dpsp-europe27-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+TRANSP:TRANSPARENT
+SUMMARY:DPSP 2027: Author registration (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Developments in Power System Pr
+ otection (DPSP 2027)\n\nAuthor registration: 8 Feb 2027\, 23:59 UTC+12 (as
+ sumed)\n\nConference: April 14-16\, 2027\nLocation: Munich\, Germany\nVenu
+ e: Hilton Munich City\n\nAll dates:\n  Full paper submission: 30 Oct 2026\
+ , 23:59 UTC+12 (assumed)\n  Author notification: 22 Jan 2027\, 23:59 UTC+1
+ 2 (assumed)\n  Author registration: 8 Feb 2027\, 23:59 UTC+12 (assumed)\n 
+  Presentation submission: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call
+  for papers states no timezone. This is counted as UTC+12\, the earliest i
+ t could plausibly mean\, so the countdown runs out before the real deadlin
+ e rather than after it.\n\nDPSP Europe 2027\, co-hosted with TU Munich. Fu
+ ll papers only\, with no separate abstract stage\; papers are indexed in I
+ ET Inspec\, IEEE Xplore\, Ei Compendex and Scopus.\n\nCall for papers: htt
+ ps://dpsp.theiet.org/2027-europe\nDetails: https://powersystemdeadlines.or
+ g/conference/dpsp-europe27
+LOCATION:Munich\, Germany
+URL;VALUE=URI:https://dpsp.theiet.org/2027-europe
+CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dpsp-europe27-presentation_upload@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+TRANSP:TRANSPARENT
+SUMMARY:DPSP 2027: Presentation submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Developments in Power System Pr
+ otection (DPSP 2027)\n\nPresentation submission: 15 Mar 2027\, 23:59 UTC+1
+ 2 (assumed)\n\nConference: April 14-16\, 2027\nLocation: Munich\, Germany\
+ nVenue: Hilton Munich City\n\nAll dates:\n  Full paper submission: 30 Oct 
+ 2026\, 23:59 UTC+12 (assumed)\n  Author notification: 22 Jan 2027\, 23:59 
+ UTC+12 (assumed)\n  Author registration: 8 Feb 2027\, 23:59 UTC+12 (assume
+ d)\n  Presentation submission: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe
+  call for papers states no timezone. This is counted as UTC+12\, the earli
+ est it could plausibly mean\, so the countdown runs out before the real de
+ adline rather than after it.\n\nDPSP Europe 2027\, co-hosted with TU Munic
+ h. Full papers only\, with no separate abstract stage\; papers are indexed
+  in IET Inspec\, IEEE Xplore\, Ei Compendex and Scopus.\n\nCall for papers
+ : https://dpsp.theiet.org/2027-europe\nDetails: https://powersystemdeadlin
+ es.org/conference/dpsp-europe27
+LOCATION:Munich\, Germany
+URL;VALUE=URI:https://dpsp.theiet.org/2027-europe
+CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dpsp-global26-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20250711
 DTEND;VALUE=DATE:20250712
 TRANSP:TRANSPARENT
@@ -442,7 +436,7 @@ DESCRIPTION:IET International Conference on Developments in Power System Pr
   as UTC+12\, the earliest it could plausibly mean\, so the countdown runs 
  out before the real deadline rather than after it.\n\n20th edition (DPSP G
  lobal 2026).\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https:
- //langestefan.github.io/powersystem-deadlines/conference/dpsp-global26
+ //powersystemdeadlines.org/conference/dpsp-global26
 LOCATION:London\, United Kingdom
 URL;VALUE=URI:https://dpsp.theiet.org/
 CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
@@ -460,8 +454,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dpsp-global26-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:dpsp-global26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20251031
 DTEND;VALUE=DATE:20251101
 TRANSP:TRANSPARENT
@@ -477,8 +471,8 @@ DESCRIPTION:IET International Conference on Developments in Power System Pr
  sumed)\n\nThe call for papers states no timezone. This is counted as UTC+1
  2\, the earliest it could plausibly mean\, so the countdown runs out befor
  e the real deadline rather than after it.\n\n20th edition (DPSP Global 202
- 6).\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https://langest
- efan.github.io/powersystem-deadlines/conference/dpsp-global26
+ 6).\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https://powersy
+ stemdeadlines.org/conference/dpsp-global26
 LOCATION:London\, United Kingdom
 URL;VALUE=URI:https://dpsp.theiet.org/
 CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
@@ -496,8 +490,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dpsp-global26-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:dpsp-global26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20251210
 DTEND;VALUE=DATE:20251211
 TRANSP:TRANSPARENT
@@ -513,8 +507,8 @@ DESCRIPTION:IET International Conference on Developments in Power System Pr
  med)\n\nThe call for papers states no timezone. This is counted as UTC+12\
  , the earliest it could plausibly mean\, so the countdown runs out before 
  the real deadline rather than after it.\n\n20th edition (DPSP Global 2026)
- .\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https://langestef
- an.github.io/powersystem-deadlines/conference/dpsp-global26
+ .\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https://powersyst
+ emdeadlines.org/conference/dpsp-global26
 LOCATION:London\, United Kingdom
 URL;VALUE=URI:https://dpsp.theiet.org/
 CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
@@ -532,8 +526,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dpsp-global26-author_registration@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:dpsp-global26-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20251222
 DTEND;VALUE=DATE:20251223
 TRANSP:TRANSPARENT
@@ -549,8 +543,8 @@ DESCRIPTION:IET International Conference on Developments in Power System Pr
  med)\n\nThe call for papers states no timezone. This is counted as UTC+12\
  , the earliest it could plausibly mean\, so the countdown runs out before 
  the real deadline rather than after it.\n\n20th edition (DPSP Global 2026)
- .\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https://langestef
- an.github.io/powersystem-deadlines/conference/dpsp-global26
+ .\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https://powersyst
+ emdeadlines.org/conference/dpsp-global26
 LOCATION:London\, United Kingdom
 URL;VALUE=URI:https://dpsp.theiet.org/
 CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
@@ -568,8 +562,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dpsp-global26-presentation_upload@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:dpsp-global26-presentation_upload@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260220
 DTEND;VALUE=DATE:20260221
 TRANSP:TRANSPARENT
@@ -586,7 +580,7 @@ DESCRIPTION:IET International Conference on Developments in Power System Pr
  as UTC+12\, the earliest it could plausibly mean\, so the countdown runs o
  ut before the real deadline rather than after it.\n\n20th edition (DPSP Gl
  obal 2026).\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https:/
- /langestefan.github.io/powersystem-deadlines/conference/dpsp-global26
+ /powersystemdeadlines.org/conference/dpsp-global26
 LOCATION:London\, United Kingdom
 URL;VALUE=URI:https://dpsp.theiet.org/
 CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
@@ -604,8 +598,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pes-td26-tutorial_proposal@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pes-td26-tutorial_proposal@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20250606
 DTEND;VALUE=DATE:20250607
 TRANSP:TRANSPARENT
@@ -623,8 +617,8 @@ DESCRIPTION:IEEE PES Transmission and Distribution Conference and Expositio
  Themed "Powering Reliability\, Engineering Resilience". The submission sit
  e opened on 10 July 2025. A separate call-for-papers page gave 28 August 2
  025 for papers\; the 14 August date from the call for participation is rec
- orded here.\n\nCall for papers: https://ieeet-d.org/\nDetails: https://lan
- gestefan.github.io/powersystem-deadlines/conference/pes-td26
+ orded here.\n\nCall for papers: https://ieeet-d.org/\nDetails: https://pow
+ ersystemdeadlines.org/conference/pes-td26
 LOCATION:Chicago\, USA
 URL;VALUE=URI:https://ieeet-d.org/
 CATEGORIES:Transmission,Distribution,Power Systems,Protection & Automation
@@ -642,8 +636,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pes-td26-panel_proposal@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pes-td26-panel_proposal@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20250801
 DTEND;VALUE=DATE:20250802
 TRANSP:TRANSPARENT
@@ -663,8 +657,7 @@ DESCRIPTION:IEEE PES Transmission and Distribution Conference and Expositio
  ilience". The submission site opened on 10 July 2025. A separate call-for-
  papers page gave 28 August 2025 for papers\; the 14 August date from the c
  all for participation is recorded here.\n\nCall for papers: https://ieeet-
- d.org/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
- rence/pes-td26
+ d.org/\nDetails: https://powersystemdeadlines.org/conference/pes-td26
 LOCATION:Chicago\, USA
 URL;VALUE=URI:https://ieeet-d.org/
 CATEGORIES:Transmission,Distribution,Power Systems,Protection & Automation
@@ -682,8 +675,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pes-td26-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pes-td26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20250814
 DTEND;VALUE=DATE:20250815
 TRANSP:TRANSPARENT
@@ -703,8 +696,8 @@ DESCRIPTION:IEEE PES Transmission and Distribution Conference and Expositio
  gineering Resilience". The submission site opened on 10 July 2025. A separ
  ate call-for-papers page gave 28 August 2025 for papers\; the 14 August da
  te from the call for participation is recorded here.\n\nCall for papers: h
- ttps://ieeet-d.org/\nDetails: https://langestefan.github.io/powersystem-de
- adlines/conference/pes-td26
+ ttps://ieeet-d.org/\nDetails: https://powersystemdeadlines.org/conference/
+ pes-td26
 LOCATION:Chicago\, USA
 URL;VALUE=URI:https://ieeet-d.org/
 CATEGORIES:Transmission,Distribution,Power Systems,Protection & Automation
@@ -722,8 +715,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pes-td26-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pes-td26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20251104
 DTEND;VALUE=DATE:20251105
 TRANSP:TRANSPARENT
@@ -742,7 +735,7 @@ DESCRIPTION:IEEE PES Transmission and Distribution Conference and Expositio
  on site opened on 10 July 2025. A separate call-for-papers page gave 28 Au
  gust 2025 for papers\; the 14 August date from the call for participation 
  is recorded here.\n\nCall for papers: https://ieeet-d.org/\nDetails: https
- ://langestefan.github.io/powersystem-deadlines/conference/pes-td26
+ ://powersystemdeadlines.org/conference/pes-td26
 LOCATION:Chicago\, USA
 URL;VALUE=URI:https://ieeet-d.org/
 CATEGORIES:Transmission,Distribution,Power Systems,Protection & Automation
@@ -760,8 +753,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-session26-abstract@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-session26-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20250707
 DTEND;VALUE=DATE:20250708
 TRANSP:TRANSPARENT
@@ -782,8 +775,7 @@ DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nSynopsis to the Nat
   after it.\n\nDeadlines are those for authors submitting through a Nationa
  l Committee\; authors from countries without one had later deadlines with 
  the Central Office.\n\nCall for papers: https://session.cigre.org/\nDetail
- s: https://langestefan.github.io/powersystem-deadlines/conference/cigre-se
- ssion26
+ s: https://powersystemdeadlines.org/conference/cigre-session26
 LOCATION:Paris\, France
 URL;VALUE=URI:https://session.cigre.org/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
@@ -802,8 +794,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-session26-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-session26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20251020
 DTEND;VALUE=DATE:20251021
 TRANSP:TRANSPARENT
@@ -824,8 +816,7 @@ DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nSynopsis acceptance
  after it.\n\nDeadlines are those for authors submitting through a National
   Committee\; authors from countries without one had later deadlines with t
  he Central Office.\n\nCall for papers: https://session.cigre.org/\nDetails
- : https://langestefan.github.io/powersystem-deadlines/conference/cigre-ses
- sion26
+ : https://powersystemdeadlines.org/conference/cigre-session26
 LOCATION:Paris\, France
 URL;VALUE=URI:https://session.cigre.org/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
@@ -844,8 +835,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-session26-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-session26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260112
 DTEND;VALUE=DATE:20260113
 TRANSP:TRANSPARENT
@@ -866,8 +857,7 @@ DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nFull paper to the N
  han after it.\n\nDeadlines are those for authors submitting through a Nati
  onal Committee\; authors from countries without one had later deadlines wi
  th the Central Office.\n\nCall for papers: https://session.cigre.org/\nDet
- ails: https://langestefan.github.io/powersystem-deadlines/conference/cigre
- -session26
+ ails: https://powersystemdeadlines.org/conference/cigre-session26
 LOCATION:Paris\, France
 URL;VALUE=URI:https://session.cigre.org/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
@@ -886,8 +876,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-session26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-session26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260410
 DTEND;VALUE=DATE:20260411
 TRANSP:TRANSPARENT
@@ -906,8 +896,8 @@ DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nRevised version: 10
   countdown runs out before the real deadline rather than after it.\n\nDead
  lines are those for authors submitting through a National Committee\; auth
  ors from countries without one had later deadlines with the Central Office
- .\n\nCall for papers: https://session.cigre.org/\nDetails: https://langest
- efan.github.io/powersystem-deadlines/conference/cigre-session26
+ .\n\nCall for papers: https://session.cigre.org/\nDetails: https://powersy
+ stemdeadlines.org/conference/cigre-session26
 LOCATION:Paris\, France
 URL;VALUE=URI:https://session.cigre.org/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
@@ -926,8 +916,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-session26-notification-2@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-session26-notification-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260511
 DTEND;VALUE=DATE:20260512
 TRANSP:TRANSPARENT
@@ -948,8 +938,7 @@ DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nFull paper acceptan
  n after it.\n\nDeadlines are those for authors submitting through a Nation
  al Committee\; authors from countries without one had later deadlines with
   the Central Office.\n\nCall for papers: https://session.cigre.org/\nDetai
- ls: https://langestefan.github.io/powersystem-deadlines/conference/cigre-s
- ession26
+ ls: https://powersystemdeadlines.org/conference/cigre-session26
 LOCATION:Paris\, France
 URL;VALUE=URI:https://session.cigre.org/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
@@ -968,8 +957,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-session26-poster@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-session26-poster@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20260630
 TRANSP:TRANSPARENT
@@ -988,8 +977,8 @@ DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nPoster: 29 Jun 2026
  n runs out before the real deadline rather than after it.\n\nDeadlines are
   those for authors submitting through a National Committee\; authors from 
  countries without one had later deadlines with the Central Office.\n\nCall
-  for papers: https://session.cigre.org/\nDetails: https://langestefan.gith
- ub.io/powersystem-deadlines/conference/cigre-session26
+  for papers: https://session.cigre.org/\nDetails: https://powersystemdeadl
+ ines.org/conference/cigre-session26
 LOCATION:Paris\, France
 URL;VALUE=URI:https://session.cigre.org/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
@@ -1008,8 +997,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-session26-presentation_upload@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-session26-presentation_upload@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 TRANSP:TRANSPARENT
@@ -1030,8 +1019,7 @@ DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nContributions at th
   it.\n\nDeadlines are those for authors submitting through a National Comm
  ittee\; authors from countries without one had later deadlines with the Ce
  ntral Office.\n\nCall for papers: https://session.cigre.org/\nDetails: htt
- ps://langestefan.github.io/powersystem-deadlines/conference/cigre-session2
- 6
+ ps://powersystemdeadlines.org/conference/cigre-session26
 LOCATION:Paris\, France
 URL;VALUE=URI:https://session.cigre.org/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 

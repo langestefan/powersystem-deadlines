@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:CIGRE Symposium 2027 deadlines
@@ -8,11 +8,11 @@ X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for CIGRE International Symposium 2027.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/cigre-bangkok27.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/cigre-bangkok2
+ 7.ics
 BEGIN:VEVENT
-UID:cigre-bangkok27-abstract@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-bangkok27-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270111
 DTEND;VALUE=DATE:20270112
 TRANSP:TRANSPARENT
@@ -33,8 +33,7 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nSynopsi
  d Innovation for the Energy Transition"\, hosted by CIGRE Thailand. The sy
  nopsis portal opened on 7 September 2026.\n\nCall for papers: https://www.
  cigre.org/event/symposium/2027/TH/bangkok/call-for-papers-cigre-symposium-
- 2027\nDetails: https://langestefan.github.io/powersystem-deadlines/confere
- nce/cigre-bangkok27
+ 2027\nDetails: https://powersystemdeadlines.org/conference/cigre-bangkok27
 LOCATION:Bangkok\, Thailand
 URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
  r-papers-cigre-symposium-2027
@@ -54,8 +53,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-bangkok27-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-bangkok27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 TRANSP:TRANSPARENT
@@ -77,8 +76,8 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nSelecti
  lligence\, and Innovation for the Energy Transition"\, hosted by CIGRE Tha
  iland. The synopsis portal opened on 7 September 2026.\n\nCall for papers:
   https://www.cigre.org/event/symposium/2027/TH/bangkok/call-for-papers-cig
- re-symposium-2027\nDetails: https://langestefan.github.io/powersystem-dead
- lines/conference/cigre-bangkok27
+ re-symposium-2027\nDetails: https://powersystemdeadlines.org/conference/ci
+ gre-bangkok27
 LOCATION:Bangkok\, Thailand
 URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
  r-papers-cigre-symposium-2027
@@ -98,8 +97,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-bangkok27-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-bangkok27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270725
 DTEND;VALUE=DATE:20270726
 TRANSP:TRANSPARENT
@@ -120,8 +119,8 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFull pa
  and Innovation for the Energy Transition"\, hosted by CIGRE Thailand. The 
  synopsis portal opened on 7 September 2026.\n\nCall for papers: https://ww
  w.cigre.org/event/symposium/2027/TH/bangkok/call-for-papers-cigre-symposiu
- m-2027\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
- rence/cigre-bangkok27
+ m-2027\nDetails: https://powersystemdeadlines.org/conference/cigre-bangkok
+ 27
 LOCATION:Bangkok\, Thailand
 URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
  r-papers-cigre-symposium-2027
@@ -141,8 +140,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-bangkok27-notification-2@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-bangkok27-notification-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270912
 DTEND;VALUE=DATE:20270913
 TRANSP:TRANSPARENT
@@ -164,8 +163,8 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFeedbac
  \, Intelligence\, and Innovation for the Energy Transition"\, hosted by CI
  GRE Thailand. The synopsis portal opened on 7 September 2026.\n\nCall for 
  papers: https://www.cigre.org/event/symposium/2027/TH/bangkok/call-for-pap
- ers-cigre-symposium-2027\nDetails: https://langestefan.github.io/powersyst
- em-deadlines/conference/cigre-bangkok27
+ ers-cigre-symposium-2027\nDetails: https://powersystemdeadlines.org/confer
+ ence/cigre-bangkok27
 LOCATION:Bangkok\, Thailand
 URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
  r-papers-cigre-symposium-2027
@@ -185,8 +184,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-bangkok27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-bangkok27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270926
 DTEND;VALUE=DATE:20270927
 TRANSP:TRANSPARENT
@@ -207,8 +206,7 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFinal p
  Innovation for the Energy Transition"\, hosted by CIGRE Thailand. The syno
  psis portal opened on 7 September 2026.\n\nCall for papers: https://www.ci
  gre.org/event/symposium/2027/TH/bangkok/call-for-papers-cigre-symposium-20
- 27\nDetails: https://langestefan.github.io/powersystem-deadlines/conferenc
- e/cigre-bangkok27
+ 27\nDetails: https://powersystemdeadlines.org/conference/cigre-bangkok27
 LOCATION:Bangkok\, Thailand
 URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
  r-papers-cigre-symposium-2027
@@ -228,8 +226,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-bangkok27-camera_ready-2@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-bangkok27-camera_ready-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20271010
 DTEND;VALUE=DATE:20271011
 TRANSP:TRANSPARENT
@@ -251,8 +249,8 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFinal p
  ence\, and Innovation for the Energy Transition"\, hosted by CIGRE Thailan
  d. The synopsis portal opened on 7 September 2026.\n\nCall for papers: htt
  ps://www.cigre.org/event/symposium/2027/TH/bangkok/call-for-papers-cigre-s
- ymposium-2027\nDetails: https://langestefan.github.io/powersystem-deadline
- s/conference/cigre-bangkok27
+ ymposium-2027\nDetails: https://powersystemdeadlines.org/conference/cigre-
+ bangkok27
 LOCATION:Bangkok\, Thailand
 URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
  r-papers-cigre-symposium-2027
@@ -272,8 +270,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-bangkok27-presentation_upload@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-bangkok27-presentation_upload@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20271024
 DTEND;VALUE=DATE:20271025
 TRANSP:TRANSPARENT
@@ -295,8 +293,8 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nPowerPo
  nce\, and Innovation for the Energy Transition"\, hosted by CIGRE Thailand
  . The synopsis portal opened on 7 September 2026.\n\nCall for papers: http
  s://www.cigre.org/event/symposium/2027/TH/bangkok/call-for-papers-cigre-sy
- mposium-2027\nDetails: https://langestefan.github.io/powersystem-deadlines
- /conference/cigre-bangkok27
+ mposium-2027\nDetails: https://powersystemdeadlines.org/conference/cigre-b
+ angkok27
 LOCATION:Bangkok\, Thailand
 URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
  r-papers-cigre-symposium-2027
@@ -316,8 +314,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-bangkok27-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-bangkok27-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20271108
 DTEND;VALUE=DATE:20271113
 TRANSP:TRANSPARENT
@@ -337,8 +335,8 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nConfere
  Intelligence\, and Innovation for the Energy Transition"\, hosted by CIGRE
   Thailand. The synopsis portal opened on 7 September 2026.\n\nCall for pap
  ers: https://www.cigre.org/event/symposium/2027/TH/bangkok/call-for-papers
- -cigre-symposium-2027\nDetails: https://langestefan.github.io/powersystem-
- deadlines/conference/cigre-bangkok27
+ -cigre-symposium-2027\nDetails: https://powersystemdeadlines.org/conferenc
+ e/cigre-bangkok27
 LOCATION:Queen Sirikit National Convention Center (QSNCC)\, Bangkok\, Thail
  and
 URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo

@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:GT&D Latin America 2027 deadlines
@@ -9,11 +9,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for IEEE PES Generation\, Transmission and
   Distribution Conference and Exposition Latin America 2027.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/gtd-latam27.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/gtd-latam27.ic
+ s
 BEGIN:VEVENT
-UID:gtd-latam27-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:gtd-latam27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -25,8 +25,8 @@ DESCRIPTION:IEEE PES Generation\, Transmission and Distribution Conference
  is is counted as UTC+12\, the earliest it could plausibly mean\, so the co
  untdown runs out before the real deadline rather than after it.\n\nSubmiss
  ions go through EasyChair. The conference website is in Spanish.\n\nCall f
- or papers: https://gtdla27.ieee.org.co/\nDetails: https://langestefan.gith
- ub.io/powersystem-deadlines/conference/gtd-latam27
+ or papers: https://gtdla27.ieee.org.co/\nDetails: https://powersystemdeadl
+ ines.org/conference/gtd-latam27
 LOCATION:Medellín\, Colombia
 URL;VALUE=URI:https://easychair.org/conferences/?conf=ieeepesgtdlatinameri0
 CATEGORIES:Power Systems,Transmission,Distribution,Renewables
@@ -44,8 +44,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:gtd-latam27-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:gtd-latam27-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270308
 DTEND;VALUE=DATE:20270311
 TRANSP:TRANSPARENT
@@ -57,7 +57,7 @@ DESCRIPTION:IEEE PES Generation\, Transmission and Distribution Conference
   mean\, so the countdown runs out before the real deadline rather than aft
  er it.\n\nSubmissions go through EasyChair. The conference website is in S
  panish.\n\nCall for papers: https://gtdla27.ieee.org.co/\nDetails: https:/
- /langestefan.github.io/powersystem-deadlines/conference/gtd-latam27
+ /powersystemdeadlines.org/conference/gtd-latam27
 LOCATION:Medellín\, Colombia
 URL;VALUE=URI:https://gtdla27.ieee.org.co/
 CATEGORIES:Power Systems,Transmission,Distribution,Renewables

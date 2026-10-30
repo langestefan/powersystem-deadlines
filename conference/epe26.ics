@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:EPE ECCE Europe 2026 deadlines
@@ -9,11 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for European Conference on Power Electroni
  cs and Applications 2026.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/epe26.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/epe26.ics
 BEGIN:VEVENT
-UID:epe26-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:epe26-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260919
 TRANSP:TRANSPARENT
@@ -23,7 +22,7 @@ DESCRIPTION:European Conference on Power Electronics and Applications (EPE
  a\, Spain\nVenue: Valencia Conference Center\n\nSubmission had already clo
  sed when this entry was added\, so no deadlines are recorded for this edit
  ion.\n\nCall for papers: https://www.ecce-europe.org/2026/\nDetails: https
- ://langestefan.github.io/powersystem-deadlines/conference/epe26
+ ://powersystemdeadlines.org/conference/epe26
 LOCATION:Valencia Conference Center\, Valencia\, Spain
 URL;VALUE=URI:https://www.ecce-europe.org/2026/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage

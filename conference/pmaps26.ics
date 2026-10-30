@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:PMAPS 2026 deadlines
@@ -9,11 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for International Conference on Probabilis
  tic Methods Applied to Power Systems 2026.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/pmaps26.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/pmaps26.ics
 BEGIN:VEVENT
-UID:pmaps26-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pmaps26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260315
 DTEND;VALUE=DATE:20260316
 TRANSP:TRANSPARENT
@@ -30,8 +29,7 @@ DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
   co-organised by the University of Utah and WECC\, themed "Towards Reliabl
  e Power Grids in the Age of AI and Large Loads". The paper deadline was ex
  tended twice\, from 15 February 2026.\n\nCall for papers: https://pmaps202
- 6.utah.edu/\nDetails: https://langestefan.github.io/powersystem-deadlines/
- conference/pmaps26
+ 6.utah.edu/\nDetails: https://powersystemdeadlines.org/conference/pmaps26
 LOCATION:Salt Lake City\, USA
 URL;VALUE=URI:https://pmaps2026.utah.edu/
 CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,
@@ -50,8 +48,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pmaps26-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pmaps26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260530
 DTEND;VALUE=DATE:20260531
 TRANSP:TRANSPARENT
@@ -68,8 +66,7 @@ DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
  y the University of Utah and WECC\, themed "Towards Reliable Power Grids i
  n the Age of AI and Large Loads". The paper deadline was extended twice\, 
  from 15 February 2026.\n\nCall for papers: https://pmaps2026.utah.edu/\nDe
- tails: https://langestefan.github.io/powersystem-deadlines/conference/pmap
- s26
+ tails: https://powersystemdeadlines.org/conference/pmaps26
 LOCATION:Salt Lake City\, USA
 URL;VALUE=URI:https://pmaps2026.utah.edu/
 CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,
@@ -88,8 +85,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pmaps26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pmaps26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 TRANSP:TRANSPARENT
@@ -106,8 +103,7 @@ DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
  rganised by the University of Utah and WECC\, themed "Towards Reliable Pow
  er Grids in the Age of AI and Large Loads". The paper deadline was extende
  d twice\, from 15 February 2026.\n\nCall for papers: https://pmaps2026.uta
- h.edu/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
- rence/pmaps26
+ h.edu/\nDetails: https://powersystemdeadlines.org/conference/pmaps26
 LOCATION:Salt Lake City\, USA
 URL;VALUE=URI:https://pmaps2026.utah.edu/
 CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,
@@ -126,8 +122,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pmaps26-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pmaps26-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260925
 TRANSP:TRANSPARENT
@@ -143,8 +139,8 @@ DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
  ion\, co-organised by the University of Utah and WECC\, themed "Towards Re
  liable Power Grids in the Age of AI and Large Loads". The paper deadline w
  as extended twice\, from 15 February 2026.\n\nCall for papers: https://pma
- ps2026.utah.edu/\nDetails: https://langestefan.github.io/powersystem-deadl
- ines/conference/pmaps26
+ ps2026.utah.edu/\nDetails: https://powersystemdeadlines.org/conference/pma
+ ps26
 LOCATION:University of Utah\, Salt Lake City\, USA
 URL;VALUE=URI:https://pmaps2026.utah.edu/
 CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,

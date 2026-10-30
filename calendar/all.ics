@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Power System Deadlines: all deadlines
@@ -8,159 +8,10 @@ X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Every submission deadline tracked here.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
- ar/all.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/calendar/all.ics
 BEGIN:VEVENT
-UID:dpsp-europe27-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-TRANSP:TRANSPARENT
-SUMMARY:DPSP 2027: Full paper submission (23:59 UTC+12 (assumed))
-DESCRIPTION:IET International Conference on Developments in Power System Pr
- otection (DPSP 2027)\n\nFull paper submission: 30 Oct 2026\, 23:59 UTC+12 
- (assumed)\n\nConference: April 14-16\, 2027\nLocation: Munich\, Germany\nV
- enue: Hilton Munich City\n\nAll dates:\n  Full paper submission: 30 Oct 20
- 26\, 23:59 UTC+12 (assumed)\n  Author notification: 22 Jan 2027\, 23:59 UT
- C+12 (assumed)\n  Author registration: 8 Feb 2027\, 23:59 UTC+12 (assumed)
- \n  Presentation submission: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe c
- all for papers states no timezone. This is counted as UTC+12\, the earlies
- t it could plausibly mean\, so the countdown runs out before the real dead
- line rather than after it.\n\nDPSP Europe 2027\, co-hosted with TU Munich.
-  Full papers only\, with no separate abstract stage\; papers are indexed i
- n IET Inspec\, IEEE Xplore\, Ei Compendex and Scopus.\n\nCall for papers: 
- https://dpsp.theiet.org/2027-europe\nDetails: https://langestefan.github.i
- o/powersystem-deadlines/conference/dpsp-europe27
-LOCATION:Munich\, Germany
-URL;VALUE=URI:https://dpsp.theiet.org/2027-europe
-CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:dpsp-europe27-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
-DTSTART;VALUE=DATE:20270122
-DTEND;VALUE=DATE:20270123
-TRANSP:TRANSPARENT
-SUMMARY:DPSP 2027: Author notification (23:59 UTC+12 (assumed))
-DESCRIPTION:IET International Conference on Developments in Power System Pr
- otection (DPSP 2027)\n\nAuthor notification: 22 Jan 2027\, 23:59 UTC+12 (a
- ssumed)\n\nConference: April 14-16\, 2027\nLocation: Munich\, Germany\nVen
- ue: Hilton Munich City\n\nAll dates:\n  Full paper submission: 30 Oct 2026
- \, 23:59 UTC+12 (assumed)\n  Author notification: 22 Jan 2027\, 23:59 UTC+
- 12 (assumed)\n  Author registration: 8 Feb 2027\, 23:59 UTC+12 (assumed)\n
-   Presentation submission: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe cal
- l for papers states no timezone. This is counted as UTC+12\, the earliest 
- it could plausibly mean\, so the countdown runs out before the real deadli
- ne rather than after it.\n\nDPSP Europe 2027\, co-hosted with TU Munich. F
- ull papers only\, with no separate abstract stage\; papers are indexed in 
- IET Inspec\, IEEE Xplore\, Ei Compendex and Scopus.\n\nCall for papers: ht
- tps://dpsp.theiet.org/2027-europe\nDetails: https://langestefan.github.io/
- powersystem-deadlines/conference/dpsp-europe27
-LOCATION:Munich\, Germany
-URL;VALUE=URI:https://dpsp.theiet.org/2027-europe
-CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:dpsp-europe27-author_registration@langestefan.github.io
-DTSTAMP:20261030T042630Z
-DTSTART;VALUE=DATE:20270208
-DTEND;VALUE=DATE:20270209
-TRANSP:TRANSPARENT
-SUMMARY:DPSP 2027: Author registration (23:59 UTC+12 (assumed))
-DESCRIPTION:IET International Conference on Developments in Power System Pr
- otection (DPSP 2027)\n\nAuthor registration: 8 Feb 2027\, 23:59 UTC+12 (as
- sumed)\n\nConference: April 14-16\, 2027\nLocation: Munich\, Germany\nVenu
- e: Hilton Munich City\n\nAll dates:\n  Full paper submission: 30 Oct 2026\
- , 23:59 UTC+12 (assumed)\n  Author notification: 22 Jan 2027\, 23:59 UTC+1
- 2 (assumed)\n  Author registration: 8 Feb 2027\, 23:59 UTC+12 (assumed)\n 
-  Presentation submission: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call
-  for papers states no timezone. This is counted as UTC+12\, the earliest i
- t could plausibly mean\, so the countdown runs out before the real deadlin
- e rather than after it.\n\nDPSP Europe 2027\, co-hosted with TU Munich. Fu
- ll papers only\, with no separate abstract stage\; papers are indexed in I
- ET Inspec\, IEEE Xplore\, Ei Compendex and Scopus.\n\nCall for papers: htt
- ps://dpsp.theiet.org/2027-europe\nDetails: https://langestefan.github.io/p
- owersystem-deadlines/conference/dpsp-europe27
-LOCATION:Munich\, Germany
-URL;VALUE=URI:https://dpsp.theiet.org/2027-europe
-CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:dpsp-europe27-presentation_upload@langestefan.github.io
-DTSTAMP:20261030T042630Z
-DTSTART;VALUE=DATE:20270315
-DTEND;VALUE=DATE:20270316
-TRANSP:TRANSPARENT
-SUMMARY:DPSP 2027: Presentation submission (23:59 UTC+12 (assumed))
-DESCRIPTION:IET International Conference on Developments in Power System Pr
- otection (DPSP 2027)\n\nPresentation submission: 15 Mar 2027\, 23:59 UTC+1
- 2 (assumed)\n\nConference: April 14-16\, 2027\nLocation: Munich\, Germany\
- nVenue: Hilton Munich City\n\nAll dates:\n  Full paper submission: 30 Oct 
- 2026\, 23:59 UTC+12 (assumed)\n  Author notification: 22 Jan 2027\, 23:59 
- UTC+12 (assumed)\n  Author registration: 8 Feb 2027\, 23:59 UTC+12 (assume
- d)\n  Presentation submission: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe
-  call for papers states no timezone. This is counted as UTC+12\, the earli
- est it could plausibly mean\, so the countdown runs out before the real de
- adline rather than after it.\n\nDPSP Europe 2027\, co-hosted with TU Munic
- h. Full papers only\, with no separate abstract stage\; papers are indexed
-  in IET Inspec\, IEEE Xplore\, Ei Compendex and Scopus.\n\nCall for papers
- : https://dpsp.theiet.org/2027-europe\nDetails: https://langestefan.github
- .io/powersystem-deadlines/conference/dpsp-europe27
-LOCATION:Munich\, Germany
-URL;VALUE=URI:https://dpsp.theiet.org/2027-europe
-CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:gtd-latam27-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:gtd-latam27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -172,8 +23,8 @@ DESCRIPTION:IEEE PES Generation\, Transmission and Distribution Conference
  is is counted as UTC+12\, the earliest it could plausibly mean\, so the co
  untdown runs out before the real deadline rather than after it.\n\nSubmiss
  ions go through EasyChair. The conference website is in Spanish.\n\nCall f
- or papers: https://gtdla27.ieee.org.co/\nDetails: https://langestefan.gith
- ub.io/powersystem-deadlines/conference/gtd-latam27
+ or papers: https://gtdla27.ieee.org.co/\nDetails: https://powersystemdeadl
+ ines.org/conference/gtd-latam27
 LOCATION:Medellín\, Colombia
 URL;VALUE=URI:https://easychair.org/conferences/?conf=ieeepesgtdlatinameri0
 CATEGORIES:Power Systems,Transmission,Distribution,Renewables
@@ -191,8 +42,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:iemdc27-abstract@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:iemdc27-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -208,8 +59,8 @@ DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
  zone. This is counted as UTC+12\, the earliest it could plausibly mean\, s
  o the countdown runs out before the real deadline rather than after it.\n\
  n16th edition\, marking the conference's 30th anniversary and returning to
-  Milwaukee.\n\nCall for papers: https://www.iemdc.org/\nDetails: https://l
- angestefan.github.io/powersystem-deadlines/conference/iemdc27
+  Milwaukee.\n\nCall for papers: https://www.iemdc.org/\nDetails: https://p
+ owersystemdeadlines.org/conference/iemdc27
 LOCATION:Milwaukee\, USA
 URL;VALUE=URI:https://www.iemdc.org/
 CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
@@ -227,8 +78,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:iemdc27-workshop_proposal@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:iemdc27-workshop_proposal@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -245,7 +96,7 @@ DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
  ean\, so the countdown runs out before the real deadline rather than after
   it.\n\n16th edition\, marking the conference's 30th anniversary and retur
  ning to Milwaukee.\n\nCall for papers: https://www.iemdc.org/\nDetails: ht
- tps://langestefan.github.io/powersystem-deadlines/conference/iemdc27
+ tps://powersystemdeadlines.org/conference/iemdc27
 LOCATION:Milwaukee\, USA
 URL;VALUE=URI:https://www.iemdc.org/
 CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
@@ -263,8 +114,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:iemdc27-tutorial_proposal@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:iemdc27-tutorial_proposal@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 TRANSP:TRANSPARENT
@@ -281,7 +132,7 @@ DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
  so the countdown runs out before the real deadline rather than after it.\n
  \n16th edition\, marking the conference's 30th anniversary and returning t
  o Milwaukee.\n\nCall for papers: https://www.iemdc.org/\nDetails: https://
- langestefan.github.io/powersystem-deadlines/conference/iemdc27
+ powersystemdeadlines.org/conference/iemdc27
 LOCATION:Milwaukee\, USA
 URL;VALUE=URI:https://www.iemdc.org/
 CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
@@ -299,8 +150,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:iemdc27-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:iemdc27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 TRANSP:TRANSPARENT
@@ -317,8 +168,7 @@ DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
  sibly mean\, so the countdown runs out before the real deadline rather tha
  n after it.\n\n16th edition\, marking the conference's 30th anniversary an
  d returning to Milwaukee.\n\nCall for papers: https://www.iemdc.org/\nDeta
- ils: https://langestefan.github.io/powersystem-deadlines/conference/iemdc2
- 7
+ ils: https://powersystemdeadlines.org/conference/iemdc27
 LOCATION:Milwaukee\, USA
 URL;VALUE=URI:https://www.iemdc.org/
 CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
@@ -336,8 +186,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:iemdc27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:iemdc27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
@@ -355,8 +205,7 @@ DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
  t it could plausibly mean\, so the countdown runs out before the real dead
  line rather than after it.\n\n16th edition\, marking the conference's 30th
   anniversary and returning to Milwaukee.\n\nCall for papers: https://www.i
- emdc.org/\nDetails: https://langestefan.github.io/powersystem-deadlines/co
- nference/iemdc27
+ emdc.org/\nDetails: https://powersystemdeadlines.org/conference/iemdc27
 LOCATION:Milwaukee\, USA
 URL;VALUE=URI:https://www.iemdc.org/
 CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
@@ -374,8 +223,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie27-workshop_proposal@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:isie27-workshop_proposal@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -398,8 +247,7 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
  down runs out before the real deadline rather than after it.\n\n36th editi
  on\, themed on industrial electronics for the energy transition and the di
  gital transformation of industry.\n\nCall for papers: https://isie2027.iee
- e-ies.org/\nDetails: https://langestefan.github.io/powersystem-deadlines/c
- onference/isie27
+ e-ies.org/\nDetails: https://powersystemdeadlines.org/conference/isie27
 LOCATION:Paris\, France
 URL;VALUE=URI:https://isie2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -417,8 +265,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie27-tutorial_proposal@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:isie27-tutorial_proposal@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -441,8 +289,7 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
  tdown runs out before the real deadline rather than after it.\n\n36th edit
  ion\, themed on industrial electronics for the energy transition and the d
  igital transformation of industry.\n\nCall for papers: https://isie2027.ie
- ee-ies.org/\nDetails: https://langestefan.github.io/powersystem-deadlines/
- conference/isie27
+ ee-ies.org/\nDetails: https://powersystemdeadlines.org/conference/isie27
 LOCATION:Paris\, France
 URL;VALUE=URI:https://isie2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -460,8 +307,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie27-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:isie27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 TRANSP:TRANSPARENT
@@ -484,8 +331,7 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
  tdown runs out before the real deadline rather than after it.\n\n36th edit
  ion\, themed on industrial electronics for the energy transition and the d
  igital transformation of industry.\n\nCall for papers: https://isie2027.ie
- ee-ies.org/\nDetails: https://langestefan.github.io/powersystem-deadlines/
- conference/isie27
+ ee-ies.org/\nDetails: https://powersystemdeadlines.org/conference/isie27
 LOCATION:Paris\, France
 URL;VALUE=URI:https://isie2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -503,8 +349,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie27-panel_proposal@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:isie27-panel_proposal@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 TRANSP:TRANSPARENT
@@ -527,8 +373,7 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
  wn runs out before the real deadline rather than after it.\n\n36th edition
  \, themed on industrial electronics for the energy transition and the digi
  tal transformation of industry.\n\nCall for papers: https://isie2027.ieee-
- ies.org/\nDetails: https://langestefan.github.io/powersystem-deadlines/con
- ference/isie27
+ ies.org/\nDetails: https://powersystemdeadlines.org/conference/isie27
 LOCATION:Paris\, France
 URL;VALUE=URI:https://isie2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -546,8 +391,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie27-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:isie27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 TRANSP:TRANSPARENT
@@ -571,8 +416,8 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
  ould plausibly mean\, so the countdown runs out before the real deadline r
  ather than after it.\n\n36th edition\, themed on industrial electronics fo
  r the energy transition and the digital transformation of industry.\n\nCal
- l for papers: https://isie2027.ieee-ies.org/\nDetails: https://langestefan
- .github.io/powersystem-deadlines/conference/isie27
+ l for papers: https://isie2027.ieee-ies.org/\nDetails: https://powersystem
+ deadlines.org/conference/isie27
 LOCATION:Paris\, France
 URL;VALUE=URI:https://isie2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -590,8 +435,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie27-notification-2@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:isie27-notification-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
@@ -615,8 +460,8 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
  , so the countdown runs out before the real deadline rather than after it.
  \n\n36th edition\, themed on industrial electronics for the energy transit
  ion and the digital transformation of industry.\n\nCall for papers: https:
- //isie2027.ieee-ies.org/\nDetails: https://langestefan.github.io/powersyst
- em-deadlines/conference/isie27
+ //isie2027.ieee-ies.org/\nDetails: https://powersystemdeadlines.org/confer
+ ence/isie27
 LOCATION:Paris\, France
 URL;VALUE=URI:https://isie2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -634,8 +479,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie27-paper-2@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:isie27-paper-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 TRANSP:TRANSPARENT
@@ -659,8 +504,8 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
  the countdown runs out before the real deadline rather than after it.\n\n3
  6th edition\, themed on industrial electronics for the energy transition a
  nd the digital transformation of industry.\n\nCall for papers: https://isi
- e2027.ieee-ies.org/\nDetails: https://langestefan.github.io/powersystem-de
- adlines/conference/isie27
+ e2027.ieee-ies.org/\nDetails: https://powersystemdeadlines.org/conference/
+ isie27
 LOCATION:Paris\, France
 URL;VALUE=URI:https://isie2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -678,8 +523,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:isie27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
@@ -702,8 +547,8 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
  ountdown runs out before the real deadline rather than after it.\n\n36th e
  dition\, themed on industrial electronics for the energy transition and th
  e digital transformation of industry.\n\nCall for papers: https://isie2027
- .ieee-ies.org/\nDetails: https://langestefan.github.io/powersystem-deadlin
- es/conference/isie27
+ .ieee-ies.org/\nDetails: https://powersystemdeadlines.org/conference/isie2
+ 7
 LOCATION:Paris\, France
 URL;VALUE=URI:https://isie2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -721,8 +566,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie27-author_registration@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:isie27-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
@@ -745,8 +590,7 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
   runs out before the real deadline rather than after it.\n\n36th edition\,
   themed on industrial electronics for the energy transition and the digita
  l transformation of industry.\n\nCall for papers: https://isie2027.ieee-ie
- s.org/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
- rence/isie27
+ s.org/\nDetails: https://powersystemdeadlines.org/conference/isie27
 LOCATION:Paris\, France
 URL;VALUE=URI:https://isie2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -764,8 +608,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie27-notification-3@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:isie27-notification-3@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 TRANSP:TRANSPARENT
@@ -789,8 +633,8 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
  ly mean\, so the countdown runs out before the real deadline rather than a
  fter it.\n\n36th edition\, themed on industrial electronics for the energy
   transition and the digital transformation of industry.\n\nCall for papers
- : https://isie2027.ieee-ies.org/\nDetails: https://langestefan.github.io/p
- owersystem-deadlines/conference/isie27
+ : https://isie2027.ieee-ies.org/\nDetails: https://powersystemdeadlines.or
+ g/conference/isie27
 LOCATION:Paris\, France
 URL;VALUE=URI:https://isie2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -808,8 +652,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-heidelberg27-abstract@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cigre-heidelberg27-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 TRANSP:TRANSPARENT
@@ -829,8 +673,7 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nSynopsi
  gside the VDE ETG Kongress (26-27 April) at the same venue. Synopses are s
  ubmitted through ConfTool\; all synopses\, papers and presentations must b
  e in English.\n\nCall for papers: https://www.cigresymposium2027.de/\nDeta
- ils: https://langestefan.github.io/powersystem-deadlines/conference/cigre-
- heidelberg27
+ ils: https://powersystemdeadlines.org/conference/cigre-heidelberg27
 LOCATION:Heidelberg\, Germany
 URL;VALUE=URI:https://www.cigresymposium2027.de/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
@@ -849,8 +692,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-heidelberg27-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cigre-heidelberg27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 TRANSP:TRANSPARENT
@@ -871,8 +714,8 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nSynopsi
   Committee and held alongside the VDE ETG Kongress (26-27 April) at the sa
  me venue. Synopses are submitted through ConfTool\; all synopses\, papers 
  and presentations must be in English.\n\nCall for papers: https://www.cigr
- esymposium2027.de/\nDetails: https://langestefan.github.io/powersystem-dea
- dlines/conference/cigre-heidelberg27
+ esymposium2027.de/\nDetails: https://powersystemdeadlines.org/conference/c
+ igre-heidelberg27
 LOCATION:Heidelberg\, Germany
 URL;VALUE=URI:https://www.cigresymposium2027.de/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
@@ -891,8 +734,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-heidelberg27-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cigre-heidelberg27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 TRANSP:TRANSPARENT
@@ -912,8 +755,7 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFull pa
   VDE ETG Kongress (26-27 April) at the same venue. Synopses are submitted 
  through ConfTool\; all synopses\, papers and presentations must be in Engl
  ish.\n\nCall for papers: https://www.cigresymposium2027.de/\nDetails: http
- s://langestefan.github.io/powersystem-deadlines/conference/cigre-heidelber
- g27
+ s://powersystemdeadlines.org/conference/cigre-heidelberg27
 LOCATION:Heidelberg\, Germany
 URL;VALUE=URI:https://www.cigresymposium2027.de/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
@@ -932,8 +774,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-heidelberg27-notification-2@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cigre-heidelberg27-notification-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 TRANSP:TRANSPARENT
@@ -954,8 +796,8 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFeedbac
  d held alongside the VDE ETG Kongress (26-27 April) at the same venue. Syn
  opses are submitted through ConfTool\; all synopses\, papers and presentat
  ions must be in English.\n\nCall for papers: https://www.cigresymposium202
- 7.de/\nDetails: https://langestefan.github.io/powersystem-deadlines/confer
- ence/cigre-heidelberg27
+ 7.de/\nDetails: https://powersystemdeadlines.org/conference/cigre-heidelbe
+ rg27
 LOCATION:Heidelberg\, Germany
 URL;VALUE=URI:https://www.cigresymposium2027.de/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
@@ -974,8 +816,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-heidelberg27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cigre-heidelberg27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270329
 DTEND;VALUE=DATE:20270330
 TRANSP:TRANSPARENT
@@ -996,8 +838,7 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFinal p
  d alongside the VDE ETG Kongress (26-27 April) at the same venue. Synopses
   are submitted through ConfTool\; all synopses\, papers and presentations 
  must be in English.\n\nCall for papers: https://www.cigresymposium2027.de/
- \nDetails: https://langestefan.github.io/powersystem-deadlines/conference/
- cigre-heidelberg27
+ \nDetails: https://powersystemdeadlines.org/conference/cigre-heidelberg27
 LOCATION:Heidelberg\, Germany
 URL;VALUE=URI:https://www.cigresymposium2027.de/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
@@ -1016,8 +857,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pesgm27-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:pesgm27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 TRANSP:TRANSPARENT
@@ -1030,8 +871,8 @@ DESCRIPTION:IEEE Power & Energy Society General Meeting (IEEE PES GM 2027)\
  out before the real deadline rather than after it.\n\nPapers are limited t
  o five pages. The submission site opens 6 October 2026 and notifications a
  re expected in mid-March 2027\, without a stated date.\n\nCall for papers:
-  https://pes-gm.org/\nDetails: https://langestefan.github.io/powersystem-d
- eadlines/conference/pesgm27
+  https://pes-gm.org/\nDetails: https://powersystemdeadlines.org/conference
+ /pesgm27
 LOCATION:San Francisco\, USA
 URL;VALUE=URI:https://pes-gm.org/
 CATEGORIES:Power Systems,Transmission,Distribution,Renewables,Smart Grid
@@ -1049,8 +890,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:icit27-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:icit27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 TRANSP:TRANSPARENT
@@ -1070,8 +911,8 @@ DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
  \, so the countdown runs out before the real deadline rather than after it
  .\n\nHosted by Universidade Federal de Santa Catarina. The regular paper d
  eadline was extended from 12 October 2026.\n\nCall for papers: https://ici
- t2027.ieee-ies.org/\nDetails: https://langestefan.github.io/powersystem-de
- adlines/conference/icit27
+ t2027.ieee-ies.org/\nDetails: https://powersystemdeadlines.org/conference/
+ icit27
 LOCATION:Florianópolis\, Brazil
 URL;VALUE=URI:https://icit2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -1089,8 +930,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:icit27-paper-2@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:icit27-paper-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 TRANSP:TRANSPARENT
@@ -1110,8 +951,7 @@ DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
  n runs out before the real deadline rather than after it.\n\nHosted by Uni
  versidade Federal de Santa Catarina. The regular paper deadline was extend
  ed from 12 October 2026.\n\nCall for papers: https://icit2027.ieee-ies.org
- /\nDetails: https://langestefan.github.io/powersystem-deadlines/conference
- /icit27
+ /\nDetails: https://powersystemdeadlines.org/conference/icit27
 LOCATION:Florianópolis\, Brazil
 URL;VALUE=URI:https://icit2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -1129,8 +969,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:icit27-tutorial_proposal@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:icit27-tutorial_proposal@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 TRANSP:TRANSPARENT
@@ -1149,7 +989,7 @@ DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
  e the real deadline rather than after it.\n\nHosted by Universidade Federa
  l de Santa Catarina. The regular paper deadline was extended from 12 Octob
  er 2026.\n\nCall for papers: https://icit2027.ieee-ies.org/\nDetails: http
- s://langestefan.github.io/powersystem-deadlines/conference/icit27
+ s://powersystemdeadlines.org/conference/icit27
 LOCATION:Florianópolis\, Brazil
 URL;VALUE=URI:https://icit2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -1167,8 +1007,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:icit27-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:icit27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 TRANSP:TRANSPARENT
@@ -1187,8 +1027,7 @@ DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
  ns out before the real deadline rather than after it.\n\nHosted by Univers
  idade Federal de Santa Catarina. The regular paper deadline was extended f
  rom 12 October 2026.\n\nCall for papers: https://icit2027.ieee-ies.org/\nD
- etails: https://langestefan.github.io/powersystem-deadlines/conference/ici
- t27
+ etails: https://powersystemdeadlines.org/conference/icit27
 LOCATION:Florianópolis\, Brazil
 URL;VALUE=URI:https://icit2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -1206,8 +1045,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:icit27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:icit27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270118
 DTEND;VALUE=DATE:20270119
 TRANSP:TRANSPARENT
@@ -1226,7 +1065,7 @@ DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
  before the real deadline rather than after it.\n\nHosted by Universidade F
  ederal de Santa Catarina. The regular paper deadline was extended from 12 
  October 2026.\n\nCall for papers: https://icit2027.ieee-ies.org/\nDetails:
-  https://langestefan.github.io/powersystem-deadlines/conference/icit27
+  https://powersystemdeadlines.org/conference/icit27
 LOCATION:Florianópolis\, Brazil
 URL;VALUE=URI:https://icit2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -1244,8 +1083,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:icit27-author_registration@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:icit27-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270118
 DTEND;VALUE=DATE:20270119
 TRANSP:TRANSPARENT
@@ -1264,7 +1103,7 @@ DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
  ore the real deadline rather than after it.\n\nHosted by Universidade Fede
  ral de Santa Catarina. The regular paper deadline was extended from 12 Oct
  ober 2026.\n\nCall for papers: https://icit2027.ieee-ies.org/\nDetails: ht
- tps://langestefan.github.io/powersystem-deadlines/conference/icit27
+ tps://powersystemdeadlines.org/conference/icit27
 LOCATION:Florianópolis\, Brazil
 URL;VALUE=URI:https://icit2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -1282,8 +1121,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tpec27-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:tpec27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 TRANSP:TRANSPARENT
@@ -1302,8 +1141,8 @@ DESCRIPTION:IEEE Texas Power and Energy Conference (TPEC 2027)\n\nFull pape
   deadline rather than after it.\n\nThree submission periods\; submitting i
  n the first or second earns a cheaper registration rate. Papers are up to 
  6 pages and must be presented in person to reach IEEE Xplore.\n\nCall for 
- papers: https://tpec.engr.tamu.edu/\nDetails: https://langestefan.github.i
- o/powersystem-deadlines/conference/tpec27
+ papers: https://tpec.engr.tamu.edu/\nDetails: https://powersystemdeadlines
+ .org/conference/tpec27
 LOCATION:College Station\, USA
 URL;VALUE=URI:https://tpec.engr.tamu.edu/
 CATEGORIES:Power Systems,Power Electronics,Machines & Drives,Energy Markets
@@ -1322,8 +1161,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tpec27-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:tpec27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 TRANSP:TRANSPARENT
@@ -1342,8 +1181,8 @@ DESCRIPTION:IEEE Texas Power and Energy Conference (TPEC 2027)\n\nDecision
  dline rather than after it.\n\nThree submission periods\; submitting in th
  e first or second earns a cheaper registration rate. Papers are up to 6 pa
  ges and must be presented in person to reach IEEE Xplore.\n\nCall for pape
- rs: https://tpec.engr.tamu.edu/\nDetails: https://langestefan.github.io/po
- wersystem-deadlines/conference/tpec27
+ rs: https://tpec.engr.tamu.edu/\nDetails: https://powersystemdeadlines.org
+ /conference/tpec27
 LOCATION:College Station\, USA
 URL;VALUE=URI:https://tpec.engr.tamu.edu/
 CATEGORIES:Power Systems,Power Electronics,Machines & Drives,Energy Markets
@@ -1362,8 +1201,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tpec27-paper-2@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:tpec27-paper-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 TRANSP:TRANSPARENT
@@ -1382,8 +1221,8 @@ DESCRIPTION:IEEE Texas Power and Energy Conference (TPEC 2027)\n\nFull pape
   deadline rather than after it.\n\nThree submission periods\; submitting i
  n the first or second earns a cheaper registration rate. Papers are up to 
  6 pages and must be presented in person to reach IEEE Xplore.\n\nCall for 
- papers: https://tpec.engr.tamu.edu/\nDetails: https://langestefan.github.i
- o/powersystem-deadlines/conference/tpec27
+ papers: https://tpec.engr.tamu.edu/\nDetails: https://powersystemdeadlines
+ .org/conference/tpec27
 LOCATION:College Station\, USA
 URL;VALUE=URI:https://tpec.engr.tamu.edu/
 CATEGORIES:Power Systems,Power Electronics,Machines & Drives,Energy Markets
@@ -1402,8 +1241,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tpec27-notification-2@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:tpec27-notification-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 TRANSP:TRANSPARENT
@@ -1422,8 +1261,8 @@ DESCRIPTION:IEEE Texas Power and Energy Conference (TPEC 2027)\n\nDecision
  adline rather than after it.\n\nThree submission periods\; submitting in t
  he first or second earns a cheaper registration rate. Papers are up to 6 p
  ages and must be presented in person to reach IEEE Xplore.\n\nCall for pap
- ers: https://tpec.engr.tamu.edu/\nDetails: https://langestefan.github.io/p
- owersystem-deadlines/conference/tpec27
+ ers: https://tpec.engr.tamu.edu/\nDetails: https://powersystemdeadlines.or
+ g/conference/tpec27
 LOCATION:College Station\, USA
 URL;VALUE=URI:https://tpec.engr.tamu.edu/
 CATEGORIES:Power Systems,Power Electronics,Machines & Drives,Energy Markets
@@ -1442,8 +1281,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tpec27-paper-3@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:tpec27-paper-3@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 TRANSP:TRANSPARENT
@@ -1462,8 +1301,8 @@ DESCRIPTION:IEEE Texas Power and Energy Conference (TPEC 2027)\n\nFull pape
  deadline rather than after it.\n\nThree submission periods\; submitting in
   the first or second earns a cheaper registration rate. Papers are up to 6
   pages and must be presented in person to reach IEEE Xplore.\n\nCall for p
- apers: https://tpec.engr.tamu.edu/\nDetails: https://langestefan.github.io
- /powersystem-deadlines/conference/tpec27
+ apers: https://tpec.engr.tamu.edu/\nDetails: https://powersystemdeadlines.
+ org/conference/tpec27
 LOCATION:College Station\, USA
 URL;VALUE=URI:https://tpec.engr.tamu.edu/
 CATEGORIES:Power Systems,Power Electronics,Machines & Drives,Energy Markets
@@ -1482,8 +1321,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tpec27-notification-3@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:tpec27-notification-3@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
 TRANSP:TRANSPARENT
@@ -1502,8 +1341,8 @@ DESCRIPTION:IEEE Texas Power and Energy Conference (TPEC 2027)\n\nDecision
  dline rather than after it.\n\nThree submission periods\; submitting in th
  e first or second earns a cheaper registration rate. Papers are up to 6 pa
  ges and must be presented in person to reach IEEE Xplore.\n\nCall for pape
- rs: https://tpec.engr.tamu.edu/\nDetails: https://langestefan.github.io/po
- wersystem-deadlines/conference/tpec27
+ rs: https://tpec.engr.tamu.edu/\nDetails: https://powersystemdeadlines.org
+ /conference/tpec27
 LOCATION:College Station\, USA
 URL;VALUE=URI:https://tpec.engr.tamu.edu/
 CATEGORIES:Power Systems,Power Electronics,Machines & Drives,Energy Markets
@@ -1522,8 +1361,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:itec27-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:itec27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 TRANSP:TRANSPARENT
@@ -1539,8 +1378,8 @@ DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
  27\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. Thi
  s is counted as UTC+12\, the earliest it could plausibly mean\, so the cou
  ntdown runs out before the real deadline rather than after it.\n\nCall for
-  papers: https://itec-conf.com/\nDetails: https://langestefan.github.io/po
- wersystem-deadlines/conference/itec27
+  papers: https://itec-conf.com/\nDetails: https://powersystemdeadlines.org
+ /conference/itec27
 LOCATION:Novi\, USA
 URL;VALUE=URI:https://itec-conf.com/authors/call-for-papers/
 CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
@@ -1559,8 +1398,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:itec27-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:itec27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 TRANSP:TRANSPARENT
@@ -1576,8 +1415,8 @@ DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
  3:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is c
  ounted as UTC+12\, the earliest it could plausibly mean\, so the countdown
   runs out before the real deadline rather than after it.\n\nCall for paper
- s: https://itec-conf.com/\nDetails: https://langestefan.github.io/powersys
- tem-deadlines/conference/itec27
+ s: https://itec-conf.com/\nDetails: https://powersystemdeadlines.org/confe
+ rence/itec27
 LOCATION:Novi\, USA
 URL;VALUE=URI:https://itec-conf.com/
 CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
@@ -1596,8 +1435,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:itec27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:itec27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 TRANSP:TRANSPARENT
@@ -1612,8 +1451,8 @@ DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
  TC+12 (assumed)\n\nThe call for papers states no timezone. This is counted
   as UTC+12\, the earliest it could plausibly mean\, so the countdown runs 
  out before the real deadline rather than after it.\n\nCall for papers: htt
- ps://itec-conf.com/\nDetails: https://langestefan.github.io/powersystem-de
- adlines/conference/itec27
+ ps://itec-conf.com/\nDetails: https://powersystemdeadlines.org/conference/
+ itec27
 LOCATION:Novi\, USA
 URL;VALUE=URI:https://itec-conf.com/
 CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
@@ -1632,8 +1471,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:itec27-author_registration@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:itec27-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 TRANSP:TRANSPARENT
@@ -1648,8 +1487,7 @@ DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
  ssumed)\n\nThe call for papers states no timezone. This is counted as UTC+
  12\, the earliest it could plausibly mean\, so the countdown runs out befo
  re the real deadline rather than after it.\n\nCall for papers: https://ite
- c-conf.com/\nDetails: https://langestefan.github.io/powersystem-deadlines/
- conference/itec27
+ c-conf.com/\nDetails: https://powersystemdeadlines.org/conference/itec27
 LOCATION:Novi\, USA
 URL;VALUE=URI:https://itec-conf.com/
 CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
@@ -1668,8 +1506,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:apec27-abstract@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:apec27-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 TRANSP:TRANSPARENT
@@ -1686,8 +1524,8 @@ DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC
   could plausibly mean\, so the countdown runs out before the real deadline
   rather than after it.\n\nThe digest deadline was extended from 14 to 21 A
  ugust 2026. An author manuscript training session is held on 12 November 2
- 026.\n\nCall for papers: https://apec-conf.org/\nDetails: https://langeste
- fan.github.io/powersystem-deadlines/conference/apec27
+ 026.\n\nCall for papers: https://apec-conf.org/\nDetails: https://powersys
+ temdeadlines.org/conference/apec27
 LOCATION:New Orleans\, USA
 URL;VALUE=URI:https://apec-conf.org/
 CATEGORIES:Power Electronics,Machines & Drives,Energy Storage,EV & Transpor
@@ -1706,8 +1544,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:apec27-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:apec27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 TRANSP:TRANSPARENT
@@ -1723,8 +1561,8 @@ DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC
  d plausibly mean\, so the countdown runs out before the real deadline rath
  er than after it.\n\nThe digest deadline was extended from 14 to 21 August
   2026. An author manuscript training session is held on 12 November 2026.\
- n\nCall for papers: https://apec-conf.org/\nDetails: https://langestefan.g
- ithub.io/powersystem-deadlines/conference/apec27
+ n\nCall for papers: https://apec-conf.org/\nDetails: https://powersystemde
+ adlines.org/conference/apec27
 LOCATION:New Orleans\, USA
 URL;VALUE=URI:https://apec-conf.org/
 CATEGORIES:Power Electronics,Machines & Drives,Energy Storage,EV & Transpor
@@ -1743,8 +1581,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:apec27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:apec27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 TRANSP:TRANSPARENT
@@ -1761,8 +1599,8 @@ DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC
  t it could plausibly mean\, so the countdown runs out before the real dead
  line rather than after it.\n\nThe digest deadline was extended from 14 to 
  21 August 2026. An author manuscript training session is held on 12 Novemb
- er 2026.\n\nCall for papers: https://apec-conf.org/\nDetails: https://lang
- estefan.github.io/powersystem-deadlines/conference/apec27
+ er 2026.\n\nCall for papers: https://apec-conf.org/\nDetails: https://powe
+ rsystemdeadlines.org/conference/apec27
 LOCATION:New Orleans\, USA
 URL;VALUE=URI:https://apec-conf.org/
 CATEGORIES:Power Electronics,Machines & Drives,Energy Storage,EV & Transpor
@@ -1781,8 +1619,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ias-am27-abstract@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:ias-am27-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 TRANSP:TRANSPARENT
@@ -1800,8 +1638,7 @@ DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
  st be covered by a full conference registration before the final manuscrip
  t is submitted\, and must be presented in person. This edition incorporate
  s the I&CPS Europe conference.\n\nCall for papers: https://ias-am.ieee.org
- /2027/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
- rence/ias-am27
+ /2027/\nDetails: https://powersystemdeadlines.org/conference/ias-am27
 LOCATION:Rome\, Italy
 URL;VALUE=URI:https://ias-am.ieee.org/2027/
 CATEGORIES:Machines & Drives,Power Electronics,Power Quality,Protection & A
@@ -1820,8 +1657,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ias-am27-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:ias-am27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270216
 TRANSP:TRANSPARENT
@@ -1839,8 +1676,7 @@ DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
   must be covered by a full conference registration before the final manusc
  ript is submitted\, and must be presented in person. This edition incorpor
  ates the I&CPS Europe conference.\n\nCall for papers: https://ias-am.ieee.
- org/2027/\nDetails: https://langestefan.github.io/powersystem-deadlines/co
- nference/ias-am27
+ org/2027/\nDetails: https://powersystemdeadlines.org/conference/ias-am27
 LOCATION:Rome\, Italy
 URL;VALUE=URI:https://ias-am.ieee.org/2027/
 CATEGORIES:Machines & Drives,Power Electronics,Power Quality,Protection & A
@@ -1859,8 +1695,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ias-am27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:ias-am27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
@@ -1878,8 +1714,8 @@ DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
  ry accepted paper must be covered by a full conference registration before
   the final manuscript is submitted\, and must be presented in person. This
   edition incorporates the I&CPS Europe conference.\n\nCall for papers: htt
- ps://ias-am.ieee.org/2027/\nDetails: https://langestefan.github.io/powersy
- stem-deadlines/conference/ias-am27
+ ps://ias-am.ieee.org/2027/\nDetails: https://powersystemdeadlines.org/conf
+ erence/ias-am27
 LOCATION:Rome\, Italy
 URL;VALUE=URI:https://ias-am.ieee.org/2027/
 CATEGORIES:Machines & Drives,Power Electronics,Power Quality,Protection & A
@@ -1898,8 +1734,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rpg-global27-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:rpg-global27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 TRANSP:TRANSPARENT
@@ -1915,8 +1751,8 @@ DESCRIPTION:IET International Conference on Renewable Power Generation and
   countdown runs out before the real deadline rather than after it.\n\nRPG 
  Global 2027. Full papers are peer reviewed and indexed in IET Inspec\, IEE
  E Xplore and Ei Compendex.\n\nCall for papers: https://renewablepower.thei
- et.org/rpg-global-2027\nDetails: https://langestefan.github.io/powersystem
- -deadlines/conference/rpg-global27
+ et.org/rpg-global-2027\nDetails: https://powersystemdeadlines.org/conferen
+ ce/rpg-global27
 LOCATION:Birmingham\, United Kingdom
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-global-2027/call-for-su
  bmissions
@@ -1936,8 +1772,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rpg-global27-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:rpg-global27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270217
 TRANSP:TRANSPARENT
@@ -1953,8 +1789,8 @@ DESCRIPTION:IET International Conference on Renewable Power Generation and
  ountdown runs out before the real deadline rather than after it.\n\nRPG Gl
  obal 2027. Full papers are peer reviewed and indexed in IET Inspec\, IEEE 
  Xplore and Ei Compendex.\n\nCall for papers: https://renewablepower.theiet
- .org/rpg-global-2027\nDetails: https://langestefan.github.io/powersystem-d
- eadlines/conference/rpg-global27
+ .org/rpg-global-2027\nDetails: https://powersystemdeadlines.org/conference
+ /rpg-global27
 LOCATION:Birmingham\, United Kingdom
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-global-2027
 CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
@@ -1973,8 +1809,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rpg-global27-author_registration@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:rpg-global27-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
@@ -1990,8 +1826,8 @@ DESCRIPTION:IET International Conference on Renewable Power Generation and
  ountdown runs out before the real deadline rather than after it.\n\nRPG Gl
  obal 2027. Full papers are peer reviewed and indexed in IET Inspec\, IEEE 
  Xplore and Ei Compendex.\n\nCall for papers: https://renewablepower.theiet
- .org/rpg-global-2027\nDetails: https://langestefan.github.io/powersystem-d
- eadlines/conference/rpg-global27
+ .org/rpg-global-2027\nDetails: https://powersystemdeadlines.org/conference
+ /rpg-global27
 LOCATION:Birmingham\, United Kingdom
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-global-2027
 CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
@@ -2010,8 +1846,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ipst27-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:ipst27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 TRANSP:TRANSPARENT
@@ -2027,8 +1863,7 @@ DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
  liest it could plausibly mean\, so the countdown runs out before the real 
  deadline rather than after it.\n\nOrganised with the University of Bologna
  . Early registration runs until 6 April 2027.\n\nCall for papers: https://
- ipst2027.org/\nDetails: https://langestefan.github.io/powersystem-deadline
- s/conference/ipst27
+ ipst2027.org/\nDetails: https://powersystemdeadlines.org/conference/ipst27
 LOCATION:Bologna\, Italy
 URL;VALUE=URI:https://ipst2027.org/
 CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
@@ -2047,8 +1882,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ipst27-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:ipst27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270220
 TRANSP:TRANSPARENT
@@ -2064,8 +1899,7 @@ DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
  ould plausibly mean\, so the countdown runs out before the real deadline r
  ather than after it.\n\nOrganised with the University of Bologna. Early re
  gistration runs until 6 April 2027.\n\nCall for papers: https://ipst2027.o
- rg/\nDetails: https://langestefan.github.io/powersystem-deadlines/conferen
- ce/ipst27
+ rg/\nDetails: https://powersystemdeadlines.org/conference/ipst27
 LOCATION:Bologna\, Italy
 URL;VALUE=URI:https://ipst2027.org/
 CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
@@ -2084,8 +1918,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ipst27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:ipst27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270319
 DTEND;VALUE=DATE:20270320
 TRANSP:TRANSPARENT
@@ -2101,8 +1935,7 @@ DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
  t could plausibly mean\, so the countdown runs out before the real deadlin
  e rather than after it.\n\nOrganised with the University of Bologna. Early
   registration runs until 6 April 2027.\n\nCall for papers: https://ipst202
- 7.org/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
- rence/ipst27
+ 7.org/\nDetails: https://powersystemdeadlines.org/conference/ipst27
 LOCATION:Bologna\, Italy
 URL;VALUE=URI:https://ipst2027.org/
 CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
@@ -2121,8 +1954,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ipst27-notification-2@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:ipst27-notification-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270409
 DTEND;VALUE=DATE:20270410
 TRANSP:TRANSPARENT
@@ -2138,8 +1971,7 @@ DESCRIPTION:International Conference on Power Systems Transients (IPST 2027
  iest it could plausibly mean\, so the countdown runs out before the real d
  eadline rather than after it.\n\nOrganised with the University of Bologna.
   Early registration runs until 6 April 2027.\n\nCall for papers: https://i
- pst2027.org/\nDetails: https://langestefan.github.io/powersystem-deadlines
- /conference/ipst27
+ pst2027.org/\nDetails: https://powersystemdeadlines.org/conference/ipst27
 LOCATION:Bologna\, Italy
 URL;VALUE=URI:https://ipst2027.org/
 CATEGORIES:Power Systems,Computation & Optimization,HVDC & FACTS,Protection
@@ -2158,8 +1990,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pvpmc27-abstract@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:pvpmc27-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 TRANSP:TRANSPARENT
@@ -2177,7 +2009,7 @@ DESCRIPTION:PV Performance Modeling Collaborative Workshop (PVPMC Workshop
  al working group meetings are also invited. Students who submit an abstrac
  t and a one-page research statement may be eligible for free registration 
  and a travel grant.\n\nCall for papers: https://pvpmc.sandia.gov/\nDetails
- : https://langestefan.github.io/powersystem-deadlines/conference/pvpmc27
+ : https://powersystemdeadlines.org/conference/pvpmc27
 LOCATION:Sacramento\, USA
 URL;VALUE=URI:https://pvpmc.sandia.gov/
 CATEGORIES:Renewables,Energy Storage
@@ -2195,8 +2027,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-bangkok27-abstract@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cigre-bangkok27-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270111
 DTEND;VALUE=DATE:20270112
 TRANSP:TRANSPARENT
@@ -2217,8 +2049,7 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nSynopsi
  d Innovation for the Energy Transition"\, hosted by CIGRE Thailand. The sy
  nopsis portal opened on 7 September 2026.\n\nCall for papers: https://www.
  cigre.org/event/symposium/2027/TH/bangkok/call-for-papers-cigre-symposium-
- 2027\nDetails: https://langestefan.github.io/powersystem-deadlines/confere
- nce/cigre-bangkok27
+ 2027\nDetails: https://powersystemdeadlines.org/conference/cigre-bangkok27
 LOCATION:Bangkok\, Thailand
 URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
  r-papers-cigre-symposium-2027
@@ -2238,8 +2069,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-bangkok27-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cigre-bangkok27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 TRANSP:TRANSPARENT
@@ -2261,8 +2092,8 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nSelecti
  lligence\, and Innovation for the Energy Transition"\, hosted by CIGRE Tha
  iland. The synopsis portal opened on 7 September 2026.\n\nCall for papers:
   https://www.cigre.org/event/symposium/2027/TH/bangkok/call-for-papers-cig
- re-symposium-2027\nDetails: https://langestefan.github.io/powersystem-dead
- lines/conference/cigre-bangkok27
+ re-symposium-2027\nDetails: https://powersystemdeadlines.org/conference/ci
+ gre-bangkok27
 LOCATION:Bangkok\, Thailand
 URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
  r-papers-cigre-symposium-2027
@@ -2282,8 +2113,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-bangkok27-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cigre-bangkok27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270725
 DTEND;VALUE=DATE:20270726
 TRANSP:TRANSPARENT
@@ -2304,8 +2135,8 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFull pa
  and Innovation for the Energy Transition"\, hosted by CIGRE Thailand. The 
  synopsis portal opened on 7 September 2026.\n\nCall for papers: https://ww
  w.cigre.org/event/symposium/2027/TH/bangkok/call-for-papers-cigre-symposiu
- m-2027\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
- rence/cigre-bangkok27
+ m-2027\nDetails: https://powersystemdeadlines.org/conference/cigre-bangkok
+ 27
 LOCATION:Bangkok\, Thailand
 URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
  r-papers-cigre-symposium-2027
@@ -2325,8 +2156,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-bangkok27-notification-2@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cigre-bangkok27-notification-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270912
 DTEND;VALUE=DATE:20270913
 TRANSP:TRANSPARENT
@@ -2348,8 +2179,8 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFeedbac
  \, Intelligence\, and Innovation for the Energy Transition"\, hosted by CI
  GRE Thailand. The synopsis portal opened on 7 September 2026.\n\nCall for 
  papers: https://www.cigre.org/event/symposium/2027/TH/bangkok/call-for-pap
- ers-cigre-symposium-2027\nDetails: https://langestefan.github.io/powersyst
- em-deadlines/conference/cigre-bangkok27
+ ers-cigre-symposium-2027\nDetails: https://powersystemdeadlines.org/confer
+ ence/cigre-bangkok27
 LOCATION:Bangkok\, Thailand
 URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
  r-papers-cigre-symposium-2027
@@ -2369,8 +2200,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-bangkok27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cigre-bangkok27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270926
 DTEND;VALUE=DATE:20270927
 TRANSP:TRANSPARENT
@@ -2391,8 +2222,7 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFinal p
  Innovation for the Energy Transition"\, hosted by CIGRE Thailand. The syno
  psis portal opened on 7 September 2026.\n\nCall for papers: https://www.ci
  gre.org/event/symposium/2027/TH/bangkok/call-for-papers-cigre-symposium-20
- 27\nDetails: https://langestefan.github.io/powersystem-deadlines/conferenc
- e/cigre-bangkok27
+ 27\nDetails: https://powersystemdeadlines.org/conference/cigre-bangkok27
 LOCATION:Bangkok\, Thailand
 URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
  r-papers-cigre-symposium-2027
@@ -2412,8 +2242,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-bangkok27-camera_ready-2@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cigre-bangkok27-camera_ready-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20271010
 DTEND;VALUE=DATE:20271011
 TRANSP:TRANSPARENT
@@ -2435,8 +2265,8 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFinal p
  ence\, and Innovation for the Energy Transition"\, hosted by CIGRE Thailan
  d. The synopsis portal opened on 7 September 2026.\n\nCall for papers: htt
  ps://www.cigre.org/event/symposium/2027/TH/bangkok/call-for-papers-cigre-s
- ymposium-2027\nDetails: https://langestefan.github.io/powersystem-deadline
- s/conference/cigre-bangkok27
+ ymposium-2027\nDetails: https://powersystemdeadlines.org/conference/cigre-
+ bangkok27
 LOCATION:Bangkok\, Thailand
 URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
  r-papers-cigre-symposium-2027
@@ -2456,8 +2286,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-bangkok27-presentation_upload@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cigre-bangkok27-presentation_upload@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20271024
 DTEND;VALUE=DATE:20271025
 TRANSP:TRANSPARENT
@@ -2479,8 +2309,8 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nPowerPo
  nce\, and Innovation for the Energy Transition"\, hosted by CIGRE Thailand
  . The synopsis portal opened on 7 September 2026.\n\nCall for papers: http
  s://www.cigre.org/event/symposium/2027/TH/bangkok/call-for-papers-cigre-sy
- mposium-2027\nDetails: https://langestefan.github.io/powersystem-deadlines
- /conference/cigre-bangkok27
+ mposium-2027\nDetails: https://powersystemdeadlines.org/conference/cigre-b
+ angkok27
 LOCATION:Bangkok\, Thailand
 URL;VALUE=URI:https://www.cigre.org/event/symposium/2027/TH/bangkok/call-fo
  r-papers-cigre-symposium-2027
@@ -2500,8 +2330,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cired27-abstract@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cired27-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 TRANSP:TRANSPARENT
@@ -2520,8 +2350,8 @@ DESCRIPTION:International Conference and Exhibition on Electricity Distribu
  ld plausibly mean\, so the countdown runs out before the real deadline rat
  her than after it.\n\n29th edition. Submission is abstract-first: an accep
  ted abstract is required before a full paper can be submitted.\n\nCall for
-  papers: https://2027.cired.net/\nDetails: https://langestefan.github.io/p
- owersystem-deadlines/conference/cired27
+  papers: https://2027.cired.net/\nDetails: https://powersystemdeadlines.or
+ g/conference/cired27
 LOCATION:Stockholm\, Sweden
 URL;VALUE=URI:https://2027.cired.net/
 CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
@@ -2539,8 +2369,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cired27-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cired27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 TRANSP:TRANSPARENT
@@ -2559,8 +2389,8 @@ DESCRIPTION:International Conference and Exhibition on Electricity Distribu
  it could plausibly mean\, so the countdown runs out before the real deadli
  ne rather than after it.\n\n29th edition. Submission is abstract-first: an
   accepted abstract is required before a full paper can be submitted.\n\nCa
- ll for papers: https://2027.cired.net/\nDetails: https://langestefan.githu
- b.io/powersystem-deadlines/conference/cired27
+ ll for papers: https://2027.cired.net/\nDetails: https://powersystemdeadli
+ nes.org/conference/cired27
 LOCATION:Stockholm\, Sweden
 URL;VALUE=URI:https://2027.cired.net/
 CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
@@ -2578,8 +2408,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cired27-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cired27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 TRANSP:TRANSPARENT
@@ -2598,8 +2428,8 @@ DESCRIPTION:International Conference and Exhibition on Electricity Distribu
  uld plausibly mean\, so the countdown runs out before the real deadline ra
  ther than after it.\n\n29th edition. Submission is abstract-first: an acce
  pted abstract is required before a full paper can be submitted.\n\nCall fo
- r papers: https://2027.cired.net/\nDetails: https://langestefan.github.io/
- powersystem-deadlines/conference/cired27
+ r papers: https://2027.cired.net/\nDetails: https://powersystemdeadlines.o
+ rg/conference/cired27
 LOCATION:Stockholm\, Sweden
 URL;VALUE=URI:https://2027.cired.net/
 CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
@@ -2617,8 +2447,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cired27-notification-2@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cired27-notification-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270409
 DTEND;VALUE=DATE:20270410
 TRANSP:TRANSPARENT
@@ -2638,8 +2468,8 @@ DESCRIPTION:International Conference and Exhibition on Electricity Distribu
   the earliest it could plausibly mean\, so the countdown runs out before t
  he real deadline rather than after it.\n\n29th edition. Submission is abst
  ract-first: an accepted abstract is required before a full paper can be su
- bmitted.\n\nCall for papers: https://2027.cired.net/\nDetails: https://lan
- gestefan.github.io/powersystem-deadlines/conference/cired27
+ bmitted.\n\nCall for papers: https://2027.cired.net/\nDetails: https://pow
+ ersystemdeadlines.org/conference/cired27
 LOCATION:Stockholm\, Sweden
 URL;VALUE=URI:https://2027.cired.net/
 CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
@@ -2657,8 +2487,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cired27-early_registration@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cired27-early_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270428
 DTEND;VALUE=DATE:20270429
 TRANSP:TRANSPARENT
@@ -2678,8 +2508,8 @@ DESCRIPTION:International Conference and Exhibition on Electricity Distribu
  liest it could plausibly mean\, so the countdown runs out before the real 
  deadline rather than after it.\n\n29th edition. Submission is abstract-fir
  st: an accepted abstract is required before a full paper can be submitted.
- \n\nCall for papers: https://2027.cired.net/\nDetails: https://langestefan
- .github.io/powersystem-deadlines/conference/cired27
+ \n\nCall for papers: https://2027.cired.net/\nDetails: https://powersystem
+ deadlines.org/conference/cired27
 LOCATION:Stockholm\, Sweden
 URL;VALUE=URI:https://2027.cired.net/
 CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
@@ -2697,8 +2527,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cired27-author_registration@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cired27-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270510
 DTEND;VALUE=DATE:20270511
 TRANSP:TRANSPARENT
@@ -2717,8 +2547,8 @@ DESCRIPTION:International Conference and Exhibition on Electricity Distribu
  t it could plausibly mean\, so the countdown runs out before the real dead
  line rather than after it.\n\n29th edition. Submission is abstract-first: 
  an accepted abstract is required before a full paper can be submitted.\n\n
- Call for papers: https://2027.cired.net/\nDetails: https://langestefan.git
- hub.io/powersystem-deadlines/conference/cired27
+ Call for papers: https://2027.cired.net/\nDetails: https://powersystemdead
+ lines.org/conference/cired27
 LOCATION:Stockholm\, Sweden
 URL;VALUE=URI:https://2027.cired.net/
 CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
@@ -2736,8 +2566,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cired27-presentation_upload@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cired27-presentation_upload@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270528
 DTEND;VALUE=DATE:20270529
 TRANSP:TRANSPARENT
@@ -2757,8 +2587,8 @@ DESCRIPTION:International Conference and Exhibition on Electricity Distribu
  liest it could plausibly mean\, so the countdown runs out before the real 
  deadline rather than after it.\n\n29th edition. Submission is abstract-fir
  st: an accepted abstract is required before a full paper can be submitted.
- \n\nCall for papers: https://2027.cired.net/\nDetails: https://langestefan
- .github.io/powersystem-deadlines/conference/cired27
+ \n\nCall for papers: https://2027.cired.net/\nDetails: https://powersystem
+ deadlines.org/conference/cired27
 LOCATION:Stockholm\, Sweden
 URL;VALUE=URI:https://2027.cired.net/
 CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
@@ -2776,8 +2606,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:peci27-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:peci27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 TRANSP:TRANSPARENT
@@ -2792,8 +2622,8 @@ DESCRIPTION:IEEE Power and Energy Conference at Illinois (PECI 2027)\n\nDig
  nted as UTC+12\, the earliest it could plausibly mean\, so the countdown r
  uns out before the real deadline rather than after it.\n\n18th edition\, t
  hemed "Reliability in an Era of Rapid Power Growth".\n\nCall for papers: h
- ttps://peci.ece.illinois.edu/\nDetails: https://langestefan.github.io/powe
- rsystem-deadlines/conference/peci27
+ ttps://peci.ece.illinois.edu/\nDetails: https://powersystemdeadlines.org/c
+ onference/peci27
 LOCATION:Urbana-Champaign\, USA
 URL;VALUE=URI:https://peci.ece.illinois.edu/
 CATEGORIES:Power Systems,Power Electronics,Renewables
@@ -2811,8 +2641,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:peci27-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:peci27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270226
 DTEND;VALUE=DATE:20270227
 TRANSP:TRANSPARENT
@@ -2827,8 +2657,8 @@ DESCRIPTION:IEEE Power and Energy Conference at Illinois (PECI 2027)\n\nAcc
  is counted as UTC+12\, the earliest it could plausibly mean\, so the count
  down runs out before the real deadline rather than after it.\n\n18th editi
  on\, themed "Reliability in an Era of Rapid Power Growth".\n\nCall for pap
- ers: https://peci.ece.illinois.edu/\nDetails: https://langestefan.github.i
- o/powersystem-deadlines/conference/peci27
+ ers: https://peci.ece.illinois.edu/\nDetails: https://powersystemdeadlines
+ .org/conference/peci27
 LOCATION:Urbana-Champaign\, USA
 URL;VALUE=URI:https://peci.ece.illinois.edu/
 CATEGORIES:Power Systems,Power Electronics,Renewables
@@ -2846,8 +2676,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:peci27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:peci27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 TRANSP:TRANSPARENT
@@ -2862,8 +2692,8 @@ DESCRIPTION:IEEE Power and Energy Conference at Illinois (PECI 2027)\n\nFin
  s counted as UTC+12\, the earliest it could plausibly mean\, so the countd
  own runs out before the real deadline rather than after it.\n\n18th editio
  n\, themed "Reliability in an Era of Rapid Power Growth".\n\nCall for pape
- rs: https://peci.ece.illinois.edu/\nDetails: https://langestefan.github.io
- /powersystem-deadlines/conference/peci27
+ rs: https://peci.ece.illinois.edu/\nDetails: https://powersystemdeadlines.
+ org/conference/peci27
 LOCATION:Urbana-Champaign\, USA
 URL;VALUE=URI:https://peci.ece.illinois.edu/
 CATEGORIES:Power Systems,Power Electronics,Renewables
@@ -2881,8 +2711,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ieses27-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:ieses27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 TRANSP:TRANSPARENT
@@ -2900,8 +2730,8 @@ DESCRIPTION:IEEE International Conference on Industrial Electronics for Sus
  to 6 pages. The conference website lists final paper submission and author
   registration on 1 July 2027\, which is shown here\; the call for papers f
  lyer gives 1 June 2027 for camera-ready and early registration.\n\nCall fo
- r papers: https://ieses2027.ieee-ies.org/\nDetails: https://langestefan.gi
- thub.io/powersystem-deadlines/conference/ieses27
+ r papers: https://ieses2027.ieee-ies.org/\nDetails: https://powersystemdea
+ dlines.org/conference/ieses27
 LOCATION:Guimarães\, Portugal
 URL;VALUE=URI:https://ieses2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Smart Grid,Renewables,Energy Storage,Microgrid
@@ -2920,8 +2750,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ieses27-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:ieses27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 TRANSP:TRANSPARENT
@@ -2939,8 +2769,8 @@ DESCRIPTION:IEEE International Conference on Industrial Electronics for Sus
   to 6 pages. The conference website lists final paper submission and autho
  r registration on 1 July 2027\, which is shown here\; the call for papers 
  flyer gives 1 June 2027 for camera-ready and early registration.\n\nCall f
- or papers: https://ieses2027.ieee-ies.org/\nDetails: https://langestefan.g
- ithub.io/powersystem-deadlines/conference/ieses27
+ or papers: https://ieses2027.ieee-ies.org/\nDetails: https://powersystemde
+ adlines.org/conference/ieses27
 LOCATION:Guimarães\, Portugal
 URL;VALUE=URI:https://ieses2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Smart Grid,Renewables,Energy Storage,Microgrid
@@ -2959,8 +2789,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ieses27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:ieses27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270702
 TRANSP:TRANSPARENT
@@ -2978,8 +2808,8 @@ DESCRIPTION:IEEE International Conference on Industrial Electronics for Sus
  pages. The conference website lists final paper submission and author regi
  stration on 1 July 2027\, which is shown here\; the call for papers flyer 
  gives 1 June 2027 for camera-ready and early registration.\n\nCall for pap
- ers: https://ieses2027.ieee-ies.org/\nDetails: https://langestefan.github.
- io/powersystem-deadlines/conference/ieses27
+ ers: https://ieses2027.ieee-ies.org/\nDetails: https://powersystemdeadline
+ s.org/conference/ieses27
 LOCATION:Guimarães\, Portugal
 URL;VALUE=URI:https://ieses2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Smart Grid,Renewables,Energy Storage,Microgrid
@@ -2998,8 +2828,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ieses27-author_registration@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:ieses27-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270702
 TRANSP:TRANSPARENT
@@ -3017,8 +2847,8 @@ DESCRIPTION:IEEE International Conference on Industrial Electronics for Sus
  ed to 6 pages. The conference website lists final paper submission and aut
  hor registration on 1 July 2027\, which is shown here\; the call for paper
  s flyer gives 1 June 2027 for camera-ready and early registration.\n\nCall
-  for papers: https://ieses2027.ieee-ies.org/\nDetails: https://langestefan
- .github.io/powersystem-deadlines/conference/ieses27
+  for papers: https://ieses2027.ieee-ies.org/\nDetails: https://powersystem
+ deadlines.org/conference/ieses27
 LOCATION:Guimarães\, Portugal
 URL;VALUE=URI:https://ieses2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Smart Grid,Renewables,Energy Storage,Microgrid
@@ -3037,8 +2867,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:powertech27-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:powertech27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 TRANSP:TRANSPARENT
@@ -3054,8 +2884,7 @@ DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nFull paper su
  ntdown runs out before the real deadline rather than after it.\n\nCo-spons
  ored by IEEE PES and KU Leuven. Papers are limited to six pages. Submissio
  n opens in November 2026.\n\nCall for papers: https://powertech2027.com/\n
- Details: https://langestefan.github.io/powersystem-deadlines/conference/po
- wertech27
+ Details: https://powersystemdeadlines.org/conference/powertech27
 LOCATION:Bruges\, Belgium
 URL;VALUE=URI:https://powertech2027.com/
 CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
@@ -3074,8 +2903,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:powertech27-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:powertech27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270423
 DTEND;VALUE=DATE:20270424
 TRANSP:TRANSPARENT
@@ -3091,8 +2920,7 @@ DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nAuthor notifi
  down runs out before the real deadline rather than after it.\n\nCo-sponsor
  ed by IEEE PES and KU Leuven. Papers are limited to six pages. Submission 
  opens in November 2026.\n\nCall for papers: https://powertech2027.com/\nDe
- tails: https://langestefan.github.io/powersystem-deadlines/conference/powe
- rtech27
+ tails: https://powersystemdeadlines.org/conference/powertech27
 LOCATION:Bruges\, Belgium
 URL;VALUE=URI:https://powertech2027.com/
 CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
@@ -3111,8 +2939,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:powertech27-author_registration@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:powertech27-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 TRANSP:TRANSPARENT
@@ -3129,8 +2957,8 @@ DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nAuthor and ea
  ibly mean\, so the countdown runs out before the real deadline rather than
   after it.\n\nCo-sponsored by IEEE PES and KU Leuven. Papers are limited t
  o six pages. Submission opens in November 2026.\n\nCall for papers: https:
- //powertech2027.com/\nDetails: https://langestefan.github.io/powersystem-d
- eadlines/conference/powertech27
+ //powertech2027.com/\nDetails: https://powersystemdeadlines.org/conference
+ /powertech27
 LOCATION:Bruges\, Belgium
 URL;VALUE=URI:https://powertech2027.com/
 CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
@@ -3149,8 +2977,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:powertech27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:powertech27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 TRANSP:TRANSPARENT
@@ -3166,8 +2994,7 @@ DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nFinal paper s
  untdown runs out before the real deadline rather than after it.\n\nCo-spon
  sored by IEEE PES and KU Leuven. Papers are limited to six pages. Submissi
  on opens in November 2026.\n\nCall for papers: https://powertech2027.com/\
- nDetails: https://langestefan.github.io/powersystem-deadlines/conference/p
- owertech27
+ nDetails: https://powersystemdeadlines.org/conference/powertech27
 LOCATION:Bruges\, Belgium
 URL;VALUE=URI:https://powertech2027.com/
 CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
@@ -3186,8 +3013,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pcim-europe27-abstract@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:pcim-europe27-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 TRANSP:TRANSPARENT
@@ -3205,8 +3032,8 @@ DESCRIPTION:International Exhibition and Conference for Power Electronics\,
  adline covers synopses for the seminars held on 9-10 May 2027 at the Arven
  a Park Hotel\, whose documentation is due 14 April 2027. Acceptance is exp
  ected in January 2027 without a stated date.\n\nCall for papers: https://p
- cim.mesago.com/nuernberg/en.html\nDetails: https://langestefan.github.io/p
- owersystem-deadlines/conference/pcim-europe27
+ cim.mesago.com/nuernberg/en.html\nDetails: https://powersystemdeadlines.or
+ g/conference/pcim-europe27
 LOCATION:Nuremberg\, Germany
 URL;VALUE=URI:https://pcim.mesago.com/nuernberg/en.html
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
@@ -3224,8 +3051,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pcim-europe27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:pcim-europe27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 TRANSP:TRANSPARENT
@@ -3244,8 +3071,8 @@ DESCRIPTION:International Exhibition and Conference for Power Electronics\,
  026 deadline covers synopses for the seminars held on 9-10 May 2027 at the
   Arvena Park Hotel\, whose documentation is due 14 April 2027. Acceptance 
  is expected in January 2027 without a stated date.\n\nCall for papers: htt
- ps://pcim.mesago.com/nuernberg/en.html\nDetails: https://langestefan.githu
- b.io/powersystem-deadlines/conference/pcim-europe27
+ ps://pcim.mesago.com/nuernberg/en.html\nDetails: https://powersystemdeadli
+ nes.org/conference/pcim-europe27
 LOCATION:Nuremberg\, Germany
 URL;VALUE=URI:https://pcim.mesago.com/nuernberg/en.html
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
@@ -3263,8 +3090,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ecce-asia27-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:ecce-asia27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 TRANSP:TRANSPARENT
@@ -3279,8 +3106,8 @@ DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia
   This is counted as UTC+12\, the earliest it could plausibly mean\, so the
   countdown runs out before the real deadline rather than after it.\n\nHeld
   as ICPE 2027-ECCE Asia\, the 12th International Conference on Power Elect
- ronics.\n\nCall for papers: https://www.icpe-conf.org/\nDetails: https://l
- angestefan.github.io/powersystem-deadlines/conference/ecce-asia27
+ ronics.\n\nCall for papers: https://www.icpe-conf.org/\nDetails: https://p
+ owersystemdeadlines.org/conference/ecce-asia27
 LOCATION:Seoul\, South Korea
 URL;VALUE=URI:https://www.icpe-conf.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
@@ -3298,8 +3125,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ecce-asia27-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:ecce-asia27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 TRANSP:TRANSPARENT
@@ -3315,8 +3142,7 @@ DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia
  ean\, so the countdown runs out before the real deadline rather than after
   it.\n\nHeld as ICPE 2027-ECCE Asia\, the 12th International Conference on
   Power Electronics.\n\nCall for papers: https://www.icpe-conf.org/\nDetail
- s: https://langestefan.github.io/powersystem-deadlines/conference/ecce-asi
- a27
+ s: https://powersystemdeadlines.org/conference/ecce-asia27
 LOCATION:Seoul\, South Korea
 URL;VALUE=URI:https://www.icpe-conf.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
@@ -3334,8 +3160,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ecce-asia27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:ecce-asia27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 TRANSP:TRANSPARENT
@@ -3352,8 +3178,7 @@ DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia
  ly mean\, so the countdown runs out before the real deadline rather than a
  fter it.\n\nHeld as ICPE 2027-ECCE Asia\, the 12th International Conferenc
  e on Power Electronics.\n\nCall for papers: https://www.icpe-conf.org/\nDe
- tails: https://langestefan.github.io/powersystem-deadlines/conference/ecce
- -asia27
+ tails: https://powersystemdeadlines.org/conference/ecce-asia27
 LOCATION:Seoul\, South Korea
 URL;VALUE=URI:https://www.icpe-conf.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
@@ -3371,8 +3196,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ecce-asia27-early_registration@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:ecce-asia27-early_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 TRANSP:TRANSPARENT
@@ -3388,7 +3213,7 @@ DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia
   so the countdown runs out before the real deadline rather than after it.\
  n\nHeld as ICPE 2027-ECCE Asia\, the 12th International Conference on Powe
  r Electronics.\n\nCall for papers: https://www.icpe-conf.org/\nDetails: ht
- tps://langestefan.github.io/powersystem-deadlines/conference/ecce-asia27
+ tps://powersystemdeadlines.org/conference/ecce-asia27
 LOCATION:Seoul\, South Korea
 URL;VALUE=URI:https://www.icpe-conf.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
@@ -3406,8 +3231,156 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rpg-china27-abstract@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:dpsp-europe27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+TRANSP:TRANSPARENT
+SUMMARY:DPSP 2027: Full paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Developments in Power System Pr
+ otection (DPSP 2027)\n\nFull paper submission: 30 Oct 2026\, 23:59 UTC+12 
+ (assumed)\n\nConference: April 14-16\, 2027\nLocation: Munich\, Germany\nV
+ enue: Hilton Munich City\n\nAll dates:\n  Full paper submission: 30 Oct 20
+ 26\, 23:59 UTC+12 (assumed)\n  Author notification: 22 Jan 2027\, 23:59 UT
+ C+12 (assumed)\n  Author registration: 8 Feb 2027\, 23:59 UTC+12 (assumed)
+ \n  Presentation submission: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe c
+ all for papers states no timezone. This is counted as UTC+12\, the earlies
+ t it could plausibly mean\, so the countdown runs out before the real dead
+ line rather than after it.\n\nDPSP Europe 2027\, co-hosted with TU Munich.
+  Full papers only\, with no separate abstract stage\; papers are indexed i
+ n IET Inspec\, IEEE Xplore\, Ei Compendex and Scopus.\n\nCall for papers: 
+ https://dpsp.theiet.org/2027-europe\nDetails: https://powersystemdeadlines
+ .org/conference/dpsp-europe27
+LOCATION:Munich\, Germany
+URL;VALUE=URI:https://dpsp.theiet.org/2027-europe
+CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dpsp-europe27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+TRANSP:TRANSPARENT
+SUMMARY:DPSP 2027: Author notification (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Developments in Power System Pr
+ otection (DPSP 2027)\n\nAuthor notification: 22 Jan 2027\, 23:59 UTC+12 (a
+ ssumed)\n\nConference: April 14-16\, 2027\nLocation: Munich\, Germany\nVen
+ ue: Hilton Munich City\n\nAll dates:\n  Full paper submission: 30 Oct 2026
+ \, 23:59 UTC+12 (assumed)\n  Author notification: 22 Jan 2027\, 23:59 UTC+
+ 12 (assumed)\n  Author registration: 8 Feb 2027\, 23:59 UTC+12 (assumed)\n
+   Presentation submission: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe cal
+ l for papers states no timezone. This is counted as UTC+12\, the earliest 
+ it could plausibly mean\, so the countdown runs out before the real deadli
+ ne rather than after it.\n\nDPSP Europe 2027\, co-hosted with TU Munich. F
+ ull papers only\, with no separate abstract stage\; papers are indexed in 
+ IET Inspec\, IEEE Xplore\, Ei Compendex and Scopus.\n\nCall for papers: ht
+ tps://dpsp.theiet.org/2027-europe\nDetails: https://powersystemdeadlines.o
+ rg/conference/dpsp-europe27
+LOCATION:Munich\, Germany
+URL;VALUE=URI:https://dpsp.theiet.org/2027-europe
+CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dpsp-europe27-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+TRANSP:TRANSPARENT
+SUMMARY:DPSP 2027: Author registration (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Developments in Power System Pr
+ otection (DPSP 2027)\n\nAuthor registration: 8 Feb 2027\, 23:59 UTC+12 (as
+ sumed)\n\nConference: April 14-16\, 2027\nLocation: Munich\, Germany\nVenu
+ e: Hilton Munich City\n\nAll dates:\n  Full paper submission: 30 Oct 2026\
+ , 23:59 UTC+12 (assumed)\n  Author notification: 22 Jan 2027\, 23:59 UTC+1
+ 2 (assumed)\n  Author registration: 8 Feb 2027\, 23:59 UTC+12 (assumed)\n 
+  Presentation submission: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call
+  for papers states no timezone. This is counted as UTC+12\, the earliest i
+ t could plausibly mean\, so the countdown runs out before the real deadlin
+ e rather than after it.\n\nDPSP Europe 2027\, co-hosted with TU Munich. Fu
+ ll papers only\, with no separate abstract stage\; papers are indexed in I
+ ET Inspec\, IEEE Xplore\, Ei Compendex and Scopus.\n\nCall for papers: htt
+ ps://dpsp.theiet.org/2027-europe\nDetails: https://powersystemdeadlines.or
+ g/conference/dpsp-europe27
+LOCATION:Munich\, Germany
+URL;VALUE=URI:https://dpsp.theiet.org/2027-europe
+CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dpsp-europe27-presentation_upload@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+TRANSP:TRANSPARENT
+SUMMARY:DPSP 2027: Presentation submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Developments in Power System Pr
+ otection (DPSP 2027)\n\nPresentation submission: 15 Mar 2027\, 23:59 UTC+1
+ 2 (assumed)\n\nConference: April 14-16\, 2027\nLocation: Munich\, Germany\
+ nVenue: Hilton Munich City\n\nAll dates:\n  Full paper submission: 30 Oct 
+ 2026\, 23:59 UTC+12 (assumed)\n  Author notification: 22 Jan 2027\, 23:59 
+ UTC+12 (assumed)\n  Author registration: 8 Feb 2027\, 23:59 UTC+12 (assume
+ d)\n  Presentation submission: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe
+  call for papers states no timezone. This is counted as UTC+12\, the earli
+ est it could plausibly mean\, so the countdown runs out before the real de
+ adline rather than after it.\n\nDPSP Europe 2027\, co-hosted with TU Munic
+ h. Full papers only\, with no separate abstract stage\; papers are indexed
+  in IET Inspec\, IEEE Xplore\, Ei Compendex and Scopus.\n\nCall for papers
+ : https://dpsp.theiet.org/2027-europe\nDetails: https://powersystemdeadlin
+ es.org/conference/dpsp-europe27
+LOCATION:Munich\, Germany
+URL;VALUE=URI:https://dpsp.theiet.org/2027-europe
+CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rpg-china27-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
@@ -3429,8 +3402,8 @@ DESCRIPTION:IET International Conference on Renewable Power Generation and
  age gives 2 April 2027 for full papers\, but the author information page l
  ists 2 April as the abstract notification and 17 May 2027 for full papers\
  ; the author information page is followed here.\n\nCall for papers: https:
- //renewablepower.theiet.org/rpg-china-2027\nDetails: https://langestefan.g
- ithub.io/powersystem-deadlines/conference/rpg-china27
+ //renewablepower.theiet.org/rpg-china-2027\nDetails: https://powersystemde
+ adlines.org/conference/rpg-china27
 LOCATION:Shanghai\, China
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
 CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
@@ -3449,8 +3422,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rpg-china27-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:rpg-china27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270402
 DTEND;VALUE=DATE:20270403
 TRANSP:TRANSPARENT
@@ -3474,7 +3447,7 @@ DESCRIPTION:IET International Conference on Renewable Power Generation and
  ormation page lists 2 April as the abstract notification and 17 May 2027 f
  or full papers\; the author information page is followed here.\n\nCall for
   papers: https://renewablepower.theiet.org/rpg-china-2027\nDetails: https:
- //langestefan.github.io/powersystem-deadlines/conference/rpg-china27
+ //powersystemdeadlines.org/conference/rpg-china27
 LOCATION:Shanghai\, China
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
 CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
@@ -3493,8 +3466,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rpg-china27-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:rpg-china27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 TRANSP:TRANSPARENT
@@ -3516,8 +3489,8 @@ DESCRIPTION:IET International Conference on Renewable Power Generation and
  ding page gives 2 April 2027 for full papers\, but the author information 
  page lists 2 April as the abstract notification and 17 May 2027 for full p
  apers\; the author information page is followed here.\n\nCall for papers: 
- https://renewablepower.theiet.org/rpg-china-2027\nDetails: https://langest
- efan.github.io/powersystem-deadlines/conference/rpg-china27
+ https://renewablepower.theiet.org/rpg-china-2027\nDetails: https://powersy
+ stemdeadlines.org/conference/rpg-china27
 LOCATION:Shanghai\, China
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
 CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
@@ -3536,8 +3509,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rpg-china27-notification-2@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:rpg-china27-notification-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270614
 DTEND;VALUE=DATE:20270615
 TRANSP:TRANSPARENT
@@ -3561,7 +3534,7 @@ DESCRIPTION:IET International Conference on Renewable Power Generation and
  information page lists 2 April as the abstract notification and 17 May 202
  7 for full papers\; the author information page is followed here.\n\nCall 
  for papers: https://renewablepower.theiet.org/rpg-china-2027\nDetails: htt
- ps://langestefan.github.io/powersystem-deadlines/conference/rpg-china27
+ ps://powersystemdeadlines.org/conference/rpg-china27
 LOCATION:Shanghai\, China
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
 CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
@@ -3580,8 +3553,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rpg-china27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:rpg-china27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270628
 DTEND;VALUE=DATE:20270629
 TRANSP:TRANSPARENT
@@ -3605,7 +3578,7 @@ DESCRIPTION:IET International Conference on Renewable Power Generation and
  rmation page lists 2 April as the abstract notification and 17 May 2027 fo
  r full papers\; the author information page is followed here.\n\nCall for 
  papers: https://renewablepower.theiet.org/rpg-china-2027\nDetails: https:/
- /langestefan.github.io/powersystem-deadlines/conference/rpg-china27
+ /powersystemdeadlines.org/conference/rpg-china27
 LOCATION:Shanghai\, China
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
 CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
@@ -3624,8 +3597,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rpg-china27-camera_ready-2@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:rpg-china27-camera_ready-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270710
 TRANSP:TRANSPARENT
@@ -3647,8 +3620,8 @@ DESCRIPTION:IET International Conference on Renewable Power Generation and
  nding page gives 2 April 2027 for full papers\, but the author information
   page lists 2 April as the abstract notification and 17 May 2027 for full 
  papers\; the author information page is followed here.\n\nCall for papers:
-  https://renewablepower.theiet.org/rpg-china-2027\nDetails: https://langes
- tefan.github.io/powersystem-deadlines/conference/rpg-china27
+  https://renewablepower.theiet.org/rpg-china-2027\nDetails: https://powers
+ ystemdeadlines.org/conference/rpg-china27
 LOCATION:Shanghai\, China
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
 CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
@@ -3667,8 +3640,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rpg-china27-early_registration@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:rpg-china27-early_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270726
 DTEND;VALUE=DATE:20270727
 TRANSP:TRANSPARENT
@@ -3690,8 +3663,8 @@ DESCRIPTION:IET International Conference on Renewable Power Generation and
  ng page gives 2 April 2027 for full papers\, but the author information pa
  ge lists 2 April as the abstract notification and 17 May 2027 for full pap
  ers\; the author information page is followed here.\n\nCall for papers: ht
- tps://renewablepower.theiet.org/rpg-china-2027\nDetails: https://langestef
- an.github.io/powersystem-deadlines/conference/rpg-china27
+ tps://renewablepower.theiet.org/rpg-china-2027\nDetails: https://powersyst
+ emdeadlines.org/conference/rpg-china27
 LOCATION:Shanghai\, China
 URL;VALUE=URI:https://renewablepower.theiet.org/rpg-china-2027
 CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
@@ -3710,8 +3683,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:upec27-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:upec27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270501
 TRANSP:TRANSPARENT
@@ -3729,8 +3702,8 @@ DESCRIPTION:International Universities Power Engineering Conference (UPEC 2
  by Frederick University and the PHAETHON Centre of Excellence\, themed on 
  decarbonising the grid through multi-sector synergies. Paper submission op
  ens on 1 February 2027\; early submissions get rolling notification.\n\nCa
- ll for papers: https://cyprusconferences.org/upec2027/\nDetails: https://l
- angestefan.github.io/powersystem-deadlines/conference/upec27
+ ll for papers: https://cyprusconferences.org/upec2027/\nDetails: https://p
+ owersystemdeadlines.org/conference/upec27
 LOCATION:Larnaca\, Cyprus
 URL;VALUE=URI:https://cyprusconferences.org/upec2027/
 CATEGORIES:Power Systems,Smart Grid,Renewables,Energy Markets,EV & Transpor
@@ -3749,8 +3722,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:upec27-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:upec27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270618
 DTEND;VALUE=DATE:20270619
 TRANSP:TRANSPARENT
@@ -3769,7 +3742,7 @@ DESCRIPTION:International Universities Power Engineering Conference (UPEC 2
  themed on decarbonising the grid through multi-sector synergies. Paper sub
  mission opens on 1 February 2027\; early submissions get rolling notificat
  ion.\n\nCall for papers: https://cyprusconferences.org/upec2027/\nDetails:
-  https://langestefan.github.io/powersystem-deadlines/conference/upec27
+  https://powersystemdeadlines.org/conference/upec27
 LOCATION:Larnaca\, Cyprus
 URL;VALUE=URI:https://cyprusconferences.org/upec2027/
 CATEGORIES:Power Systems,Smart Grid,Renewables,Energy Markets,EV & Transpor
@@ -3788,8 +3761,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:upec27-early_registration@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:upec27-early_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270625
 DTEND;VALUE=DATE:20270626
 TRANSP:TRANSPARENT
@@ -3808,7 +3781,7 @@ DESCRIPTION:International Universities Power Engineering Conference (UPEC 2
  med on decarbonising the grid through multi-sector synergies. Paper submis
  sion opens on 1 February 2027\; early submissions get rolling notification
  .\n\nCall for papers: https://cyprusconferences.org/upec2027/\nDetails: ht
- tps://langestefan.github.io/powersystem-deadlines/conference/upec27
+ tps://powersystemdeadlines.org/conference/upec27
 LOCATION:Larnaca\, Cyprus
 URL;VALUE=URI:https://cyprusconferences.org/upec2027/
 CATEGORIES:Power Systems,Smart Grid,Renewables,Energy Markets,EV & Transpor
@@ -3827,8 +3800,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:upec27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:upec27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270716
 DTEND;VALUE=DATE:20270717
 TRANSP:TRANSPARENT
@@ -3848,8 +3821,7 @@ DESCRIPTION:International Universities Power Engineering Conference (UPEC 2
  f Excellence\, themed on decarbonising the grid through multi-sector syner
  gies. Paper submission opens on 1 February 2027\; early submissions get ro
  lling notification.\n\nCall for papers: https://cyprusconferences.org/upec
- 2027/\nDetails: https://langestefan.github.io/powersystem-deadlines/confer
- ence/upec27
+ 2027/\nDetails: https://powersystemdeadlines.org/conference/upec27
 LOCATION:Larnaca\, Cyprus
 URL;VALUE=URI:https://cyprusconferences.org/upec2027/
 CATEGORIES:Power Systems,Smart Grid,Renewables,Energy Markets,EV & Transpor
@@ -3868,8 +3840,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tpec26-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:tpec26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20251124
 DTEND;VALUE=DATE:20251125
 TRANSP:TRANSPARENT
@@ -3883,7 +3855,7 @@ DESCRIPTION:IEEE Texas Power and Energy Conference (TPEC 2026)\n\nPaper sub
  is is counted as UTC+12\, the earliest it could plausibly mean\, so the co
  untdown runs out before the real deadline rather than after it.\n\n10th ed
  ition.\n\nCall for papers: https://tpec.engr.tamu.edu/tpec-2026.html\nDeta
- ils: https://langestefan.github.io/powersystem-deadlines/conference/tpec26
+ ils: https://powersystemdeadlines.org/conference/tpec26
 LOCATION:College Station\, USA
 URL;VALUE=URI:https://tpec.engr.tamu.edu/tpec-2026.html
 CATEGORIES:Power Systems,Power Electronics,Machines & Drives,Energy Markets
@@ -3902,8 +3874,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tpec26-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:tpec26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260102
 DTEND;VALUE=DATE:20260103
 TRANSP:TRANSPARENT
@@ -3917,7 +3889,7 @@ DESCRIPTION:IEEE Texas Power and Energy Conference (TPEC 2026)\n\nNotice of
  unted as UTC+12\, the earliest it could plausibly mean\, so the countdown 
  runs out before the real deadline rather than after it.\n\n10th edition.\n
  \nCall for papers: https://tpec.engr.tamu.edu/tpec-2026.html\nDetails: htt
- ps://langestefan.github.io/powersystem-deadlines/conference/tpec26
+ ps://powersystemdeadlines.org/conference/tpec26
 LOCATION:College Station\, USA
 URL;VALUE=URI:https://tpec.engr.tamu.edu/tpec-2026.html
 CATEGORIES:Power Systems,Power Electronics,Machines & Drives,Energy Markets
@@ -3936,8 +3908,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dpsp-global26-abstract@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:dpsp-global26-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20250711
 DTEND;VALUE=DATE:20250712
 TRANSP:TRANSPARENT
@@ -3954,7 +3926,7 @@ DESCRIPTION:IET International Conference on Developments in Power System Pr
   as UTC+12\, the earliest it could plausibly mean\, so the countdown runs 
  out before the real deadline rather than after it.\n\n20th edition (DPSP G
  lobal 2026).\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https:
- //langestefan.github.io/powersystem-deadlines/conference/dpsp-global26
+ //powersystemdeadlines.org/conference/dpsp-global26
 LOCATION:London\, United Kingdom
 URL;VALUE=URI:https://dpsp.theiet.org/
 CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
@@ -3972,8 +3944,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dpsp-global26-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:dpsp-global26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20251031
 DTEND;VALUE=DATE:20251101
 TRANSP:TRANSPARENT
@@ -3989,8 +3961,8 @@ DESCRIPTION:IET International Conference on Developments in Power System Pr
  sumed)\n\nThe call for papers states no timezone. This is counted as UTC+1
  2\, the earliest it could plausibly mean\, so the countdown runs out befor
  e the real deadline rather than after it.\n\n20th edition (DPSP Global 202
- 6).\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https://langest
- efan.github.io/powersystem-deadlines/conference/dpsp-global26
+ 6).\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https://powersy
+ stemdeadlines.org/conference/dpsp-global26
 LOCATION:London\, United Kingdom
 URL;VALUE=URI:https://dpsp.theiet.org/
 CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
@@ -4008,8 +3980,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dpsp-global26-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:dpsp-global26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20251210
 DTEND;VALUE=DATE:20251211
 TRANSP:TRANSPARENT
@@ -4025,8 +3997,8 @@ DESCRIPTION:IET International Conference on Developments in Power System Pr
  med)\n\nThe call for papers states no timezone. This is counted as UTC+12\
  , the earliest it could plausibly mean\, so the countdown runs out before 
  the real deadline rather than after it.\n\n20th edition (DPSP Global 2026)
- .\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https://langestef
- an.github.io/powersystem-deadlines/conference/dpsp-global26
+ .\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https://powersyst
+ emdeadlines.org/conference/dpsp-global26
 LOCATION:London\, United Kingdom
 URL;VALUE=URI:https://dpsp.theiet.org/
 CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
@@ -4044,8 +4016,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dpsp-global26-author_registration@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:dpsp-global26-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20251222
 DTEND;VALUE=DATE:20251223
 TRANSP:TRANSPARENT
@@ -4061,8 +4033,8 @@ DESCRIPTION:IET International Conference on Developments in Power System Pr
  med)\n\nThe call for papers states no timezone. This is counted as UTC+12\
  , the earliest it could plausibly mean\, so the countdown runs out before 
  the real deadline rather than after it.\n\n20th edition (DPSP Global 2026)
- .\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https://langestef
- an.github.io/powersystem-deadlines/conference/dpsp-global26
+ .\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https://powersyst
+ emdeadlines.org/conference/dpsp-global26
 LOCATION:London\, United Kingdom
 URL;VALUE=URI:https://dpsp.theiet.org/
 CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
@@ -4080,8 +4052,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dpsp-global26-presentation_upload@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:dpsp-global26-presentation_upload@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260220
 DTEND;VALUE=DATE:20260221
 TRANSP:TRANSPARENT
@@ -4098,7 +4070,7 @@ DESCRIPTION:IET International Conference on Developments in Power System Pr
  as UTC+12\, the earliest it could plausibly mean\, so the countdown runs o
  ut before the real deadline rather than after it.\n\n20th edition (DPSP Gl
  obal 2026).\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https:/
- /langestefan.github.io/powersystem-deadlines/conference/dpsp-global26
+ /powersystemdeadlines.org/conference/dpsp-global26
 LOCATION:London\, United Kingdom
 URL;VALUE=URI:https://dpsp.theiet.org/
 CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
@@ -4116,8 +4088,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:icit26-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:icit26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20251115
 DTEND;VALUE=DATE:20251116
 TRANSP:TRANSPARENT
@@ -4136,7 +4108,7 @@ DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
  lausibly mean\, so the countdown runs out before the real deadline rather 
  than after it.\n\n27th edition\, hosted by Universidad Autónoma de Nuevo 
  León.\n\nCall for papers: https://icit2026.ieee-ies.org/\nDetails: https:
- //langestefan.github.io/powersystem-deadlines/conference/icit26
+ //powersystemdeadlines.org/conference/icit26
 LOCATION:Monterrey\, Mexico
 URL;VALUE=URI:https://icit2026.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -4154,8 +4126,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:icit26-paper-2@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:icit26-paper-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20251130
 DTEND;VALUE=DATE:20251201
 TRANSP:TRANSPARENT
@@ -4173,8 +4145,8 @@ DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
  timezone. This is counted as UTC+12\, the earliest it could plausibly mean
  \, so the countdown runs out before the real deadline rather than after it
  .\n\n27th edition\, hosted by Universidad Autónoma de Nuevo León.\n\nCal
- l for papers: https://icit2026.ieee-ies.org/\nDetails: https://langestefan
- .github.io/powersystem-deadlines/conference/icit26
+ l for papers: https://icit2026.ieee-ies.org/\nDetails: https://powersystem
+ deadlines.org/conference/icit26
 LOCATION:Monterrey\, Mexico
 URL;VALUE=URI:https://icit2026.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -4192,8 +4164,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:icit26-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:icit26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260112
 DTEND;VALUE=DATE:20260113
 TRANSP:TRANSPARENT
@@ -4210,8 +4182,8 @@ DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
  zone. This is counted as UTC+12\, the earliest it could plausibly mean\, s
  o the countdown runs out before the real deadline rather than after it.\n\
  n27th edition\, hosted by Universidad Autónoma de Nuevo León.\n\nCall fo
- r papers: https://icit2026.ieee-ies.org/\nDetails: https://langestefan.git
- hub.io/powersystem-deadlines/conference/icit26
+ r papers: https://icit2026.ieee-ies.org/\nDetails: https://powersystemdead
+ lines.org/conference/icit26
 LOCATION:Monterrey\, Mexico
 URL;VALUE=URI:https://icit2026.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -4229,8 +4201,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:icit26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:icit26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260131
 DTEND;VALUE=DATE:20260201
 TRANSP:TRANSPARENT
@@ -4247,8 +4219,8 @@ DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
  his is counted as UTC+12\, the earliest it could plausibly mean\, so the c
  ountdown runs out before the real deadline rather than after it.\n\n27th e
  dition\, hosted by Universidad Autónoma de Nuevo León.\n\nCall for paper
- s: https://icit2026.ieee-ies.org/\nDetails: https://langestefan.github.io/
- powersystem-deadlines/conference/icit26
+ s: https://icit2026.ieee-ies.org/\nDetails: https://powersystemdeadlines.o
+ rg/conference/icit26
 LOCATION:Monterrey\, Mexico
 URL;VALUE=URI:https://icit2026.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -4266,8 +4238,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:icit26-author_registration@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:icit26-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260131
 DTEND;VALUE=DATE:20260201
 TRANSP:TRANSPARENT
@@ -4284,8 +4256,8 @@ DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
   is counted as UTC+12\, the earliest it could plausibly mean\, so the coun
  tdown runs out before the real deadline rather than after it.\n\n27th edit
  ion\, hosted by Universidad Autónoma de Nuevo León.\n\nCall for papers: 
- https://icit2026.ieee-ies.org/\nDetails: https://langestefan.github.io/pow
- ersystem-deadlines/conference/icit26
+ https://icit2026.ieee-ies.org/\nDetails: https://powersystemdeadlines.org/
+ conference/icit26
 LOCATION:Monterrey\, Mexico
 URL;VALUE=URI:https://icit2026.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -4303,8 +4275,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:greentech26-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:greentech26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20251116
 DTEND;VALUE=DATE:20251117
 TRANSP:TRANSPARENT
@@ -4319,8 +4291,8 @@ DESCRIPTION:IEEE FutureGrid Conference and Expo (formerly IEEE Green Techno
  counted as UTC+12\, the earliest it could plausibly mean\, so the countdow
  n runs out before the real deadline rather than after it.\n\n18th annual I
  EEE Green Technologies Conference (GreenTech 2026).\n\nCall for papers: ht
- tps://ieeegreentech.org/\nDetails: https://langestefan.github.io/powersyst
- em-deadlines/conference/greentech26
+ tps://ieeegreentech.org/\nDetails: https://powersystemdeadlines.org/confer
+ ence/greentech26
 LOCATION:Boulder\, USA
 URL;VALUE=URI:https://ieeegreentech.org/
 CATEGORIES:Renewables,Smart Grid,Energy Storage,Power Systems
@@ -4338,8 +4310,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:greentech26-tutorial_proposal@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:greentech26-tutorial_proposal@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20251214
 DTEND;VALUE=DATE:20251215
 TRANSP:TRANSPARENT
@@ -4354,8 +4326,8 @@ DESCRIPTION:IEEE FutureGrid Conference and Expo (formerly IEEE Green Techno
  s no timezone. This is counted as UTC+12\, the earliest it could plausibly
   mean\, so the countdown runs out before the real deadline rather than aft
  er it.\n\n18th annual IEEE Green Technologies Conference (GreenTech 2026).
- \n\nCall for papers: https://ieeegreentech.org/\nDetails: https://langeste
- fan.github.io/powersystem-deadlines/conference/greentech26
+ \n\nCall for papers: https://ieeegreentech.org/\nDetails: https://powersys
+ temdeadlines.org/conference/greentech26
 LOCATION:Boulder\, USA
 URL;VALUE=URI:https://ieeegreentech.org/
 CATEGORIES:Renewables,Smart Grid,Energy Storage,Power Systems
@@ -4373,8 +4345,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pes-td26-tutorial_proposal@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:pes-td26-tutorial_proposal@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20250606
 DTEND;VALUE=DATE:20250607
 TRANSP:TRANSPARENT
@@ -4392,8 +4364,8 @@ DESCRIPTION:IEEE PES Transmission and Distribution Conference and Expositio
  Themed "Powering Reliability\, Engineering Resilience". The submission sit
  e opened on 10 July 2025. A separate call-for-papers page gave 28 August 2
  025 for papers\; the 14 August date from the call for participation is rec
- orded here.\n\nCall for papers: https://ieeet-d.org/\nDetails: https://lan
- gestefan.github.io/powersystem-deadlines/conference/pes-td26
+ orded here.\n\nCall for papers: https://ieeet-d.org/\nDetails: https://pow
+ ersystemdeadlines.org/conference/pes-td26
 LOCATION:Chicago\, USA
 URL;VALUE=URI:https://ieeet-d.org/
 CATEGORIES:Transmission,Distribution,Power Systems,Protection & Automation
@@ -4411,8 +4383,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pes-td26-panel_proposal@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:pes-td26-panel_proposal@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20250801
 DTEND;VALUE=DATE:20250802
 TRANSP:TRANSPARENT
@@ -4432,8 +4404,7 @@ DESCRIPTION:IEEE PES Transmission and Distribution Conference and Expositio
  ilience". The submission site opened on 10 July 2025. A separate call-for-
  papers page gave 28 August 2025 for papers\; the 14 August date from the c
  all for participation is recorded here.\n\nCall for papers: https://ieeet-
- d.org/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
- rence/pes-td26
+ d.org/\nDetails: https://powersystemdeadlines.org/conference/pes-td26
 LOCATION:Chicago\, USA
 URL;VALUE=URI:https://ieeet-d.org/
 CATEGORIES:Transmission,Distribution,Power Systems,Protection & Automation
@@ -4451,8 +4422,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pes-td26-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:pes-td26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20250814
 DTEND;VALUE=DATE:20250815
 TRANSP:TRANSPARENT
@@ -4472,8 +4443,8 @@ DESCRIPTION:IEEE PES Transmission and Distribution Conference and Expositio
  gineering Resilience". The submission site opened on 10 July 2025. A separ
  ate call-for-papers page gave 28 August 2025 for papers\; the 14 August da
  te from the call for participation is recorded here.\n\nCall for papers: h
- ttps://ieeet-d.org/\nDetails: https://langestefan.github.io/powersystem-de
- adlines/conference/pes-td26
+ ttps://ieeet-d.org/\nDetails: https://powersystemdeadlines.org/conference/
+ pes-td26
 LOCATION:Chicago\, USA
 URL;VALUE=URI:https://ieeet-d.org/
 CATEGORIES:Transmission,Distribution,Power Systems,Protection & Automation
@@ -4491,8 +4462,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pes-td26-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:pes-td26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20251104
 DTEND;VALUE=DATE:20251105
 TRANSP:TRANSPARENT
@@ -4511,7 +4482,7 @@ DESCRIPTION:IEEE PES Transmission and Distribution Conference and Expositio
  on site opened on 10 July 2025. A separate call-for-papers page gave 28 Au
  gust 2025 for papers\; the 14 August date from the call for participation 
  is recorded here.\n\nCall for papers: https://ieeet-d.org/\nDetails: https
- ://langestefan.github.io/powersystem-deadlines/conference/pes-td26
+ ://powersystemdeadlines.org/conference/pes-td26
 LOCATION:Chicago\, USA
 URL;VALUE=URI:https://ieeet-d.org/
 CATEGORIES:Transmission,Distribution,Power Systems,Protection & Automation
@@ -4529,8 +4500,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pscc26-abstract@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:pscc26-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20250615
 DTEND;VALUE=DATE:20250616
 TRANSP:TRANSPARENT
@@ -4548,8 +4519,8 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nOne-page ab
  eal deadline rather than after it.\n\nSubmission is abstract-first: a one-
  page abstract must be accepted before the full paper can be submitted. The
   final manuscript deadline was extended from 15 to 22 March 2026.\n\nCall 
- for papers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/p
- owersystem-deadlines/conference/pscc26
+ for papers: https://pscc2026.cy/\nDetails: https://powersystemdeadlines.or
+ g/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -4567,8 +4538,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pscc26-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:pscc26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20250622
 DTEND;VALUE=DATE:20250623
 TRANSP:TRANSPARENT
@@ -4587,8 +4558,8 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nAbstract ac
  he real deadline rather than after it.\n\nSubmission is abstract-first: a 
  one-page abstract must be accepted before the full paper can be submitted.
   The final manuscript deadline was extended from 15 to 22 March 2026.\n\nC
- all for papers: https://pscc2026.cy/\nDetails: https://langestefan.github.
- io/powersystem-deadlines/conference/pscc26
+ all for papers: https://pscc2026.cy/\nDetails: https://powersystemdeadline
+ s.org/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -4606,8 +4577,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pscc26-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:pscc26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20251015
 DTEND;VALUE=DATE:20251016
 TRANSP:TRANSPARENT
@@ -4625,8 +4596,8 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nFull paper
  dline rather than after it.\n\nSubmission is abstract-first: a one-page ab
  stract must be accepted before the full paper can be submitted. The final 
  manuscript deadline was extended from 15 to 22 March 2026.\n\nCall for pap
- ers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/powersys
- tem-deadlines/conference/pscc26
+ ers: https://pscc2026.cy/\nDetails: https://powersystemdeadlines.org/confe
+ rence/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -4644,8 +4615,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pscc26-notification-2@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:pscc26-notification-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260208
 DTEND;VALUE=DATE:20260209
 TRANSP:TRANSPARENT
@@ -4664,8 +4635,8 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nAcceptance
  e real deadline rather than after it.\n\nSubmission is abstract-first: a o
  ne-page abstract must be accepted before the full paper can be submitted. 
  The final manuscript deadline was extended from 15 to 22 March 2026.\n\nCa
- ll for papers: https://pscc2026.cy/\nDetails: https://langestefan.github.i
- o/powersystem-deadlines/conference/pscc26
+ ll for papers: https://pscc2026.cy/\nDetails: https://powersystemdeadlines
+ .org/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -4683,8 +4654,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pscc26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:pscc26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
 TRANSP:TRANSPARENT
@@ -4703,8 +4674,8 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nFinal manus
  fore the real deadline rather than after it.\n\nSubmission is abstract-fir
  st: a one-page abstract must be accepted before the full paper can be subm
  itted. The final manuscript deadline was extended from 15 to 22 March 2026
- .\n\nCall for papers: https://pscc2026.cy/\nDetails: https://langestefan.g
- ithub.io/powersystem-deadlines/conference/pscc26
+ .\n\nCall for papers: https://pscc2026.cy/\nDetails: https://powersystemde
+ adlines.org/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -4722,8 +4693,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie26-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:isie26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260315
 DTEND;VALUE=DATE:20260316
 TRANSP:TRANSPARENT
@@ -4740,8 +4711,8 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
  rliest it could plausibly mean\, so the countdown runs out before the real
   deadline rather than after it.\n\n35th edition. The full paper deadline w
  as extended twice\, from 31 January 2026.\n\nCall for papers: https://atte
- nd.ieee.org/isie-2026\nDetails: https://langestefan.github.io/powersystem-
- deadlines/conference/isie26
+ nd.ieee.org/isie-2026\nDetails: https://powersystemdeadlines.org/conferenc
+ e/isie26
 LOCATION:Nagoya\, Japan
 URL;VALUE=URI:https://attend.ieee.org/isie-2026
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -4759,8 +4730,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie26-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:isie26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260424
 DTEND;VALUE=DATE:20260425
 TRANSP:TRANSPARENT
@@ -4778,8 +4749,8 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
  s UTC+12\, the earliest it could plausibly mean\, so the countdown runs ou
  t before the real deadline rather than after it.\n\n35th edition. The full
   paper deadline was extended twice\, from 31 January 2026.\n\nCall for pap
- ers: https://attend.ieee.org/isie-2026\nDetails: https://langestefan.githu
- b.io/powersystem-deadlines/conference/isie26
+ ers: https://attend.ieee.org/isie-2026\nDetails: https://powersystemdeadli
+ nes.org/conference/isie26
 LOCATION:Nagoya\, Japan
 URL;VALUE=URI:https://attend.ieee.org/isie-2026
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -4797,8 +4768,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:isie26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -4816,8 +4787,8 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
  the earliest it could plausibly mean\, so the countdown runs out before th
  e real deadline rather than after it.\n\n35th edition. The full paper dead
  line was extended twice\, from 31 January 2026.\n\nCall for papers: https:
- //attend.ieee.org/isie-2026\nDetails: https://langestefan.github.io/powers
- ystem-deadlines/conference/isie26
+ //attend.ieee.org/isie-2026\nDetails: https://powersystemdeadlines.org/con
+ ference/isie26
 LOCATION:Nagoya\, Japan
 URL;VALUE=URI:https://attend.ieee.org/isie-2026
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -4835,8 +4806,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie26-early_registration@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:isie26-early_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -4853,8 +4824,7 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
   could plausibly mean\, so the countdown runs out before the real deadline
   rather than after it.\n\n35th edition. The full paper deadline was extend
  ed twice\, from 31 January 2026.\n\nCall for papers: https://attend.ieee.o
- rg/isie-2026\nDetails: https://langestefan.github.io/powersystem-deadlines
- /conference/isie26
+ rg/isie-2026\nDetails: https://powersystemdeadlines.org/conference/isie26
 LOCATION:Nagoya\, Japan
 URL;VALUE=URI:https://attend.ieee.org/isie-2026
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -4872,8 +4842,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie26-paper-2@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:isie26-paper-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260525
 DTEND;VALUE=DATE:20260526
 TRANSP:TRANSPARENT
@@ -4890,8 +4860,8 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
  est it could plausibly mean\, so the countdown runs out before the real de
  adline rather than after it.\n\n35th edition. The full paper deadline was 
  extended twice\, from 31 January 2026.\n\nCall for papers: https://attend.
- ieee.org/isie-2026\nDetails: https://langestefan.github.io/powersystem-dea
- dlines/conference/isie26
+ ieee.org/isie-2026\nDetails: https://powersystemdeadlines.org/conference/i
+ sie26
 LOCATION:Nagoya\, Japan
 URL;VALUE=URI:https://attend.ieee.org/isie-2026
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -4909,8 +4879,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eeeic26-workshop_proposal@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:eeeic26-workshop_proposal@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260101
 DTEND;VALUE=DATE:20260102
 TRANSP:TRANSPARENT
@@ -4928,8 +4898,8 @@ DESCRIPTION:IEEE International Conference on Environment and Electrical Eng
  ere notified within three weeks of submission and final versions were due 
  two weeks after notification. The site lists both 4 May and 11 May 2026 as
   the end of submission\; the later date is recorded here.\n\nCall for pape
- rs: https://www.eeeic.net/\nDetails: https://langestefan.github.io/powersy
- stem-deadlines/conference/eeeic26
+ rs: https://www.eeeic.net/\nDetails: https://powersystemdeadlines.org/conf
+ erence/eeeic26
 LOCATION:Lisbon\, Portugal
 URL;VALUE=URI:https://www.eeeic.net/
 CATEGORIES:Power Systems,Renewables,Smart Grid,Energy Storage,Power Quality
@@ -4947,8 +4917,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eeeic26-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:eeeic26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260511
 DTEND;VALUE=DATE:20260512
 TRANSP:TRANSPARENT
@@ -4966,8 +4936,8 @@ DESCRIPTION:IEEE International Conference on Environment and Electrical Eng
   notified within three weeks of submission and final versions were due two
   weeks after notification. The site lists both 4 May and 11 May 2026 as th
  e end of submission\; the later date is recorded here.\n\nCall for papers:
-  https://www.eeeic.net/\nDetails: https://langestefan.github.io/powersyste
- m-deadlines/conference/eeeic26
+  https://www.eeeic.net/\nDetails: https://powersystemdeadlines.org/confere
+ nce/eeeic26
 LOCATION:Lisbon\, Portugal
 URL;VALUE=URI:https://www.eeeic.net/
 CATEGORIES:Power Systems,Renewables,Smart Grid,Energy Storage,Power Quality
@@ -4985,8 +4955,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eeeic26-early_registration@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:eeeic26-early_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260531
 DTEND;VALUE=DATE:20260601
 TRANSP:TRANSPARENT
@@ -5004,8 +4974,8 @@ DESCRIPTION:IEEE International Conference on Environment and Electrical Eng
  ere notified within three weeks of submission and final versions were due 
  two weeks after notification. The site lists both 4 May and 11 May 2026 as
   the end of submission\; the later date is recorded here.\n\nCall for pape
- rs: https://www.eeeic.net/\nDetails: https://langestefan.github.io/powersy
- stem-deadlines/conference/eeeic26
+ rs: https://www.eeeic.net/\nDetails: https://powersystemdeadlines.org/conf
+ erence/eeeic26
 LOCATION:Lisbon\, Portugal
 URL;VALUE=URI:https://www.eeeic.net/
 CATEGORIES:Power Systems,Renewables,Smart Grid,Energy Storage,Power Quality
@@ -5023,8 +4993,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:compel26-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:compel26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260408
 DTEND;VALUE=DATE:20260409
 TRANSP:TRANSPARENT
@@ -5040,8 +5010,8 @@ DESCRIPTION:IEEE Workshop on Control and Modeling for Power Electronics (CO
   plausibly mean\, so the countdown runs out before the real deadline rathe
  r than after it.\n\n27th edition. Digests of up to five pages\, double-bli
  nd. The digest deadline was extended from 31 March 2026.\n\nCall for paper
- s: https://attend.ieee.org/compel-2026\nDetails: https://langestefan.githu
- b.io/powersystem-deadlines/conference/compel26
+ s: https://attend.ieee.org/compel-2026\nDetails: https://powersystemdeadli
+ nes.org/conference/compel26
 LOCATION:Cambridge\, United Kingdom
 URL;VALUE=URI:https://attend.ieee.org/compel-2026
 CATEGORIES:Power Electronics,Computation & Optimization
@@ -5059,8 +5029,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:compel26-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:compel26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260514
 DTEND;VALUE=DATE:20260515
 TRANSP:TRANSPARENT
@@ -5076,8 +5046,8 @@ DESCRIPTION:IEEE Workshop on Control and Modeling for Power Electronics (CO
  plausibly mean\, so the countdown runs out before the real deadline rather
   than after it.\n\n27th edition. Digests of up to five pages\, double-blin
  d. The digest deadline was extended from 31 March 2026.\n\nCall for papers
- : https://attend.ieee.org/compel-2026\nDetails: https://langestefan.github
- .io/powersystem-deadlines/conference/compel26
+ : https://attend.ieee.org/compel-2026\nDetails: https://powersystemdeadlin
+ es.org/conference/compel26
 LOCATION:Cambridge\, United Kingdom
 URL;VALUE=URI:https://attend.ieee.org/compel-2026
 CATEGORIES:Power Electronics,Computation & Optimization
@@ -5095,8 +5065,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:compel26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:compel26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260623
 DTEND;VALUE=DATE:20260624
 TRANSP:TRANSPARENT
@@ -5113,8 +5083,8 @@ DESCRIPTION:IEEE Workshop on Control and Modeling for Power Electronics (CO
  could plausibly mean\, so the countdown runs out before the real deadline 
  rather than after it.\n\n27th edition. Digests of up to five pages\, doubl
  e-blind. The digest deadline was extended from 31 March 2026.\n\nCall for 
- papers: https://attend.ieee.org/compel-2026\nDetails: https://langestefan.
- github.io/powersystem-deadlines/conference/compel26
+ papers: https://attend.ieee.org/compel-2026\nDetails: https://powersystemd
+ eadlines.org/conference/compel26
 LOCATION:Cambridge\, United Kingdom
 URL;VALUE=URI:https://attend.ieee.org/compel-2026
 CATEGORIES:Power Electronics,Computation & Optimization
@@ -5132,8 +5102,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-session26-abstract@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cigre-session26-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20250707
 DTEND;VALUE=DATE:20250708
 TRANSP:TRANSPARENT
@@ -5154,8 +5124,7 @@ DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nSynopsis to the Nat
   after it.\n\nDeadlines are those for authors submitting through a Nationa
  l Committee\; authors from countries without one had later deadlines with 
  the Central Office.\n\nCall for papers: https://session.cigre.org/\nDetail
- s: https://langestefan.github.io/powersystem-deadlines/conference/cigre-se
- ssion26
+ s: https://powersystemdeadlines.org/conference/cigre-session26
 LOCATION:Paris\, France
 URL;VALUE=URI:https://session.cigre.org/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
@@ -5174,8 +5143,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-session26-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cigre-session26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20251020
 DTEND;VALUE=DATE:20251021
 TRANSP:TRANSPARENT
@@ -5196,8 +5165,7 @@ DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nSynopsis acceptance
  after it.\n\nDeadlines are those for authors submitting through a National
   Committee\; authors from countries without one had later deadlines with t
  he Central Office.\n\nCall for papers: https://session.cigre.org/\nDetails
- : https://langestefan.github.io/powersystem-deadlines/conference/cigre-ses
- sion26
+ : https://powersystemdeadlines.org/conference/cigre-session26
 LOCATION:Paris\, France
 URL;VALUE=URI:https://session.cigre.org/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
@@ -5216,8 +5184,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-session26-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cigre-session26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260112
 DTEND;VALUE=DATE:20260113
 TRANSP:TRANSPARENT
@@ -5238,8 +5206,7 @@ DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nFull paper to the N
  han after it.\n\nDeadlines are those for authors submitting through a Nati
  onal Committee\; authors from countries without one had later deadlines wi
  th the Central Office.\n\nCall for papers: https://session.cigre.org/\nDet
- ails: https://langestefan.github.io/powersystem-deadlines/conference/cigre
- -session26
+ ails: https://powersystemdeadlines.org/conference/cigre-session26
 LOCATION:Paris\, France
 URL;VALUE=URI:https://session.cigre.org/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
@@ -5258,8 +5225,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-session26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cigre-session26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260410
 DTEND;VALUE=DATE:20260411
 TRANSP:TRANSPARENT
@@ -5278,8 +5245,8 @@ DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nRevised version: 10
   countdown runs out before the real deadline rather than after it.\n\nDead
  lines are those for authors submitting through a National Committee\; auth
  ors from countries without one had later deadlines with the Central Office
- .\n\nCall for papers: https://session.cigre.org/\nDetails: https://langest
- efan.github.io/powersystem-deadlines/conference/cigre-session26
+ .\n\nCall for papers: https://session.cigre.org/\nDetails: https://powersy
+ stemdeadlines.org/conference/cigre-session26
 LOCATION:Paris\, France
 URL;VALUE=URI:https://session.cigre.org/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
@@ -5298,8 +5265,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-session26-notification-2@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cigre-session26-notification-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260511
 DTEND;VALUE=DATE:20260512
 TRANSP:TRANSPARENT
@@ -5320,8 +5287,7 @@ DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nFull paper acceptan
  n after it.\n\nDeadlines are those for authors submitting through a Nation
  al Committee\; authors from countries without one had later deadlines with
   the Central Office.\n\nCall for papers: https://session.cigre.org/\nDetai
- ls: https://langestefan.github.io/powersystem-deadlines/conference/cigre-s
- ession26
+ ls: https://powersystemdeadlines.org/conference/cigre-session26
 LOCATION:Paris\, France
 URL;VALUE=URI:https://session.cigre.org/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
@@ -5340,8 +5306,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-session26-poster@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cigre-session26-poster@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20260630
 TRANSP:TRANSPARENT
@@ -5360,8 +5326,8 @@ DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nPoster: 29 Jun 2026
  n runs out before the real deadline rather than after it.\n\nDeadlines are
   those for authors submitting through a National Committee\; authors from 
  countries without one had later deadlines with the Central Office.\n\nCall
-  for papers: https://session.cigre.org/\nDetails: https://langestefan.gith
- ub.io/powersystem-deadlines/conference/cigre-session26
+  for papers: https://session.cigre.org/\nDetails: https://powersystemdeadl
+ ines.org/conference/cigre-session26
 LOCATION:Paris\, France
 URL;VALUE=URI:https://session.cigre.org/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
@@ -5380,8 +5346,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-session26-presentation_upload@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:cigre-session26-presentation_upload@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 TRANSP:TRANSPARENT
@@ -5402,8 +5368,7 @@ DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nContributions at th
   it.\n\nDeadlines are those for authors submitting through a National Comm
  ittee\; authors from countries without one had later deadlines with the Ce
  ntral Office.\n\nCall for papers: https://session.cigre.org/\nDetails: htt
- ps://langestefan.github.io/powersystem-deadlines/conference/cigre-session2
- 6
+ ps://powersystemdeadlines.org/conference/cigre-session26
 LOCATION:Paris\, France
 URL;VALUE=URI:https://session.cigre.org/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
@@ -5422,8 +5387,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:sest26-abstract@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:sest26-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260302
 DTEND;VALUE=DATE:20260303
 TRANSP:TRANSPARENT
@@ -5442,7 +5407,7 @@ DESCRIPTION:International Conference on Smart Energy Systems and Technologi
   before the real deadline rather than after it.\n\n8th edition. The abstra
  ct deadline was extended from 16 February 2026 and the full paper deadline
   from 16 March 2026.\n\nCall for papers: https://sest2026.com/\nDetails: h
- ttps://langestefan.github.io/powersystem-deadlines/conference/sest26
+ ttps://powersystemdeadlines.org/conference/sest26
 LOCATION:Ciudad Real\, Spain
 URL;VALUE=URI:https://sest2026.com/
 CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
@@ -5461,8 +5426,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:sest26-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:sest26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260427
 DTEND;VALUE=DATE:20260428
 TRANSP:TRANSPARENT
@@ -5482,8 +5447,7 @@ DESCRIPTION:International Conference on Smart Energy Systems and Technologi
  runs out before the real deadline rather than after it.\n\n8th edition. Th
  e abstract deadline was extended from 16 February 2026 and the full paper 
  deadline from 16 March 2026.\n\nCall for papers: https://sest2026.com/\nDe
- tails: https://langestefan.github.io/powersystem-deadlines/conference/sest
- 26
+ tails: https://powersystemdeadlines.org/conference/sest26
 LOCATION:Ciudad Real\, Spain
 URL;VALUE=URI:https://sest2026.com/
 CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
@@ -5502,8 +5466,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:sest26-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:sest26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 TRANSP:TRANSPARENT
@@ -5522,7 +5486,7 @@ DESCRIPTION:International Conference on Smart Energy Systems and Technologi
  fore the real deadline rather than after it.\n\n8th edition. The abstract 
  deadline was extended from 16 February 2026 and the full paper deadline fr
  om 16 March 2026.\n\nCall for papers: https://sest2026.com/\nDetails: http
- s://langestefan.github.io/powersystem-deadlines/conference/sest26
+ s://powersystemdeadlines.org/conference/sest26
 LOCATION:Ciudad Real\, Spain
 URL;VALUE=URI:https://sest2026.com/
 CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
@@ -5541,8 +5505,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:sest26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:sest26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20260630
 TRANSP:TRANSPARENT
@@ -5561,7 +5525,7 @@ DESCRIPTION:International Conference on Smart Energy Systems and Technologi
   the real deadline rather than after it.\n\n8th edition. The abstract dead
  line was extended from 16 February 2026 and the full paper deadline from 1
  6 March 2026.\n\nCall for papers: https://sest2026.com/\nDetails: https://
- langestefan.github.io/powersystem-deadlines/conference/sest26
+ powersystemdeadlines.org/conference/sest26
 LOCATION:Ciudad Real\, Spain
 URL;VALUE=URI:https://sest2026.com/
 CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
@@ -5580,8 +5544,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:sest26-author_registration@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:sest26-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260713
 DTEND;VALUE=DATE:20260714
 TRANSP:TRANSPARENT
@@ -5601,8 +5565,7 @@ DESCRIPTION:International Conference on Smart Energy Systems and Technologi
  n runs out before the real deadline rather than after it.\n\n8th edition. 
  The abstract deadline was extended from 16 February 2026 and the full pape
  r deadline from 16 March 2026.\n\nCall for papers: https://sest2026.com/\n
- Details: https://langestefan.github.io/powersystem-deadlines/conference/se
- st26
+ Details: https://powersystemdeadlines.org/conference/sest26
 LOCATION:Ciudad Real\, Spain
 URL;VALUE=URI:https://sest2026.com/
 CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
@@ -5621,8 +5584,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:iaee-european26-abstract@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:iaee-european26-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260410
 DTEND;VALUE=DATE:20260411
 TRANSP:TRANSPARENT
@@ -5638,8 +5601,8 @@ DESCRIPTION:IAEE European Conference (IAEE European 2026)\n\nAbstract submi
  re the real deadline rather than after it.\n\n19th IAEE European Conferenc
  e\, supported by the Technical University of Munich\, with a PhD day on 3-
  5 September 2026.\n\nCall for papers: https://iaee.org/events/2026-europea
- n-conference\nDetails: https://langestefan.github.io/powersystem-deadlines
- /conference/iaee-european26
+ n-conference\nDetails: https://powersystemdeadlines.org/conference/iaee-eu
+ ropean26
 LOCATION:Munich\, Germany
 URL;VALUE=URI:https://iaee.org/events/2026-european-conference
 CATEGORIES:Energy Markets,Renewables
@@ -5657,8 +5620,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:iaee-european26-best_paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:iaee-european26-best_paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260508
 DTEND;VALUE=DATE:20260509
 TRANSP:TRANSPARENT
@@ -5674,8 +5637,8 @@ DESCRIPTION:IAEE European Conference (IAEE European 2026)\n\nBest paper sub
  ore the real deadline rather than after it.\n\n19th IAEE European Conferen
  ce\, supported by the Technical University of Munich\, with a PhD day on 3
  -5 September 2026.\n\nCall for papers: https://iaee.org/events/2026-europe
- an-conference\nDetails: https://langestefan.github.io/powersystem-deadline
- s/conference/iaee-european26
+ an-conference\nDetails: https://powersystemdeadlines.org/conference/iaee-e
+ uropean26
 LOCATION:Munich\, Germany
 URL;VALUE=URI:https://iaee.org/events/2026-european-conference
 CATEGORIES:Energy Markets,Renewables
@@ -5693,8 +5656,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:iaee-european26-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:iaee-european26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -5711,8 +5674,8 @@ DESCRIPTION:IAEE European Conference (IAEE European 2026)\n\nNotification o
  ut before the real deadline rather than after it.\n\n19th IAEE European Co
  nference\, supported by the Technical University of Munich\, with a PhD da
  y on 3-5 September 2026.\n\nCall for papers: https://iaee.org/events/2026-
- european-conference\nDetails: https://langestefan.github.io/powersystem-de
- adlines/conference/iaee-european26
+ european-conference\nDetails: https://powersystemdeadlines.org/conference/
+ iaee-european26
 LOCATION:Munich\, Germany
 URL;VALUE=URI:https://iaee.org/events/2026-european-conference
 CATEGORIES:Energy Markets,Renewables
@@ -5730,8 +5693,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:iaee-european26-early_registration@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:iaee-european26-early_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260703
 DTEND;VALUE=DATE:20260704
 TRANSP:TRANSPARENT
@@ -5748,8 +5711,8 @@ DESCRIPTION:IAEE European Conference (IAEE European 2026)\n\nEarly bird reg
  efore the real deadline rather than after it.\n\n19th IAEE European Confer
  ence\, supported by the Technical University of Munich\, with a PhD day on
   3-5 September 2026.\n\nCall for papers: https://iaee.org/events/2026-euro
- pean-conference\nDetails: https://langestefan.github.io/powersystem-deadli
- nes/conference/iaee-european26
+ pean-conference\nDetails: https://powersystemdeadlines.org/conference/iaee
+ -european26
 LOCATION:Munich\, Germany
 URL;VALUE=URI:https://iaee.org/events/2026-european-conference
 CATEGORIES:Energy Markets,Renewables
@@ -5767,8 +5730,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pmaps26-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:pmaps26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260315
 DTEND;VALUE=DATE:20260316
 TRANSP:TRANSPARENT
@@ -5785,8 +5748,7 @@ DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
   co-organised by the University of Utah and WECC\, themed "Towards Reliabl
  e Power Grids in the Age of AI and Large Loads". The paper deadline was ex
  tended twice\, from 15 February 2026.\n\nCall for papers: https://pmaps202
- 6.utah.edu/\nDetails: https://langestefan.github.io/powersystem-deadlines/
- conference/pmaps26
+ 6.utah.edu/\nDetails: https://powersystemdeadlines.org/conference/pmaps26
 LOCATION:Salt Lake City\, USA
 URL;VALUE=URI:https://pmaps2026.utah.edu/
 CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,
@@ -5805,8 +5767,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pmaps26-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:pmaps26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260530
 DTEND;VALUE=DATE:20260531
 TRANSP:TRANSPARENT
@@ -5823,8 +5785,7 @@ DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
  y the University of Utah and WECC\, themed "Towards Reliable Power Grids i
  n the Age of AI and Large Loads". The paper deadline was extended twice\, 
  from 15 February 2026.\n\nCall for papers: https://pmaps2026.utah.edu/\nDe
- tails: https://langestefan.github.io/powersystem-deadlines/conference/pmap
- s26
+ tails: https://powersystemdeadlines.org/conference/pmaps26
 LOCATION:Salt Lake City\, USA
 URL;VALUE=URI:https://pmaps2026.utah.edu/
 CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,
@@ -5843,8 +5804,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pmaps26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:pmaps26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 TRANSP:TRANSPARENT
@@ -5861,8 +5822,7 @@ DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
  rganised by the University of Utah and WECC\, themed "Towards Reliable Pow
  er Grids in the Age of AI and Large Loads". The paper deadline was extende
  d twice\, from 15 February 2026.\n\nCall for papers: https://pmaps2026.uta
- h.edu/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
- rence/pmaps26
+ h.edu/\nDetails: https://powersystemdeadlines.org/conference/pmaps26
 LOCATION:Salt Lake City\, USA
 URL;VALUE=URI:https://pmaps2026.utah.edu/
 CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,
@@ -5881,8 +5841,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:powerafrica26-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:powerafrica26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
 TRANSP:TRANSPARENT
@@ -5899,8 +5859,7 @@ DESCRIPTION:IEEE PES/IAS PowerAfrica Conference (PowerAfrica 2026)\n\nPaper
   the earliest it could plausibly mean\, so the countdown runs out before t
  he real deadline rather than after it.\n\nThe paper deadline was extended 
  from 7 April 2026.\n\nCall for papers: https://ieee-powerafrica.org/\nDeta
- ils: https://langestefan.github.io/powersystem-deadlines/conference/powera
- frica26
+ ils: https://powersystemdeadlines.org/conference/powerafrica26
 LOCATION:Nairobi\, Kenya
 URL;VALUE=URI:https://ieee-powerafrica.org/
 CATEGORIES:Power Systems,Renewables,Distribution,Microgrids
@@ -5918,8 +5877,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:powerafrica26-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:powerafrica26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 TRANSP:TRANSPARENT
@@ -5936,8 +5895,7 @@ DESCRIPTION:IEEE PES/IAS PowerAfrica Conference (PowerAfrica 2026)\n\nNotif
   UTC+12\, the earliest it could plausibly mean\, so the countdown runs out
   before the real deadline rather than after it.\n\nThe paper deadline was 
  extended from 7 April 2026.\n\nCall for papers: https://ieee-powerafrica.o
- rg/\nDetails: https://langestefan.github.io/powersystem-deadlines/conferen
- ce/powerafrica26
+ rg/\nDetails: https://powersystemdeadlines.org/conference/powerafrica26
 LOCATION:Nairobi\, Kenya
 URL;VALUE=URI:https://ieee-powerafrica.org/
 CATEGORIES:Power Systems,Renewables,Distribution,Microgrids
@@ -5955,8 +5913,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:powerafrica26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:powerafrica26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260622
 DTEND;VALUE=DATE:20260623
 TRANSP:TRANSPARENT
@@ -5972,8 +5930,7 @@ DESCRIPTION:IEEE PES/IAS PowerAfrica Conference (PowerAfrica 2026)\n\nCamer
   earliest it could plausibly mean\, so the countdown runs out before the r
  eal deadline rather than after it.\n\nThe paper deadline was extended from
   7 April 2026.\n\nCall for papers: https://ieee-powerafrica.org/\nDetails:
-  https://langestefan.github.io/powersystem-deadlines/conference/powerafric
- a26
+  https://powersystemdeadlines.org/conference/powerafrica26
 LOCATION:Nairobi\, Kenya
 URL;VALUE=URI:https://ieee-powerafrica.org/
 CATEGORIES:Power Systems,Renewables,Distribution,Microgrids
@@ -5991,8 +5948,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:powerafrica26-early_registration@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:powerafrica26-early_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 TRANSP:TRANSPARENT
@@ -6009,8 +5966,7 @@ DESCRIPTION:IEEE PES/IAS PowerAfrica Conference (PowerAfrica 2026)\n\nEarly
  TC+12\, the earliest it could plausibly mean\, so the countdown runs out b
  efore the real deadline rather than after it.\n\nThe paper deadline was ex
  tended from 7 April 2026.\n\nCall for papers: https://ieee-powerafrica.org
- /\nDetails: https://langestefan.github.io/powersystem-deadlines/conference
- /powerafrica26
+ /\nDetails: https://powersystemdeadlines.org/conference/powerafrica26
 LOCATION:Nairobi\, Kenya
 URL;VALUE=URI:https://ieee-powerafrica.org/
 CATEGORIES:Power Systems,Renewables,Distribution,Microgrids
@@ -6028,8 +5984,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ecce26-abstract@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:ecce26-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260313
 DTEND;VALUE=DATE:20260314
 TRANSP:TRANSPARENT
@@ -6045,8 +6001,8 @@ DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nD
  er than after it.\n\nDigests are single-column\, at most five pages includ
  ing references\, and are double-blind reviewed. The submission deadline wa
  s extended from 27 February to 13 March 2026.\n\nCall for papers: https://
- www.ieee-ecce.org/2026/\nDetails: https://langestefan.github.io/powersyste
- m-deadlines/conference/ecce26
+ www.ieee-ecce.org/2026/\nDetails: https://powersystemdeadlines.org/confere
+ nce/ecce26
 LOCATION:Vancouver\, Canada
 URL;VALUE=URI:https://www.ieee-ecce.org/2026/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
@@ -6065,8 +6021,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ecce26-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:ecce26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -6082,8 +6038,8 @@ DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nA
  fter it.\n\nDigests are single-column\, at most five pages including refer
  ences\, and are double-blind reviewed. The submission deadline was extende
  d from 27 February to 13 March 2026.\n\nCall for papers: https://www.ieee-
- ecce.org/2026/\nDetails: https://langestefan.github.io/powersystem-deadlin
- es/conference/ecce26
+ ecce.org/2026/\nDetails: https://powersystemdeadlines.org/conference/ecce2
+ 6
 LOCATION:Vancouver\, Canada
 URL;VALUE=URI:https://www.ieee-ecce.org/2026/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
@@ -6102,8 +6058,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ecce26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:ecce26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 TRANSP:TRANSPARENT
@@ -6120,8 +6076,8 @@ DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nF
  ine rather than after it.\n\nDigests are single-column\, at most five page
  s including references\, and are double-blind reviewed. The submission dea
  dline was extended from 27 February to 13 March 2026.\n\nCall for papers: 
- https://www.ieee-ecce.org/2026/\nDetails: https://langestefan.github.io/po
- wersystem-deadlines/conference/ecce26
+ https://www.ieee-ecce.org/2026/\nDetails: https://powersystemdeadlines.org
+ /conference/ecce26
 LOCATION:Vancouver\, Canada
 URL;VALUE=URI:https://www.ieee-ecce.org/2026/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
@@ -6140,8 +6096,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:naps26-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:naps26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 TRANSP:TRANSPARENT
@@ -6154,8 +6110,8 @@ DESCRIPTION:North American Power Symposium (NAPS 2026)\n\nPaper submission:
   countdown runs out before the real deadline rather than after it.\n\n58th
   edition. Papers are at most six pages and reviewed in stages\, with regis
  tration priced by submission date.\n\nCall for papers: https://www.mtu.edu
- /ece/naps-2026/\nDetails: https://langestefan.github.io/powersystem-deadli
- nes/conference/naps26
+ /ece/naps-2026/\nDetails: https://powersystemdeadlines.org/conference/naps
+ 26
 LOCATION:Houghton\, USA
 URL;VALUE=URI:https://www.mtu.edu/ece/naps-2026/
 CATEGORIES:Power Systems,Computation & Optimization,Renewables
@@ -6173,8 +6129,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:iecon26-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:iecon26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 TRANSP:TRANSPARENT
@@ -6189,8 +6145,8 @@ DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
  est it could plausibly mean\, so the countdown runs out before the real de
  adline rather than after it.\n\n52nd annual conference of the IES\, held i
  n Doha with online participation and presentation also offered.\n\nCall fo
- r papers: https://www.iecon2026.org/\nDetails: https://langestefan.github.
- io/powersystem-deadlines/conference/iecon26
+ r papers: https://www.iecon2026.org/\nDetails: https://powersystemdeadline
+ s.org/conference/iecon26
 LOCATION:Doha\, Qatar
 URL;VALUE=URI:https://www.iecon2026.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -6208,8 +6164,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:iecon26-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:iecon26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 TRANSP:TRANSPARENT
@@ -6224,8 +6180,8 @@ DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
  it could plausibly mean\, so the countdown runs out before the real deadli
  ne rather than after it.\n\n52nd annual conference of the IES\, held in Do
  ha with online participation and presentation also offered.\n\nCall for pa
- pers: https://www.iecon2026.org/\nDetails: https://langestefan.github.io/p
- owersystem-deadlines/conference/iecon26
+ pers: https://www.iecon2026.org/\nDetails: https://powersystemdeadlines.or
+ g/conference/iecon26
 LOCATION:Doha\, Qatar
 URL;VALUE=URI:https://www.iecon2026.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -6243,8 +6199,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:iecon26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:iecon26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 TRANSP:TRANSPARENT
@@ -6260,8 +6216,8 @@ DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
  e earliest it could plausibly mean\, so the countdown runs out before the 
  real deadline rather than after it.\n\n52nd annual conference of the IES\,
   held in Doha with online participation and presentation also offered.\n\n
- Call for papers: https://www.iecon2026.org/\nDetails: https://langestefan.
- github.io/powersystem-deadlines/conference/iecon26
+ Call for papers: https://www.iecon2026.org/\nDetails: https://powersystemd
+ eadlines.org/conference/iecon26
 LOCATION:Doha\, Qatar
 URL;VALUE=URI:https://www.iecon2026.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -6279,8 +6235,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isgt-europe26-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:isgt-europe26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260415
 DTEND;VALUE=DATE:20260416
 TRANSP:TRANSPARENT
@@ -6294,8 +6250,8 @@ DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Europe (
  ates no timezone. This is counted as UTC+12\, the earliest it could plausi
  bly mean\, so the countdown runs out before the real deadline rather than 
  after it.\n\nFinal paper submission opened 3 August 2026.\n\nCall for pape
- rs: https://ieee-isgt-europe.org/\nDetails: https://langestefan.github.io/
- powersystem-deadlines/conference/isgt-europe26
+ rs: https://ieee-isgt-europe.org/\nDetails: https://powersystemdeadlines.o
+ rg/conference/isgt-europe26
 LOCATION:Budapest\, Hungary
 URL;VALUE=URI:https://ieee-isgt-europe.org/
 CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
@@ -6313,8 +6269,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isgt-europe26-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:isgt-europe26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 TRANSP:TRANSPARENT
@@ -6328,8 +6284,8 @@ DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Europe (
  apers states no timezone. This is counted as UTC+12\, the earliest it coul
  d plausibly mean\, so the countdown runs out before the real deadline rath
  er than after it.\n\nFinal paper submission opened 3 August 2026.\n\nCall 
- for papers: https://ieee-isgt-europe.org/\nDetails: https://langestefan.gi
- thub.io/powersystem-deadlines/conference/isgt-europe26
+ for papers: https://ieee-isgt-europe.org/\nDetails: https://powersystemdea
+ dlines.org/conference/isgt-europe26
 LOCATION:Budapest\, Hungary
 URL;VALUE=URI:https://ieee-isgt-europe.org/
 CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
@@ -6347,8 +6303,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isgt-europe26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:isgt-europe26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 TRANSP:TRANSPARENT
@@ -6362,8 +6318,8 @@ DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Europe (
  pers states no timezone. This is counted as UTC+12\, the earliest it could
   plausibly mean\, so the countdown runs out before the real deadline rathe
  r than after it.\n\nFinal paper submission opened 3 August 2026.\n\nCall f
- or papers: https://ieee-isgt-europe.org/\nDetails: https://langestefan.git
- hub.io/powersystem-deadlines/conference/isgt-europe26
+ or papers: https://ieee-isgt-europe.org/\nDetails: https://powersystemdead
+ lines.org/conference/isgt-europe26
 LOCATION:Budapest\, Hungary
 URL;VALUE=URI:https://ieee-isgt-europe.org/
 CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
@@ -6381,8 +6337,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:smartgridcomm26-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:smartgridcomm26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260503
 DTEND;VALUE=DATE:20260504
 TRANSP:TRANSPARENT
@@ -6397,8 +6353,8 @@ DESCRIPTION:IEEE International Conference on Communications\, Control\, and
   counted as UTC+12\, the earliest it could plausibly mean\, so the countdo
  wn runs out before the real deadline rather than after it.\n\nThe paper de
  adline was extended from 15 April to 3 May 2026.\n\nCall for papers: https
- ://sgc2026.ieee-smartgridcomm.org/\nDetails: https://langestefan.github.io
- /powersystem-deadlines/conference/smartgridcomm26
+ ://sgc2026.ieee-smartgridcomm.org/\nDetails: https://powersystemdeadlines.
+ org/conference/smartgridcomm26
 LOCATION:College Station\, USA
 URL;VALUE=URI:https://sgc2026.ieee-smartgridcomm.org/
 CATEGORIES:Smart Grid,Cyber-Physical Security,Computation & Optimization,Di
@@ -6417,8 +6373,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:smartgridcomm26-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:smartgridcomm26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 TRANSP:TRANSPARENT
@@ -6434,8 +6390,8 @@ DESCRIPTION:IEEE International Conference on Communications\, Control\, and
   This is counted as UTC+12\, the earliest it could plausibly mean\, so the
   countdown runs out before the real deadline rather than after it.\n\nThe 
  paper deadline was extended from 15 April to 3 May 2026.\n\nCall for paper
- s: https://sgc2026.ieee-smartgridcomm.org/\nDetails: https://langestefan.g
- ithub.io/powersystem-deadlines/conference/smartgridcomm26
+ s: https://sgc2026.ieee-smartgridcomm.org/\nDetails: https://powersystemde
+ adlines.org/conference/smartgridcomm26
 LOCATION:College Station\, USA
 URL;VALUE=URI:https://sgc2026.ieee-smartgridcomm.org/
 CATEGORIES:Smart Grid,Cyber-Physical Security,Computation & Optimization,Di
@@ -6454,8 +6410,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:smartgridcomm26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:smartgridcomm26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 TRANSP:TRANSPARENT
@@ -6471,8 +6427,8 @@ DESCRIPTION:IEEE International Conference on Communications\, Control\, and
  ezone. This is counted as UTC+12\, the earliest it could plausibly mean\, 
  so the countdown runs out before the real deadline rather than after it.\n
  \nThe paper deadline was extended from 15 April to 3 May 2026.\n\nCall for
-  papers: https://sgc2026.ieee-smartgridcomm.org/\nDetails: https://langest
- efan.github.io/powersystem-deadlines/conference/smartgridcomm26
+  papers: https://sgc2026.ieee-smartgridcomm.org/\nDetails: https://powersy
+ stemdeadlines.org/conference/smartgridcomm26
 LOCATION:College Station\, USA
 URL;VALUE=URI:https://sgc2026.ieee-smartgridcomm.org/
 CATEGORIES:Smart Grid,Cyber-Physical Security,Computation & Optimization,Di
@@ -6491,8 +6447,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isgt-asia26-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:isgt-asia26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 TRANSP:TRANSPARENT
@@ -6510,8 +6466,7 @@ DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
  sted by Wuhan University. The call gives submission and notification as wi
  ndows rather than single dates\; the closing date of each window is listed
   here.\n\nCall for papers: https://attend.ieee.org/isgt-asia-2026/\nDetail
- s: https://langestefan.github.io/powersystem-deadlines/conference/isgt-asi
- a26
+ s: https://powersystemdeadlines.org/conference/isgt-asia26
 LOCATION:Wuhan\, China
 URL;VALUE=URI:https://attend.ieee.org/isgt-asia-2026/
 CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
@@ -6529,8 +6484,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isgt-asia26-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:isgt-asia26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 TRANSP:TRANSPARENT
@@ -6548,8 +6503,7 @@ DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
  y"\, hosted by Wuhan University. The call gives submission and notificatio
  n as windows rather than single dates\; the closing date of each window is
   listed here.\n\nCall for papers: https://attend.ieee.org/isgt-asia-2026/\
- nDetails: https://langestefan.github.io/powersystem-deadlines/conference/i
- sgt-asia26
+ nDetails: https://powersystemdeadlines.org/conference/isgt-asia26
 LOCATION:Wuhan\, China
 URL;VALUE=URI:https://attend.ieee.org/isgt-asia-2026/
 CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
@@ -6567,8 +6521,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isgt-asia26-author_registration@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:isgt-asia26-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 TRANSP:TRANSPARENT
@@ -6586,8 +6540,7 @@ DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
  hosted by Wuhan University. The call gives submission and notification as 
  windows rather than single dates\; the closing date of each window is list
  ed here.\n\nCall for papers: https://attend.ieee.org/isgt-asia-2026/\nDeta
- ils: https://langestefan.github.io/powersystem-deadlines/conference/isgt-a
- sia26
+ ils: https://powersystemdeadlines.org/conference/isgt-asia26
 LOCATION:Wuhan\, China
 URL;VALUE=URI:https://attend.ieee.org/isgt-asia-2026/
 CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
@@ -6605,8 +6558,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isgt-asia26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:isgt-asia26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 TRANSP:TRANSPARENT
@@ -6624,8 +6577,7 @@ DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
  \, hosted by Wuhan University. The call gives submission and notification 
  as windows rather than single dates\; the closing date of each window is l
  isted here.\n\nCall for papers: https://attend.ieee.org/isgt-asia-2026/\nD
- etails: https://langestefan.github.io/powersystem-deadlines/conference/isg
- t-asia26
+ etails: https://powersystemdeadlines.org/conference/isgt-asia26
 LOCATION:Wuhan\, China
 URL;VALUE=URI:https://attend.ieee.org/isgt-asia-2026/
 CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
@@ -6643,8 +6595,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:hicss27-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:hicss27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 TRANSP:TRANSPARENT
@@ -6659,8 +6611,7 @@ DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
  ic/Honolulu\n  Author registration: 1 Oct 2026\, 23:59 Pacific/Honolulu\n\
  nHICSS-60. Submissions are due by 11:59 pm HST\; papers go to the Electric
   Energy Systems track.\n\nCall for papers: https://hicss.hawaii.edu/\nDeta
- ils: https://langestefan.github.io/powersystem-deadlines/conference/hicss2
- 7
+ ils: https://powersystemdeadlines.org/conference/hicss27
 LOCATION:Waikoloa\, USA
 URL;VALUE=URI:https://hicss.hawaii.edu/
 CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil
@@ -6679,8 +6630,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:hicss27-notification@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:hicss27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
 TRANSP:TRANSPARENT
@@ -6696,8 +6647,8 @@ DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
  t 2026\, 23:59 Pacific/Honolulu\n  Author registration: 1 Oct 2026\, 23:59
   Pacific/Honolulu\n\nHICSS-60. Submissions are due by 11:59 pm HST\; paper
  s go to the Electric Energy Systems track.\n\nCall for papers: https://hic
- ss.hawaii.edu/\nDetails: https://langestefan.github.io/powersystem-deadlin
- es/conference/hicss27
+ ss.hawaii.edu/\nDetails: https://powersystemdeadlines.org/conference/hicss
+ 27
 LOCATION:Waikoloa\, USA
 URL;VALUE=URI:https://hicss.hawaii.edu/
 CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil
@@ -6716,8 +6667,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:hicss27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:hicss27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 TRANSP:TRANSPARENT
@@ -6733,8 +6684,8 @@ DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
   22 Sept 2026\, 23:59 Pacific/Honolulu\n  Author registration: 1 Oct 2026\
  , 23:59 Pacific/Honolulu\n\nHICSS-60. Submissions are due by 11:59 pm HST\
  ; papers go to the Electric Energy Systems track.\n\nCall for papers: http
- s://hicss.hawaii.edu/\nDetails: https://langestefan.github.io/powersystem-
- deadlines/conference/hicss27
+ s://hicss.hawaii.edu/\nDetails: https://powersystemdeadlines.org/conferenc
+ e/hicss27
 LOCATION:Waikoloa\, USA
 URL;VALUE=URI:https://hicss.hawaii.edu/
 CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil
@@ -6753,8 +6704,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:hicss27-camera_ready-2@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:hicss27-camera_ready-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 TRANSP:TRANSPARENT
@@ -6769,8 +6720,7 @@ DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
   23:59 Pacific/Honolulu\n  Author registration: 1 Oct 2026\, 23:59 Pacific
  /Honolulu\n\nHICSS-60. Submissions are due by 11:59 pm HST\; papers go to 
  the Electric Energy Systems track.\n\nCall for papers: https://hicss.hawai
- i.edu/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
- rence/hicss27
+ i.edu/\nDetails: https://powersystemdeadlines.org/conference/hicss27
 LOCATION:Waikoloa\, USA
 URL;VALUE=URI:https://hicss.hawaii.edu/
 CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil
@@ -6789,8 +6739,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:hicss27-author_registration@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:hicss27-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 TRANSP:TRANSPARENT
@@ -6805,8 +6755,7 @@ DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
  ific/Honolulu\n  Author registration: 1 Oct 2026\, 23:59 Pacific/Honolulu\
  n\nHICSS-60. Submissions are due by 11:59 pm HST\; papers go to the Electr
  ic Energy Systems track.\n\nCall for papers: https://hicss.hawaii.edu/\nDe
- tails: https://langestefan.github.io/powersystem-deadlines/conference/hics
- s27
+ tails: https://powersystemdeadlines.org/conference/hicss27
 LOCATION:Waikoloa\, USA
 URL;VALUE=URI:https://hicss.hawaii.edu/
 CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil
@@ -6825,8 +6774,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pes-grid-edge27-paper@langestefan.github.io
-DTSTAMP:20261030T042630Z
+UID:pes-grid-edge27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260724
 DTEND;VALUE=DATE:20260725
 TRANSP:TRANSPARENT
@@ -6843,8 +6792,8 @@ DESCRIPTION:IEEE PES Grid Edge Technologies Conference & Exposition (PES Gr
  escription. At least one author per accepted paper must register for the p
  aper to appear in IEEE Xplore. Notification of acceptance is expected by m
  id-October 2026\, without a stated date.\n\nCall for papers: https://pes-g
- ridedge.org/\nDetails: https://langestefan.github.io/powersystem-deadlines
- /conference/pes-grid-edge27
+ ridedge.org/\nDetails: https://powersystemdeadlines.org/conference/pes-gri
+ d-edge27
 LOCATION:Salt Lake City\, USA
 URL;VALUE=URI:https://pes-gridedge.org/
 CATEGORIES:Smart Grid,Distribution,Energy Storage,EV & Transportation,Micro

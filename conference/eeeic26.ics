@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:EEEIC 2026 deadlines
@@ -9,11 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for IEEE International Conference on Envir
  onment and Electrical Engineering 2026.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/eeeic26.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/eeeic26.ics
 BEGIN:VEVENT
-UID:eeeic26-workshop_proposal@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:eeeic26-workshop_proposal@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260101
 DTEND;VALUE=DATE:20260102
 TRANSP:TRANSPARENT
@@ -31,8 +30,8 @@ DESCRIPTION:IEEE International Conference on Environment and Electrical Eng
  ere notified within three weeks of submission and final versions were due 
  two weeks after notification. The site lists both 4 May and 11 May 2026 as
   the end of submission\; the later date is recorded here.\n\nCall for pape
- rs: https://www.eeeic.net/\nDetails: https://langestefan.github.io/powersy
- stem-deadlines/conference/eeeic26
+ rs: https://www.eeeic.net/\nDetails: https://powersystemdeadlines.org/conf
+ erence/eeeic26
 LOCATION:Lisbon\, Portugal
 URL;VALUE=URI:https://www.eeeic.net/
 CATEGORIES:Power Systems,Renewables,Smart Grid,Energy Storage,Power Quality
@@ -50,8 +49,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eeeic26-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:eeeic26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260511
 DTEND;VALUE=DATE:20260512
 TRANSP:TRANSPARENT
@@ -69,8 +68,8 @@ DESCRIPTION:IEEE International Conference on Environment and Electrical Eng
   notified within three weeks of submission and final versions were due two
   weeks after notification. The site lists both 4 May and 11 May 2026 as th
  e end of submission\; the later date is recorded here.\n\nCall for papers:
-  https://www.eeeic.net/\nDetails: https://langestefan.github.io/powersyste
- m-deadlines/conference/eeeic26
+  https://www.eeeic.net/\nDetails: https://powersystemdeadlines.org/confere
+ nce/eeeic26
 LOCATION:Lisbon\, Portugal
 URL;VALUE=URI:https://www.eeeic.net/
 CATEGORIES:Power Systems,Renewables,Smart Grid,Energy Storage,Power Quality
@@ -88,8 +87,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eeeic26-early_registration@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:eeeic26-early_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260531
 DTEND;VALUE=DATE:20260601
 TRANSP:TRANSPARENT
@@ -107,8 +106,8 @@ DESCRIPTION:IEEE International Conference on Environment and Electrical Eng
  ere notified within three weeks of submission and final versions were due 
  two weeks after notification. The site lists both 4 May and 11 May 2026 as
   the end of submission\; the later date is recorded here.\n\nCall for pape
- rs: https://www.eeeic.net/\nDetails: https://langestefan.github.io/powersy
- stem-deadlines/conference/eeeic26
+ rs: https://www.eeeic.net/\nDetails: https://powersystemdeadlines.org/conf
+ erence/eeeic26
 LOCATION:Lisbon\, Portugal
 URL;VALUE=URI:https://www.eeeic.net/
 CATEGORIES:Power Systems,Renewables,Smart Grid,Energy Storage,Power Quality
@@ -126,8 +125,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eeeic26-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:eeeic26-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20260703
 TRANSP:TRANSPARENT
@@ -144,8 +143,8 @@ DESCRIPTION:IEEE International Conference on Environment and Electrical Eng
   Papers were notified within three weeks of submission and final versions 
  were due two weeks after notification. The site lists both 4 May and 11 Ma
  y 2026 as the end of submission\; the later date is recorded here.\n\nCall
-  for papers: https://www.eeeic.net/\nDetails: https://langestefan.github.i
- o/powersystem-deadlines/conference/eeeic26
+  for papers: https://www.eeeic.net/\nDetails: https://powersystemdeadlines
+ .org/conference/eeeic26
 LOCATION:Centro de Congressos\, Instituto Superior Técnico\, Lisbon\, Port
  ugal
 URL;VALUE=URI:https://www.eeeic.net/

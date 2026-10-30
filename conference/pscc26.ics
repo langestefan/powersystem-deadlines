@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:PSCC 2026 deadlines
@@ -9,11 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for Power Systems Computation Conference 2
  026.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/pscc26.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/pscc26.ics
 BEGIN:VEVENT
-UID:pscc26-abstract@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pscc26-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20250615
 DTEND;VALUE=DATE:20250616
 TRANSP:TRANSPARENT
@@ -31,8 +30,8 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nOne-page ab
  eal deadline rather than after it.\n\nSubmission is abstract-first: a one-
  page abstract must be accepted before the full paper can be submitted. The
   final manuscript deadline was extended from 15 to 22 March 2026.\n\nCall 
- for papers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/p
- owersystem-deadlines/conference/pscc26
+ for papers: https://pscc2026.cy/\nDetails: https://powersystemdeadlines.or
+ g/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -50,8 +49,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pscc26-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pscc26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20250622
 DTEND;VALUE=DATE:20250623
 TRANSP:TRANSPARENT
@@ -70,8 +69,8 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nAbstract ac
  he real deadline rather than after it.\n\nSubmission is abstract-first: a 
  one-page abstract must be accepted before the full paper can be submitted.
   The final manuscript deadline was extended from 15 to 22 March 2026.\n\nC
- all for papers: https://pscc2026.cy/\nDetails: https://langestefan.github.
- io/powersystem-deadlines/conference/pscc26
+ all for papers: https://pscc2026.cy/\nDetails: https://powersystemdeadline
+ s.org/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -89,8 +88,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pscc26-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pscc26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20251015
 DTEND;VALUE=DATE:20251016
 TRANSP:TRANSPARENT
@@ -108,8 +107,8 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nFull paper
  dline rather than after it.\n\nSubmission is abstract-first: a one-page ab
  stract must be accepted before the full paper can be submitted. The final 
  manuscript deadline was extended from 15 to 22 March 2026.\n\nCall for pap
- ers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/powersys
- tem-deadlines/conference/pscc26
+ ers: https://pscc2026.cy/\nDetails: https://powersystemdeadlines.org/confe
+ rence/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -127,8 +126,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pscc26-notification-2@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pscc26-notification-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260208
 DTEND;VALUE=DATE:20260209
 TRANSP:TRANSPARENT
@@ -147,8 +146,8 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nAcceptance
  e real deadline rather than after it.\n\nSubmission is abstract-first: a o
  ne-page abstract must be accepted before the full paper can be submitted. 
  The final manuscript deadline was extended from 15 to 22 March 2026.\n\nCa
- ll for papers: https://pscc2026.cy/\nDetails: https://langestefan.github.i
- o/powersystem-deadlines/conference/pscc26
+ ll for papers: https://pscc2026.cy/\nDetails: https://powersystemdeadlines
+ .org/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -166,8 +165,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pscc26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pscc26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
 TRANSP:TRANSPARENT
@@ -186,8 +185,8 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nFinal manus
  fore the real deadline rather than after it.\n\nSubmission is abstract-fir
  st: a one-page abstract must be accepted before the full paper can be subm
  itted. The final manuscript deadline was extended from 15 to 22 March 2026
- .\n\nCall for papers: https://pscc2026.cy/\nDetails: https://langestefan.g
- ithub.io/powersystem-deadlines/conference/pscc26
+ .\n\nCall for papers: https://pscc2026.cy/\nDetails: https://powersystemde
+ adlines.org/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -205,8 +204,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pscc26-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pscc26-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260608
 DTEND;VALUE=DATE:20260613
 TRANSP:TRANSPARENT
@@ -223,8 +222,8 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nConference:
  he real deadline rather than after it.\n\nSubmission is abstract-first: a 
  one-page abstract must be accepted before the full paper can be submitted.
   The final manuscript deadline was extended from 15 to 22 March 2026.\n\nC
- all for papers: https://pscc2026.cy/\nDetails: https://langestefan.github.
- io/powersystem-deadlines/conference/pscc26
+ all for papers: https://pscc2026.cy/\nDetails: https://powersystemdeadline
+ s.org/conference/pscc26
 LOCATION:St. Raphael Resort\, Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning

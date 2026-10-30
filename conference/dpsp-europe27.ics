@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:DPSP 2027 deadlines
@@ -9,11 +9,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for IET International Conference on Develo
  pments in Power System Protection 2027.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/dpsp-europe27.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/dpsp-europe27.
+ ics
 BEGIN:VEVENT
-UID:dpsp-europe27-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:dpsp-europe27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 TRANSP:TRANSPARENT
@@ -30,8 +30,8 @@ DESCRIPTION:IET International Conference on Developments in Power System Pr
  line rather than after it.\n\nDPSP Europe 2027\, co-hosted with TU Munich.
   Full papers only\, with no separate abstract stage\; papers are indexed i
  n IET Inspec\, IEEE Xplore\, Ei Compendex and Scopus.\n\nCall for papers: 
- https://dpsp.theiet.org/2027-europe\nDetails: https://langestefan.github.i
- o/powersystem-deadlines/conference/dpsp-europe27
+ https://dpsp.theiet.org/2027-europe\nDetails: https://powersystemdeadlines
+ .org/conference/dpsp-europe27
 LOCATION:Munich\, Germany
 URL;VALUE=URI:https://dpsp.theiet.org/2027-europe
 CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
@@ -49,8 +49,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dpsp-europe27-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:dpsp-europe27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 TRANSP:TRANSPARENT
@@ -67,8 +67,8 @@ DESCRIPTION:IET International Conference on Developments in Power System Pr
  ne rather than after it.\n\nDPSP Europe 2027\, co-hosted with TU Munich. F
  ull papers only\, with no separate abstract stage\; papers are indexed in 
  IET Inspec\, IEEE Xplore\, Ei Compendex and Scopus.\n\nCall for papers: ht
- tps://dpsp.theiet.org/2027-europe\nDetails: https://langestefan.github.io/
- powersystem-deadlines/conference/dpsp-europe27
+ tps://dpsp.theiet.org/2027-europe\nDetails: https://powersystemdeadlines.o
+ rg/conference/dpsp-europe27
 LOCATION:Munich\, Germany
 URL;VALUE=URI:https://dpsp.theiet.org/2027-europe
 CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
@@ -86,8 +86,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dpsp-europe27-author_registration@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:dpsp-europe27-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270208
 DTEND;VALUE=DATE:20270209
 TRANSP:TRANSPARENT
@@ -104,8 +104,8 @@ DESCRIPTION:IET International Conference on Developments in Power System Pr
  e rather than after it.\n\nDPSP Europe 2027\, co-hosted with TU Munich. Fu
  ll papers only\, with no separate abstract stage\; papers are indexed in I
  ET Inspec\, IEEE Xplore\, Ei Compendex and Scopus.\n\nCall for papers: htt
- ps://dpsp.theiet.org/2027-europe\nDetails: https://langestefan.github.io/p
- owersystem-deadlines/conference/dpsp-europe27
+ ps://dpsp.theiet.org/2027-europe\nDetails: https://powersystemdeadlines.or
+ g/conference/dpsp-europe27
 LOCATION:Munich\, Germany
 URL;VALUE=URI:https://dpsp.theiet.org/2027-europe
 CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
@@ -123,8 +123,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dpsp-europe27-presentation_upload@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:dpsp-europe27-presentation_upload@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
@@ -141,8 +141,8 @@ DESCRIPTION:IET International Conference on Developments in Power System Pr
  adline rather than after it.\n\nDPSP Europe 2027\, co-hosted with TU Munic
  h. Full papers only\, with no separate abstract stage\; papers are indexed
   in IET Inspec\, IEEE Xplore\, Ei Compendex and Scopus.\n\nCall for papers
- : https://dpsp.theiet.org/2027-europe\nDetails: https://langestefan.github
- .io/powersystem-deadlines/conference/dpsp-europe27
+ : https://dpsp.theiet.org/2027-europe\nDetails: https://powersystemdeadlin
+ es.org/conference/dpsp-europe27
 LOCATION:Munich\, Germany
 URL;VALUE=URI:https://dpsp.theiet.org/2027-europe
 CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
@@ -160,8 +160,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dpsp-europe27-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:dpsp-europe27-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270414
 DTEND;VALUE=DATE:20270417
 TRANSP:TRANSPARENT
@@ -177,8 +177,8 @@ DESCRIPTION:IET International Conference on Developments in Power System Pr
  e real deadline rather than after it.\n\nDPSP Europe 2027\, co-hosted with
   TU Munich. Full papers only\, with no separate abstract stage\; papers ar
  e indexed in IET Inspec\, IEEE Xplore\, Ei Compendex and Scopus.\n\nCall f
- or papers: https://dpsp.theiet.org/2027-europe\nDetails: https://langestef
- an.github.io/powersystem-deadlines/conference/dpsp-europe27
+ or papers: https://dpsp.theiet.org/2027-europe\nDetails: https://powersyst
+ emdeadlines.org/conference/dpsp-europe27
 LOCATION:Hilton Munich City\, Munich\, Germany
 URL;VALUE=URI:https://dpsp.theiet.org/2027-europe
 CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security

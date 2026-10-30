@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Power System Deadlines: Reliability & Planning
@@ -8,11 +8,11 @@ X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines for conferences tagged "Reliability & Planning".
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/calend
- ar/reliability-planning.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/calendar/reliability-plan
+ ning.ics
 BEGIN:VEVENT
-UID:pscc26-abstract@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pscc26-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20250615
 DTEND;VALUE=DATE:20250616
 TRANSP:TRANSPARENT
@@ -30,8 +30,8 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nOne-page ab
  eal deadline rather than after it.\n\nSubmission is abstract-first: a one-
  page abstract must be accepted before the full paper can be submitted. The
   final manuscript deadline was extended from 15 to 22 March 2026.\n\nCall 
- for papers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/p
- owersystem-deadlines/conference/pscc26
+ for papers: https://pscc2026.cy/\nDetails: https://powersystemdeadlines.or
+ g/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -49,8 +49,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pscc26-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pscc26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20250622
 DTEND;VALUE=DATE:20250623
 TRANSP:TRANSPARENT
@@ -69,8 +69,8 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nAbstract ac
  he real deadline rather than after it.\n\nSubmission is abstract-first: a 
  one-page abstract must be accepted before the full paper can be submitted.
   The final manuscript deadline was extended from 15 to 22 March 2026.\n\nC
- all for papers: https://pscc2026.cy/\nDetails: https://langestefan.github.
- io/powersystem-deadlines/conference/pscc26
+ all for papers: https://pscc2026.cy/\nDetails: https://powersystemdeadline
+ s.org/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -88,8 +88,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pscc26-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pscc26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20251015
 DTEND;VALUE=DATE:20251016
 TRANSP:TRANSPARENT
@@ -107,8 +107,8 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nFull paper
  dline rather than after it.\n\nSubmission is abstract-first: a one-page ab
  stract must be accepted before the full paper can be submitted. The final 
  manuscript deadline was extended from 15 to 22 March 2026.\n\nCall for pap
- ers: https://pscc2026.cy/\nDetails: https://langestefan.github.io/powersys
- tem-deadlines/conference/pscc26
+ ers: https://pscc2026.cy/\nDetails: https://powersystemdeadlines.org/confe
+ rence/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -126,8 +126,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pscc26-notification-2@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pscc26-notification-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260208
 DTEND;VALUE=DATE:20260209
 TRANSP:TRANSPARENT
@@ -146,8 +146,8 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nAcceptance
  e real deadline rather than after it.\n\nSubmission is abstract-first: a o
  ne-page abstract must be accepted before the full paper can be submitted. 
  The final manuscript deadline was extended from 15 to 22 March 2026.\n\nCa
- ll for papers: https://pscc2026.cy/\nDetails: https://langestefan.github.i
- o/powersystem-deadlines/conference/pscc26
+ ll for papers: https://pscc2026.cy/\nDetails: https://powersystemdeadlines
+ .org/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -165,8 +165,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pscc26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pscc26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
 TRANSP:TRANSPARENT
@@ -185,8 +185,8 @@ DESCRIPTION:Power Systems Computation Conference (PSCC 2026)\n\nFinal manus
  fore the real deadline rather than after it.\n\nSubmission is abstract-fir
  st: a one-page abstract must be accepted before the full paper can be subm
  itted. The final manuscript deadline was extended from 15 to 22 March 2026
- .\n\nCall for papers: https://pscc2026.cy/\nDetails: https://langestefan.g
- ithub.io/powersystem-deadlines/conference/pscc26
+ .\n\nCall for papers: https://pscc2026.cy/\nDetails: https://powersystemde
+ adlines.org/conference/pscc26
 LOCATION:Limassol\, Cyprus
 URL;VALUE=URI:https://pscc2026.cy/
 CATEGORIES:Power Systems,Computation & Optimization,Reliability & Planning
@@ -204,8 +204,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pmaps26-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pmaps26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260315
 DTEND;VALUE=DATE:20260316
 TRANSP:TRANSPARENT
@@ -222,8 +222,7 @@ DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
   co-organised by the University of Utah and WECC\, themed "Towards Reliabl
  e Power Grids in the Age of AI and Large Loads". The paper deadline was ex
  tended twice\, from 15 February 2026.\n\nCall for papers: https://pmaps202
- 6.utah.edu/\nDetails: https://langestefan.github.io/powersystem-deadlines/
- conference/pmaps26
+ 6.utah.edu/\nDetails: https://powersystemdeadlines.org/conference/pmaps26
 LOCATION:Salt Lake City\, USA
 URL;VALUE=URI:https://pmaps2026.utah.edu/
 CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,
@@ -242,8 +241,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pmaps26-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pmaps26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260530
 DTEND;VALUE=DATE:20260531
 TRANSP:TRANSPARENT
@@ -260,8 +259,7 @@ DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
  y the University of Utah and WECC\, themed "Towards Reliable Power Grids i
  n the Age of AI and Large Loads". The paper deadline was extended twice\, 
  from 15 February 2026.\n\nCall for papers: https://pmaps2026.utah.edu/\nDe
- tails: https://langestefan.github.io/powersystem-deadlines/conference/pmap
- s26
+ tails: https://powersystemdeadlines.org/conference/pmaps26
 LOCATION:Salt Lake City\, USA
 URL;VALUE=URI:https://pmaps2026.utah.edu/
 CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,
@@ -280,8 +278,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pmaps26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pmaps26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 TRANSP:TRANSPARENT
@@ -298,8 +296,7 @@ DESCRIPTION:International Conference on Probabilistic Methods Applied to Po
  rganised by the University of Utah and WECC\, themed "Towards Reliable Pow
  er Grids in the Age of AI and Large Loads". The paper deadline was extende
  d twice\, from 15 February 2026.\n\nCall for papers: https://pmaps2026.uta
- h.edu/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
- rence/pmaps26
+ h.edu/\nDetails: https://powersystemdeadlines.org/conference/pmaps26
 LOCATION:Salt Lake City\, USA
 URL;VALUE=URI:https://pmaps2026.utah.edu/
 CATEGORIES:Reliability & Planning,Power Systems,Computation & Optimization,
@@ -318,8 +315,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:hicss27-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:hicss27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 TRANSP:TRANSPARENT
@@ -334,8 +331,7 @@ DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
  ic/Honolulu\n  Author registration: 1 Oct 2026\, 23:59 Pacific/Honolulu\n\
  nHICSS-60. Submissions are due by 11:59 pm HST\; papers go to the Electric
   Energy Systems track.\n\nCall for papers: https://hicss.hawaii.edu/\nDeta
- ils: https://langestefan.github.io/powersystem-deadlines/conference/hicss2
- 7
+ ils: https://powersystemdeadlines.org/conference/hicss27
 LOCATION:Waikoloa\, USA
 URL;VALUE=URI:https://hicss.hawaii.edu/
 CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil
@@ -354,8 +350,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:hicss27-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:hicss27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
 TRANSP:TRANSPARENT
@@ -371,8 +367,8 @@ DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
  t 2026\, 23:59 Pacific/Honolulu\n  Author registration: 1 Oct 2026\, 23:59
   Pacific/Honolulu\n\nHICSS-60. Submissions are due by 11:59 pm HST\; paper
  s go to the Electric Energy Systems track.\n\nCall for papers: https://hic
- ss.hawaii.edu/\nDetails: https://langestefan.github.io/powersystem-deadlin
- es/conference/hicss27
+ ss.hawaii.edu/\nDetails: https://powersystemdeadlines.org/conference/hicss
+ 27
 LOCATION:Waikoloa\, USA
 URL;VALUE=URI:https://hicss.hawaii.edu/
 CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil
@@ -391,8 +387,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:hicss27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:hicss27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 TRANSP:TRANSPARENT
@@ -408,8 +404,8 @@ DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
   22 Sept 2026\, 23:59 Pacific/Honolulu\n  Author registration: 1 Oct 2026\
  , 23:59 Pacific/Honolulu\n\nHICSS-60. Submissions are due by 11:59 pm HST\
  ; papers go to the Electric Energy Systems track.\n\nCall for papers: http
- s://hicss.hawaii.edu/\nDetails: https://langestefan.github.io/powersystem-
- deadlines/conference/hicss27
+ s://hicss.hawaii.edu/\nDetails: https://powersystemdeadlines.org/conferenc
+ e/hicss27
 LOCATION:Waikoloa\, USA
 URL;VALUE=URI:https://hicss.hawaii.edu/
 CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil
@@ -428,8 +424,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:hicss27-camera_ready-2@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:hicss27-camera_ready-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 TRANSP:TRANSPARENT
@@ -444,8 +440,7 @@ DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
   23:59 Pacific/Honolulu\n  Author registration: 1 Oct 2026\, 23:59 Pacific
  /Honolulu\n\nHICSS-60. Submissions are due by 11:59 pm HST\; papers go to 
  the Electric Energy Systems track.\n\nCall for papers: https://hicss.hawai
- i.edu/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
- rence/hicss27
+ i.edu/\nDetails: https://powersystemdeadlines.org/conference/hicss27
 LOCATION:Waikoloa\, USA
 URL;VALUE=URI:https://hicss.hawaii.edu/
 CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil
@@ -464,8 +459,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:hicss27-author_registration@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:hicss27-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 TRANSP:TRANSPARENT
@@ -480,8 +475,7 @@ DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
  ific/Honolulu\n  Author registration: 1 Oct 2026\, 23:59 Pacific/Honolulu\
  n\nHICSS-60. Submissions are due by 11:59 pm HST\; papers go to the Electr
  ic Energy Systems track.\n\nCall for papers: https://hicss.hawaii.edu/\nDe
- tails: https://langestefan.github.io/powersystem-deadlines/conference/hics
- s27
+ tails: https://powersystemdeadlines.org/conference/hicss27
 LOCATION:Waikoloa\, USA
 URL;VALUE=URI:https://hicss.hawaii.edu/
 CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil

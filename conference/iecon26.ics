@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:IECON 2026 deadlines
@@ -9,11 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for Annual Conference of the IEEE Industri
  al Electronics Society 2026.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/iecon26.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/iecon26.ics
 BEGIN:VEVENT
-UID:iecon26-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:iecon26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 TRANSP:TRANSPARENT
@@ -28,8 +27,8 @@ DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
  est it could plausibly mean\, so the countdown runs out before the real de
  adline rather than after it.\n\n52nd annual conference of the IES\, held i
  n Doha with online participation and presentation also offered.\n\nCall fo
- r papers: https://www.iecon2026.org/\nDetails: https://langestefan.github.
- io/powersystem-deadlines/conference/iecon26
+ r papers: https://www.iecon2026.org/\nDetails: https://powersystemdeadline
+ s.org/conference/iecon26
 LOCATION:Doha\, Qatar
 URL;VALUE=URI:https://www.iecon2026.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -47,8 +46,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:iecon26-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:iecon26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 TRANSP:TRANSPARENT
@@ -63,8 +62,8 @@ DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
  it could plausibly mean\, so the countdown runs out before the real deadli
  ne rather than after it.\n\n52nd annual conference of the IES\, held in Do
  ha with online participation and presentation also offered.\n\nCall for pa
- pers: https://www.iecon2026.org/\nDetails: https://langestefan.github.io/p
- owersystem-deadlines/conference/iecon26
+ pers: https://www.iecon2026.org/\nDetails: https://powersystemdeadlines.or
+ g/conference/iecon26
 LOCATION:Doha\, Qatar
 URL;VALUE=URI:https://www.iecon2026.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -82,8 +81,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:iecon26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:iecon26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 TRANSP:TRANSPARENT
@@ -99,8 +98,8 @@ DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
  e earliest it could plausibly mean\, so the countdown runs out before the 
  real deadline rather than after it.\n\n52nd annual conference of the IES\,
   held in Doha with online participation and presentation also offered.\n\n
- Call for papers: https://www.iecon2026.org/\nDetails: https://langestefan.
- github.io/powersystem-deadlines/conference/iecon26
+ Call for papers: https://www.iecon2026.org/\nDetails: https://powersystemd
+ eadlines.org/conference/iecon26
 LOCATION:Doha\, Qatar
 URL;VALUE=URI:https://www.iecon2026.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -118,8 +117,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:iecon26-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:iecon26-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261022
 TRANSP:TRANSPARENT
@@ -133,8 +132,8 @@ DESCRIPTION:Annual Conference of the IEEE Industrial Electronics Society (I
  earliest it could plausibly mean\, so the countdown runs out before the re
  al deadline rather than after it.\n\n52nd annual conference of the IES\, h
  eld in Doha with online participation and presentation also offered.\n\nCa
- ll for papers: https://www.iecon2026.org/\nDetails: https://langestefan.gi
- thub.io/powersystem-deadlines/conference/iecon26
+ ll for papers: https://www.iecon2026.org/\nDetails: https://powersystemdea
+ dlines.org/conference/iecon26
 LOCATION:Doha\, Qatar
 URL;VALUE=URI:https://www.iecon2026.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables

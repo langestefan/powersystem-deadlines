@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:e-Energy 2026 deadlines
@@ -9,11 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for ACM International Conference on Future
   and Sustainable Energy Systems 2026.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/e-energy26.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/e-energy26.ics
 BEGIN:VEVENT
-UID:e-energy26-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:e-energy26-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260622
 DTEND;VALUE=DATE:20260626
 TRANSP:TRANSPARENT
@@ -24,7 +23,7 @@ DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
  d as part of ACM Sustainability Week together with BuildSys. Submission ha
  d already closed when this entry was added\, so no deadlines are recorded 
  for this edition.\n\nCall for papers: https://energy.acm.org/\nDetails: ht
- tps://langestefan.github.io/powersystem-deadlines/conference/e-energy26
+ tps://powersystemdeadlines.org/conference/e-energy26
 LOCATION:Banff Centre for Arts and Creativity\, Banff\, Canada
 URL;VALUE=URI:https://energy.acm.org/
 CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables

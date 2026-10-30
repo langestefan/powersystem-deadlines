@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:IEEE PES T&D 2028 deadlines
@@ -9,11 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for IEEE PES Transmission and Distribution
   Conference and Exposition 2028.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/pes-td28.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/pes-td28.ics
 BEGIN:VEVENT
-UID:pes-td28-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pes-td28-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20280424
 DTEND;VALUE=DATE:20280428
 TRANSP:TRANSPARENT
@@ -23,8 +22,8 @@ DESCRIPTION:IEEE PES Transmission and Distribution Conference and Expositio
  \, USA\nVenue: Georgia World Congress Center\n\nNot yet announced: Paper s
  ubmission\n\nThe conference runs every two years. The 2028 call for papers
   had not been published as of 14 October 2026.\n\nCall for papers: https:/
- /ieeet-d.org/\nDetails: https://langestefan.github.io/powersystem-deadline
- s/conference/pes-td28
+ /ieeet-d.org/\nDetails: https://powersystemdeadlines.org/conference/pes-td
+ 28
 LOCATION:Georgia World Congress Center\, Atlanta\, USA
 URL;VALUE=URI:https://ieeet-d.org/
 CATEGORIES:Transmission,Distribution,Power Systems,Protection & Automation

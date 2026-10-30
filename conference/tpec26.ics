@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:TPEC 2026 deadlines
@@ -9,11 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for IEEE Texas Power and Energy Conference
   2026.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/tpec26.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/tpec26.ics
 BEGIN:VEVENT
-UID:tpec26-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:tpec26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20251124
 DTEND;VALUE=DATE:20251125
 TRANSP:TRANSPARENT
@@ -27,7 +26,7 @@ DESCRIPTION:IEEE Texas Power and Energy Conference (TPEC 2026)\n\nPaper sub
  is is counted as UTC+12\, the earliest it could plausibly mean\, so the co
  untdown runs out before the real deadline rather than after it.\n\n10th ed
  ition.\n\nCall for papers: https://tpec.engr.tamu.edu/tpec-2026.html\nDeta
- ils: https://langestefan.github.io/powersystem-deadlines/conference/tpec26
+ ils: https://powersystemdeadlines.org/conference/tpec26
 LOCATION:College Station\, USA
 URL;VALUE=URI:https://tpec.engr.tamu.edu/tpec-2026.html
 CATEGORIES:Power Systems,Power Electronics,Machines & Drives,Energy Markets
@@ -46,8 +45,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tpec26-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:tpec26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260102
 DTEND;VALUE=DATE:20260103
 TRANSP:TRANSPARENT
@@ -61,7 +60,7 @@ DESCRIPTION:IEEE Texas Power and Energy Conference (TPEC 2026)\n\nNotice of
  unted as UTC+12\, the earliest it could plausibly mean\, so the countdown 
  runs out before the real deadline rather than after it.\n\n10th edition.\n
  \nCall for papers: https://tpec.engr.tamu.edu/tpec-2026.html\nDetails: htt
- ps://langestefan.github.io/powersystem-deadlines/conference/tpec26
+ ps://powersystemdeadlines.org/conference/tpec26
 LOCATION:College Station\, USA
 URL;VALUE=URI:https://tpec.engr.tamu.edu/tpec-2026.html
 CATEGORIES:Power Systems,Power Electronics,Machines & Drives,Energy Markets
@@ -80,8 +79,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tpec26-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:tpec26-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260208
 DTEND;VALUE=DATE:20260211
 TRANSP:TRANSPARENT
@@ -94,8 +93,7 @@ DESCRIPTION:IEEE Texas Power and Energy Conference (TPEC 2026)\n\nConferenc
  e. This is counted as UTC+12\, the earliest it could plausibly mean\, so t
  he countdown runs out before the real deadline rather than after it.\n\n10
  th edition.\n\nCall for papers: https://tpec.engr.tamu.edu/tpec-2026.html\
- nDetails: https://langestefan.github.io/powersystem-deadlines/conference/t
- pec26
+ nDetails: https://powersystemdeadlines.org/conference/tpec26
 LOCATION:Memorial Student Center\, Texas A&M University\, College Station\,
   USA
 URL;VALUE=URI:https://tpec.engr.tamu.edu/tpec-2026.html

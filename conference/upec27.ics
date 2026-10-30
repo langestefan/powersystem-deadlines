@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:UPEC 2027 deadlines
@@ -9,11 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for International Universities Power Engin
  eering Conference 2027.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/upec27.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/upec27.ics
 BEGIN:VEVENT
-UID:upec27-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:upec27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270501
 TRANSP:TRANSPARENT
@@ -31,8 +30,8 @@ DESCRIPTION:International Universities Power Engineering Conference (UPEC 2
  by Frederick University and the PHAETHON Centre of Excellence\, themed on 
  decarbonising the grid through multi-sector synergies. Paper submission op
  ens on 1 February 2027\; early submissions get rolling notification.\n\nCa
- ll for papers: https://cyprusconferences.org/upec2027/\nDetails: https://l
- angestefan.github.io/powersystem-deadlines/conference/upec27
+ ll for papers: https://cyprusconferences.org/upec2027/\nDetails: https://p
+ owersystemdeadlines.org/conference/upec27
 LOCATION:Larnaca\, Cyprus
 URL;VALUE=URI:https://cyprusconferences.org/upec2027/
 CATEGORIES:Power Systems,Smart Grid,Renewables,Energy Markets,EV & Transpor
@@ -51,8 +50,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:upec27-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:upec27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270618
 DTEND;VALUE=DATE:20270619
 TRANSP:TRANSPARENT
@@ -71,7 +70,7 @@ DESCRIPTION:International Universities Power Engineering Conference (UPEC 2
  themed on decarbonising the grid through multi-sector synergies. Paper sub
  mission opens on 1 February 2027\; early submissions get rolling notificat
  ion.\n\nCall for papers: https://cyprusconferences.org/upec2027/\nDetails:
-  https://langestefan.github.io/powersystem-deadlines/conference/upec27
+  https://powersystemdeadlines.org/conference/upec27
 LOCATION:Larnaca\, Cyprus
 URL;VALUE=URI:https://cyprusconferences.org/upec2027/
 CATEGORIES:Power Systems,Smart Grid,Renewables,Energy Markets,EV & Transpor
@@ -90,8 +89,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:upec27-early_registration@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:upec27-early_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270625
 DTEND;VALUE=DATE:20270626
 TRANSP:TRANSPARENT
@@ -110,7 +109,7 @@ DESCRIPTION:International Universities Power Engineering Conference (UPEC 2
  med on decarbonising the grid through multi-sector synergies. Paper submis
  sion opens on 1 February 2027\; early submissions get rolling notification
  .\n\nCall for papers: https://cyprusconferences.org/upec2027/\nDetails: ht
- tps://langestefan.github.io/powersystem-deadlines/conference/upec27
+ tps://powersystemdeadlines.org/conference/upec27
 LOCATION:Larnaca\, Cyprus
 URL;VALUE=URI:https://cyprusconferences.org/upec2027/
 CATEGORIES:Power Systems,Smart Grid,Renewables,Energy Markets,EV & Transpor
@@ -129,8 +128,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:upec27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:upec27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270716
 DTEND;VALUE=DATE:20270717
 TRANSP:TRANSPARENT
@@ -150,8 +149,7 @@ DESCRIPTION:International Universities Power Engineering Conference (UPEC 2
  f Excellence\, themed on decarbonising the grid through multi-sector syner
  gies. Paper submission opens on 1 February 2027\; early submissions get ro
  lling notification.\n\nCall for papers: https://cyprusconferences.org/upec
- 2027/\nDetails: https://langestefan.github.io/powersystem-deadlines/confer
- ence/upec27
+ 2027/\nDetails: https://powersystemdeadlines.org/conference/upec27
 LOCATION:Larnaca\, Cyprus
 URL;VALUE=URI:https://cyprusconferences.org/upec2027/
 CATEGORIES:Power Systems,Smart Grid,Renewables,Energy Markets,EV & Transpor
@@ -170,8 +168,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:upec27-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:upec27-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270831
 DTEND;VALUE=DATE:20270904
 TRANSP:TRANSPARENT
@@ -189,8 +187,7 @@ DESCRIPTION:International Universities Power Engineering Conference (UPEC 2
  nce\, themed on decarbonising the grid through multi-sector synergies. Pap
  er submission opens on 1 February 2027\; early submissions get rolling not
  ification.\n\nCall for papers: https://cyprusconferences.org/upec2027/\nDe
- tails: https://langestefan.github.io/powersystem-deadlines/conference/upec
- 27
+ tails: https://powersystemdeadlines.org/conference/upec27
 LOCATION:Radisson Beach Resort\, Larnaca\, Cyprus
 URL;VALUE=URI:https://cyprusconferences.org/upec2027/
 CATEGORIES:Power Systems,Smart Grid,Renewables,Energy Markets,EV & Transpor

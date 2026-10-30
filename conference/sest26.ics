@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:SEST 2026 deadlines
@@ -9,11 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for International Conference on Smart Ener
  gy Systems and Technologies 2026.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/sest26.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/sest26.ics
 BEGIN:VEVENT
-UID:sest26-abstract@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:sest26-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260302
 DTEND;VALUE=DATE:20260303
 TRANSP:TRANSPARENT
@@ -32,7 +31,7 @@ DESCRIPTION:International Conference on Smart Energy Systems and Technologi
   before the real deadline rather than after it.\n\n8th edition. The abstra
  ct deadline was extended from 16 February 2026 and the full paper deadline
   from 16 March 2026.\n\nCall for papers: https://sest2026.com/\nDetails: h
- ttps://langestefan.github.io/powersystem-deadlines/conference/sest26
+ ttps://powersystemdeadlines.org/conference/sest26
 LOCATION:Ciudad Real\, Spain
 URL;VALUE=URI:https://sest2026.com/
 CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
@@ -51,8 +50,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:sest26-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:sest26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260427
 DTEND;VALUE=DATE:20260428
 TRANSP:TRANSPARENT
@@ -72,8 +71,7 @@ DESCRIPTION:International Conference on Smart Energy Systems and Technologi
  runs out before the real deadline rather than after it.\n\n8th edition. Th
  e abstract deadline was extended from 16 February 2026 and the full paper 
  deadline from 16 March 2026.\n\nCall for papers: https://sest2026.com/\nDe
- tails: https://langestefan.github.io/powersystem-deadlines/conference/sest
- 26
+ tails: https://powersystemdeadlines.org/conference/sest26
 LOCATION:Ciudad Real\, Spain
 URL;VALUE=URI:https://sest2026.com/
 CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
@@ -92,8 +90,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:sest26-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:sest26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 TRANSP:TRANSPARENT
@@ -112,7 +110,7 @@ DESCRIPTION:International Conference on Smart Energy Systems and Technologi
  fore the real deadline rather than after it.\n\n8th edition. The abstract 
  deadline was extended from 16 February 2026 and the full paper deadline fr
  om 16 March 2026.\n\nCall for papers: https://sest2026.com/\nDetails: http
- s://langestefan.github.io/powersystem-deadlines/conference/sest26
+ s://powersystemdeadlines.org/conference/sest26
 LOCATION:Ciudad Real\, Spain
 URL;VALUE=URI:https://sest2026.com/
 CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
@@ -131,8 +129,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:sest26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:sest26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20260630
 TRANSP:TRANSPARENT
@@ -151,7 +149,7 @@ DESCRIPTION:International Conference on Smart Energy Systems and Technologi
   the real deadline rather than after it.\n\n8th edition. The abstract dead
  line was extended from 16 February 2026 and the full paper deadline from 1
  6 March 2026.\n\nCall for papers: https://sest2026.com/\nDetails: https://
- langestefan.github.io/powersystem-deadlines/conference/sest26
+ powersystemdeadlines.org/conference/sest26
 LOCATION:Ciudad Real\, Spain
 URL;VALUE=URI:https://sest2026.com/
 CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
@@ -170,8 +168,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:sest26-author_registration@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:sest26-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260713
 DTEND;VALUE=DATE:20260714
 TRANSP:TRANSPARENT
@@ -191,8 +189,7 @@ DESCRIPTION:International Conference on Smart Energy Systems and Technologi
  n runs out before the real deadline rather than after it.\n\n8th edition. 
  The abstract deadline was extended from 16 February 2026 and the full pape
  r deadline from 16 March 2026.\n\nCall for papers: https://sest2026.com/\n
- Details: https://langestefan.github.io/powersystem-deadlines/conference/se
- st26
+ Details: https://powersystemdeadlines.org/conference/sest26
 LOCATION:Ciudad Real\, Spain
 URL;VALUE=URI:https://sest2026.com/
 CATEGORIES:Smart Grid,Microgrids,Energy Storage,EV & Transportation,Power S
@@ -211,8 +208,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:sest26-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:sest26-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260905
 TRANSP:TRANSPARENT
@@ -230,7 +227,7 @@ DESCRIPTION:International Conference on Smart Energy Systems and Technologi
  out before the real deadline rather than after it.\n\n8th edition. The abs
  tract deadline was extended from 16 February 2026 and the full paper deadl
  ine from 16 March 2026.\n\nCall for papers: https://sest2026.com/\nDetails
- : https://langestefan.github.io/powersystem-deadlines/conference/sest26
+ : https://powersystemdeadlines.org/conference/sest26
 LOCATION:Escuela Técnica Superior de Ingeniería Industrial de Ciudad Real
  \, Ciudad Real\, Spain
 URL;VALUE=URI:https://sest2026.com/

@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:CIRED 2027 deadlines
@@ -9,11 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for International Conference and Exhibitio
  n on Electricity Distribution 2027.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/cired27.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/cired27.ics
 BEGIN:VEVENT
-UID:cired27-abstract@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cired27-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 TRANSP:TRANSPARENT
@@ -32,8 +31,8 @@ DESCRIPTION:International Conference and Exhibition on Electricity Distribu
  ld plausibly mean\, so the countdown runs out before the real deadline rat
  her than after it.\n\n29th edition. Submission is abstract-first: an accep
  ted abstract is required before a full paper can be submitted.\n\nCall for
-  papers: https://2027.cired.net/\nDetails: https://langestefan.github.io/p
- owersystem-deadlines/conference/cired27
+  papers: https://2027.cired.net/\nDetails: https://powersystemdeadlines.or
+ g/conference/cired27
 LOCATION:Stockholm\, Sweden
 URL;VALUE=URI:https://2027.cired.net/
 CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
@@ -51,8 +50,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cired27-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cired27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 TRANSP:TRANSPARENT
@@ -71,8 +70,8 @@ DESCRIPTION:International Conference and Exhibition on Electricity Distribu
  it could plausibly mean\, so the countdown runs out before the real deadli
  ne rather than after it.\n\n29th edition. Submission is abstract-first: an
   accepted abstract is required before a full paper can be submitted.\n\nCa
- ll for papers: https://2027.cired.net/\nDetails: https://langestefan.githu
- b.io/powersystem-deadlines/conference/cired27
+ ll for papers: https://2027.cired.net/\nDetails: https://powersystemdeadli
+ nes.org/conference/cired27
 LOCATION:Stockholm\, Sweden
 URL;VALUE=URI:https://2027.cired.net/
 CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
@@ -90,8 +89,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cired27-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cired27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 TRANSP:TRANSPARENT
@@ -110,8 +109,8 @@ DESCRIPTION:International Conference and Exhibition on Electricity Distribu
  uld plausibly mean\, so the countdown runs out before the real deadline ra
  ther than after it.\n\n29th edition. Submission is abstract-first: an acce
  pted abstract is required before a full paper can be submitted.\n\nCall fo
- r papers: https://2027.cired.net/\nDetails: https://langestefan.github.io/
- powersystem-deadlines/conference/cired27
+ r papers: https://2027.cired.net/\nDetails: https://powersystemdeadlines.o
+ rg/conference/cired27
 LOCATION:Stockholm\, Sweden
 URL;VALUE=URI:https://2027.cired.net/
 CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
@@ -129,8 +128,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cired27-notification-2@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cired27-notification-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270409
 DTEND;VALUE=DATE:20270410
 TRANSP:TRANSPARENT
@@ -150,8 +149,8 @@ DESCRIPTION:International Conference and Exhibition on Electricity Distribu
   the earliest it could plausibly mean\, so the countdown runs out before t
  he real deadline rather than after it.\n\n29th edition. Submission is abst
  ract-first: an accepted abstract is required before a full paper can be su
- bmitted.\n\nCall for papers: https://2027.cired.net/\nDetails: https://lan
- gestefan.github.io/powersystem-deadlines/conference/cired27
+ bmitted.\n\nCall for papers: https://2027.cired.net/\nDetails: https://pow
+ ersystemdeadlines.org/conference/cired27
 LOCATION:Stockholm\, Sweden
 URL;VALUE=URI:https://2027.cired.net/
 CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
@@ -169,8 +168,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cired27-early_registration@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cired27-early_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270428
 DTEND;VALUE=DATE:20270429
 TRANSP:TRANSPARENT
@@ -190,8 +189,8 @@ DESCRIPTION:International Conference and Exhibition on Electricity Distribu
  liest it could plausibly mean\, so the countdown runs out before the real 
  deadline rather than after it.\n\n29th edition. Submission is abstract-fir
  st: an accepted abstract is required before a full paper can be submitted.
- \n\nCall for papers: https://2027.cired.net/\nDetails: https://langestefan
- .github.io/powersystem-deadlines/conference/cired27
+ \n\nCall for papers: https://2027.cired.net/\nDetails: https://powersystem
+ deadlines.org/conference/cired27
 LOCATION:Stockholm\, Sweden
 URL;VALUE=URI:https://2027.cired.net/
 CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
@@ -209,8 +208,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cired27-author_registration@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cired27-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270510
 DTEND;VALUE=DATE:20270511
 TRANSP:TRANSPARENT
@@ -229,8 +228,8 @@ DESCRIPTION:International Conference and Exhibition on Electricity Distribu
  t it could plausibly mean\, so the countdown runs out before the real dead
  line rather than after it.\n\n29th edition. Submission is abstract-first: 
  an accepted abstract is required before a full paper can be submitted.\n\n
- Call for papers: https://2027.cired.net/\nDetails: https://langestefan.git
- hub.io/powersystem-deadlines/conference/cired27
+ Call for papers: https://2027.cired.net/\nDetails: https://powersystemdead
+ lines.org/conference/cired27
 LOCATION:Stockholm\, Sweden
 URL;VALUE=URI:https://2027.cired.net/
 CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
@@ -248,8 +247,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cired27-presentation_upload@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cired27-presentation_upload@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270528
 DTEND;VALUE=DATE:20270529
 TRANSP:TRANSPARENT
@@ -269,8 +268,8 @@ DESCRIPTION:International Conference and Exhibition on Electricity Distribu
  liest it could plausibly mean\, so the countdown runs out before the real 
  deadline rather than after it.\n\n29th edition. Submission is abstract-fir
  st: an accepted abstract is required before a full paper can be submitted.
- \n\nCall for papers: https://2027.cired.net/\nDetails: https://langestefan
- .github.io/powersystem-deadlines/conference/cired27
+ \n\nCall for papers: https://2027.cired.net/\nDetails: https://powersystem
+ deadlines.org/conference/cired27
 LOCATION:Stockholm\, Sweden
 URL;VALUE=URI:https://2027.cired.net/
 CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables
@@ -288,8 +287,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cired27-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cired27-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270614
 DTEND;VALUE=DATE:20270618
 TRANSP:TRANSPARENT
@@ -307,8 +306,8 @@ DESCRIPTION:International Conference and Exhibition on Electricity Distribu
  liest it could plausibly mean\, so the countdown runs out before the real 
  deadline rather than after it.\n\n29th edition. Submission is abstract-fir
  st: an accepted abstract is required before a full paper can be submitted.
- \n\nCall for papers: https://2027.cired.net/\nDetails: https://langestefan
- .github.io/powersystem-deadlines/conference/cired27
+ \n\nCall for papers: https://2027.cired.net/\nDetails: https://powersystem
+ deadlines.org/conference/cired27
 LOCATION:Stockholm\, Sweden
 URL;VALUE=URI:https://2027.cired.net/
 CATEGORIES:Distribution,Smart Grid,Power Systems,Renewables

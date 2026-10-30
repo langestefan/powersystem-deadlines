@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:PowerTech 2027 deadlines
@@ -8,11 +8,11 @@ X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for IEEE PES PowerTech Conference 2027.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/powertech27.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/powertech27.ic
+ s
 BEGIN:VEVENT
-UID:powertech27-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:powertech27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 TRANSP:TRANSPARENT
@@ -28,8 +28,7 @@ DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nFull paper su
  ntdown runs out before the real deadline rather than after it.\n\nCo-spons
  ored by IEEE PES and KU Leuven. Papers are limited to six pages. Submissio
  n opens in November 2026.\n\nCall for papers: https://powertech2027.com/\n
- Details: https://langestefan.github.io/powersystem-deadlines/conference/po
- wertech27
+ Details: https://powersystemdeadlines.org/conference/powertech27
 LOCATION:Bruges\, Belgium
 URL;VALUE=URI:https://powertech2027.com/
 CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
@@ -48,8 +47,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:powertech27-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:powertech27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270423
 DTEND;VALUE=DATE:20270424
 TRANSP:TRANSPARENT
@@ -65,8 +64,7 @@ DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nAuthor notifi
  down runs out before the real deadline rather than after it.\n\nCo-sponsor
  ed by IEEE PES and KU Leuven. Papers are limited to six pages. Submission 
  opens in November 2026.\n\nCall for papers: https://powertech2027.com/\nDe
- tails: https://langestefan.github.io/powersystem-deadlines/conference/powe
- rtech27
+ tails: https://powersystemdeadlines.org/conference/powertech27
 LOCATION:Bruges\, Belgium
 URL;VALUE=URI:https://powertech2027.com/
 CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
@@ -85,8 +83,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:powertech27-author_registration@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:powertech27-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 TRANSP:TRANSPARENT
@@ -103,8 +101,8 @@ DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nAuthor and ea
  ibly mean\, so the countdown runs out before the real deadline rather than
   after it.\n\nCo-sponsored by IEEE PES and KU Leuven. Papers are limited t
  o six pages. Submission opens in November 2026.\n\nCall for papers: https:
- //powertech2027.com/\nDetails: https://langestefan.github.io/powersystem-d
- eadlines/conference/powertech27
+ //powertech2027.com/\nDetails: https://powersystemdeadlines.org/conference
+ /powertech27
 LOCATION:Bruges\, Belgium
 URL;VALUE=URI:https://powertech2027.com/
 CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
@@ -123,8 +121,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:powertech27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:powertech27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 TRANSP:TRANSPARENT
@@ -140,8 +138,7 @@ DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nFinal paper s
  untdown runs out before the real deadline rather than after it.\n\nCo-spon
  sored by IEEE PES and KU Leuven. Papers are limited to six pages. Submissi
  on opens in November 2026.\n\nCall for papers: https://powertech2027.com/\
- nDetails: https://langestefan.github.io/powersystem-deadlines/conference/p
- owertech27
+ nDetails: https://powersystemdeadlines.org/conference/powertech27
 LOCATION:Bruges\, Belgium
 URL;VALUE=URI:https://powertech2027.com/
 CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza
@@ -160,8 +157,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:powertech27-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:powertech27-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270905
 DTEND;VALUE=DATE:20270910
 TRANSP:TRANSPARENT
@@ -176,8 +173,8 @@ DESCRIPTION:IEEE PES PowerTech Conference (PowerTech 2027)\n\nConference: S
   so the countdown runs out before the real deadline rather than after it.\
  n\nCo-sponsored by IEEE PES and KU Leuven. Papers are limited to six pages
  . Submission opens in November 2026.\n\nCall for papers: https://powertech
- 2027.com/\nDetails: https://langestefan.github.io/powersystem-deadlines/co
- nference/powertech27
+ 2027.com/\nDetails: https://powersystemdeadlines.org/conference/powertech2
+ 7
 LOCATION:Bruges\, Belgium
 URL;VALUE=URI:https://powertech2027.com/
 CATEGORIES:Power Systems,Transmission,Energy Markets,Computation & Optimiza

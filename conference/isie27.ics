@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:ISIE 2027 deadlines
@@ -9,11 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for IEEE International Symposium on Indust
  rial Electronics 2027.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/isie27.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/isie27.ics
 BEGIN:VEVENT
-UID:isie27-workshop_proposal@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:isie27-workshop_proposal@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -36,8 +35,7 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
  down runs out before the real deadline rather than after it.\n\n36th editi
  on\, themed on industrial electronics for the energy transition and the di
  gital transformation of industry.\n\nCall for papers: https://isie2027.iee
- e-ies.org/\nDetails: https://langestefan.github.io/powersystem-deadlines/c
- onference/isie27
+ e-ies.org/\nDetails: https://powersystemdeadlines.org/conference/isie27
 LOCATION:Paris\, France
 URL;VALUE=URI:https://isie2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -55,8 +53,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie27-tutorial_proposal@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:isie27-tutorial_proposal@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -79,8 +77,7 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
  tdown runs out before the real deadline rather than after it.\n\n36th edit
  ion\, themed on industrial electronics for the energy transition and the d
  igital transformation of industry.\n\nCall for papers: https://isie2027.ie
- ee-ies.org/\nDetails: https://langestefan.github.io/powersystem-deadlines/
- conference/isie27
+ ee-ies.org/\nDetails: https://powersystemdeadlines.org/conference/isie27
 LOCATION:Paris\, France
 URL;VALUE=URI:https://isie2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -98,8 +95,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie27-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:isie27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 TRANSP:TRANSPARENT
@@ -122,8 +119,7 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
  tdown runs out before the real deadline rather than after it.\n\n36th edit
  ion\, themed on industrial electronics for the energy transition and the d
  igital transformation of industry.\n\nCall for papers: https://isie2027.ie
- ee-ies.org/\nDetails: https://langestefan.github.io/powersystem-deadlines/
- conference/isie27
+ ee-ies.org/\nDetails: https://powersystemdeadlines.org/conference/isie27
 LOCATION:Paris\, France
 URL;VALUE=URI:https://isie2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -141,8 +137,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie27-panel_proposal@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:isie27-panel_proposal@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 TRANSP:TRANSPARENT
@@ -165,8 +161,7 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
  wn runs out before the real deadline rather than after it.\n\n36th edition
  \, themed on industrial electronics for the energy transition and the digi
  tal transformation of industry.\n\nCall for papers: https://isie2027.ieee-
- ies.org/\nDetails: https://langestefan.github.io/powersystem-deadlines/con
- ference/isie27
+ ies.org/\nDetails: https://powersystemdeadlines.org/conference/isie27
 LOCATION:Paris\, France
 URL;VALUE=URI:https://isie2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -184,8 +179,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie27-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:isie27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 TRANSP:TRANSPARENT
@@ -209,8 +204,8 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
  ould plausibly mean\, so the countdown runs out before the real deadline r
  ather than after it.\n\n36th edition\, themed on industrial electronics fo
  r the energy transition and the digital transformation of industry.\n\nCal
- l for papers: https://isie2027.ieee-ies.org/\nDetails: https://langestefan
- .github.io/powersystem-deadlines/conference/isie27
+ l for papers: https://isie2027.ieee-ies.org/\nDetails: https://powersystem
+ deadlines.org/conference/isie27
 LOCATION:Paris\, France
 URL;VALUE=URI:https://isie2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -228,8 +223,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie27-notification-2@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:isie27-notification-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
@@ -253,8 +248,8 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
  , so the countdown runs out before the real deadline rather than after it.
  \n\n36th edition\, themed on industrial electronics for the energy transit
  ion and the digital transformation of industry.\n\nCall for papers: https:
- //isie2027.ieee-ies.org/\nDetails: https://langestefan.github.io/powersyst
- em-deadlines/conference/isie27
+ //isie2027.ieee-ies.org/\nDetails: https://powersystemdeadlines.org/confer
+ ence/isie27
 LOCATION:Paris\, France
 URL;VALUE=URI:https://isie2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -272,8 +267,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie27-paper-2@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:isie27-paper-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 TRANSP:TRANSPARENT
@@ -297,8 +292,8 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
  the countdown runs out before the real deadline rather than after it.\n\n3
  6th edition\, themed on industrial electronics for the energy transition a
  nd the digital transformation of industry.\n\nCall for papers: https://isi
- e2027.ieee-ies.org/\nDetails: https://langestefan.github.io/powersystem-de
- adlines/conference/isie27
+ e2027.ieee-ies.org/\nDetails: https://powersystemdeadlines.org/conference/
+ isie27
 LOCATION:Paris\, France
 URL;VALUE=URI:https://isie2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -316,8 +311,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:isie27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
@@ -340,8 +335,8 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
  ountdown runs out before the real deadline rather than after it.\n\n36th e
  dition\, themed on industrial electronics for the energy transition and th
  e digital transformation of industry.\n\nCall for papers: https://isie2027
- .ieee-ies.org/\nDetails: https://langestefan.github.io/powersystem-deadlin
- es/conference/isie27
+ .ieee-ies.org/\nDetails: https://powersystemdeadlines.org/conference/isie2
+ 7
 LOCATION:Paris\, France
 URL;VALUE=URI:https://isie2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -359,8 +354,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie27-author_registration@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:isie27-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
@@ -383,8 +378,7 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
   runs out before the real deadline rather than after it.\n\n36th edition\,
   themed on industrial electronics for the energy transition and the digita
  l transformation of industry.\n\nCall for papers: https://isie2027.ieee-ie
- s.org/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
- rence/isie27
+ s.org/\nDetails: https://powersystemdeadlines.org/conference/isie27
 LOCATION:Paris\, France
 URL;VALUE=URI:https://isie2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -402,8 +396,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie27-notification-3@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:isie27-notification-3@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 TRANSP:TRANSPARENT
@@ -427,8 +421,8 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
  ly mean\, so the countdown runs out before the real deadline rather than a
  fter it.\n\n36th edition\, themed on industrial electronics for the energy
   transition and the digital transformation of industry.\n\nCall for papers
- : https://isie2027.ieee-ies.org/\nDetails: https://langestefan.github.io/p
- owersystem-deadlines/conference/isie27
+ : https://isie2027.ieee-ies.org/\nDetails: https://powersystemdeadlines.or
+ g/conference/isie27
 LOCATION:Paris\, France
 URL;VALUE=URI:https://isie2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid
@@ -446,8 +440,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:isie27-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:isie27-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270630
 DTEND;VALUE=DATE:20270704
 TRANSP:TRANSPARENT
@@ -469,8 +463,8 @@ DESCRIPTION:IEEE International Symposium on Industrial Electronics (ISIE 20
  the countdown runs out before the real deadline rather than after it.\n\n3
  6th edition\, themed on industrial electronics for the energy transition a
  nd the digital transformation of industry.\n\nCall for papers: https://isi
- e2027.ieee-ies.org/\nDetails: https://langestefan.github.io/powersystem-de
- adlines/conference/isie27
+ e2027.ieee-ies.org/\nDetails: https://powersystemdeadlines.org/conference/
+ isie27
 LOCATION:Pierre et Marie Curie Campus\, Paris\, France
 URL;VALUE=URI:https://isie2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Renewables,Smart Grid

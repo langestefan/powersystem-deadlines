@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:IEMDC 2027 deadlines
@@ -9,11 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for IEEE International Electric Machines a
  nd Drives Conference 2027.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/iemdc27.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/iemdc27.ics
 BEGIN:VEVENT
-UID:iemdc27-abstract@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:iemdc27-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -29,8 +28,8 @@ DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
  zone. This is counted as UTC+12\, the earliest it could plausibly mean\, s
  o the countdown runs out before the real deadline rather than after it.\n\
  n16th edition\, marking the conference's 30th anniversary and returning to
-  Milwaukee.\n\nCall for papers: https://www.iemdc.org/\nDetails: https://l
- angestefan.github.io/powersystem-deadlines/conference/iemdc27
+  Milwaukee.\n\nCall for papers: https://www.iemdc.org/\nDetails: https://p
+ owersystemdeadlines.org/conference/iemdc27
 LOCATION:Milwaukee\, USA
 URL;VALUE=URI:https://www.iemdc.org/
 CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
@@ -48,8 +47,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:iemdc27-workshop_proposal@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:iemdc27-workshop_proposal@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -66,7 +65,7 @@ DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
  ean\, so the countdown runs out before the real deadline rather than after
   it.\n\n16th edition\, marking the conference's 30th anniversary and retur
  ning to Milwaukee.\n\nCall for papers: https://www.iemdc.org/\nDetails: ht
- tps://langestefan.github.io/powersystem-deadlines/conference/iemdc27
+ tps://powersystemdeadlines.org/conference/iemdc27
 LOCATION:Milwaukee\, USA
 URL;VALUE=URI:https://www.iemdc.org/
 CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
@@ -84,8 +83,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:iemdc27-tutorial_proposal@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:iemdc27-tutorial_proposal@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 TRANSP:TRANSPARENT
@@ -102,7 +101,7 @@ DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
  so the countdown runs out before the real deadline rather than after it.\n
  \n16th edition\, marking the conference's 30th anniversary and returning t
  o Milwaukee.\n\nCall for papers: https://www.iemdc.org/\nDetails: https://
- langestefan.github.io/powersystem-deadlines/conference/iemdc27
+ powersystemdeadlines.org/conference/iemdc27
 LOCATION:Milwaukee\, USA
 URL;VALUE=URI:https://www.iemdc.org/
 CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
@@ -120,8 +119,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:iemdc27-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:iemdc27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 TRANSP:TRANSPARENT
@@ -138,8 +137,7 @@ DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
  sibly mean\, so the countdown runs out before the real deadline rather tha
  n after it.\n\n16th edition\, marking the conference's 30th anniversary an
  d returning to Milwaukee.\n\nCall for papers: https://www.iemdc.org/\nDeta
- ils: https://langestefan.github.io/powersystem-deadlines/conference/iemdc2
- 7
+ ils: https://powersystemdeadlines.org/conference/iemdc27
 LOCATION:Milwaukee\, USA
 URL;VALUE=URI:https://www.iemdc.org/
 CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
@@ -157,8 +155,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:iemdc27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:iemdc27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
@@ -176,8 +174,7 @@ DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
  t it could plausibly mean\, so the countdown runs out before the real dead
  line rather than after it.\n\n16th edition\, marking the conference's 30th
   anniversary and returning to Milwaukee.\n\nCall for papers: https://www.i
- emdc.org/\nDetails: https://langestefan.github.io/powersystem-deadlines/co
- nference/iemdc27
+ emdc.org/\nDetails: https://powersystemdeadlines.org/conference/iemdc27
 LOCATION:Milwaukee\, USA
 URL;VALUE=URI:https://www.iemdc.org/
 CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
@@ -195,8 +192,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:iemdc27-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:iemdc27-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270521
 TRANSP:TRANSPARENT
@@ -212,8 +209,7 @@ DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
  ausibly mean\, so the countdown runs out before the real deadline rather t
  han after it.\n\n16th edition\, marking the conference's 30th anniversary 
  and returning to Milwaukee.\n\nCall for papers: https://www.iemdc.org/\nDe
- tails: https://langestefan.github.io/powersystem-deadlines/conference/iemd
- c27
+ tails: https://powersystemdeadlines.org/conference/iemdc27
 LOCATION:Milwaukee\, USA
 URL;VALUE=URI:https://www.iemdc.org/
 CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation

@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:DPSP 2026 deadlines
@@ -9,11 +9,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for IET International Conference on Develo
  pments in Power System Protection 2026.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/dpsp-global26.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/dpsp-global26.
+ ics
 BEGIN:VEVENT
-UID:dpsp-global26-abstract@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:dpsp-global26-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20250711
 DTEND;VALUE=DATE:20250712
 TRANSP:TRANSPARENT
@@ -30,7 +30,7 @@ DESCRIPTION:IET International Conference on Developments in Power System Pr
   as UTC+12\, the earliest it could plausibly mean\, so the countdown runs 
  out before the real deadline rather than after it.\n\n20th edition (DPSP G
  lobal 2026).\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https:
- //langestefan.github.io/powersystem-deadlines/conference/dpsp-global26
+ //powersystemdeadlines.org/conference/dpsp-global26
 LOCATION:London\, United Kingdom
 URL;VALUE=URI:https://dpsp.theiet.org/
 CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
@@ -48,8 +48,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dpsp-global26-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:dpsp-global26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20251031
 DTEND;VALUE=DATE:20251101
 TRANSP:TRANSPARENT
@@ -65,8 +65,8 @@ DESCRIPTION:IET International Conference on Developments in Power System Pr
  sumed)\n\nThe call for papers states no timezone. This is counted as UTC+1
  2\, the earliest it could plausibly mean\, so the countdown runs out befor
  e the real deadline rather than after it.\n\n20th edition (DPSP Global 202
- 6).\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https://langest
- efan.github.io/powersystem-deadlines/conference/dpsp-global26
+ 6).\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https://powersy
+ stemdeadlines.org/conference/dpsp-global26
 LOCATION:London\, United Kingdom
 URL;VALUE=URI:https://dpsp.theiet.org/
 CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
@@ -84,8 +84,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dpsp-global26-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:dpsp-global26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20251210
 DTEND;VALUE=DATE:20251211
 TRANSP:TRANSPARENT
@@ -101,8 +101,8 @@ DESCRIPTION:IET International Conference on Developments in Power System Pr
  med)\n\nThe call for papers states no timezone. This is counted as UTC+12\
  , the earliest it could plausibly mean\, so the countdown runs out before 
  the real deadline rather than after it.\n\n20th edition (DPSP Global 2026)
- .\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https://langestef
- an.github.io/powersystem-deadlines/conference/dpsp-global26
+ .\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https://powersyst
+ emdeadlines.org/conference/dpsp-global26
 LOCATION:London\, United Kingdom
 URL;VALUE=URI:https://dpsp.theiet.org/
 CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
@@ -120,8 +120,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dpsp-global26-author_registration@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:dpsp-global26-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20251222
 DTEND;VALUE=DATE:20251223
 TRANSP:TRANSPARENT
@@ -137,8 +137,8 @@ DESCRIPTION:IET International Conference on Developments in Power System Pr
  med)\n\nThe call for papers states no timezone. This is counted as UTC+12\
  , the earliest it could plausibly mean\, so the countdown runs out before 
  the real deadline rather than after it.\n\n20th edition (DPSP Global 2026)
- .\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https://langestef
- an.github.io/powersystem-deadlines/conference/dpsp-global26
+ .\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https://powersyst
+ emdeadlines.org/conference/dpsp-global26
 LOCATION:London\, United Kingdom
 URL;VALUE=URI:https://dpsp.theiet.org/
 CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
@@ -156,8 +156,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dpsp-global26-presentation_upload@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:dpsp-global26-presentation_upload@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260220
 DTEND;VALUE=DATE:20260221
 TRANSP:TRANSPARENT
@@ -174,7 +174,7 @@ DESCRIPTION:IET International Conference on Developments in Power System Pr
  as UTC+12\, the earliest it could plausibly mean\, so the countdown runs o
  ut before the real deadline rather than after it.\n\n20th edition (DPSP Gl
  obal 2026).\n\nCall for papers: https://dpsp.theiet.org/\nDetails: https:/
- /langestefan.github.io/powersystem-deadlines/conference/dpsp-global26
+ /powersystemdeadlines.org/conference/dpsp-global26
 LOCATION:London\, United Kingdom
 URL;VALUE=URI:https://dpsp.theiet.org/
 CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security
@@ -192,8 +192,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dpsp-global26-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:dpsp-global26-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260302
 DTEND;VALUE=DATE:20260307
 TRANSP:TRANSPARENT
@@ -209,7 +209,7 @@ DESCRIPTION:IET International Conference on Developments in Power System Pr
  ed as UTC+12\, the earliest it could plausibly mean\, so the countdown run
  s out before the real deadline rather than after it.\n\n20th edition (DPSP
   Global 2026).\n\nCall for papers: https://dpsp.theiet.org/\nDetails: http
- s://langestefan.github.io/powersystem-deadlines/conference/dpsp-global26
+ s://powersystemdeadlines.org/conference/dpsp-global26
 LOCATION:IET London: Savoy Place\, London\, United Kingdom
 URL;VALUE=URI:https://dpsp.theiet.org/
 CATEGORIES:Protection & Automation,Power Systems,Cyber-Physical Security

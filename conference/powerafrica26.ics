@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:PowerAfrica 2026 deadlines
@@ -9,11 +9,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for IEEE PES/IAS PowerAfrica Conference 20
  26.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/powerafrica26.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/powerafrica26.
+ ics
 BEGIN:VEVENT
-UID:powerafrica26-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:powerafrica26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
 TRANSP:TRANSPARENT
@@ -30,8 +30,7 @@ DESCRIPTION:IEEE PES/IAS PowerAfrica Conference (PowerAfrica 2026)\n\nPaper
   the earliest it could plausibly mean\, so the countdown runs out before t
  he real deadline rather than after it.\n\nThe paper deadline was extended 
  from 7 April 2026.\n\nCall for papers: https://ieee-powerafrica.org/\nDeta
- ils: https://langestefan.github.io/powersystem-deadlines/conference/powera
- frica26
+ ils: https://powersystemdeadlines.org/conference/powerafrica26
 LOCATION:Nairobi\, Kenya
 URL;VALUE=URI:https://ieee-powerafrica.org/
 CATEGORIES:Power Systems,Renewables,Distribution,Microgrids
@@ -49,8 +48,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:powerafrica26-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:powerafrica26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 TRANSP:TRANSPARENT
@@ -67,8 +66,7 @@ DESCRIPTION:IEEE PES/IAS PowerAfrica Conference (PowerAfrica 2026)\n\nNotif
   UTC+12\, the earliest it could plausibly mean\, so the countdown runs out
   before the real deadline rather than after it.\n\nThe paper deadline was 
  extended from 7 April 2026.\n\nCall for papers: https://ieee-powerafrica.o
- rg/\nDetails: https://langestefan.github.io/powersystem-deadlines/conferen
- ce/powerafrica26
+ rg/\nDetails: https://powersystemdeadlines.org/conference/powerafrica26
 LOCATION:Nairobi\, Kenya
 URL;VALUE=URI:https://ieee-powerafrica.org/
 CATEGORIES:Power Systems,Renewables,Distribution,Microgrids
@@ -86,8 +84,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:powerafrica26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:powerafrica26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260622
 DTEND;VALUE=DATE:20260623
 TRANSP:TRANSPARENT
@@ -103,8 +101,7 @@ DESCRIPTION:IEEE PES/IAS PowerAfrica Conference (PowerAfrica 2026)\n\nCamer
   earliest it could plausibly mean\, so the countdown runs out before the r
  eal deadline rather than after it.\n\nThe paper deadline was extended from
   7 April 2026.\n\nCall for papers: https://ieee-powerafrica.org/\nDetails:
-  https://langestefan.github.io/powersystem-deadlines/conference/powerafric
- a26
+  https://powersystemdeadlines.org/conference/powerafrica26
 LOCATION:Nairobi\, Kenya
 URL;VALUE=URI:https://ieee-powerafrica.org/
 CATEGORIES:Power Systems,Renewables,Distribution,Microgrids
@@ -122,8 +119,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:powerafrica26-early_registration@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:powerafrica26-early_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 TRANSP:TRANSPARENT
@@ -140,8 +137,7 @@ DESCRIPTION:IEEE PES/IAS PowerAfrica Conference (PowerAfrica 2026)\n\nEarly
  TC+12\, the earliest it could plausibly mean\, so the countdown runs out b
  efore the real deadline rather than after it.\n\nThe paper deadline was ex
  tended from 7 April 2026.\n\nCall for papers: https://ieee-powerafrica.org
- /\nDetails: https://langestefan.github.io/powersystem-deadlines/conference
- /powerafrica26
+ /\nDetails: https://powersystemdeadlines.org/conference/powerafrica26
 LOCATION:Nairobi\, Kenya
 URL;VALUE=URI:https://ieee-powerafrica.org/
 CATEGORIES:Power Systems,Renewables,Distribution,Microgrids
@@ -159,8 +155,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:powerafrica26-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:powerafrica26-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260926
 TRANSP:TRANSPARENT
@@ -175,8 +171,7 @@ DESCRIPTION:IEEE PES/IAS PowerAfrica Conference (PowerAfrica 2026)\n\nConfe
  +12\, the earliest it could plausibly mean\, so the countdown runs out bef
  ore the real deadline rather than after it.\n\nThe paper deadline was exte
  nded from 7 April 2026.\n\nCall for papers: https://ieee-powerafrica.org/\
- nDetails: https://langestefan.github.io/powersystem-deadlines/conference/p
- owerafrica26
+ nDetails: https://powersystemdeadlines.org/conference/powerafrica26
 LOCATION:Safari Park\, Nairobi\, Kenya
 URL;VALUE=URI:https://ieee-powerafrica.org/
 CATEGORIES:Power Systems,Renewables,Distribution,Microgrids

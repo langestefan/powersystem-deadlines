@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:CIGRE Session 2026 deadlines
@@ -8,11 +8,11 @@ X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for CIGRE Paris Session 2026.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/cigre-session26.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/cigre-session2
+ 6.ics
 BEGIN:VEVENT
-UID:cigre-session26-abstract@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-session26-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20250707
 DTEND;VALUE=DATE:20250708
 TRANSP:TRANSPARENT
@@ -33,8 +33,7 @@ DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nSynopsis to the Nat
   after it.\n\nDeadlines are those for authors submitting through a Nationa
  l Committee\; authors from countries without one had later deadlines with 
  the Central Office.\n\nCall for papers: https://session.cigre.org/\nDetail
- s: https://langestefan.github.io/powersystem-deadlines/conference/cigre-se
- ssion26
+ s: https://powersystemdeadlines.org/conference/cigre-session26
 LOCATION:Paris\, France
 URL;VALUE=URI:https://session.cigre.org/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
@@ -53,8 +52,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-session26-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-session26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20251020
 DTEND;VALUE=DATE:20251021
 TRANSP:TRANSPARENT
@@ -75,8 +74,7 @@ DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nSynopsis acceptance
  after it.\n\nDeadlines are those for authors submitting through a National
   Committee\; authors from countries without one had later deadlines with t
  he Central Office.\n\nCall for papers: https://session.cigre.org/\nDetails
- : https://langestefan.github.io/powersystem-deadlines/conference/cigre-ses
- sion26
+ : https://powersystemdeadlines.org/conference/cigre-session26
 LOCATION:Paris\, France
 URL;VALUE=URI:https://session.cigre.org/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
@@ -95,8 +93,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-session26-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-session26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260112
 DTEND;VALUE=DATE:20260113
 TRANSP:TRANSPARENT
@@ -117,8 +115,7 @@ DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nFull paper to the N
  han after it.\n\nDeadlines are those for authors submitting through a Nati
  onal Committee\; authors from countries without one had later deadlines wi
  th the Central Office.\n\nCall for papers: https://session.cigre.org/\nDet
- ails: https://langestefan.github.io/powersystem-deadlines/conference/cigre
- -session26
+ ails: https://powersystemdeadlines.org/conference/cigre-session26
 LOCATION:Paris\, France
 URL;VALUE=URI:https://session.cigre.org/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
@@ -137,8 +134,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-session26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-session26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260410
 DTEND;VALUE=DATE:20260411
 TRANSP:TRANSPARENT
@@ -157,8 +154,8 @@ DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nRevised version: 10
   countdown runs out before the real deadline rather than after it.\n\nDead
  lines are those for authors submitting through a National Committee\; auth
  ors from countries without one had later deadlines with the Central Office
- .\n\nCall for papers: https://session.cigre.org/\nDetails: https://langest
- efan.github.io/powersystem-deadlines/conference/cigre-session26
+ .\n\nCall for papers: https://session.cigre.org/\nDetails: https://powersy
+ stemdeadlines.org/conference/cigre-session26
 LOCATION:Paris\, France
 URL;VALUE=URI:https://session.cigre.org/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
@@ -177,8 +174,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-session26-notification-2@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-session26-notification-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260511
 DTEND;VALUE=DATE:20260512
 TRANSP:TRANSPARENT
@@ -199,8 +196,7 @@ DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nFull paper acceptan
  n after it.\n\nDeadlines are those for authors submitting through a Nation
  al Committee\; authors from countries without one had later deadlines with
   the Central Office.\n\nCall for papers: https://session.cigre.org/\nDetai
- ls: https://langestefan.github.io/powersystem-deadlines/conference/cigre-s
- ession26
+ ls: https://powersystemdeadlines.org/conference/cigre-session26
 LOCATION:Paris\, France
 URL;VALUE=URI:https://session.cigre.org/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
@@ -219,8 +215,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-session26-poster@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-session26-poster@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20260630
 TRANSP:TRANSPARENT
@@ -239,8 +235,8 @@ DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nPoster: 29 Jun 2026
  n runs out before the real deadline rather than after it.\n\nDeadlines are
   those for authors submitting through a National Committee\; authors from 
  countries without one had later deadlines with the Central Office.\n\nCall
-  for papers: https://session.cigre.org/\nDetails: https://langestefan.gith
- ub.io/powersystem-deadlines/conference/cigre-session26
+  for papers: https://session.cigre.org/\nDetails: https://powersystemdeadl
+ ines.org/conference/cigre-session26
 LOCATION:Paris\, France
 URL;VALUE=URI:https://session.cigre.org/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
@@ -259,8 +255,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-session26-presentation_upload@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-session26-presentation_upload@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 TRANSP:TRANSPARENT
@@ -281,8 +277,7 @@ DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nContributions at th
   it.\n\nDeadlines are those for authors submitting through a National Comm
  ittee\; authors from countries without one had later deadlines with the Ce
  ntral Office.\n\nCall for papers: https://session.cigre.org/\nDetails: htt
- ps://langestefan.github.io/powersystem-deadlines/conference/cigre-session2
- 6
+ ps://powersystemdeadlines.org/conference/cigre-session26
 LOCATION:Paris\, France
 URL;VALUE=URI:https://session.cigre.org/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 
@@ -301,8 +296,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-session26-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-session26-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260829
 TRANSP:TRANSPARENT
@@ -321,8 +316,7 @@ DESCRIPTION:CIGRE Paris Session (CIGRE Session 2026)\n\nConference: August
  after it.\n\nDeadlines are those for authors submitting through a National
   Committee\; authors from countries without one had later deadlines with t
  he Central Office.\n\nCall for papers: https://session.cigre.org/\nDetails
- : https://langestefan.github.io/powersystem-deadlines/conference/cigre-ses
- sion26
+ : https://powersystemdeadlines.org/conference/cigre-session26
 LOCATION:Palais des Congrès de Paris\, Paris\, France
 URL;VALUE=URI:https://session.cigre.org/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Protection 

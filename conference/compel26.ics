@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:COMPEL 2026 deadlines
@@ -9,11 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for IEEE Workshop on Control and Modeling 
  for Power Electronics 2026.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/compel26.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/compel26.ics
 BEGIN:VEVENT
-UID:compel26-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:compel26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260408
 DTEND;VALUE=DATE:20260409
 TRANSP:TRANSPARENT
@@ -29,8 +28,8 @@ DESCRIPTION:IEEE Workshop on Control and Modeling for Power Electronics (CO
   plausibly mean\, so the countdown runs out before the real deadline rathe
  r than after it.\n\n27th edition. Digests of up to five pages\, double-bli
  nd. The digest deadline was extended from 31 March 2026.\n\nCall for paper
- s: https://attend.ieee.org/compel-2026\nDetails: https://langestefan.githu
- b.io/powersystem-deadlines/conference/compel26
+ s: https://attend.ieee.org/compel-2026\nDetails: https://powersystemdeadli
+ nes.org/conference/compel26
 LOCATION:Cambridge\, United Kingdom
 URL;VALUE=URI:https://attend.ieee.org/compel-2026
 CATEGORIES:Power Electronics,Computation & Optimization
@@ -48,8 +47,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:compel26-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:compel26-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260514
 DTEND;VALUE=DATE:20260515
 TRANSP:TRANSPARENT
@@ -65,8 +64,8 @@ DESCRIPTION:IEEE Workshop on Control and Modeling for Power Electronics (CO
  plausibly mean\, so the countdown runs out before the real deadline rather
   than after it.\n\n27th edition. Digests of up to five pages\, double-blin
  d. The digest deadline was extended from 31 March 2026.\n\nCall for papers
- : https://attend.ieee.org/compel-2026\nDetails: https://langestefan.github
- .io/powersystem-deadlines/conference/compel26
+ : https://attend.ieee.org/compel-2026\nDetails: https://powersystemdeadlin
+ es.org/conference/compel26
 LOCATION:Cambridge\, United Kingdom
 URL;VALUE=URI:https://attend.ieee.org/compel-2026
 CATEGORIES:Power Electronics,Computation & Optimization
@@ -84,8 +83,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:compel26-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:compel26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260623
 DTEND;VALUE=DATE:20260624
 TRANSP:TRANSPARENT
@@ -102,8 +101,8 @@ DESCRIPTION:IEEE Workshop on Control and Modeling for Power Electronics (CO
  could plausibly mean\, so the countdown runs out before the real deadline 
  rather than after it.\n\n27th edition. Digests of up to five pages\, doubl
  e-blind. The digest deadline was extended from 31 March 2026.\n\nCall for 
- papers: https://attend.ieee.org/compel-2026\nDetails: https://langestefan.
- github.io/powersystem-deadlines/conference/compel26
+ papers: https://attend.ieee.org/compel-2026\nDetails: https://powersystemd
+ eadlines.org/conference/compel26
 LOCATION:Cambridge\, United Kingdom
 URL;VALUE=URI:https://attend.ieee.org/compel-2026
 CATEGORIES:Power Electronics,Computation & Optimization
@@ -121,8 +120,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:compel26-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:compel26-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260720
 DTEND;VALUE=DATE:20260724
 TRANSP:TRANSPARENT
@@ -137,8 +136,8 @@ DESCRIPTION:IEEE Workshop on Control and Modeling for Power Electronics (CO
  could plausibly mean\, so the countdown runs out before the real deadline 
  rather than after it.\n\n27th edition. Digests of up to five pages\, doubl
  e-blind. The digest deadline was extended from 31 March 2026.\n\nCall for 
- papers: https://attend.ieee.org/compel-2026\nDetails: https://langestefan.
- github.io/powersystem-deadlines/conference/compel26
+ papers: https://attend.ieee.org/compel-2026\nDetails: https://powersystemd
+ eadlines.org/conference/compel26
 LOCATION:Downing College\, University of Cambridge\, Cambridge\, United Kin
  gdom
 URL;VALUE=URI:https://attend.ieee.org/compel-2026

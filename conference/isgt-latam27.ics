@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:ISGT Latin America 2027 deadlines
@@ -9,6 +9,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for IEEE PES Innovative Smart Grid Technol
  ogies Conference Latin America 2027.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/isgt-latam27.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/isgt-latam27.i
+ cs
 END:VCALENDAR

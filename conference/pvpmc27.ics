@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:PVPMC Workshop 2027 deadlines
@@ -9,11 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for PV Performance Modeling Collaborative 
  Workshop 2027.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/pvpmc27.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/pvpmc27.ics
 BEGIN:VEVENT
-UID:pvpmc27-abstract@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pvpmc27-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 TRANSP:TRANSPARENT
@@ -31,7 +30,7 @@ DESCRIPTION:PV Performance Modeling Collaborative Workshop (PVPMC Workshop
  al working group meetings are also invited. Students who submit an abstrac
  t and a one-page research statement may be eligible for free registration 
  and a travel grant.\n\nCall for papers: https://pvpmc.sandia.gov/\nDetails
- : https://langestefan.github.io/powersystem-deadlines/conference/pvpmc27
+ : https://powersystemdeadlines.org/conference/pvpmc27
 LOCATION:Sacramento\, USA
 URL;VALUE=URI:https://pvpmc.sandia.gov/
 CATEGORIES:Renewables,Energy Storage
@@ -49,8 +48,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pvpmc27-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:pvpmc27-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270511
 DTEND;VALUE=DATE:20270514
 TRANSP:TRANSPARENT
@@ -67,8 +66,7 @@ DESCRIPTION:PV Performance Modeling Collaborative Workshop (PVPMC Workshop
  ials and PV technical working group meetings are also invited. Students wh
  o submit an abstract and a one-page research statement may be eligible for
   free registration and a travel grant.\n\nCall for papers: https://pvpmc.s
- andia.gov/\nDetails: https://langestefan.github.io/powersystem-deadlines/c
- onference/pvpmc27
+ andia.gov/\nDetails: https://powersystemdeadlines.org/conference/pvpmc27
 LOCATION:Sacramento\, USA
 URL;VALUE=URI:https://pvpmc.sandia.gov/
 CATEGORIES:Renewables,Energy Storage

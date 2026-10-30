@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:ICIT 2027 deadlines
@@ -9,11 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for IEEE International Conference on Indus
  trial Technology 2027.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/icit27.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/icit27.ics
 BEGIN:VEVENT
-UID:icit27-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:icit27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 TRANSP:TRANSPARENT
@@ -33,8 +32,8 @@ DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
  \, so the countdown runs out before the real deadline rather than after it
  .\n\nHosted by Universidade Federal de Santa Catarina. The regular paper d
  eadline was extended from 12 October 2026.\n\nCall for papers: https://ici
- t2027.ieee-ies.org/\nDetails: https://langestefan.github.io/powersystem-de
- adlines/conference/icit27
+ t2027.ieee-ies.org/\nDetails: https://powersystemdeadlines.org/conference/
+ icit27
 LOCATION:Florianópolis\, Brazil
 URL;VALUE=URI:https://icit2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -52,8 +51,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:icit27-paper-2@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:icit27-paper-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 TRANSP:TRANSPARENT
@@ -73,8 +72,7 @@ DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
  n runs out before the real deadline rather than after it.\n\nHosted by Uni
  versidade Federal de Santa Catarina. The regular paper deadline was extend
  ed from 12 October 2026.\n\nCall for papers: https://icit2027.ieee-ies.org
- /\nDetails: https://langestefan.github.io/powersystem-deadlines/conference
- /icit27
+ /\nDetails: https://powersystemdeadlines.org/conference/icit27
 LOCATION:Florianópolis\, Brazil
 URL;VALUE=URI:https://icit2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -92,8 +90,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:icit27-tutorial_proposal@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:icit27-tutorial_proposal@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 TRANSP:TRANSPARENT
@@ -112,7 +110,7 @@ DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
  e the real deadline rather than after it.\n\nHosted by Universidade Federa
  l de Santa Catarina. The regular paper deadline was extended from 12 Octob
  er 2026.\n\nCall for papers: https://icit2027.ieee-ies.org/\nDetails: http
- s://langestefan.github.io/powersystem-deadlines/conference/icit27
+ s://powersystemdeadlines.org/conference/icit27
 LOCATION:Florianópolis\, Brazil
 URL;VALUE=URI:https://icit2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -130,8 +128,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:icit27-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:icit27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 TRANSP:TRANSPARENT
@@ -150,8 +148,7 @@ DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
  ns out before the real deadline rather than after it.\n\nHosted by Univers
  idade Federal de Santa Catarina. The regular paper deadline was extended f
  rom 12 October 2026.\n\nCall for papers: https://icit2027.ieee-ies.org/\nD
- etails: https://langestefan.github.io/powersystem-deadlines/conference/ici
- t27
+ etails: https://powersystemdeadlines.org/conference/icit27
 LOCATION:Florianópolis\, Brazil
 URL;VALUE=URI:https://icit2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -169,8 +166,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:icit27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:icit27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270118
 DTEND;VALUE=DATE:20270119
 TRANSP:TRANSPARENT
@@ -189,7 +186,7 @@ DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
  before the real deadline rather than after it.\n\nHosted by Universidade F
  ederal de Santa Catarina. The regular paper deadline was extended from 12 
  October 2026.\n\nCall for papers: https://icit2027.ieee-ies.org/\nDetails:
-  https://langestefan.github.io/powersystem-deadlines/conference/icit27
+  https://powersystemdeadlines.org/conference/icit27
 LOCATION:Florianópolis\, Brazil
 URL;VALUE=URI:https://icit2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -207,8 +204,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:icit27-author_registration@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:icit27-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270118
 DTEND;VALUE=DATE:20270119
 TRANSP:TRANSPARENT
@@ -227,7 +224,7 @@ DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
  ore the real deadline rather than after it.\n\nHosted by Universidade Fede
  ral de Santa Catarina. The regular paper deadline was extended from 12 Oct
  ober 2026.\n\nCall for papers: https://icit2027.ieee-ies.org/\nDetails: ht
- tps://langestefan.github.io/powersystem-deadlines/conference/icit27
+ tps://powersystemdeadlines.org/conference/icit27
 LOCATION:Florianópolis\, Brazil
 URL;VALUE=URI:https://icit2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
@@ -245,8 +242,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:icit27-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:icit27-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270320
 TRANSP:TRANSPARENT
@@ -264,8 +261,7 @@ DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
   runs out before the real deadline rather than after it.\n\nHosted by Univ
  ersidade Federal de Santa Catarina. The regular paper deadline was extende
  d from 12 October 2026.\n\nCall for papers: https://icit2027.ieee-ies.org/
- \nDetails: https://langestefan.github.io/powersystem-deadlines/conference/
- icit27
+ \nDetails: https://powersystemdeadlines.org/conference/icit27
 LOCATION:Majestic Palace Hotel\, Florianópolis\, Brazil
 URL;VALUE=URI:https://icit2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables

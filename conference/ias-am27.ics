@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:IEEE IAS Annual Meeting 2027 deadlines
@@ -9,11 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for IEEE Industry Applications Society Ann
  ual Meeting 2027.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/ias-am27.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/ias-am27.ics
 BEGIN:VEVENT
-UID:ias-am27-abstract@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ias-am27-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 TRANSP:TRANSPARENT
@@ -31,8 +30,7 @@ DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
  st be covered by a full conference registration before the final manuscrip
  t is submitted\, and must be presented in person. This edition incorporate
  s the I&CPS Europe conference.\n\nCall for papers: https://ias-am.ieee.org
- /2027/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
- rence/ias-am27
+ /2027/\nDetails: https://powersystemdeadlines.org/conference/ias-am27
 LOCATION:Rome\, Italy
 URL;VALUE=URI:https://ias-am.ieee.org/2027/
 CATEGORIES:Machines & Drives,Power Electronics,Power Quality,Protection & A
@@ -51,8 +49,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ias-am27-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ias-am27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270216
 TRANSP:TRANSPARENT
@@ -70,8 +68,7 @@ DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
   must be covered by a full conference registration before the final manusc
  ript is submitted\, and must be presented in person. This edition incorpor
  ates the I&CPS Europe conference.\n\nCall for papers: https://ias-am.ieee.
- org/2027/\nDetails: https://langestefan.github.io/powersystem-deadlines/co
- nference/ias-am27
+ org/2027/\nDetails: https://powersystemdeadlines.org/conference/ias-am27
 LOCATION:Rome\, Italy
 URL;VALUE=URI:https://ias-am.ieee.org/2027/
 CATEGORIES:Machines & Drives,Power Electronics,Power Quality,Protection & A
@@ -90,8 +87,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ias-am27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ias-am27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
@@ -109,8 +106,8 @@ DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
  ry accepted paper must be covered by a full conference registration before
   the final manuscript is submitted\, and must be presented in person. This
   edition incorporates the I&CPS Europe conference.\n\nCall for papers: htt
- ps://ias-am.ieee.org/2027/\nDetails: https://langestefan.github.io/powersy
- stem-deadlines/conference/ias-am27
+ ps://ias-am.ieee.org/2027/\nDetails: https://powersystemdeadlines.org/conf
+ erence/ias-am27
 LOCATION:Rome\, Italy
 URL;VALUE=URI:https://ias-am.ieee.org/2027/
 CATEGORIES:Machines & Drives,Power Electronics,Power Quality,Protection & A
@@ -129,8 +126,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ias-am27-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ias-am27-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270627
 DTEND;VALUE=DATE:20270702
 TRANSP:TRANSPARENT
@@ -146,8 +143,8 @@ DESCRIPTION:IEEE Industry Applications Society Annual Meeting (IEEE IAS Ann
  ccepted paper must be covered by a full conference registration before the
   final manuscript is submitted\, and must be presented in person. This edi
  tion incorporates the I&CPS Europe conference.\n\nCall for papers: https:/
- /ias-am.ieee.org/2027/\nDetails: https://langestefan.github.io/powersystem
- -deadlines/conference/ias-am27
+ /ias-am.ieee.org/2027/\nDetails: https://powersystemdeadlines.org/conferen
+ ce/ias-am27
 LOCATION:Ergife Palace Hotel Roma\, Rome\, Italy
 URL;VALUE=URI:https://ias-am.ieee.org/2027/
 CATEGORIES:Machines & Drives,Power Electronics,Power Quality,Protection & A

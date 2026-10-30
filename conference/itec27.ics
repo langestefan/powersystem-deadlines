@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:ITEC 2027 deadlines
@@ -9,11 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for IEEE Transportation Electrification Co
  nference and Expo 2027.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/itec27.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/itec27.ics
 BEGIN:VEVENT
-UID:itec27-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:itec27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 TRANSP:TRANSPARENT
@@ -29,8 +28,8 @@ DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
  27\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. Thi
  s is counted as UTC+12\, the earliest it could plausibly mean\, so the cou
  ntdown runs out before the real deadline rather than after it.\n\nCall for
-  papers: https://itec-conf.com/\nDetails: https://langestefan.github.io/po
- wersystem-deadlines/conference/itec27
+  papers: https://itec-conf.com/\nDetails: https://powersystemdeadlines.org
+ /conference/itec27
 LOCATION:Novi\, USA
 URL;VALUE=URI:https://itec-conf.com/authors/call-for-papers/
 CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
@@ -49,8 +48,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:itec27-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:itec27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 TRANSP:TRANSPARENT
@@ -66,8 +65,8 @@ DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
  3:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is c
  ounted as UTC+12\, the earliest it could plausibly mean\, so the countdown
   runs out before the real deadline rather than after it.\n\nCall for paper
- s: https://itec-conf.com/\nDetails: https://langestefan.github.io/powersys
- tem-deadlines/conference/itec27
+ s: https://itec-conf.com/\nDetails: https://powersystemdeadlines.org/confe
+ rence/itec27
 LOCATION:Novi\, USA
 URL;VALUE=URI:https://itec-conf.com/
 CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
@@ -86,8 +85,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:itec27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:itec27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 TRANSP:TRANSPARENT
@@ -102,8 +101,8 @@ DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
  TC+12 (assumed)\n\nThe call for papers states no timezone. This is counted
   as UTC+12\, the earliest it could plausibly mean\, so the countdown runs 
  out before the real deadline rather than after it.\n\nCall for papers: htt
- ps://itec-conf.com/\nDetails: https://langestefan.github.io/powersystem-de
- adlines/conference/itec27
+ ps://itec-conf.com/\nDetails: https://powersystemdeadlines.org/conference/
+ itec27
 LOCATION:Novi\, USA
 URL;VALUE=URI:https://itec-conf.com/
 CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
@@ -122,8 +121,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:itec27-author_registration@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:itec27-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 TRANSP:TRANSPARENT
@@ -138,8 +137,7 @@ DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
  ssumed)\n\nThe call for papers states no timezone. This is counted as UTC+
  12\, the earliest it could plausibly mean\, so the countdown runs out befo
  re the real deadline rather than after it.\n\nCall for papers: https://ite
- c-conf.com/\nDetails: https://langestefan.github.io/powersystem-deadlines/
- conference/itec27
+ c-conf.com/\nDetails: https://powersystemdeadlines.org/conference/itec27
 LOCATION:Novi\, USA
 URL;VALUE=URI:https://itec-conf.com/
 CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
@@ -158,8 +156,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:itec27-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:itec27-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270616
 DTEND;VALUE=DATE:20270619
 TRANSP:TRANSPARENT
@@ -173,8 +171,8 @@ DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
  3:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is c
  ounted as UTC+12\, the earliest it could plausibly mean\, so the countdown
   runs out before the real deadline rather than after it.\n\nCall for paper
- s: https://itec-conf.com/\nDetails: https://langestefan.github.io/powersys
- tem-deadlines/conference/itec27
+ s: https://itec-conf.com/\nDetails: https://powersystemdeadlines.org/confe
+ rence/itec27
 LOCATION:VIBE Credit Union Showplace\, Novi\, USA
 URL;VALUE=URI:https://itec-conf.com/
 CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S

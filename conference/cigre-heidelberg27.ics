@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:CIGRE Symposium 2027 deadlines
@@ -8,11 +8,11 @@ X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for CIGRE International Symposium 2027.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/cigre-heidelberg27.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/cigre-heidelbe
+ rg27.ics
 BEGIN:VEVENT
-UID:cigre-heidelberg27-abstract@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-heidelberg27-abstract@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 TRANSP:TRANSPARENT
@@ -32,8 +32,7 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nSynopsi
  gside the VDE ETG Kongress (26-27 April) at the same venue. Synopses are s
  ubmitted through ConfTool\; all synopses\, papers and presentations must b
  e in English.\n\nCall for papers: https://www.cigresymposium2027.de/\nDeta
- ils: https://langestefan.github.io/powersystem-deadlines/conference/cigre-
- heidelberg27
+ ils: https://powersystemdeadlines.org/conference/cigre-heidelberg27
 LOCATION:Heidelberg\, Germany
 URL;VALUE=URI:https://www.cigresymposium2027.de/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
@@ -52,8 +51,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-heidelberg27-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-heidelberg27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 TRANSP:TRANSPARENT
@@ -74,8 +73,8 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nSynopsi
   Committee and held alongside the VDE ETG Kongress (26-27 April) at the sa
  me venue. Synopses are submitted through ConfTool\; all synopses\, papers 
  and presentations must be in English.\n\nCall for papers: https://www.cigr
- esymposium2027.de/\nDetails: https://langestefan.github.io/powersystem-dea
- dlines/conference/cigre-heidelberg27
+ esymposium2027.de/\nDetails: https://powersystemdeadlines.org/conference/c
+ igre-heidelberg27
 LOCATION:Heidelberg\, Germany
 URL;VALUE=URI:https://www.cigresymposium2027.de/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
@@ -94,8 +93,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-heidelberg27-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-heidelberg27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 TRANSP:TRANSPARENT
@@ -115,8 +114,7 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFull pa
   VDE ETG Kongress (26-27 April) at the same venue. Synopses are submitted 
  through ConfTool\; all synopses\, papers and presentations must be in Engl
  ish.\n\nCall for papers: https://www.cigresymposium2027.de/\nDetails: http
- s://langestefan.github.io/powersystem-deadlines/conference/cigre-heidelber
- g27
+ s://powersystemdeadlines.org/conference/cigre-heidelberg27
 LOCATION:Heidelberg\, Germany
 URL;VALUE=URI:https://www.cigresymposium2027.de/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
@@ -135,8 +133,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-heidelberg27-notification-2@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-heidelberg27-notification-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 TRANSP:TRANSPARENT
@@ -157,8 +155,8 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFeedbac
  d held alongside the VDE ETG Kongress (26-27 April) at the same venue. Syn
  opses are submitted through ConfTool\; all synopses\, papers and presentat
  ions must be in English.\n\nCall for papers: https://www.cigresymposium202
- 7.de/\nDetails: https://langestefan.github.io/powersystem-deadlines/confer
- ence/cigre-heidelberg27
+ 7.de/\nDetails: https://powersystemdeadlines.org/conference/cigre-heidelbe
+ rg27
 LOCATION:Heidelberg\, Germany
 URL;VALUE=URI:https://www.cigresymposium2027.de/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
@@ -177,8 +175,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-heidelberg27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-heidelberg27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270329
 DTEND;VALUE=DATE:20270330
 TRANSP:TRANSPARENT
@@ -199,8 +197,7 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFinal p
  d alongside the VDE ETG Kongress (26-27 April) at the same venue. Synopses
   are submitted through ConfTool\; all synopses\, papers and presentations 
  must be in English.\n\nCall for papers: https://www.cigresymposium2027.de/
- \nDetails: https://langestefan.github.io/powersystem-deadlines/conference/
- cigre-heidelberg27
+ \nDetails: https://powersystemdeadlines.org/conference/cigre-heidelberg27
 LOCATION:Heidelberg\, Germany
 URL;VALUE=URI:https://www.cigresymposium2027.de/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
@@ -219,8 +216,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cigre-heidelberg27-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:cigre-heidelberg27-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270501
 TRANSP:TRANSPARENT
@@ -239,8 +236,8 @@ DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nConfere
   and held alongside the VDE ETG Kongress (26-27 April) at the same venue. 
  Synopses are submitted through ConfTool\; all synopses\, papers and presen
  tations must be in English.\n\nCall for papers: https://www.cigresymposium
- 2027.de/\nDetails: https://langestefan.github.io/powersystem-deadlines/con
- ference/cigre-heidelberg27
+ 2027.de/\nDetails: https://powersystemdeadlines.org/conference/cigre-heide
+ lberg27
 LOCATION:Heidelberg Congress Center\, Heidelberg\, Germany
 URL;VALUE=URI:https://www.cigresymposium2027.de/
 CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark

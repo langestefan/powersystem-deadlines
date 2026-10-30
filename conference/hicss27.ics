@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:HICSS 2027 deadlines
@@ -9,11 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for Hawaii International Conference on Sys
  tem Sciences 2027.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/hicss27.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/hicss27.ics
 BEGIN:VEVENT
-UID:hicss27-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:hicss27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 TRANSP:TRANSPARENT
@@ -28,8 +27,7 @@ DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
  ic/Honolulu\n  Author registration: 1 Oct 2026\, 23:59 Pacific/Honolulu\n\
  nHICSS-60. Submissions are due by 11:59 pm HST\; papers go to the Electric
   Energy Systems track.\n\nCall for papers: https://hicss.hawaii.edu/\nDeta
- ils: https://langestefan.github.io/powersystem-deadlines/conference/hicss2
- 7
+ ils: https://powersystemdeadlines.org/conference/hicss27
 LOCATION:Waikoloa\, USA
 URL;VALUE=URI:https://hicss.hawaii.edu/
 CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil
@@ -48,8 +46,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:hicss27-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:hicss27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
 TRANSP:TRANSPARENT
@@ -65,8 +63,8 @@ DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
  t 2026\, 23:59 Pacific/Honolulu\n  Author registration: 1 Oct 2026\, 23:59
   Pacific/Honolulu\n\nHICSS-60. Submissions are due by 11:59 pm HST\; paper
  s go to the Electric Energy Systems track.\n\nCall for papers: https://hic
- ss.hawaii.edu/\nDetails: https://langestefan.github.io/powersystem-deadlin
- es/conference/hicss27
+ ss.hawaii.edu/\nDetails: https://powersystemdeadlines.org/conference/hicss
+ 27
 LOCATION:Waikoloa\, USA
 URL;VALUE=URI:https://hicss.hawaii.edu/
 CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil
@@ -85,8 +83,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:hicss27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:hicss27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 TRANSP:TRANSPARENT
@@ -102,8 +100,8 @@ DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
   22 Sept 2026\, 23:59 Pacific/Honolulu\n  Author registration: 1 Oct 2026\
  , 23:59 Pacific/Honolulu\n\nHICSS-60. Submissions are due by 11:59 pm HST\
  ; papers go to the Electric Energy Systems track.\n\nCall for papers: http
- s://hicss.hawaii.edu/\nDetails: https://langestefan.github.io/powersystem-
- deadlines/conference/hicss27
+ s://hicss.hawaii.edu/\nDetails: https://powersystemdeadlines.org/conferenc
+ e/hicss27
 LOCATION:Waikoloa\, USA
 URL;VALUE=URI:https://hicss.hawaii.edu/
 CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil
@@ -122,8 +120,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:hicss27-camera_ready-2@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:hicss27-camera_ready-2@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 TRANSP:TRANSPARENT
@@ -138,8 +136,7 @@ DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
   23:59 Pacific/Honolulu\n  Author registration: 1 Oct 2026\, 23:59 Pacific
  /Honolulu\n\nHICSS-60. Submissions are due by 11:59 pm HST\; papers go to 
  the Electric Energy Systems track.\n\nCall for papers: https://hicss.hawai
- i.edu/\nDetails: https://langestefan.github.io/powersystem-deadlines/confe
- rence/hicss27
+ i.edu/\nDetails: https://powersystemdeadlines.org/conference/hicss27
 LOCATION:Waikoloa\, USA
 URL;VALUE=URI:https://hicss.hawaii.edu/
 CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil
@@ -158,8 +155,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:hicss27-author_registration@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:hicss27-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 TRANSP:TRANSPARENT
@@ -174,8 +171,7 @@ DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
  ific/Honolulu\n  Author registration: 1 Oct 2026\, 23:59 Pacific/Honolulu\
  n\nHICSS-60. Submissions are due by 11:59 pm HST\; papers go to the Electr
  ic Energy Systems track.\n\nCall for papers: https://hicss.hawaii.edu/\nDe
- tails: https://langestefan.github.io/powersystem-deadlines/conference/hics
- s27
+ tails: https://powersystemdeadlines.org/conference/hicss27
 LOCATION:Waikoloa\, USA
 URL;VALUE=URI:https://hicss.hawaii.edu/
 CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil
@@ -194,8 +190,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:hicss27-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:hicss27-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270109
 TRANSP:TRANSPARENT
@@ -209,8 +205,7 @@ DESCRIPTION:Hawaii International Conference on System Sciences (HICSS 2027)
  26\, 23:59 Pacific/Honolulu\n  Author registration: 1 Oct 2026\, 23:59 Pac
  ific/Honolulu\n\nHICSS-60. Submissions are due by 11:59 pm HST\; papers go
   to the Electric Energy Systems track.\n\nCall for papers: https://hicss.h
- awaii.edu/\nDetails: https://langestefan.github.io/powersystem-deadlines/c
- onference/hicss27
+ awaii.edu/\nDetails: https://powersystemdeadlines.org/conference/hicss27
 LOCATION:Hilton Waikoloa Village\, Waikoloa\, USA
 URL;VALUE=URI:https://hicss.hawaii.edu/
 CATEGORIES:Power Systems,Energy Markets,Computation & Optimization,Reliabil

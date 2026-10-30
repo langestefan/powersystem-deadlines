@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:NAPS 2026 deadlines
@@ -8,11 +8,10 @@ X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for North American Power Symposium 2026.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/naps26.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/naps26.ics
 BEGIN:VEVENT
-UID:naps26-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:naps26-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 TRANSP:TRANSPARENT
@@ -25,8 +24,8 @@ DESCRIPTION:North American Power Symposium (NAPS 2026)\n\nPaper submission:
   countdown runs out before the real deadline rather than after it.\n\n58th
   edition. Papers are at most six pages and reviewed in stages\, with regis
  tration priced by submission date.\n\nCall for papers: https://www.mtu.edu
- /ece/naps-2026/\nDetails: https://langestefan.github.io/powersystem-deadli
- nes/conference/naps26
+ /ece/naps-2026/\nDetails: https://powersystemdeadlines.org/conference/naps
+ 26
 LOCATION:Houghton\, USA
 URL;VALUE=URI:https://www.mtu.edu/ece/naps-2026/
 CATEGORIES:Power Systems,Computation & Optimization,Renewables
@@ -44,8 +43,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:naps26-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:naps26-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261014
 TRANSP:TRANSPARENT
@@ -57,8 +56,8 @@ DESCRIPTION:North American Power Symposium (NAPS 2026)\n\nConference: Octob
  bly mean\, so the countdown runs out before the real deadline rather than 
  after it.\n\n58th edition. Papers are at most six pages and reviewed in st
  ages\, with registration priced by submission date.\n\nCall for papers: ht
- tps://www.mtu.edu/ece/naps-2026/\nDetails: https://langestefan.github.io/p
- owersystem-deadlines/conference/naps26
+ tps://www.mtu.edu/ece/naps-2026/\nDetails: https://powersystemdeadlines.or
+ g/conference/naps26
 LOCATION:Rozsa Center for the Performing Arts\, Michigan Technological Univ
  ersity\, Houghton\, USA
 URL;VALUE=URI:https://www.mtu.edu/ece/naps-2026/

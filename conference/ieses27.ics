@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//langestefan.github.io//powersystem-deadlines//EN
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:IESES 2027 deadlines
@@ -9,11 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines and dates for IEEE International Conference on Indus
  trial Electronics for Sustainable Energy Systems 2027.
-SOURCE;VALUE=URI:https://langestefan.github.io/powersystem-deadlines/confer
- ence/ieses27.ics
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/ieses27.ics
 BEGIN:VEVENT
-UID:ieses27-paper@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ieses27-paper@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 TRANSP:TRANSPARENT
@@ -31,8 +30,8 @@ DESCRIPTION:IEEE International Conference on Industrial Electronics for Sus
  to 6 pages. The conference website lists final paper submission and author
   registration on 1 July 2027\, which is shown here\; the call for papers f
  lyer gives 1 June 2027 for camera-ready and early registration.\n\nCall fo
- r papers: https://ieses2027.ieee-ies.org/\nDetails: https://langestefan.gi
- thub.io/powersystem-deadlines/conference/ieses27
+ r papers: https://ieses2027.ieee-ies.org/\nDetails: https://powersystemdea
+ dlines.org/conference/ieses27
 LOCATION:Guimarães\, Portugal
 URL;VALUE=URI:https://ieses2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Smart Grid,Renewables,Energy Storage,Microgrid
@@ -51,8 +50,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ieses27-notification@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ieses27-notification@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 TRANSP:TRANSPARENT
@@ -70,8 +69,8 @@ DESCRIPTION:IEEE International Conference on Industrial Electronics for Sus
   to 6 pages. The conference website lists final paper submission and autho
  r registration on 1 July 2027\, which is shown here\; the call for papers 
  flyer gives 1 June 2027 for camera-ready and early registration.\n\nCall f
- or papers: https://ieses2027.ieee-ies.org/\nDetails: https://langestefan.g
- ithub.io/powersystem-deadlines/conference/ieses27
+ or papers: https://ieses2027.ieee-ies.org/\nDetails: https://powersystemde
+ adlines.org/conference/ieses27
 LOCATION:Guimarães\, Portugal
 URL;VALUE=URI:https://ieses2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Smart Grid,Renewables,Energy Storage,Microgrid
@@ -90,8 +89,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ieses27-camera_ready@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ieses27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270702
 TRANSP:TRANSPARENT
@@ -109,8 +108,8 @@ DESCRIPTION:IEEE International Conference on Industrial Electronics for Sus
  pages. The conference website lists final paper submission and author regi
  stration on 1 July 2027\, which is shown here\; the call for papers flyer 
  gives 1 June 2027 for camera-ready and early registration.\n\nCall for pap
- ers: https://ieses2027.ieee-ies.org/\nDetails: https://langestefan.github.
- io/powersystem-deadlines/conference/ieses27
+ ers: https://ieses2027.ieee-ies.org/\nDetails: https://powersystemdeadline
+ s.org/conference/ieses27
 LOCATION:Guimarães\, Portugal
 URL;VALUE=URI:https://ieses2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Smart Grid,Renewables,Energy Storage,Microgrid
@@ -129,8 +128,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ieses27-author_registration@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ieses27-author_registration@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270702
 TRANSP:TRANSPARENT
@@ -148,8 +147,8 @@ DESCRIPTION:IEEE International Conference on Industrial Electronics for Sus
  ed to 6 pages. The conference website lists final paper submission and aut
  hor registration on 1 July 2027\, which is shown here\; the call for paper
  s flyer gives 1 June 2027 for camera-ready and early registration.\n\nCall
-  for papers: https://ieses2027.ieee-ies.org/\nDetails: https://langestefan
- .github.io/powersystem-deadlines/conference/ieses27
+  for papers: https://ieses2027.ieee-ies.org/\nDetails: https://powersystem
+ deadlines.org/conference/ieses27
 LOCATION:Guimarães\, Portugal
 URL;VALUE=URI:https://ieses2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Smart Grid,Renewables,Energy Storage,Microgrid
@@ -168,8 +167,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ieses27-event@langestefan.github.io
-DTSTAMP:20261030T042631Z
+UID:ieses27-event@powersystemdeadlines.org
+DTSTAMP:20261030T234437Z
 DTSTART;VALUE=DATE:20270721
 DTEND;VALUE=DATE:20270724
 TRANSP:TRANSPARENT
@@ -187,7 +186,7 @@ DESCRIPTION:IEEE International Conference on Industrial Electronics for Sus
  ssion and author registration on 1 July 2027\, which is shown here\; the c
  all for papers flyer gives 1 June 2027 for camera-ready and early registra
  tion.\n\nCall for papers: https://ieses2027.ieee-ies.org/\nDetails: https:
- //langestefan.github.io/powersystem-deadlines/conference/ieses27
+ //powersystemdeadlines.org/conference/ieses27
 LOCATION:Hotel Guimarães\, Guimarães\, Portugal
 URL;VALUE=URI:https://ieses2027.ieee-ies.org/
 CATEGORIES:Power Electronics,Smart Grid,Renewables,Energy Storage,Microgrid
