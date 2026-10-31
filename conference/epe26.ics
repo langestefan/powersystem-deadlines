@@ -12,7 +12,7 @@ X-WR-CALDESC:Deadlines and dates for European Conference on Power Electroni
 SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/epe26.ics
 BEGIN:VEVENT
 UID:epe26-event@powersystemdeadlines.org
-DTSTAMP:20261031T042245Z
+DTSTAMP:20261031T085026Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260919
 TRANSP:TRANSPARENT

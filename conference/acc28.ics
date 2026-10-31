@@ -1,0 +1,172 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ACC 2028 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for American Control Conference 2028.
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/acc28.ics
+BEGIN:VEVENT
+UID:acc28-paper@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270911
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2028: L-CSS submission (23:59 UTC+12 (assumed))
+DESCRIPTION:American Control Conference (ACC 2028)\n\nL-CSS submission: 10 
+ Sept 2027\, 23:59 UTC+12 (assumed)\n\nConference: May 31-June 2\, 2028\nLo
+ cation: San Francisco\, USA\n\nAll dates:\n  L-CSS submission: 10 Sept 202
+ 7\, 23:59 UTC+12 (assumed)\n  ACC manuscript submission: 24 Sept 2027\, 23
+ :59 UTC+12 (assumed)\n  Acceptance-rejection notification: 21 Jan 2028\, 2
+ 3:59 UTC+12 (assumed)\n  Final manuscripts due: 10 Mar 2028\, 23:59 UTC+12
+  (assumed)\n\nThe call for papers states no timezone. This is counted as U
+ TC+12\, the earliest it could plausibly mean\, so the countdown runs out b
+ efore the real deadline rather than after it.\n\nPre-conference workshops 
+ on 29-30 May 2028.\n\nCall for papers: https://acc2028.a2c2.org/\nDetails:
+  https://powersystemdeadlines.org/conference/acc28
+LOCATION:San Francisco\, USA
+URL;VALUE=URI:https://acc2028.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc28-paper-2@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270925
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2028: ACC manuscript submission (23:59 UTC+12 (assumed))
+DESCRIPTION:American Control Conference (ACC 2028)\n\nACC manuscript submis
+ sion: 24 Sept 2027\, 23:59 UTC+12 (assumed)\n\nConference: May 31-June 2\,
+  2028\nLocation: San Francisco\, USA\n\nAll dates:\n  L-CSS submission: 10
+  Sept 2027\, 23:59 UTC+12 (assumed)\n  ACC manuscript submission: 24 Sept 
+ 2027\, 23:59 UTC+12 (assumed)\n  Acceptance-rejection notification: 21 Jan
+  2028\, 23:59 UTC+12 (assumed)\n  Final manuscripts due: 10 Mar 2028\, 23:
+ 59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is cou
+ nted as UTC+12\, the earliest it could plausibly mean\, so the countdown r
+ uns out before the real deadline rather than after it.\n\nPre-conference w
+ orkshops on 29-30 May 2028.\n\nCall for papers: https://acc2028.a2c2.org/\
+ nDetails: https://powersystemdeadlines.org/conference/acc28
+LOCATION:San Francisco\, USA
+URL;VALUE=URI:https://acc2028.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc28-notification@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20280121
+DTEND;VALUE=DATE:20280122
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2028: Acceptance-rejection notification (23:59 UTC+12 (assumed)
+ )
+DESCRIPTION:American Control Conference (ACC 2028)\n\nAcceptance-rejection 
+ notification: 21 Jan 2028\, 23:59 UTC+12 (assumed)\n\nConference: May 31-J
+ une 2\, 2028\nLocation: San Francisco\, USA\n\nAll dates:\n  L-CSS submiss
+ ion: 10 Sept 2027\, 23:59 UTC+12 (assumed)\n  ACC manuscript submission: 2
+ 4 Sept 2027\, 23:59 UTC+12 (assumed)\n  Acceptance-rejection notification:
+  21 Jan 2028\, 23:59 UTC+12 (assumed)\n  Final manuscripts due: 10 Mar 202
+ 8\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This
+  is counted as UTC+12\, the earliest it could plausibly mean\, so the coun
+ tdown runs out before the real deadline rather than after it.\n\nPre-confe
+ rence workshops on 29-30 May 2028.\n\nCall for papers: https://acc2028.a2c
+ 2.org/\nDetails: https://powersystemdeadlines.org/conference/acc28
+LOCATION:San Francisco\, USA
+URL;VALUE=URI:https://acc2028.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc28-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20280310
+DTEND;VALUE=DATE:20280311
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2028: Final manuscripts due (23:59 UTC+12 (assumed))
+DESCRIPTION:American Control Conference (ACC 2028)\n\nFinal manuscripts due
+ : 10 Mar 2028\, 23:59 UTC+12 (assumed)\n\nConference: May 31-June 2\, 2028
+ \nLocation: San Francisco\, USA\n\nAll dates:\n  L-CSS submission: 10 Sept
+  2027\, 23:59 UTC+12 (assumed)\n  ACC manuscript submission: 24 Sept 2027\
+ , 23:59 UTC+12 (assumed)\n  Acceptance-rejection notification: 21 Jan 2028
+ \, 23:59 UTC+12 (assumed)\n  Final manuscripts due: 10 Mar 2028\, 23:59 UT
+ C+12 (assumed)\n\nThe call for papers states no timezone. This is counted 
+ as UTC+12\, the earliest it could plausibly mean\, so the countdown runs o
+ ut before the real deadline rather than after it.\n\nPre-conference worksh
+ ops on 29-30 May 2028.\n\nCall for papers: https://acc2028.a2c2.org/\nDeta
+ ils: https://powersystemdeadlines.org/conference/acc28
+LOCATION:San Francisco\, USA
+URL;VALUE=URI:https://acc2028.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc28-event@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20280531
+DTEND;VALUE=DATE:20280603
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2028
+DESCRIPTION:American Control Conference (ACC 2028)\n\nConference: May 31-Ju
+ ne 2\, 2028\nLocation: San Francisco\, USA\n\nAll dates:\n  L-CSS submissi
+ on: 10 Sept 2027\, 23:59 UTC+12 (assumed)\n  ACC manuscript submission: 24
+  Sept 2027\, 23:59 UTC+12 (assumed)\n  Acceptance-rejection notification: 
+ 21 Jan 2028\, 23:59 UTC+12 (assumed)\n  Final manuscripts due: 10 Mar 2028
+ \, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This 
+ is counted as UTC+12\, the earliest it could plausibly mean\, so the count
+ down runs out before the real deadline rather than after it.\n\nPre-confer
+ ence workshops on 29-30 May 2028.\n\nCall for papers: https://acc2028.a2c2
+ .org/\nDetails: https://powersystemdeadlines.org/conference/acc28
+LOCATION:San Francisco\, USA
+URL;VALUE=URI:https://acc2028.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

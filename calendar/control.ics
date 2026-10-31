@@ -1,0 +1,1660 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Power System Deadlines: Control
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines for conferences tagged "Control".
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/calendar/control.ics
+BEGIN:VEVENT
+UID:ecc27-paper@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+TRANSP:TRANSPARENT
+SUMMARY:ECC 2027: Papers submission deadline (extended) (23:59 UTC+12 (assu
+ med))
+DESCRIPTION:European Control Conference (ECC 2027)\n\nPapers submission dea
+ dline (extended): 9 Nov 2026\, 23:59 UTC+12 (assumed)\n\nConference: July 
+ 13-16\, 2027\nLocation: Brussels\, Belgium\nVenue: UCLouvain\, Woluwé cam
+ pus\n\nAll dates:\n  Papers submission deadline (extended): 9 Nov 2026\, 2
+ 3:59 UTC+12 (assumed)\n  Invited session proposals submission deadline (ex
+ tended): 9 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial proposals submiss
+ ion deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Workshop proposals s
+ ubmission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Industry abstr
+ acts submission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Acceptan
+ ce/rejection notification: 5 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final su
+ bmissions deadline: 5 Apr 2027\, 23:59 UTC+12 (assumed)\n\nThe call for pa
+ pers states no timezone. This is counted as UTC+12\, the earliest it could
+  plausibly mean\, so the countdown runs out before the real deadline rathe
+ r than after it.\n\nPaper and invited session deadlines were extended from
+  31 October to 9 November 2026. Papers are up to 8 pages for review and 6 
+ in the final version. Industry abstracts (1-2 pages) are not included in t
+ he proceedings.\n\nCall for papers: https://ecc27.euca-ecc.org/\nDetails: 
+ https://powersystemdeadlines.org/conference/ecc27
+LOCATION:Brussels\, Belgium
+URL;VALUE=URI:https://ecc27.euca-ecc.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc27-session_proposal@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+TRANSP:TRANSPARENT
+SUMMARY:ECC 2027: Invited session proposals submission deadline (extended) 
+ (23:59 UTC+12 (assumed))
+DESCRIPTION:European Control Conference (ECC 2027)\n\nInvited session propo
+ sals submission deadline (extended): 9 Nov 2026\, 23:59 UTC+12 (assumed)\n
+ \nConference: July 13-16\, 2027\nLocation: Brussels\, Belgium\nVenue: UCLo
+ uvain\, Woluwé campus\n\nAll dates:\n  Papers submission deadline (extend
+ ed): 9 Nov 2026\, 23:59 UTC+12 (assumed)\n  Invited session proposals subm
+ ission deadline (extended): 9 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutoria
+ l proposals submission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  W
+ orkshop proposals submission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed
+ )\n  Industry abstracts submission deadline: 31 Jan 2027\, 23:59 UTC+12 (a
+ ssumed)\n  Acceptance/rejection notification: 5 Mar 2027\, 23:59 UTC+12 (a
+ ssumed)\n  Final submissions deadline: 5 Apr 2027\, 23:59 UTC+12 (assumed)
+ \n\nThe call for papers states no timezone. This is counted as UTC+12\, th
+ e earliest it could plausibly mean\, so the countdown runs out before the 
+ real deadline rather than after it.\n\nPaper and invited session deadlines
+  were extended from 31 October to 9 November 2026. Papers are up to 8 page
+ s for review and 6 in the final version. Industry abstracts (1-2 pages) ar
+ e not included in the proceedings.\n\nCall for papers: https://ecc27.euca-
+ ecc.org/\nDetails: https://powersystemdeadlines.org/conference/ecc27
+LOCATION:Brussels\, Belgium
+URL;VALUE=URI:https://ecc27.euca-ecc.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc27-tutorial_proposal@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+TRANSP:TRANSPARENT
+SUMMARY:ECC 2027: Tutorial proposals submission deadline (23:59 UTC+12 (ass
+ umed))
+DESCRIPTION:European Control Conference (ECC 2027)\n\nTutorial proposals su
+ bmission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n\nConference: Jul
+ y 13-16\, 2027\nLocation: Brussels\, Belgium\nVenue: UCLouvain\, Woluwé c
+ ampus\n\nAll dates:\n  Papers submission deadline (extended): 9 Nov 2026\,
+  23:59 UTC+12 (assumed)\n  Invited session proposals submission deadline (
+ extended): 9 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial proposals submi
+ ssion deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Workshop proposals
+  submission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Industry abs
+ tracts submission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Accept
+ ance/rejection notification: 5 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final 
+ submissions deadline: 5 Apr 2027\, 23:59 UTC+12 (assumed)\n\nThe call for 
+ papers states no timezone. This is counted as UTC+12\, the earliest it cou
+ ld plausibly mean\, so the countdown runs out before the real deadline rat
+ her than after it.\n\nPaper and invited session deadlines were extended fr
+ om 31 October to 9 November 2026. Papers are up to 8 pages for review and 
+ 6 in the final version. Industry abstracts (1-2 pages) are not included in
+  the proceedings.\n\nCall for papers: https://ecc27.euca-ecc.org/\nDetails
+ : https://powersystemdeadlines.org/conference/ecc27
+LOCATION:Brussels\, Belgium
+URL;VALUE=URI:https://ecc27.euca-ecc.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc27-workshop_proposal@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+TRANSP:TRANSPARENT
+SUMMARY:ECC 2027: Workshop proposals submission deadline (23:59 UTC+12 (ass
+ umed))
+DESCRIPTION:European Control Conference (ECC 2027)\n\nWorkshop proposals su
+ bmission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n\nConference: Jul
+ y 13-16\, 2027\nLocation: Brussels\, Belgium\nVenue: UCLouvain\, Woluwé c
+ ampus\n\nAll dates:\n  Papers submission deadline (extended): 9 Nov 2026\,
+  23:59 UTC+12 (assumed)\n  Invited session proposals submission deadline (
+ extended): 9 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial proposals submi
+ ssion deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Workshop proposals
+  submission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Industry abs
+ tracts submission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Accept
+ ance/rejection notification: 5 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final 
+ submissions deadline: 5 Apr 2027\, 23:59 UTC+12 (assumed)\n\nThe call for 
+ papers states no timezone. This is counted as UTC+12\, the earliest it cou
+ ld plausibly mean\, so the countdown runs out before the real deadline rat
+ her than after it.\n\nPaper and invited session deadlines were extended fr
+ om 31 October to 9 November 2026. Papers are up to 8 pages for review and 
+ 6 in the final version. Industry abstracts (1-2 pages) are not included in
+  the proceedings.\n\nCall for papers: https://ecc27.euca-ecc.org/\nDetails
+ : https://powersystemdeadlines.org/conference/ecc27
+LOCATION:Brussels\, Belgium
+URL;VALUE=URI:https://ecc27.euca-ecc.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc27-abstract@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+TRANSP:TRANSPARENT
+SUMMARY:ECC 2027: Industry abstracts submission deadline (23:59 UTC+12 (ass
+ umed))
+DESCRIPTION:European Control Conference (ECC 2027)\n\nIndustry abstracts su
+ bmission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n\nConference: Jul
+ y 13-16\, 2027\nLocation: Brussels\, Belgium\nVenue: UCLouvain\, Woluwé c
+ ampus\n\nAll dates:\n  Papers submission deadline (extended): 9 Nov 2026\,
+  23:59 UTC+12 (assumed)\n  Invited session proposals submission deadline (
+ extended): 9 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial proposals submi
+ ssion deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Workshop proposals
+  submission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Industry abs
+ tracts submission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Accept
+ ance/rejection notification: 5 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final 
+ submissions deadline: 5 Apr 2027\, 23:59 UTC+12 (assumed)\n\nThe call for 
+ papers states no timezone. This is counted as UTC+12\, the earliest it cou
+ ld plausibly mean\, so the countdown runs out before the real deadline rat
+ her than after it.\n\nPaper and invited session deadlines were extended fr
+ om 31 October to 9 November 2026. Papers are up to 8 pages for review and 
+ 6 in the final version. Industry abstracts (1-2 pages) are not included in
+  the proceedings.\n\nCall for papers: https://ecc27.euca-ecc.org/\nDetails
+ : https://powersystemdeadlines.org/conference/ecc27
+LOCATION:Brussels\, Belgium
+URL;VALUE=URI:https://ecc27.euca-ecc.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc27-notification@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+TRANSP:TRANSPARENT
+SUMMARY:ECC 2027: Acceptance/rejection notification (23:59 UTC+12 (assumed)
+ )
+DESCRIPTION:European Control Conference (ECC 2027)\n\nAcceptance/rejection 
+ notification: 5 Mar 2027\, 23:59 UTC+12 (assumed)\n\nConference: July 13-1
+ 6\, 2027\nLocation: Brussels\, Belgium\nVenue: UCLouvain\, Woluwé campus\
+ n\nAll dates:\n  Papers submission deadline (extended): 9 Nov 2026\, 23:59
+  UTC+12 (assumed)\n  Invited session proposals submission deadline (extend
+ ed): 9 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial proposals submission 
+ deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Workshop proposals submi
+ ssion deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Industry abstracts
+  submission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Acceptance/r
+ ejection notification: 5 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final submis
+ sions deadline: 5 Apr 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers
+  states no timezone. This is counted as UTC+12\, the earliest it could pla
+ usibly mean\, so the countdown runs out before the real deadline rather th
+ an after it.\n\nPaper and invited session deadlines were extended from 31 
+ October to 9 November 2026. Papers are up to 8 pages for review and 6 in t
+ he final version. Industry abstracts (1-2 pages) are not included in the p
+ roceedings.\n\nCall for papers: https://ecc27.euca-ecc.org/\nDetails: http
+ s://powersystemdeadlines.org/conference/ecc27
+LOCATION:Brussels\, Belgium
+URL;VALUE=URI:https://ecc27.euca-ecc.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270406
+TRANSP:TRANSPARENT
+SUMMARY:ECC 2027: Final submissions deadline (23:59 UTC+12 (assumed))
+DESCRIPTION:European Control Conference (ECC 2027)\n\nFinal submissions dea
+ dline: 5 Apr 2027\, 23:59 UTC+12 (assumed)\n\nConference: July 13-16\, 202
+ 7\nLocation: Brussels\, Belgium\nVenue: UCLouvain\, Woluwé campus\n\nAll 
+ dates:\n  Papers submission deadline (extended): 9 Nov 2026\, 23:59 UTC+12
+  (assumed)\n  Invited session proposals submission deadline (extended): 9 
+ Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial proposals submission deadlin
+ e: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Workshop proposals submission d
+ eadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Industry abstracts submis
+ sion deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Acceptance/rejectio
+ n notification: 5 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final submissions d
+ eadline: 5 Apr 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states
+  no timezone. This is counted as UTC+12\, the earliest it could plausibly 
+ mean\, so the countdown runs out before the real deadline rather than afte
+ r it.\n\nPaper and invited session deadlines were extended from 31 October
+  to 9 November 2026. Papers are up to 8 pages for review and 6 in the fina
+ l version. Industry abstracts (1-2 pages) are not included in the proceedi
+ ngs.\n\nCall for papers: https://ecc27.euca-ecc.org/\nDetails: https://pow
+ ersystemdeadlines.org/conference/ecc27
+LOCATION:Brussels\, Belgium
+URL;VALUE=URI:https://ecc27.euca-ecc.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cpes27-session_proposal@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+TRANSP:TRANSPARENT
+SUMMARY:IFAC CPES 2027: Special session proposals (23:59 UTC+12 (assumed))
+DESCRIPTION:IFAC Symposium on Control of Power and Energy Systems (IFAC CPE
+ S 2027)\n\nSpecial session proposals: 15 Dec 2026\, 23:59 UTC+12 (assumed)
+ \n\nConference: June 10-12\, 2027\nLocation: Cluj-Napoca\, Romania\nVenue:
+  DoubleTree by Hilton Hotel Cluj - City Plaza\n\nAll dates:\n  Special ses
+ sion proposals: 15 Dec 2026\, 23:59 UTC+12 (assumed)\n  Abstract registrat
+ ion: 26 Jan 2027\, 23:59 UTC+12 (assumed)\n  Draft paper submission: 2 Feb
+  2027\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 6 Apr 2027\,
+  23:59 UTC+12 (assumed)\n  Camera-ready submission: 20 Apr 2027\, 23:59 UT
+ C+12 (assumed)\n  Early registration: 27 Apr 2027\, 23:59 UTC+12 (assumed)
+ \n\nThe call for papers states no timezone. This is counted as UTC+12\, th
+ e earliest it could plausibly mean\, so the countdown runs out before the 
+ real deadline rather than after it.\n\n13th edition. Papers are 4-6 pages 
+ including references\, submitted through IFAC PaperCept.\n\nCall for paper
+ s: https://cpes2027.org/\nDetails: https://powersystemdeadlines.org/confer
+ ence/cpes27
+LOCATION:Cluj-Napoca\, Romania
+URL;VALUE=URI:https://cpes2027.org/
+CATEGORIES:Control,Power Systems,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cpes27-abstract@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+TRANSP:TRANSPARENT
+SUMMARY:IFAC CPES 2027: Abstract registration (23:59 UTC+12 (assumed))
+DESCRIPTION:IFAC Symposium on Control of Power and Energy Systems (IFAC CPE
+ S 2027)\n\nAbstract registration: 26 Jan 2027\, 23:59 UTC+12 (assumed)\n\n
+ Conference: June 10-12\, 2027\nLocation: Cluj-Napoca\, Romania\nVenue: Dou
+ bleTree by Hilton Hotel Cluj - City Plaza\n\nAll dates:\n  Special session
+  proposals: 15 Dec 2026\, 23:59 UTC+12 (assumed)\n  Abstract registration:
+  26 Jan 2027\, 23:59 UTC+12 (assumed)\n  Draft paper submission: 2 Feb 202
+ 7\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 6 Apr 2027\, 23:
+ 59 UTC+12 (assumed)\n  Camera-ready submission: 20 Apr 2027\, 23:59 UTC+12
+  (assumed)\n  Early registration: 27 Apr 2027\, 23:59 UTC+12 (assumed)\n\n
+ The call for papers states no timezone. This is counted as UTC+12\, the ea
+ rliest it could plausibly mean\, so the countdown runs out before the real
+  deadline rather than after it.\n\n13th edition. Papers are 4-6 pages incl
+ uding references\, submitted through IFAC PaperCept.\n\nCall for papers: h
+ ttps://cpes2027.org/\nDetails: https://powersystemdeadlines.org/conference
+ /cpes27
+LOCATION:Cluj-Napoca\, Romania
+URL;VALUE=URI:https://cpes2027.org/
+CATEGORIES:Control,Power Systems,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cpes27-paper@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+TRANSP:TRANSPARENT
+SUMMARY:IFAC CPES 2027: Draft paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IFAC Symposium on Control of Power and Energy Systems (IFAC CPE
+ S 2027)\n\nDraft paper submission: 2 Feb 2027\, 23:59 UTC+12 (assumed)\n\n
+ Conference: June 10-12\, 2027\nLocation: Cluj-Napoca\, Romania\nVenue: Dou
+ bleTree by Hilton Hotel Cluj - City Plaza\n\nAll dates:\n  Special session
+  proposals: 15 Dec 2026\, 23:59 UTC+12 (assumed)\n  Abstract registration:
+  26 Jan 2027\, 23:59 UTC+12 (assumed)\n  Draft paper submission: 2 Feb 202
+ 7\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 6 Apr 2027\, 23:
+ 59 UTC+12 (assumed)\n  Camera-ready submission: 20 Apr 2027\, 23:59 UTC+12
+  (assumed)\n  Early registration: 27 Apr 2027\, 23:59 UTC+12 (assumed)\n\n
+ The call for papers states no timezone. This is counted as UTC+12\, the ea
+ rliest it could plausibly mean\, so the countdown runs out before the real
+  deadline rather than after it.\n\n13th edition. Papers are 4-6 pages incl
+ uding references\, submitted through IFAC PaperCept.\n\nCall for papers: h
+ ttps://cpes2027.org/\nDetails: https://powersystemdeadlines.org/conference
+ /cpes27
+LOCATION:Cluj-Napoca\, Romania
+URL;VALUE=URI:https://cpes2027.org/
+CATEGORIES:Control,Power Systems,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cpes27-notification@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+TRANSP:TRANSPARENT
+SUMMARY:IFAC CPES 2027: Notification of acceptance (23:59 UTC+12 (assumed))
+DESCRIPTION:IFAC Symposium on Control of Power and Energy Systems (IFAC CPE
+ S 2027)\n\nNotification of acceptance: 6 Apr 2027\, 23:59 UTC+12 (assumed)
+ \n\nConference: June 10-12\, 2027\nLocation: Cluj-Napoca\, Romania\nVenue:
+  DoubleTree by Hilton Hotel Cluj - City Plaza\n\nAll dates:\n  Special ses
+ sion proposals: 15 Dec 2026\, 23:59 UTC+12 (assumed)\n  Abstract registrat
+ ion: 26 Jan 2027\, 23:59 UTC+12 (assumed)\n  Draft paper submission: 2 Feb
+  2027\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 6 Apr 2027\,
+  23:59 UTC+12 (assumed)\n  Camera-ready submission: 20 Apr 2027\, 23:59 UT
+ C+12 (assumed)\n  Early registration: 27 Apr 2027\, 23:59 UTC+12 (assumed)
+ \n\nThe call for papers states no timezone. This is counted as UTC+12\, th
+ e earliest it could plausibly mean\, so the countdown runs out before the 
+ real deadline rather than after it.\n\n13th edition. Papers are 4-6 pages 
+ including references\, submitted through IFAC PaperCept.\n\nCall for paper
+ s: https://cpes2027.org/\nDetails: https://powersystemdeadlines.org/confer
+ ence/cpes27
+LOCATION:Cluj-Napoca\, Romania
+URL;VALUE=URI:https://cpes2027.org/
+CATEGORIES:Control,Power Systems,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cpes27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+TRANSP:TRANSPARENT
+SUMMARY:IFAC CPES 2027: Camera-ready submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IFAC Symposium on Control of Power and Energy Systems (IFAC CPE
+ S 2027)\n\nCamera-ready submission: 20 Apr 2027\, 23:59 UTC+12 (assumed)\n
+ \nConference: June 10-12\, 2027\nLocation: Cluj-Napoca\, Romania\nVenue: D
+ oubleTree by Hilton Hotel Cluj - City Plaza\n\nAll dates:\n  Special sessi
+ on proposals: 15 Dec 2026\, 23:59 UTC+12 (assumed)\n  Abstract registratio
+ n: 26 Jan 2027\, 23:59 UTC+12 (assumed)\n  Draft paper submission: 2 Feb 2
+ 027\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 6 Apr 2027\, 2
+ 3:59 UTC+12 (assumed)\n  Camera-ready submission: 20 Apr 2027\, 23:59 UTC+
+ 12 (assumed)\n  Early registration: 27 Apr 2027\, 23:59 UTC+12 (assumed)\n
+ \nThe call for papers states no timezone. This is counted as UTC+12\, the 
+ earliest it could plausibly mean\, so the countdown runs out before the re
+ al deadline rather than after it.\n\n13th edition. Papers are 4-6 pages in
+ cluding references\, submitted through IFAC PaperCept.\n\nCall for papers:
+  https://cpes2027.org/\nDetails: https://powersystemdeadlines.org/conferen
+ ce/cpes27
+LOCATION:Cluj-Napoca\, Romania
+URL;VALUE=URI:https://cpes2027.org/
+CATEGORIES:Control,Power Systems,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cpes27-early_registration@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+TRANSP:TRANSPARENT
+SUMMARY:IFAC CPES 2027: Early registration (23:59 UTC+12 (assumed))
+DESCRIPTION:IFAC Symposium on Control of Power and Energy Systems (IFAC CPE
+ S 2027)\n\nEarly registration: 27 Apr 2027\, 23:59 UTC+12 (assumed)\n\nCon
+ ference: June 10-12\, 2027\nLocation: Cluj-Napoca\, Romania\nVenue: Double
+ Tree by Hilton Hotel Cluj - City Plaza\n\nAll dates:\n  Special session pr
+ oposals: 15 Dec 2026\, 23:59 UTC+12 (assumed)\n  Abstract registration: 26
+  Jan 2027\, 23:59 UTC+12 (assumed)\n  Draft paper submission: 2 Feb 2027\,
+  23:59 UTC+12 (assumed)\n  Notification of acceptance: 6 Apr 2027\, 23:59 
+ UTC+12 (assumed)\n  Camera-ready submission: 20 Apr 2027\, 23:59 UTC+12 (a
+ ssumed)\n  Early registration: 27 Apr 2027\, 23:59 UTC+12 (assumed)\n\nThe
+  call for papers states no timezone. This is counted as UTC+12\, the earli
+ est it could plausibly mean\, so the countdown runs out before the real de
+ adline rather than after it.\n\n13th edition. Papers are 4-6 pages includi
+ ng references\, submitted through IFAC PaperCept.\n\nCall for papers: http
+ s://cpes2027.org/\nDetails: https://powersystemdeadlines.org/conference/cp
+ es27
+LOCATION:Cluj-Napoca\, Romania
+URL;VALUE=URI:https://cpes2027.org/
+CATEGORIES:Control,Power Systems,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc27-paper@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2027: Joint ACC + L-CSS manuscript submission (23:59 UTC+12 (as
+ sumed))
+DESCRIPTION:American Control Conference (ACC 2027)\n\nJoint ACC + L-CSS man
+ uscript submission: 11 Sept 2026\, 23:59 UTC+12 (assumed)\n\nConference: J
+ uly 7-9\, 2027\nLocation: Philadelphia\, USA\nVenue: Philadelphia Marriott
+  Downtown\n\nAll dates:\n  Joint ACC + L-CSS manuscript submission: 11 Sep
+ t 2026\, 23:59 UTC+12 (assumed)\n  Invited session proposals: 30 Sept 2026
+ \, 23:59 UTC+12 (assumed)\n  ACC manuscript submission: 2 Oct 2026\, 23:59
+  UTC+12 (assumed)\n  Special session proposals: 16 Oct 2026\, 23:59 UTC+12
+  (assumed)\n  Workshop proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  
+ Tutorial session proposals: 23 Oct 2026\, 23:59 UTC+12 (assumed)\n  Notifi
+ cation of acceptance/rejection: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Tu
+ torial papers: 29 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript su
+ bmission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers stat
+ es no timezone. This is counted as UTC+12\, the earliest it could plausibl
+ y mean\, so the countdown runs out before the real deadline rather than af
+ ter it.\n\nPre-conference workshops on 6 July. The ACC manuscript deadline
+  was extended from 25 September to a firm 2 October 2026\, and invited ses
+ sion proposals from 23 to 30 September 2026.\n\nCall for papers: https://a
+ cc2027.a2c2.org/\nDetails: https://powersystemdeadlines.org/conference/acc
+ 27
+LOCATION:Philadelphia\, USA
+URL;VALUE=URI:https://acc2027.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc27-session_proposal@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2027: Invited session proposals (23:59 UTC+12 (assumed))
+DESCRIPTION:American Control Conference (ACC 2027)\n\nInvited session propo
+ sals: 30 Sept 2026\, 23:59 UTC+12 (assumed)\n\nConference: July 7-9\, 2027
+ \nLocation: Philadelphia\, USA\nVenue: Philadelphia Marriott Downtown\n\nA
+ ll dates:\n  Joint ACC + L-CSS manuscript submission: 11 Sept 2026\, 23:59
+  UTC+12 (assumed)\n  Invited session proposals: 30 Sept 2026\, 23:59 UTC+1
+ 2 (assumed)\n  ACC manuscript submission: 2 Oct 2026\, 23:59 UTC+12 (assum
+ ed)\n  Special session proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  
+ Workshop proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  Tutorial sessi
+ on proposals: 23 Oct 2026\, 23:59 UTC+12 (assumed)\n  Notification of acce
+ ptance/rejection: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Tutorial papers:
+  29 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 12 M
+ ar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone
+ . This is counted as UTC+12\, the earliest it could plausibly mean\, so th
+ e countdown runs out before the real deadline rather than after it.\n\nPre
+ -conference workshops on 6 July. The ACC manuscript deadline was extended 
+ from 25 September to a firm 2 October 2026\, and invited session proposals
+  from 23 to 30 September 2026.\n\nCall for papers: https://acc2027.a2c2.or
+ g/\nDetails: https://powersystemdeadlines.org/conference/acc27
+LOCATION:Philadelphia\, USA
+URL;VALUE=URI:https://acc2027.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc27-paper-2@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2027: ACC manuscript submission (23:59 UTC+12 (assumed))
+DESCRIPTION:American Control Conference (ACC 2027)\n\nACC manuscript submis
+ sion: 2 Oct 2026\, 23:59 UTC+12 (assumed)\n\nConference: July 7-9\, 2027\n
+ Location: Philadelphia\, USA\nVenue: Philadelphia Marriott Downtown\n\nAll
+  dates:\n  Joint ACC + L-CSS manuscript submission: 11 Sept 2026\, 23:59 U
+ TC+12 (assumed)\n  Invited session proposals: 30 Sept 2026\, 23:59 UTC+12 
+ (assumed)\n  ACC manuscript submission: 2 Oct 2026\, 23:59 UTC+12 (assumed
+ )\n  Special session proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  Wo
+ rkshop proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  Tutorial session
+  proposals: 23 Oct 2026\, 23:59 UTC+12 (assumed)\n  Notification of accept
+ ance/rejection: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Tutorial papers: 2
+ 9 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 12 Mar
+  2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. 
+ This is counted as UTC+12\, the earliest it could plausibly mean\, so the 
+ countdown runs out before the real deadline rather than after it.\n\nPre-c
+ onference workshops on 6 July. The ACC manuscript deadline was extended fr
+ om 25 September to a firm 2 October 2026\, and invited session proposals f
+ rom 23 to 30 September 2026.\n\nCall for papers: https://acc2027.a2c2.org/
+ \nDetails: https://powersystemdeadlines.org/conference/acc27
+LOCATION:Philadelphia\, USA
+URL;VALUE=URI:https://acc2027.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc27-session_proposal-2@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2027: Special session proposals (23:59 UTC+12 (assumed))
+DESCRIPTION:American Control Conference (ACC 2027)\n\nSpecial session propo
+ sals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n\nConference: July 7-9\, 2027\
+ nLocation: Philadelphia\, USA\nVenue: Philadelphia Marriott Downtown\n\nAl
+ l dates:\n  Joint ACC + L-CSS manuscript submission: 11 Sept 2026\, 23:59 
+ UTC+12 (assumed)\n  Invited session proposals: 30 Sept 2026\, 23:59 UTC+12
+  (assumed)\n  ACC manuscript submission: 2 Oct 2026\, 23:59 UTC+12 (assume
+ d)\n  Special session proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  W
+ orkshop proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  Tutorial sessio
+ n proposals: 23 Oct 2026\, 23:59 UTC+12 (assumed)\n  Notification of accep
+ tance/rejection: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Tutorial papers: 
+ 29 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 12 Ma
+ r 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone.
+  This is counted as UTC+12\, the earliest it could plausibly mean\, so the
+  countdown runs out before the real deadline rather than after it.\n\nPre-
+ conference workshops on 6 July. The ACC manuscript deadline was extended f
+ rom 25 September to a firm 2 October 2026\, and invited session proposals 
+ from 23 to 30 September 2026.\n\nCall for papers: https://acc2027.a2c2.org
+ /\nDetails: https://powersystemdeadlines.org/conference/acc27
+LOCATION:Philadelphia\, USA
+URL;VALUE=URI:https://acc2027.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc27-workshop_proposal@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2027: Workshop proposals (23:59 UTC+12 (assumed))
+DESCRIPTION:American Control Conference (ACC 2027)\n\nWorkshop proposals: 1
+ 6 Oct 2026\, 23:59 UTC+12 (assumed)\n\nConference: July 7-9\, 2027\nLocati
+ on: Philadelphia\, USA\nVenue: Philadelphia Marriott Downtown\n\nAll dates
+ :\n  Joint ACC + L-CSS manuscript submission: 11 Sept 2026\, 23:59 UTC+12 
+ (assumed)\n  Invited session proposals: 30 Sept 2026\, 23:59 UTC+12 (assum
+ ed)\n  ACC manuscript submission: 2 Oct 2026\, 23:59 UTC+12 (assumed)\n  S
+ pecial session proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  Workshop
+  proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  Tutorial session propo
+ sals: 23 Oct 2026\, 23:59 UTC+12 (assumed)\n  Notification of acceptance/r
+ ejection: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Tutorial papers: 29 Jan 
+ 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 12 Mar 2027\
+ , 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This i
+ s counted as UTC+12\, the earliest it could plausibly mean\, so the countd
+ own runs out before the real deadline rather than after it.\n\nPre-confere
+ nce workshops on 6 July. The ACC manuscript deadline was extended from 25 
+ September to a firm 2 October 2026\, and invited session proposals from 23
+  to 30 September 2026.\n\nCall for papers: https://acc2027.a2c2.org/\nDeta
+ ils: https://powersystemdeadlines.org/conference/acc27
+LOCATION:Philadelphia\, USA
+URL;VALUE=URI:https://acc2027.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc27-tutorial_proposal@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2027: Tutorial session proposals (23:59 UTC+12 (assumed))
+DESCRIPTION:American Control Conference (ACC 2027)\n\nTutorial session prop
+ osals: 23 Oct 2026\, 23:59 UTC+12 (assumed)\n\nConference: July 7-9\, 2027
+ \nLocation: Philadelphia\, USA\nVenue: Philadelphia Marriott Downtown\n\nA
+ ll dates:\n  Joint ACC + L-CSS manuscript submission: 11 Sept 2026\, 23:59
+  UTC+12 (assumed)\n  Invited session proposals: 30 Sept 2026\, 23:59 UTC+1
+ 2 (assumed)\n  ACC manuscript submission: 2 Oct 2026\, 23:59 UTC+12 (assum
+ ed)\n  Special session proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  
+ Workshop proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  Tutorial sessi
+ on proposals: 23 Oct 2026\, 23:59 UTC+12 (assumed)\n  Notification of acce
+ ptance/rejection: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Tutorial papers:
+  29 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 12 M
+ ar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone
+ . This is counted as UTC+12\, the earliest it could plausibly mean\, so th
+ e countdown runs out before the real deadline rather than after it.\n\nPre
+ -conference workshops on 6 July. The ACC manuscript deadline was extended 
+ from 25 September to a firm 2 October 2026\, and invited session proposals
+  from 23 to 30 September 2026.\n\nCall for papers: https://acc2027.a2c2.or
+ g/\nDetails: https://powersystemdeadlines.org/conference/acc27
+LOCATION:Philadelphia\, USA
+URL;VALUE=URI:https://acc2027.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc27-notification@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2027: Notification of acceptance/rejection (23:59 UTC+12 (assum
+ ed))
+DESCRIPTION:American Control Conference (ACC 2027)\n\nNotification of accep
+ tance/rejection: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n\nConference: July 
+ 7-9\, 2027\nLocation: Philadelphia\, USA\nVenue: Philadelphia Marriott Dow
+ ntown\n\nAll dates:\n  Joint ACC + L-CSS manuscript submission: 11 Sept 20
+ 26\, 23:59 UTC+12 (assumed)\n  Invited session proposals: 30 Sept 2026\, 2
+ 3:59 UTC+12 (assumed)\n  ACC manuscript submission: 2 Oct 2026\, 23:59 UTC
+ +12 (assumed)\n  Special session proposals: 16 Oct 2026\, 23:59 UTC+12 (as
+ sumed)\n  Workshop proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  Tuto
+ rial session proposals: 23 Oct 2026\, 23:59 UTC+12 (assumed)\n  Notificati
+ on of acceptance/rejection: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Tutori
+ al papers: 29 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submis
+ sion: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states n
+ o timezone. This is counted as UTC+12\, the earliest it could plausibly me
+ an\, so the countdown runs out before the real deadline rather than after 
+ it.\n\nPre-conference workshops on 6 July. The ACC manuscript deadline was
+  extended from 25 September to a firm 2 October 2026\, and invited session
+  proposals from 23 to 30 September 2026.\n\nCall for papers: https://acc20
+ 27.a2c2.org/\nDetails: https://powersystemdeadlines.org/conference/acc27
+LOCATION:Philadelphia\, USA
+URL;VALUE=URI:https://acc2027.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2027: Tutorial papers (23:59 UTC+12 (assumed))
+DESCRIPTION:American Control Conference (ACC 2027)\n\nTutorial papers: 29 J
+ an 2027\, 23:59 UTC+12 (assumed)\n\nConference: July 7-9\, 2027\nLocation:
+  Philadelphia\, USA\nVenue: Philadelphia Marriott Downtown\n\nAll dates:\n
+   Joint ACC + L-CSS manuscript submission: 11 Sept 2026\, 23:59 UTC+12 (as
+ sumed)\n  Invited session proposals: 30 Sept 2026\, 23:59 UTC+12 (assumed)
+ \n  ACC manuscript submission: 2 Oct 2026\, 23:59 UTC+12 (assumed)\n  Spec
+ ial session proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  Workshop pr
+ oposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  Tutorial session proposal
+ s: 23 Oct 2026\, 23:59 UTC+12 (assumed)\n  Notification of acceptance/reje
+ ction: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Tutorial papers: 29 Jan 202
+ 7\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 12 Mar 2027\, 2
+ 3:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is c
+ ounted as UTC+12\, the earliest it could plausibly mean\, so the countdown
+  runs out before the real deadline rather than after it.\n\nPre-conference
+  workshops on 6 July. The ACC manuscript deadline was extended from 25 Sep
+ tember to a firm 2 October 2026\, and invited session proposals from 23 to
+  30 September 2026.\n\nCall for papers: https://acc2027.a2c2.org/\nDetails
+ : https://powersystemdeadlines.org/conference/acc27
+LOCATION:Philadelphia\, USA
+URL;VALUE=URI:https://acc2027.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc27-camera_ready-2@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2027: Final manuscript submission (23:59 UTC+12 (assumed))
+DESCRIPTION:American Control Conference (ACC 2027)\n\nFinal manuscript subm
+ ission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n\nConference: July 7-9\, 202
+ 7\nLocation: Philadelphia\, USA\nVenue: Philadelphia Marriott Downtown\n\n
+ All dates:\n  Joint ACC + L-CSS manuscript submission: 11 Sept 2026\, 23:5
+ 9 UTC+12 (assumed)\n  Invited session proposals: 30 Sept 2026\, 23:59 UTC+
+ 12 (assumed)\n  ACC manuscript submission: 2 Oct 2026\, 23:59 UTC+12 (assu
+ med)\n  Special session proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n 
+  Workshop proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  Tutorial sess
+ ion proposals: 23 Oct 2026\, 23:59 UTC+12 (assumed)\n  Notification of acc
+ eptance/rejection: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Tutorial papers
+ : 29 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 12 
+ Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezon
+ e. This is counted as UTC+12\, the earliest it could plausibly mean\, so t
+ he countdown runs out before the real deadline rather than after it.\n\nPr
+ e-conference workshops on 6 July. The ACC manuscript deadline was extended
+  from 25 September to a firm 2 October 2026\, and invited session proposal
+ s from 23 to 30 September 2026.\n\nCall for papers: https://acc2027.a2c2.o
+ rg/\nDetails: https://powersystemdeadlines.org/conference/acc27
+LOCATION:Philadelphia\, USA
+URL;VALUE=URI:https://acc2027.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ccta27-paper@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+TRANSP:TRANSPARENT
+SUMMARY:CCTA 2027: Full paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Control Technology and Applications (CCTA 20
+ 27)\n\nFull paper submission: 7 Feb 2027\, 23:59 UTC+12 (assumed)\n\nConfe
+ rence: August 23-25\, 2027\nLocation: Hiroshima\, Japan\nVenue: Internatio
+ nal Conference Center Hiroshima\n\nAll dates:\n  Full paper submission: 7 
+ Feb 2027\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 15 May 20
+ 27\, 23:59 UTC+12 (assumed)\n  Final paper submission: 23 Jun 2027\, 23:59
+  UTC+12 (assumed)\n  Late breaking submission: 30 Jun 2027\, 23:59 UTC+12 
+ (assumed)\n\nThe call for papers states no timezone. This is counted as UT
+ C+12\, the earliest it could plausibly mean\, so the countdown runs out be
+ fore the real deadline rather than after it.\n\n11th CCTA. Technical works
+ hops on 22 August. Papers are up to 8 pages for review and 6 in the final 
+ version. Late-breaking posters need a short abstract and a poster.\n\nCall
+  for papers: https://ccta2027.ieeecss.org/\nDetails: https://powersystemde
+ adlines.org/conference/ccta27
+LOCATION:Hiroshima\, Japan
+URL;VALUE=URI:https://ccta2027.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ccta27-notification@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+TRANSP:TRANSPARENT
+SUMMARY:CCTA 2027: Notification of acceptance (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Control Technology and Applications (CCTA 20
+ 27)\n\nNotification of acceptance: 15 May 2027\, 23:59 UTC+12 (assumed)\n\
+ nConference: August 23-25\, 2027\nLocation: Hiroshima\, Japan\nVenue: Inte
+ rnational Conference Center Hiroshima\n\nAll dates:\n  Full paper submissi
+ on: 7 Feb 2027\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 15 
+ May 2027\, 23:59 UTC+12 (assumed)\n  Final paper submission: 23 Jun 2027\,
+  23:59 UTC+12 (assumed)\n  Late breaking submission: 30 Jun 2027\, 23:59 U
+ TC+12 (assumed)\n\nThe call for papers states no timezone. This is counted
+  as UTC+12\, the earliest it could plausibly mean\, so the countdown runs 
+ out before the real deadline rather than after it.\n\n11th CCTA. Technical
+  workshops on 22 August. Papers are up to 8 pages for review and 6 in the 
+ final version. Late-breaking posters need a short abstract and a poster.\n
+ \nCall for papers: https://ccta2027.ieeecss.org/\nDetails: https://powersy
+ stemdeadlines.org/conference/ccta27
+LOCATION:Hiroshima\, Japan
+URL;VALUE=URI:https://ccta2027.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ccta27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270623
+DTEND;VALUE=DATE:20270624
+TRANSP:TRANSPARENT
+SUMMARY:CCTA 2027: Final paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Control Technology and Applications (CCTA 20
+ 27)\n\nFinal paper submission: 23 Jun 2027\, 23:59 UTC+12 (assumed)\n\nCon
+ ference: August 23-25\, 2027\nLocation: Hiroshima\, Japan\nVenue: Internat
+ ional Conference Center Hiroshima\n\nAll dates:\n  Full paper submission: 
+ 7 Feb 2027\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 15 May 
+ 2027\, 23:59 UTC+12 (assumed)\n  Final paper submission: 23 Jun 2027\, 23:
+ 59 UTC+12 (assumed)\n  Late breaking submission: 30 Jun 2027\, 23:59 UTC+1
+ 2 (assumed)\n\nThe call for papers states no timezone. This is counted as 
+ UTC+12\, the earliest it could plausibly mean\, so the countdown runs out 
+ before the real deadline rather than after it.\n\n11th CCTA. Technical wor
+ kshops on 22 August. Papers are up to 8 pages for review and 6 in the fina
+ l version. Late-breaking posters need a short abstract and a poster.\n\nCa
+ ll for papers: https://ccta2027.ieeecss.org/\nDetails: https://powersystem
+ deadlines.org/conference/ccta27
+LOCATION:Hiroshima\, Japan
+URL;VALUE=URI:https://ccta2027.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ccta27-poster@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+TRANSP:TRANSPARENT
+SUMMARY:CCTA 2027: Late breaking submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Control Technology and Applications (CCTA 20
+ 27)\n\nLate breaking submission: 30 Jun 2027\, 23:59 UTC+12 (assumed)\n\nC
+ onference: August 23-25\, 2027\nLocation: Hiroshima\, Japan\nVenue: Intern
+ ational Conference Center Hiroshima\n\nAll dates:\n  Full paper submission
+ : 7 Feb 2027\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 15 Ma
+ y 2027\, 23:59 UTC+12 (assumed)\n  Final paper submission: 23 Jun 2027\, 2
+ 3:59 UTC+12 (assumed)\n  Late breaking submission: 30 Jun 2027\, 23:59 UTC
+ +12 (assumed)\n\nThe call for papers states no timezone. This is counted a
+ s UTC+12\, the earliest it could plausibly mean\, so the countdown runs ou
+ t before the real deadline rather than after it.\n\n11th CCTA. Technical w
+ orkshops on 22 August. Papers are up to 8 pages for review and 6 in the fi
+ nal version. Late-breaking posters need a short abstract and a poster.\n\n
+ Call for papers: https://ccta2027.ieeecss.org/\nDetails: https://powersyst
+ emdeadlines.org/conference/ccta27
+LOCATION:Hiroshima\, Japan
+URL;VALUE=URI:https://ccta2027.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc27-paper@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2027: Initial submissions (L-CSS + CDC) (23:59 UTC+12 (assumed)
+ )
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2027)\n\nInitial s
+ ubmissions (L-CSS + CDC): 17 Mar 2027\, 23:59 UTC+12 (assumed)\n\nConferen
+ ce: December 14-17\, 2027\nLocation: Lisbon\, Portugal\nVenue: Lisbon Cong
+ ress Centre\n\nAll dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 202
+ 7\, 23:59 UTC+12 (assumed)\n  Invited session proposals: 24 Mar 2027\, 23:
+ 59 UTC+12 (assumed)\n  Initial submissions (CDC only): 31 Mar 2027\, 23:59
+  UTC+12 (assumed)\n  Workshop proposals: 30 Apr 2027\, 23:59 UTC+12 (assum
+ ed)\n  Decision notification: 15 Jul 2027\, 23:59 UTC+12 (assumed)\n\nNot 
+ yet announced: Final submission\n\nThe call for papers states no timezone.
+  This is counted as UTC+12\, the earliest it could plausibly mean\, so the
+  countdown runs out before the real deadline rather than after it.\n\n66th
+  CDC. Workshops are held on 13 December. The submission site opens on 8 Ja
+ nuary 2027. The earlier deadline is for papers submitted to IEEE Control S
+ ystems Letters (L-CSS) with the option of presentation at CDC.\n\nCall for
+  papers: https://cdc2027.ieeecss.org/\nDetails: https://powersystemdeadlin
+ es.org/conference/cdc27
+LOCATION:Lisbon\, Portugal
+URL;VALUE=URI:https://cdc2027.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc27-session_proposal@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270324
+DTEND;VALUE=DATE:20270325
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2027: Invited session proposals (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2027)\n\nInvited s
+ ession proposals: 24 Mar 2027\, 23:59 UTC+12 (assumed)\n\nConference: Dece
+ mber 14-17\, 2027\nLocation: Lisbon\, Portugal\nVenue: Lisbon Congress Cen
+ tre\n\nAll dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 2027\, 23:5
+ 9 UTC+12 (assumed)\n  Invited session proposals: 24 Mar 2027\, 23:59 UTC+1
+ 2 (assumed)\n  Initial submissions (CDC only): 31 Mar 2027\, 23:59 UTC+12 
+ (assumed)\n  Workshop proposals: 30 Apr 2027\, 23:59 UTC+12 (assumed)\n  D
+ ecision notification: 15 Jul 2027\, 23:59 UTC+12 (assumed)\n\nNot yet anno
+ unced: Final submission\n\nThe call for papers states no timezone. This is
+  counted as UTC+12\, the earliest it could plausibly mean\, so the countdo
+ wn runs out before the real deadline rather than after it.\n\n66th CDC. Wo
+ rkshops are held on 13 December. The submission site opens on 8 January 20
+ 27. The earlier deadline is for papers submitted to IEEE Control Systems L
+ etters (L-CSS) with the option of presentation at CDC.\n\nCall for papers:
+  https://cdc2027.ieeecss.org/\nDetails: https://powersystemdeadlines.org/c
+ onference/cdc27
+LOCATION:Lisbon\, Portugal
+URL;VALUE=URI:https://cdc2027.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc27-paper-2@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2027: Initial submissions (CDC only) (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2027)\n\nInitial s
+ ubmissions (CDC only): 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nConference:
+  December 14-17\, 2027\nLocation: Lisbon\, Portugal\nVenue: Lisbon Congres
+ s Centre\n\nAll dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 2027\,
+  23:59 UTC+12 (assumed)\n  Invited session proposals: 24 Mar 2027\, 23:59 
+ UTC+12 (assumed)\n  Initial submissions (CDC only): 31 Mar 2027\, 23:59 UT
+ C+12 (assumed)\n  Workshop proposals: 30 Apr 2027\, 23:59 UTC+12 (assumed)
+ \n  Decision notification: 15 Jul 2027\, 23:59 UTC+12 (assumed)\n\nNot yet
+  announced: Final submission\n\nThe call for papers states no timezone. Th
+ is is counted as UTC+12\, the earliest it could plausibly mean\, so the co
+ untdown runs out before the real deadline rather than after it.\n\n66th CD
+ C. Workshops are held on 13 December. The submission site opens on 8 Janua
+ ry 2027. The earlier deadline is for papers submitted to IEEE Control Syst
+ ems Letters (L-CSS) with the option of presentation at CDC.\n\nCall for pa
+ pers: https://cdc2027.ieeecss.org/\nDetails: https://powersystemdeadlines.
+ org/conference/cdc27
+LOCATION:Lisbon\, Portugal
+URL;VALUE=URI:https://cdc2027.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc27-workshop_proposal@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2027: Workshop proposals (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2027)\n\nWorkshop 
+ proposals: 30 Apr 2027\, 23:59 UTC+12 (assumed)\n\nConference: December 14
+ -17\, 2027\nLocation: Lisbon\, Portugal\nVenue: Lisbon Congress Centre\n\n
+ All dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 2027\, 23:59 UTC+1
+ 2 (assumed)\n  Invited session proposals: 24 Mar 2027\, 23:59 UTC+12 (assu
+ med)\n  Initial submissions (CDC only): 31 Mar 2027\, 23:59 UTC+12 (assume
+ d)\n  Workshop proposals: 30 Apr 2027\, 23:59 UTC+12 (assumed)\n  Decision
+  notification: 15 Jul 2027\, 23:59 UTC+12 (assumed)\n\nNot yet announced: 
+ Final submission\n\nThe call for papers states no timezone. This is counte
+ d as UTC+12\, the earliest it could plausibly mean\, so the countdown runs
+  out before the real deadline rather than after it.\n\n66th CDC. Workshops
+  are held on 13 December. The submission site opens on 8 January 2027. The
+  earlier deadline is for papers submitted to IEEE Control Systems Letters 
+ (L-CSS) with the option of presentation at CDC.\n\nCall for papers: https:
+ //cdc2027.ieeecss.org/\nDetails: https://powersystemdeadlines.org/conferen
+ ce/cdc27
+LOCATION:Lisbon\, Portugal
+URL;VALUE=URI:https://cdc2027.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc27-notification@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2027: Decision notification (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2027)\n\nDecision 
+ notification: 15 Jul 2027\, 23:59 UTC+12 (assumed)\n\nConference: December
+  14-17\, 2027\nLocation: Lisbon\, Portugal\nVenue: Lisbon Congress Centre\
+ n\nAll dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 2027\, 23:59 UT
+ C+12 (assumed)\n  Invited session proposals: 24 Mar 2027\, 23:59 UTC+12 (a
+ ssumed)\n  Initial submissions (CDC only): 31 Mar 2027\, 23:59 UTC+12 (ass
+ umed)\n  Workshop proposals: 30 Apr 2027\, 23:59 UTC+12 (assumed)\n  Decis
+ ion notification: 15 Jul 2027\, 23:59 UTC+12 (assumed)\n\nNot yet announce
+ d: Final submission\n\nThe call for papers states no timezone. This is cou
+ nted as UTC+12\, the earliest it could plausibly mean\, so the countdown r
+ uns out before the real deadline rather than after it.\n\n66th CDC. Worksh
+ ops are held on 13 December. The submission site opens on 8 January 2027. 
+ The earlier deadline is for papers submitted to IEEE Control Systems Lette
+ rs (L-CSS) with the option of presentation at CDC.\n\nCall for papers: htt
+ ps://cdc2027.ieeecss.org/\nDetails: https://powersystemdeadlines.org/confe
+ rence/cdc27
+LOCATION:Lisbon\, Portugal
+URL;VALUE=URI:https://cdc2027.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc28-paper@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270911
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2028: L-CSS submission (23:59 UTC+12 (assumed))
+DESCRIPTION:American Control Conference (ACC 2028)\n\nL-CSS submission: 10 
+ Sept 2027\, 23:59 UTC+12 (assumed)\n\nConference: May 31-June 2\, 2028\nLo
+ cation: San Francisco\, USA\n\nAll dates:\n  L-CSS submission: 10 Sept 202
+ 7\, 23:59 UTC+12 (assumed)\n  ACC manuscript submission: 24 Sept 2027\, 23
+ :59 UTC+12 (assumed)\n  Acceptance-rejection notification: 21 Jan 2028\, 2
+ 3:59 UTC+12 (assumed)\n  Final manuscripts due: 10 Mar 2028\, 23:59 UTC+12
+  (assumed)\n\nThe call for papers states no timezone. This is counted as U
+ TC+12\, the earliest it could plausibly mean\, so the countdown runs out b
+ efore the real deadline rather than after it.\n\nPre-conference workshops 
+ on 29-30 May 2028.\n\nCall for papers: https://acc2028.a2c2.org/\nDetails:
+  https://powersystemdeadlines.org/conference/acc28
+LOCATION:San Francisco\, USA
+URL;VALUE=URI:https://acc2028.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc28-paper-2@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270925
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2028: ACC manuscript submission (23:59 UTC+12 (assumed))
+DESCRIPTION:American Control Conference (ACC 2028)\n\nACC manuscript submis
+ sion: 24 Sept 2027\, 23:59 UTC+12 (assumed)\n\nConference: May 31-June 2\,
+  2028\nLocation: San Francisco\, USA\n\nAll dates:\n  L-CSS submission: 10
+  Sept 2027\, 23:59 UTC+12 (assumed)\n  ACC manuscript submission: 24 Sept 
+ 2027\, 23:59 UTC+12 (assumed)\n  Acceptance-rejection notification: 21 Jan
+  2028\, 23:59 UTC+12 (assumed)\n  Final manuscripts due: 10 Mar 2028\, 23:
+ 59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is cou
+ nted as UTC+12\, the earliest it could plausibly mean\, so the countdown r
+ uns out before the real deadline rather than after it.\n\nPre-conference w
+ orkshops on 29-30 May 2028.\n\nCall for papers: https://acc2028.a2c2.org/\
+ nDetails: https://powersystemdeadlines.org/conference/acc28
+LOCATION:San Francisco\, USA
+URL;VALUE=URI:https://acc2028.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc28-notification@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20280121
+DTEND;VALUE=DATE:20280122
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2028: Acceptance-rejection notification (23:59 UTC+12 (assumed)
+ )
+DESCRIPTION:American Control Conference (ACC 2028)\n\nAcceptance-rejection 
+ notification: 21 Jan 2028\, 23:59 UTC+12 (assumed)\n\nConference: May 31-J
+ une 2\, 2028\nLocation: San Francisco\, USA\n\nAll dates:\n  L-CSS submiss
+ ion: 10 Sept 2027\, 23:59 UTC+12 (assumed)\n  ACC manuscript submission: 2
+ 4 Sept 2027\, 23:59 UTC+12 (assumed)\n  Acceptance-rejection notification:
+  21 Jan 2028\, 23:59 UTC+12 (assumed)\n  Final manuscripts due: 10 Mar 202
+ 8\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This
+  is counted as UTC+12\, the earliest it could plausibly mean\, so the coun
+ tdown runs out before the real deadline rather than after it.\n\nPre-confe
+ rence workshops on 29-30 May 2028.\n\nCall for papers: https://acc2028.a2c
+ 2.org/\nDetails: https://powersystemdeadlines.org/conference/acc28
+LOCATION:San Francisco\, USA
+URL;VALUE=URI:https://acc2028.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc28-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20280310
+DTEND;VALUE=DATE:20280311
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2028: Final manuscripts due (23:59 UTC+12 (assumed))
+DESCRIPTION:American Control Conference (ACC 2028)\n\nFinal manuscripts due
+ : 10 Mar 2028\, 23:59 UTC+12 (assumed)\n\nConference: May 31-June 2\, 2028
+ \nLocation: San Francisco\, USA\n\nAll dates:\n  L-CSS submission: 10 Sept
+  2027\, 23:59 UTC+12 (assumed)\n  ACC manuscript submission: 24 Sept 2027\
+ , 23:59 UTC+12 (assumed)\n  Acceptance-rejection notification: 21 Jan 2028
+ \, 23:59 UTC+12 (assumed)\n  Final manuscripts due: 10 Mar 2028\, 23:59 UT
+ C+12 (assumed)\n\nThe call for papers states no timezone. This is counted 
+ as UTC+12\, the earliest it could plausibly mean\, so the countdown runs o
+ ut before the real deadline rather than after it.\n\nPre-conference worksh
+ ops on 29-30 May 2028.\n\nCall for papers: https://acc2028.a2c2.org/\nDeta
+ ils: https://powersystemdeadlines.org/conference/acc28
+LOCATION:San Francisco\, USA
+URL;VALUE=URI:https://acc2028.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc26-paper@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20260317
+DTEND;VALUE=DATE:20260318
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2026: Initial submissions (L-CSS + CDC) (23:59 UTC+12 (assumed)
+ )
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2026)\n\nInitial s
+ ubmissions (L-CSS + CDC): 17 Mar 2026\, 23:59 UTC+12 (assumed)\n\nConferen
+ ce: December 15-18\, 2026\nLocation: Honolulu\, USA\nVenue: Hilton Hawaiia
+ n Village\n\nAll dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 2026\
+ , 23:59 UTC+12 (assumed)\n  Invited session proposals: 24 Mar 2026\, 23:59
+  UTC+12 (assumed)\n  Initial submissions (CDC only): 31 Mar 2026\, 23:59 U
+ TC+12 (assumed)\n  Workshop proposals: 1 May 2026\, 23:59 UTC+12 (assumed)
+ \n  Tutorial session proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Dec
+ ision notification: 15 Jul 2026\, 23:59 UTC+12 (assumed)\n  Final submissi
+ on deadline: 18 Sept 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers 
+ states no timezone. This is counted as UTC+12\, the earliest it could plau
+ sibly mean\, so the countdown runs out before the real deadline rather tha
+ n after it.\n\n65th CDC. Workshops are held on 14 December. The earlier de
+ adline is for papers submitted to IEEE Control Systems Letters (L-CSS) wit
+ h the option of presentation at CDC.\n\nCall for papers: https://cdc2026.i
+ eeecss.org/\nDetails: https://powersystemdeadlines.org/conference/cdc26
+LOCATION:Honolulu\, USA
+URL;VALUE=URI:https://cdc2026.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc26-session_proposal@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260325
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2026: Invited session proposals (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2026)\n\nInvited s
+ ession proposals: 24 Mar 2026\, 23:59 UTC+12 (assumed)\n\nConference: Dece
+ mber 15-18\, 2026\nLocation: Honolulu\, USA\nVenue: Hilton Hawaiian Villag
+ e\n\nAll dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 2026\, 23:59 
+ UTC+12 (assumed)\n  Invited session proposals: 24 Mar 2026\, 23:59 UTC+12 
+ (assumed)\n  Initial submissions (CDC only): 31 Mar 2026\, 23:59 UTC+12 (a
+ ssumed)\n  Workshop proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Tuto
+ rial session proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Decision no
+ tification: 15 Jul 2026\, 23:59 UTC+12 (assumed)\n  Final submission deadl
+ ine: 18 Sept 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states n
+ o timezone. This is counted as UTC+12\, the earliest it could plausibly me
+ an\, so the countdown runs out before the real deadline rather than after 
+ it.\n\n65th CDC. Workshops are held on 14 December. The earlier deadline i
+ s for papers submitted to IEEE Control Systems Letters (L-CSS) with the op
+ tion of presentation at CDC.\n\nCall for papers: https://cdc2026.ieeecss.o
+ rg/\nDetails: https://powersystemdeadlines.org/conference/cdc26
+LOCATION:Honolulu\, USA
+URL;VALUE=URI:https://cdc2026.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc26-paper-2@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2026: Initial submissions (CDC only) (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2026)\n\nInitial s
+ ubmissions (CDC only): 31 Mar 2026\, 23:59 UTC+12 (assumed)\n\nConference:
+  December 15-18\, 2026\nLocation: Honolulu\, USA\nVenue: Hilton Hawaiian V
+ illage\n\nAll dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 2026\, 2
+ 3:59 UTC+12 (assumed)\n  Invited session proposals: 24 Mar 2026\, 23:59 UT
+ C+12 (assumed)\n  Initial submissions (CDC only): 31 Mar 2026\, 23:59 UTC+
+ 12 (assumed)\n  Workshop proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n 
+  Tutorial session proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Decisi
+ on notification: 15 Jul 2026\, 23:59 UTC+12 (assumed)\n  Final submission 
+ deadline: 18 Sept 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers sta
+ tes no timezone. This is counted as UTC+12\, the earliest it could plausib
+ ly mean\, so the countdown runs out before the real deadline rather than a
+ fter it.\n\n65th CDC. Workshops are held on 14 December. The earlier deadl
+ ine is for papers submitted to IEEE Control Systems Letters (L-CSS) with t
+ he option of presentation at CDC.\n\nCall for papers: https://cdc2026.ieee
+ css.org/\nDetails: https://powersystemdeadlines.org/conference/cdc26
+LOCATION:Honolulu\, USA
+URL;VALUE=URI:https://cdc2026.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc26-workshop_proposal@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2026: Workshop proposals (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2026)\n\nWorkshop 
+ proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n\nConference: December 15-
+ 18\, 2026\nLocation: Honolulu\, USA\nVenue: Hilton Hawaiian Village\n\nAll
+  dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 2026\, 23:59 UTC+12 (
+ assumed)\n  Invited session proposals: 24 Mar 2026\, 23:59 UTC+12 (assumed
+ )\n  Initial submissions (CDC only): 31 Mar 2026\, 23:59 UTC+12 (assumed)\
+ n  Workshop proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Tutorial ses
+ sion proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Decision notificati
+ on: 15 Jul 2026\, 23:59 UTC+12 (assumed)\n  Final submission deadline: 18 
+ Sept 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezo
+ ne. This is counted as UTC+12\, the earliest it could plausibly mean\, so 
+ the countdown runs out before the real deadline rather than after it.\n\n6
+ 5th CDC. Workshops are held on 14 December. The earlier deadline is for pa
+ pers submitted to IEEE Control Systems Letters (L-CSS) with the option of 
+ presentation at CDC.\n\nCall for papers: https://cdc2026.ieeecss.org/\nDet
+ ails: https://powersystemdeadlines.org/conference/cdc26
+LOCATION:Honolulu\, USA
+URL;VALUE=URI:https://cdc2026.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc26-tutorial_proposal@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2026: Tutorial session proposals (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2026)\n\nTutorial 
+ session proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n\nConference: Dece
+ mber 15-18\, 2026\nLocation: Honolulu\, USA\nVenue: Hilton Hawaiian Villag
+ e\n\nAll dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 2026\, 23:59 
+ UTC+12 (assumed)\n  Invited session proposals: 24 Mar 2026\, 23:59 UTC+12 
+ (assumed)\n  Initial submissions (CDC only): 31 Mar 2026\, 23:59 UTC+12 (a
+ ssumed)\n  Workshop proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Tuto
+ rial session proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Decision no
+ tification: 15 Jul 2026\, 23:59 UTC+12 (assumed)\n  Final submission deadl
+ ine: 18 Sept 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states n
+ o timezone. This is counted as UTC+12\, the earliest it could plausibly me
+ an\, so the countdown runs out before the real deadline rather than after 
+ it.\n\n65th CDC. Workshops are held on 14 December. The earlier deadline i
+ s for papers submitted to IEEE Control Systems Letters (L-CSS) with the op
+ tion of presentation at CDC.\n\nCall for papers: https://cdc2026.ieeecss.o
+ rg/\nDetails: https://powersystemdeadlines.org/conference/cdc26
+LOCATION:Honolulu\, USA
+URL;VALUE=URI:https://cdc2026.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc26-notification@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2026: Decision notification (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2026)\n\nDecision 
+ notification: 15 Jul 2026\, 23:59 UTC+12 (assumed)\n\nConference: December
+  15-18\, 2026\nLocation: Honolulu\, USA\nVenue: Hilton Hawaiian Village\n\
+ nAll dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 2026\, 23:59 UTC+
+ 12 (assumed)\n  Invited session proposals: 24 Mar 2026\, 23:59 UTC+12 (ass
+ umed)\n  Initial submissions (CDC only): 31 Mar 2026\, 23:59 UTC+12 (assum
+ ed)\n  Workshop proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Tutorial
+  session proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Decision notifi
+ cation: 15 Jul 2026\, 23:59 UTC+12 (assumed)\n  Final submission deadline:
+  18 Sept 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no ti
+ mezone. This is counted as UTC+12\, the earliest it could plausibly mean\,
+  so the countdown runs out before the real deadline rather than after it.\
+ n\n65th CDC. Workshops are held on 14 December. The earlier deadline is fo
+ r papers submitted to IEEE Control Systems Letters (L-CSS) with the option
+  of presentation at CDC.\n\nCall for papers: https://cdc2026.ieeecss.org/\
+ nDetails: https://powersystemdeadlines.org/conference/cdc26
+LOCATION:Honolulu\, USA
+URL;VALUE=URI:https://cdc2026.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2026: Final submission deadline (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2026)\n\nFinal sub
+ mission deadline: 18 Sept 2026\, 23:59 UTC+12 (assumed)\n\nConference: Dec
+ ember 15-18\, 2026\nLocation: Honolulu\, USA\nVenue: Hilton Hawaiian Villa
+ ge\n\nAll dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 2026\, 23:59
+  UTC+12 (assumed)\n  Invited session proposals: 24 Mar 2026\, 23:59 UTC+12
+  (assumed)\n  Initial submissions (CDC only): 31 Mar 2026\, 23:59 UTC+12 (
+ assumed)\n  Workshop proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Tut
+ orial session proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Decision n
+ otification: 15 Jul 2026\, 23:59 UTC+12 (assumed)\n  Final submission dead
+ line: 18 Sept 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states 
+ no timezone. This is counted as UTC+12\, the earliest it could plausibly m
+ ean\, so the countdown runs out before the real deadline rather than after
+  it.\n\n65th CDC. Workshops are held on 14 December. The earlier deadline 
+ is for papers submitted to IEEE Control Systems Letters (L-CSS) with the o
+ ption of presentation at CDC.\n\nCall for papers: https://cdc2026.ieeecss.
+ org/\nDetails: https://powersystemdeadlines.org/conference/cdc26
+LOCATION:Honolulu\, USA
+URL;VALUE=URI:https://cdc2026.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,335 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ECC 2027 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for European Control Conference 2027.
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/ecc27.ics
+BEGIN:VEVENT
+UID:ecc27-paper@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+TRANSP:TRANSPARENT
+SUMMARY:ECC 2027: Papers submission deadline (extended) (23:59 UTC+12 (assu
+ med))
+DESCRIPTION:European Control Conference (ECC 2027)\n\nPapers submission dea
+ dline (extended): 9 Nov 2026\, 23:59 UTC+12 (assumed)\n\nConference: July 
+ 13-16\, 2027\nLocation: Brussels\, Belgium\nVenue: UCLouvain\, Woluwé cam
+ pus\n\nAll dates:\n  Papers submission deadline (extended): 9 Nov 2026\, 2
+ 3:59 UTC+12 (assumed)\n  Invited session proposals submission deadline (ex
+ tended): 9 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial proposals submiss
+ ion deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Workshop proposals s
+ ubmission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Industry abstr
+ acts submission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Acceptan
+ ce/rejection notification: 5 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final su
+ bmissions deadline: 5 Apr 2027\, 23:59 UTC+12 (assumed)\n\nThe call for pa
+ pers states no timezone. This is counted as UTC+12\, the earliest it could
+  plausibly mean\, so the countdown runs out before the real deadline rathe
+ r than after it.\n\nPaper and invited session deadlines were extended from
+  31 October to 9 November 2026. Papers are up to 8 pages for review and 6 
+ in the final version. Industry abstracts (1-2 pages) are not included in t
+ he proceedings.\n\nCall for papers: https://ecc27.euca-ecc.org/\nDetails: 
+ https://powersystemdeadlines.org/conference/ecc27
+LOCATION:Brussels\, Belgium
+URL;VALUE=URI:https://ecc27.euca-ecc.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc27-session_proposal@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+TRANSP:TRANSPARENT
+SUMMARY:ECC 2027: Invited session proposals submission deadline (extended) 
+ (23:59 UTC+12 (assumed))
+DESCRIPTION:European Control Conference (ECC 2027)\n\nInvited session propo
+ sals submission deadline (extended): 9 Nov 2026\, 23:59 UTC+12 (assumed)\n
+ \nConference: July 13-16\, 2027\nLocation: Brussels\, Belgium\nVenue: UCLo
+ uvain\, Woluwé campus\n\nAll dates:\n  Papers submission deadline (extend
+ ed): 9 Nov 2026\, 23:59 UTC+12 (assumed)\n  Invited session proposals subm
+ ission deadline (extended): 9 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutoria
+ l proposals submission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  W
+ orkshop proposals submission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed
+ )\n  Industry abstracts submission deadline: 31 Jan 2027\, 23:59 UTC+12 (a
+ ssumed)\n  Acceptance/rejection notification: 5 Mar 2027\, 23:59 UTC+12 (a
+ ssumed)\n  Final submissions deadline: 5 Apr 2027\, 23:59 UTC+12 (assumed)
+ \n\nThe call for papers states no timezone. This is counted as UTC+12\, th
+ e earliest it could plausibly mean\, so the countdown runs out before the 
+ real deadline rather than after it.\n\nPaper and invited session deadlines
+  were extended from 31 October to 9 November 2026. Papers are up to 8 page
+ s for review and 6 in the final version. Industry abstracts (1-2 pages) ar
+ e not included in the proceedings.\n\nCall for papers: https://ecc27.euca-
+ ecc.org/\nDetails: https://powersystemdeadlines.org/conference/ecc27
+LOCATION:Brussels\, Belgium
+URL;VALUE=URI:https://ecc27.euca-ecc.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc27-tutorial_proposal@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+TRANSP:TRANSPARENT
+SUMMARY:ECC 2027: Tutorial proposals submission deadline (23:59 UTC+12 (ass
+ umed))
+DESCRIPTION:European Control Conference (ECC 2027)\n\nTutorial proposals su
+ bmission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n\nConference: Jul
+ y 13-16\, 2027\nLocation: Brussels\, Belgium\nVenue: UCLouvain\, Woluwé c
+ ampus\n\nAll dates:\n  Papers submission deadline (extended): 9 Nov 2026\,
+  23:59 UTC+12 (assumed)\n  Invited session proposals submission deadline (
+ extended): 9 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial proposals submi
+ ssion deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Workshop proposals
+  submission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Industry abs
+ tracts submission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Accept
+ ance/rejection notification: 5 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final 
+ submissions deadline: 5 Apr 2027\, 23:59 UTC+12 (assumed)\n\nThe call for 
+ papers states no timezone. This is counted as UTC+12\, the earliest it cou
+ ld plausibly mean\, so the countdown runs out before the real deadline rat
+ her than after it.\n\nPaper and invited session deadlines were extended fr
+ om 31 October to 9 November 2026. Papers are up to 8 pages for review and 
+ 6 in the final version. Industry abstracts (1-2 pages) are not included in
+  the proceedings.\n\nCall for papers: https://ecc27.euca-ecc.org/\nDetails
+ : https://powersystemdeadlines.org/conference/ecc27
+LOCATION:Brussels\, Belgium
+URL;VALUE=URI:https://ecc27.euca-ecc.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc27-workshop_proposal@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+TRANSP:TRANSPARENT
+SUMMARY:ECC 2027: Workshop proposals submission deadline (23:59 UTC+12 (ass
+ umed))
+DESCRIPTION:European Control Conference (ECC 2027)\n\nWorkshop proposals su
+ bmission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n\nConference: Jul
+ y 13-16\, 2027\nLocation: Brussels\, Belgium\nVenue: UCLouvain\, Woluwé c
+ ampus\n\nAll dates:\n  Papers submission deadline (extended): 9 Nov 2026\,
+  23:59 UTC+12 (assumed)\n  Invited session proposals submission deadline (
+ extended): 9 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial proposals submi
+ ssion deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Workshop proposals
+  submission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Industry abs
+ tracts submission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Accept
+ ance/rejection notification: 5 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final 
+ submissions deadline: 5 Apr 2027\, 23:59 UTC+12 (assumed)\n\nThe call for 
+ papers states no timezone. This is counted as UTC+12\, the earliest it cou
+ ld plausibly mean\, so the countdown runs out before the real deadline rat
+ her than after it.\n\nPaper and invited session deadlines were extended fr
+ om 31 October to 9 November 2026. Papers are up to 8 pages for review and 
+ 6 in the final version. Industry abstracts (1-2 pages) are not included in
+  the proceedings.\n\nCall for papers: https://ecc27.euca-ecc.org/\nDetails
+ : https://powersystemdeadlines.org/conference/ecc27
+LOCATION:Brussels\, Belgium
+URL;VALUE=URI:https://ecc27.euca-ecc.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc27-abstract@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+TRANSP:TRANSPARENT
+SUMMARY:ECC 2027: Industry abstracts submission deadline (23:59 UTC+12 (ass
+ umed))
+DESCRIPTION:European Control Conference (ECC 2027)\n\nIndustry abstracts su
+ bmission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n\nConference: Jul
+ y 13-16\, 2027\nLocation: Brussels\, Belgium\nVenue: UCLouvain\, Woluwé c
+ ampus\n\nAll dates:\n  Papers submission deadline (extended): 9 Nov 2026\,
+  23:59 UTC+12 (assumed)\n  Invited session proposals submission deadline (
+ extended): 9 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial proposals submi
+ ssion deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Workshop proposals
+  submission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Industry abs
+ tracts submission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Accept
+ ance/rejection notification: 5 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final 
+ submissions deadline: 5 Apr 2027\, 23:59 UTC+12 (assumed)\n\nThe call for 
+ papers states no timezone. This is counted as UTC+12\, the earliest it cou
+ ld plausibly mean\, so the countdown runs out before the real deadline rat
+ her than after it.\n\nPaper and invited session deadlines were extended fr
+ om 31 October to 9 November 2026. Papers are up to 8 pages for review and 
+ 6 in the final version. Industry abstracts (1-2 pages) are not included in
+  the proceedings.\n\nCall for papers: https://ecc27.euca-ecc.org/\nDetails
+ : https://powersystemdeadlines.org/conference/ecc27
+LOCATION:Brussels\, Belgium
+URL;VALUE=URI:https://ecc27.euca-ecc.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc27-notification@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+TRANSP:TRANSPARENT
+SUMMARY:ECC 2027: Acceptance/rejection notification (23:59 UTC+12 (assumed)
+ )
+DESCRIPTION:European Control Conference (ECC 2027)\n\nAcceptance/rejection 
+ notification: 5 Mar 2027\, 23:59 UTC+12 (assumed)\n\nConference: July 13-1
+ 6\, 2027\nLocation: Brussels\, Belgium\nVenue: UCLouvain\, Woluwé campus\
+ n\nAll dates:\n  Papers submission deadline (extended): 9 Nov 2026\, 23:59
+  UTC+12 (assumed)\n  Invited session proposals submission deadline (extend
+ ed): 9 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial proposals submission 
+ deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Workshop proposals submi
+ ssion deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Industry abstracts
+  submission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Acceptance/r
+ ejection notification: 5 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final submis
+ sions deadline: 5 Apr 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers
+  states no timezone. This is counted as UTC+12\, the earliest it could pla
+ usibly mean\, so the countdown runs out before the real deadline rather th
+ an after it.\n\nPaper and invited session deadlines were extended from 31 
+ October to 9 November 2026. Papers are up to 8 pages for review and 6 in t
+ he final version. Industry abstracts (1-2 pages) are not included in the p
+ roceedings.\n\nCall for papers: https://ecc27.euca-ecc.org/\nDetails: http
+ s://powersystemdeadlines.org/conference/ecc27
+LOCATION:Brussels\, Belgium
+URL;VALUE=URI:https://ecc27.euca-ecc.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270406
+TRANSP:TRANSPARENT
+SUMMARY:ECC 2027: Final submissions deadline (23:59 UTC+12 (assumed))
+DESCRIPTION:European Control Conference (ECC 2027)\n\nFinal submissions dea
+ dline: 5 Apr 2027\, 23:59 UTC+12 (assumed)\n\nConference: July 13-16\, 202
+ 7\nLocation: Brussels\, Belgium\nVenue: UCLouvain\, Woluwé campus\n\nAll 
+ dates:\n  Papers submission deadline (extended): 9 Nov 2026\, 23:59 UTC+12
+  (assumed)\n  Invited session proposals submission deadline (extended): 9 
+ Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial proposals submission deadlin
+ e: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Workshop proposals submission d
+ eadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Industry abstracts submis
+ sion deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Acceptance/rejectio
+ n notification: 5 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final submissions d
+ eadline: 5 Apr 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states
+  no timezone. This is counted as UTC+12\, the earliest it could plausibly 
+ mean\, so the countdown runs out before the real deadline rather than afte
+ r it.\n\nPaper and invited session deadlines were extended from 31 October
+  to 9 November 2026. Papers are up to 8 pages for review and 6 in the fina
+ l version. Industry abstracts (1-2 pages) are not included in the proceedi
+ ngs.\n\nCall for papers: https://ecc27.euca-ecc.org/\nDetails: https://pow
+ ersystemdeadlines.org/conference/ecc27
+LOCATION:Brussels\, Belgium
+URL;VALUE=URI:https://ecc27.euca-ecc.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc27-event@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270713
+DTEND;VALUE=DATE:20270717
+TRANSP:TRANSPARENT
+SUMMARY:ECC 2027
+DESCRIPTION:European Control Conference (ECC 2027)\n\nConference: July 13-1
+ 6\, 2027\nLocation: Brussels\, Belgium\nVenue: UCLouvain\, Woluwé campus\
+ n\nAll dates:\n  Papers submission deadline (extended): 9 Nov 2026\, 23:59
+  UTC+12 (assumed)\n  Invited session proposals submission deadline (extend
+ ed): 9 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial proposals submission 
+ deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Workshop proposals submi
+ ssion deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Industry abstracts
+  submission deadline: 31 Jan 2027\, 23:59 UTC+12 (assumed)\n  Acceptance/r
+ ejection notification: 5 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final submis
+ sions deadline: 5 Apr 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers
+  states no timezone. This is counted as UTC+12\, the earliest it could pla
+ usibly mean\, so the countdown runs out before the real deadline rather th
+ an after it.\n\nPaper and invited session deadlines were extended from 31 
+ October to 9 November 2026. Papers are up to 8 pages for review and 6 in t
+ he final version. Industry abstracts (1-2 pages) are not included in the p
+ roceedings.\n\nCall for papers: https://ecc27.euca-ecc.org/\nDetails: http
+ s://powersystemdeadlines.org/conference/ecc27
+LOCATION:UCLouvain\, Woluwé campus\, Brussels\, Belgium
+URL;VALUE=URI:https://ecc27.euca-ecc.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

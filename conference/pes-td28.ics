@@ -12,7 +12,7 @@ X-WR-CALDESC:Deadlines and dates for IEEE PES Transmission and Distribution
 SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/pes-td28.ics
 BEGIN:VEVENT
 UID:pes-td28-event@powersystemdeadlines.org
-DTSTAMP:20261031T042245Z
+DTSTAMP:20261031T085026Z
 DTSTART;VALUE=DATE:20280424
 DTEND;VALUE=DATE:20280428
 TRANSP:TRANSPARENT

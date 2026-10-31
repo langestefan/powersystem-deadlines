@@ -12,7 +12,7 @@ X-WR-CALDESC:Deadlines and dates for IEEE International Symposium on Power
 SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/pedg26.ics
 BEGIN:VEVENT
 UID:pedg26-event@powersystemdeadlines.org
-DTSTAMP:20261031T042245Z
+DTSTAMP:20261031T085026Z
 DTSTART;VALUE=DATE:20260621
 DTEND;VALUE=DATE:20260625
 TRANSP:TRANSPARENT

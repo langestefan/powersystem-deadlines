@@ -1,0 +1,187 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CCTA 2027 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IEEE Conference on Control Technology 
+ and Applications 2027.
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/ccta27.ics
+BEGIN:VEVENT
+UID:ccta27-paper@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+TRANSP:TRANSPARENT
+SUMMARY:CCTA 2027: Full paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Control Technology and Applications (CCTA 20
+ 27)\n\nFull paper submission: 7 Feb 2027\, 23:59 UTC+12 (assumed)\n\nConfe
+ rence: August 23-25\, 2027\nLocation: Hiroshima\, Japan\nVenue: Internatio
+ nal Conference Center Hiroshima\n\nAll dates:\n  Full paper submission: 7 
+ Feb 2027\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 15 May 20
+ 27\, 23:59 UTC+12 (assumed)\n  Final paper submission: 23 Jun 2027\, 23:59
+  UTC+12 (assumed)\n  Late breaking submission: 30 Jun 2027\, 23:59 UTC+12 
+ (assumed)\n\nThe call for papers states no timezone. This is counted as UT
+ C+12\, the earliest it could plausibly mean\, so the countdown runs out be
+ fore the real deadline rather than after it.\n\n11th CCTA. Technical works
+ hops on 22 August. Papers are up to 8 pages for review and 6 in the final 
+ version. Late-breaking posters need a short abstract and a poster.\n\nCall
+  for papers: https://ccta2027.ieeecss.org/\nDetails: https://powersystemde
+ adlines.org/conference/ccta27
+LOCATION:Hiroshima\, Japan
+URL;VALUE=URI:https://ccta2027.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ccta27-notification@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+TRANSP:TRANSPARENT
+SUMMARY:CCTA 2027: Notification of acceptance (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Control Technology and Applications (CCTA 20
+ 27)\n\nNotification of acceptance: 15 May 2027\, 23:59 UTC+12 (assumed)\n\
+ nConference: August 23-25\, 2027\nLocation: Hiroshima\, Japan\nVenue: Inte
+ rnational Conference Center Hiroshima\n\nAll dates:\n  Full paper submissi
+ on: 7 Feb 2027\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 15 
+ May 2027\, 23:59 UTC+12 (assumed)\n  Final paper submission: 23 Jun 2027\,
+  23:59 UTC+12 (assumed)\n  Late breaking submission: 30 Jun 2027\, 23:59 U
+ TC+12 (assumed)\n\nThe call for papers states no timezone. This is counted
+  as UTC+12\, the earliest it could plausibly mean\, so the countdown runs 
+ out before the real deadline rather than after it.\n\n11th CCTA. Technical
+  workshops on 22 August. Papers are up to 8 pages for review and 6 in the 
+ final version. Late-breaking posters need a short abstract and a poster.\n
+ \nCall for papers: https://ccta2027.ieeecss.org/\nDetails: https://powersy
+ stemdeadlines.org/conference/ccta27
+LOCATION:Hiroshima\, Japan
+URL;VALUE=URI:https://ccta2027.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ccta27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270623
+DTEND;VALUE=DATE:20270624
+TRANSP:TRANSPARENT
+SUMMARY:CCTA 2027: Final paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Control Technology and Applications (CCTA 20
+ 27)\n\nFinal paper submission: 23 Jun 2027\, 23:59 UTC+12 (assumed)\n\nCon
+ ference: August 23-25\, 2027\nLocation: Hiroshima\, Japan\nVenue: Internat
+ ional Conference Center Hiroshima\n\nAll dates:\n  Full paper submission: 
+ 7 Feb 2027\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 15 May 
+ 2027\, 23:59 UTC+12 (assumed)\n  Final paper submission: 23 Jun 2027\, 23:
+ 59 UTC+12 (assumed)\n  Late breaking submission: 30 Jun 2027\, 23:59 UTC+1
+ 2 (assumed)\n\nThe call for papers states no timezone. This is counted as 
+ UTC+12\, the earliest it could plausibly mean\, so the countdown runs out 
+ before the real deadline rather than after it.\n\n11th CCTA. Technical wor
+ kshops on 22 August. Papers are up to 8 pages for review and 6 in the fina
+ l version. Late-breaking posters need a short abstract and a poster.\n\nCa
+ ll for papers: https://ccta2027.ieeecss.org/\nDetails: https://powersystem
+ deadlines.org/conference/ccta27
+LOCATION:Hiroshima\, Japan
+URL;VALUE=URI:https://ccta2027.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ccta27-poster@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+TRANSP:TRANSPARENT
+SUMMARY:CCTA 2027: Late breaking submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Control Technology and Applications (CCTA 20
+ 27)\n\nLate breaking submission: 30 Jun 2027\, 23:59 UTC+12 (assumed)\n\nC
+ onference: August 23-25\, 2027\nLocation: Hiroshima\, Japan\nVenue: Intern
+ ational Conference Center Hiroshima\n\nAll dates:\n  Full paper submission
+ : 7 Feb 2027\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 15 Ma
+ y 2027\, 23:59 UTC+12 (assumed)\n  Final paper submission: 23 Jun 2027\, 2
+ 3:59 UTC+12 (assumed)\n  Late breaking submission: 30 Jun 2027\, 23:59 UTC
+ +12 (assumed)\n\nThe call for papers states no timezone. This is counted a
+ s UTC+12\, the earliest it could plausibly mean\, so the countdown runs ou
+ t before the real deadline rather than after it.\n\n11th CCTA. Technical w
+ orkshops on 22 August. Papers are up to 8 pages for review and 6 in the fi
+ nal version. Late-breaking posters need a short abstract and a poster.\n\n
+ Call for papers: https://ccta2027.ieeecss.org/\nDetails: https://powersyst
+ emdeadlines.org/conference/ccta27
+LOCATION:Hiroshima\, Japan
+URL;VALUE=URI:https://ccta2027.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ccta27-event@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270823
+DTEND;VALUE=DATE:20270826
+TRANSP:TRANSPARENT
+SUMMARY:CCTA 2027
+DESCRIPTION:IEEE Conference on Control Technology and Applications (CCTA 20
+ 27)\n\nConference: August 23-25\, 2027\nLocation: Hiroshima\, Japan\nVenue
+ : International Conference Center Hiroshima\n\nAll dates:\n  Full paper su
+ bmission: 7 Feb 2027\, 23:59 UTC+12 (assumed)\n  Notification of acceptanc
+ e: 15 May 2027\, 23:59 UTC+12 (assumed)\n  Final paper submission: 23 Jun 
+ 2027\, 23:59 UTC+12 (assumed)\n  Late breaking submission: 30 Jun 2027\, 2
+ 3:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is c
+ ounted as UTC+12\, the earliest it could plausibly mean\, so the countdown
+  runs out before the real deadline rather than after it.\n\n11th CCTA. Tec
+ hnical workshops on 22 August. Papers are up to 8 pages for review and 6 i
+ n the final version. Late-breaking posters need a short abstract and a pos
+ ter.\n\nCall for papers: https://ccta2027.ieeecss.org/\nDetails: https://p
+ owersystemdeadlines.org/conference/ccta27
+LOCATION:International Conference Center Hiroshima\, Hiroshima\, Japan
+URL;VALUE=URI:https://ccta2027.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

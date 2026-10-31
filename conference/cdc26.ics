@@ -1,0 +1,315 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CDC 2026 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IEEE Conference on Decision and Contro
+ l 2026.
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/cdc26.ics
+BEGIN:VEVENT
+UID:cdc26-paper@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20260317
+DTEND;VALUE=DATE:20260318
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2026: Initial submissions (L-CSS + CDC) (23:59 UTC+12 (assumed)
+ )
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2026)\n\nInitial s
+ ubmissions (L-CSS + CDC): 17 Mar 2026\, 23:59 UTC+12 (assumed)\n\nConferen
+ ce: December 15-18\, 2026\nLocation: Honolulu\, USA\nVenue: Hilton Hawaiia
+ n Village\n\nAll dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 2026\
+ , 23:59 UTC+12 (assumed)\n  Invited session proposals: 24 Mar 2026\, 23:59
+  UTC+12 (assumed)\n  Initial submissions (CDC only): 31 Mar 2026\, 23:59 U
+ TC+12 (assumed)\n  Workshop proposals: 1 May 2026\, 23:59 UTC+12 (assumed)
+ \n  Tutorial session proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Dec
+ ision notification: 15 Jul 2026\, 23:59 UTC+12 (assumed)\n  Final submissi
+ on deadline: 18 Sept 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers 
+ states no timezone. This is counted as UTC+12\, the earliest it could plau
+ sibly mean\, so the countdown runs out before the real deadline rather tha
+ n after it.\n\n65th CDC. Workshops are held on 14 December. The earlier de
+ adline is for papers submitted to IEEE Control Systems Letters (L-CSS) wit
+ h the option of presentation at CDC.\n\nCall for papers: https://cdc2026.i
+ eeecss.org/\nDetails: https://powersystemdeadlines.org/conference/cdc26
+LOCATION:Honolulu\, USA
+URL;VALUE=URI:https://cdc2026.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc26-session_proposal@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260325
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2026: Invited session proposals (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2026)\n\nInvited s
+ ession proposals: 24 Mar 2026\, 23:59 UTC+12 (assumed)\n\nConference: Dece
+ mber 15-18\, 2026\nLocation: Honolulu\, USA\nVenue: Hilton Hawaiian Villag
+ e\n\nAll dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 2026\, 23:59 
+ UTC+12 (assumed)\n  Invited session proposals: 24 Mar 2026\, 23:59 UTC+12 
+ (assumed)\n  Initial submissions (CDC only): 31 Mar 2026\, 23:59 UTC+12 (a
+ ssumed)\n  Workshop proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Tuto
+ rial session proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Decision no
+ tification: 15 Jul 2026\, 23:59 UTC+12 (assumed)\n  Final submission deadl
+ ine: 18 Sept 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states n
+ o timezone. This is counted as UTC+12\, the earliest it could plausibly me
+ an\, so the countdown runs out before the real deadline rather than after 
+ it.\n\n65th CDC. Workshops are held on 14 December. The earlier deadline i
+ s for papers submitted to IEEE Control Systems Letters (L-CSS) with the op
+ tion of presentation at CDC.\n\nCall for papers: https://cdc2026.ieeecss.o
+ rg/\nDetails: https://powersystemdeadlines.org/conference/cdc26
+LOCATION:Honolulu\, USA
+URL;VALUE=URI:https://cdc2026.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc26-paper-2@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2026: Initial submissions (CDC only) (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2026)\n\nInitial s
+ ubmissions (CDC only): 31 Mar 2026\, 23:59 UTC+12 (assumed)\n\nConference:
+  December 15-18\, 2026\nLocation: Honolulu\, USA\nVenue: Hilton Hawaiian V
+ illage\n\nAll dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 2026\, 2
+ 3:59 UTC+12 (assumed)\n  Invited session proposals: 24 Mar 2026\, 23:59 UT
+ C+12 (assumed)\n  Initial submissions (CDC only): 31 Mar 2026\, 23:59 UTC+
+ 12 (assumed)\n  Workshop proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n 
+  Tutorial session proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Decisi
+ on notification: 15 Jul 2026\, 23:59 UTC+12 (assumed)\n  Final submission 
+ deadline: 18 Sept 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers sta
+ tes no timezone. This is counted as UTC+12\, the earliest it could plausib
+ ly mean\, so the countdown runs out before the real deadline rather than a
+ fter it.\n\n65th CDC. Workshops are held on 14 December. The earlier deadl
+ ine is for papers submitted to IEEE Control Systems Letters (L-CSS) with t
+ he option of presentation at CDC.\n\nCall for papers: https://cdc2026.ieee
+ css.org/\nDetails: https://powersystemdeadlines.org/conference/cdc26
+LOCATION:Honolulu\, USA
+URL;VALUE=URI:https://cdc2026.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc26-workshop_proposal@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2026: Workshop proposals (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2026)\n\nWorkshop 
+ proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n\nConference: December 15-
+ 18\, 2026\nLocation: Honolulu\, USA\nVenue: Hilton Hawaiian Village\n\nAll
+  dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 2026\, 23:59 UTC+12 (
+ assumed)\n  Invited session proposals: 24 Mar 2026\, 23:59 UTC+12 (assumed
+ )\n  Initial submissions (CDC only): 31 Mar 2026\, 23:59 UTC+12 (assumed)\
+ n  Workshop proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Tutorial ses
+ sion proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Decision notificati
+ on: 15 Jul 2026\, 23:59 UTC+12 (assumed)\n  Final submission deadline: 18 
+ Sept 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezo
+ ne. This is counted as UTC+12\, the earliest it could plausibly mean\, so 
+ the countdown runs out before the real deadline rather than after it.\n\n6
+ 5th CDC. Workshops are held on 14 December. The earlier deadline is for pa
+ pers submitted to IEEE Control Systems Letters (L-CSS) with the option of 
+ presentation at CDC.\n\nCall for papers: https://cdc2026.ieeecss.org/\nDet
+ ails: https://powersystemdeadlines.org/conference/cdc26
+LOCATION:Honolulu\, USA
+URL;VALUE=URI:https://cdc2026.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc26-tutorial_proposal@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2026: Tutorial session proposals (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2026)\n\nTutorial 
+ session proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n\nConference: Dece
+ mber 15-18\, 2026\nLocation: Honolulu\, USA\nVenue: Hilton Hawaiian Villag
+ e\n\nAll dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 2026\, 23:59 
+ UTC+12 (assumed)\n  Invited session proposals: 24 Mar 2026\, 23:59 UTC+12 
+ (assumed)\n  Initial submissions (CDC only): 31 Mar 2026\, 23:59 UTC+12 (a
+ ssumed)\n  Workshop proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Tuto
+ rial session proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Decision no
+ tification: 15 Jul 2026\, 23:59 UTC+12 (assumed)\n  Final submission deadl
+ ine: 18 Sept 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states n
+ o timezone. This is counted as UTC+12\, the earliest it could plausibly me
+ an\, so the countdown runs out before the real deadline rather than after 
+ it.\n\n65th CDC. Workshops are held on 14 December. The earlier deadline i
+ s for papers submitted to IEEE Control Systems Letters (L-CSS) with the op
+ tion of presentation at CDC.\n\nCall for papers: https://cdc2026.ieeecss.o
+ rg/\nDetails: https://powersystemdeadlines.org/conference/cdc26
+LOCATION:Honolulu\, USA
+URL;VALUE=URI:https://cdc2026.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc26-notification@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2026: Decision notification (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2026)\n\nDecision 
+ notification: 15 Jul 2026\, 23:59 UTC+12 (assumed)\n\nConference: December
+  15-18\, 2026\nLocation: Honolulu\, USA\nVenue: Hilton Hawaiian Village\n\
+ nAll dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 2026\, 23:59 UTC+
+ 12 (assumed)\n  Invited session proposals: 24 Mar 2026\, 23:59 UTC+12 (ass
+ umed)\n  Initial submissions (CDC only): 31 Mar 2026\, 23:59 UTC+12 (assum
+ ed)\n  Workshop proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Tutorial
+  session proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Decision notifi
+ cation: 15 Jul 2026\, 23:59 UTC+12 (assumed)\n  Final submission deadline:
+  18 Sept 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no ti
+ mezone. This is counted as UTC+12\, the earliest it could plausibly mean\,
+  so the countdown runs out before the real deadline rather than after it.\
+ n\n65th CDC. Workshops are held on 14 December. The earlier deadline is fo
+ r papers submitted to IEEE Control Systems Letters (L-CSS) with the option
+  of presentation at CDC.\n\nCall for papers: https://cdc2026.ieeecss.org/\
+ nDetails: https://powersystemdeadlines.org/conference/cdc26
+LOCATION:Honolulu\, USA
+URL;VALUE=URI:https://cdc2026.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2026: Final submission deadline (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2026)\n\nFinal sub
+ mission deadline: 18 Sept 2026\, 23:59 UTC+12 (assumed)\n\nConference: Dec
+ ember 15-18\, 2026\nLocation: Honolulu\, USA\nVenue: Hilton Hawaiian Villa
+ ge\n\nAll dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 2026\, 23:59
+  UTC+12 (assumed)\n  Invited session proposals: 24 Mar 2026\, 23:59 UTC+12
+  (assumed)\n  Initial submissions (CDC only): 31 Mar 2026\, 23:59 UTC+12 (
+ assumed)\n  Workshop proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Tut
+ orial session proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Decision n
+ otification: 15 Jul 2026\, 23:59 UTC+12 (assumed)\n  Final submission dead
+ line: 18 Sept 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers states 
+ no timezone. This is counted as UTC+12\, the earliest it could plausibly m
+ ean\, so the countdown runs out before the real deadline rather than after
+  it.\n\n65th CDC. Workshops are held on 14 December. The earlier deadline 
+ is for papers submitted to IEEE Control Systems Letters (L-CSS) with the o
+ ption of presentation at CDC.\n\nCall for papers: https://cdc2026.ieeecss.
+ org/\nDetails: https://powersystemdeadlines.org/conference/cdc26
+LOCATION:Honolulu\, USA
+URL;VALUE=URI:https://cdc2026.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc26-event@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261219
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2026
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2026)\n\nConferenc
+ e: December 15-18\, 2026\nLocation: Honolulu\, USA\nVenue: Hilton Hawaiian
+  Village\n\nAll dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 2026\,
+  23:59 UTC+12 (assumed)\n  Invited session proposals: 24 Mar 2026\, 23:59 
+ UTC+12 (assumed)\n  Initial submissions (CDC only): 31 Mar 2026\, 23:59 UT
+ C+12 (assumed)\n  Workshop proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\
+ n  Tutorial session proposals: 1 May 2026\, 23:59 UTC+12 (assumed)\n  Deci
+ sion notification: 15 Jul 2026\, 23:59 UTC+12 (assumed)\n  Final submissio
+ n deadline: 18 Sept 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers s
+ tates no timezone. This is counted as UTC+12\, the earliest it could plaus
+ ibly mean\, so the countdown runs out before the real deadline rather than
+  after it.\n\n65th CDC. Workshops are held on 14 December. The earlier dea
+ dline is for papers submitted to IEEE Control Systems Letters (L-CSS) with
+  the option of presentation at CDC.\n\nCall for papers: https://cdc2026.ie
+ eecss.org/\nDetails: https://powersystemdeadlines.org/conference/cdc26
+LOCATION:Hilton Hawaiian Village\, Honolulu\, USA
+URL;VALUE=URI:https://cdc2026.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

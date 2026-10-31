@@ -12,7 +12,7 @@ X-WR-CALDESC:Deadlines and dates for IEEE Power and Energy Conference at Il
 SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/peci26.ics
 BEGIN:VEVENT
 UID:peci26-event@powersystemdeadlines.org
-DTSTAMP:20261031T042245Z
+DTSTAMP:20261031T085026Z
 DTSTART;VALUE=DATE:20260416
 DTEND;VALUE=DATE:20260418
 TRANSP:TRANSPARENT

@@ -1,0 +1,237 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CDC 2027 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IEEE Conference on Decision and Contro
+ l 2027.
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/cdc27.ics
+BEGIN:VEVENT
+UID:cdc27-paper@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2027: Initial submissions (L-CSS + CDC) (23:59 UTC+12 (assumed)
+ )
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2027)\n\nInitial s
+ ubmissions (L-CSS + CDC): 17 Mar 2027\, 23:59 UTC+12 (assumed)\n\nConferen
+ ce: December 14-17\, 2027\nLocation: Lisbon\, Portugal\nVenue: Lisbon Cong
+ ress Centre\n\nAll dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 202
+ 7\, 23:59 UTC+12 (assumed)\n  Invited session proposals: 24 Mar 2027\, 23:
+ 59 UTC+12 (assumed)\n  Initial submissions (CDC only): 31 Mar 2027\, 23:59
+  UTC+12 (assumed)\n  Workshop proposals: 30 Apr 2027\, 23:59 UTC+12 (assum
+ ed)\n  Decision notification: 15 Jul 2027\, 23:59 UTC+12 (assumed)\n\nNot 
+ yet announced: Final submission\n\nThe call for papers states no timezone.
+  This is counted as UTC+12\, the earliest it could plausibly mean\, so the
+  countdown runs out before the real deadline rather than after it.\n\n66th
+  CDC. Workshops are held on 13 December. The submission site opens on 8 Ja
+ nuary 2027. The earlier deadline is for papers submitted to IEEE Control S
+ ystems Letters (L-CSS) with the option of presentation at CDC.\n\nCall for
+  papers: https://cdc2027.ieeecss.org/\nDetails: https://powersystemdeadlin
+ es.org/conference/cdc27
+LOCATION:Lisbon\, Portugal
+URL;VALUE=URI:https://cdc2027.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc27-session_proposal@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270324
+DTEND;VALUE=DATE:20270325
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2027: Invited session proposals (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2027)\n\nInvited s
+ ession proposals: 24 Mar 2027\, 23:59 UTC+12 (assumed)\n\nConference: Dece
+ mber 14-17\, 2027\nLocation: Lisbon\, Portugal\nVenue: Lisbon Congress Cen
+ tre\n\nAll dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 2027\, 23:5
+ 9 UTC+12 (assumed)\n  Invited session proposals: 24 Mar 2027\, 23:59 UTC+1
+ 2 (assumed)\n  Initial submissions (CDC only): 31 Mar 2027\, 23:59 UTC+12 
+ (assumed)\n  Workshop proposals: 30 Apr 2027\, 23:59 UTC+12 (assumed)\n  D
+ ecision notification: 15 Jul 2027\, 23:59 UTC+12 (assumed)\n\nNot yet anno
+ unced: Final submission\n\nThe call for papers states no timezone. This is
+  counted as UTC+12\, the earliest it could plausibly mean\, so the countdo
+ wn runs out before the real deadline rather than after it.\n\n66th CDC. Wo
+ rkshops are held on 13 December. The submission site opens on 8 January 20
+ 27. The earlier deadline is for papers submitted to IEEE Control Systems L
+ etters (L-CSS) with the option of presentation at CDC.\n\nCall for papers:
+  https://cdc2027.ieeecss.org/\nDetails: https://powersystemdeadlines.org/c
+ onference/cdc27
+LOCATION:Lisbon\, Portugal
+URL;VALUE=URI:https://cdc2027.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc27-paper-2@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2027: Initial submissions (CDC only) (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2027)\n\nInitial s
+ ubmissions (CDC only): 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nConference:
+  December 14-17\, 2027\nLocation: Lisbon\, Portugal\nVenue: Lisbon Congres
+ s Centre\n\nAll dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 2027\,
+  23:59 UTC+12 (assumed)\n  Invited session proposals: 24 Mar 2027\, 23:59 
+ UTC+12 (assumed)\n  Initial submissions (CDC only): 31 Mar 2027\, 23:59 UT
+ C+12 (assumed)\n  Workshop proposals: 30 Apr 2027\, 23:59 UTC+12 (assumed)
+ \n  Decision notification: 15 Jul 2027\, 23:59 UTC+12 (assumed)\n\nNot yet
+  announced: Final submission\n\nThe call for papers states no timezone. Th
+ is is counted as UTC+12\, the earliest it could plausibly mean\, so the co
+ untdown runs out before the real deadline rather than after it.\n\n66th CD
+ C. Workshops are held on 13 December. The submission site opens on 8 Janua
+ ry 2027. The earlier deadline is for papers submitted to IEEE Control Syst
+ ems Letters (L-CSS) with the option of presentation at CDC.\n\nCall for pa
+ pers: https://cdc2027.ieeecss.org/\nDetails: https://powersystemdeadlines.
+ org/conference/cdc27
+LOCATION:Lisbon\, Portugal
+URL;VALUE=URI:https://cdc2027.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc27-workshop_proposal@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2027: Workshop proposals (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2027)\n\nWorkshop 
+ proposals: 30 Apr 2027\, 23:59 UTC+12 (assumed)\n\nConference: December 14
+ -17\, 2027\nLocation: Lisbon\, Portugal\nVenue: Lisbon Congress Centre\n\n
+ All dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 2027\, 23:59 UTC+1
+ 2 (assumed)\n  Invited session proposals: 24 Mar 2027\, 23:59 UTC+12 (assu
+ med)\n  Initial submissions (CDC only): 31 Mar 2027\, 23:59 UTC+12 (assume
+ d)\n  Workshop proposals: 30 Apr 2027\, 23:59 UTC+12 (assumed)\n  Decision
+  notification: 15 Jul 2027\, 23:59 UTC+12 (assumed)\n\nNot yet announced: 
+ Final submission\n\nThe call for papers states no timezone. This is counte
+ d as UTC+12\, the earliest it could plausibly mean\, so the countdown runs
+  out before the real deadline rather than after it.\n\n66th CDC. Workshops
+  are held on 13 December. The submission site opens on 8 January 2027. The
+  earlier deadline is for papers submitted to IEEE Control Systems Letters 
+ (L-CSS) with the option of presentation at CDC.\n\nCall for papers: https:
+ //cdc2027.ieeecss.org/\nDetails: https://powersystemdeadlines.org/conferen
+ ce/cdc27
+LOCATION:Lisbon\, Portugal
+URL;VALUE=URI:https://cdc2027.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc27-notification@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2027: Decision notification (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2027)\n\nDecision 
+ notification: 15 Jul 2027\, 23:59 UTC+12 (assumed)\n\nConference: December
+  14-17\, 2027\nLocation: Lisbon\, Portugal\nVenue: Lisbon Congress Centre\
+ n\nAll dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 2027\, 23:59 UT
+ C+12 (assumed)\n  Invited session proposals: 24 Mar 2027\, 23:59 UTC+12 (a
+ ssumed)\n  Initial submissions (CDC only): 31 Mar 2027\, 23:59 UTC+12 (ass
+ umed)\n  Workshop proposals: 30 Apr 2027\, 23:59 UTC+12 (assumed)\n  Decis
+ ion notification: 15 Jul 2027\, 23:59 UTC+12 (assumed)\n\nNot yet announce
+ d: Final submission\n\nThe call for papers states no timezone. This is cou
+ nted as UTC+12\, the earliest it could plausibly mean\, so the countdown r
+ uns out before the real deadline rather than after it.\n\n66th CDC. Worksh
+ ops are held on 13 December. The submission site opens on 8 January 2027. 
+ The earlier deadline is for papers submitted to IEEE Control Systems Lette
+ rs (L-CSS) with the option of presentation at CDC.\n\nCall for papers: htt
+ ps://cdc2027.ieeecss.org/\nDetails: https://powersystemdeadlines.org/confe
+ rence/cdc27
+LOCATION:Lisbon\, Portugal
+URL;VALUE=URI:https://cdc2027.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc27-event@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20271214
+DTEND;VALUE=DATE:20271218
+TRANSP:TRANSPARENT
+SUMMARY:CDC 2027
+DESCRIPTION:IEEE Conference on Decision and Control (CDC 2027)\n\nConferenc
+ e: December 14-17\, 2027\nLocation: Lisbon\, Portugal\nVenue: Lisbon Congr
+ ess Centre\n\nAll dates:\n  Initial submissions (L-CSS + CDC): 17 Mar 2027
+ \, 23:59 UTC+12 (assumed)\n  Invited session proposals: 24 Mar 2027\, 23:5
+ 9 UTC+12 (assumed)\n  Initial submissions (CDC only): 31 Mar 2027\, 23:59 
+ UTC+12 (assumed)\n  Workshop proposals: 30 Apr 2027\, 23:59 UTC+12 (assume
+ d)\n  Decision notification: 15 Jul 2027\, 23:59 UTC+12 (assumed)\n\nNot y
+ et announced: Final submission\n\nThe call for papers states no timezone. 
+ This is counted as UTC+12\, the earliest it could plausibly mean\, so the 
+ countdown runs out before the real deadline rather than after it.\n\n66th 
+ CDC. Workshops are held on 13 December. The submission site opens on 8 Jan
+ uary 2027. The earlier deadline is for papers submitted to IEEE Control Sy
+ stems Letters (L-CSS) with the option of presentation at CDC.\n\nCall for 
+ papers: https://cdc2027.ieeecss.org/\nDetails: https://powersystemdeadline
+ s.org/conference/cdc27
+LOCATION:Lisbon Congress Centre\, Lisbon\, Portugal
+URL;VALUE=URI:https://cdc2027.ieeecss.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

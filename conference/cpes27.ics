@@ -1,0 +1,269 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IFAC CPES 2027 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IFAC Symposium on Control of Power and
+  Energy Systems 2027.
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/cpes27.ics
+BEGIN:VEVENT
+UID:cpes27-session_proposal@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+TRANSP:TRANSPARENT
+SUMMARY:IFAC CPES 2027: Special session proposals (23:59 UTC+12 (assumed))
+DESCRIPTION:IFAC Symposium on Control of Power and Energy Systems (IFAC CPE
+ S 2027)\n\nSpecial session proposals: 15 Dec 2026\, 23:59 UTC+12 (assumed)
+ \n\nConference: June 10-12\, 2027\nLocation: Cluj-Napoca\, Romania\nVenue:
+  DoubleTree by Hilton Hotel Cluj - City Plaza\n\nAll dates:\n  Special ses
+ sion proposals: 15 Dec 2026\, 23:59 UTC+12 (assumed)\n  Abstract registrat
+ ion: 26 Jan 2027\, 23:59 UTC+12 (assumed)\n  Draft paper submission: 2 Feb
+  2027\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 6 Apr 2027\,
+  23:59 UTC+12 (assumed)\n  Camera-ready submission: 20 Apr 2027\, 23:59 UT
+ C+12 (assumed)\n  Early registration: 27 Apr 2027\, 23:59 UTC+12 (assumed)
+ \n\nThe call for papers states no timezone. This is counted as UTC+12\, th
+ e earliest it could plausibly mean\, so the countdown runs out before the 
+ real deadline rather than after it.\n\n13th edition. Papers are 4-6 pages 
+ including references\, submitted through IFAC PaperCept.\n\nCall for paper
+ s: https://cpes2027.org/\nDetails: https://powersystemdeadlines.org/confer
+ ence/cpes27
+LOCATION:Cluj-Napoca\, Romania
+URL;VALUE=URI:https://cpes2027.org/
+CATEGORIES:Control,Power Systems,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cpes27-abstract@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+TRANSP:TRANSPARENT
+SUMMARY:IFAC CPES 2027: Abstract registration (23:59 UTC+12 (assumed))
+DESCRIPTION:IFAC Symposium on Control of Power and Energy Systems (IFAC CPE
+ S 2027)\n\nAbstract registration: 26 Jan 2027\, 23:59 UTC+12 (assumed)\n\n
+ Conference: June 10-12\, 2027\nLocation: Cluj-Napoca\, Romania\nVenue: Dou
+ bleTree by Hilton Hotel Cluj - City Plaza\n\nAll dates:\n  Special session
+  proposals: 15 Dec 2026\, 23:59 UTC+12 (assumed)\n  Abstract registration:
+  26 Jan 2027\, 23:59 UTC+12 (assumed)\n  Draft paper submission: 2 Feb 202
+ 7\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 6 Apr 2027\, 23:
+ 59 UTC+12 (assumed)\n  Camera-ready submission: 20 Apr 2027\, 23:59 UTC+12
+  (assumed)\n  Early registration: 27 Apr 2027\, 23:59 UTC+12 (assumed)\n\n
+ The call for papers states no timezone. This is counted as UTC+12\, the ea
+ rliest it could plausibly mean\, so the countdown runs out before the real
+  deadline rather than after it.\n\n13th edition. Papers are 4-6 pages incl
+ uding references\, submitted through IFAC PaperCept.\n\nCall for papers: h
+ ttps://cpes2027.org/\nDetails: https://powersystemdeadlines.org/conference
+ /cpes27
+LOCATION:Cluj-Napoca\, Romania
+URL;VALUE=URI:https://cpes2027.org/
+CATEGORIES:Control,Power Systems,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cpes27-paper@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+TRANSP:TRANSPARENT
+SUMMARY:IFAC CPES 2027: Draft paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IFAC Symposium on Control of Power and Energy Systems (IFAC CPE
+ S 2027)\n\nDraft paper submission: 2 Feb 2027\, 23:59 UTC+12 (assumed)\n\n
+ Conference: June 10-12\, 2027\nLocation: Cluj-Napoca\, Romania\nVenue: Dou
+ bleTree by Hilton Hotel Cluj - City Plaza\n\nAll dates:\n  Special session
+  proposals: 15 Dec 2026\, 23:59 UTC+12 (assumed)\n  Abstract registration:
+  26 Jan 2027\, 23:59 UTC+12 (assumed)\n  Draft paper submission: 2 Feb 202
+ 7\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 6 Apr 2027\, 23:
+ 59 UTC+12 (assumed)\n  Camera-ready submission: 20 Apr 2027\, 23:59 UTC+12
+  (assumed)\n  Early registration: 27 Apr 2027\, 23:59 UTC+12 (assumed)\n\n
+ The call for papers states no timezone. This is counted as UTC+12\, the ea
+ rliest it could plausibly mean\, so the countdown runs out before the real
+  deadline rather than after it.\n\n13th edition. Papers are 4-6 pages incl
+ uding references\, submitted through IFAC PaperCept.\n\nCall for papers: h
+ ttps://cpes2027.org/\nDetails: https://powersystemdeadlines.org/conference
+ /cpes27
+LOCATION:Cluj-Napoca\, Romania
+URL;VALUE=URI:https://cpes2027.org/
+CATEGORIES:Control,Power Systems,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cpes27-notification@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+TRANSP:TRANSPARENT
+SUMMARY:IFAC CPES 2027: Notification of acceptance (23:59 UTC+12 (assumed))
+DESCRIPTION:IFAC Symposium on Control of Power and Energy Systems (IFAC CPE
+ S 2027)\n\nNotification of acceptance: 6 Apr 2027\, 23:59 UTC+12 (assumed)
+ \n\nConference: June 10-12\, 2027\nLocation: Cluj-Napoca\, Romania\nVenue:
+  DoubleTree by Hilton Hotel Cluj - City Plaza\n\nAll dates:\n  Special ses
+ sion proposals: 15 Dec 2026\, 23:59 UTC+12 (assumed)\n  Abstract registrat
+ ion: 26 Jan 2027\, 23:59 UTC+12 (assumed)\n  Draft paper submission: 2 Feb
+  2027\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 6 Apr 2027\,
+  23:59 UTC+12 (assumed)\n  Camera-ready submission: 20 Apr 2027\, 23:59 UT
+ C+12 (assumed)\n  Early registration: 27 Apr 2027\, 23:59 UTC+12 (assumed)
+ \n\nThe call for papers states no timezone. This is counted as UTC+12\, th
+ e earliest it could plausibly mean\, so the countdown runs out before the 
+ real deadline rather than after it.\n\n13th edition. Papers are 4-6 pages 
+ including references\, submitted through IFAC PaperCept.\n\nCall for paper
+ s: https://cpes2027.org/\nDetails: https://powersystemdeadlines.org/confer
+ ence/cpes27
+LOCATION:Cluj-Napoca\, Romania
+URL;VALUE=URI:https://cpes2027.org/
+CATEGORIES:Control,Power Systems,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cpes27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+TRANSP:TRANSPARENT
+SUMMARY:IFAC CPES 2027: Camera-ready submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IFAC Symposium on Control of Power and Energy Systems (IFAC CPE
+ S 2027)\n\nCamera-ready submission: 20 Apr 2027\, 23:59 UTC+12 (assumed)\n
+ \nConference: June 10-12\, 2027\nLocation: Cluj-Napoca\, Romania\nVenue: D
+ oubleTree by Hilton Hotel Cluj - City Plaza\n\nAll dates:\n  Special sessi
+ on proposals: 15 Dec 2026\, 23:59 UTC+12 (assumed)\n  Abstract registratio
+ n: 26 Jan 2027\, 23:59 UTC+12 (assumed)\n  Draft paper submission: 2 Feb 2
+ 027\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 6 Apr 2027\, 2
+ 3:59 UTC+12 (assumed)\n  Camera-ready submission: 20 Apr 2027\, 23:59 UTC+
+ 12 (assumed)\n  Early registration: 27 Apr 2027\, 23:59 UTC+12 (assumed)\n
+ \nThe call for papers states no timezone. This is counted as UTC+12\, the 
+ earliest it could plausibly mean\, so the countdown runs out before the re
+ al deadline rather than after it.\n\n13th edition. Papers are 4-6 pages in
+ cluding references\, submitted through IFAC PaperCept.\n\nCall for papers:
+  https://cpes2027.org/\nDetails: https://powersystemdeadlines.org/conferen
+ ce/cpes27
+LOCATION:Cluj-Napoca\, Romania
+URL;VALUE=URI:https://cpes2027.org/
+CATEGORIES:Control,Power Systems,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cpes27-early_registration@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+TRANSP:TRANSPARENT
+SUMMARY:IFAC CPES 2027: Early registration (23:59 UTC+12 (assumed))
+DESCRIPTION:IFAC Symposium on Control of Power and Energy Systems (IFAC CPE
+ S 2027)\n\nEarly registration: 27 Apr 2027\, 23:59 UTC+12 (assumed)\n\nCon
+ ference: June 10-12\, 2027\nLocation: Cluj-Napoca\, Romania\nVenue: Double
+ Tree by Hilton Hotel Cluj - City Plaza\n\nAll dates:\n  Special session pr
+ oposals: 15 Dec 2026\, 23:59 UTC+12 (assumed)\n  Abstract registration: 26
+  Jan 2027\, 23:59 UTC+12 (assumed)\n  Draft paper submission: 2 Feb 2027\,
+  23:59 UTC+12 (assumed)\n  Notification of acceptance: 6 Apr 2027\, 23:59 
+ UTC+12 (assumed)\n  Camera-ready submission: 20 Apr 2027\, 23:59 UTC+12 (a
+ ssumed)\n  Early registration: 27 Apr 2027\, 23:59 UTC+12 (assumed)\n\nThe
+  call for papers states no timezone. This is counted as UTC+12\, the earli
+ est it could plausibly mean\, so the countdown runs out before the real de
+ adline rather than after it.\n\n13th edition. Papers are 4-6 pages includi
+ ng references\, submitted through IFAC PaperCept.\n\nCall for papers: http
+ s://cpes2027.org/\nDetails: https://powersystemdeadlines.org/conference/cp
+ es27
+LOCATION:Cluj-Napoca\, Romania
+URL;VALUE=URI:https://cpes2027.org/
+CATEGORIES:Control,Power Systems,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cpes27-event@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270613
+TRANSP:TRANSPARENT
+SUMMARY:IFAC CPES 2027
+DESCRIPTION:IFAC Symposium on Control of Power and Energy Systems (IFAC CPE
+ S 2027)\n\nConference: June 10-12\, 2027\nLocation: Cluj-Napoca\, Romania\
+ nVenue: DoubleTree by Hilton Hotel Cluj - City Plaza\n\nAll dates:\n  Spec
+ ial session proposals: 15 Dec 2026\, 23:59 UTC+12 (assumed)\n  Abstract re
+ gistration: 26 Jan 2027\, 23:59 UTC+12 (assumed)\n  Draft paper submission
+ : 2 Feb 2027\, 23:59 UTC+12 (assumed)\n  Notification of acceptance: 6 Apr
+  2027\, 23:59 UTC+12 (assumed)\n  Camera-ready submission: 20 Apr 2027\, 2
+ 3:59 UTC+12 (assumed)\n  Early registration: 27 Apr 2027\, 23:59 UTC+12 (a
+ ssumed)\n\nThe call for papers states no timezone. This is counted as UTC+
+ 12\, the earliest it could plausibly mean\, so the countdown runs out befo
+ re the real deadline rather than after it.\n\n13th edition. Papers are 4-6
+  pages including references\, submitted through IFAC PaperCept.\n\nCall fo
+ r papers: https://cpes2027.org/\nDetails: https://powersystemdeadlines.org
+ /conference/cpes27
+LOCATION:DoubleTree by Hilton Hotel Cluj - City Plaza\, Cluj-Napoca\, Roman
+ ia
+URL;VALUE=URI:https://cpes2027.org/
+CATEGORIES:Control,Power Systems,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

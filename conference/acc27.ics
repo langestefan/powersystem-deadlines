@@ -1,0 +1,414 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ACC 2027 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for American Control Conference 2027.
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/acc27.ics
+BEGIN:VEVENT
+UID:acc27-paper@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2027: Joint ACC + L-CSS manuscript submission (23:59 UTC+12 (as
+ sumed))
+DESCRIPTION:American Control Conference (ACC 2027)\n\nJoint ACC + L-CSS man
+ uscript submission: 11 Sept 2026\, 23:59 UTC+12 (assumed)\n\nConference: J
+ uly 7-9\, 2027\nLocation: Philadelphia\, USA\nVenue: Philadelphia Marriott
+  Downtown\n\nAll dates:\n  Joint ACC + L-CSS manuscript submission: 11 Sep
+ t 2026\, 23:59 UTC+12 (assumed)\n  Invited session proposals: 30 Sept 2026
+ \, 23:59 UTC+12 (assumed)\n  ACC manuscript submission: 2 Oct 2026\, 23:59
+  UTC+12 (assumed)\n  Special session proposals: 16 Oct 2026\, 23:59 UTC+12
+  (assumed)\n  Workshop proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  
+ Tutorial session proposals: 23 Oct 2026\, 23:59 UTC+12 (assumed)\n  Notifi
+ cation of acceptance/rejection: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Tu
+ torial papers: 29 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript su
+ bmission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers stat
+ es no timezone. This is counted as UTC+12\, the earliest it could plausibl
+ y mean\, so the countdown runs out before the real deadline rather than af
+ ter it.\n\nPre-conference workshops on 6 July. The ACC manuscript deadline
+  was extended from 25 September to a firm 2 October 2026\, and invited ses
+ sion proposals from 23 to 30 September 2026.\n\nCall for papers: https://a
+ cc2027.a2c2.org/\nDetails: https://powersystemdeadlines.org/conference/acc
+ 27
+LOCATION:Philadelphia\, USA
+URL;VALUE=URI:https://acc2027.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc27-session_proposal@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2027: Invited session proposals (23:59 UTC+12 (assumed))
+DESCRIPTION:American Control Conference (ACC 2027)\n\nInvited session propo
+ sals: 30 Sept 2026\, 23:59 UTC+12 (assumed)\n\nConference: July 7-9\, 2027
+ \nLocation: Philadelphia\, USA\nVenue: Philadelphia Marriott Downtown\n\nA
+ ll dates:\n  Joint ACC + L-CSS manuscript submission: 11 Sept 2026\, 23:59
+  UTC+12 (assumed)\n  Invited session proposals: 30 Sept 2026\, 23:59 UTC+1
+ 2 (assumed)\n  ACC manuscript submission: 2 Oct 2026\, 23:59 UTC+12 (assum
+ ed)\n  Special session proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  
+ Workshop proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  Tutorial sessi
+ on proposals: 23 Oct 2026\, 23:59 UTC+12 (assumed)\n  Notification of acce
+ ptance/rejection: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Tutorial papers:
+  29 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 12 M
+ ar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone
+ . This is counted as UTC+12\, the earliest it could plausibly mean\, so th
+ e countdown runs out before the real deadline rather than after it.\n\nPre
+ -conference workshops on 6 July. The ACC manuscript deadline was extended 
+ from 25 September to a firm 2 October 2026\, and invited session proposals
+  from 23 to 30 September 2026.\n\nCall for papers: https://acc2027.a2c2.or
+ g/\nDetails: https://powersystemdeadlines.org/conference/acc27
+LOCATION:Philadelphia\, USA
+URL;VALUE=URI:https://acc2027.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc27-paper-2@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2027: ACC manuscript submission (23:59 UTC+12 (assumed))
+DESCRIPTION:American Control Conference (ACC 2027)\n\nACC manuscript submis
+ sion: 2 Oct 2026\, 23:59 UTC+12 (assumed)\n\nConference: July 7-9\, 2027\n
+ Location: Philadelphia\, USA\nVenue: Philadelphia Marriott Downtown\n\nAll
+  dates:\n  Joint ACC + L-CSS manuscript submission: 11 Sept 2026\, 23:59 U
+ TC+12 (assumed)\n  Invited session proposals: 30 Sept 2026\, 23:59 UTC+12 
+ (assumed)\n  ACC manuscript submission: 2 Oct 2026\, 23:59 UTC+12 (assumed
+ )\n  Special session proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  Wo
+ rkshop proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  Tutorial session
+  proposals: 23 Oct 2026\, 23:59 UTC+12 (assumed)\n  Notification of accept
+ ance/rejection: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Tutorial papers: 2
+ 9 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 12 Mar
+  2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. 
+ This is counted as UTC+12\, the earliest it could plausibly mean\, so the 
+ countdown runs out before the real deadline rather than after it.\n\nPre-c
+ onference workshops on 6 July. The ACC manuscript deadline was extended fr
+ om 25 September to a firm 2 October 2026\, and invited session proposals f
+ rom 23 to 30 September 2026.\n\nCall for papers: https://acc2027.a2c2.org/
+ \nDetails: https://powersystemdeadlines.org/conference/acc27
+LOCATION:Philadelphia\, USA
+URL;VALUE=URI:https://acc2027.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc27-session_proposal-2@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2027: Special session proposals (23:59 UTC+12 (assumed))
+DESCRIPTION:American Control Conference (ACC 2027)\n\nSpecial session propo
+ sals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n\nConference: July 7-9\, 2027\
+ nLocation: Philadelphia\, USA\nVenue: Philadelphia Marriott Downtown\n\nAl
+ l dates:\n  Joint ACC + L-CSS manuscript submission: 11 Sept 2026\, 23:59 
+ UTC+12 (assumed)\n  Invited session proposals: 30 Sept 2026\, 23:59 UTC+12
+  (assumed)\n  ACC manuscript submission: 2 Oct 2026\, 23:59 UTC+12 (assume
+ d)\n  Special session proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  W
+ orkshop proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  Tutorial sessio
+ n proposals: 23 Oct 2026\, 23:59 UTC+12 (assumed)\n  Notification of accep
+ tance/rejection: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Tutorial papers: 
+ 29 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 12 Ma
+ r 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone.
+  This is counted as UTC+12\, the earliest it could plausibly mean\, so the
+  countdown runs out before the real deadline rather than after it.\n\nPre-
+ conference workshops on 6 July. The ACC manuscript deadline was extended f
+ rom 25 September to a firm 2 October 2026\, and invited session proposals 
+ from 23 to 30 September 2026.\n\nCall for papers: https://acc2027.a2c2.org
+ /\nDetails: https://powersystemdeadlines.org/conference/acc27
+LOCATION:Philadelphia\, USA
+URL;VALUE=URI:https://acc2027.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc27-workshop_proposal@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2027: Workshop proposals (23:59 UTC+12 (assumed))
+DESCRIPTION:American Control Conference (ACC 2027)\n\nWorkshop proposals: 1
+ 6 Oct 2026\, 23:59 UTC+12 (assumed)\n\nConference: July 7-9\, 2027\nLocati
+ on: Philadelphia\, USA\nVenue: Philadelphia Marriott Downtown\n\nAll dates
+ :\n  Joint ACC + L-CSS manuscript submission: 11 Sept 2026\, 23:59 UTC+12 
+ (assumed)\n  Invited session proposals: 30 Sept 2026\, 23:59 UTC+12 (assum
+ ed)\n  ACC manuscript submission: 2 Oct 2026\, 23:59 UTC+12 (assumed)\n  S
+ pecial session proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  Workshop
+  proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  Tutorial session propo
+ sals: 23 Oct 2026\, 23:59 UTC+12 (assumed)\n  Notification of acceptance/r
+ ejection: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Tutorial papers: 29 Jan 
+ 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 12 Mar 2027\
+ , 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This i
+ s counted as UTC+12\, the earliest it could plausibly mean\, so the countd
+ own runs out before the real deadline rather than after it.\n\nPre-confere
+ nce workshops on 6 July. The ACC manuscript deadline was extended from 25 
+ September to a firm 2 October 2026\, and invited session proposals from 23
+  to 30 September 2026.\n\nCall for papers: https://acc2027.a2c2.org/\nDeta
+ ils: https://powersystemdeadlines.org/conference/acc27
+LOCATION:Philadelphia\, USA
+URL;VALUE=URI:https://acc2027.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc27-tutorial_proposal@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2027: Tutorial session proposals (23:59 UTC+12 (assumed))
+DESCRIPTION:American Control Conference (ACC 2027)\n\nTutorial session prop
+ osals: 23 Oct 2026\, 23:59 UTC+12 (assumed)\n\nConference: July 7-9\, 2027
+ \nLocation: Philadelphia\, USA\nVenue: Philadelphia Marriott Downtown\n\nA
+ ll dates:\n  Joint ACC + L-CSS manuscript submission: 11 Sept 2026\, 23:59
+  UTC+12 (assumed)\n  Invited session proposals: 30 Sept 2026\, 23:59 UTC+1
+ 2 (assumed)\n  ACC manuscript submission: 2 Oct 2026\, 23:59 UTC+12 (assum
+ ed)\n  Special session proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  
+ Workshop proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  Tutorial sessi
+ on proposals: 23 Oct 2026\, 23:59 UTC+12 (assumed)\n  Notification of acce
+ ptance/rejection: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Tutorial papers:
+  29 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 12 M
+ ar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone
+ . This is counted as UTC+12\, the earliest it could plausibly mean\, so th
+ e countdown runs out before the real deadline rather than after it.\n\nPre
+ -conference workshops on 6 July. The ACC manuscript deadline was extended 
+ from 25 September to a firm 2 October 2026\, and invited session proposals
+  from 23 to 30 September 2026.\n\nCall for papers: https://acc2027.a2c2.or
+ g/\nDetails: https://powersystemdeadlines.org/conference/acc27
+LOCATION:Philadelphia\, USA
+URL;VALUE=URI:https://acc2027.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc27-notification@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2027: Notification of acceptance/rejection (23:59 UTC+12 (assum
+ ed))
+DESCRIPTION:American Control Conference (ACC 2027)\n\nNotification of accep
+ tance/rejection: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n\nConference: July 
+ 7-9\, 2027\nLocation: Philadelphia\, USA\nVenue: Philadelphia Marriott Dow
+ ntown\n\nAll dates:\n  Joint ACC + L-CSS manuscript submission: 11 Sept 20
+ 26\, 23:59 UTC+12 (assumed)\n  Invited session proposals: 30 Sept 2026\, 2
+ 3:59 UTC+12 (assumed)\n  ACC manuscript submission: 2 Oct 2026\, 23:59 UTC
+ +12 (assumed)\n  Special session proposals: 16 Oct 2026\, 23:59 UTC+12 (as
+ sumed)\n  Workshop proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  Tuto
+ rial session proposals: 23 Oct 2026\, 23:59 UTC+12 (assumed)\n  Notificati
+ on of acceptance/rejection: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Tutori
+ al papers: 29 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submis
+ sion: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states n
+ o timezone. This is counted as UTC+12\, the earliest it could plausibly me
+ an\, so the countdown runs out before the real deadline rather than after 
+ it.\n\nPre-conference workshops on 6 July. The ACC manuscript deadline was
+  extended from 25 September to a firm 2 October 2026\, and invited session
+  proposals from 23 to 30 September 2026.\n\nCall for papers: https://acc20
+ 27.a2c2.org/\nDetails: https://powersystemdeadlines.org/conference/acc27
+LOCATION:Philadelphia\, USA
+URL;VALUE=URI:https://acc2027.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2027: Tutorial papers (23:59 UTC+12 (assumed))
+DESCRIPTION:American Control Conference (ACC 2027)\n\nTutorial papers: 29 J
+ an 2027\, 23:59 UTC+12 (assumed)\n\nConference: July 7-9\, 2027\nLocation:
+  Philadelphia\, USA\nVenue: Philadelphia Marriott Downtown\n\nAll dates:\n
+   Joint ACC + L-CSS manuscript submission: 11 Sept 2026\, 23:59 UTC+12 (as
+ sumed)\n  Invited session proposals: 30 Sept 2026\, 23:59 UTC+12 (assumed)
+ \n  ACC manuscript submission: 2 Oct 2026\, 23:59 UTC+12 (assumed)\n  Spec
+ ial session proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  Workshop pr
+ oposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  Tutorial session proposal
+ s: 23 Oct 2026\, 23:59 UTC+12 (assumed)\n  Notification of acceptance/reje
+ ction: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Tutorial papers: 29 Jan 202
+ 7\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 12 Mar 2027\, 2
+ 3:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is c
+ ounted as UTC+12\, the earliest it could plausibly mean\, so the countdown
+  runs out before the real deadline rather than after it.\n\nPre-conference
+  workshops on 6 July. The ACC manuscript deadline was extended from 25 Sep
+ tember to a firm 2 October 2026\, and invited session proposals from 23 to
+  30 September 2026.\n\nCall for papers: https://acc2027.a2c2.org/\nDetails
+ : https://powersystemdeadlines.org/conference/acc27
+LOCATION:Philadelphia\, USA
+URL;VALUE=URI:https://acc2027.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc27-camera_ready-2@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2027: Final manuscript submission (23:59 UTC+12 (assumed))
+DESCRIPTION:American Control Conference (ACC 2027)\n\nFinal manuscript subm
+ ission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n\nConference: July 7-9\, 202
+ 7\nLocation: Philadelphia\, USA\nVenue: Philadelphia Marriott Downtown\n\n
+ All dates:\n  Joint ACC + L-CSS manuscript submission: 11 Sept 2026\, 23:5
+ 9 UTC+12 (assumed)\n  Invited session proposals: 30 Sept 2026\, 23:59 UTC+
+ 12 (assumed)\n  ACC manuscript submission: 2 Oct 2026\, 23:59 UTC+12 (assu
+ med)\n  Special session proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n 
+  Workshop proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  Tutorial sess
+ ion proposals: 23 Oct 2026\, 23:59 UTC+12 (assumed)\n  Notification of acc
+ eptance/rejection: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Tutorial papers
+ : 29 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 12 
+ Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezon
+ e. This is counted as UTC+12\, the earliest it could plausibly mean\, so t
+ he countdown runs out before the real deadline rather than after it.\n\nPr
+ e-conference workshops on 6 July. The ACC manuscript deadline was extended
+  from 25 September to a firm 2 October 2026\, and invited session proposal
+ s from 23 to 30 September 2026.\n\nCall for papers: https://acc2027.a2c2.o
+ rg/\nDetails: https://powersystemdeadlines.org/conference/acc27
+LOCATION:Philadelphia\, USA
+URL;VALUE=URI:https://acc2027.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc27-event@powersystemdeadlines.org
+DTSTAMP:20261031T085026Z
+DTSTART;VALUE=DATE:20270707
+DTEND;VALUE=DATE:20270710
+TRANSP:TRANSPARENT
+SUMMARY:ACC 2027
+DESCRIPTION:American Control Conference (ACC 2027)\n\nConference: July 7-9\
+ , 2027\nLocation: Philadelphia\, USA\nVenue: Philadelphia Marriott Downtow
+ n\n\nAll dates:\n  Joint ACC + L-CSS manuscript submission: 11 Sept 2026\,
+  23:59 UTC+12 (assumed)\n  Invited session proposals: 30 Sept 2026\, 23:59
+  UTC+12 (assumed)\n  ACC manuscript submission: 2 Oct 2026\, 23:59 UTC+12 
+ (assumed)\n  Special session proposals: 16 Oct 2026\, 23:59 UTC+12 (assume
+ d)\n  Workshop proposals: 16 Oct 2026\, 23:59 UTC+12 (assumed)\n  Tutorial
+  session proposals: 23 Oct 2026\, 23:59 UTC+12 (assumed)\n  Notification o
+ f acceptance/rejection: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Tutorial p
+ apers: 29 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submission
+ : 12 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no ti
+ mezone. This is counted as UTC+12\, the earliest it could plausibly mean\,
+  so the countdown runs out before the real deadline rather than after it.\
+ n\nPre-conference workshops on 6 July. The ACC manuscript deadline was ext
+ ended from 25 September to a firm 2 October 2026\, and invited session pro
+ posals from 23 to 30 September 2026.\n\nCall for papers: https://acc2027.a
+ 2c2.org/\nDetails: https://powersystemdeadlines.org/conference/acc27
+LOCATION:Philadelphia Marriott Downtown\, Philadelphia\, USA
+URL;VALUE=URI:https://acc2027.a2c2.org/
+CATEGORIES:Control
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR
