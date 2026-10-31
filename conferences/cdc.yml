@@ -1,0 +1,90 @@
+name: CDC
+full_name: IEEE Conference on Decision and Control
+link: https://ieeecss.org/conferences/conference-decision-and-control
+society:
+  - IEEE CSS
+frequency: annual
+tags:
+  - control
+description: >-
+  The flagship conference of the IEEE Control Systems Society, covering control
+  theory and its applications. Power and energy systems are a regular topic,
+  from grid stability and frequency control to distributed energy resources.
+
+editions:
+  - year: 2026
+    id: cdc26
+    link: https://cdc2026.ieeecss.org/
+    city: Honolulu
+    country: USA
+    venue: Hilton Hawaiian Village
+    date: December 15-18, 2026
+    verified: 2026-10-31
+    start: 2026-12-15
+    end: 2026-12-18
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    deadlines:
+      - type: paper
+        label: Initial submissions (L-CSS + CDC)
+        date: '2026-03-17 23:59:59'
+      - type: session_proposal
+        label: Invited session proposals
+        date: '2026-03-24 23:59:59'
+      - type: paper
+        label: Initial submissions (CDC only)
+        date: '2026-03-31 23:59:59'
+      - type: workshop_proposal
+        label: Workshop proposals
+        date: '2026-05-01 23:59:59'
+      - type: tutorial_proposal
+        label: Tutorial session proposals
+        date: '2026-05-01 23:59:59'
+      - type: notification
+        label: Decision notification
+        date: '2026-07-15 23:59:59'
+      - type: camera_ready
+        label: Final submission deadline
+        date: '2026-09-18 23:59:59'
+    note: >-
+      65th CDC. Workshops are held on 14 December. The earlier deadline is for
+      papers submitted to IEEE Control Systems Letters (L-CSS) with the option
+      of presentation at CDC.
+
+  - year: 2027
+    id: cdc27
+    link: https://cdc2027.ieeecss.org/
+    city: Lisbon
+    country: Portugal
+    venue: Lisbon Congress Centre
+    date: December 14-17, 2027
+    verified: 2026-10-31
+    start: 2027-12-14
+    end: 2027-12-17
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    deadlines:
+      - type: paper
+        label: Initial submissions (L-CSS + CDC)
+        date: '2027-03-17 23:59:59'
+      - type: session_proposal
+        label: Invited session proposals
+        date: '2027-03-24 23:59:59'
+      - type: paper
+        label: Initial submissions (CDC only)
+        date: '2027-03-31 23:59:59'
+      - type: workshop_proposal
+        label: Workshop proposals
+        date: '2027-04-30 23:59:59'
+      - type: notification
+        label: Decision notification
+        date: '2027-07-15 23:59:59'
+      - type: camera_ready
+        label: Final submission
+        date: 'TBA'
+    note: >-
+      66th CDC. Workshops are held on 13 December. The submission site opens on
+      8 January 2027. The earlier deadline is for papers submitted to IEEE
+      Control Systems Letters (L-CSS) with the option of presentation at CDC.

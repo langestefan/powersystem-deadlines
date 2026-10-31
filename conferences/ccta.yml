@@ -1,0 +1,43 @@
+name: CCTA
+full_name: IEEE Conference on Control Technology and Applications
+link: https://ieeecss.org/
+society:
+  - IEEE CSS
+frequency: annual
+tags:
+  - control
+description: >-
+  The IEEE Control Systems Society conference on applied control: industrial
+  practice, implementation and control technology across application domains,
+  including energy systems.
+
+editions:
+  - year: 2027
+    id: ccta27
+    link: https://ccta2027.ieeecss.org/
+    city: Hiroshima
+    country: Japan
+    venue: International Conference Center Hiroshima
+    date: August 23-25, 2027
+    verified: 2026-10-31
+    start: 2027-08-23
+    end: 2027-08-25
+    format: in-person
+    submission_type: full-paper
+    deadlines:
+      - type: paper
+        label: Full paper submission
+        date: '2027-02-07 23:59:59'
+      - type: notification
+        label: Notification of acceptance
+        date: '2027-05-15 23:59:59'
+      - type: camera_ready
+        label: Final paper submission
+        date: '2027-06-23 23:59:59'
+      - type: poster
+        label: Late breaking submission
+        date: '2027-06-30 23:59:59'
+    note: >-
+      11th CCTA. Technical workshops on 22 August. Papers are up to 8 pages for
+      review and 6 in the final version. Late-breaking posters need a short
+      abstract and a poster.

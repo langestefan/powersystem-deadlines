@@ -1,0 +1,53 @@
+name: ECC
+full_name: European Control Conference
+link: https://euca-ecc.org/
+society:
+  - EUCA
+frequency: annual
+tags:
+  - control
+description: >-
+  The annual conference of the European Control Association, covering control
+  theory and applications, with regular sessions on power and energy systems.
+
+editions:
+  - year: 2027
+    id: ecc27
+    link: https://ecc27.euca-ecc.org/
+    city: Brussels
+    country: Belgium
+    venue: UCLouvain, Woluwé campus
+    date: July 13-16, 2027
+    verified: 2026-10-31
+    start: 2027-07-13
+    end: 2027-07-16
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    deadlines:
+      - type: paper
+        label: Papers submission deadline (extended)
+        date: '2026-11-09 23:59:59'
+      - type: session_proposal
+        label: Invited session proposals submission deadline (extended)
+        date: '2026-11-09 23:59:59'
+      - type: tutorial_proposal
+        label: Tutorial proposals submission deadline
+        date: '2027-01-31 23:59:59'
+      - type: workshop_proposal
+        label: Workshop proposals submission deadline
+        date: '2027-01-31 23:59:59'
+      - type: abstract
+        label: Industry abstracts submission deadline
+        date: '2027-01-31 23:59:59'
+      - type: notification
+        label: Acceptance/rejection notification
+        date: '2027-03-05 23:59:59'
+      - type: camera_ready
+        label: Final submissions deadline
+        date: '2027-04-05 23:59:59'
+    note: >-
+      Paper and invited session deadlines were extended from 31 October to 9
+      November 2026. Papers are up to 8 pages for review and 6 in the final
+      version. Industry abstracts (1-2 pages) are not included in the
+      proceedings.

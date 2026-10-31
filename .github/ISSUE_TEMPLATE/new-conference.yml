@@ -83,6 +83,7 @@ body:
         - IEEE IES
         - IEEE VTS
         - IEEE ComSoc
+        - IEEE CSS
         - CIGRE
         - CIRED
         - IET
@@ -90,6 +91,9 @@ body:
         - ACM
         - PSCC
         - VDE ETG
+        - IFAC
+        - EUCA
+        - AACC
         - Other
     validations:
       required: true
@@ -118,6 +122,7 @@ body:
         - reliability-planning
         - computation-optimization
         - cyber-physical-security
+        - control
     validations:
       required: true
 

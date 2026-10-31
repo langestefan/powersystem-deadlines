@@ -1,0 +1,52 @@
+name: IFAC CPES
+full_name: IFAC Symposium on Control of Power and Energy Systems
+link: https://tc.ifac-control.org/6/3
+society:
+  - IFAC
+frequency: irregular
+tags:
+  - control
+  - power-systems
+  - smart-grid
+  - renewables
+description: >-
+  The IFAC symposium dedicated to control of power and energy systems, held
+  roughly every three years: frequency and voltage control, inverter-dominated
+  grids, distributed control of energy resources and hybrid AC/DC systems.
+
+editions:
+  - year: 2027
+    id: cpes27
+    link: https://cpes2027.org/
+    city: Cluj-Napoca
+    country: Romania
+    venue: DoubleTree by Hilton Hotel Cluj - City Plaza
+    date: June 10-12, 2027
+    verified: 2026-10-31
+    start: 2027-06-10
+    end: 2027-06-12
+    format: in-person
+    proceedings: IFAC-PapersOnLine
+    submission_type: full-paper
+    deadlines:
+      - type: session_proposal
+        label: Special session proposals
+        date: '2026-12-15 23:59:59'
+      - type: abstract
+        label: Abstract registration
+        date: '2027-01-26 23:59:59'
+      - type: paper
+        label: Draft paper submission
+        date: '2027-02-02 23:59:59'
+      - type: notification
+        label: Notification of acceptance
+        date: '2027-04-06 23:59:59'
+      - type: camera_ready
+        label: Camera-ready submission
+        date: '2027-04-20 23:59:59'
+      - type: early_registration
+        label: Early registration
+        date: '2027-04-27 23:59:59'
+    note: >-
+      13th edition. Papers are 4-6 pages including references, submitted
+      through IFAC PaperCept.

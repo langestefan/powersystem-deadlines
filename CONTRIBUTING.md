@@ -92,7 +92,8 @@ deadlines:
 
   `abstract` · `paper` · `notification` · `rebuttal_start` · `rebuttal_end` · `camera_ready` ·
   `early_registration` · `author_registration` · `tutorial_proposal` · `panel_proposal` ·
-  `workshop_proposal` · `poster` · `presentation_upload`
+  `workshop_proposal` · `session_proposal` (invited or special session) · `poster` ·
+  `presentation_upload`
 
   The headline countdown uses the soonest deadline that is something an author has to *submit*, so
   a notification date never hides a paper deadline.
@@ -165,15 +166,15 @@ CIRED's abstract deadline running for fourteen hours after submission had closed
 `power-systems` · `power-electronics` · `machines-drives` · `smart-grid` · `microgrids` ·
 `protection-automation` · `hvdc-facts` · `distribution` · `transmission` · `energy-markets` ·
 `renewables` · `energy-storage` · `ev-transportation` · `power-quality` · `reliability-planning` ·
-`computation-optimization` · `cyber-physical-security`
+`computation-optimization` · `cyber-physical-security` · `control`
 
 Each tag has its own calendar feed, so tag accurately rather than exhaustively. Adding a tag means
 editing `TAGS` in [`src/lib/taxonomy.ts`](src/lib/taxonomy.ts).
 
 ### Societies
 
-`IEEE PES` · `IEEE PELS` · `IEEE IAS` · `IEEE IES` · `IEEE VTS` · `IEEE ComSoc` · `CIGRE` ·
-`CIRED` · `IET` · `EPE` · `ACM` · `PSCC` · `VDE ETG` · `Other`
+`IEEE PES` · `IEEE PELS` · `IEEE IAS` · `IEEE IES` · `IEEE VTS` · `IEEE ComSoc` · `IEEE CSS` ·
+`CIGRE` · `CIRED` · `IET` · `EPE` · `ACM` · `PSCC` · `VDE ETG` · `IFAC` · `EUCA` · `AACC` · `Other`
 
 ### Countries
 

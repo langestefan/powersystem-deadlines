@@ -135,6 +135,13 @@ export const TAGS = [
     className: 'bg-slate-200 text-slate-900 dark:bg-slate-800 dark:text-slate-200',
     barClass: 'bg-slate-500/25 dark:bg-slate-400/25',
   },
+  {
+    id: 'control',
+    label: 'Control',
+    description: 'Control theory, stability and dynamics, with power and energy applications',
+    className: 'bg-purple-100 text-purple-900 dark:bg-purple-950 dark:text-purple-200',
+    barClass: 'bg-purple-500/25 dark:bg-purple-400/25',
+  },
 ] as const satisfies readonly TagDefinition[];
 
 export type TagId = (typeof TAGS)[number]['id'];
@@ -159,6 +166,7 @@ export const SOCIETIES = [
   'IEEE IES',
   'IEEE VTS',
   'IEEE ComSoc',
+  'IEEE CSS',
   'CIGRE',
   'CIRED',
   'IET',
@@ -166,6 +174,9 @@ export const SOCIETIES = [
   'ACM',
   'PSCC',
   'VDE ETG',
+  'IFAC',
+  'EUCA',
+  'AACC',
   'Other',
 ] as const;
 
@@ -203,6 +214,7 @@ export const DEADLINE_TYPES = [
   'tutorial_proposal',
   'panel_proposal',
   'workshop_proposal',
+  'session_proposal',
   'poster',
   'presentation_upload',
 ] as const;
@@ -221,8 +233,8 @@ export interface DeadlineTypeStyle {
  *
  * Each kind of submission is told apart, because "paper" and "camera-ready"
  * are different work at different stages. Types that mean the same thing to an
- * author deliberately share a colour and a label: three proposal deadlines are
- * all "Proposal", and both registration deadlines are "Registration".
+ * author deliberately share a colour and a label: every proposal deadline is
+ * "Proposal", and both registration deadlines are "Registration".
  */
 export const DEADLINE_TYPE_STYLES: Record<string, DeadlineTypeStyle> = {
   abstract: { label: 'Abstract', dotClass: 'bg-amber-500' },
@@ -236,6 +248,7 @@ export const DEADLINE_TYPE_STYLES: Record<string, DeadlineTypeStyle> = {
   tutorial_proposal: { label: 'Proposal', dotClass: 'bg-fuchsia-500' },
   panel_proposal: { label: 'Proposal', dotClass: 'bg-fuchsia-500' },
   workshop_proposal: { label: 'Proposal', dotClass: 'bg-fuchsia-500' },
+  session_proposal: { label: 'Proposal', dotClass: 'bg-fuchsia-500' },
   author_registration: { label: 'Registration', dotClass: 'bg-rose-500' },
   early_registration: { label: 'Registration', dotClass: 'bg-rose-500' },
 };
@@ -259,5 +272,6 @@ export const SUBMISSION_DEADLINE_TYPES = new Set<string>([
   'tutorial_proposal',
   'panel_proposal',
   'workshop_proposal',
+  'session_proposal',
   'presentation_upload',
 ]);

@@ -1,0 +1,86 @@
+name: ACC
+full_name: American Control Conference
+link: https://a2c2.org/conferences
+society:
+  - AACC
+frequency: annual
+tags:
+  - control
+description: >-
+  The annual conference of the American Automatic Control Council, co-sponsored
+  by IEEE CSS, ASME, AIChE, SIAM and others, covering the theory and practice
+  of automatic control, including power and energy applications.
+
+editions:
+  - year: 2027
+    id: acc27
+    link: https://acc2027.a2c2.org/
+    city: Philadelphia
+    country: USA
+    venue: Philadelphia Marriott Downtown
+    date: July 7-9, 2027
+    verified: 2026-10-31
+    start: 2027-07-07
+    end: 2027-07-09
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    deadlines:
+      - type: paper
+        label: Joint ACC + L-CSS manuscript submission
+        date: '2026-09-11 23:59:59'
+      - type: session_proposal
+        label: Invited session proposals
+        date: '2026-09-30 23:59:59'
+      - type: paper
+        label: ACC manuscript submission
+        date: '2026-10-02 23:59:59'
+      - type: session_proposal
+        label: Special session proposals
+        date: '2026-10-16 23:59:59'
+      - type: workshop_proposal
+        label: Workshop proposals
+        date: '2026-10-16 23:59:59'
+      - type: tutorial_proposal
+        label: Tutorial session proposals
+        date: '2026-10-23 23:59:59'
+      - type: notification
+        label: Notification of acceptance/rejection
+        date: '2027-01-22 23:59:59'
+      - type: camera_ready
+        label: Tutorial papers
+        date: '2027-01-29 23:59:59'
+      - type: camera_ready
+        label: Final manuscript submission
+        date: '2027-03-12 23:59:59'
+    note: >-
+      Pre-conference workshops on 6 July. The ACC manuscript deadline was
+      extended from 25 September to a firm 2 October 2026, and invited session
+      proposals from 23 to 30 September 2026.
+
+  - year: 2028
+    id: acc28
+    link: https://acc2028.a2c2.org/
+    city: San Francisco
+    country: USA
+    date: May 31-June 2, 2028
+    verified: 2026-10-31
+    start: 2028-05-31
+    end: 2028-06-02
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    deadlines:
+      - type: paper
+        label: L-CSS submission
+        date: '2027-09-10 23:59:59'
+      - type: paper
+        label: ACC manuscript submission
+        date: '2027-09-24 23:59:59'
+      - type: notification
+        label: Acceptance-rejection notification
+        date: '2028-01-21 23:59:59'
+      - type: camera_ready
+        label: Final manuscripts due
+        date: '2028-03-10 23:59:59'
+    note: Pre-conference workshops on 29-30 May 2028.

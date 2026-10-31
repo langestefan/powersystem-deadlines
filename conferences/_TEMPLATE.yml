@@ -18,8 +18,8 @@ full_name: Best Conference on Anything Power Related
 link: https://example.org/
 
 # Organising body. One or more of:
-#   IEEE PES, IEEE PELS, IEEE IAS, IEEE IES, IEEE VTS, IEEE ComSoc,
-#   CIGRE, CIRED, IET, EPE, ACM, PSCC, VDE ETG, Other
+#   IEEE PES, IEEE PELS, IEEE IAS, IEEE IES, IEEE VTS, IEEE ComSoc, IEEE CSS,
+#   CIGRE, CIRED, IET, EPE, ACM, PSCC, VDE ETG, IFAC, EUCA, AACC, Other
 society:
   - IEEE PES
 
@@ -83,8 +83,8 @@ editions:
       # `type` drives icons and the headline countdown. Recommended values:
       #   abstract, paper, notification, rebuttal_start, rebuttal_end,
       #   camera_ready, early_registration, author_registration,
-      #   tutorial_proposal, panel_proposal, workshop_proposal, poster,
-      #   presentation_upload
+      #   tutorial_proposal, panel_proposal, workshop_proposal,
+      #   session_proposal, poster, presentation_upload
       # `label` is shown verbatim, so copy the wording from the call for papers.
       # `date` must be quoted: 'YYYY-MM-DD HH:mm:ss', or the literal 'TBA'.
       - type: abstract

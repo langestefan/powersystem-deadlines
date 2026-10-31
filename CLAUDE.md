@@ -102,7 +102,7 @@ means changing all three.
   *not* an enum — a conference may invent one — so `DEADLINE_TYPES` is only the recommended list and
   `deadlineTypeStyle()` falls back to "Other" for anything else. `DEADLINE_TYPE_STYLES` gives each
   type its calendar colour and legend label, with types that mean the same thing to an author sharing
-  both (all three `*_proposal`s read "Proposal"). `SUBMISSION_DEADLINE_TYPES` decides which deadline
+  both (every `*_proposal` reads "Proposal"). `SUBMISSION_DEADLINE_TYPES` decides which deadline
   drives the headline countdown — a notification date must never hide a paper deadline.
 - `src/lib/regions.ts` — country → region. An unknown country is a validation error, not a guess.
 
