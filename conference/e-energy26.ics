@@ -12,7 +12,7 @@ X-WR-CALDESC:Deadlines and dates for ACM International Conference on Future
 SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/e-energy26.ics
 BEGIN:VEVENT
 UID:e-energy26-event@powersystemdeadlines.org
-DTSTAMP:20261030T234437Z
+DTSTAMP:20261031T042245Z
 DTSTART;VALUE=DATE:20260622
 DTEND;VALUE=DATE:20260626
 TRANSP:TRANSPARENT

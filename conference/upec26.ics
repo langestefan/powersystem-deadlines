@@ -12,7 +12,7 @@ X-WR-CALDESC:Deadlines and dates for International Universities Power Engin
 SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/upec26.ics
 BEGIN:VEVENT
 UID:upec26-event@powersystemdeadlines.org
-DTSTAMP:20261030T234437Z
+DTSTAMP:20261031T042245Z
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260903
 TRANSP:TRANSPARENT

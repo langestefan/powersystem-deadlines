@@ -12,7 +12,7 @@ X-WR-CALDESC:Deadlines and dates for International Conference on the Europe
 SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/eem27.ics
 BEGIN:VEVENT
 UID:eem27-event@powersystemdeadlines.org
-DTSTAMP:20261030T234437Z
+DTSTAMP:20261031T042245Z
 DTSTART;VALUE=DATE:20270914
 DTEND;VALUE=DATE:20270918
 TRANSP:TRANSPARENT
