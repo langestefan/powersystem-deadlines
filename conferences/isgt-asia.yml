@@ -45,3 +45,36 @@ editions:
       hosted by Wuhan University. The call gives submission and notification as
       windows rather than single dates; the closing date of each window is
       listed here.
+
+  - year: 2027
+    id: isgt-asia27
+    link: https://www.isgt-asia-2027.org/
+    city: Bangkok
+    country: Thailand
+    venue: Eastin Grand Hotel Phayathai
+    date: September 15-17, 2027
+    verified: 2026-11-03
+    start: 2027-09-15
+    end: 2027-09-17
+    format: in-person
+    proceedings: IEEE Xplore
+    submission_type: full-paper
+    deadlines:
+      - type: paper
+        label: Paper submission deadline
+        date: '2027-03-31 23:59:59'
+      - type: notification
+        label: Notification of acceptance
+        date: '2027-06-30 23:59:59'
+      - type: camera_ready
+        label: Camera ready submission deadline
+        date: '2027-07-31 23:59:59'
+      - type: early_registration
+        label: Early-bird registration deadline
+        date: '2027-07-31 23:59:59'
+    note: >-
+      Themed "AI-Driven Smart Grid Innovation for a Resilient, Sustainable, and
+      Carbon-Neutral Future", hosted by IEEE PES Thailand. Paper submission
+      opens 1 December 2026; full papers are limited to six A4 pages in IEEE
+      conference format. The call gives notification as a window (1 May to
+      30 June 2027); its closing date is listed here.
