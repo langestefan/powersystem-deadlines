@@ -10,213 +10,8 @@ X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines for conferences tagged "Transmission".
 SOURCE;VALUE=URI:https://powersystemdeadlines.org/calendar/transmission.ics
 BEGIN:VEVENT
-UID:cigre-heidelberg27-abstract@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
-TRANSP:TRANSPARENT
-SUMMARY:CIGRE Symposium 2027: Synopsis submission (23:59 UTC+12 (assumed))
-DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nSynopsi
- s submission: 2 Nov 2026\, 23:59 UTC+12 (assumed)\n\nConference: April 27-
- 30\, 2027\nLocation: Heidelberg\, Germany\nVenue: Heidelberg Congress Cent
- er\n\nAll dates:\n  Synopsis submission: 2 Nov 2026\, 23:59 UTC+12 (assume
- d)\n  Synopsis selection and author notification: 30 Nov 2026\, 23:59 UTC+
- 12 (assumed)\n  Full paper: 7 Feb 2027\, 23:59 UTC+12 (assumed)\n  Feedbac
- k to full-paper authors: 7 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final pape
- rs to ConfTool: 29 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for paper
- s states no timezone. This is counted as UTC+12\, the earliest it could pl
- ausibly mean\, so the countdown runs out before the real deadline rather t
- han after it.\n\nTheme "One Grid – Technological Innovations for Integra
- ted Power Systems"\, hosted by the German National Committee and held alon
- gside the VDE ETG Kongress (26-27 April) at the same venue. Synopses are s
- ubmitted through ConfTool\; all synopses\, papers and presentations must b
- e in English.\n\nCall for papers: https://www.cigresymposium2027.de/\nDeta
- ils: https://powersystemdeadlines.org/conference/cigre-heidelberg27
-LOCATION:Heidelberg\, Germany
-URL;VALUE=URI:https://www.cigresymposium2027.de/
-CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
- ets
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:cigre-heidelberg27-notification@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
-DTSTART;VALUE=DATE:20261130
-DTEND;VALUE=DATE:20261201
-TRANSP:TRANSPARENT
-SUMMARY:CIGRE Symposium 2027: Synopsis selection and author notification (2
- 3:59 UTC+12 (assumed))
-DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nSynopsi
- s selection and author notification: 30 Nov 2026\, 23:59 UTC+12 (assumed)\
- n\nConference: April 27-30\, 2027\nLocation: Heidelberg\, Germany\nVenue: 
- Heidelberg Congress Center\n\nAll dates:\n  Synopsis submission: 2 Nov 202
- 6\, 23:59 UTC+12 (assumed)\n  Synopsis selection and author notification: 
- 30 Nov 2026\, 23:59 UTC+12 (assumed)\n  Full paper: 7 Feb 2027\, 23:59 UTC
- +12 (assumed)\n  Feedback to full-paper authors: 7 Mar 2027\, 23:59 UTC+12
-  (assumed)\n  Final papers to ConfTool: 29 Mar 2027\, 23:59 UTC+12 (assume
- d)\n\nThe call for papers states no timezone. This is counted as UTC+12\, 
- the earliest it could plausibly mean\, so the countdown runs out before th
- e real deadline rather than after it.\n\nTheme "One Grid – Technological
-  Innovations for Integrated Power Systems"\, hosted by the German National
-  Committee and held alongside the VDE ETG Kongress (26-27 April) at the sa
- me venue. Synopses are submitted through ConfTool\; all synopses\, papers 
- and presentations must be in English.\n\nCall for papers: https://www.cigr
- esymposium2027.de/\nDetails: https://powersystemdeadlines.org/conference/c
- igre-heidelberg27
-LOCATION:Heidelberg\, Germany
-URL;VALUE=URI:https://www.cigresymposium2027.de/
-CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
- ets
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:cigre-heidelberg27-paper@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
-DTSTART;VALUE=DATE:20270207
-DTEND;VALUE=DATE:20270208
-TRANSP:TRANSPARENT
-SUMMARY:CIGRE Symposium 2027: Full paper (23:59 UTC+12 (assumed))
-DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFull pa
- per: 7 Feb 2027\, 23:59 UTC+12 (assumed)\n\nConference: April 27-30\, 2027
- \nLocation: Heidelberg\, Germany\nVenue: Heidelberg Congress Center\n\nAll
-  dates:\n  Synopsis submission: 2 Nov 2026\, 23:59 UTC+12 (assumed)\n  Syn
- opsis selection and author notification: 30 Nov 2026\, 23:59 UTC+12 (assum
- ed)\n  Full paper: 7 Feb 2027\, 23:59 UTC+12 (assumed)\n  Feedback to full
- -paper authors: 7 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final papers to Con
- fTool: 29 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states 
- no timezone. This is counted as UTC+12\, the earliest it could plausibly m
- ean\, so the countdown runs out before the real deadline rather than after
-  it.\n\nTheme "One Grid – Technological Innovations for Integrated Power
-  Systems"\, hosted by the German National Committee and held alongside the
-  VDE ETG Kongress (26-27 April) at the same venue. Synopses are submitted 
- through ConfTool\; all synopses\, papers and presentations must be in Engl
- ish.\n\nCall for papers: https://www.cigresymposium2027.de/\nDetails: http
- s://powersystemdeadlines.org/conference/cigre-heidelberg27
-LOCATION:Heidelberg\, Germany
-URL;VALUE=URI:https://www.cigresymposium2027.de/
-CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
- ets
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:cigre-heidelberg27-notification-2@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
-DTSTART;VALUE=DATE:20270307
-DTEND;VALUE=DATE:20270308
-TRANSP:TRANSPARENT
-SUMMARY:CIGRE Symposium 2027: Feedback to full-paper authors (23:59 UTC+12 
- (assumed))
-DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFeedbac
- k to full-paper authors: 7 Mar 2027\, 23:59 UTC+12 (assumed)\n\nConference
- : April 27-30\, 2027\nLocation: Heidelberg\, Germany\nVenue: Heidelberg Co
- ngress Center\n\nAll dates:\n  Synopsis submission: 2 Nov 2026\, 23:59 UTC
- +12 (assumed)\n  Synopsis selection and author notification: 30 Nov 2026\,
-  23:59 UTC+12 (assumed)\n  Full paper: 7 Feb 2027\, 23:59 UTC+12 (assumed)
- \n  Feedback to full-paper authors: 7 Mar 2027\, 23:59 UTC+12 (assumed)\n 
-  Final papers to ConfTool: 29 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe cal
- l for papers states no timezone. This is counted as UTC+12\, the earliest 
- it could plausibly mean\, so the countdown runs out before the real deadli
- ne rather than after it.\n\nTheme "One Grid – Technological Innovations 
- for Integrated Power Systems"\, hosted by the German National Committee an
- d held alongside the VDE ETG Kongress (26-27 April) at the same venue. Syn
- opses are submitted through ConfTool\; all synopses\, papers and presentat
- ions must be in English.\n\nCall for papers: https://www.cigresymposium202
- 7.de/\nDetails: https://powersystemdeadlines.org/conference/cigre-heidelbe
- rg27
-LOCATION:Heidelberg\, Germany
-URL;VALUE=URI:https://www.cigresymposium2027.de/
-CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
- ets
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:cigre-heidelberg27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
-DTSTART;VALUE=DATE:20270329
-DTEND;VALUE=DATE:20270330
-TRANSP:TRANSPARENT
-SUMMARY:CIGRE Symposium 2027: Final papers to ConfTool (23:59 UTC+12 (assum
- ed))
-DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFinal p
- apers to ConfTool: 29 Mar 2027\, 23:59 UTC+12 (assumed)\n\nConference: Apr
- il 27-30\, 2027\nLocation: Heidelberg\, Germany\nVenue: Heidelberg Congres
- s Center\n\nAll dates:\n  Synopsis submission: 2 Nov 2026\, 23:59 UTC+12 (
- assumed)\n  Synopsis selection and author notification: 30 Nov 2026\, 23:5
- 9 UTC+12 (assumed)\n  Full paper: 7 Feb 2027\, 23:59 UTC+12 (assumed)\n  F
- eedback to full-paper authors: 7 Mar 2027\, 23:59 UTC+12 (assumed)\n  Fina
- l papers to ConfTool: 29 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for
-  papers states no timezone. This is counted as UTC+12\, the earliest it co
- uld plausibly mean\, so the countdown runs out before the real deadline ra
- ther than after it.\n\nTheme "One Grid – Technological Innovations for I
- ntegrated Power Systems"\, hosted by the German National Committee and hel
- d alongside the VDE ETG Kongress (26-27 April) at the same venue. Synopses
-  are submitted through ConfTool\; all synopses\, papers and presentations 
- must be in English.\n\nCall for papers: https://www.cigresymposium2027.de/
- \nDetails: https://powersystemdeadlines.org/conference/cigre-heidelberg27
-LOCATION:Heidelberg\, Germany
-URL;VALUE=URI:https://www.cigresymposium2027.de/
-CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
- ets
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pesgm27-paper@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
+DTSTAMP:20261103T042315Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 TRANSP:TRANSPARENT
@@ -249,7 +44,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-abstract@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
+DTSTAMP:20261103T042315Z
 DTSTART;VALUE=DATE:20270111
 DTEND;VALUE=DATE:20270112
 TRANSP:TRANSPARENT
@@ -291,7 +86,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-notification@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
+DTSTAMP:20261103T042315Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 TRANSP:TRANSPARENT
@@ -335,7 +130,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-paper@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
+DTSTAMP:20261103T042315Z
 DTSTART;VALUE=DATE:20270725
 DTEND;VALUE=DATE:20270726
 TRANSP:TRANSPARENT
@@ -378,7 +173,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-notification-2@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
+DTSTAMP:20261103T042315Z
 DTSTART;VALUE=DATE:20270912
 DTEND;VALUE=DATE:20270913
 TRANSP:TRANSPARENT
@@ -422,7 +217,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
+DTSTAMP:20261103T042315Z
 DTSTART;VALUE=DATE:20270926
 DTEND;VALUE=DATE:20270927
 TRANSP:TRANSPARENT
@@ -464,7 +259,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-camera_ready-2@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
+DTSTAMP:20261103T042315Z
 DTSTART;VALUE=DATE:20271010
 DTEND;VALUE=DATE:20271011
 TRANSP:TRANSPARENT
@@ -508,7 +303,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-presentation_upload@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
+DTSTAMP:20261103T042315Z
 DTSTART;VALUE=DATE:20271024
 DTEND;VALUE=DATE:20271025
 TRANSP:TRANSPARENT
@@ -551,8 +346,213 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:cigre-heidelberg27-abstract@powersystemdeadlines.org
+DTSTAMP:20261103T042315Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027: Synopsis submission (23:59 UTC+12 (assumed))
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nSynopsi
+ s submission: 2 Nov 2026\, 23:59 UTC+12 (assumed)\n\nConference: April 27-
+ 30\, 2027\nLocation: Heidelberg\, Germany\nVenue: Heidelberg Congress Cent
+ er\n\nAll dates:\n  Synopsis submission: 2 Nov 2026\, 23:59 UTC+12 (assume
+ d)\n  Synopsis selection and author notification: 30 Nov 2026\, 23:59 UTC+
+ 12 (assumed)\n  Full paper: 7 Feb 2027\, 23:59 UTC+12 (assumed)\n  Feedbac
+ k to full-paper authors: 7 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final pape
+ rs to ConfTool: 29 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for paper
+ s states no timezone. This is counted as UTC+12\, the earliest it could pl
+ ausibly mean\, so the countdown runs out before the real deadline rather t
+ han after it.\n\nTheme "One Grid – Technological Innovations for Integra
+ ted Power Systems"\, hosted by the German National Committee and held alon
+ gside the VDE ETG Kongress (26-27 April) at the same venue. Synopses are s
+ ubmitted through ConfTool\; all synopses\, papers and presentations must b
+ e in English.\n\nCall for papers: https://www.cigresymposium2027.de/\nDeta
+ ils: https://powersystemdeadlines.org/conference/cigre-heidelberg27
+LOCATION:Heidelberg\, Germany
+URL;VALUE=URI:https://www.cigresymposium2027.de/
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-heidelberg27-notification@powersystemdeadlines.org
+DTSTAMP:20261103T042315Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027: Synopsis selection and author notification (2
+ 3:59 UTC+12 (assumed))
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nSynopsi
+ s selection and author notification: 30 Nov 2026\, 23:59 UTC+12 (assumed)\
+ n\nConference: April 27-30\, 2027\nLocation: Heidelberg\, Germany\nVenue: 
+ Heidelberg Congress Center\n\nAll dates:\n  Synopsis submission: 2 Nov 202
+ 6\, 23:59 UTC+12 (assumed)\n  Synopsis selection and author notification: 
+ 30 Nov 2026\, 23:59 UTC+12 (assumed)\n  Full paper: 7 Feb 2027\, 23:59 UTC
+ +12 (assumed)\n  Feedback to full-paper authors: 7 Mar 2027\, 23:59 UTC+12
+  (assumed)\n  Final papers to ConfTool: 29 Mar 2027\, 23:59 UTC+12 (assume
+ d)\n\nThe call for papers states no timezone. This is counted as UTC+12\, 
+ the earliest it could plausibly mean\, so the countdown runs out before th
+ e real deadline rather than after it.\n\nTheme "One Grid – Technological
+  Innovations for Integrated Power Systems"\, hosted by the German National
+  Committee and held alongside the VDE ETG Kongress (26-27 April) at the sa
+ me venue. Synopses are submitted through ConfTool\; all synopses\, papers 
+ and presentations must be in English.\n\nCall for papers: https://www.cigr
+ esymposium2027.de/\nDetails: https://powersystemdeadlines.org/conference/c
+ igre-heidelberg27
+LOCATION:Heidelberg\, Germany
+URL;VALUE=URI:https://www.cigresymposium2027.de/
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-heidelberg27-paper@powersystemdeadlines.org
+DTSTAMP:20261103T042315Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027: Full paper (23:59 UTC+12 (assumed))
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFull pa
+ per: 7 Feb 2027\, 23:59 UTC+12 (assumed)\n\nConference: April 27-30\, 2027
+ \nLocation: Heidelberg\, Germany\nVenue: Heidelberg Congress Center\n\nAll
+  dates:\n  Synopsis submission: 2 Nov 2026\, 23:59 UTC+12 (assumed)\n  Syn
+ opsis selection and author notification: 30 Nov 2026\, 23:59 UTC+12 (assum
+ ed)\n  Full paper: 7 Feb 2027\, 23:59 UTC+12 (assumed)\n  Feedback to full
+ -paper authors: 7 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final papers to Con
+ fTool: 29 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states 
+ no timezone. This is counted as UTC+12\, the earliest it could plausibly m
+ ean\, so the countdown runs out before the real deadline rather than after
+  it.\n\nTheme "One Grid – Technological Innovations for Integrated Power
+  Systems"\, hosted by the German National Committee and held alongside the
+  VDE ETG Kongress (26-27 April) at the same venue. Synopses are submitted 
+ through ConfTool\; all synopses\, papers and presentations must be in Engl
+ ish.\n\nCall for papers: https://www.cigresymposium2027.de/\nDetails: http
+ s://powersystemdeadlines.org/conference/cigre-heidelberg27
+LOCATION:Heidelberg\, Germany
+URL;VALUE=URI:https://www.cigresymposium2027.de/
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-heidelberg27-notification-2@powersystemdeadlines.org
+DTSTAMP:20261103T042315Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027: Feedback to full-paper authors (23:59 UTC+12 
+ (assumed))
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFeedbac
+ k to full-paper authors: 7 Mar 2027\, 23:59 UTC+12 (assumed)\n\nConference
+ : April 27-30\, 2027\nLocation: Heidelberg\, Germany\nVenue: Heidelberg Co
+ ngress Center\n\nAll dates:\n  Synopsis submission: 2 Nov 2026\, 23:59 UTC
+ +12 (assumed)\n  Synopsis selection and author notification: 30 Nov 2026\,
+  23:59 UTC+12 (assumed)\n  Full paper: 7 Feb 2027\, 23:59 UTC+12 (assumed)
+ \n  Feedback to full-paper authors: 7 Mar 2027\, 23:59 UTC+12 (assumed)\n 
+  Final papers to ConfTool: 29 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe cal
+ l for papers states no timezone. This is counted as UTC+12\, the earliest 
+ it could plausibly mean\, so the countdown runs out before the real deadli
+ ne rather than after it.\n\nTheme "One Grid – Technological Innovations 
+ for Integrated Power Systems"\, hosted by the German National Committee an
+ d held alongside the VDE ETG Kongress (26-27 April) at the same venue. Syn
+ opses are submitted through ConfTool\; all synopses\, papers and presentat
+ ions must be in English.\n\nCall for papers: https://www.cigresymposium202
+ 7.de/\nDetails: https://powersystemdeadlines.org/conference/cigre-heidelbe
+ rg27
+LOCATION:Heidelberg\, Germany
+URL;VALUE=URI:https://www.cigresymposium2027.de/
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cigre-heidelberg27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261103T042315Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+TRANSP:TRANSPARENT
+SUMMARY:CIGRE Symposium 2027: Final papers to ConfTool (23:59 UTC+12 (assum
+ ed))
+DESCRIPTION:CIGRE International Symposium (CIGRE Symposium 2027)\n\nFinal p
+ apers to ConfTool: 29 Mar 2027\, 23:59 UTC+12 (assumed)\n\nConference: Apr
+ il 27-30\, 2027\nLocation: Heidelberg\, Germany\nVenue: Heidelberg Congres
+ s Center\n\nAll dates:\n  Synopsis submission: 2 Nov 2026\, 23:59 UTC+12 (
+ assumed)\n  Synopsis selection and author notification: 30 Nov 2026\, 23:5
+ 9 UTC+12 (assumed)\n  Full paper: 7 Feb 2027\, 23:59 UTC+12 (assumed)\n  F
+ eedback to full-paper authors: 7 Mar 2027\, 23:59 UTC+12 (assumed)\n  Fina
+ l papers to ConfTool: 29 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for
+  papers states no timezone. This is counted as UTC+12\, the earliest it co
+ uld plausibly mean\, so the countdown runs out before the real deadline ra
+ ther than after it.\n\nTheme "One Grid – Technological Innovations for I
+ ntegrated Power Systems"\, hosted by the German National Committee and hel
+ d alongside the VDE ETG Kongress (26-27 April) at the same venue. Synopses
+  are submitted through ConfTool\; all synopses\, papers and presentations 
+ must be in English.\n\nCall for papers: https://www.cigresymposium2027.de/
+ \nDetails: https://powersystemdeadlines.org/conference/cigre-heidelberg27
+LOCATION:Heidelberg\, Germany
+URL;VALUE=URI:https://www.cigresymposium2027.de/
+CATEGORIES:Power Systems,Transmission,Distribution,HVDC & FACTS,Energy Mark
+ ets
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:powertech27-paper@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
+DTSTAMP:20261103T042315Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 TRANSP:TRANSPARENT
@@ -588,7 +588,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-notification@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
+DTSTAMP:20261103T042315Z
 DTSTART;VALUE=DATE:20270423
 DTEND;VALUE=DATE:20270424
 TRANSP:TRANSPARENT
@@ -624,7 +624,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
+DTSTAMP:20261103T042315Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 TRANSP:TRANSPARENT
@@ -662,7 +662,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
+DTSTAMP:20261103T042315Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 TRANSP:TRANSPARENT
@@ -698,7 +698,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-td26-tutorial_proposal@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
+DTSTAMP:20261103T042315Z
 DTSTART;VALUE=DATE:20250606
 DTEND;VALUE=DATE:20250607
 TRANSP:TRANSPARENT
@@ -736,7 +736,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-td26-panel_proposal@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
+DTSTAMP:20261103T042315Z
 DTSTART;VALUE=DATE:20250801
 DTEND;VALUE=DATE:20250802
 TRANSP:TRANSPARENT
@@ -775,7 +775,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-td26-paper@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
+DTSTAMP:20261103T042315Z
 DTSTART;VALUE=DATE:20250814
 DTEND;VALUE=DATE:20250815
 TRANSP:TRANSPARENT
@@ -815,7 +815,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-td26-notification@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
+DTSTAMP:20261103T042315Z
 DTSTART;VALUE=DATE:20251104
 DTEND;VALUE=DATE:20251105
 TRANSP:TRANSPARENT
@@ -853,7 +853,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-abstract@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
+DTSTAMP:20261103T042315Z
 DTSTART;VALUE=DATE:20250707
 DTEND;VALUE=DATE:20250708
 TRANSP:TRANSPARENT
@@ -894,7 +894,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-notification@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
+DTSTAMP:20261103T042315Z
 DTSTART;VALUE=DATE:20251020
 DTEND;VALUE=DATE:20251021
 TRANSP:TRANSPARENT
@@ -935,7 +935,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-paper@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
+DTSTAMP:20261103T042315Z
 DTSTART;VALUE=DATE:20260112
 DTEND;VALUE=DATE:20260113
 TRANSP:TRANSPARENT
@@ -976,7 +976,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
+DTSTAMP:20261103T042315Z
 DTSTART;VALUE=DATE:20260410
 DTEND;VALUE=DATE:20260411
 TRANSP:TRANSPARENT
@@ -1016,7 +1016,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-notification-2@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
+DTSTAMP:20261103T042315Z
 DTSTART;VALUE=DATE:20260511
 DTEND;VALUE=DATE:20260512
 TRANSP:TRANSPARENT
@@ -1057,7 +1057,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-poster@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
+DTSTAMP:20261103T042315Z
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20260630
 TRANSP:TRANSPARENT
@@ -1097,7 +1097,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-presentation_upload@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
+DTSTAMP:20261103T042315Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 TRANSP:TRANSPARENT
@@ -1138,7 +1138,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gtd-latam27-paper@powersystemdeadlines.org
-DTSTAMP:20261102T042445Z
+DTSTAMP:20261103T042315Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
