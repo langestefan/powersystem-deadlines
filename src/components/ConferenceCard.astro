@@ -4,7 +4,12 @@ import { CalendarDays, ExternalLink, MapPin } from '@lucide/astro';
 import Badge from '@/components/Badge.astro';
 import Countdown from '@/components/Countdown.astro';
 import type { ConferenceEdition } from '@/lib/conferences';
-import { deadlineZoneLabel, locationLabel, UNSTATED_TIMEZONE_NOTE } from '@/lib/conferences';
+import {
+  deadlineZoneLabel,
+  filterAttributes,
+  locationLabel,
+  UNSTATED_TIMEZONE_NOTE,
+} from '@/lib/conferences';
 import { withBase } from '@/lib/site';
 import { getTag, tagLabel } from '@/lib/taxonomy';
 import { formatInZone } from '@/lib/time';
@@ -21,29 +26,11 @@ const headline = edition.nextDeadline ?? edition.nextAnyDeadline ?? edition.dead
 // Shown only when it has gone stale: a freshness note on every card would be
 // noise, but a card nobody has re-checked in months is worth flagging.
 const verification = editionVerification(edition);
-
-// Everything the client-side filter needs, precomputed so it never touches the DOM text.
-const searchHaystack = [
-  edition.name,
-  edition.fullName,
-  edition.city,
-  edition.country,
-  edition.venue,
-  ...edition.society,
-  ...edition.tags.map(tagLabel),
-]
-  .filter(Boolean)
-  .join(' ')
-  .toLowerCase();
 ---
 
 <article
   data-conference-card
-  data-tags={edition.tags.join(' ')}
-  data-societies={edition.society.join('|')}
-  data-region={edition.region ?? ''}
-  data-country={edition.country ?? ''}
-  data-search={searchHaystack}
+  {...filterAttributes(edition)}
   class="group rounded-lg border bg-card p-4 shadow-sm transition-shadow hover:shadow-md"
 >
   <div class="flex flex-wrap items-start justify-between gap-x-4 gap-y-2">

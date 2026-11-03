@@ -108,6 +108,7 @@ export default function FilterBar({
 }: FilterBarProps) {
   const [state, setState] = useState<FilterState>(EMPTY);
   const [visible, setVisible] = useState(totalCount);
+  const [archived, setArchived] = useState(0);
   const [ready, setReady] = useState(false);
 
   // Restore any filter carried in the URL before the first apply.
@@ -134,7 +135,19 @@ export default function FilterBar({
       group.hidden = !anyVisible;
     }
 
+    // Past editions answer a search, never a bare chip: picking a tag should not
+    // dump the whole archive under the list.
+    let archivedShown = 0;
+    for (const entry of document.querySelectorAll<HTMLElement>('[data-archive-entry]')) {
+      const show = next.query.trim() !== '' && matches(entry, next);
+      entry.hidden = !show;
+      if (show) archivedShown += 1;
+    }
+    const archive = document.querySelector<HTMLElement>('[data-archive-matches]');
+    if (archive) archive.hidden = archivedShown === 0;
+
     setVisible(shown);
+    setArchived(archivedShown);
   }, []);
 
   useEffect(() => {
@@ -255,7 +268,15 @@ export default function FilterBar({
         </div>
       </details>
 
-      {ready && visible === 0 && (
+      {ready && visible === 0 && archived > 0 && (
+        <p className="mt-4 border-t pt-4 text-sm text-muted-foreground">
+          No upcoming conferences match.{' '}
+          {archived === 1 ? 'One past edition does' : `${archived} past editions do`}; see “In the
+          archive” below.
+        </p>
+      )}
+
+      {ready && visible === 0 && archived === 0 && (
         <p className="mt-4 border-t pt-4 text-sm text-muted-foreground">
           No conferences match these filters.{' '}
           <button
