@@ -11,7 +11,7 @@ X-WR-CALDESC:Deadlines for conferences tagged "Distribution".
 SOURCE;VALUE=URI:https://powersystemdeadlines.org/calendar/distribution.ics
 BEGIN:VEVENT
 UID:pesgm27-paper@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 TRANSP:TRANSPARENT
@@ -44,7 +44,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-abstract@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20270111
 DTEND;VALUE=DATE:20270112
 TRANSP:TRANSPARENT
@@ -86,7 +86,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-notification@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 TRANSP:TRANSPARENT
@@ -130,7 +130,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-paper@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20270725
 DTEND;VALUE=DATE:20270726
 TRANSP:TRANSPARENT
@@ -173,7 +173,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-notification-2@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20270912
 DTEND;VALUE=DATE:20270913
 TRANSP:TRANSPARENT
@@ -217,7 +217,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20270926
 DTEND;VALUE=DATE:20270927
 TRANSP:TRANSPARENT
@@ -259,7 +259,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-camera_ready-2@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20271010
 DTEND;VALUE=DATE:20271011
 TRANSP:TRANSPARENT
@@ -303,7 +303,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-presentation_upload@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20271024
 DTEND;VALUE=DATE:20271025
 TRANSP:TRANSPARENT
@@ -347,7 +347,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-abstract@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 TRANSP:TRANSPARENT
@@ -386,7 +386,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-notification@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 TRANSP:TRANSPARENT
@@ -425,7 +425,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-paper@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 TRANSP:TRANSPARENT
@@ -464,7 +464,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-notification-2@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20270409
 DTEND;VALUE=DATE:20270410
 TRANSP:TRANSPARENT
@@ -504,7 +504,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-early_registration@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20270428
 DTEND;VALUE=DATE:20270429
 TRANSP:TRANSPARENT
@@ -544,7 +544,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20270510
 DTEND;VALUE=DATE:20270511
 TRANSP:TRANSPARENT
@@ -583,7 +583,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-presentation_upload@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20270528
 DTEND;VALUE=DATE:20270529
 TRANSP:TRANSPARENT
@@ -623,7 +623,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-heidelberg27-abstract@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 TRANSP:TRANSPARENT
@@ -663,7 +663,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-heidelberg27-notification@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 TRANSP:TRANSPARENT
@@ -705,7 +705,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-heidelberg27-paper@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 TRANSP:TRANSPARENT
@@ -745,7 +745,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-heidelberg27-notification-2@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 TRANSP:TRANSPARENT
@@ -787,7 +787,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-heidelberg27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20270329
 DTEND;VALUE=DATE:20270330
 TRANSP:TRANSPARENT
@@ -827,8 +827,170 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:isgt-asia27-paper@powersystemdeadlines.org
+DTSTAMP:20261103T094626Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+TRANSP:TRANSPARENT
+SUMMARY:ISGT Asia 2027: Paper submission deadline (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
+ GT Asia 2027)\n\nPaper submission deadline: 31 Mar 2027\, 23:59 UTC+12 (as
+ sumed)\n\nConference: September 15-17\, 2027\nLocation: Bangkok\, Thailand
+ \nVenue: Eastin Grand Hotel Phayathai\n\nAll dates:\n  Paper submission de
+ adline: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n  Notification of acceptance
+ : 30 Jun 2027\, 23:59 UTC+12 (assumed)\n  Camera ready submission deadline
+ : 31 Jul 2027\, 23:59 UTC+12 (assumed)\n  Early-bird registration deadline
+ : 31 Jul 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no ti
+ mezone. This is counted as UTC+12\, the earliest it could plausibly mean\,
+  so the countdown runs out before the real deadline rather than after it.\
+ n\nThemed "AI-Driven Smart Grid Innovation for a Resilient\, Sustainable\,
+  and Carbon-Neutral Future"\, hosted by IEEE PES Thailand. Paper submissio
+ n opens 1 December 2026\; full papers are limited to six A4 pages in IEEE 
+ conference format. The call gives notification as a window (1 May to 30 Ju
+ ne 2027)\; its closing date is listed here.\n\nCall for papers: https://ww
+ w.isgt-asia-2027.org/\nDetails: https://powersystemdeadlines.org/conferenc
+ e/isgt-asia27
+LOCATION:Bangkok\, Thailand
+URL;VALUE=URI:https://www.isgt-asia-2027.org/
+CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isgt-asia27-notification@powersystemdeadlines.org
+DTSTAMP:20261103T094626Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+TRANSP:TRANSPARENT
+SUMMARY:ISGT Asia 2027: Notification of acceptance (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
+ GT Asia 2027)\n\nNotification of acceptance: 30 Jun 2027\, 23:59 UTC+12 (a
+ ssumed)\n\nConference: September 15-17\, 2027\nLocation: Bangkok\, Thailan
+ d\nVenue: Eastin Grand Hotel Phayathai\n\nAll dates:\n  Paper submission d
+ eadline: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n  Notification of acceptanc
+ e: 30 Jun 2027\, 23:59 UTC+12 (assumed)\n  Camera ready submission deadlin
+ e: 31 Jul 2027\, 23:59 UTC+12 (assumed)\n  Early-bird registration deadlin
+ e: 31 Jul 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no t
+ imezone. This is counted as UTC+12\, the earliest it could plausibly mean\
+ , so the countdown runs out before the real deadline rather than after it.
+ \n\nThemed "AI-Driven Smart Grid Innovation for a Resilient\, Sustainable\
+ , and Carbon-Neutral Future"\, hosted by IEEE PES Thailand. Paper submissi
+ on opens 1 December 2026\; full papers are limited to six A4 pages in IEEE
+  conference format. The call gives notification as a window (1 May to 30 J
+ une 2027)\; its closing date is listed here.\n\nCall for papers: https://w
+ ww.isgt-asia-2027.org/\nDetails: https://powersystemdeadlines.org/conferen
+ ce/isgt-asia27
+LOCATION:Bangkok\, Thailand
+URL;VALUE=URI:https://www.isgt-asia-2027.org/
+CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isgt-asia27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261103T094626Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270801
+TRANSP:TRANSPARENT
+SUMMARY:ISGT Asia 2027: Camera ready submission deadline (23:59 UTC+12 (ass
+ umed))
+DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
+ GT Asia 2027)\n\nCamera ready submission deadline: 31 Jul 2027\, 23:59 UTC
+ +12 (assumed)\n\nConference: September 15-17\, 2027\nLocation: Bangkok\, T
+ hailand\nVenue: Eastin Grand Hotel Phayathai\n\nAll dates:\n  Paper submis
+ sion deadline: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n  Notification of acc
+ eptance: 30 Jun 2027\, 23:59 UTC+12 (assumed)\n  Camera ready submission d
+ eadline: 31 Jul 2027\, 23:59 UTC+12 (assumed)\n  Early-bird registration d
+ eadline: 31 Jul 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers state
+ s no timezone. This is counted as UTC+12\, the earliest it could plausibly
+  mean\, so the countdown runs out before the real deadline rather than aft
+ er it.\n\nThemed "AI-Driven Smart Grid Innovation for a Resilient\, Sustai
+ nable\, and Carbon-Neutral Future"\, hosted by IEEE PES Thailand. Paper su
+ bmission opens 1 December 2026\; full papers are limited to six A4 pages i
+ n IEEE conference format. The call gives notification as a window (1 May t
+ o 30 June 2027)\; its closing date is listed here.\n\nCall for papers: htt
+ ps://www.isgt-asia-2027.org/\nDetails: https://powersystemdeadlines.org/co
+ nference/isgt-asia27
+LOCATION:Bangkok\, Thailand
+URL;VALUE=URI:https://www.isgt-asia-2027.org/
+CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:isgt-asia27-early_registration@powersystemdeadlines.org
+DTSTAMP:20261103T094626Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270801
+TRANSP:TRANSPARENT
+SUMMARY:ISGT Asia 2027: Early-bird registration deadline (23:59 UTC+12 (ass
+ umed))
+DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
+ GT Asia 2027)\n\nEarly-bird registration deadline: 31 Jul 2027\, 23:59 UTC
+ +12 (assumed)\n\nConference: September 15-17\, 2027\nLocation: Bangkok\, T
+ hailand\nVenue: Eastin Grand Hotel Phayathai\n\nAll dates:\n  Paper submis
+ sion deadline: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n  Notification of acc
+ eptance: 30 Jun 2027\, 23:59 UTC+12 (assumed)\n  Camera ready submission d
+ eadline: 31 Jul 2027\, 23:59 UTC+12 (assumed)\n  Early-bird registration d
+ eadline: 31 Jul 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers state
+ s no timezone. This is counted as UTC+12\, the earliest it could plausibly
+  mean\, so the countdown runs out before the real deadline rather than aft
+ er it.\n\nThemed "AI-Driven Smart Grid Innovation for a Resilient\, Sustai
+ nable\, and Carbon-Neutral Future"\, hosted by IEEE PES Thailand. Paper su
+ bmission opens 1 December 2026\; full papers are limited to six A4 pages i
+ n IEEE conference format. The call gives notification as a window (1 May t
+ o 30 June 2027)\; its closing date is listed here.\n\nCall for papers: htt
+ ps://www.isgt-asia-2027.org/\nDetails: https://powersystemdeadlines.org/co
+ nference/isgt-asia27
+LOCATION:Bangkok\, Thailand
+URL;VALUE=URI:https://www.isgt-asia-2027.org/
+CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:pes-td26-tutorial_proposal@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20250606
 DTEND;VALUE=DATE:20250607
 TRANSP:TRANSPARENT
@@ -866,7 +1028,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-td26-panel_proposal@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20250801
 DTEND;VALUE=DATE:20250802
 TRANSP:TRANSPARENT
@@ -905,7 +1067,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-td26-paper@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20250814
 DTEND;VALUE=DATE:20250815
 TRANSP:TRANSPARENT
@@ -945,7 +1107,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-td26-notification@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20251104
 DTEND;VALUE=DATE:20251105
 TRANSP:TRANSPARENT
@@ -983,7 +1145,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-abstract@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20250707
 DTEND;VALUE=DATE:20250708
 TRANSP:TRANSPARENT
@@ -1024,7 +1186,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-notification@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20251020
 DTEND;VALUE=DATE:20251021
 TRANSP:TRANSPARENT
@@ -1065,7 +1227,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-paper@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20260112
 DTEND;VALUE=DATE:20260113
 TRANSP:TRANSPARENT
@@ -1106,7 +1268,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20260410
 DTEND;VALUE=DATE:20260411
 TRANSP:TRANSPARENT
@@ -1146,7 +1308,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-notification-2@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20260511
 DTEND;VALUE=DATE:20260512
 TRANSP:TRANSPARENT
@@ -1187,7 +1349,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-poster@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20260630
 TRANSP:TRANSPARENT
@@ -1227,7 +1389,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-presentation_upload@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 TRANSP:TRANSPARENT
@@ -1268,7 +1430,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powerafrica26-paper@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
 TRANSP:TRANSPARENT
@@ -1304,7 +1466,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powerafrica26-notification@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 TRANSP:TRANSPARENT
@@ -1340,7 +1502,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powerafrica26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20260622
 DTEND;VALUE=DATE:20260623
 TRANSP:TRANSPARENT
@@ -1375,7 +1537,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powerafrica26-early_registration@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 TRANSP:TRANSPARENT
@@ -1411,7 +1573,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-europe26-paper@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20260415
 DTEND;VALUE=DATE:20260416
 TRANSP:TRANSPARENT
@@ -1445,7 +1607,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-europe26-notification@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 TRANSP:TRANSPARENT
@@ -1479,7 +1641,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-europe26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 TRANSP:TRANSPARENT
@@ -1513,7 +1675,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:smartgridcomm26-paper@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20260503
 DTEND;VALUE=DATE:20260504
 TRANSP:TRANSPARENT
@@ -1549,7 +1711,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:smartgridcomm26-notification@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 TRANSP:TRANSPARENT
@@ -1586,7 +1748,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:smartgridcomm26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 TRANSP:TRANSPARENT
@@ -1623,7 +1785,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-paper@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 TRANSP:TRANSPARENT
@@ -1660,7 +1822,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-notification@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 TRANSP:TRANSPARENT
@@ -1697,7 +1859,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-author_registration@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 TRANSP:TRANSPARENT
@@ -1734,7 +1896,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 TRANSP:TRANSPARENT
@@ -1771,7 +1933,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gtd-latam27-paper@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -1803,7 +1965,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-grid-edge27-paper@powersystemdeadlines.org
-DTSTAMP:20261103T042315Z
+DTSTAMP:20261103T094626Z
 DTSTART;VALUE=DATE:20260724
 DTEND;VALUE=DATE:20260725
 TRANSP:TRANSPARENT
