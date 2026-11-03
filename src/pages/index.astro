@@ -3,13 +3,24 @@ import ConferenceCard from '@/components/ConferenceCard.astro';
 import FilterBar from '@/components/FilterBar.tsx';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import {
+  filterAttributes,
+  getPastEditions,
   getUpcomingEditions,
+  locationLabel,
   submissionStatus,
   type ConferenceEdition,
 } from '@/lib/conferences';
+import { withBase } from '@/lib/site';
 import { REGIONS, SOCIETIES, TAGS, tagLabel } from '@/lib/taxonomy';
 
 const editions = await getUpcomingEditions();
+
+/**
+ * Past editions, rendered hidden and revealed by FilterBar only when a search
+ * matches them. Without this, a conference vanishes from search the day after
+ * it ends, and the empty state then invites the reader to add it.
+ */
+const archived = await getPastEditions();
 
 /**
  * Buckets shown as headings, in order. The last two are both "nothing to submit
@@ -102,4 +113,32 @@ const regionOptions = countBy(REGIONS, (edition, region) => edition.region === r
       ))
     }
   </div>
+
+  {
+    archived.length > 0 && (
+      <section data-archive-matches hidden class="mt-8">
+        <h2 class="text-sm font-semibold tracking-wide uppercase opacity-70">In the archive</h2>
+        <p class="mt-1 text-sm text-muted-foreground">
+          Past editions matching your search. Every deadline has passed.
+        </p>
+        <ul class="mt-3 space-y-1.5 text-sm">
+          {archived.map((edition) => (
+            <li data-archive-entry hidden {...filterAttributes(edition)}>
+              <a
+                href={withBase(`/conference/${edition.id}`)}
+                class="font-medium hover:text-primary hover:underline"
+              >
+                {edition.name} {edition.year}
+              </a>
+              <span class="text-muted-foreground">
+                {' '}
+                · {locationLabel(edition)} · {edition.dateLabel}
+                {edition.cancelled && ' · Cancelled'}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
 </BaseLayout>

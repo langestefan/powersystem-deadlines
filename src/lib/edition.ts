@@ -1,6 +1,12 @@
 import type { ConferenceSeriesData, DeadlineData, EditionData } from '../content.config';
 import { regionForCountry } from './regions';
-import { SUBMISSION_DEADLINE_TYPES, type Region, type Society, type TagId } from './taxonomy';
+import {
+  SUBMISSION_DEADLINE_TYPES,
+  tagLabel,
+  type Region,
+  type Society,
+  type TagId,
+} from './taxonomy';
 import { isTba, timezoneLabel, toUtc, UNSTATED_TIMEZONE, urgencyOf } from './time';
 
 /**
@@ -239,4 +245,33 @@ export function submissionStatus(
 export function locationLabel(edition: ConferenceEdition): string {
   if (edition.format === 'online') return 'Online';
   return [edition.city, edition.country].filter(Boolean).join(', ') || 'Location TBA';
+}
+
+/**
+ * The data-* attributes the homepage filter reads, for anything it filters:
+ * upcoming cards and the archive rows alike. One definition, so a conference
+ * found by one cannot be missed by the other.
+ */
+export function filterAttributes(edition: ConferenceEdition) {
+  const search = [
+    edition.name,
+    edition.fullName,
+    String(edition.year),
+    edition.city,
+    edition.country,
+    edition.venue,
+    ...edition.society,
+    ...edition.tags.map(tagLabel),
+  ]
+    .filter(Boolean)
+    .join(' ')
+    .toLowerCase();
+
+  return {
+    'data-tags': edition.tags.join(' '),
+    'data-societies': edition.society.join('|'),
+    'data-region': edition.region ?? '',
+    'data-country': edition.country ?? '',
+    'data-search': search,
+  };
 }

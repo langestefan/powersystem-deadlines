@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 
 import {
   deadlineZoneLabel,
+  filterAttributes,
   flattenEdition,
   resolveDeadline,
   submissionStatus,
@@ -142,5 +143,28 @@ describe('submissionStatus', () => {
       deadlines: [deadline('2026-08-01 23:59:59', 'AoE'), deadline('TBA')],
     });
     expect(submissionStatus(mixed, NOW)).toBe('closed');
+  });
+});
+
+describe('filterAttributes', () => {
+  // Every whitespace-separated term of a search must appear in data-search.
+  const finds = (query: string) => {
+    const haystack = filterAttributes(edition({}))['data-search'];
+    return query.toLowerCase().split(/\s+/).every((term) => haystack.includes(term));
+  };
+
+  it('finds an edition by name, full name and year together', () => {
+    expect(finds('TESTCONF 2027')).toBe(true);
+    expect(finds('test conference power')).toBe(true);
+  });
+
+  it('does not match another year', () => {
+    expect(finds('testconf 2026')).toBe(false);
+  });
+
+  it('carries the tag and society attributes the chips filter on', () => {
+    const attributes = filterAttributes(edition({}));
+    expect(attributes['data-tags']).toBe('power-systems');
+    expect(attributes['data-societies']).toBe('IEEE PES');
   });
 });
