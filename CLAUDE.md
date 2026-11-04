@@ -131,8 +131,9 @@ Every page must survive a 375px viewport with no horizontal scroll, which is che
 `documentElement.scrollWidth` against `clientWidth`, not by eye. Two rules earn their keep: a grid
 or flex child holding something wide needs `min-w-0` or it grows the page instead of scrolling
 inside its own `overflow-x-auto`, and the header nav only shares a row with the brand and controls
-from `lg` up, because the seven links plus everything else need about 955px, which is tight at
-1024px: an eighth link needs a re-measure.
+from `lg` up, because the six links plus everything else need about 875px. Subscribe is the
+primary button among the controls, not a nav link, and stays visible at every width (icon-only
+on a phone).
 
 Cards, tables, countdowns and the year calendar are server-rendered HTML. Interactivity is added on
 top of that DOM, never by re-rendering it:
