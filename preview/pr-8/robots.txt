@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://powersystemdeadlines.org/preview/pr-8/sitemap-index.xml

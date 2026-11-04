@@ -1,0 +1,152 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ECCE 2026 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for IEEE Energy Conversion Congress and Ex
+ position 2026.
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/preview/pr-8/conference/e
+ cce26.ics
+BEGIN:VEVENT
+UID:ecce26-abstract@powersystemdeadlines.org
+DTSTAMP:20261104T230525Z
+DTSTART;VALUE=DATE:20260313
+DTEND;VALUE=DATE:20260314
+TRANSP:TRANSPARENT
+SUMMARY:ECCE 2026: Digest submission (extended) (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nD
+ igest submission (extended): 13 Mar 2026\, 23:59 UTC+12 (assumed)\n\nConfe
+ rence: October 4-8\, 2026\nLocation: Vancouver\, Canada\n\nAll dates:\n  D
+ igest submission (extended): 13 Mar 2026\, 23:59 UTC+12 (assumed)\n  Autho
+ r notification: 22 May 2026\, 23:59 UTC+12 (assumed)\n  Final paper with I
+ EEE copyright form: 10 Jul 2026\, 23:59 UTC+12 (assumed)\n\nThe call for p
+ apers states no timezone. This is counted as UTC+12\, the earliest it coul
+ d plausibly mean\, so the countdown runs out before the real deadline rath
+ er than after it.\n\nDigests are single-column\, at most five pages includ
+ ing references\, and are double-blind reviewed. The submission deadline wa
+ s extended from 27 February to 13 March 2026.\n\nCall for papers: https://
+ www.ieee-ecce.org/2026/\nDetails: https://powersystemdeadlines.org/preview
+ /pr-8/conference/ecce26
+LOCATION:Vancouver\, Canada
+URL;VALUE=URI:https://www.ieee-ecce.org/2026/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
+  & Transportation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecce26-notification@powersystemdeadlines.org
+DTSTAMP:20261104T230525Z
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260523
+TRANSP:TRANSPARENT
+SUMMARY:ECCE 2026: Author notification (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nA
+ uthor notification: 22 May 2026\, 23:59 UTC+12 (assumed)\n\nConference: Oc
+ tober 4-8\, 2026\nLocation: Vancouver\, Canada\n\nAll dates:\n  Digest sub
+ mission (extended): 13 Mar 2026\, 23:59 UTC+12 (assumed)\n  Author notific
+ ation: 22 May 2026\, 23:59 UTC+12 (assumed)\n  Final paper with IEEE copyr
+ ight form: 10 Jul 2026\, 23:59 UTC+12 (assumed)\n\nThe call for papers sta
+ tes no timezone. This is counted as UTC+12\, the earliest it could plausib
+ ly mean\, so the countdown runs out before the real deadline rather than a
+ fter it.\n\nDigests are single-column\, at most five pages including refer
+ ences\, and are double-blind reviewed. The submission deadline was extende
+ d from 27 February to 13 March 2026.\n\nCall for papers: https://www.ieee-
+ ecce.org/2026/\nDetails: https://powersystemdeadlines.org/preview/pr-8/con
+ ference/ecce26
+LOCATION:Vancouver\, Canada
+URL;VALUE=URI:https://www.ieee-ecce.org/2026/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
+  & Transportation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecce26-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261104T230525Z
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
+TRANSP:TRANSPARENT
+SUMMARY:ECCE 2026: Final paper with IEEE copyright form (23:59 UTC+12 (assu
+ med))
+DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nF
+ inal paper with IEEE copyright form: 10 Jul 2026\, 23:59 UTC+12 (assumed)\
+ n\nConference: October 4-8\, 2026\nLocation: Vancouver\, Canada\n\nAll dat
+ es:\n  Digest submission (extended): 13 Mar 2026\, 23:59 UTC+12 (assumed)\
+ n  Author notification: 22 May 2026\, 23:59 UTC+12 (assumed)\n  Final pape
+ r with IEEE copyright form: 10 Jul 2026\, 23:59 UTC+12 (assumed)\n\nThe ca
+ ll for papers states no timezone. This is counted as UTC+12\, the earliest
+  it could plausibly mean\, so the countdown runs out before the real deadl
+ ine rather than after it.\n\nDigests are single-column\, at most five page
+ s including references\, and are double-blind reviewed. The submission dea
+ dline was extended from 27 February to 13 March 2026.\n\nCall for papers: 
+ https://www.ieee-ecce.org/2026/\nDetails: https://powersystemdeadlines.org
+ /preview/pr-8/conference/ecce26
+LOCATION:Vancouver\, Canada
+URL;VALUE=URI:https://www.ieee-ecce.org/2026/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
+  & Transportation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecce26-event@powersystemdeadlines.org
+DTSTAMP:20261104T230525Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261009
+TRANSP:TRANSPARENT
+SUMMARY:ECCE 2026
+DESCRIPTION:IEEE Energy Conversion Congress and Exposition (ECCE 2026)\n\nC
+ onference: October 4-8\, 2026\nLocation: Vancouver\, Canada\n\nAll dates:\
+ n  Digest submission (extended): 13 Mar 2026\, 23:59 UTC+12 (assumed)\n  A
+ uthor notification: 22 May 2026\, 23:59 UTC+12 (assumed)\n  Final paper wi
+ th IEEE copyright form: 10 Jul 2026\, 23:59 UTC+12 (assumed)\n\nThe call f
+ or papers states no timezone. This is counted as UTC+12\, the earliest it 
+ could plausibly mean\, so the countdown runs out before the real deadline 
+ rather than after it.\n\nDigests are single-column\, at most five pages in
+ cluding references\, and are double-blind reviewed. The submission deadlin
+ e was extended from 27 February to 13 March 2026.\n\nCall for papers: http
+ s://www.ieee-ecce.org/2026/\nDetails: https://powersystemdeadlines.org/pre
+ view/pr-8/conference/ecce26
+LOCATION:Vancouver\, Canada
+URL;VALUE=URI:https://www.ieee-ecce.org/2026/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage,EV
+  & Transportation
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR
