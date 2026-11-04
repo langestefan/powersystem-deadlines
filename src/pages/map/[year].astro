@@ -1,0 +1,34 @@
+---
+import type { GetStaticPaths } from 'astro';
+
+import ConferenceMap from '@/components/ConferenceMap.astro';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getAllEditions, type ConferenceEdition } from '@/lib/conferences';
+import { mapYears } from '@/lib/map';
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const editions = await getAllEditions();
+  const years = mapYears(editions);
+
+  return years.map((year) => ({
+    params: { year: String(year) },
+    props: { year, years, editions },
+  }));
+};
+
+interface Props {
+  year: number;
+  years: number[];
+  editions: ConferenceEdition[];
+}
+
+const { year, years, editions } = Astro.props;
+---
+
+<BaseLayout
+  path={`/map/${year}`}
+  title={`${year} conference map`}
+  description={`Where every power system conference in ${year} is held, on a world map.`}
+>
+  <ConferenceMap year={year} years={years} editions={editions} />
+</BaseLayout>

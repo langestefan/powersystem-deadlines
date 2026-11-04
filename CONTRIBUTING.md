@@ -58,7 +58,7 @@ editions:
 | `date`            | yes      | Human-readable, shown verbatim: `June 8-12, 2026`               |
 | `verified`        | yes      | Date you last checked this edition against the official CFP     |
 | `link`            | no       | Only when this edition has its own site                         |
-| `city`, `country` | no       | `country` must be one this repo knows, see below                |
+| `city`, `country` | no       | Both must be ones this repo knows, see below                    |
 | `region`          | no       | Derived from `country`; set it only when derivation fails       |
 | `venue`           | no       | Building or campus                                              |
 | `start`, `end`    | no       | `YYYY-MM-DD`. Drives the archive and the conference-dates feed  |
@@ -180,6 +180,13 @@ editing `TAGS` in [`src/lib/taxonomy.ts`](src/lib/taxonomy.ts).
 
 `country` is mapped to a region by [`src/lib/regions.ts`](src/lib/regions.ts). If yours is not
 listed, add it there in the same pull request (one line), or set `region:` explicitly.
+
+### Cities
+
+The [conference map](https://powersystemdeadlines.org/map) places an edition by
+its `city` and `country`, looked up in [`src/lib/places.ts`](src/lib/places.ts). If the city is
+new, add one line there with its latitude and longitude (two decimals is plenty);
+`npm run validate` reports it otherwise.
 
 ## Running it locally
 
