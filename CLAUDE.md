@@ -70,11 +70,10 @@ Layer boundaries that exist on purpose, and should stay:
   date, and this module decides when that check has aged enough to warn about. Pure, so both
   `scripts/validate.ts` and the pages share one definition of "stale".
 
-- **`map.ts`** is the world map's data layer: editions → one projected marker per city per
-  conference year (two conferences in one city share a marker), the land/border paths and the
-  region zoom boxes, all computed at build time with `d3-geo` and `world-atlas`, so no map code
-  reaches the browser. Pure like `overview.ts`. Markers are coloured by the same lead tag as the
-  calendar's conference bars, through `markerClass` in `taxonomy.ts`.
+- **`map.ts`** is the map's data layer: editions → one marker per city per conference year (two
+  conferences in one city share a marker), plus the legend and the list of every edition that
+  year. Pure like `overview.ts`. Markers are coloured by the same lead tag as the calendar's
+  conference bars, through `markerClass` in `taxonomy.ts`.
 - **`places.ts`** is city → coordinates, keyed `"City, Country"` as written in the YAML. Like
   `regions.ts`, an unknown city is a validation error, not a guess or a geocoder call.
 
@@ -146,9 +145,15 @@ top of that DOM, never by re-rendering it:
 - `YearCalendar.astro` carries one inline `<script>`: a delegated listener that positions the day
   popover from each cell's `data-detail` JSON, and a legend that doubles as switches hiding marks
   already in the DOM. Same rule — one listener for the whole grid, not an island per day.
-- `ConferenceMap.astro` is a server-rendered SVG whose markers are plain links, plus one inline
-  `<script>` for the popover, the region zoom (a tweened `viewBox`, with markers rescaled to keep
-  a constant on-screen size) and legend switches. Same rule again.
+- `ConferenceMap.astro` is the one exception to "server-rendered first": a MapLibre GL map,
+  loaded only on `/map`, over OpenFreeMap's vector tiles (OpenStreetMap data, no API key), with
+  the `positron` or `dark` style picked by the theme. Its script takes the markers as JSON from
+  the container's `data-markers`, retunes the style before use (bold country borders, dashed
+  admin-level-4 borders, English labels) and clusters markers through a GeoJSON source, drawn
+  as DOM markers so they keep the site's colour classes. The plain-HTML list under the map has
+  the same conferences, for anyone without JavaScript. MapLibre 6 loads its worker by URL, so
+  it is imported with `?worker&url` and passed to `setWorkerUrl()`; without that the map is
+  blank in production.
 - `SubscribeLinks.tsx` (`client:visible`) is the only other React island, for the copy buttons.
 
 `/overview` renders the current year itself instead of redirecting to `/overview/<year>`: GitHub

@@ -3,12 +3,9 @@ import { describe, expect, it } from 'vitest';
 import { flattenEdition, type ConferenceEdition } from '@/lib/edition';
 import {
   buildMapMarkers,
-  MAP_ASPECT,
-  MAP_VIEWS,
   mapEditions,
   mapLegend,
   mapYears,
-  project,
   unplacedEditions,
 } from '@/lib/map';
 import { getTag } from '@/lib/taxonomy';
@@ -72,14 +69,9 @@ describe('buildMapMarkers', () => {
     expect(paris.markerClass).toBe(getTag('power-systems')!.markerClass);
   });
 
-  it('draws a cluster after a single marker so it sits on top', () => {
-    const markers = buildMapMarkers(all, 2027);
-    expect(markers.at(-1)!.key).toBe('Paris, France');
-  });
-
-  it('projects a marker to the same point as the city', () => {
+  it('places a marker at the city’s coordinates', () => {
     const delft = buildMapMarkers(all, 2027).find((m) => m.key === 'Delft, Netherlands')!;
-    expect({ x: delft.x, y: delft.y }).toEqual(project([52.01, 4.36]));
+    expect([delft.lat, delft.lon]).toEqual([52.01, 4.36]);
   });
 
   it('lists online and location-TBA editions as unplaced', () => {
@@ -95,35 +87,5 @@ describe('buildMapMarkers', () => {
       'Power Systems',
       'Power Electronics',
     ]);
-  });
-});
-
-describe('MAP_VIEWS', () => {
-  it('gives every view a non-empty box with the map’s aspect ratio', () => {
-    for (const view of MAP_VIEWS) {
-      expect(view.box.width, view.id).toBeGreaterThan(0);
-      expect(view.box.width / view.box.height, view.id).toBeCloseTo(MAP_ASPECT, 1);
-    }
-  });
-
-  it('keeps Europe inside the world view', () => {
-    const world = MAP_VIEWS.find((v) => v.id === 'world')!.box;
-    const europe = MAP_VIEWS.find((v) => v.id === 'europe')!.box;
-    expect(europe.x).toBeGreaterThanOrEqual(world.x);
-    expect(europe.x + europe.width).toBeLessThanOrEqual(world.x + world.width);
-  });
-
-  it('frames each region around its cities', () => {
-    const inside = (id: string, lat: number, lon: number) => {
-      const box = MAP_VIEWS.find((v) => v.id === id)!.box;
-      const { x, y } = project([lat, lon]);
-      return x >= box.x && x <= box.x + box.width && y >= box.y && y <= box.y + box.height;
-    };
-    expect(inside('europe', 38.72, -9.14)).toBe(true); // Lisbon
-    expect(inside('europe', 59.33, 18.07)).toBe(true); // Stockholm
-    expect(inside('north-america', 21.31, -157.86)).toBe(true); // Honolulu
-    expect(inside('latin-america', -27.6, -48.55)).toBe(true); // Florianópolis
-    expect(inside('asia', 25.29, 51.53)).toBe(true); // Doha
-    expect(inside('asia', 35.18, 136.91)).toBe(true); // Nagoya
   });
 });
