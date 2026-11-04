@@ -152,7 +152,9 @@ top of that DOM, never by re-rendering it:
   the container's `data-markers`, retunes the style before use (bold country borders, dashed
   admin-level-4 borders, English labels) and clusters markers through a GeoJSON source, drawn
   as DOM markers so they keep the site's colour classes. The plain-HTML list under the map has
-  the same conferences, for anyone without JavaScript. MapLibre 6 loads its worker by URL, so
+  the same conferences, for anyone without JavaScript; with it, a plain click on a list entry
+  flies the map to that city and opens its popup instead (`data-edition-id`), and a modified
+  click or an unplaced conference still follows the link. MapLibre 6 loads its worker by URL, so
   it is imported with `?worker&url` and passed to `setWorkerUrl()`; without that the map is
   blank in production.
 - `SubscribeLinks.tsx` (`client:visible`) is the only other React island, for the copy buttons.

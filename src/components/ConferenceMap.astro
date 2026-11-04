@@ -39,6 +39,7 @@ const payload = markers.map((marker) => ({
   topics: marker.topics,
   markerClass: marker.markerClass,
   editions: marker.editions.map((edition) => ({
+    id: edition.id,
     name: edition.name,
     fullName: edition.fullName,
     when: edition.dateLabel,
@@ -143,6 +144,7 @@ const payload = markers.map((marker) => ({
         <li class="min-w-0" data-list-topic={edition.topic}>
           <a
             href={withBase(`/conference/${edition.id}`)}
+            data-edition-id={edition.id}
             class="-mx-2 flex flex-wrap items-baseline gap-x-2 rounded-md px-2 py-1 hover:bg-accent"
           >
             <svg class="size-2 shrink-0 self-center" viewBox="0 0 10 10" aria-hidden="true">
@@ -221,6 +223,7 @@ const payload = markers.map((marker) => ({
   import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
 
   interface MapEdition {
+    id: string;
     name: string;
     fullName: string;
     when: string;
@@ -348,7 +351,7 @@ const payload = markers.map((marker) => ({
         data: features(),
         cluster: true,
         clusterRadius: 44,
-        clusterMaxZoom: 9,
+        clusterMaxZoom: 7,
         clusterProperties: { total: ['+', ['get', 'count']] },
       });
       // An invisible layer, so the source is tiled and can be queried.
@@ -478,8 +481,50 @@ const payload = markers.map((marker) => ({
 
     map.on('render', sync);
 
+    const closePopups = () => {
+      for (const m of points.values()) m.getPopup()?.remove();
+    };
+
     document.addEventListener('keydown', (event) => {
-      if (event.key === 'Escape') for (const m of points.values()) m.getPopup()?.remove();
+      if (event.key === 'Escape') closePopups();
+    });
+
+    // --- list -> map --------------------------------------------------------
+    // A conference in the list below flies the map to its city and opens its
+    // popup, which links on to the conference page. Modified clicks (new tab,
+    // new window) and conferences with no place on the map keep the link.
+    const markerOf = new Map<string, number>();
+    data.forEach((marker, index) => {
+      for (const edition of marker.editions) markerOf.set(edition.id, index);
+    });
+
+    /** Past clusterMaxZoom, so the city is always its own marker on arrival. */
+    const FOCUS_ZOOM = 8;
+
+    document.addEventListener('click', (event) => {
+      const link = (event.target as Element | null)?.closest<HTMLAnchorElement>('[data-edition-id]');
+      if (!link) return;
+      if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      const index = markerOf.get(link.dataset.editionId ?? '');
+      if (index === undefined) return;
+      const marker = data[index]!;
+      // A conference switched off in the legend has no marker to open.
+      if (marker.topics.every((t) => hiddenTopics.has(t))) return;
+
+      event.preventDefault();
+      closePopups();
+      container.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+      map.flyTo({ center: [marker.lon, marker.lat], zoom: Math.max(map.getZoom(), FOCUS_ZOOM) });
+      map.once('moveend', () => {
+        const m = pointMarker(index);
+        if (!onScreen.has(m)) {
+          m.addTo(map);
+          onScreen.add(m);
+        }
+        m.getPopup()?.setHTML(popupFor(marker));
+        if (!m.getPopup()?.isOpen()) m.togglePopup();
+      });
     });
 
     // Frame every placed conference on first load, but never zoomed in so far
@@ -499,7 +544,7 @@ const payload = markers.map((marker) => ({
         else hiddenTopics.delete(topic);
         toggle.setAttribute('aria-pressed', String(!on));
 
-        for (const m of points.values()) m.getPopup()?.remove();
+        closePopups();
         // Cluster ids are only valid for one dataset.
         for (const m of clusters.values()) m.remove();
         clusters.clear();
