@@ -1,0 +1,571 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//powersystemdeadlines.org//powersystem-deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:e-Energy 2027 deadlines
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALDESC:Deadlines and dates for ACM International Conference on Future
+  and Sustainable Energy Systems 2027.
+SOURCE;VALUE=URI:https://powersystemdeadlines.org/preview/pr-7/conference/e
+ -energy27.ics
+BEGIN:VEVENT
+UID:e-energy27-abstract@powersystemdeadlines.org
+DTSTAMP:20261104T193306Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+TRANSP:TRANSPARENT
+SUMMARY:e-Energy 2027: Abstract registration (fall deadline) (23:59 AoE)
+DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
+ ystems (e-Energy 2027)\n\nAbstract registration (fall deadline): 11 Sept 2
+ 026\, 23:59 AoE\n\nConference: June 5-11\, 2027\nLocation: Atlanta\, USA\n
+ Venue: Hyatt Regency Atlanta\n\nAll dates:\n  Abstract registration (fall 
+ deadline): 11 Sept 2026\, 23:59 AoE\n  Paper submission (fall deadline): 1
+ 8 Sept 2026\, 23:59 AoE\n  Author notification (fall deadline): 6 Nov 2026
+ \, 23:59 UTC+12 (assumed)\n  Revision submission (fall deadline): 20 Nov 2
+ 026\, 23:59 AoE\n  Revision notification (fall deadline): 10 Dec 2026\, 23
+ :59 UTC+12 (assumed)\n  Abstract registration (winter deadline): 8 Jan 202
+ 7\, 23:59 AoE\n  Paper submission (winter deadline): 15 Jan 2027\, 23:59 A
+ oE\n  Author notification (winter deadline): 5 Mar 2027\, 23:59 UTC+12 (as
+ sumed)\n  Revision submission (winter deadline): 19 Mar 2027\, 23:59 AoE\n
+   Revision notification (winter deadline): 16 Apr 2027\, 23:59 UTC+12 (ass
+ umed)\n  Camera-ready due (both deadlines): 30 Apr 2027\, 23:59 AoE\n\nThe
+  call for papers states no timezone. This is counted as UTC+12\, the earli
+ est it could plausibly mean\, so the countdown runs out before the real de
+ adline rather than after it.\n\n18th edition\, part of the inaugural ACM S
+ ustainability Week. Two submission rounds: fall (closed) and winter. Paper
+ s rejected in the fall round may not be resubmitted in the winter round. A
+ uthors pick one of four tracks on HotCRP\; the winter submission site open
+ s about three weeks before its deadline. Notification dates state no time 
+ or timezone.\n\nCall for papers: https://energy.acm.org/conferences/eenerg
+ y/2027/\nDetails: https://powersystemdeadlines.org/preview/pr-7/conference
+ /e-energy27
+LOCATION:Atlanta\, USA
+URL;VALUE=URI:https://energy.acm.org/conferences/eenergy/2027/
+CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e-energy27-paper@powersystemdeadlines.org
+DTSTAMP:20261104T193306Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+TRANSP:TRANSPARENT
+SUMMARY:e-Energy 2027: Paper submission (fall deadline) (23:59 AoE)
+DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
+ ystems (e-Energy 2027)\n\nPaper submission (fall deadline): 18 Sept 2026\,
+  23:59 AoE\n\nConference: June 5-11\, 2027\nLocation: Atlanta\, USA\nVenue
+ : Hyatt Regency Atlanta\n\nAll dates:\n  Abstract registration (fall deadl
+ ine): 11 Sept 2026\, 23:59 AoE\n  Paper submission (fall deadline): 18 Sep
+ t 2026\, 23:59 AoE\n  Author notification (fall deadline): 6 Nov 2026\, 23
+ :59 UTC+12 (assumed)\n  Revision submission (fall deadline): 20 Nov 2026\,
+  23:59 AoE\n  Revision notification (fall deadline): 10 Dec 2026\, 23:59 U
+ TC+12 (assumed)\n  Abstract registration (winter deadline): 8 Jan 2027\, 2
+ 3:59 AoE\n  Paper submission (winter deadline): 15 Jan 2027\, 23:59 AoE\n 
+  Author notification (winter deadline): 5 Mar 2027\, 23:59 UTC+12 (assumed
+ )\n  Revision submission (winter deadline): 19 Mar 2027\, 23:59 AoE\n  Rev
+ ision notification (winter deadline): 16 Apr 2027\, 23:59 UTC+12 (assumed)
+ \n  Camera-ready due (both deadlines): 30 Apr 2027\, 23:59 AoE\n\nThe call
+  for papers states no timezone. This is counted as UTC+12\, the earliest i
+ t could plausibly mean\, so the countdown runs out before the real deadlin
+ e rather than after it.\n\n18th edition\, part of the inaugural ACM Sustai
+ nability Week. Two submission rounds: fall (closed) and winter. Papers rej
+ ected in the fall round may not be resubmitted in the winter round. Author
+ s pick one of four tracks on HotCRP\; the winter submission site opens abo
+ ut three weeks before its deadline. Notification dates state no time or ti
+ mezone.\n\nCall for papers: https://energy.acm.org/conferences/eenergy/202
+ 7/\nDetails: https://powersystemdeadlines.org/preview/pr-7/conference/e-en
+ ergy27
+LOCATION:Atlanta\, USA
+URL;VALUE=URI:https://energy.acm.org/conferences/eenergy/2027/
+CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e-energy27-notification@powersystemdeadlines.org
+DTSTAMP:20261104T193306Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+TRANSP:TRANSPARENT
+SUMMARY:e-Energy 2027: Author notification (fall deadline) (23:59 UTC+12 (a
+ ssumed))
+DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
+ ystems (e-Energy 2027)\n\nAuthor notification (fall deadline): 6 Nov 2026\
+ , 23:59 UTC+12 (assumed)\n\nConference: June 5-11\, 2027\nLocation: Atlant
+ a\, USA\nVenue: Hyatt Regency Atlanta\n\nAll dates:\n  Abstract registrati
+ on (fall deadline): 11 Sept 2026\, 23:59 AoE\n  Paper submission (fall dea
+ dline): 18 Sept 2026\, 23:59 AoE\n  Author notification (fall deadline): 6
+  Nov 2026\, 23:59 UTC+12 (assumed)\n  Revision submission (fall deadline):
+  20 Nov 2026\, 23:59 AoE\n  Revision notification (fall deadline): 10 Dec 
+ 2026\, 23:59 UTC+12 (assumed)\n  Abstract registration (winter deadline): 
+ 8 Jan 2027\, 23:59 AoE\n  Paper submission (winter deadline): 15 Jan 2027\
+ , 23:59 AoE\n  Author notification (winter deadline): 5 Mar 2027\, 23:59 U
+ TC+12 (assumed)\n  Revision submission (winter deadline): 19 Mar 2027\, 23
+ :59 AoE\n  Revision notification (winter deadline): 16 Apr 2027\, 23:59 UT
+ C+12 (assumed)\n  Camera-ready due (both deadlines): 30 Apr 2027\, 23:59 A
+ oE\n\nThe call for papers states no timezone. This is counted as UTC+12\, 
+ the earliest it could plausibly mean\, so the countdown runs out before th
+ e real deadline rather than after it.\n\n18th edition\, part of the inaugu
+ ral ACM Sustainability Week. Two submission rounds: fall (closed) and wint
+ er. Papers rejected in the fall round may not be resubmitted in the winter
+  round. Authors pick one of four tracks on HotCRP\; the winter submission 
+ site opens about three weeks before its deadline. Notification dates state
+  no time or timezone.\n\nCall for papers: https://energy.acm.org/conferenc
+ es/eenergy/2027/\nDetails: https://powersystemdeadlines.org/preview/pr-7/c
+ onference/e-energy27
+LOCATION:Atlanta\, USA
+URL;VALUE=URI:https://energy.acm.org/conferences/eenergy/2027/
+CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e-energy27-revision@powersystemdeadlines.org
+DTSTAMP:20261104T193306Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+TRANSP:TRANSPARENT
+SUMMARY:e-Energy 2027: Revision submission (fall deadline) (23:59 AoE)
+DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
+ ystems (e-Energy 2027)\n\nRevision submission (fall deadline): 20 Nov 2026
+ \, 23:59 AoE\n\nConference: June 5-11\, 2027\nLocation: Atlanta\, USA\nVen
+ ue: Hyatt Regency Atlanta\n\nAll dates:\n  Abstract registration (fall dea
+ dline): 11 Sept 2026\, 23:59 AoE\n  Paper submission (fall deadline): 18 S
+ ept 2026\, 23:59 AoE\n  Author notification (fall deadline): 6 Nov 2026\, 
+ 23:59 UTC+12 (assumed)\n  Revision submission (fall deadline): 20 Nov 2026
+ \, 23:59 AoE\n  Revision notification (fall deadline): 10 Dec 2026\, 23:59
+  UTC+12 (assumed)\n  Abstract registration (winter deadline): 8 Jan 2027\,
+  23:59 AoE\n  Paper submission (winter deadline): 15 Jan 2027\, 23:59 AoE\
+ n  Author notification (winter deadline): 5 Mar 2027\, 23:59 UTC+12 (assum
+ ed)\n  Revision submission (winter deadline): 19 Mar 2027\, 23:59 AoE\n  R
+ evision notification (winter deadline): 16 Apr 2027\, 23:59 UTC+12 (assume
+ d)\n  Camera-ready due (both deadlines): 30 Apr 2027\, 23:59 AoE\n\nThe ca
+ ll for papers states no timezone. This is counted as UTC+12\, the earliest
+  it could plausibly mean\, so the countdown runs out before the real deadl
+ ine rather than after it.\n\n18th edition\, part of the inaugural ACM Sust
+ ainability Week. Two submission rounds: fall (closed) and winter. Papers r
+ ejected in the fall round may not be resubmitted in the winter round. Auth
+ ors pick one of four tracks on HotCRP\; the winter submission site opens a
+ bout three weeks before its deadline. Notification dates state no time or 
+ timezone.\n\nCall for papers: https://energy.acm.org/conferences/eenergy/2
+ 027/\nDetails: https://powersystemdeadlines.org/preview/pr-7/conference/e-
+ energy27
+LOCATION:Atlanta\, USA
+URL;VALUE=URI:https://energy.acm.org/conferences/eenergy/2027/
+CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e-energy27-notification-2@powersystemdeadlines.org
+DTSTAMP:20261104T193306Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+TRANSP:TRANSPARENT
+SUMMARY:e-Energy 2027: Revision notification (fall deadline) (23:59 UTC+12 
+ (assumed))
+DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
+ ystems (e-Energy 2027)\n\nRevision notification (fall deadline): 10 Dec 20
+ 26\, 23:59 UTC+12 (assumed)\n\nConference: June 5-11\, 2027\nLocation: Atl
+ anta\, USA\nVenue: Hyatt Regency Atlanta\n\nAll dates:\n  Abstract registr
+ ation (fall deadline): 11 Sept 2026\, 23:59 AoE\n  Paper submission (fall 
+ deadline): 18 Sept 2026\, 23:59 AoE\n  Author notification (fall deadline)
+ : 6 Nov 2026\, 23:59 UTC+12 (assumed)\n  Revision submission (fall deadlin
+ e): 20 Nov 2026\, 23:59 AoE\n  Revision notification (fall deadline): 10 D
+ ec 2026\, 23:59 UTC+12 (assumed)\n  Abstract registration (winter deadline
+ ): 8 Jan 2027\, 23:59 AoE\n  Paper submission (winter deadline): 15 Jan 20
+ 27\, 23:59 AoE\n  Author notification (winter deadline): 5 Mar 2027\, 23:5
+ 9 UTC+12 (assumed)\n  Revision submission (winter deadline): 19 Mar 2027\,
+  23:59 AoE\n  Revision notification (winter deadline): 16 Apr 2027\, 23:59
+  UTC+12 (assumed)\n  Camera-ready due (both deadlines): 30 Apr 2027\, 23:5
+ 9 AoE\n\nThe call for papers states no timezone. This is counted as UTC+12
+ \, the earliest it could plausibly mean\, so the countdown runs out before
+  the real deadline rather than after it.\n\n18th edition\, part of the ina
+ ugural ACM Sustainability Week. Two submission rounds: fall (closed) and w
+ inter. Papers rejected in the fall round may not be resubmitted in the win
+ ter round. Authors pick one of four tracks on HotCRP\; the winter submissi
+ on site opens about three weeks before its deadline. Notification dates st
+ ate no time or timezone.\n\nCall for papers: https://energy.acm.org/confer
+ ences/eenergy/2027/\nDetails: https://powersystemdeadlines.org/preview/pr-
+ 7/conference/e-energy27
+LOCATION:Atlanta\, USA
+URL;VALUE=URI:https://energy.acm.org/conferences/eenergy/2027/
+CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e-energy27-abstract-2@powersystemdeadlines.org
+DTSTAMP:20261104T193306Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+TRANSP:TRANSPARENT
+SUMMARY:e-Energy 2027: Abstract registration (winter deadline) (23:59 AoE)
+DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
+ ystems (e-Energy 2027)\n\nAbstract registration (winter deadline): 8 Jan 2
+ 027\, 23:59 AoE\n\nConference: June 5-11\, 2027\nLocation: Atlanta\, USA\n
+ Venue: Hyatt Regency Atlanta\n\nAll dates:\n  Abstract registration (fall 
+ deadline): 11 Sept 2026\, 23:59 AoE\n  Paper submission (fall deadline): 1
+ 8 Sept 2026\, 23:59 AoE\n  Author notification (fall deadline): 6 Nov 2026
+ \, 23:59 UTC+12 (assumed)\n  Revision submission (fall deadline): 20 Nov 2
+ 026\, 23:59 AoE\n  Revision notification (fall deadline): 10 Dec 2026\, 23
+ :59 UTC+12 (assumed)\n  Abstract registration (winter deadline): 8 Jan 202
+ 7\, 23:59 AoE\n  Paper submission (winter deadline): 15 Jan 2027\, 23:59 A
+ oE\n  Author notification (winter deadline): 5 Mar 2027\, 23:59 UTC+12 (as
+ sumed)\n  Revision submission (winter deadline): 19 Mar 2027\, 23:59 AoE\n
+   Revision notification (winter deadline): 16 Apr 2027\, 23:59 UTC+12 (ass
+ umed)\n  Camera-ready due (both deadlines): 30 Apr 2027\, 23:59 AoE\n\nThe
+  call for papers states no timezone. This is counted as UTC+12\, the earli
+ est it could plausibly mean\, so the countdown runs out before the real de
+ adline rather than after it.\n\n18th edition\, part of the inaugural ACM S
+ ustainability Week. Two submission rounds: fall (closed) and winter. Paper
+ s rejected in the fall round may not be resubmitted in the winter round. A
+ uthors pick one of four tracks on HotCRP\; the winter submission site open
+ s about three weeks before its deadline. Notification dates state no time 
+ or timezone.\n\nCall for papers: https://energy.acm.org/conferences/eenerg
+ y/2027/\nDetails: https://powersystemdeadlines.org/preview/pr-7/conference
+ /e-energy27
+LOCATION:Atlanta\, USA
+URL;VALUE=URI:https://energy.acm.org/conferences/eenergy/2027/
+CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e-energy27-paper-2@powersystemdeadlines.org
+DTSTAMP:20261104T193306Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+TRANSP:TRANSPARENT
+SUMMARY:e-Energy 2027: Paper submission (winter deadline) (23:59 AoE)
+DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
+ ystems (e-Energy 2027)\n\nPaper submission (winter deadline): 15 Jan 2027\
+ , 23:59 AoE\n\nConference: June 5-11\, 2027\nLocation: Atlanta\, USA\nVenu
+ e: Hyatt Regency Atlanta\n\nAll dates:\n  Abstract registration (fall dead
+ line): 11 Sept 2026\, 23:59 AoE\n  Paper submission (fall deadline): 18 Se
+ pt 2026\, 23:59 AoE\n  Author notification (fall deadline): 6 Nov 2026\, 2
+ 3:59 UTC+12 (assumed)\n  Revision submission (fall deadline): 20 Nov 2026\
+ , 23:59 AoE\n  Revision notification (fall deadline): 10 Dec 2026\, 23:59 
+ UTC+12 (assumed)\n  Abstract registration (winter deadline): 8 Jan 2027\, 
+ 23:59 AoE\n  Paper submission (winter deadline): 15 Jan 2027\, 23:59 AoE\n
+   Author notification (winter deadline): 5 Mar 2027\, 23:59 UTC+12 (assume
+ d)\n  Revision submission (winter deadline): 19 Mar 2027\, 23:59 AoE\n  Re
+ vision notification (winter deadline): 16 Apr 2027\, 23:59 UTC+12 (assumed
+ )\n  Camera-ready due (both deadlines): 30 Apr 2027\, 23:59 AoE\n\nThe cal
+ l for papers states no timezone. This is counted as UTC+12\, the earliest 
+ it could plausibly mean\, so the countdown runs out before the real deadli
+ ne rather than after it.\n\n18th edition\, part of the inaugural ACM Susta
+ inability Week. Two submission rounds: fall (closed) and winter. Papers re
+ jected in the fall round may not be resubmitted in the winter round. Autho
+ rs pick one of four tracks on HotCRP\; the winter submission site opens ab
+ out three weeks before its deadline. Notification dates state no time or t
+ imezone.\n\nCall for papers: https://energy.acm.org/conferences/eenergy/20
+ 27/\nDetails: https://powersystemdeadlines.org/preview/pr-7/conference/e-e
+ nergy27
+LOCATION:Atlanta\, USA
+URL;VALUE=URI:https://energy.acm.org/conferences/eenergy/2027/
+CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e-energy27-notification-3@powersystemdeadlines.org
+DTSTAMP:20261104T193306Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+TRANSP:TRANSPARENT
+SUMMARY:e-Energy 2027: Author notification (winter deadline) (23:59 UTC+12 
+ (assumed))
+DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
+ ystems (e-Energy 2027)\n\nAuthor notification (winter deadline): 5 Mar 202
+ 7\, 23:59 UTC+12 (assumed)\n\nConference: June 5-11\, 2027\nLocation: Atla
+ nta\, USA\nVenue: Hyatt Regency Atlanta\n\nAll dates:\n  Abstract registra
+ tion (fall deadline): 11 Sept 2026\, 23:59 AoE\n  Paper submission (fall d
+ eadline): 18 Sept 2026\, 23:59 AoE\n  Author notification (fall deadline):
+  6 Nov 2026\, 23:59 UTC+12 (assumed)\n  Revision submission (fall deadline
+ ): 20 Nov 2026\, 23:59 AoE\n  Revision notification (fall deadline): 10 De
+ c 2026\, 23:59 UTC+12 (assumed)\n  Abstract registration (winter deadline)
+ : 8 Jan 2027\, 23:59 AoE\n  Paper submission (winter deadline): 15 Jan 202
+ 7\, 23:59 AoE\n  Author notification (winter deadline): 5 Mar 2027\, 23:59
+  UTC+12 (assumed)\n  Revision submission (winter deadline): 19 Mar 2027\, 
+ 23:59 AoE\n  Revision notification (winter deadline): 16 Apr 2027\, 23:59 
+ UTC+12 (assumed)\n  Camera-ready due (both deadlines): 30 Apr 2027\, 23:59
+  AoE\n\nThe call for papers states no timezone. This is counted as UTC+12\
+ , the earliest it could plausibly mean\, so the countdown runs out before 
+ the real deadline rather than after it.\n\n18th edition\, part of the inau
+ gural ACM Sustainability Week. Two submission rounds: fall (closed) and wi
+ nter. Papers rejected in the fall round may not be resubmitted in the wint
+ er round. Authors pick one of four tracks on HotCRP\; the winter submissio
+ n site opens about three weeks before its deadline. Notification dates sta
+ te no time or timezone.\n\nCall for papers: https://energy.acm.org/confere
+ nces/eenergy/2027/\nDetails: https://powersystemdeadlines.org/preview/pr-7
+ /conference/e-energy27
+LOCATION:Atlanta\, USA
+URL;VALUE=URI:https://energy.acm.org/conferences/eenergy/2027/
+CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e-energy27-revision-2@powersystemdeadlines.org
+DTSTAMP:20261104T193306Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+TRANSP:TRANSPARENT
+SUMMARY:e-Energy 2027: Revision submission (winter deadline) (23:59 AoE)
+DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
+ ystems (e-Energy 2027)\n\nRevision submission (winter deadline): 19 Mar 20
+ 27\, 23:59 AoE\n\nConference: June 5-11\, 2027\nLocation: Atlanta\, USA\nV
+ enue: Hyatt Regency Atlanta\n\nAll dates:\n  Abstract registration (fall d
+ eadline): 11 Sept 2026\, 23:59 AoE\n  Paper submission (fall deadline): 18
+  Sept 2026\, 23:59 AoE\n  Author notification (fall deadline): 6 Nov 2026\
+ , 23:59 UTC+12 (assumed)\n  Revision submission (fall deadline): 20 Nov 20
+ 26\, 23:59 AoE\n  Revision notification (fall deadline): 10 Dec 2026\, 23:
+ 59 UTC+12 (assumed)\n  Abstract registration (winter deadline): 8 Jan 2027
+ \, 23:59 AoE\n  Paper submission (winter deadline): 15 Jan 2027\, 23:59 Ao
+ E\n  Author notification (winter deadline): 5 Mar 2027\, 23:59 UTC+12 (ass
+ umed)\n  Revision submission (winter deadline): 19 Mar 2027\, 23:59 AoE\n 
+  Revision notification (winter deadline): 16 Apr 2027\, 23:59 UTC+12 (assu
+ med)\n  Camera-ready due (both deadlines): 30 Apr 2027\, 23:59 AoE\n\nThe 
+ call for papers states no timezone. This is counted as UTC+12\, the earlie
+ st it could plausibly mean\, so the countdown runs out before the real dea
+ dline rather than after it.\n\n18th edition\, part of the inaugural ACM Su
+ stainability Week. Two submission rounds: fall (closed) and winter. Papers
+  rejected in the fall round may not be resubmitted in the winter round. Au
+ thors pick one of four tracks on HotCRP\; the winter submission site opens
+  about three weeks before its deadline. Notification dates state no time o
+ r timezone.\n\nCall for papers: https://energy.acm.org/conferences/eenergy
+ /2027/\nDetails: https://powersystemdeadlines.org/preview/pr-7/conference/
+ e-energy27
+LOCATION:Atlanta\, USA
+URL;VALUE=URI:https://energy.acm.org/conferences/eenergy/2027/
+CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e-energy27-notification-4@powersystemdeadlines.org
+DTSTAMP:20261104T193306Z
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+TRANSP:TRANSPARENT
+SUMMARY:e-Energy 2027: Revision notification (winter deadline) (23:59 UTC+1
+ 2 (assumed))
+DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
+ ystems (e-Energy 2027)\n\nRevision notification (winter deadline): 16 Apr 
+ 2027\, 23:59 UTC+12 (assumed)\n\nConference: June 5-11\, 2027\nLocation: A
+ tlanta\, USA\nVenue: Hyatt Regency Atlanta\n\nAll dates:\n  Abstract regis
+ tration (fall deadline): 11 Sept 2026\, 23:59 AoE\n  Paper submission (fal
+ l deadline): 18 Sept 2026\, 23:59 AoE\n  Author notification (fall deadlin
+ e): 6 Nov 2026\, 23:59 UTC+12 (assumed)\n  Revision submission (fall deadl
+ ine): 20 Nov 2026\, 23:59 AoE\n  Revision notification (fall deadline): 10
+  Dec 2026\, 23:59 UTC+12 (assumed)\n  Abstract registration (winter deadli
+ ne): 8 Jan 2027\, 23:59 AoE\n  Paper submission (winter deadline): 15 Jan 
+ 2027\, 23:59 AoE\n  Author notification (winter deadline): 5 Mar 2027\, 23
+ :59 UTC+12 (assumed)\n  Revision submission (winter deadline): 19 Mar 2027
+ \, 23:59 AoE\n  Revision notification (winter deadline): 16 Apr 2027\, 23:
+ 59 UTC+12 (assumed)\n  Camera-ready due (both deadlines): 30 Apr 2027\, 23
+ :59 AoE\n\nThe call for papers states no timezone. This is counted as UTC+
+ 12\, the earliest it could plausibly mean\, so the countdown runs out befo
+ re the real deadline rather than after it.\n\n18th edition\, part of the i
+ naugural ACM Sustainability Week. Two submission rounds: fall (closed) and
+  winter. Papers rejected in the fall round may not be resubmitted in the w
+ inter round. Authors pick one of four tracks on HotCRP\; the winter submis
+ sion site opens about three weeks before its deadline. Notification dates 
+ state no time or timezone.\n\nCall for papers: https://energy.acm.org/conf
+ erences/eenergy/2027/\nDetails: https://powersystemdeadlines.org/preview/p
+ r-7/conference/e-energy27
+LOCATION:Atlanta\, USA
+URL;VALUE=URI:https://energy.acm.org/conferences/eenergy/2027/
+CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e-energy27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261104T193306Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+TRANSP:TRANSPARENT
+SUMMARY:e-Energy 2027: Camera-ready due (both deadlines) (23:59 AoE)
+DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
+ ystems (e-Energy 2027)\n\nCamera-ready due (both deadlines): 30 Apr 2027\,
+  23:59 AoE\n\nConference: June 5-11\, 2027\nLocation: Atlanta\, USA\nVenue
+ : Hyatt Regency Atlanta\n\nAll dates:\n  Abstract registration (fall deadl
+ ine): 11 Sept 2026\, 23:59 AoE\n  Paper submission (fall deadline): 18 Sep
+ t 2026\, 23:59 AoE\n  Author notification (fall deadline): 6 Nov 2026\, 23
+ :59 UTC+12 (assumed)\n  Revision submission (fall deadline): 20 Nov 2026\,
+  23:59 AoE\n  Revision notification (fall deadline): 10 Dec 2026\, 23:59 U
+ TC+12 (assumed)\n  Abstract registration (winter deadline): 8 Jan 2027\, 2
+ 3:59 AoE\n  Paper submission (winter deadline): 15 Jan 2027\, 23:59 AoE\n 
+  Author notification (winter deadline): 5 Mar 2027\, 23:59 UTC+12 (assumed
+ )\n  Revision submission (winter deadline): 19 Mar 2027\, 23:59 AoE\n  Rev
+ ision notification (winter deadline): 16 Apr 2027\, 23:59 UTC+12 (assumed)
+ \n  Camera-ready due (both deadlines): 30 Apr 2027\, 23:59 AoE\n\nThe call
+  for papers states no timezone. This is counted as UTC+12\, the earliest i
+ t could plausibly mean\, so the countdown runs out before the real deadlin
+ e rather than after it.\n\n18th edition\, part of the inaugural ACM Sustai
+ nability Week. Two submission rounds: fall (closed) and winter. Papers rej
+ ected in the fall round may not be resubmitted in the winter round. Author
+ s pick one of four tracks on HotCRP\; the winter submission site opens abo
+ ut three weeks before its deadline. Notification dates state no time or ti
+ mezone.\n\nCall for papers: https://energy.acm.org/conferences/eenergy/202
+ 7/\nDetails: https://powersystemdeadlines.org/preview/pr-7/conference/e-en
+ ergy27
+LOCATION:Atlanta\, USA
+URL;VALUE=URI:https://energy.acm.org/conferences/eenergy/2027/
+CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e-energy27-event@powersystemdeadlines.org
+DTSTAMP:20261104T193306Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270612
+TRANSP:TRANSPARENT
+SUMMARY:e-Energy 2027
+DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
+ ystems (e-Energy 2027)\n\nConference: June 5-11\, 2027\nLocation: Atlanta\
+ , USA\nVenue: Hyatt Regency Atlanta\n\nAll dates:\n  Abstract registration
+  (fall deadline): 11 Sept 2026\, 23:59 AoE\n  Paper submission (fall deadl
+ ine): 18 Sept 2026\, 23:59 AoE\n  Author notification (fall deadline): 6 N
+ ov 2026\, 23:59 UTC+12 (assumed)\n  Revision submission (fall deadline): 2
+ 0 Nov 2026\, 23:59 AoE\n  Revision notification (fall deadline): 10 Dec 20
+ 26\, 23:59 UTC+12 (assumed)\n  Abstract registration (winter deadline): 8 
+ Jan 2027\, 23:59 AoE\n  Paper submission (winter deadline): 15 Jan 2027\, 
+ 23:59 AoE\n  Author notification (winter deadline): 5 Mar 2027\, 23:59 UTC
+ +12 (assumed)\n  Revision submission (winter deadline): 19 Mar 2027\, 23:5
+ 9 AoE\n  Revision notification (winter deadline): 16 Apr 2027\, 23:59 UTC+
+ 12 (assumed)\n  Camera-ready due (both deadlines): 30 Apr 2027\, 23:59 AoE
+ \n\nThe call for papers states no timezone. This is counted as UTC+12\, th
+ e earliest it could plausibly mean\, so the countdown runs out before the 
+ real deadline rather than after it.\n\n18th edition\, part of the inaugura
+ l ACM Sustainability Week. Two submission rounds: fall (closed) and winter
+ . Papers rejected in the fall round may not be resubmitted in the winter r
+ ound. Authors pick one of four tracks on HotCRP\; the winter submission si
+ te opens about three weeks before its deadline. Notification dates state n
+ o time or timezone.\n\nCall for papers: https://energy.acm.org/conferences
+ /eenergy/2027/\nDetails: https://powersystemdeadlines.org/preview/pr-7/con
+ ference/e-energy27
+LOCATION:Hyatt Regency Atlanta\, Atlanta\, USA
+URL;VALUE=URI:https://energy.acm.org/conferences/eenergy/2027/
+CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR
