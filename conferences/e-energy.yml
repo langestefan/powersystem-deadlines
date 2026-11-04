@@ -44,16 +44,23 @@ editions:
     end: 2027-06-11
     format: in-person
     proceedings: ACM Digital Library
-    submission_type: abstract-first
+    submission_type: full-paper
     deadlines:
       - type: abstract
         label: Abstract registration (fall deadline)
         date: '2026-09-11 23:59:59'
         timezone: AoE
+        link: https://eenergy27fall.hotcrp.com
       - type: paper
         label: Paper submission (fall deadline)
         date: '2026-09-18 23:59:59'
         timezone: AoE
+        link: https://eenergy27fall.hotcrp.com
+      - type: award_nomination
+        label: Test of Time Award nomination submission
+        date: '2026-10-15 23:59:59'
+        timezone: AoE
+        link: https://energy.acm.org/conferences/eenergy/2027/
       - type: notification
         label: Author notification (fall deadline)
         date: '2026-11-06 23:59:59'
@@ -68,10 +75,12 @@ editions:
         label: Abstract registration (winter deadline)
         date: '2027-01-08 23:59:59'
         timezone: AoE
+        link: https://eenergy27winter.hotcrp.com
       - type: paper
         label: Paper submission (winter deadline)
         date: '2027-01-15 23:59:59'
         timezone: AoE
+        link: https://eenergy27winter.hotcrp.com
       - type: notification
         label: Author notification (winter deadline)
         date: '2027-03-05 23:59:59'
@@ -87,11 +96,23 @@ editions:
         date: '2027-04-30 23:59:59'
         timezone: AoE
     note: >-
-      18th edition, part of the inaugural ACM Sustainability Week. Two
-      submission rounds: fall (closed) and winter. Papers rejected in the fall
-      round may not be resubmitted in the winter round. Authors pick one of
-      four tracks on HotCRP; the winter submission site opens about three weeks
-      before its deadline. Notification dates state no time or timezone.
+      18th edition, part of the inaugural ACM Sustainability Week and
+      co-located with ACM FCRC 2027. Two submission rounds, fall and winter;
+      the fall round is recommended for authors facing long visa processing.
+      Each HotCRP site opens three weeks before its deadline. Full papers are
+      up to 10 pages and Notes papers up to 4 pages (9-point ACM sigconf,
+      double-column, excluding references and appendices), double-blind. Full
+      papers may be accepted, rejected or asked to revise; the camera-ready
+      version gets one extra page. Authors choose one of four tracks (Control
+      and energy systems, Learning, Systems and applied modeling, Theory).
+      Selected rejected full papers may be invited as Notes papers. Papers
+      rejected in the fall round may not be resubmitted in the winter round.
+      Accepted papers from both rounds must be presented in June 2027.
+      Proceedings are open access; authors from institutions outside ACM Open
+      pay a subsidised APC of $250 (ACM/SIG members) or $350. The ACM Digital
+      Library publication date, which matters for patent filings, may be up to
+      two weeks before the conference. Notification dates state no time or
+      timezone.
     changes:
       - date: 2026-11-04
         field: paper
