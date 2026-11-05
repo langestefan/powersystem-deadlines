@@ -1,0 +1,34 @@
+name: EIRES Energizing Day
+full_name: Energizing Day of the Eindhoven Institute for Renewable Energy Systems
+kind: event
+link: https://www.tue.nl/en/research/institutes/eindhoven-institute-for-renewable-energy-systems
+society:
+  - Other
+frequency: annual
+tags:
+  - energy-storage
+  - renewables
+description: >-
+  The yearly day of the Eindhoven Institute for Renewable Energy Systems
+  (EIRES) at TU Eindhoven: talks on the energy transition, research pitches
+  and short poster presentations by PhD candidates, and time for networking.
+  Free, and open to anyone interested in energy storage and conversion.
+
+editions:
+  - year: 2026
+    id: eires-energizing-day26
+    link: https://www.tue.nl/en/our-university/calendar-and-events/04-12-2026-eires-energizing-day-2026
+    city: Eindhoven
+    country: Netherlands
+    venue: Blauwe Zaal, Auditorium, TU/e campus
+    date: December 4, 2026, 10:00-18:00
+    verified: 2026-11-05
+    start: 2026-12-04
+    end: 2026-12-04
+    format: in-person
+    deadlines: []
+    note: >-
+      Fifth edition, on securing energy in a shifting world and accelerating
+      innovation in resilient energy systems. Free; registration is open at
+      https://eires.copernica.tue.nl/EIRES_Energizing_Day_subscribe_open, with
+      no registration deadline stated.

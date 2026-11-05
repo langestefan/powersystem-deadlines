@@ -259,6 +259,14 @@ export function submissionStatus(
   return hasPassedDeadline ? 'closed' : 'unannounced';
 }
 
+/**
+ * What the edition's `link` is called. A conference links its call for papers;
+ * an event often has none, only a page with the programme and a sign-up form.
+ */
+export function officialLinkLabel(edition: ConferenceEdition): string {
+  return edition.kind === 'event' ? 'Website' : 'Call for papers';
+}
+
 /** "Delft, Netherlands" / "Online": the one-line location shown on a card. */
 export function locationLabel(edition: ConferenceEdition): string {
   if (edition.format === 'online') return 'Online';

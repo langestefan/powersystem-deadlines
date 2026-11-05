@@ -8,6 +8,7 @@ import {
   deadlineZoneLabel,
   filterAttributes,
   locationLabel,
+  officialLinkLabel,
   UNSTATED_TIMEZONE_NOTE,
 } from '@/lib/conferences';
 import { withBase } from '@/lib/site';
@@ -147,7 +148,7 @@ const verification = editionVerification(edition);
       rel="noopener"
       class="ml-auto inline-flex min-h-6 items-center gap-1 text-xs text-muted-foreground transition-colors hover:text-primary"
     >
-      {isEvent ? 'Website' : 'Call for papers'}
+      {officialLinkLabel(edition)}
       <ExternalLink class="size-3" aria-hidden="true" />
     </a>
   </div>
