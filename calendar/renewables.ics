@@ -11,7 +11,7 @@ X-WR-CALDESC:Deadlines for conferences tagged "Renewables".
 SOURCE;VALUE=URI:https://powersystemdeadlines.org/calendar/renewables.ics
 BEGIN:VEVENT
 UID:pesgm27-paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 TRANSP:TRANSPARENT
@@ -44,7 +44,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit27-paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 TRANSP:TRANSPARENT
@@ -84,7 +84,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit27-paper-2@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 TRANSP:TRANSPARENT
@@ -123,7 +123,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit27-tutorial_proposal@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 TRANSP:TRANSPARENT
@@ -161,7 +161,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit27-notification@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 TRANSP:TRANSPARENT
@@ -199,7 +199,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270118
 DTEND;VALUE=DATE:20270119
 TRANSP:TRANSPARENT
@@ -237,7 +237,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270118
 DTEND;VALUE=DATE:20270119
 TRANSP:TRANSPARENT
@@ -275,7 +275,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-global27-paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 TRANSP:TRANSPARENT
@@ -313,7 +313,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-global27-notification@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270217
 TRANSP:TRANSPARENT
@@ -350,7 +350,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-global27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
@@ -387,7 +387,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cpes27-session_proposal@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 TRANSP:TRANSPARENT
@@ -425,7 +425,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cpes27-abstract@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
 TRANSP:TRANSPARENT
@@ -463,7 +463,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cpes27-paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270202
 DTEND;VALUE=DATE:20270203
 TRANSP:TRANSPARENT
@@ -501,7 +501,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cpes27-notification@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270406
 DTEND;VALUE=DATE:20270407
 TRANSP:TRANSPARENT
@@ -539,7 +539,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cpes27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270420
 DTEND;VALUE=DATE:20270421
 TRANSP:TRANSPARENT
@@ -577,7 +577,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cpes27-early_registration@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 TRANSP:TRANSPARENT
@@ -615,7 +615,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-workshop_proposal@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -657,7 +657,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-tutorial_proposal@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -699,7 +699,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 TRANSP:TRANSPARENT
@@ -741,7 +741,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-panel_proposal@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 TRANSP:TRANSPARENT
@@ -783,7 +783,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-notification@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 TRANSP:TRANSPARENT
@@ -827,7 +827,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-notification-2@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
@@ -871,7 +871,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-paper-2@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 TRANSP:TRANSPARENT
@@ -915,7 +915,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
@@ -958,7 +958,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
@@ -1000,7 +1000,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-notification-3@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 TRANSP:TRANSPARENT
@@ -1044,7 +1044,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pvpmc27-abstract@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 TRANSP:TRANSPARENT
@@ -1080,8 +1080,708 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:e-energy27-abstract@powersystemdeadlines.org
+DTSTAMP:20261105T091322Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+TRANSP:TRANSPARENT
+SUMMARY:e-Energy 2027: Abstract registration (fall deadline) (23:59 AoE)
+DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
+ ystems (e-Energy 2027)\n\nAbstract registration (fall deadline): 11 Sept 2
+ 026\, 23:59 AoE\n\nConference: June 5-11\, 2027\nLocation: Atlanta\, USA\n
+ Venue: Hyatt Regency Atlanta\n\nAll dates:\n  Abstract registration (fall 
+ deadline): 11 Sept 2026\, 23:59 AoE\n  Paper submission (fall deadline): 1
+ 8 Sept 2026\, 23:59 AoE\n  Test of Time Award nomination submission: 15 Oc
+ t 2026\, 23:59 AoE\n  Author notification (fall deadline): 6 Nov 2026\, 23
+ :59 UTC+12 (assumed)\n  Revision submission (fall deadline): 20 Nov 2026\,
+  23:59 AoE\n  Revision notification (fall deadline): 10 Dec 2026\, 23:59 U
+ TC+12 (assumed)\n  Abstract registration (winter deadline): 8 Jan 2027\, 2
+ 3:59 AoE\n  Paper submission (winter deadline): 15 Jan 2027\, 23:59 AoE\n 
+  Author notification (winter deadline): 5 Mar 2027\, 23:59 UTC+12 (assumed
+ )\n  Revision submission (winter deadline): 19 Mar 2027\, 23:59 AoE\n  Rev
+ ision notification (winter deadline): 16 Apr 2027\, 23:59 UTC+12 (assumed)
+ \n  Camera-ready due (both deadlines): 30 Apr 2027\, 23:59 AoE\n\nThe call
+  for papers states no timezone. This is counted as UTC+12\, the earliest i
+ t could plausibly mean\, so the countdown runs out before the real deadlin
+ e rather than after it.\n\n18th edition\, part of the inaugural ACM Sustai
+ nability Week and co-located with ACM FCRC 2027. Two submission rounds\, f
+ all and winter\; the fall round is recommended for authors facing long vis
+ a processing. Each HotCRP site opens three weeks before its deadline. Full
+  papers are up to 10 pages and Notes papers up to 4 pages (9-point ACM sig
+ conf\, double-column\, excluding references and appendices)\, double-blind
+ . Full papers may be accepted\, rejected or asked to revise\; the camera-r
+ eady version gets one extra page. Authors choose one of four tracks (Contr
+ ol and energy systems\, Learning\, Systems and applied modeling\, Theory).
+  Selected rejected full papers may be invited as Notes papers. Papers reje
+ cted in the fall round may not be resubmitted in the winter round. Accepte
+ d papers from both rounds must be presented in June 2027. Proceedings are 
+ open access\; authors from institutions outside ACM Open pay a subsidised 
+ APC of $250 (ACM/SIG members) or $350. The ACM Digital Library publication
+  date\, which matters for patent filings\, may be up to two weeks before t
+ he conference. Notification dates state no time or timezone.\n\nCall for p
+ apers: https://energy.acm.org/conferences/eenergy/2027/\nDetails: https://
+ powersystemdeadlines.org/conference/e-energy27
+LOCATION:Atlanta\, USA
+URL;VALUE=URI:https://eenergy27fall.hotcrp.com
+CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e-energy27-paper@powersystemdeadlines.org
+DTSTAMP:20261105T091322Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+TRANSP:TRANSPARENT
+SUMMARY:e-Energy 2027: Paper submission (fall deadline) (23:59 AoE)
+DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
+ ystems (e-Energy 2027)\n\nPaper submission (fall deadline): 18 Sept 2026\,
+  23:59 AoE\n\nConference: June 5-11\, 2027\nLocation: Atlanta\, USA\nVenue
+ : Hyatt Regency Atlanta\n\nAll dates:\n  Abstract registration (fall deadl
+ ine): 11 Sept 2026\, 23:59 AoE\n  Paper submission (fall deadline): 18 Sep
+ t 2026\, 23:59 AoE\n  Test of Time Award nomination submission: 15 Oct 202
+ 6\, 23:59 AoE\n  Author notification (fall deadline): 6 Nov 2026\, 23:59 U
+ TC+12 (assumed)\n  Revision submission (fall deadline): 20 Nov 2026\, 23:5
+ 9 AoE\n  Revision notification (fall deadline): 10 Dec 2026\, 23:59 UTC+12
+  (assumed)\n  Abstract registration (winter deadline): 8 Jan 2027\, 23:59 
+ AoE\n  Paper submission (winter deadline): 15 Jan 2027\, 23:59 AoE\n  Auth
+ or notification (winter deadline): 5 Mar 2027\, 23:59 UTC+12 (assumed)\n  
+ Revision submission (winter deadline): 19 Mar 2027\, 23:59 AoE\n  Revision
+  notification (winter deadline): 16 Apr 2027\, 23:59 UTC+12 (assumed)\n  C
+ amera-ready due (both deadlines): 30 Apr 2027\, 23:59 AoE\n\nThe call for 
+ papers states no timezone. This is counted as UTC+12\, the earliest it cou
+ ld plausibly mean\, so the countdown runs out before the real deadline rat
+ her than after it.\n\n18th edition\, part of the inaugural ACM Sustainabil
+ ity Week and co-located with ACM FCRC 2027. Two submission rounds\, fall a
+ nd winter\; the fall round is recommended for authors facing long visa pro
+ cessing. Each HotCRP site opens three weeks before its deadline. Full pape
+ rs are up to 10 pages and Notes papers up to 4 pages (9-point ACM sigconf\
+ , double-column\, excluding references and appendices)\, double-blind. Ful
+ l papers may be accepted\, rejected or asked to revise\; the camera-ready 
+ version gets one extra page. Authors choose one of four tracks (Control an
+ d energy systems\, Learning\, Systems and applied modeling\, Theory). Sele
+ cted rejected full papers may be invited as Notes papers. Papers rejected 
+ in the fall round may not be resubmitted in the winter round. Accepted pap
+ ers from both rounds must be presented in June 2027. Proceedings are open 
+ access\; authors from institutions outside ACM Open pay a subsidised APC o
+ f $250 (ACM/SIG members) or $350. The ACM Digital Library publication date
+ \, which matters for patent filings\, may be up to two weeks before the co
+ nference. Notification dates state no time or timezone.\n\nCall for papers
+ : https://energy.acm.org/conferences/eenergy/2027/\nDetails: https://power
+ systemdeadlines.org/conference/e-energy27
+LOCATION:Atlanta\, USA
+URL;VALUE=URI:https://eenergy27fall.hotcrp.com
+CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e-energy27-award_nomination@powersystemdeadlines.org
+DTSTAMP:20261105T091322Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+TRANSP:TRANSPARENT
+SUMMARY:e-Energy 2027: Test of Time Award nomination submission (23:59 AoE)
+DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
+ ystems (e-Energy 2027)\n\nTest of Time Award nomination submission: 15 Oct
+  2026\, 23:59 AoE\n\nConference: June 5-11\, 2027\nLocation: Atlanta\, USA
+ \nVenue: Hyatt Regency Atlanta\n\nAll dates:\n  Abstract registration (fal
+ l deadline): 11 Sept 2026\, 23:59 AoE\n  Paper submission (fall deadline):
+  18 Sept 2026\, 23:59 AoE\n  Test of Time Award nomination submission: 15 
+ Oct 2026\, 23:59 AoE\n  Author notification (fall deadline): 6 Nov 2026\, 
+ 23:59 UTC+12 (assumed)\n  Revision submission (fall deadline): 20 Nov 2026
+ \, 23:59 AoE\n  Revision notification (fall deadline): 10 Dec 2026\, 23:59
+  UTC+12 (assumed)\n  Abstract registration (winter deadline): 8 Jan 2027\,
+  23:59 AoE\n  Paper submission (winter deadline): 15 Jan 2027\, 23:59 AoE\
+ n  Author notification (winter deadline): 5 Mar 2027\, 23:59 UTC+12 (assum
+ ed)\n  Revision submission (winter deadline): 19 Mar 2027\, 23:59 AoE\n  R
+ evision notification (winter deadline): 16 Apr 2027\, 23:59 UTC+12 (assume
+ d)\n  Camera-ready due (both deadlines): 30 Apr 2027\, 23:59 AoE\n\nThe ca
+ ll for papers states no timezone. This is counted as UTC+12\, the earliest
+  it could plausibly mean\, so the countdown runs out before the real deadl
+ ine rather than after it.\n\n18th edition\, part of the inaugural ACM Sust
+ ainability Week and co-located with ACM FCRC 2027. Two submission rounds\,
+  fall and winter\; the fall round is recommended for authors facing long v
+ isa processing. Each HotCRP site opens three weeks before its deadline. Fu
+ ll papers are up to 10 pages and Notes papers up to 4 pages (9-point ACM s
+ igconf\, double-column\, excluding references and appendices)\, double-bli
+ nd. Full papers may be accepted\, rejected or asked to revise\; the camera
+ -ready version gets one extra page. Authors choose one of four tracks (Con
+ trol and energy systems\, Learning\, Systems and applied modeling\, Theory
+ ). Selected rejected full papers may be invited as Notes papers. Papers re
+ jected in the fall round may not be resubmitted in the winter round. Accep
+ ted papers from both rounds must be presented in June 2027. Proceedings ar
+ e open access\; authors from institutions outside ACM Open pay a subsidise
+ d APC of $250 (ACM/SIG members) or $350. The ACM Digital Library publicati
+ on date\, which matters for patent filings\, may be up to two weeks before
+  the conference. Notification dates state no time or timezone.\n\nCall for
+  papers: https://energy.acm.org/conferences/eenergy/2027/\nDetails: https:
+ //powersystemdeadlines.org/conference/e-energy27
+LOCATION:Atlanta\, USA
+URL;VALUE=URI:https://energy.acm.org/conferences/eenergy/2027/
+CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e-energy27-notification@powersystemdeadlines.org
+DTSTAMP:20261105T091322Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+TRANSP:TRANSPARENT
+SUMMARY:e-Energy 2027: Author notification (fall deadline) (23:59 UTC+12 (a
+ ssumed))
+DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
+ ystems (e-Energy 2027)\n\nAuthor notification (fall deadline): 6 Nov 2026\
+ , 23:59 UTC+12 (assumed)\n\nConference: June 5-11\, 2027\nLocation: Atlant
+ a\, USA\nVenue: Hyatt Regency Atlanta\n\nAll dates:\n  Abstract registrati
+ on (fall deadline): 11 Sept 2026\, 23:59 AoE\n  Paper submission (fall dea
+ dline): 18 Sept 2026\, 23:59 AoE\n  Test of Time Award nomination submissi
+ on: 15 Oct 2026\, 23:59 AoE\n  Author notification (fall deadline): 6 Nov 
+ 2026\, 23:59 UTC+12 (assumed)\n  Revision submission (fall deadline): 20 N
+ ov 2026\, 23:59 AoE\n  Revision notification (fall deadline): 10 Dec 2026\
+ , 23:59 UTC+12 (assumed)\n  Abstract registration (winter deadline): 8 Jan
+  2027\, 23:59 AoE\n  Paper submission (winter deadline): 15 Jan 2027\, 23:
+ 59 AoE\n  Author notification (winter deadline): 5 Mar 2027\, 23:59 UTC+12
+  (assumed)\n  Revision submission (winter deadline): 19 Mar 2027\, 23:59 A
+ oE\n  Revision notification (winter deadline): 16 Apr 2027\, 23:59 UTC+12 
+ (assumed)\n  Camera-ready due (both deadlines): 30 Apr 2027\, 23:59 AoE\n\
+ nThe call for papers states no timezone. This is counted as UTC+12\, the e
+ arliest it could plausibly mean\, so the countdown runs out before the rea
+ l deadline rather than after it.\n\n18th edition\, part of the inaugural A
+ CM Sustainability Week and co-located with ACM FCRC 2027. Two submission r
+ ounds\, fall and winter\; the fall round is recommended for authors facing
+  long visa processing. Each HotCRP site opens three weeks before its deadl
+ ine. Full papers are up to 10 pages and Notes papers up to 4 pages (9-poin
+ t ACM sigconf\, double-column\, excluding references and appendices)\, dou
+ ble-blind. Full papers may be accepted\, rejected or asked to revise\; the
+  camera-ready version gets one extra page. Authors choose one of four trac
+ ks (Control and energy systems\, Learning\, Systems and applied modeling\,
+  Theory). Selected rejected full papers may be invited as Notes papers. Pa
+ pers rejected in the fall round may not be resubmitted in the winter round
+ . Accepted papers from both rounds must be presented in June 2027. Proceed
+ ings are open access\; authors from institutions outside ACM Open pay a su
+ bsidised APC of $250 (ACM/SIG members) or $350. The ACM Digital Library pu
+ blication date\, which matters for patent filings\, may be up to two weeks
+  before the conference. Notification dates state no time or timezone.\n\nC
+ all for papers: https://energy.acm.org/conferences/eenergy/2027/\nDetails:
+  https://powersystemdeadlines.org/conference/e-energy27
+LOCATION:Atlanta\, USA
+URL;VALUE=URI:https://energy.acm.org/conferences/eenergy/2027/
+CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e-energy27-revision@powersystemdeadlines.org
+DTSTAMP:20261105T091322Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+TRANSP:TRANSPARENT
+SUMMARY:e-Energy 2027: Revision submission (fall deadline) (23:59 AoE)
+DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
+ ystems (e-Energy 2027)\n\nRevision submission (fall deadline): 20 Nov 2026
+ \, 23:59 AoE\n\nConference: June 5-11\, 2027\nLocation: Atlanta\, USA\nVen
+ ue: Hyatt Regency Atlanta\n\nAll dates:\n  Abstract registration (fall dea
+ dline): 11 Sept 2026\, 23:59 AoE\n  Paper submission (fall deadline): 18 S
+ ept 2026\, 23:59 AoE\n  Test of Time Award nomination submission: 15 Oct 2
+ 026\, 23:59 AoE\n  Author notification (fall deadline): 6 Nov 2026\, 23:59
+  UTC+12 (assumed)\n  Revision submission (fall deadline): 20 Nov 2026\, 23
+ :59 AoE\n  Revision notification (fall deadline): 10 Dec 2026\, 23:59 UTC+
+ 12 (assumed)\n  Abstract registration (winter deadline): 8 Jan 2027\, 23:5
+ 9 AoE\n  Paper submission (winter deadline): 15 Jan 2027\, 23:59 AoE\n  Au
+ thor notification (winter deadline): 5 Mar 2027\, 23:59 UTC+12 (assumed)\n
+   Revision submission (winter deadline): 19 Mar 2027\, 23:59 AoE\n  Revisi
+ on notification (winter deadline): 16 Apr 2027\, 23:59 UTC+12 (assumed)\n 
+  Camera-ready due (both deadlines): 30 Apr 2027\, 23:59 AoE\n\nThe call fo
+ r papers states no timezone. This is counted as UTC+12\, the earliest it c
+ ould plausibly mean\, so the countdown runs out before the real deadline r
+ ather than after it.\n\n18th edition\, part of the inaugural ACM Sustainab
+ ility Week and co-located with ACM FCRC 2027. Two submission rounds\, fall
+  and winter\; the fall round is recommended for authors facing long visa p
+ rocessing. Each HotCRP site opens three weeks before its deadline. Full pa
+ pers are up to 10 pages and Notes papers up to 4 pages (9-point ACM sigcon
+ f\, double-column\, excluding references and appendices)\, double-blind. F
+ ull papers may be accepted\, rejected or asked to revise\; the camera-read
+ y version gets one extra page. Authors choose one of four tracks (Control 
+ and energy systems\, Learning\, Systems and applied modeling\, Theory). Se
+ lected rejected full papers may be invited as Notes papers. Papers rejecte
+ d in the fall round may not be resubmitted in the winter round. Accepted p
+ apers from both rounds must be presented in June 2027. Proceedings are ope
+ n access\; authors from institutions outside ACM Open pay a subsidised APC
+  of $250 (ACM/SIG members) or $350. The ACM Digital Library publication da
+ te\, which matters for patent filings\, may be up to two weeks before the 
+ conference. Notification dates state no time or timezone.\n\nCall for pape
+ rs: https://energy.acm.org/conferences/eenergy/2027/\nDetails: https://pow
+ ersystemdeadlines.org/conference/e-energy27
+LOCATION:Atlanta\, USA
+URL;VALUE=URI:https://energy.acm.org/conferences/eenergy/2027/
+CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e-energy27-notification-2@powersystemdeadlines.org
+DTSTAMP:20261105T091322Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+TRANSP:TRANSPARENT
+SUMMARY:e-Energy 2027: Revision notification (fall deadline) (23:59 UTC+12 
+ (assumed))
+DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
+ ystems (e-Energy 2027)\n\nRevision notification (fall deadline): 10 Dec 20
+ 26\, 23:59 UTC+12 (assumed)\n\nConference: June 5-11\, 2027\nLocation: Atl
+ anta\, USA\nVenue: Hyatt Regency Atlanta\n\nAll dates:\n  Abstract registr
+ ation (fall deadline): 11 Sept 2026\, 23:59 AoE\n  Paper submission (fall 
+ deadline): 18 Sept 2026\, 23:59 AoE\n  Test of Time Award nomination submi
+ ssion: 15 Oct 2026\, 23:59 AoE\n  Author notification (fall deadline): 6 N
+ ov 2026\, 23:59 UTC+12 (assumed)\n  Revision submission (fall deadline): 2
+ 0 Nov 2026\, 23:59 AoE\n  Revision notification (fall deadline): 10 Dec 20
+ 26\, 23:59 UTC+12 (assumed)\n  Abstract registration (winter deadline): 8 
+ Jan 2027\, 23:59 AoE\n  Paper submission (winter deadline): 15 Jan 2027\, 
+ 23:59 AoE\n  Author notification (winter deadline): 5 Mar 2027\, 23:59 UTC
+ +12 (assumed)\n  Revision submission (winter deadline): 19 Mar 2027\, 23:5
+ 9 AoE\n  Revision notification (winter deadline): 16 Apr 2027\, 23:59 UTC+
+ 12 (assumed)\n  Camera-ready due (both deadlines): 30 Apr 2027\, 23:59 AoE
+ \n\nThe call for papers states no timezone. This is counted as UTC+12\, th
+ e earliest it could plausibly mean\, so the countdown runs out before the 
+ real deadline rather than after it.\n\n18th edition\, part of the inaugura
+ l ACM Sustainability Week and co-located with ACM FCRC 2027. Two submissio
+ n rounds\, fall and winter\; the fall round is recommended for authors fac
+ ing long visa processing. Each HotCRP site opens three weeks before its de
+ adline. Full papers are up to 10 pages and Notes papers up to 4 pages (9-p
+ oint ACM sigconf\, double-column\, excluding references and appendices)\, 
+ double-blind. Full papers may be accepted\, rejected or asked to revise\; 
+ the camera-ready version gets one extra page. Authors choose one of four t
+ racks (Control and energy systems\, Learning\, Systems and applied modelin
+ g\, Theory). Selected rejected full papers may be invited as Notes papers.
+  Papers rejected in the fall round may not be resubmitted in the winter ro
+ und. Accepted papers from both rounds must be presented in June 2027. Proc
+ eedings are open access\; authors from institutions outside ACM Open pay a
+  subsidised APC of $250 (ACM/SIG members) or $350. The ACM Digital Library
+  publication date\, which matters for patent filings\, may be up to two we
+ eks before the conference. Notification dates state no time or timezone.\n
+ \nCall for papers: https://energy.acm.org/conferences/eenergy/2027/\nDetai
+ ls: https://powersystemdeadlines.org/conference/e-energy27
+LOCATION:Atlanta\, USA
+URL;VALUE=URI:https://energy.acm.org/conferences/eenergy/2027/
+CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e-energy27-abstract-2@powersystemdeadlines.org
+DTSTAMP:20261105T091322Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+TRANSP:TRANSPARENT
+SUMMARY:e-Energy 2027: Abstract registration (winter deadline) (23:59 AoE)
+DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
+ ystems (e-Energy 2027)\n\nAbstract registration (winter deadline): 8 Jan 2
+ 027\, 23:59 AoE\n\nConference: June 5-11\, 2027\nLocation: Atlanta\, USA\n
+ Venue: Hyatt Regency Atlanta\n\nAll dates:\n  Abstract registration (fall 
+ deadline): 11 Sept 2026\, 23:59 AoE\n  Paper submission (fall deadline): 1
+ 8 Sept 2026\, 23:59 AoE\n  Test of Time Award nomination submission: 15 Oc
+ t 2026\, 23:59 AoE\n  Author notification (fall deadline): 6 Nov 2026\, 23
+ :59 UTC+12 (assumed)\n  Revision submission (fall deadline): 20 Nov 2026\,
+  23:59 AoE\n  Revision notification (fall deadline): 10 Dec 2026\, 23:59 U
+ TC+12 (assumed)\n  Abstract registration (winter deadline): 8 Jan 2027\, 2
+ 3:59 AoE\n  Paper submission (winter deadline): 15 Jan 2027\, 23:59 AoE\n 
+  Author notification (winter deadline): 5 Mar 2027\, 23:59 UTC+12 (assumed
+ )\n  Revision submission (winter deadline): 19 Mar 2027\, 23:59 AoE\n  Rev
+ ision notification (winter deadline): 16 Apr 2027\, 23:59 UTC+12 (assumed)
+ \n  Camera-ready due (both deadlines): 30 Apr 2027\, 23:59 AoE\n\nThe call
+  for papers states no timezone. This is counted as UTC+12\, the earliest i
+ t could plausibly mean\, so the countdown runs out before the real deadlin
+ e rather than after it.\n\n18th edition\, part of the inaugural ACM Sustai
+ nability Week and co-located with ACM FCRC 2027. Two submission rounds\, f
+ all and winter\; the fall round is recommended for authors facing long vis
+ a processing. Each HotCRP site opens three weeks before its deadline. Full
+  papers are up to 10 pages and Notes papers up to 4 pages (9-point ACM sig
+ conf\, double-column\, excluding references and appendices)\, double-blind
+ . Full papers may be accepted\, rejected or asked to revise\; the camera-r
+ eady version gets one extra page. Authors choose one of four tracks (Contr
+ ol and energy systems\, Learning\, Systems and applied modeling\, Theory).
+  Selected rejected full papers may be invited as Notes papers. Papers reje
+ cted in the fall round may not be resubmitted in the winter round. Accepte
+ d papers from both rounds must be presented in June 2027. Proceedings are 
+ open access\; authors from institutions outside ACM Open pay a subsidised 
+ APC of $250 (ACM/SIG members) or $350. The ACM Digital Library publication
+  date\, which matters for patent filings\, may be up to two weeks before t
+ he conference. Notification dates state no time or timezone.\n\nCall for p
+ apers: https://energy.acm.org/conferences/eenergy/2027/\nDetails: https://
+ powersystemdeadlines.org/conference/e-energy27
+LOCATION:Atlanta\, USA
+URL;VALUE=URI:https://eenergy27winter.hotcrp.com
+CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e-energy27-paper-2@powersystemdeadlines.org
+DTSTAMP:20261105T091322Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+TRANSP:TRANSPARENT
+SUMMARY:e-Energy 2027: Paper submission (winter deadline) (23:59 AoE)
+DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
+ ystems (e-Energy 2027)\n\nPaper submission (winter deadline): 15 Jan 2027\
+ , 23:59 AoE\n\nConference: June 5-11\, 2027\nLocation: Atlanta\, USA\nVenu
+ e: Hyatt Regency Atlanta\n\nAll dates:\n  Abstract registration (fall dead
+ line): 11 Sept 2026\, 23:59 AoE\n  Paper submission (fall deadline): 18 Se
+ pt 2026\, 23:59 AoE\n  Test of Time Award nomination submission: 15 Oct 20
+ 26\, 23:59 AoE\n  Author notification (fall deadline): 6 Nov 2026\, 23:59 
+ UTC+12 (assumed)\n  Revision submission (fall deadline): 20 Nov 2026\, 23:
+ 59 AoE\n  Revision notification (fall deadline): 10 Dec 2026\, 23:59 UTC+1
+ 2 (assumed)\n  Abstract registration (winter deadline): 8 Jan 2027\, 23:59
+  AoE\n  Paper submission (winter deadline): 15 Jan 2027\, 23:59 AoE\n  Aut
+ hor notification (winter deadline): 5 Mar 2027\, 23:59 UTC+12 (assumed)\n 
+  Revision submission (winter deadline): 19 Mar 2027\, 23:59 AoE\n  Revisio
+ n notification (winter deadline): 16 Apr 2027\, 23:59 UTC+12 (assumed)\n  
+ Camera-ready due (both deadlines): 30 Apr 2027\, 23:59 AoE\n\nThe call for
+  papers states no timezone. This is counted as UTC+12\, the earliest it co
+ uld plausibly mean\, so the countdown runs out before the real deadline ra
+ ther than after it.\n\n18th edition\, part of the inaugural ACM Sustainabi
+ lity Week and co-located with ACM FCRC 2027. Two submission rounds\, fall 
+ and winter\; the fall round is recommended for authors facing long visa pr
+ ocessing. Each HotCRP site opens three weeks before its deadline. Full pap
+ ers are up to 10 pages and Notes papers up to 4 pages (9-point ACM sigconf
+ \, double-column\, excluding references and appendices)\, double-blind. Fu
+ ll papers may be accepted\, rejected or asked to revise\; the camera-ready
+  version gets one extra page. Authors choose one of four tracks (Control a
+ nd energy systems\, Learning\, Systems and applied modeling\, Theory). Sel
+ ected rejected full papers may be invited as Notes papers. Papers rejected
+  in the fall round may not be resubmitted in the winter round. Accepted pa
+ pers from both rounds must be presented in June 2027. Proceedings are open
+  access\; authors from institutions outside ACM Open pay a subsidised APC 
+ of $250 (ACM/SIG members) or $350. The ACM Digital Library publication dat
+ e\, which matters for patent filings\, may be up to two weeks before the c
+ onference. Notification dates state no time or timezone.\n\nCall for paper
+ s: https://energy.acm.org/conferences/eenergy/2027/\nDetails: https://powe
+ rsystemdeadlines.org/conference/e-energy27
+LOCATION:Atlanta\, USA
+URL;VALUE=URI:https://eenergy27winter.hotcrp.com
+CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e-energy27-notification-3@powersystemdeadlines.org
+DTSTAMP:20261105T091322Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+TRANSP:TRANSPARENT
+SUMMARY:e-Energy 2027: Author notification (winter deadline) (23:59 UTC+12 
+ (assumed))
+DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
+ ystems (e-Energy 2027)\n\nAuthor notification (winter deadline): 5 Mar 202
+ 7\, 23:59 UTC+12 (assumed)\n\nConference: June 5-11\, 2027\nLocation: Atla
+ nta\, USA\nVenue: Hyatt Regency Atlanta\n\nAll dates:\n  Abstract registra
+ tion (fall deadline): 11 Sept 2026\, 23:59 AoE\n  Paper submission (fall d
+ eadline): 18 Sept 2026\, 23:59 AoE\n  Test of Time Award nomination submis
+ sion: 15 Oct 2026\, 23:59 AoE\n  Author notification (fall deadline): 6 No
+ v 2026\, 23:59 UTC+12 (assumed)\n  Revision submission (fall deadline): 20
+  Nov 2026\, 23:59 AoE\n  Revision notification (fall deadline): 10 Dec 202
+ 6\, 23:59 UTC+12 (assumed)\n  Abstract registration (winter deadline): 8 J
+ an 2027\, 23:59 AoE\n  Paper submission (winter deadline): 15 Jan 2027\, 2
+ 3:59 AoE\n  Author notification (winter deadline): 5 Mar 2027\, 23:59 UTC+
+ 12 (assumed)\n  Revision submission (winter deadline): 19 Mar 2027\, 23:59
+  AoE\n  Revision notification (winter deadline): 16 Apr 2027\, 23:59 UTC+1
+ 2 (assumed)\n  Camera-ready due (both deadlines): 30 Apr 2027\, 23:59 AoE\
+ n\nThe call for papers states no timezone. This is counted as UTC+12\, the
+  earliest it could plausibly mean\, so the countdown runs out before the r
+ eal deadline rather than after it.\n\n18th edition\, part of the inaugural
+  ACM Sustainability Week and co-located with ACM FCRC 2027. Two submission
+  rounds\, fall and winter\; the fall round is recommended for authors faci
+ ng long visa processing. Each HotCRP site opens three weeks before its dea
+ dline. Full papers are up to 10 pages and Notes papers up to 4 pages (9-po
+ int ACM sigconf\, double-column\, excluding references and appendices)\, d
+ ouble-blind. Full papers may be accepted\, rejected or asked to revise\; t
+ he camera-ready version gets one extra page. Authors choose one of four tr
+ acks (Control and energy systems\, Learning\, Systems and applied modeling
+ \, Theory). Selected rejected full papers may be invited as Notes papers. 
+ Papers rejected in the fall round may not be resubmitted in the winter rou
+ nd. Accepted papers from both rounds must be presented in June 2027. Proce
+ edings are open access\; authors from institutions outside ACM Open pay a 
+ subsidised APC of $250 (ACM/SIG members) or $350. The ACM Digital Library 
+ publication date\, which matters for patent filings\, may be up to two wee
+ ks before the conference. Notification dates state no time or timezone.\n\
+ nCall for papers: https://energy.acm.org/conferences/eenergy/2027/\nDetail
+ s: https://powersystemdeadlines.org/conference/e-energy27
+LOCATION:Atlanta\, USA
+URL;VALUE=URI:https://energy.acm.org/conferences/eenergy/2027/
+CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e-energy27-revision-2@powersystemdeadlines.org
+DTSTAMP:20261105T091322Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+TRANSP:TRANSPARENT
+SUMMARY:e-Energy 2027: Revision submission (winter deadline) (23:59 AoE)
+DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
+ ystems (e-Energy 2027)\n\nRevision submission (winter deadline): 19 Mar 20
+ 27\, 23:59 AoE\n\nConference: June 5-11\, 2027\nLocation: Atlanta\, USA\nV
+ enue: Hyatt Regency Atlanta\n\nAll dates:\n  Abstract registration (fall d
+ eadline): 11 Sept 2026\, 23:59 AoE\n  Paper submission (fall deadline): 18
+  Sept 2026\, 23:59 AoE\n  Test of Time Award nomination submission: 15 Oct
+  2026\, 23:59 AoE\n  Author notification (fall deadline): 6 Nov 2026\, 23:
+ 59 UTC+12 (assumed)\n  Revision submission (fall deadline): 20 Nov 2026\, 
+ 23:59 AoE\n  Revision notification (fall deadline): 10 Dec 2026\, 23:59 UT
+ C+12 (assumed)\n  Abstract registration (winter deadline): 8 Jan 2027\, 23
+ :59 AoE\n  Paper submission (winter deadline): 15 Jan 2027\, 23:59 AoE\n  
+ Author notification (winter deadline): 5 Mar 2027\, 23:59 UTC+12 (assumed)
+ \n  Revision submission (winter deadline): 19 Mar 2027\, 23:59 AoE\n  Revi
+ sion notification (winter deadline): 16 Apr 2027\, 23:59 UTC+12 (assumed)\
+ n  Camera-ready due (both deadlines): 30 Apr 2027\, 23:59 AoE\n\nThe call 
+ for papers states no timezone. This is counted as UTC+12\, the earliest it
+  could plausibly mean\, so the countdown runs out before the real deadline
+  rather than after it.\n\n18th edition\, part of the inaugural ACM Sustain
+ ability Week and co-located with ACM FCRC 2027. Two submission rounds\, fa
+ ll and winter\; the fall round is recommended for authors facing long visa
+  processing. Each HotCRP site opens three weeks before its deadline. Full 
+ papers are up to 10 pages and Notes papers up to 4 pages (9-point ACM sigc
+ onf\, double-column\, excluding references and appendices)\, double-blind.
+  Full papers may be accepted\, rejected or asked to revise\; the camera-re
+ ady version gets one extra page. Authors choose one of four tracks (Contro
+ l and energy systems\, Learning\, Systems and applied modeling\, Theory). 
+ Selected rejected full papers may be invited as Notes papers. Papers rejec
+ ted in the fall round may not be resubmitted in the winter round. Accepted
+  papers from both rounds must be presented in June 2027. Proceedings are o
+ pen access\; authors from institutions outside ACM Open pay a subsidised A
+ PC of $250 (ACM/SIG members) or $350. The ACM Digital Library publication 
+ date\, which matters for patent filings\, may be up to two weeks before th
+ e conference. Notification dates state no time or timezone.\n\nCall for pa
+ pers: https://energy.acm.org/conferences/eenergy/2027/\nDetails: https://p
+ owersystemdeadlines.org/conference/e-energy27
+LOCATION:Atlanta\, USA
+URL;VALUE=URI:https://energy.acm.org/conferences/eenergy/2027/
+CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e-energy27-notification-4@powersystemdeadlines.org
+DTSTAMP:20261105T091322Z
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+TRANSP:TRANSPARENT
+SUMMARY:e-Energy 2027: Revision notification (winter deadline) (23:59 UTC+1
+ 2 (assumed))
+DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
+ ystems (e-Energy 2027)\n\nRevision notification (winter deadline): 16 Apr 
+ 2027\, 23:59 UTC+12 (assumed)\n\nConference: June 5-11\, 2027\nLocation: A
+ tlanta\, USA\nVenue: Hyatt Regency Atlanta\n\nAll dates:\n  Abstract regis
+ tration (fall deadline): 11 Sept 2026\, 23:59 AoE\n  Paper submission (fal
+ l deadline): 18 Sept 2026\, 23:59 AoE\n  Test of Time Award nomination sub
+ mission: 15 Oct 2026\, 23:59 AoE\n  Author notification (fall deadline): 6
+  Nov 2026\, 23:59 UTC+12 (assumed)\n  Revision submission (fall deadline):
+  20 Nov 2026\, 23:59 AoE\n  Revision notification (fall deadline): 10 Dec 
+ 2026\, 23:59 UTC+12 (assumed)\n  Abstract registration (winter deadline): 
+ 8 Jan 2027\, 23:59 AoE\n  Paper submission (winter deadline): 15 Jan 2027\
+ , 23:59 AoE\n  Author notification (winter deadline): 5 Mar 2027\, 23:59 U
+ TC+12 (assumed)\n  Revision submission (winter deadline): 19 Mar 2027\, 23
+ :59 AoE\n  Revision notification (winter deadline): 16 Apr 2027\, 23:59 UT
+ C+12 (assumed)\n  Camera-ready due (both deadlines): 30 Apr 2027\, 23:59 A
+ oE\n\nThe call for papers states no timezone. This is counted as UTC+12\, 
+ the earliest it could plausibly mean\, so the countdown runs out before th
+ e real deadline rather than after it.\n\n18th edition\, part of the inaugu
+ ral ACM Sustainability Week and co-located with ACM FCRC 2027. Two submiss
+ ion rounds\, fall and winter\; the fall round is recommended for authors f
+ acing long visa processing. Each HotCRP site opens three weeks before its 
+ deadline. Full papers are up to 10 pages and Notes papers up to 4 pages (9
+ -point ACM sigconf\, double-column\, excluding references and appendices)\
+ , double-blind. Full papers may be accepted\, rejected or asked to revise\
+ ; the camera-ready version gets one extra page. Authors choose one of four
+  tracks (Control and energy systems\, Learning\, Systems and applied model
+ ing\, Theory). Selected rejected full papers may be invited as Notes paper
+ s. Papers rejected in the fall round may not be resubmitted in the winter 
+ round. Accepted papers from both rounds must be presented in June 2027. Pr
+ oceedings are open access\; authors from institutions outside ACM Open pay
+  a subsidised APC of $250 (ACM/SIG members) or $350. The ACM Digital Libra
+ ry publication date\, which matters for patent filings\, may be up to two 
+ weeks before the conference. Notification dates state no time or timezone.
+ \n\nCall for papers: https://energy.acm.org/conferences/eenergy/2027/\nDet
+ ails: https://powersystemdeadlines.org/conference/e-energy27
+LOCATION:Atlanta\, USA
+URL;VALUE=URI:https://energy.acm.org/conferences/eenergy/2027/
+CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e-energy27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261105T091322Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+TRANSP:TRANSPARENT
+SUMMARY:e-Energy 2027: Camera-ready due (both deadlines) (23:59 AoE)
+DESCRIPTION:ACM International Conference on Future and Sustainable Energy S
+ ystems (e-Energy 2027)\n\nCamera-ready due (both deadlines): 30 Apr 2027\,
+  23:59 AoE\n\nConference: June 5-11\, 2027\nLocation: Atlanta\, USA\nVenue
+ : Hyatt Regency Atlanta\n\nAll dates:\n  Abstract registration (fall deadl
+ ine): 11 Sept 2026\, 23:59 AoE\n  Paper submission (fall deadline): 18 Sep
+ t 2026\, 23:59 AoE\n  Test of Time Award nomination submission: 15 Oct 202
+ 6\, 23:59 AoE\n  Author notification (fall deadline): 6 Nov 2026\, 23:59 U
+ TC+12 (assumed)\n  Revision submission (fall deadline): 20 Nov 2026\, 23:5
+ 9 AoE\n  Revision notification (fall deadline): 10 Dec 2026\, 23:59 UTC+12
+  (assumed)\n  Abstract registration (winter deadline): 8 Jan 2027\, 23:59 
+ AoE\n  Paper submission (winter deadline): 15 Jan 2027\, 23:59 AoE\n  Auth
+ or notification (winter deadline): 5 Mar 2027\, 23:59 UTC+12 (assumed)\n  
+ Revision submission (winter deadline): 19 Mar 2027\, 23:59 AoE\n  Revision
+  notification (winter deadline): 16 Apr 2027\, 23:59 UTC+12 (assumed)\n  C
+ amera-ready due (both deadlines): 30 Apr 2027\, 23:59 AoE\n\nThe call for 
+ papers states no timezone. This is counted as UTC+12\, the earliest it cou
+ ld plausibly mean\, so the countdown runs out before the real deadline rat
+ her than after it.\n\n18th edition\, part of the inaugural ACM Sustainabil
+ ity Week and co-located with ACM FCRC 2027. Two submission rounds\, fall a
+ nd winter\; the fall round is recommended for authors facing long visa pro
+ cessing. Each HotCRP site opens three weeks before its deadline. Full pape
+ rs are up to 10 pages and Notes papers up to 4 pages (9-point ACM sigconf\
+ , double-column\, excluding references and appendices)\, double-blind. Ful
+ l papers may be accepted\, rejected or asked to revise\; the camera-ready 
+ version gets one extra page. Authors choose one of four tracks (Control an
+ d energy systems\, Learning\, Systems and applied modeling\, Theory). Sele
+ cted rejected full papers may be invited as Notes papers. Papers rejected 
+ in the fall round may not be resubmitted in the winter round. Accepted pap
+ ers from both rounds must be presented in June 2027. Proceedings are open 
+ access\; authors from institutions outside ACM Open pay a subsidised APC o
+ f $250 (ACM/SIG members) or $350. The ACM Digital Library publication date
+ \, which matters for patent filings\, may be up to two weeks before the co
+ nference. Notification dates state no time or timezone.\n\nCall for papers
+ : https://energy.acm.org/conferences/eenergy/2027/\nDetails: https://power
+ systemdeadlines.org/conference/e-energy27
+LOCATION:Atlanta\, USA
+URL;VALUE=URI:https://energy.acm.org/conferences/eenergy/2027/
+CATEGORIES:Smart Grid,Computation & Optimization,Energy Markets,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:cired27-abstract@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 TRANSP:TRANSPARENT
@@ -1120,7 +1820,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-notification@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 TRANSP:TRANSPARENT
@@ -1159,7 +1859,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 TRANSP:TRANSPARENT
@@ -1198,7 +1898,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-notification-2@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270409
 DTEND;VALUE=DATE:20270410
 TRANSP:TRANSPARENT
@@ -1238,7 +1938,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-early_registration@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270428
 DTEND;VALUE=DATE:20270429
 TRANSP:TRANSPARENT
@@ -1278,7 +1978,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270510
 DTEND;VALUE=DATE:20270511
 TRANSP:TRANSPARENT
@@ -1317,7 +2017,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-presentation_upload@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270528
 DTEND;VALUE=DATE:20270529
 TRANSP:TRANSPARENT
@@ -1357,7 +2057,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:peci27-paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 TRANSP:TRANSPARENT
@@ -1392,7 +2092,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:peci27-notification@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270226
 DTEND;VALUE=DATE:20270227
 TRANSP:TRANSPARENT
@@ -1427,7 +2127,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:peci27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 TRANSP:TRANSPARENT
@@ -1462,7 +2162,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 TRANSP:TRANSPARENT
@@ -1501,7 +2201,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-notification@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 TRANSP:TRANSPARENT
@@ -1540,7 +2240,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270702
 TRANSP:TRANSPARENT
@@ -1579,7 +2279,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270702
 TRANSP:TRANSPARENT
@@ -1618,7 +2318,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 TRANSP:TRANSPARENT
@@ -1654,7 +2354,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-notification@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270423
 DTEND;VALUE=DATE:20270424
 TRANSP:TRANSPARENT
@@ -1690,7 +2390,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 TRANSP:TRANSPARENT
@@ -1728,7 +2428,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 TRANSP:TRANSPARENT
@@ -1764,7 +2464,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pcim-europe27-abstract@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 TRANSP:TRANSPARENT
@@ -1802,7 +2502,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pcim-europe27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 TRANSP:TRANSPARENT
@@ -1841,7 +2541,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce-asia27-paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 TRANSP:TRANSPARENT
@@ -1876,7 +2576,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce-asia27-notification@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 TRANSP:TRANSPARENT
@@ -1911,7 +2611,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce-asia27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 TRANSP:TRANSPARENT
@@ -1947,7 +2647,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce-asia27-early_registration@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 TRANSP:TRANSPARENT
@@ -1982,7 +2682,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-abstract@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
@@ -2025,7 +2725,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-notification@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270402
 DTEND;VALUE=DATE:20270403
 TRANSP:TRANSPARENT
@@ -2069,7 +2769,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 TRANSP:TRANSPARENT
@@ -2112,7 +2812,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-notification-2@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270614
 DTEND;VALUE=DATE:20270615
 TRANSP:TRANSPARENT
@@ -2156,7 +2856,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270628
 DTEND;VALUE=DATE:20270629
 TRANSP:TRANSPARENT
@@ -2200,7 +2900,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-camera_ready-2@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270710
 TRANSP:TRANSPARENT
@@ -2243,7 +2943,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-early_registration@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270726
 DTEND;VALUE=DATE:20270727
 TRANSP:TRANSPARENT
@@ -2286,7 +2986,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia27-paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 TRANSP:TRANSPARENT
@@ -2326,7 +3026,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia27-notification@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270630
 DTEND;VALUE=DATE:20270701
 TRANSP:TRANSPARENT
@@ -2366,7 +3066,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270731
 DTEND;VALUE=DATE:20270801
 TRANSP:TRANSPARENT
@@ -2407,7 +3107,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia27-early_registration@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270731
 DTEND;VALUE=DATE:20270801
 TRANSP:TRANSPARENT
@@ -2448,7 +3148,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:upec27-paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270501
 TRANSP:TRANSPARENT
@@ -2487,7 +3187,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:upec27-notification@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270618
 DTEND;VALUE=DATE:20270619
 TRANSP:TRANSPARENT
@@ -2526,7 +3226,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:upec27-early_registration@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270625
 DTEND;VALUE=DATE:20270626
 TRANSP:TRANSPARENT
@@ -2565,7 +3265,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:upec27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20270716
 DTEND;VALUE=DATE:20270717
 TRANSP:TRANSPARENT
@@ -2605,7 +3305,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit26-paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20251115
 DTEND;VALUE=DATE:20251116
 TRANSP:TRANSPARENT
@@ -2643,7 +3343,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit26-paper-2@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20251130
 DTEND;VALUE=DATE:20251201
 TRANSP:TRANSPARENT
@@ -2681,7 +3381,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit26-notification@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260112
 DTEND;VALUE=DATE:20260113
 TRANSP:TRANSPARENT
@@ -2718,7 +3418,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260131
 DTEND;VALUE=DATE:20260201
 TRANSP:TRANSPARENT
@@ -2755,7 +3455,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit26-author_registration@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260131
 DTEND;VALUE=DATE:20260201
 TRANSP:TRANSPARENT
@@ -2792,7 +3492,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:greentech26-paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20251116
 DTEND;VALUE=DATE:20251117
 TRANSP:TRANSPARENT
@@ -2827,7 +3527,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:greentech26-tutorial_proposal@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20251214
 DTEND;VALUE=DATE:20251215
 TRANSP:TRANSPARENT
@@ -2862,7 +3562,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie26-paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260315
 DTEND;VALUE=DATE:20260316
 TRANSP:TRANSPARENT
@@ -2899,7 +3599,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie26-notification@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260424
 DTEND;VALUE=DATE:20260425
 TRANSP:TRANSPARENT
@@ -2937,7 +3637,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -2975,7 +3675,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie26-early_registration@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -3011,7 +3711,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie26-paper-2@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260525
 DTEND;VALUE=DATE:20260526
 TRANSP:TRANSPARENT
@@ -3048,7 +3748,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eeeic26-workshop_proposal@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260101
 DTEND;VALUE=DATE:20260102
 TRANSP:TRANSPARENT
@@ -3086,7 +3786,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eeeic26-paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260511
 DTEND;VALUE=DATE:20260512
 TRANSP:TRANSPARENT
@@ -3124,7 +3824,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eeeic26-early_registration@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260531
 DTEND;VALUE=DATE:20260601
 TRANSP:TRANSPARENT
@@ -3162,7 +3862,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iaee-european26-abstract@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260410
 DTEND;VALUE=DATE:20260411
 TRANSP:TRANSPARENT
@@ -3198,7 +3898,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iaee-european26-best_paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260508
 DTEND;VALUE=DATE:20260509
 TRANSP:TRANSPARENT
@@ -3234,7 +3934,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iaee-european26-notification@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -3271,7 +3971,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iaee-european26-early_registration@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260703
 DTEND;VALUE=DATE:20260704
 TRANSP:TRANSPARENT
@@ -3308,7 +4008,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pmaps26-paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260315
 DTEND;VALUE=DATE:20260316
 TRANSP:TRANSPARENT
@@ -3345,7 +4045,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pmaps26-notification@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260530
 DTEND;VALUE=DATE:20260531
 TRANSP:TRANSPARENT
@@ -3382,7 +4082,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pmaps26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 TRANSP:TRANSPARENT
@@ -3419,7 +4119,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powerafrica26-paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
 TRANSP:TRANSPARENT
@@ -3455,7 +4155,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powerafrica26-notification@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 TRANSP:TRANSPARENT
@@ -3491,7 +4191,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powerafrica26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260622
 DTEND;VALUE=DATE:20260623
 TRANSP:TRANSPARENT
@@ -3526,7 +4226,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powerafrica26-early_registration@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 TRANSP:TRANSPARENT
@@ -3562,7 +4262,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-abstract@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260313
 DTEND;VALUE=DATE:20260314
 TRANSP:TRANSPARENT
@@ -3599,7 +4299,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-notification@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -3636,7 +4336,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 TRANSP:TRANSPARENT
@@ -3674,7 +4374,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:naps26-paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 TRANSP:TRANSPARENT
@@ -3707,7 +4407,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 TRANSP:TRANSPARENT
@@ -3742,7 +4442,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-notification@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 TRANSP:TRANSPARENT
@@ -3777,7 +4477,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 TRANSP:TRANSPARENT
@@ -3813,7 +4513,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-europe26-paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260415
 DTEND;VALUE=DATE:20260416
 TRANSP:TRANSPARENT
@@ -3847,7 +4547,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-europe26-notification@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 TRANSP:TRANSPARENT
@@ -3881,7 +4581,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-europe26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 TRANSP:TRANSPARENT
@@ -3915,7 +4615,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 TRANSP:TRANSPARENT
@@ -3952,7 +4652,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-notification@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 TRANSP:TRANSPARENT
@@ -3989,7 +4689,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-author_registration@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 TRANSP:TRANSPARENT
@@ -4026,7 +4726,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 TRANSP:TRANSPARENT
@@ -4063,7 +4763,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gtd-latam27-paper@powersystemdeadlines.org
-DTSTAMP:20261105T042400Z
+DTSTAMP:20261105T091322Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
