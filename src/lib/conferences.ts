@@ -19,7 +19,10 @@ export async function getAllEditions(now: Date = new Date()): Promise<Conference
 
   const entries: CollectionEntry<'conferences'>[] = await getCollection('conferences');
   const editions = entries.flatMap((entry) =>
-    entry.data.editions.map((edition) => flattenEdition(entry.data, entry.id, edition, now)),
+    entry.data.editions.map((edition) => ({
+      ...flattenEdition(entry.data, entry.id, edition, now),
+      sourcePath: entry.filePath,
+    })),
   );
 
   cache = sortEditions(editions);

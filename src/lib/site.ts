@@ -35,6 +35,15 @@ export const SITE_DESCRIPTION =
 export const REPO_URL = 'https://github.com/langestefan/powersystem-deadlines';
 
 /**
+ * GitHub's in-browser editor for a file in the repository. For someone without
+ * write access GitHub forks the repository and opens a pull request, which is
+ * the whole contribution flow in one click.
+ */
+export function repoEditUrl(path: string): string {
+  return `${REPO_URL}/edit/main/${path.replace(/^\/+/, '')}`;
+}
+
+/**
  * Prefix an absolute-from-root path with the deployment base path.
  *
  * Page paths get a trailing slash: GitHub Pages 301s `/subscribe` to

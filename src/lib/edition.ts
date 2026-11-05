@@ -70,6 +70,11 @@ export interface ConferenceEdition {
   id: string;
   /** Collection entry id of the series file, e.g. "pscc". */
   seriesId: string;
+  /**
+   * The series file, relative to the repository root, e.g. "conferences/pscc.yml".
+   * Set by conferences.ts from the collection entry; absent in unit tests.
+   */
+  sourcePath?: string;
   /** "conference", or "event" for a meeting listed on /events instead of the homepage. */
   kind: EntryKind;
   name: string;
