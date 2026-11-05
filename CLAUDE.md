@@ -84,7 +84,8 @@ Layer boundaries that exist on purpose, and should stay:
 A series' `kind` is `conference` (default) or `event` (research meetings, PhD days). Both flow
 through the same pipeline, edition page (`/conference/<id>`), calendar and feeds; only the listing
 splits: the homepage shows conferences, `/events` shows events ordered by start date, and an event
-card with no deadline ahead counts down to its start instead.
+card with no deadline ahead counts down to its start instead. An edition may carry an optional
+`program:` (local `HH:MM` times, never converted), shown on its page.
 
 `submissionStatus()` in `edition.ts` decides the homepage bucket. `closed` (every dated deadline
 has passed) and `unannounced` (TBA, or nothing listed) are deliberately separate states: they are

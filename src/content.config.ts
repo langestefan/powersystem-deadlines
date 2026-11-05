@@ -107,6 +107,27 @@ const changeSchema = z
     error: 'A change needs an `old` value, a `new` value, or both.',
   });
 
+/**
+ * One slot of an event's programme, in the local time of the venue. Shown as
+ * written and never converted: it says when to be in the room, not when a
+ * submission closes, so no timezone is involved.
+ */
+const programItemSchema = z.object({
+  time: z
+    .string({
+      error: 'Programme `time` must be a quoted "HH:MM" string, e.g. time: \'09:15\'.',
+    })
+    .regex(/^([01]\d|2[0-3]):[0-5]\d$/, 'Programme `time` must be "HH:MM", e.g. \'09:15\'.'),
+  /** What kind of slot, shown as written: "Presentation", "Break", "Panel discussion". */
+  session: z.string().min(1),
+  /** The talk's title, if it has one. */
+  title: z.string().optional(),
+  /** Who is speaking, with their role or affiliation. */
+  speaker: z.string().optional(),
+  /** Anything else the programme says about the slot. */
+  details: z.string().optional(),
+});
+
 const editionSchema = z.object({
   year: z.number().int().min(2000).max(2100),
   /** Globally unique. Convention: lowercase series slug + two-digit year, e.g. pscc26. */
@@ -136,6 +157,8 @@ const editionSchema = z.object({
   /** Tags in addition to the series tags. */
   tags: z.array(z.enum(TAG_IDS)).optional(),
   note: z.string().optional(),
+  /** Optional programme, shown on the edition page. Mostly for events. */
+  program: z.array(programItemSchema).optional(),
   /** Changes made to this edition since it was added, feeding /changelog. */
   changes: z.array(changeSchema).optional(),
   /** Set when an edition is confirmed cancelled; kept for the archive. */
@@ -163,6 +186,7 @@ export type ConferenceSeriesData = ReturnType<typeof conferenceSchema.parse>;
 export type EditionData = ReturnType<typeof editionSchema.parse>;
 export type DeadlineData = ReturnType<typeof deadlineSchema.parse>;
 export type ChangeData = ReturnType<typeof changeSchema.parse>;
+export type ProgramItemData = ReturnType<typeof programItemSchema.parse>;
 
 const conferences = defineCollection({
   loader: glob({

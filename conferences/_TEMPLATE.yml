@@ -109,6 +109,15 @@ editions:
     # Optional free text: anything a submitter should know.
     note: Accepted papers are considered for a journal special issue.
 
+    # Optional, mostly for events: the programme, in order, in the venue's
+    # local time. Quote each time. Only `time` and `session` are required.
+    # program:
+    #   - time: '10:00'
+    #     session: Presentation
+    #     title: The talk's title
+    #     speaker: Name, role and affiliation
+    #     details: Anything else the programme says
+
     # Leave out for a new edition. When you later correct or update one, add an
     # entry per changed field: the date of your edit, the field (a deadline's
     # `type` for a deadline), and its old and new value. Omit `old` for a value

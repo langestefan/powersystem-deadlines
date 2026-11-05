@@ -1,4 +1,9 @@
-import type { ConferenceSeriesData, DeadlineData, EditionData } from '../content.config';
+import type {
+  ConferenceSeriesData,
+  DeadlineData,
+  EditionData,
+  ProgramItemData,
+} from '../content.config';
 import { regionForCountry } from './regions';
 import {
   kindLabel,
@@ -91,6 +96,8 @@ export interface ConferenceEdition {
   note?: string;
   /** Changes made since the edition was added, newest first. */
   changes: EditionChange[];
+  /** The programme in the order it runs, empty when none is listed. */
+  program: ProgramItemData[];
   cancelled: boolean;
   deadlines: ResolvedDeadline[];
   /** Soonest future deadline of a submission kind, driving the headline countdown. */
@@ -177,6 +184,7 @@ export function flattenEdition(
     submissionType: edition.submission_type,
     note: edition.note,
     changes,
+    program: edition.program ?? [],
     cancelled: edition.cancelled,
     deadlines,
     nextDeadline,

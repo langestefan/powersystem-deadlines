@@ -205,6 +205,22 @@ for (const name of files) {
       );
     }
 
+    // --- programme --------------------------------------------------------
+    // The schema checks each slot; only the order across slots is checked here.
+    // "HH:MM" strings compare correctly as text.
+    const program: any[] = Array.isArray(edition.program) ? edition.program : [];
+    for (let i = 1; i < program.length; i++) {
+      const [before, after] = [String(program[i - 1]?.time), String(program[i]?.time)];
+      if (after < before) {
+        report(
+          file,
+          where,
+          'warning',
+          `Programme slot at ${after} comes after one at ${before}. List the programme in order.`,
+        );
+      }
+    }
+
     // --- event dates ------------------------------------------------------
     const start = asDay(edition.start);
     const end = asDay(edition.end);

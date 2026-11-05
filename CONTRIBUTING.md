@@ -31,6 +31,11 @@ as usual (`type: poster`, `type: abstract`); a registration deadline is `type: e
 Give `start:` and `end:` whenever the dates are known: an event without a deadline counts down to
 its start.
 
+An event (or a conference) can list its programme under `program:`, in order and in the venue's
+local time. Each slot needs a quoted `time` (`'09:15'`) and a `session` (`Presentation`, `Break`,
+as the programme words it), and may add a `title`, a `speaker` and `details`. It is shown on the
+edition page.
+
 ## Adding a new year to a conference that is already listed
 
 Append a new entry under `editions:` in the existing file. **Do not edit last year's entry**: the
@@ -82,6 +87,7 @@ editions:
 | `deadlines`       | no       | See below. An edition with none shows as "dates not announced"  |
 | `tags`            | no       | Extra tags on top of the series tags                            |
 | `note`            | no       | Anything a submitter should know                                |
+| `program`         | no       | The programme, mostly for events; see [Events](#events)         |
 | `changes`         | no       | What changed after the edition was listed; see below            |
 | `cancelled`       | no       | `true` if the edition was called off                            |
 

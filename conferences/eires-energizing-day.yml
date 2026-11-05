@@ -32,3 +32,62 @@ editions:
       innovation in resilient energy systems. Free; registration is open at
       https://eires.copernica.tue.nl/EIRES_Energizing_Day_subscribe_open, with
       no registration deadline stated.
+    program:
+      - time: '09:15'
+        session: Walk-in
+        details: Registration with coffee & tea
+      - time: '10:00'
+        session: Opening
+        speaker: Niels Deen, Scientific Director EIRES, TU/e
+      - time: '10:20'
+        session: Presentation
+        title: 'Security: Sustainable energy transitions, security and the EU'
+        speaker: >-
+          Paula Kivimaa, Research Professor and Associate Editor in Environmental
+          Innovation and Societal Transitions, The Finnish Environment Institute (SYKE)
+      - time: '11:00'
+        session: Break
+        details: With exhibition
+      - time: '11:30'
+        session: Presentation
+        title: 'The Iberian Blackout: A Reality Check for Energy'
+        speaker: >-
+          Niels Blaauwbroek, Assistant professor in the Electrical Energy Systems
+          (EES) group, TU/e
+      - time: '12:00'
+        session: Presentation
+        title: Can we afford the transition?
+        speaker: >-
+          Pieter Pauw, Assistant professor at the Technology Innovation and Society
+          (TIS) group, TU/e
+      - time: '12:30'
+        session: Pitches
+        details: Research pitches, short poster presentations by PhDs
+      - time: '13:00'
+        session: Lunch
+        details: Walking lunch, with exhibition
+      - time: '14:00'
+        session: Presentation
+        speaker: Joost Greunsven, Manager Market Analysis, TenneT
+      - time: '14:30'
+        session: Panel discussion
+        details: >-
+          Hosted by Roy op 't Veld. With Michelle Chong, Koen Kok, Geert-Jan van
+          Houtum, Anna Wieczorek, Paula Kivimaa
+      - time: '15:15'
+        session: Break
+        details: With exhibition
+      - time: '15:45'
+        session: Presentation
+        title: Iron fuel technology from innovation to industry
+        speaker: Lex Scheepers, CTO & Co-founder RIFT
+      - time: '16:05'
+        session: Presentation
+        title: Shifting global energy security dimensions of the mid-transition
+        speaker: >-
+          Emily Holland, Director of the Eurasia Program at the Foreign Policy
+          Research Institute and Special Advisor for Energy Security, Agora
+          Energiewende
+      - time: '16:30'
+        session: Drinks
+        details: Networking & drinks until 18:00

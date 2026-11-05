@@ -208,3 +208,9 @@ describe('sortByStart', () => {
     expect(sortByStart([undated, later, sooner, tie])[3].start).toBeUndefined();
   });
 });
+
+describe('program', () => {
+  it('is empty when the YAML lists none', () => {
+    expect(edition({}).program).toEqual([]);
+  });
+});

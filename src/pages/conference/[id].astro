@@ -72,9 +72,9 @@ const submissionLabels: Record<string, string> = {
   <nav class="mb-4 text-sm">
     <a
       class="inline-flex min-h-6 items-center text-muted-foreground hover:text-foreground"
-      href={withBase('/')}
+      href={withBase(edition.kind === 'event' ? '/events' : '/')}
     >
-      ← All deadlines
+      {edition.kind === 'event' ? '← All events' : '← All deadlines'}
     </a>
   </nav>
 
@@ -114,19 +114,53 @@ const submissionLabels: Record<string, string> = {
     <!-- min-w-0: without it a grid item grows to fit the widest child, and the
          key-dates table would push the whole page sideways instead of scrolling. -->
     <div class="min-w-0 space-y-6">
-      <section class="rounded-lg border bg-card p-4 shadow-sm">
-        <h2 class="mb-3 text-sm font-semibold tracking-wide uppercase opacity-70">
-          Key dates
-        </h2>
-        <DeadlineTable edition={edition} />
-        {
-          edition.submissionType && (
-            <p class="mt-3 border-t pt-3 text-sm text-muted-foreground">
-              Submission format: {submissionLabels[edition.submissionType]}
-            </p>
-          )
-        }
-      </section>
+      <!-- An event often has nothing to submit, and "no deadlines listed yet"
+           would promise some are coming. A conference keeps the card either way. -->
+      {
+        (edition.kind === 'conference' || edition.deadlines.length > 0) && (
+          <section class="rounded-lg border bg-card p-4 shadow-sm">
+            <h2 class="mb-3 text-sm font-semibold tracking-wide uppercase opacity-70">
+              Key dates
+            </h2>
+            <DeadlineTable edition={edition} />
+            {edition.submissionType && (
+              <p class="mt-3 border-t pt-3 text-sm text-muted-foreground">
+                Submission format: {submissionLabels[edition.submissionType]}
+              </p>
+            )}
+          </section>
+        )
+      }
+
+      {
+        edition.program.length > 0 && (
+          <section class="rounded-lg border bg-card p-4 shadow-sm">
+            <h2 class="mb-3 text-sm font-semibold tracking-wide uppercase opacity-70">
+              Programme
+            </h2>
+            <ol class="divide-y text-sm">
+              {edition.program.map((item) => (
+                <li class="grid grid-cols-[3.5rem_minmax(0,1fr)] gap-x-3 py-2 first:pt-0 last:pb-0">
+                  <time class="font-medium tabular-nums">{item.time}</time>
+                  <div class="min-w-0 wrap-break-word">
+                    <p>
+                      <span class="text-muted-foreground">{item.session}</span>
+                      {item.title && (
+                        <>
+                          <span class="text-muted-foreground"> · </span>
+                          <span class="font-medium">{item.title}</span>
+                        </>
+                      )}
+                    </p>
+                    {item.speaker && <p class="mt-0.5">{item.speaker}</p>}
+                    {item.details && <p class="mt-0.5 text-muted-foreground">{item.details}</p>}
+                  </div>
+                </li>
+              ))}
+            </ol>
+          </section>
+        )
+      }
 
       {
         edition.note && (
