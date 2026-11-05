@@ -21,9 +21,10 @@ function edition(o: {
   format?: 'in-person' | 'hybrid' | 'online';
   cancelled?: boolean;
   tags?: Array<'power-systems' | 'power-electronics'>;
+  kind?: 'conference' | 'event';
 }): ConferenceEdition {
   return flattenEdition(
-    { name: o.id.toUpperCase(), full_name: 'Test Conference', kind: 'conference', link: 'https://example.org/',
+    { name: o.id.toUpperCase(), full_name: 'Test Conference', kind: o.kind ?? 'conference', link: 'https://example.org/',
       society: ['IEEE PES'], frequency: 'annual', tags: o.tags ?? ['power-systems'], editions: [] },
     o.id,
     { year: o.year ?? 2027, id: o.id, date: 'whenever', verified: '2026-08-26',
@@ -80,6 +81,18 @@ describe('buildMapMarkers', () => {
 
   it('lists every edition of the year for the table under the map', () => {
     expect(mapEditions(all, 2027)).toHaveLength(5);
+  });
+
+  it('carries the kind, so the list can put events under their own heading', () => {
+    const listed = mapEditions(
+      [edition({ id: 'conf', city: 'Delft', country: 'Netherlands' }),
+       edition({ id: 'meet', city: 'Delft', country: 'Netherlands', kind: 'event' })],
+      2027,
+    );
+    expect(listed.map((e) => [e.id, e.kind])).toEqual([
+      ['conf', 'conference'],
+      ['meet', 'event'],
+    ]);
   });
 
   it('builds a legend with each lead topic once', () => {

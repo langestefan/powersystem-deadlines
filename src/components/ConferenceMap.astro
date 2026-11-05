@@ -25,6 +25,20 @@ const { year, years, editions } = Astro.props;
 
 const markers = buildMapMarkers(editions, year);
 const listed = mapEditions(editions, year);
+
+/** The list under the map, split the way the rest of the site splits them. */
+const sections = [
+  {
+    title: 'Conferences',
+    empty: `No conferences listed for ${year}.`,
+    editions: listed.filter((edition) => edition.kind === 'conference'),
+  },
+  {
+    title: 'Events',
+    empty: `No events listed for ${year}.`,
+    editions: listed.filter((edition) => edition.kind === 'event'),
+  },
+];
 const legend = mapLegend(markers);
 
 const index = years.indexOf(year);
@@ -50,7 +64,7 @@ const payload = markers.map((marker) => ({
 }));
 ---
 
-<h1 class="text-2xl font-bold tracking-tight sm:text-3xl">Conference locations</h1>
+<h1 class="text-2xl font-bold tracking-tight sm:text-3xl">Conference and Event locations</h1>
 
 <nav class="mt-6 flex items-center justify-center gap-1" aria-label="Year">
   {
@@ -136,30 +150,38 @@ const payload = markers.map((marker) => ({
   </div>
 </section>
 
-<section id="list" class="mt-8 scroll-mt-24">
-  <h2 class="text-lg font-semibold tracking-tight">All {year} conferences</h2>
-  <ul class="mt-3 grid gap-x-6 gap-y-1 text-sm sm:grid-cols-2">
-    {
-      listed.map((edition) => (
-        <li class="min-w-0" data-list-topic={edition.topic}>
-          <a
-            href={withBase(`/conference/${edition.id}`)}
-            data-edition-id={edition.id}
-            class="-mx-2 flex flex-wrap items-baseline gap-x-2 rounded-md px-2 py-1 hover:bg-accent"
-          >
-            <svg class="size-2 shrink-0 self-center" viewBox="0 0 10 10" aria-hidden="true">
-              <circle cx="5" cy="5" r="5" class={edition.markerClass} />
-            </svg>
-            <span class="shrink-0 font-medium">{edition.name}</span>
-            <span class="text-muted-foreground">
-              {edition.dateLabel} &middot; {edition.location}
-            </span>
-          </a>
-        </li>
-      ))
-    }
-  </ul>
-</section>
+<div id="list" class="mt-8 scroll-mt-24 space-y-8">
+  {
+    sections.map((section) => (
+      <section>
+        <h2 class="text-lg font-semibold tracking-tight">{section.title}</h2>
+        {section.editions.length === 0 ? (
+          <p class="mt-3 text-sm text-muted-foreground">{section.empty}</p>
+        ) : (
+          <ul class="mt-3 grid gap-x-6 gap-y-1 text-sm sm:grid-cols-2">
+            {section.editions.map((edition) => (
+              <li class="min-w-0" data-list-topic={edition.topic}>
+                <a
+                  href={withBase(`/conference/${edition.id}`)}
+                  data-edition-id={edition.id}
+                  class="-mx-2 flex flex-wrap items-baseline gap-x-2 rounded-md px-2 py-1 hover:bg-accent"
+                >
+                  <svg class="size-2 shrink-0 self-center" viewBox="0 0 10 10" aria-hidden="true">
+                    <circle cx="5" cy="5" r="5" class={edition.markerClass} />
+                  </svg>
+                  <span class="shrink-0 font-medium">{edition.name}</span>
+                  <span class="text-muted-foreground">
+                    {edition.dateLabel} &middot; {edition.location}
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        )}
+      </section>
+    ))
+  }
+</div>
 
 <style is:global>
   /* MapLibre ships its own light chrome; bring it onto the site's tokens. */

@@ -1,7 +1,7 @@
 import { locationLabel, type ConferenceEdition } from './edition';
 import { leadTag } from './overview';
 import { coordinatesFor, placeKey, type LatLon } from './places';
-import { getTag, tagLabel, type TagId } from './taxonomy';
+import { getTag, tagLabel, type EntryKind, type TagId } from './taxonomy';
 
 /**
  * The map's data layer: editions -> one marker per city per conference year,
@@ -15,6 +15,8 @@ import { getTag, tagLabel, type TagId } from './taxonomy';
 
 export interface MapEdition {
   id: string;
+  /** Conference or event, which decides the list section it appears under. */
+  kind: EntryKind;
   name: string;
   fullName: string;
   dateLabel: string;
@@ -45,6 +47,7 @@ function mapEdition(edition: ConferenceEdition): MapEdition {
   const tag = leadTag(edition);
   return {
     id: edition.id,
+    kind: edition.kind,
     name: `${edition.name} ${edition.year}`,
     fullName: edition.fullName,
     dateLabel: edition.dateLabel,
