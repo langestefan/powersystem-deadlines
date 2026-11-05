@@ -18,6 +18,7 @@ function fixture(): ConferenceEdition {
     {
       name: 'TESTCONF',
       full_name: 'Test Conference on Power Systems',
+      kind: 'conference',
       link: 'https://testconf.example.org/',
       society: ['IEEE PES'],
       frequency: 'annual',
@@ -55,6 +56,7 @@ function unstatedFixture(): ConferenceEdition {
     {
       name: 'TESTCONF',
       full_name: 'Test Conference on Power Systems',
+      kind: 'conference',
       link: 'https://testconf.example.org/',
       society: ['IEEE PES'],
       frequency: 'annual',
@@ -160,6 +162,7 @@ describe('the day a deadline is filed under', () => {
       {
         name: 'TC',
         full_name: 'Test Conference',
+        kind: 'conference',
         link: 'https://example.org/',
         society: ['IEEE PES'],
         frequency: 'annual',

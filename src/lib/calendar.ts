@@ -1,13 +1,14 @@
 import {
   deadlineZoneLabel,
   locationLabel,
+  officialLinkLabel,
   UNSTATED_TIMEZONE_NOTE,
   type ConferenceEdition,
   type ResolvedDeadline,
 } from './edition';
 import type { IcsEvent } from './ics';
 import { formatInZone, formatTimeInZone } from './time';
-import { tagLabel } from './taxonomy';
+import { kindLabel, tagLabel } from './taxonomy';
 
 /**
  * Maps conference editions onto calendar events. Kept separate from ics.ts so
@@ -63,7 +64,7 @@ function describeEdition(
     );
   }
 
-  lines.push('', `Conference: ${edition.dateLabel}`, `Location: ${locationLabel(edition)}`);
+  lines.push('', `${kindLabel(edition.kind)}: ${edition.dateLabel}`, `Location: ${locationLabel(edition)}`);
   if (edition.venue) lines.push(`Venue: ${edition.venue}`);
 
   const dated = edition.deadlines.filter((d) => d.utc);
@@ -90,7 +91,7 @@ function describeEdition(
 
   if (edition.note) lines.push('', edition.note);
 
-  lines.push('', `Call for papers: ${edition.link}`, `Details: ${editionUrl(edition, siteUrl)}`);
+  lines.push('', `${officialLinkLabel(edition)}: ${edition.link}`, `Details: ${editionUrl(edition, siteUrl)}`);
 
   return lines.join('\n');
 }

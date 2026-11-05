@@ -1,5 +1,5 @@
 import { deadlineDay, deadlineSummary } from './calendar';
-import { locationLabel, type ConferenceEdition, type ResolvedDeadline } from './edition';
+import { locationLabel, officialLinkLabel, type ConferenceEdition, type ResolvedDeadline } from './edition';
 
 /**
  * "Add to calendar" deep links for a single deadline.
@@ -38,7 +38,7 @@ function detailsFor(edition: ConferenceEdition, deadline: ResolvedDeadline): str
   return [
     edition.fullName,
     `${deadline.label} for ${edition.name} ${edition.year}.`,
-    `Call for papers: ${edition.link}`,
+    `${officialLinkLabel(edition)}: ${edition.link}`,
   ].join('\n\n');
 }
 

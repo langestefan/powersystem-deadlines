@@ -104,6 +104,7 @@ describe('editionVerification', () => {
       {
         name: 'TC',
         full_name: 'Test Conference',
+        kind: 'conference',
         link: 'https://example.org/',
         society: ['IEEE PES'],
         frequency: 'annual',

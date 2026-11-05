@@ -20,6 +20,7 @@ function edition(
     {
       name,
       full_name: `${name} Conference`,
+      kind: 'conference',
       link: 'https://example.org/',
       society: ['IEEE PES'],
       frequency: 'annual',

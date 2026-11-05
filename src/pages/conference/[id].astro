@@ -1,15 +1,29 @@
 ---
 import type { GetStaticPaths } from 'astro';
-import { CalendarDays, ExternalLink, FileText, MapPin, ShieldCheck, Users } from '@lucide/astro';
+import {
+  CalendarDays,
+  ExternalLink,
+  FileText,
+  Map as MapIcon,
+  MapPin,
+  ShieldCheck,
+  Users,
+} from '@lucide/astro';
 
 import Badge from '@/components/Badge.astro';
 import Countdown from '@/components/Countdown.astro';
+import GitHubIcon from '@/components/GitHubIcon.astro';
 import DeadlineTable from '@/components/DeadlineTable.astro';
 import SubscribeLinks from '@/components/SubscribeLinks.tsx';
 import BaseLayout from '@/layouts/BaseLayout.astro';
-import { getAllEditions, locationLabel, type ConferenceEdition } from '@/lib/conferences';
+import {
+  getAllEditions,
+  googleMapsUrl,
+  locationLabel,
+  type ConferenceEdition,
+} from '@/lib/conferences';
 import { conferenceFeedPath, feedUrl, googleSubscribeUrl, webcalUrl } from '@/lib/feeds';
-import { withBase } from '@/lib/site';
+import { repoEditUrl, withBase } from '@/lib/site';
 import { getTag, tagLabel } from '@/lib/taxonomy';
 import ChangelogTable from '@/components/ChangelogTable.astro';
 import { editionChangelog } from '@/lib/changelog';
@@ -39,14 +53,28 @@ const feedPath = conferenceFeedPath(edition.id);
 
 const verification = editionVerification(edition);
 
+// One file per series, so every edition of it edits the same file.
+const editUrl = repoEditUrl(edition.sourcePath ?? `conferences/${edition.seriesId}.yml`);
+
 const facts = [
-  { icon: MapPin, label: 'Location', value: edition.venue ?? locationLabel(edition) },
-  { icon: CalendarDays, label: 'Conference dates', value: edition.dateLabel },
+  {
+    icon: MapPin,
+    label: 'Location',
+    value: edition.venue ?? locationLabel(edition),
+    // The venue alone rarely says which city; the city line answers that.
+    detail: edition.venue ? locationLabel(edition) : undefined,
+    mapUrl: googleMapsUrl(edition),
+  },
+  {
+    icon: CalendarDays,
+    label: edition.kind === 'event' ? 'Event dates' : 'Conference dates',
+    value: edition.dateLabel,
+  },
   { icon: Users, label: 'Organised by', value: edition.society.join(', ') },
   { icon: FileText, label: 'Proceedings', value: edition.proceedings },
   {
     icon: ShieldCheck,
-    label: 'Checked against the CFP',
+    label: edition.kind === 'event' ? 'Checked against the official site' : 'Checked against the CFP',
     value: verification.stale
       ? `${describeAge(verification.ageDays)} - may be out of date`
       : describeAge(verification.ageDays),
@@ -68,9 +96,9 @@ const submissionLabels: Record<string, string> = {
   <nav class="mb-4 text-sm">
     <a
       class="inline-flex min-h-6 items-center text-muted-foreground hover:text-foreground"
-      href={withBase('/')}
+      href={withBase(edition.kind === 'event' ? '/events' : '/')}
     >
-      ← All deadlines
+      {edition.kind === 'event' ? '← All events' : '← All deadlines'}
     </a>
   </nav>
 
@@ -110,25 +138,59 @@ const submissionLabels: Record<string, string> = {
     <!-- min-w-0: without it a grid item grows to fit the widest child, and the
          key-dates table would push the whole page sideways instead of scrolling. -->
     <div class="min-w-0 space-y-6">
-      <section class="rounded-lg border bg-card p-4 shadow-sm">
-        <h2 class="mb-3 text-sm font-semibold tracking-wide uppercase opacity-70">
-          Key dates
-        </h2>
-        <DeadlineTable edition={edition} />
-        {
-          edition.submissionType && (
-            <p class="mt-3 border-t pt-3 text-sm text-muted-foreground">
-              Submission format: {submissionLabels[edition.submissionType]}
-            </p>
-          )
-        }
-      </section>
+      <!-- An event often has nothing to submit, and "no deadlines listed yet"
+           would promise some are coming. A conference keeps the card either way. -->
+      {
+        (edition.kind === 'conference' || edition.deadlines.length > 0) && (
+          <section class="rounded-lg border bg-card p-4 shadow-sm">
+            <h2 class="mb-3 text-sm font-semibold tracking-wide uppercase opacity-70">
+              Key dates
+            </h2>
+            <DeadlineTable edition={edition} />
+            {edition.submissionType && (
+              <p class="mt-3 border-t pt-3 text-sm text-muted-foreground">
+                Submission format: {submissionLabels[edition.submissionType]}
+              </p>
+            )}
+          </section>
+        )
+      }
+
+      {
+        edition.program.length > 0 && (
+          <section class="rounded-lg border bg-card p-4 shadow-sm">
+            <h2 class="mb-3 text-sm font-semibold tracking-wide uppercase opacity-70">
+              Programme
+            </h2>
+            <ol class="divide-y text-sm">
+              {edition.program.map((item) => (
+                <li class="grid grid-cols-[3.5rem_minmax(0,1fr)] gap-x-3 py-2 first:pt-0 last:pb-0">
+                  <time class="font-medium tabular-nums">{item.time}</time>
+                  <div class="min-w-0 wrap-break-word">
+                    <p>
+                      <span class="text-muted-foreground">{item.session}</span>
+                      {item.title && (
+                        <>
+                          <span class="text-muted-foreground"> · </span>
+                          <span class="font-medium">{item.title}</span>
+                        </>
+                      )}
+                    </p>
+                    {item.speaker && <p class="mt-0.5">{item.speaker}</p>}
+                    {item.details && <p class="mt-0.5 text-muted-foreground">{item.details}</p>}
+                  </div>
+                </li>
+              ))}
+            </ol>
+          </section>
+        )
+      }
 
       {
         edition.note && (
           <section class="rounded-lg border border-dashed p-4 text-sm">
             <h2 class="mb-1.5 font-semibold">Notes</h2>
-            <p class="text-muted-foreground">{edition.note}</p>
+            <p class="text-muted-foreground wrap-anywhere">{edition.note}</p>
           </section>
         )
       }
@@ -176,6 +238,22 @@ const submissionLabels: Record<string, string> = {
                 <div class="min-w-0">
                   <dt class="text-xs text-muted-foreground">{fact.label}</dt>
                   <dd>{fact.value}</dd>
+                  {'detail' in fact && fact.detail && (
+                    <dd class="text-sm text-muted-foreground">{fact.detail}</dd>
+                  )}
+                  {'mapUrl' in fact && fact.mapUrl && (
+                    <dd class="mt-1">
+                      <a
+                        href={fact.mapUrl}
+                        rel="noopener"
+                        class="inline-flex min-h-6 items-center gap-1 rounded-md border px-2 py-0.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
+                      >
+                        <MapIcon class="size-3" aria-hidden="true" />
+                        Open in Google Maps
+                        <ExternalLink class="size-3" aria-hidden="true" />
+                      </a>
+                    </dd>
+                  )}
                 </div>
               </div>
             ))
@@ -188,6 +266,15 @@ const submissionLabels: Record<string, string> = {
         >
           Official website
           <ExternalLink class="size-3.5" aria-hidden="true" />
+        </a>
+        <a
+          href={editUrl}
+          rel="noopener"
+          class="mt-3 flex w-full items-center justify-center gap-1.5 rounded-md border px-3 py-1.5 text-sm font-medium transition-colors hover:bg-accent"
+          title="Correct or update this entry. GitHub opens the file and turns your edit into a pull request."
+        >
+          <GitHubIcon class="size-3.5" />
+          Edit on GitHub
         </a>
       </div>
 

@@ -32,9 +32,9 @@ export const ALL_DEADLINES_FEED: FeedDefinition = {
 
 export const EVENTS_FEED: FeedDefinition = {
   path: '/calendar/events.ics',
-  name: `${SITE_TITLE}: conference dates`,
-  label: 'Conference dates',
-  description: 'When each conference actually takes place, as all-day events.',
+  name: `${SITE_TITLE}: conference and event dates`,
+  label: 'Conference and event dates',
+  description: 'When each conference and event actually takes place, as all-day events.',
   kind: 'events',
 };
 

@@ -4,7 +4,9 @@ import {
   deadlineZoneLabel,
   filterAttributes,
   flattenEdition,
+  googleMapsUrl,
   resolveDeadline,
+  sortByStart,
   submissionStatus,
   type ConferenceEdition,
 } from '@/lib/edition';
@@ -21,6 +23,7 @@ const NOW = new Date('2026-09-16T12:00:00Z');
 const SERIES = {
   name: 'TESTCONF',
   full_name: 'Test Conference on Power Systems',
+  kind: 'conference' as const,
   link: 'https://testconf.example.org/',
   society: ['IEEE PES'] as const,
   frequency: 'annual' as const,
@@ -32,9 +35,18 @@ function edition(o: {
   timezone?: string;
   deadlines?: Array<{ type: string; label: string; date: string; timezone?: string }>;
   end?: string;
+  start?: string;
+  kind?: ConferenceEdition['kind'];
+  name?: string;
 }): ConferenceEdition {
   return flattenEdition(
-    { ...SERIES, society: [...SERIES.society], tags: [...SERIES.tags] },
+    {
+      ...SERIES,
+      name: o.name ?? SERIES.name,
+      kind: o.kind ?? SERIES.kind,
+      society: [...SERIES.society],
+      tags: [...SERIES.tags],
+    },
     'testconf',
     {
       year: 2027,
@@ -44,6 +56,7 @@ function edition(o: {
       format: 'in-person',
       cancelled: false,
       timezone: o.timezone,
+      start: o.start,
       end: o.end,
       deadlines: o.deadlines ?? [],
     },
@@ -166,5 +179,62 @@ describe('filterAttributes', () => {
     const attributes = filterAttributes(edition({}));
     expect(attributes['data-tags']).toBe('power-systems');
     expect(attributes['data-societies']).toBe('IEEE PES');
+  });
+});
+
+describe('kind', () => {
+  it('carries the series kind onto each edition', () => {
+    expect(edition({}).kind).toBe('conference');
+    expect(edition({ kind: 'event' }).kind).toBe('event');
+  });
+
+  it('makes an event findable by searching for "event"', () => {
+    expect(filterAttributes(edition({ kind: 'event' }))['data-search']).toContain('event');
+    expect(filterAttributes(edition({}))['data-search']).not.toContain('event');
+  });
+});
+
+describe('sortByStart', () => {
+  it('orders by start date, undated last, ties by name', () => {
+    const later = edition({ name: 'B', start: '2027-05-01' });
+    const sooner = edition({ name: 'C', start: '2027-03-01' });
+    const undated = edition({ name: 'A' });
+    const tie = edition({ name: 'A', start: '2027-05-01' });
+    expect(sortByStart([undated, later, sooner, tie]).map((e) => e.name)).toEqual([
+      'C',
+      'A',
+      'B',
+      'A',
+    ]);
+    expect(sortByStart([undated, later, sooner, tie])[3].start).toBeUndefined();
+  });
+});
+
+describe('program', () => {
+  it('is empty when the YAML lists none', () => {
+    expect(edition({}).program).toEqual([]);
+  });
+});
+
+describe('googleMapsUrl', () => {
+  const at = (o: Partial<ConferenceEdition>) => ({ ...edition({}), ...o });
+
+  it('searches for the venue, city and country', () => {
+    const url = new URL(
+      googleMapsUrl(at({ venue: 'Aula', city: 'Delft', country: 'Netherlands' }))!,
+    );
+    expect(url.origin + url.pathname).toBe('https://www.google.com/maps/search/');
+    expect(url.searchParams.get('api')).toBe('1');
+    expect(url.searchParams.get('query')).toBe('Aula, Delft, Netherlands');
+  });
+
+  it('works from the city alone', () => {
+    const url = new URL(googleMapsUrl(at({ city: 'Delft', country: 'Netherlands' }))!);
+    expect(url.searchParams.get('query')).toBe('Delft, Netherlands');
+  });
+
+  it('has nothing to point at for an online or unplaced edition', () => {
+    expect(googleMapsUrl(at({ city: 'Delft', format: 'online' }))).toBeUndefined();
+    expect(googleMapsUrl(at({ country: 'Netherlands' }))).toBeUndefined();
   });
 });

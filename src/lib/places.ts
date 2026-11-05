@@ -26,6 +26,7 @@ const PLACES: Record<string, LatLon> = {
   'Cluj-Napoca, Romania': [46.77, 23.59],
   'Delft, Netherlands': [52.01, 4.36],
   'Dresden, Germany': [51.05, 13.74],
+  'Eindhoven, Netherlands': [51.44, 5.47],
   'Guimarães, Portugal': [41.44, -8.3],
   'Heidelberg, Germany': [49.4, 8.67],
   'Larnaca, Cyprus': [34.92, 33.62],

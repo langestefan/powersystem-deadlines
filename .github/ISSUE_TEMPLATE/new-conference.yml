@@ -1,5 +1,5 @@
-name: Add a conference
-description: Report a power system conference that is not listed yet.
+name: Add a conference or event
+description: Report a power system conference or researcher event that is not listed yet.
 title: 'Add: '
 labels: [new-conference]
 body:
@@ -13,10 +13,23 @@ body:
         and see [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md). Otherwise fill this
         in and someone will open the PR for you.
 
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      description: >-
+        An event is a research meeting, PhD day or similar. It may have only a
+        registration or poster deadline, or none at all.
+      options:
+        - Conference
+        - Event
+    validations:
+      required: true
+
   - type: input
     id: name
     attributes:
-      label: Conference name
+      label: Name
       description: The short name people use, plus the year.
       placeholder: ISGT Europe 2027
     validations:
@@ -33,7 +46,7 @@ body:
   - type: input
     id: cfp_url
     attributes:
-      label: Call for papers URL
+      label: Call for papers or announcement URL
       description: The official page the dates below come from. Required, because every date must be traceable.
       placeholder: https://example.org/call-for-papers
     validations:
@@ -46,6 +59,7 @@ body:
       description: >-
         One per line, copied from the call for papers, with the timezone if it
         states one. Include notification and camera-ready dates if you have them.
+        An event with nothing to submit can leave this empty.
       placeholder: |
         Abstract submission: 2027-01-15 23:59:59 AoE
         Full paper submission: 2027-02-01 23:59:59 AoE
@@ -53,12 +67,12 @@ body:
         Final paper: 2027-05-20
       render: text
     validations:
-      required: true
+      required: false
 
   - type: input
     id: dates
     attributes:
-      label: Conference dates
+      label: Dates
       placeholder: October 19-22, 2027
     validations:
       required: true

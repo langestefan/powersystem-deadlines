@@ -19,7 +19,7 @@ function edition(o: {
   end?: string;
 }): ConferenceEdition {
   return flattenEdition(
-    { name: 'TC', full_name: 'Test Conference', link: 'https://example.org/',
+    { name: 'TC', full_name: 'Test Conference', kind: 'conference', link: 'https://example.org/',
       society: ['IEEE PES'], frequency: 'annual', tags: ['power-systems'], editions: [] },
     'tc',
     { year: 2026, id: o.id, date: 'whenever', verified: '2026-08-26', format: 'in-person',

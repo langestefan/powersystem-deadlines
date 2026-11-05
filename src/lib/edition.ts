@@ -1,8 +1,18 @@
-import type { ConferenceSeriesData, DeadlineData, EditionData } from '../content.config';
+import type {
+  ConferenceSeriesData,
+  DeadlineData,
+  EditionData,
+  ProgramItemData,
+} from '../content.config';
 import { regionForCountry } from './regions';
 import {
+  kindLabel,
+  REGIONS,
+  SOCIETIES,
   SUBMISSION_DEADLINE_TYPES,
+  TAGS,
   tagLabel,
+  type EntryKind,
   type Region,
   type Society,
   type TagId,
@@ -60,6 +70,13 @@ export interface ConferenceEdition {
   id: string;
   /** Collection entry id of the series file, e.g. "pscc". */
   seriesId: string;
+  /**
+   * The series file, relative to the repository root, e.g. "conferences/pscc.yml".
+   * Set by conferences.ts from the collection entry; absent in unit tests.
+   */
+  sourcePath?: string;
+  /** "conference", or "event" for a meeting listed on /events instead of the homepage. */
+  kind: EntryKind;
   name: string;
   fullName: string;
   description?: string;
@@ -84,6 +101,8 @@ export interface ConferenceEdition {
   note?: string;
   /** Changes made since the edition was added, newest first. */
   changes: EditionChange[];
+  /** The programme in the order it runs, empty when none is listed. */
+  program: ProgramItemData[];
   cancelled: boolean;
   deadlines: ResolvedDeadline[];
   /** Soonest future deadline of a submission kind, driving the headline countdown. */
@@ -148,6 +167,7 @@ export function flattenEdition(
   return {
     id: edition.id,
     seriesId,
+    kind: series.kind,
     name: series.name,
     fullName: series.full_name,
     description: series.description,
@@ -169,6 +189,7 @@ export function flattenEdition(
     submissionType: edition.submission_type,
     note: edition.note,
     changes,
+    program: edition.program ?? [],
     cancelled: edition.cancelled,
     deadlines,
     nextDeadline,
@@ -191,6 +212,16 @@ function sortKey(edition: ConferenceEdition): number {
 
 export function sortEditions(editions: ConferenceEdition[]): ConferenceEdition[] {
   return [...editions].sort((a, b) => sortKey(a) - sortKey(b) || a.name.localeCompare(b.name));
+}
+
+/**
+ * Events in the order they take place, undated ones last. For a meeting the
+ * day it happens is the thing to plan around; a poster deadline, if it has one,
+ * still shows on its card.
+ */
+export function sortByStart(editions: ConferenceEdition[]): ConferenceEdition[] {
+  const key = (edition: ConferenceEdition) => edition.start?.getTime() ?? Number.MAX_SAFE_INTEGER;
+  return [...editions].sort((a, b) => key(a) - key(b) || a.name.localeCompare(b.name));
 }
 
 /** Every tag that at least one edition uses, in taxonomy order. */
@@ -241,6 +272,25 @@ export function submissionStatus(
   return hasPassedDeadline ? 'closed' : 'unannounced';
 }
 
+/**
+ * What the edition's `link` is called. A conference links its call for papers;
+ * an event often has none, only a page with the programme and a sign-up form.
+ */
+export function officialLinkLabel(edition: ConferenceEdition): string {
+  return edition.kind === 'event' ? 'Website' : 'Call for papers';
+}
+
+/**
+ * A Google Maps search for where the edition is held, or undefined when there
+ * is nowhere to point at (online, or no venue or city yet). Uses Google's
+ * documented Maps URLs, which need no API key and open the app on a phone.
+ */
+export function googleMapsUrl(edition: ConferenceEdition): string | undefined {
+  if (edition.format === 'online' || !(edition.venue || edition.city)) return undefined;
+  const query = [edition.venue, edition.city, edition.country].filter(Boolean).join(', ');
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+}
+
 /** "Delft, Netherlands" / "Online": the one-line location shown on a card. */
 export function locationLabel(edition: ConferenceEdition): string {
   if (edition.format === 'online') return 'Online';
@@ -260,6 +310,7 @@ export function filterAttributes(edition: ConferenceEdition) {
     edition.city,
     edition.country,
     edition.venue,
+    kindLabel(edition.kind),
     ...edition.society,
     ...edition.tags.map(tagLabel),
   ]
@@ -273,5 +324,46 @@ export function filterAttributes(edition: ConferenceEdition) {
     'data-region': edition.region ?? '',
     'data-country': edition.country ?? '',
     'data-search': search,
+  };
+}
+
+/** One chip in the filter bar, with how many listed editions it would match. */
+export interface FilterOptionCount {
+  id: string;
+  label: string;
+  className?: string;
+  count: number;
+}
+
+/**
+ * The tag, society and region chips for a list of editions, in taxonomy order,
+ * leaving out any that would match nothing.
+ */
+export function filterOptions(editions: ConferenceEdition[]): {
+  tags: FilterOptionCount[];
+  societies: FilterOptionCount[];
+  regions: FilterOptionCount[];
+} {
+  const count = (predicate: (edition: ConferenceEdition) => boolean) =>
+    editions.filter(predicate).length;
+  const nonEmpty = (option: FilterOptionCount) => option.count > 0;
+
+  return {
+    tags: TAGS.map((tag) => ({
+      id: tag.id,
+      label: tag.label,
+      className: tag.className,
+      count: count((edition) => edition.tags.includes(tag.id)),
+    })).filter(nonEmpty),
+    societies: SOCIETIES.map((society) => ({
+      id: society,
+      label: society,
+      count: count((edition) => edition.society.includes(society)),
+    })).filter(nonEmpty),
+    regions: REGIONS.map((region) => ({
+      id: region,
+      label: region,
+      count: count((edition) => edition.region === region),
+    })).filter(nonEmpty),
   };
 }

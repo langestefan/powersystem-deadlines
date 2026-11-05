@@ -15,6 +15,7 @@ function fixture(): ConferenceEdition {
     {
       name: 'TESTCONF',
       full_name: 'Test Conference on Power Systems',
+      kind: 'conference',
       link: 'https://testconf.example.org/',
       society: ['IEEE PES'],
       frequency: 'annual',
