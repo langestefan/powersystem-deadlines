@@ -13,6 +13,8 @@ export interface TagDefinition {
   className: string;
   /** Tinted band for a conference's run on the calendar, in the same hue as the badge. */
   barClass: string;
+  /** Solid SVG fill for the conference's marker on the map, in the same hue. */
+  markerClass: string;
 }
 
 export const TAGS = [
@@ -22,6 +24,7 @@ export const TAGS = [
     description: 'General power system analysis, operation and planning',
     className: 'bg-sky-100 text-sky-900 dark:bg-sky-950 dark:text-sky-200',
     barClass: 'bg-sky-500/25 dark:bg-sky-400/25',
+    markerClass: 'fill-sky-500 dark:fill-sky-400',
   },
   {
     id: 'power-electronics',
@@ -29,6 +32,7 @@ export const TAGS = [
     description: 'Converters, inverters, drives and semiconductor devices',
     className: 'bg-violet-100 text-violet-900 dark:bg-violet-950 dark:text-violet-200',
     barClass: 'bg-violet-500/25 dark:bg-violet-400/25',
+    markerClass: 'fill-violet-500 dark:fill-violet-400',
   },
   {
     id: 'machines-drives',
@@ -36,6 +40,7 @@ export const TAGS = [
     description: 'Electrical machines, motor drives and actuators',
     className: 'bg-fuchsia-100 text-fuchsia-900 dark:bg-fuchsia-950 dark:text-fuchsia-200',
     barClass: 'bg-fuchsia-500/25 dark:bg-fuchsia-400/25',
+    markerClass: 'fill-fuchsia-500 dark:fill-fuchsia-400',
   },
   {
     id: 'smart-grid',
@@ -43,6 +48,7 @@ export const TAGS = [
     description: 'Measurement, communication, automation and demand response',
     className: 'bg-teal-100 text-teal-900 dark:bg-teal-950 dark:text-teal-200',
     barClass: 'bg-teal-500/25 dark:bg-teal-400/25',
+    markerClass: 'fill-teal-500 dark:fill-teal-400',
   },
   {
     id: 'microgrids',
@@ -50,6 +56,7 @@ export const TAGS = [
     description: 'Islanded and grid-connected microgrids, DC grids',
     className: 'bg-emerald-100 text-emerald-900 dark:bg-emerald-950 dark:text-emerald-200',
     barClass: 'bg-emerald-500/25 dark:bg-emerald-400/25',
+    markerClass: 'fill-emerald-500 dark:fill-emerald-400',
   },
   {
     id: 'protection-automation',
@@ -57,6 +64,7 @@ export const TAGS = [
     description: 'Relaying, fault location, substation automation',
     className: 'bg-red-100 text-red-900 dark:bg-red-950 dark:text-red-200',
     barClass: 'bg-red-500/25 dark:bg-red-400/25',
+    markerClass: 'fill-red-500 dark:fill-red-400',
   },
   {
     id: 'hvdc-facts',
@@ -64,6 +72,7 @@ export const TAGS = [
     description: 'HVDC transmission, converters and flexible AC transmission',
     className: 'bg-indigo-100 text-indigo-900 dark:bg-indigo-950 dark:text-indigo-200',
     barClass: 'bg-indigo-500/25 dark:bg-indigo-400/25',
+    markerClass: 'fill-indigo-500 dark:fill-indigo-400',
   },
   {
     id: 'distribution',
@@ -71,6 +80,7 @@ export const TAGS = [
     description: 'Distribution networks, LV/MV planning and operation',
     className: 'bg-lime-100 text-lime-900 dark:bg-lime-950 dark:text-lime-200',
     barClass: 'bg-lime-500/25 dark:bg-lime-400/25',
+    markerClass: 'fill-lime-500 dark:fill-lime-400',
   },
   {
     id: 'transmission',
@@ -78,6 +88,7 @@ export const TAGS = [
     description: 'Transmission networks, interconnection and bulk power',
     className: 'bg-cyan-100 text-cyan-900 dark:bg-cyan-950 dark:text-cyan-200',
     barClass: 'bg-cyan-500/25 dark:bg-cyan-400/25',
+    markerClass: 'fill-cyan-500 dark:fill-cyan-400',
   },
   {
     id: 'energy-markets',
@@ -85,6 +96,7 @@ export const TAGS = [
     description: 'Electricity markets, pricing, regulation and economics',
     className: 'bg-amber-100 text-amber-900 dark:bg-amber-950 dark:text-amber-200',
     barClass: 'bg-amber-500/25 dark:bg-amber-400/25',
+    markerClass: 'fill-amber-500 dark:fill-amber-400',
   },
   {
     id: 'renewables',
@@ -92,6 +104,7 @@ export const TAGS = [
     description: 'Wind, solar PV and renewable integration',
     className: 'bg-green-100 text-green-900 dark:bg-green-950 dark:text-green-200',
     barClass: 'bg-green-500/25 dark:bg-green-400/25',
+    markerClass: 'fill-green-500 dark:fill-green-400',
   },
   {
     id: 'energy-storage',
@@ -99,6 +112,7 @@ export const TAGS = [
     description: 'Batteries, hydrogen and storage system integration',
     className: 'bg-orange-100 text-orange-900 dark:bg-orange-950 dark:text-orange-200',
     barClass: 'bg-orange-500/25 dark:bg-orange-400/25',
+    markerClass: 'fill-orange-500 dark:fill-orange-400',
   },
   {
     id: 'ev-transportation',
@@ -106,6 +120,7 @@ export const TAGS = [
     description: 'Electric vehicles, charging infrastructure, electrified transport',
     className: 'bg-yellow-100 text-yellow-900 dark:bg-yellow-950 dark:text-yellow-200',
     barClass: 'bg-yellow-500/25 dark:bg-yellow-400/25',
+    markerClass: 'fill-yellow-500 dark:fill-yellow-400',
   },
   {
     id: 'power-quality',
@@ -113,6 +128,7 @@ export const TAGS = [
     description: 'Harmonics, flicker, voltage quality and EMC',
     className: 'bg-rose-100 text-rose-900 dark:bg-rose-950 dark:text-rose-200',
     barClass: 'bg-rose-500/25 dark:bg-rose-400/25',
+    markerClass: 'fill-rose-500 dark:fill-rose-400',
   },
   {
     id: 'reliability-planning',
@@ -120,6 +136,7 @@ export const TAGS = [
     description: 'Adequacy, risk, asset management and expansion planning',
     className: 'bg-stone-200 text-stone-900 dark:bg-stone-800 dark:text-stone-200',
     barClass: 'bg-stone-500/25 dark:bg-stone-400/25',
+    markerClass: 'fill-stone-500 dark:fill-stone-400',
   },
   {
     id: 'computation-optimization',
@@ -127,6 +144,7 @@ export const TAGS = [
     description: 'Optimization, simulation, machine learning for power systems',
     className: 'bg-blue-100 text-blue-900 dark:bg-blue-950 dark:text-blue-200',
     barClass: 'bg-blue-500/25 dark:bg-blue-400/25',
+    markerClass: 'fill-blue-500 dark:fill-blue-400',
   },
   {
     id: 'cyber-physical-security',
@@ -134,6 +152,7 @@ export const TAGS = [
     description: 'Grid cybersecurity, resilience and cyber-physical systems',
     className: 'bg-slate-200 text-slate-900 dark:bg-slate-800 dark:text-slate-200',
     barClass: 'bg-slate-500/25 dark:bg-slate-400/25',
+    markerClass: 'fill-slate-500 dark:fill-slate-400',
   },
   {
     id: 'control',
@@ -141,6 +160,7 @@ export const TAGS = [
     description: 'Control theory, stability and dynamics, with power and energy applications',
     className: 'bg-purple-100 text-purple-900 dark:bg-purple-950 dark:text-purple-200',
     barClass: 'bg-purple-500/25 dark:bg-purple-400/25',
+    markerClass: 'fill-purple-500 dark:fill-purple-400',
   },
 ] as const satisfies readonly TagDefinition[];
 

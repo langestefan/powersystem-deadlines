@@ -14,6 +14,7 @@ import { fileURLToPath } from 'node:url';
 
 import { parse } from 'yaml';
 
+import { coordinatesFor } from '../src/lib/places.ts';
 import { regionForCountry } from '../src/lib/regions.ts';
 import { REGIONS, TAGS } from '../src/lib/taxonomy.ts';
 import {
@@ -185,6 +186,23 @@ for (const name of files) {
             'Add it there, or set `region:` on this edition.',
         );
       }
+    }
+
+    // The map places an edition by its city, from a table rather than a
+    // geocoder, so a new city has to be added there once.
+    if (
+      edition.format !== 'online' &&
+      edition.city &&
+      edition.country &&
+      !coordinatesFor(edition.city, edition.country)
+    ) {
+      report(
+        file,
+        where,
+        'error',
+        `"${edition.city}, ${edition.country}" is not in src/lib/places.ts. ` +
+          'Add its coordinates there so the conference appears on the map.',
+      );
     }
 
     // --- event dates ------------------------------------------------------

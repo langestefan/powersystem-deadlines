@@ -70,6 +70,13 @@ Layer boundaries that exist on purpose, and should stay:
   date, and this module decides when that check has aged enough to warn about. Pure, so both
   `scripts/validate.ts` and the pages share one definition of "stale".
 
+- **`map.ts`** is the map's data layer: editions → one marker per city per conference year (two
+  conferences in one city share a marker), plus the legend and the list of every edition that
+  year. Pure like `overview.ts`. Markers are coloured by the same lead tag as the calendar's
+  conference bars, through `markerClass` in `taxonomy.ts`.
+- **`places.ts`** is city → coordinates, keyed `"City, Country"` as written in the YAML. Like
+  `regions.ts`, an unknown city is a validation error, not a guess or a geocoder call.
+
 - **`changelog.ts`** gathers every edition's `changes:` (date, field, old value, new value) into
   the newest-first cards on `/changelog`, one per edition per day. Pure, like `edition.ts`. The entries are
   recorded in the YAML, not derived from git, because CI checks out shallow.
@@ -129,7 +136,9 @@ Every page must survive a 375px viewport with no horizontal scroll, which is che
 `documentElement.scrollWidth` against `clientWidth`, not by eye. Two rules earn their keep: a grid
 or flex child holding something wide needs `min-w-0` or it grows the page instead of scrolling
 inside its own `overflow-x-auto`, and the header nav only shares a row with the brand and controls
-from `lg` up, because the seven links plus everything else need about 885px.
+from `lg` up, because the seven links plus everything else need about 985px. Subscribe is the
+primary button among the controls, not a nav link, and stays visible at every width (icon-only
+on a phone).
 
 Cards, tables, countdowns and the year calendar are server-rendered HTML. Interactivity is added on
 top of that DOM, never by re-rendering it:
@@ -142,11 +151,23 @@ top of that DOM, never by re-rendering it:
 - `YearCalendar.astro` carries one inline `<script>`: a delegated listener that positions the day
   popover from each cell's `data-detail` JSON, and a legend that doubles as switches hiding marks
   already in the DOM. Same rule — one listener for the whole grid, not an island per day.
+- `ConferenceMap.astro` is the one exception to "server-rendered first": a MapLibre GL map,
+  loaded only on `/map`, over OpenFreeMap's vector tiles (OpenStreetMap data, no API key), with
+  the `positron` or `dark` style picked by the theme. Its script takes the markers as JSON from
+  the container's `data-markers`, retunes the style before use (bold country borders, dashed
+  admin-level-4 borders, English labels) and clusters markers through a GeoJSON source, drawn
+  as DOM markers so they keep the site's colour classes. The plain-HTML list under the map has
+  the same conferences, for anyone without JavaScript; with it, a plain click on a list entry
+  flies the map to that city and opens its popup instead (`data-edition-id`), and a modified
+  click or an unplaced conference still follows the link. MapLibre 6 loads its worker by URL, so
+  it is imported with `?worker&url` and passed to `setWorkerUrl()`; without that the map is
+  blank in production.
 - `SubscribeLinks.tsx` (`client:visible`) is the only other React island, for the copy buttons.
 
 `/overview` renders the current year itself instead of redirecting to `/overview/<year>`: GitHub
 Pages has no server-side redirect, so Astro would emit a meta-refresh stub. `/overview/<year>` pages
 are generated from `yearsWithData()`, so adding an edition in a new year creates its page.
+`/map` and `/map/<year>` follow the same pattern, by conference year (`mapYears()`).
 
 Time-dependent grouping ("next 7 days", upcoming vs. archive) is decided at **build** time, which is
 why `deploy.yml` also rebuilds on a daily cron.
@@ -155,7 +176,8 @@ why `deploy.yml` also rebuilds on a daily cron.
 
 `tests/*.test.ts` mirrors `src/lib/*` one file per module, and covers exactly the modules that keep
 away from `astro:content`: `time`, `ics`, `calendar`, `overview`, `feeds`, `verification`,
-`addToCalendar`, `changelog`. `tests/ics.test.ts` asserts RFC 5545 details (75-octet folding, escaping order,
+`addToCalendar`, `changelog`, `map`, `places`. `tests/places.test.ts` also reads every
+`conferences/*.yml` to check each city has coordinates. `tests/ics.test.ts` asserts RFC 5545 details (75-octet folding, escaping order,
 CRLF) that are easy to regress invisibly, since a malformed feed still looks fine on the page.
 
 ## Working with conference data
