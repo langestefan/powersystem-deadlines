@@ -76,9 +76,7 @@ jobs:
 
           ${URL}
 
-          Built from \`${HEAD_SHA:0:7}\` at $(date -u '+%Y-%m-%d %H:%M UTC'). Rebuilt on every
-          push to this branch and removed when it closes. GitHub Pages needs a minute or so
-          after the first build, and serves a stale copy for a little while after later ones."
+          Built from \`${HEAD_SHA:0:7}\` at $(date -u '+%Y-%m-%d %H:%M UTC')."
 
           # Strip the indentation this YAML block adds, or markdown reads the
           # indented lines as a code block.
