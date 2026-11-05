@@ -13,7 +13,7 @@ SOURCE;VALUE=URI:https://powersystemdeadlines.org/preview/pr-9/conference/f
  uturegrid27.ics
 BEGIN:VEVENT
 UID:futuregrid27-event@powersystemdeadlines.org
-DTSTAMP:20261105T125040Z
+DTSTAMP:20261105T125246Z
 DTSTART;VALUE=DATE:20271003
 DTEND;VALUE=DATE:20271007
 TRANSP:TRANSPARENT
