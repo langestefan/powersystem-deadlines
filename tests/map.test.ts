@@ -23,7 +23,7 @@ function edition(o: {
   tags?: Array<'power-systems' | 'power-electronics'>;
 }): ConferenceEdition {
   return flattenEdition(
-    { name: o.id.toUpperCase(), full_name: 'Test Conference', link: 'https://example.org/',
+    { name: o.id.toUpperCase(), full_name: 'Test Conference', kind: 'conference', link: 'https://example.org/',
       society: ['IEEE PES'], frequency: 'annual', tags: o.tags ?? ['power-systems'], editions: [] },
     o.id,
     { year: o.year ?? 2027, id: o.id, date: 'whenever', verified: '2026-08-26',
