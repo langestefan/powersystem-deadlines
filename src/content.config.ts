@@ -1,7 +1,7 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
-import { REGION_IDS, SOCIETY_IDS, TAG_IDS } from './lib/taxonomy';
+import { KIND_IDS, REGION_IDS, SOCIETY_IDS, TAG_IDS } from './lib/taxonomy';
 import { isValidTimezone, TBA } from './lib/time';
 
 /**
@@ -146,6 +146,8 @@ const conferenceSchema = z.object({
   /** Short name as people say it, e.g. "PSCC". */
   name: z.string().min(1),
   full_name: z.string().min(1),
+  /** "conference" (the default) or "event": a meeting listed on /events, not the homepage. */
+  kind: z.enum(KIND_IDS).default('conference'),
   link: z.string().url(),
   society: z.array(z.enum(SOCIETY_IDS)).min(1),
   frequency: z.enum(['annual', 'biennial', 'irregular']).default('annual'),

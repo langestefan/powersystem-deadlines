@@ -4,23 +4,23 @@ import FilterBar from '@/components/FilterBar.tsx';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import {
   filterAttributes,
+  filterOptions,
   getPastEditions,
   getUpcomingEditions,
   locationLabel,
   submissionStatus,
-  type ConferenceEdition,
 } from '@/lib/conferences';
 import { withBase } from '@/lib/site';
-import { REGIONS, SOCIETIES, TAGS, tagLabel } from '@/lib/taxonomy';
 
-const editions = await getUpcomingEditions();
+// Events (research meetings and the like) have their own page, /events.
+const editions = (await getUpcomingEditions()).filter((edition) => edition.kind === 'conference');
 
 /**
  * Past editions, rendered hidden and revealed by FilterBar only when a search
  * matches them. Without this, a conference vanishes from search the day after
  * it ends, and the empty state then invites the reader to add it.
  */
-const archived = await getPastEditions();
+const archived = (await getPastEditions()).filter((edition) => edition.kind === 'conference');
 
 /**
  * Buckets shown as headings, in order. The last two are both "nothing to submit
@@ -49,30 +49,7 @@ const grouped = GROUPS.map((group) => ({
 })).filter((group) => group.editions.length > 0);
 
 /** Filter options, each with the number of listed conferences it would match. */
-const countBy = <T,>(values: readonly T[], predicate: (edition: ConferenceEdition, value: T) => boolean) =>
-  values
-    .map((value) => ({
-      value,
-      count: editions.filter((edition) => predicate(edition, value)).length,
-    }))
-    .filter((entry) => entry.count > 0);
-
-const tagOptions = countBy(TAGS, (edition, tag) => edition.tags.includes(tag.id)).map(
-  ({ value, count }) => ({
-    id: value.id,
-    label: value.label,
-    className: value.className,
-    count,
-  }),
-);
-
-const societyOptions = countBy(SOCIETIES, (edition, society) =>
-  edition.society.includes(society),
-).map(({ value, count }) => ({ id: value, label: value, count }));
-
-const regionOptions = countBy(REGIONS, (edition, region) => edition.region === region).map(
-  ({ value, count }) => ({ id: value, label: value, count }),
-);
+const options = filterOptions(editions);
 ---
 
 <BaseLayout path="/">
@@ -82,9 +59,9 @@ const regionOptions = countBy(REGIONS, (edition, region) => edition.region === r
 
   <FilterBar
     client:load
-    tags={tagOptions}
-    societies={societyOptions}
-    regions={regionOptions}
+    tags={options.tags}
+    societies={options.societies}
+    regions={options.regions}
     totalCount={editions.length}
   />
 

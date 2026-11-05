@@ -41,12 +41,16 @@ const verification = editionVerification(edition);
 
 const facts = [
   { icon: MapPin, label: 'Location', value: edition.venue ?? locationLabel(edition) },
-  { icon: CalendarDays, label: 'Conference dates', value: edition.dateLabel },
+  {
+    icon: CalendarDays,
+    label: edition.kind === 'event' ? 'Event dates' : 'Conference dates',
+    value: edition.dateLabel,
+  },
   { icon: Users, label: 'Organised by', value: edition.society.join(', ') },
   { icon: FileText, label: 'Proceedings', value: edition.proceedings },
   {
     icon: ShieldCheck,
-    label: 'Checked against the CFP',
+    label: edition.kind === 'event' ? 'Checked against the official site' : 'Checked against the CFP',
     value: verification.stale
       ? `${describeAge(verification.ageDays)} - may be out of date`
       : describeAge(verification.ageDays),

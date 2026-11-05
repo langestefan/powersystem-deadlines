@@ -21,7 +21,19 @@ interface Props {
 
 const { edition } = Astro.props;
 
-const headline = edition.nextDeadline ?? edition.nextAnyDeadline ?? edition.deadlines[0] ?? null;
+const isEvent = edition.kind === 'event';
+const now = new Date();
+const upcoming = edition.nextDeadline ?? edition.nextAnyDeadline;
+
+// Many events have nothing to submit, or only a poster deadline that has gone,
+// so once no deadline is ahead their card counts down to the event itself.
+const startsIn =
+  isEvent && !upcoming && edition.start && edition.start.getTime() > now.getTime()
+    ? edition.start
+    : null;
+const headline = startsIn ? null : (upcoming ?? edition.deadlines[0] ?? null);
+const eventEnded = (edition.end ?? edition.start ?? now).getTime() < now.getTime();
+const eventNote = !edition.start ? 'Dates not announced' : eventEnded ? 'Took place' : 'Under way';
 
 // Shown only when it has gone stale: a freshness note on every card would be
 // noise, but a card nobody has re-checked in months is worth flagging.
@@ -42,6 +54,7 @@ const verification = editionVerification(edition);
         >
           {edition.name} {edition.year}
         </a>
+        {isEvent && <Badge class="border bg-transparent text-muted-foreground">Event</Badge>}
         {
           edition.cancelled && (
             <Badge class="bg-urgent/15 text-urgent">Cancelled</Badge>
@@ -62,8 +75,15 @@ const verification = editionVerification(edition);
             <Countdown target={headline.utc} class="text-base" />
             <p class="mt-0.5 text-xs text-muted-foreground">{headline.label}</p>
           </>
+        ) : startsIn ? (
+          <>
+            <Countdown target={startsIn} class="text-base" />
+            <p class="mt-0.5 text-xs text-muted-foreground">Until the event starts</p>
+          </>
         ) : (
-          <p class="text-sm text-muted-foreground">No deadlines listed</p>
+          <p class="text-sm text-muted-foreground">
+            {isEvent ? eventNote : 'No deadlines listed'}
+          </p>
         )
       }
     </div>
@@ -76,7 +96,7 @@ const verification = editionVerification(edition);
       <dd>{locationLabel(edition)}</dd>
     </div>
     <div class="flex items-center gap-1.5">
-      <dt class="sr-only">Conference dates</dt>
+      <dt class="sr-only">{isEvent ? 'Event dates' : 'Conference dates'}</dt>
       <CalendarDays class="size-3.5 shrink-0" aria-hidden="true" />
       <dd>{edition.dateLabel}</dd>
     </div>
@@ -115,7 +135,7 @@ const verification = editionVerification(edition);
       verification.stale && (
         <Badge
           class="border border-dashed bg-transparent text-muted-foreground"
-          title={`Last checked against the call for papers ${describeAge(verification.ageDays)}.`}
+          title={`Last checked against the official site ${describeAge(verification.ageDays)}.`}
         >
           Unverified for {describeAge(verification.ageDays).replace(' ago', '')}
         </Badge>
@@ -127,7 +147,7 @@ const verification = editionVerification(edition);
       rel="noopener"
       class="ml-auto inline-flex min-h-6 items-center gap-1 text-xs text-muted-foreground transition-colors hover:text-primary"
     >
-      Call for papers
+      {isEvent ? 'Website' : 'Call for papers'}
       <ExternalLink class="size-3" aria-hidden="true" />
     </a>
   </div>

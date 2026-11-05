@@ -19,6 +19,18 @@ page it came from. Not from another aggregator, which is how stale dates spread.
 3. Run `npm run validate`.
 4. Open a pull request.
 
+## Events
+
+Research meetings, PhD days and similar gatherings go in the same `conferences/` folder, with
+`kind: event` at the series level. They are listed on `/events`, ordered by when they take place,
+instead of on the homepage. Everything else works the same: `verified:` is required, timestamps
+are quoted, and `timezone:` is omitted unless the announcement states one.
+
+An event needs no deadlines. If it has a poster or abstract deadline, list it under `deadlines:`
+as usual (`type: poster`, `type: abstract`); a registration deadline is `type: early_registration`.
+Give `start:` and `end:` whenever the dates are known: an event without a deadline counts down to
+its start.
+
 ## Adding a new year to a conference that is already listed
 
 Append a new entry under `editions:` in the existing file. **Do not edit last year's entry**: the
@@ -42,6 +54,7 @@ editions:
 | ------------- | -------- | ------------------------------------------------------------ |
 | `name`        | yes      | Short name, as people say it: `PSCC`, `ISGT Europe`          |
 | `full_name`   | yes      | Spelled out in full                                           |
+| `kind`        | no       | `conference` (default) or `event`; see [Events](#events)      |
 | `link`        | yes      | Series homepage                                               |
 | `society`     | yes      | One or more organisers, from the list below                   |
 | `frequency`   | no       | `annual` (default), `biennial`, `irregular`                   |
@@ -203,7 +216,8 @@ schema violation, unknown tag, duplicate `id`, unquoted timestamp or bad timezon
 
 ## Scope
 
-Conferences and workshops with peer-reviewed submission, anywhere in power and energy systems.
+Conferences and workshops with peer-reviewed submission, anywhere in power and energy systems,
+and events where power system researchers meet (see [Events](#events)), with or without a
+submission deadline.
 
-Not in scope: trade shows without a call for papers, journal special issues, summer schools, and
-events with no public submission deadline.
+Not in scope: trade shows, journal special issues and summer schools.

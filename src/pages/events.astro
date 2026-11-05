@@ -1,0 +1,121 @@
+---
+import ConferenceCard from '@/components/ConferenceCard.astro';
+import FilterBar from '@/components/FilterBar.tsx';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import {
+  filterAttributes,
+  filterOptions,
+  getPastEditions,
+  getUpcomingEditions,
+  locationLabel,
+  sortByStart,
+} from '@/lib/conferences';
+import { REPO_URL, withBase } from '@/lib/site';
+
+/**
+ * Research meetings, PhD days and other events: series with `kind: event`.
+ *
+ * Unlike the homepage these are ordered by when they take place, because for
+ * a meeting that is the date to plan around. A poster or registration deadline,
+ * where an event has one, still drives the countdown on its card.
+ */
+const editions = sortByStart(
+  (await getUpcomingEditions()).filter((edition) => edition.kind === 'event'),
+);
+
+/** Past events, revealed by FilterBar only when a search matches them, as on the homepage. */
+const archived = (await getPastEditions()).filter((edition) => edition.kind === 'event');
+
+const monthLabel = (day: Date) =>
+  day.toLocaleDateString('en-GB', { month: 'long', year: 'numeric', timeZone: 'UTC' });
+
+/** One heading per month the events start in, then everything still undated. */
+const groups: { title: string; editions: typeof editions }[] = [];
+for (const edition of editions) {
+  const title = edition.start ? monthLabel(edition.start) : 'Dates not announced';
+  const last = groups.at(-1);
+  if (last?.title === title) last.editions.push(edition);
+  else groups.push({ title, editions: [edition] });
+}
+
+const options = filterOptions(editions);
+---
+
+<BaseLayout
+  path="/events"
+  title="Events"
+  description="Meetings, workshops and other events for power system researchers."
+>
+  <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">Events</h1>
+  <p class="mt-2 mb-6 max-w-2xl text-muted-foreground">
+    Meetings and other gatherings for power system researchers. Some have a poster or abstract
+    deadline, many only ask you to register.
+  </p>
+
+  <FilterBar
+    client:load
+    tags={options.tags}
+    societies={options.societies}
+    regions={options.regions}
+    totalCount={editions.length}
+    noun="event"
+  />
+
+  {
+    editions.length === 0 && (
+      <p class="mt-8 rounded-lg border border-dashed p-8 text-center text-muted-foreground">
+        No upcoming events yet.{' '}
+        <a
+          class="text-primary underline underline-offset-4"
+          href={`${REPO_URL}/issues/new?template=new-conference.yml`}
+        >
+          Add one
+        </a>
+        .
+      </p>
+    )
+  }
+
+  <div class="mt-6 space-y-8">
+    {
+      groups.map((group) => (
+        <section data-card-group>
+          <h2 class="text-sm font-semibold tracking-wide uppercase opacity-70">{group.title}</h2>
+          <div class="mt-3 space-y-3">
+            {group.editions.map((edition) => (
+              <div data-card-slot>
+                <ConferenceCard edition={edition} />
+              </div>
+            ))}
+          </div>
+        </section>
+      ))
+    }
+  </div>
+
+  {
+    archived.length > 0 && (
+      <section data-archive-matches hidden class="mt-8">
+        <h2 class="text-sm font-semibold tracking-wide uppercase opacity-70">In the archive</h2>
+        <p class="mt-1 text-sm text-muted-foreground">Past events matching your search.</p>
+        <ul class="mt-3 space-y-1.5 text-sm">
+          {archived.map((edition) => (
+            <li data-archive-entry hidden {...filterAttributes(edition)}>
+              <a
+                href={withBase(`/conference/${edition.id}`)}
+                class="font-medium hover:text-primary hover:underline"
+              >
+                {edition.name} {edition.year}
+              </a>
+              <span class="text-muted-foreground">
+                {' '}
+                · {locationLabel(edition)} · {edition.dateLabel}
+                {edition.cancelled && ' · Cancelled'}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+</BaseLayout>

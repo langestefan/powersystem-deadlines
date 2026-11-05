@@ -74,6 +74,11 @@ Layer boundaries that exist on purpose, and should stay:
   the newest-first cards on `/changelog`, one per edition per day. Pure, like `edition.ts`. The entries are
   recorded in the YAML, not derived from git, because CI checks out shallow.
 
+A series' `kind` is `conference` (default) or `event` (research meetings, PhD days). Both flow
+through the same pipeline, edition page (`/conference/<id>`), calendar and feeds; only the listing
+splits: the homepage shows conferences, `/events` shows events ordered by start date, and an event
+card with no deadline ahead counts down to its start instead.
+
 `submissionStatus()` in `edition.ts` decides the homepage bucket. `closed` (every dated deadline
 has passed) and `unannounced` (TBA, or nothing listed) are deliberately separate states: they are
 opposite situations and reading one as the other is what a single "dates not announced" bucket did.
@@ -124,7 +129,7 @@ Every page must survive a 375px viewport with no horizontal scroll, which is che
 `documentElement.scrollWidth` against `clientWidth`, not by eye. Two rules earn their keep: a grid
 or flex child holding something wide needs `min-w-0` or it grows the page instead of scrolling
 inside its own `overflow-x-auto`, and the header nav only shares a row with the brand and controls
-from `lg` up, because the six links plus everything else need about 815px.
+from `lg` up, because the seven links plus everything else need about 885px.
 
 Cards, tables, countdowns and the year calendar are server-rendered HTML. Interactivity is added on
 top of that DOM, never by re-rendering it:

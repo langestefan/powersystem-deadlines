@@ -158,6 +158,26 @@ export function tagLabel(id: string): string {
   return TAG_BY_ID.get(id)?.label ?? id;
 }
 
+/**
+ * What a series is. A conference runs a call for papers; an event (a research
+ * meeting, a PhD day, a workshop) may only have dates and a registration, or a
+ * single poster deadline. Conferences fill the homepage, events get /events.
+ *
+ * Deliberately not a tag: tags are topic areas, and each one creates a feed.
+ */
+export const KINDS = [
+  { id: 'conference', label: 'Conference' },
+  { id: 'event', label: 'Event' },
+] as const;
+
+export type EntryKind = (typeof KINDS)[number]['id'];
+
+export const KIND_IDS = KINDS.map((kind) => kind.id) as unknown as [EntryKind, ...EntryKind[]];
+
+export function kindLabel(kind: EntryKind): string {
+  return KINDS.find((entry) => entry.id === kind)?.label ?? kind;
+}
+
 /** Organising bodies. Used for filtering and shown on the conference card. */
 export const SOCIETIES = [
   'IEEE PES',

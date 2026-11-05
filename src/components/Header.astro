@@ -11,6 +11,7 @@ const { path } = Astro.props;
 
 const links = [
   { href: '/', label: 'Deadlines' },
+  { href: '/events', label: 'Events' },
   { href: '/overview', label: 'Calendar' },
   { href: '/subscribe', label: 'Subscribe' },
   { href: '/past', label: 'Archive' },
@@ -22,7 +23,7 @@ const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWit
 ---
 
 <!--
-  The brand, six links and the controls need about 815px on one row, and 925px
+  The brand, seven links and the controls need about 885px on one row, and 995px
   once the Subscribe button joins them, so they only share a row from `lg`:
   below it the nav wraps onto a row of its own (`w-full` plus flex-wrap) and
   scrolls sideways if even that is not enough. Ordering keeps the source in

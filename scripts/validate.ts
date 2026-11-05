@@ -201,7 +201,8 @@ for (const name of files) {
     const deadlines: any[] = Array.isArray(edition.deadlines) ? edition.deadlines : [];
     deadlineCount += deadlines.length;
 
-    if (deadlines.length === 0) {
+    // An event may have nothing to submit; its card counts down to its start.
+    if (deadlines.length === 0 && data.kind !== 'event') {
       report(file, where, 'warning', 'No deadlines listed, so it shows as "dates not announced".');
     }
 
@@ -264,7 +265,7 @@ for (const name of files) {
       if (instant.getTime() > NOW.getTime()) futureDeadlines.push(instant);
 
       if (start && instant.toISOString().slice(0, 10) > start) {
-        report(file, where, 'warning', `Deadline "${label}" falls after the conference starts.`);
+        report(file, where, 'warning', `Deadline "${label}" falls after the event itself starts.`);
       }
     }
 

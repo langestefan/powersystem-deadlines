@@ -14,6 +14,11 @@ name: BESTCONF
 # Full official name, spelled out.
 full_name: Best Conference on Anything Power Related
 
+# conference (the default; omit this line) | event
+# An event is a research meeting, PhD day or similar. It is listed on /events
+# instead of the homepage, and may have no submission deadline at all.
+# kind: event
+
 # The series homepage (an edition can override this below).
 link: https://example.org/
 

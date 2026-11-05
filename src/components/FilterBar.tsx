@@ -26,6 +26,8 @@ interface FilterBarProps {
   societies: FilterOption[];
   regions: FilterOption[];
   totalCount: number;
+  /** What the cards are, for the search label and empty states. */
+  noun?: 'conference' | 'event';
 }
 
 interface FilterState {
@@ -105,6 +107,7 @@ export default function FilterBar({
   societies,
   regions,
   totalCount,
+  noun = 'conference',
 }: FilterBarProps) {
   const [state, setState] = useState<FilterState>(EMPTY);
   const [visible, setVisible] = useState(totalCount);
@@ -190,7 +193,7 @@ export default function FilterBar({
     <div className="rounded-lg border bg-card p-4 shadow-sm">
       <div className="flex flex-wrap items-center gap-3">
         <label className="relative min-w-56 flex-1">
-          <span className="sr-only">Search conferences</span>
+          <span className="sr-only">Search {noun}s</span>
           <input
             type="search"
             value={state.query}
@@ -270,7 +273,7 @@ export default function FilterBar({
 
       {ready && visible === 0 && archived > 0 && (
         <p className="mt-4 border-t pt-4 text-sm text-muted-foreground">
-          No upcoming conferences match.{' '}
+          No upcoming {noun}s match.{' '}
           {archived === 1 ? 'One past edition does' : `${archived} past editions do`}; see “In the
           archive” below.
         </p>
@@ -278,7 +281,7 @@ export default function FilterBar({
 
       {ready && visible === 0 && archived === 0 && (
         <p className="mt-4 border-t pt-4 text-sm text-muted-foreground">
-          No conferences match these filters.{' '}
+          No {noun}s match these filters.{' '}
           <button
             type="button"
             onClick={() => setState(EMPTY)}
@@ -291,7 +294,7 @@ export default function FilterBar({
             className="text-primary underline underline-offset-4"
             href={`${REPO_URL}/blob/main/CONTRIBUTING.md`}
           >
-            add the conference you were looking for
+            add the {noun} you were looking for
           </a>
           .
         </p>
