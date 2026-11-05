@@ -29,11 +29,13 @@ const listed = mapEditions(editions, year);
 /** The list under the map, split the way the rest of the site splits them. */
 const sections = [
   {
+    kind: 'conference',
     title: 'Conferences',
     empty: `No conferences listed for ${year}.`,
     editions: listed.filter((edition) => edition.kind === 'conference'),
   },
   {
+    kind: 'event',
     title: 'Events',
     empty: `No events listed for ${year}.`,
     editions: listed.filter((edition) => edition.kind === 'event'),
@@ -57,11 +59,22 @@ const payload = markers.map((marker) => ({
     name: edition.name,
     fullName: edition.fullName,
     when: edition.dateLabel,
+    kind: edition.kind,
     topic: edition.topic,
     markerClass: edition.markerClass,
     href: withBase(`/conference/${edition.id}`),
   })),
 }));
+
+/** The conferences/events switch. An option with nothing this year is disabled, not hidden. */
+const kindOptions = [
+  { id: 'all', label: 'All', count: listed.length },
+  ...sections.map((section) => ({
+    id: section.kind,
+    label: section.title,
+    count: section.editions.length,
+  })),
+];
 ---
 
 <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">Conference and Event locations</h1>
@@ -132,6 +145,21 @@ const payload = markers.map((marker) => ({
   </div>
 
   <div class="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1.5 px-1 text-xs text-muted-foreground">
+    <div class="flex items-center gap-0.5 rounded-md border p-0.5" role="group" aria-label="Show">
+      {
+        kindOptions.map((option) => (
+          <button
+            type="button"
+            class="min-h-6 rounded px-2 py-0.5 transition-colors hover:bg-accent focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none disabled:pointer-events-none disabled:opacity-40 aria-pressed:bg-accent aria-pressed:font-medium aria-pressed:text-accent-foreground"
+            data-kind-filter={option.id}
+            aria-pressed={option.id === 'all' ? 'true' : 'false'}
+            disabled={option.count === 0}
+          >
+            {option.label} <span class="tabular-nums opacity-70">{option.count}</span>
+          </button>
+        ))
+      }
+    </div>
     {
       legend.map((entry) => (
         <button
@@ -153,7 +181,7 @@ const payload = markers.map((marker) => ({
 <div id="list" class="mt-8 scroll-mt-24 space-y-8">
   {
     sections.map((section) => (
-      <section>
+      <section data-list-kind={section.kind}>
         <h2 class="text-lg font-semibold tracking-tight">{section.title}</h2>
         {section.editions.length === 0 ? (
           <p class="mt-3 text-sm text-muted-foreground">{section.empty}</p>
@@ -246,6 +274,7 @@ const payload = markers.map((marker) => ({
 
   interface MapEdition {
     id: string;
+    kind: 'conference' | 'event';
     name: string;
     fullName: string;
     when: string;
@@ -270,6 +299,15 @@ const payload = markers.map((marker) => ({
 
     const data: MapMarker[] = JSON.parse(container.dataset.markers ?? '[]');
     const hiddenTopics = new Set<string>();
+
+    /** 'all', or the one kind the switch above the legend narrows the map to. */
+    const KINDS = ['conference', 'event'] as const;
+    const fromUrl = new URLSearchParams(location.search).get('kind');
+    let shownKind: string = (KINDS as readonly string[]).includes(fromUrl ?? '') ? fromUrl! : 'all';
+
+    /** The one rule for what is on: markers, popups and the list all ask it. */
+    const visible = (edition: MapEdition) =>
+      !hiddenTopics.has(edition.topic) && (shownKind === 'all' || edition.kind === shownKind);
     const SOURCE = 'conferences';
 
     const escape = (value: string) => value.replace(/[&<>"]/g, (c) => `&#${c.charCodeAt(0)};`);
@@ -282,11 +320,11 @@ const payload = markers.map((marker) => ({
       type: 'FeatureCollection',
       features: data
         .map((marker, index) => ({ marker, index }))
-        .filter(({ marker }) => !marker.topics.every((t) => hiddenTopics.has(t)))
+        .filter(({ marker }) => marker.editions.some(visible))
         .map(({ marker, index }) => ({
           type: 'Feature',
           geometry: { type: 'Point', coordinates: [marker.lon, marker.lat] },
-          properties: { index, count: marker.editions.length },
+          properties: { index, count: marker.editions.filter(visible).length },
         })),
     });
 
@@ -396,7 +434,7 @@ const payload = markers.map((marker) => ({
 
     // --- markers ------------------------------------------------------------
     const popupFor = (marker: MapMarker) => {
-      const shown = marker.editions.filter((e) => !hiddenTopics.has(e.topic));
+      const shown = marker.editions.filter(visible);
       const rows = [`<p class="font-semibold">${escape(marker.place)}</p>`];
       for (const edition of shown) {
         rows.push(
@@ -531,7 +569,7 @@ const payload = markers.map((marker) => ({
       if (index === undefined) return;
       const marker = data[index]!;
       // A conference switched off in the legend has no marker to open.
-      if (marker.topics.every((t) => hiddenTopics.has(t))) return;
+      if (!marker.editions.some(visible)) return;
 
       event.preventDefault();
       closePopups();
@@ -558,6 +596,23 @@ const payload = markers.map((marker) => ({
     }
 
     // --- legend switches --------------------------------------------------
+    /** Re-applies `visible` after either switch changes. */
+    const refresh = () => {
+      closePopups();
+      // Cluster ids are only valid for one dataset.
+      for (const m of clusters.values()) m.remove();
+      clusters.clear();
+      onScreen = new Set([...onScreen].filter((m) => [...points.values()].includes(m)));
+      map.getSource<GeoJSONSource>(SOURCE)?.setData(features());
+
+      for (const item of document.querySelectorAll<HTMLElement>('[data-list-topic]')) {
+        item.hidden = hiddenTopics.has(item.dataset.listTopic ?? '');
+      }
+      for (const section of document.querySelectorAll<HTMLElement>('[data-list-kind]')) {
+        section.hidden = shownKind !== 'all' && section.dataset.listKind !== shownKind;
+      }
+    };
+
     for (const toggle of document.querySelectorAll<HTMLButtonElement>('[data-toggle-topic]')) {
       toggle.addEventListener('click', () => {
         const topic = toggle.dataset.toggleTopic!;
@@ -565,18 +620,27 @@ const payload = markers.map((marker) => ({
         if (on) hiddenTopics.add(topic);
         else hiddenTopics.delete(topic);
         toggle.setAttribute('aria-pressed', String(!on));
-
-        closePopups();
-        // Cluster ids are only valid for one dataset.
-        for (const m of clusters.values()) m.remove();
-        clusters.clear();
-        onScreen = new Set([...onScreen].filter((m) => [...points.values()].includes(m)));
-        map.getSource<GeoJSONSource>(SOURCE)?.setData(features());
-
-        for (const item of document.querySelectorAll<HTMLElement>('[data-list-topic]')) {
-          item.hidden = hiddenTopics.has(item.dataset.listTopic ?? '');
-        }
+        refresh();
       });
     }
+
+    // --- conferences / events ---------------------------------------------
+    // Mirrored into ?kind= so a filtered map is a link, as on the homepage.
+    const kindButtons = document.querySelectorAll<HTMLButtonElement>('[data-kind-filter]');
+    const showKind = (kind: string) => {
+      shownKind = kind;
+      for (const button of kindButtons) {
+        button.setAttribute('aria-pressed', String(button.dataset.kindFilter === kind));
+      }
+      const url = new URL(location.href);
+      if (kind === 'all') url.searchParams.delete('kind');
+      else url.searchParams.set('kind', kind);
+      history.replaceState(null, '', url);
+      refresh();
+    };
+    for (const button of kindButtons) {
+      button.addEventListener('click', () => showKind(button.dataset.kindFilter!));
+    }
+    if (shownKind !== 'all') showKind(shownKind);
   }
 </script>
