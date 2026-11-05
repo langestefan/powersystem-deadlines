@@ -4,6 +4,7 @@ import {
   CalendarDays,
   ExternalLink,
   FileText,
+  Map as MapIcon,
   MapPin,
   ShieldCheck,
   Users,
@@ -15,7 +16,12 @@ import GitHubIcon from '@/components/GitHubIcon.astro';
 import DeadlineTable from '@/components/DeadlineTable.astro';
 import SubscribeLinks from '@/components/SubscribeLinks.tsx';
 import BaseLayout from '@/layouts/BaseLayout.astro';
-import { getAllEditions, locationLabel, type ConferenceEdition } from '@/lib/conferences';
+import {
+  getAllEditions,
+  googleMapsUrl,
+  locationLabel,
+  type ConferenceEdition,
+} from '@/lib/conferences';
 import { conferenceFeedPath, feedUrl, googleSubscribeUrl, webcalUrl } from '@/lib/feeds';
 import { repoEditUrl, withBase } from '@/lib/site';
 import { getTag, tagLabel } from '@/lib/taxonomy';
@@ -51,7 +57,14 @@ const verification = editionVerification(edition);
 const editUrl = repoEditUrl(edition.sourcePath ?? `conferences/${edition.seriesId}.yml`);
 
 const facts = [
-  { icon: MapPin, label: 'Location', value: edition.venue ?? locationLabel(edition) },
+  {
+    icon: MapPin,
+    label: 'Location',
+    value: edition.venue ?? locationLabel(edition),
+    // The venue alone rarely says which city; the city line answers that.
+    detail: edition.venue ? locationLabel(edition) : undefined,
+    mapUrl: googleMapsUrl(edition),
+  },
   {
     icon: CalendarDays,
     label: edition.kind === 'event' ? 'Event dates' : 'Conference dates',
@@ -225,6 +238,22 @@ const submissionLabels: Record<string, string> = {
                 <div class="min-w-0">
                   <dt class="text-xs text-muted-foreground">{fact.label}</dt>
                   <dd>{fact.value}</dd>
+                  {'detail' in fact && fact.detail && (
+                    <dd class="text-sm text-muted-foreground">{fact.detail}</dd>
+                  )}
+                  {'mapUrl' in fact && fact.mapUrl && (
+                    <dd class="mt-1">
+                      <a
+                        href={fact.mapUrl}
+                        rel="noopener"
+                        class="inline-flex min-h-6 items-center gap-1 rounded-md border px-2 py-0.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
+                      >
+                        <MapIcon class="size-3" aria-hidden="true" />
+                        Open in Google Maps
+                        <ExternalLink class="size-3" aria-hidden="true" />
+                      </a>
+                    </dd>
+                  )}
                 </div>
               </div>
             ))

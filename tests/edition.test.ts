@@ -4,6 +4,7 @@ import {
   deadlineZoneLabel,
   filterAttributes,
   flattenEdition,
+  googleMapsUrl,
   resolveDeadline,
   sortByStart,
   submissionStatus,
@@ -212,5 +213,28 @@ describe('sortByStart', () => {
 describe('program', () => {
   it('is empty when the YAML lists none', () => {
     expect(edition({}).program).toEqual([]);
+  });
+});
+
+describe('googleMapsUrl', () => {
+  const at = (o: Partial<ConferenceEdition>) => ({ ...edition({}), ...o });
+
+  it('searches for the venue, city and country', () => {
+    const url = new URL(
+      googleMapsUrl(at({ venue: 'Aula', city: 'Delft', country: 'Netherlands' }))!,
+    );
+    expect(url.origin + url.pathname).toBe('https://www.google.com/maps/search/');
+    expect(url.searchParams.get('api')).toBe('1');
+    expect(url.searchParams.get('query')).toBe('Aula, Delft, Netherlands');
+  });
+
+  it('works from the city alone', () => {
+    const url = new URL(googleMapsUrl(at({ city: 'Delft', country: 'Netherlands' }))!);
+    expect(url.searchParams.get('query')).toBe('Delft, Netherlands');
+  });
+
+  it('has nothing to point at for an online or unplaced edition', () => {
+    expect(googleMapsUrl(at({ city: 'Delft', format: 'online' }))).toBeUndefined();
+    expect(googleMapsUrl(at({ country: 'Netherlands' }))).toBeUndefined();
   });
 });

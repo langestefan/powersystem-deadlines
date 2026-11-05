@@ -280,6 +280,17 @@ export function officialLinkLabel(edition: ConferenceEdition): string {
   return edition.kind === 'event' ? 'Website' : 'Call for papers';
 }
 
+/**
+ * A Google Maps search for where the edition is held, or undefined when there
+ * is nowhere to point at (online, or no venue or city yet). Uses Google's
+ * documented Maps URLs, which need no API key and open the app on a phone.
+ */
+export function googleMapsUrl(edition: ConferenceEdition): string | undefined {
+  if (edition.format === 'online' || !(edition.venue || edition.city)) return undefined;
+  const query = [edition.venue, edition.city, edition.country].filter(Boolean).join(', ');
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+}
+
 /** "Delft, Netherlands" / "Online": the one-line location shown on a card. */
 export function locationLabel(edition: ConferenceEdition): string {
   if (edition.format === 'online') return 'Online';
