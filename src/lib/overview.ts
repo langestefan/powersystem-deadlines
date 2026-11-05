@@ -217,7 +217,7 @@ function monthWeeks(
 }
 
 /** A conference's leading topic: the first tag its series lists. */
-function leadTag(edition: ConferenceEdition): TagId | undefined {
+export function leadTag(edition: ConferenceEdition): TagId | undefined {
   return edition.tags[0];
 }
 

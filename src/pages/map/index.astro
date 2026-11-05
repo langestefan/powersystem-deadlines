@@ -1,0 +1,25 @@
+---
+import ConferenceMap from '@/components/ConferenceMap.astro';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getAllEditions } from '@/lib/conferences';
+import { mapYears } from '@/lib/map';
+
+/**
+ * The map's entry point, rendering the year we are in. A real page rather
+ * than a redirect, for the same reason as /overview: GitHub Pages can only
+ * meta-refresh.
+ */
+const editions = await getAllEditions();
+const years = mapYears(editions);
+
+const current = new Date().getUTCFullYear();
+const year = years.includes(current) ? current : (years.find((y) => y >= current) ?? years.at(-1)!);
+---
+
+<BaseLayout
+  path={`/map/${year}`}
+  title={`${year} conference map`}
+  description={`Where every power system conference in ${year} is held, on a world map.`}
+>
+  <ConferenceMap year={year} years={years} editions={editions} />
+</BaseLayout>

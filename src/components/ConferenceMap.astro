@@ -1,0 +1,560 @@
+---
+/**
+ * Where a year's conferences are held, on an interactive map.
+ *
+ * Shared by /map and /map/<year>, like YearCalendar. The markers are resolved
+ * at build time by lib/map.ts and handed to one MapLibre script as JSON on the
+ * map container. The basemap is OpenFreeMap's vector tiles (OpenStreetMap
+ * data, no API key), light or dark with the site theme. The list under the map is plain HTML with
+ * the same conferences, so nothing is lost without JavaScript.
+ */
+import { ChevronLeft, ChevronRight } from '@lucide/astro';
+
+import type { ConferenceEdition } from '@/lib/conferences';
+import { buildMapMarkers, mapEditions, mapLegend } from '@/lib/map';
+import { withBase } from '@/lib/site';
+import { cn } from '@/lib/utils';
+
+interface Props {
+  year: number;
+  years: number[];
+  editions: ConferenceEdition[];
+}
+
+const { year, years, editions } = Astro.props;
+
+const markers = buildMapMarkers(editions, year);
+const listed = mapEditions(editions, year);
+const legend = mapLegend(markers);
+
+const index = years.indexOf(year);
+const previous = years[index - 1];
+const next = years[index + 1];
+
+/** Everything the script needs per marker; colours are already resolved, never built from a tag. */
+const payload = markers.map((marker) => ({
+  place: marker.key,
+  lat: marker.lat,
+  lon: marker.lon,
+  topics: marker.topics,
+  markerClass: marker.markerClass,
+  editions: marker.editions.map((edition) => ({
+    id: edition.id,
+    name: edition.name,
+    fullName: edition.fullName,
+    when: edition.dateLabel,
+    topic: edition.topic,
+    markerClass: edition.markerClass,
+    href: withBase(`/conference/${edition.id}`),
+  })),
+}));
+---
+
+<h1 class="text-2xl font-bold tracking-tight sm:text-3xl">Conference locations</h1>
+
+<nav class="mt-6 flex items-center justify-center gap-1" aria-label="Year">
+  {
+    previous ? (
+      <a
+        class="inline-flex size-8 shrink-0 items-center justify-center rounded-md border transition-colors hover:bg-accent"
+        href={withBase(`/map/${previous}`)}
+        aria-label={`Go to ${previous}`}
+      >
+        <ChevronLeft class="size-4" aria-hidden="true" />
+      </a>
+    ) : (
+      <span class="size-8 shrink-0" aria-hidden="true" />
+    )
+  }
+
+  <div class="flex min-w-0 flex-wrap justify-center gap-1">
+    {
+      years.map((candidate) => (
+        <a
+          class={cn(
+            'rounded-md px-3 py-1.5 text-sm font-semibold transition-colors',
+            candidate === year
+              ? 'bg-accent text-accent-foreground'
+              : 'text-muted-foreground hover:text-foreground',
+          )}
+          href={withBase(`/map/${candidate}`)}
+          aria-current={candidate === year ? 'page' : undefined}
+        >
+          {candidate}
+        </a>
+      ))
+    }
+  </div>
+
+  {
+    next ? (
+      <a
+        class="inline-flex size-8 shrink-0 items-center justify-center rounded-md border transition-colors hover:bg-accent"
+        href={withBase(`/map/${next}`)}
+        aria-label={`Go to ${next}`}
+      >
+        <ChevronRight class="size-4" aria-hidden="true" />
+      </a>
+    ) : (
+      <span class="size-8 shrink-0" aria-hidden="true" />
+    )
+  }
+</nav>
+
+<section class="mt-6 min-w-0 rounded-lg border bg-card p-2 shadow-sm sm:p-3">
+  {/* `isolate` keeps the map's controls and popups under the sticky header. */}
+  <div
+    id="conference-map"
+    class="relative isolate z-0 h-[420px] w-full overflow-hidden rounded-md bg-muted sm:h-[540px]"
+    role="region"
+    aria-label={`Map of ${year} conference locations`}
+    data-markers={JSON.stringify(payload)}
+  >
+    <noscript>
+      <p class="p-4 text-sm text-muted-foreground">
+        The map needs JavaScript. Every conference is listed below.
+      </p>
+    </noscript>
+  </div>
+
+  <div class="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1.5 px-1 text-xs text-muted-foreground">
+    {
+      legend.map((entry) => (
+        <button
+          type="button"
+          class="flex min-h-6 items-center gap-1.5 rounded-md px-1.5 py-0.5 transition-opacity hover:bg-accent focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none aria-[pressed=false]:opacity-40"
+          data-toggle-topic={entry.topic}
+          aria-pressed="true"
+        >
+          <svg class="size-2.5" viewBox="0 0 10 10" aria-hidden="true">
+            <circle cx="5" cy="5" r="5" class={entry.markerClass} />
+          </svg>
+          {entry.topic}
+        </button>
+      ))
+    }
+  </div>
+</section>
+
+<section id="list" class="mt-8 scroll-mt-24">
+  <h2 class="text-lg font-semibold tracking-tight">All {year} conferences</h2>
+  <ul class="mt-3 grid gap-x-6 gap-y-1 text-sm sm:grid-cols-2">
+    {
+      listed.map((edition) => (
+        <li class="min-w-0" data-list-topic={edition.topic}>
+          <a
+            href={withBase(`/conference/${edition.id}`)}
+            data-edition-id={edition.id}
+            class="-mx-2 flex flex-wrap items-baseline gap-x-2 rounded-md px-2 py-1 hover:bg-accent"
+          >
+            <svg class="size-2 shrink-0 self-center" viewBox="0 0 10 10" aria-hidden="true">
+              <circle cx="5" cy="5" r="5" class={edition.markerClass} />
+            </svg>
+            <span class="shrink-0 font-medium">{edition.name}</span>
+            <span class="text-muted-foreground">
+              {edition.dateLabel} &middot; {edition.location}
+            </span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</section>
+
+<style is:global>
+  /* MapLibre ships its own light chrome; bring it onto the site's tokens. */
+  #conference-map .maplibregl-popup-content {
+    background: var(--color-card);
+    color: var(--color-card-foreground);
+    border-radius: 0.5rem;
+    padding: 0.75rem 2rem 0.75rem 0.875rem;
+    font: inherit;
+    font-size: 0.875rem;
+    line-height: 1.35;
+    box-shadow: 0 10px 25px -5px rgb(0 0 0 / 0.25);
+  }
+  #conference-map .maplibregl-popup-anchor-top .maplibregl-popup-tip {
+    border-bottom-color: var(--color-card);
+  }
+  #conference-map .maplibregl-popup-anchor-bottom .maplibregl-popup-tip {
+    border-top-color: var(--color-card);
+  }
+  #conference-map .maplibregl-popup-anchor-left .maplibregl-popup-tip {
+    border-right-color: var(--color-card);
+  }
+  #conference-map .maplibregl-popup-anchor-right .maplibregl-popup-tip {
+    border-left-color: var(--color-card);
+  }
+  #conference-map .maplibregl-popup-close-button {
+    color: var(--color-muted-foreground);
+    font-size: 1.1rem;
+    padding: 0.25rem 0.5rem;
+  }
+  .dark #conference-map .maplibregl-ctrl-group {
+    background: var(--color-card);
+  }
+  .dark #conference-map .maplibregl-ctrl-group button + button {
+    border-top-color: var(--color-border);
+  }
+  .dark #conference-map .maplibregl-ctrl-icon {
+    filter: invert(1);
+  }
+  .dark #conference-map .maplibregl-ctrl-attrib {
+    background: color-mix(in oklab, var(--color-card) 80%, transparent);
+    color: var(--color-muted-foreground);
+  }
+  .dark #conference-map .maplibregl-ctrl-attrib a {
+    color: inherit;
+  }
+</style>
+
+<script>
+  // One script for the whole map. MapLibre is loaded only on this page, and
+  // the markers come from the JSON the build wrote onto the container rather
+  // than being fetched.
+  import type { FeatureCollection, Point } from 'geojson';
+  import * as maplibregl from 'maplibre-gl';
+  import type { GeoJSONSource, StyleSpecification } from 'maplibre-gl';
+
+  type QueriedFeature = ReturnType<maplibregl.Map['querySourceFeatures']>[number];
+  import 'maplibre-gl/dist/maplibre-gl.css';
+  // MapLibre 6 runs tile parsing in a module worker it loads by URL. Bundled
+  // here as a worker entry so its own imports come along with it.
+  import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
+
+  interface MapEdition {
+    id: string;
+    name: string;
+    fullName: string;
+    when: string;
+    topic: string;
+    markerClass: string;
+    href: string;
+  }
+
+  interface MapMarker {
+    place: string;
+    lat: number;
+    lon: number;
+    topics: string[];
+    markerClass: string;
+    editions: MapEdition[];
+  }
+
+  const container = document.getElementById('conference-map');
+
+  if (container) {
+    maplibregl.setWorkerUrl(workerUrl);
+
+    const data: MapMarker[] = JSON.parse(container.dataset.markers ?? '[]');
+    const hiddenTopics = new Set<string>();
+    const SOURCE = 'conferences';
+
+    const escape = (value: string) => value.replace(/[&<>"]/g, (c) => `&#${c.charCodeAt(0)};`);
+    const isDark = () => document.documentElement.classList.contains('dark');
+    const styleUrl = (dark: boolean) =>
+      `https://tiles.openfreemap.org/styles/${dark ? 'dark' : 'positron'}`;
+
+    /** Markers still switched on in the legend, as GeoJSON for the clustering source. */
+    const features = (): FeatureCollection<Point> => ({
+      type: 'FeatureCollection',
+      features: data
+        .map((marker, index) => ({ marker, index }))
+        .filter(({ marker }) => !marker.topics.every((t) => hiddenTopics.has(t)))
+        .map(({ marker, index }) => ({
+          type: 'Feature',
+          geometry: { type: 'Point', coordinates: [marker.lon, marker.lat] },
+          properties: { index, count: marker.editions.length },
+        })),
+    });
+
+    // Bold country borders, dashed state borders and English labels, laid
+    // over whichever OpenFreeMap style the theme picked. Applied to the style
+    // JSON before it is set, so the map never flashes the defaults. The light
+    // and dark styles name their layers differently, hence the prefixes.
+    const tune = (style: StyleSpecification, dark: boolean): StyleSpecification => {
+      const name = ['coalesce', ['get', 'name:en'], ['get', 'name_en'], ['get', 'name:latin'], ['get', 'name']];
+      const isCountry = (id: string) => id === 'boundary_2' || id.startsWith('boundary_country');
+      const isState = (id: string) => id === 'boundary_3' || id === 'boundary_state';
+
+      for (const layer of style.layers) {
+        if (layer.type === 'symbol' && layer.layout?.['text-field']) {
+          layer.layout['text-field'] = name as never;
+        }
+        // Region names only once there is room for them.
+        if (layer.type === 'symbol' && layer.id === 'place_state') layer.minzoom = 4;
+
+        if (dark && layer.type === 'background') {
+          layer.paint = { ...layer.paint, 'background-color': '#1d2027' };
+        }
+        if (dark && layer.type === 'fill' && layer.id === 'water') {
+          layer.paint = { ...layer.paint, 'fill-color': '#0d1520' };
+        }
+
+        if (layer.type !== 'line') continue;
+        if (isCountry(layer.id)) {
+          layer.paint = {
+            ...layer.paint,
+            'line-color': dark ? '#9aa3b5' : '#5b6474',
+            'line-width': ['interpolate', ['linear'], ['zoom'], 1, 0.8, 5, 1.6, 10, 2.5],
+            'line-blur': 0,
+            'line-opacity': 1,
+          };
+        } else if (isState(layer.id)) {
+          // First-level subdivisions only: US states, provinces, Länder.
+          layer.filter = ['==', ['get', 'admin_level'], 4] as never;
+          layer.minzoom = 3;
+          layer.paint = {
+            ...layer.paint,
+            'line-color': dark ? '#737c8f' : '#7d8696',
+            'line-width': ['interpolate', ['linear'], ['zoom'], 3, 0.9, 10, 1.8],
+            'line-dasharray': [3, 2],
+            'line-blur': 0,
+            'line-opacity': 1,
+          };
+        }
+      }
+      return style;
+    };
+
+    const loadStyle = async (dark: boolean) =>
+      tune(await (await fetch(styleUrl(dark))).json(), dark);
+
+    const map = new maplibregl.Map({
+      container,
+      style: await loadStyle(isDark()),
+      center: [10, 30],
+      zoom: 1.2,
+      // Low enough that a phone-width map can still frame every conference.
+      minZoom: 0,
+      maxZoom: 12,
+      // Scrolling the page past the map does not zoom it; ctrl/⌘ + scroll or
+      // two fingers do.
+      cooperativeGestures: true,
+      attributionControl: { compact: true },
+    });
+    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-left');
+
+    // The compact attribution starts expanded and would cover a phone-sized
+    // map; start it folded behind its (i) button instead.
+    map.once('load', () =>
+      container.querySelector('.maplibregl-ctrl-attrib')?.classList.remove('maplibregl-compact-show'),
+    );
+
+    // Adds the clustering source again after every style swap, since setStyle
+    // replaces sources along with layers. The source itself draws nothing:
+    // markers are DOM elements, so they can use the site's colour classes.
+    const addSource = () => {
+      if (map.getSource(SOURCE)) return;
+      map.addSource(SOURCE, {
+        type: 'geojson',
+        data: features(),
+        cluster: true,
+        clusterRadius: 44,
+        clusterMaxZoom: 7,
+        clusterProperties: { total: ['+', ['get', 'count']] },
+      });
+      // An invisible layer, so the source is tiled and can be queried.
+      map.addLayer({
+        id: 'conference-points',
+        type: 'circle',
+        source: SOURCE,
+        paint: { 'circle-radius': 0, 'circle-opacity': 0 },
+      });
+    };
+    map.on('style.load', addSource);
+
+    new MutationObserver(async () => {
+      const dark = isDark();
+      if (container.dataset.dark === String(dark)) return;
+      container.dataset.dark = String(dark);
+      map.setStyle(await loadStyle(dark));
+    }).observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+    container.dataset.dark = String(isDark());
+
+    // --- markers ------------------------------------------------------------
+    const popupFor = (marker: MapMarker) => {
+      const shown = marker.editions.filter((e) => !hiddenTopics.has(e.topic));
+      const rows = [`<p class="font-semibold">${escape(marker.place)}</p>`];
+      for (const edition of shown) {
+        rows.push(
+          `<a class="mt-2 -mx-1.5 block rounded-md p-1.5 hover:bg-accent" href="${escape(edition.href)}">` +
+            `<span class="flex items-center gap-1.5"><svg class="size-2 shrink-0" viewBox="0 0 10 10" aria-hidden="true"><circle cx="5" cy="5" r="5" class="${escape(edition.markerClass)}"/></svg>` +
+            `<span class="font-medium">${escape(edition.name)}</span></span>` +
+            `<span class="block pl-3.5 text-muted-foreground">${escape(edition.fullName)}</span>` +
+            `<span class="block pl-3.5 text-muted-foreground">${escape(edition.when)} &middot; ${escape(edition.topic)}</span></a>`,
+        );
+      }
+      return rows.join('');
+    };
+
+    const pointElement = (marker: MapMarker) => {
+      const count = marker.editions.length;
+      const size = count > 1 ? 24 : 16;
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'block cursor-pointer rounded-full focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none';
+      button.setAttribute('aria-label', `${marker.place}: ${marker.editions.map((e) => e.name).join(', ')}`);
+      button.innerHTML =
+        `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" class="drop-shadow" aria-hidden="true">` +
+        `<circle cx="${size / 2}" cy="${size / 2}" r="${size / 2 - 1.5}" class="${escape(marker.markerClass)}" stroke="white" stroke-width="2"/>` +
+        (count > 1
+          ? `<text x="${size / 2}" y="${size / 2}" text-anchor="middle" dominant-baseline="central" class="fill-white text-[11px] font-bold">${count}</text>`
+          : '') +
+        `</svg>`;
+      return button;
+    };
+
+    const clusterElement = (total: number) => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className =
+        'flex size-8 cursor-pointer items-center justify-center rounded-full border-2 border-white bg-slate-700 text-xs font-bold text-white shadow-md focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none dark:bg-slate-200 dark:text-slate-900';
+      button.setAttribute('aria-label', `${total} conferences here; zoom in`);
+      button.textContent = String(total);
+      return button;
+    };
+
+    // Markers for single points are built once and reused; cluster markers
+    // change with every zoom level, so they are rebuilt as needed.
+    const points = new Map<number, maplibregl.Marker>();
+    const clusters = new Map<number, maplibregl.Marker>();
+    let onScreen = new Set<maplibregl.Marker>();
+
+    const pointMarker = (index: number) => {
+      let m = points.get(index);
+      if (!m) {
+        const marker = data[index]!;
+        m = new maplibregl.Marker({ element: pointElement(marker) })
+          .setLngLat([marker.lon, marker.lat])
+          .setPopup(
+            new maplibregl.Popup({ offset: 14, maxWidth: '280px' }).setHTML(popupFor(marker)),
+          );
+        // Rebuild the popup on open, so it reflects the legend switches.
+        m.getElement().addEventListener('click', () => m!.getPopup()?.setHTML(popupFor(marker)));
+        points.set(index, m);
+      }
+      return m;
+    };
+
+    const clusterMarker = (feature: QueriedFeature) => {
+      const id = feature.properties.cluster_id as number;
+      let m = clusters.get(id);
+      if (!m) {
+        const [lon, lat] = (feature.geometry as Point).coordinates as [number, number];
+        m = new maplibregl.Marker({ element: clusterElement(feature.properties.total as number) })
+          .setLngLat([lon, lat]);
+        m.getElement().addEventListener('click', async (event: MouseEvent) => {
+          event.stopPropagation();
+          const source = map.getSource<GeoJSONSource>(SOURCE);
+          const zoom = await source!.getClusterExpansionZoom(id);
+          map.easeTo({ center: [lon, lat], zoom });
+        });
+        clusters.set(id, m);
+      }
+      return m;
+    };
+
+    const sync = () => {
+      if (!map.getSource(SOURCE) || !map.isSourceLoaded(SOURCE)) return;
+      const next = new Set<maplibregl.Marker>();
+      const seen = new Set<string>();
+
+      for (const feature of map.querySourceFeatures(SOURCE)) {
+        // A feature can come back once per tile it touches.
+        const key = feature.properties.cluster
+          ? `c${feature.properties.cluster_id}`
+          : `p${feature.properties.index}`;
+        if (seen.has(key)) continue;
+        seen.add(key);
+
+        const m = feature.properties.cluster
+          ? clusterMarker(feature)
+          : pointMarker(feature.properties.index as number);
+        next.add(m);
+        if (!onScreen.has(m)) m.addTo(map);
+      }
+
+      for (const m of onScreen) if (!next.has(m)) m.remove();
+      onScreen = next;
+    };
+
+    map.on('render', sync);
+
+    const closePopups = () => {
+      for (const m of points.values()) m.getPopup()?.remove();
+    };
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') closePopups();
+    });
+
+    // --- list -> map --------------------------------------------------------
+    // A conference in the list below flies the map to its city and opens its
+    // popup, which links on to the conference page. Modified clicks (new tab,
+    // new window) and conferences with no place on the map keep the link.
+    const markerOf = new Map<string, number>();
+    data.forEach((marker, index) => {
+      for (const edition of marker.editions) markerOf.set(edition.id, index);
+    });
+
+    /** Past clusterMaxZoom, so the city is always its own marker on arrival. */
+    const FOCUS_ZOOM = 8;
+
+    document.addEventListener('click', (event) => {
+      const link = (event.target as Element | null)?.closest<HTMLAnchorElement>('[data-edition-id]');
+      if (!link) return;
+      if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      const index = markerOf.get(link.dataset.editionId ?? '');
+      if (index === undefined) return;
+      const marker = data[index]!;
+      // A conference switched off in the legend has no marker to open.
+      if (marker.topics.every((t) => hiddenTopics.has(t))) return;
+
+      event.preventDefault();
+      closePopups();
+      container.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+      map.flyTo({ center: [marker.lon, marker.lat], zoom: Math.max(map.getZoom(), FOCUS_ZOOM) });
+      map.once('moveend', () => {
+        const m = pointMarker(index);
+        if (!onScreen.has(m)) {
+          m.addTo(map);
+          onScreen.add(m);
+        }
+        m.getPopup()?.setHTML(popupFor(marker));
+        if (!m.getPopup()?.isOpen()) m.togglePopup();
+      });
+    });
+
+    // Frame every placed conference on first load, but never zoomed in so far
+    // that the rest of the world disappears.
+    if (data.length > 0) {
+      const bounds = new maplibregl.LngLatBounds();
+      for (const marker of data) bounds.extend([marker.lon, marker.lat]);
+      map.fitBounds(bounds, { padding: 40, maxZoom: 4, duration: 0 });
+    }
+
+    // --- legend switches --------------------------------------------------
+    for (const toggle of document.querySelectorAll<HTMLButtonElement>('[data-toggle-topic]')) {
+      toggle.addEventListener('click', () => {
+        const topic = toggle.dataset.toggleTopic!;
+        const on = !hiddenTopics.has(topic);
+        if (on) hiddenTopics.add(topic);
+        else hiddenTopics.delete(topic);
+        toggle.setAttribute('aria-pressed', String(!on));
+
+        closePopups();
+        // Cluster ids are only valid for one dataset.
+        for (const m of clusters.values()) m.remove();
+        clusters.clear();
+        onScreen = new Set([...onScreen].filter((m) => [...points.values()].includes(m)));
+        map.getSource<GeoJSONSource>(SOURCE)?.setData(features());
+
+        for (const item of document.querySelectorAll<HTMLElement>('[data-list-topic]')) {
+          item.hidden = hiddenTopics.has(item.dataset.listTopic ?? '');
+        }
+      });
+    }
+  }
+</script>
