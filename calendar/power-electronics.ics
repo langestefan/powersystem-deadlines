@@ -12,7 +12,7 @@ SOURCE;VALUE=URI:https://powersystemdeadlines.org/calendar/power-electronic
  s.ics
 BEGIN:VEVENT
 UID:icit27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 TRANSP:TRANSPARENT
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit27-paper-2@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 TRANSP:TRANSPARENT
@@ -91,7 +91,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit27-tutorial_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 TRANSP:TRANSPARENT
@@ -129,7 +129,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 TRANSP:TRANSPARENT
@@ -167,7 +167,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270118
 DTEND;VALUE=DATE:20270119
 TRANSP:TRANSPARENT
@@ -205,7 +205,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270118
 DTEND;VALUE=DATE:20270119
 TRANSP:TRANSPARENT
@@ -243,7 +243,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-abstract@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -279,7 +279,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-workshop_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -315,7 +315,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-tutorial_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 TRANSP:TRANSPARENT
@@ -351,7 +351,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 TRANSP:TRANSPARENT
@@ -387,7 +387,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
@@ -424,7 +424,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tpec27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 TRANSP:TRANSPARENT
@@ -464,7 +464,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tpec27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 TRANSP:TRANSPARENT
@@ -504,7 +504,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tpec27-paper-2@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 TRANSP:TRANSPARENT
@@ -544,7 +544,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tpec27-notification-2@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 TRANSP:TRANSPARENT
@@ -584,7 +584,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tpec27-paper-3@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 TRANSP:TRANSPARENT
@@ -624,7 +624,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tpec27-notification-3@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
 TRANSP:TRANSPARENT
@@ -664,7 +664,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:itec27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 TRANSP:TRANSPARENT
@@ -701,7 +701,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:itec27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 TRANSP:TRANSPARENT
@@ -738,7 +738,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:itec27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 TRANSP:TRANSPARENT
@@ -774,7 +774,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:itec27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 TRANSP:TRANSPARENT
@@ -808,8 +808,149 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ecce-asia27-paper@powersystemdeadlines.org
+DTSTAMP:20261109T223615Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+TRANSP:TRANSPARENT
+SUMMARY:ECCE Asia 2027: Digest submission (extended) (23:59 Asia/Seoul)
+DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia 
+ 2027)\n\nDigest submission (extended): 22 Nov 2026\, 23:59 Asia/Seoul\n\nC
+ onference: May 23-26\, 2027\nLocation: Seoul\, South Korea\nVenue: COEX Ma
+ gok\n\nAll dates:\n  Digest submission (extended): 22 Nov 2026\, 23:59 Asi
+ a/Seoul\n  Acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n
+   Final manuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n  Ear
+ ly registration: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for pape
+ rs states no timezone. This is counted as UTC+12\, the earliest it could p
+ lausibly mean\, so the countdown runs out before the real deadline rather 
+ than after it.\n\nHeld as ICPE 2027-ECCE Asia\, the 12th International Con
+ ference on Power Electronics.\n\nCall for papers: https://www.icpe-conf.or
+ g/\nDetails: https://powersystemdeadlines.org/conference/ecce-asia27
+LOCATION:Seoul\, South Korea
+URL;VALUE=URI:https://www.icpe-conf.org/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecce-asia27-notification@powersystemdeadlines.org
+DTSTAMP:20261109T223615Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+TRANSP:TRANSPARENT
+SUMMARY:ECCE Asia 2027: Acceptance notification (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia 
+ 2027)\n\nAcceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n\n
+ Conference: May 23-26\, 2027\nLocation: Seoul\, South Korea\nVenue: COEX M
+ agok\n\nAll dates:\n  Digest submission (extended): 22 Nov 2026\, 23:59 As
+ ia/Seoul\n  Acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\
+ n  Final manuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n  Ea
+ rly registration: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for pap
+ ers states no timezone. This is counted as UTC+12\, the earliest it could 
+ plausibly mean\, so the countdown runs out before the real deadline rather
+  than after it.\n\nHeld as ICPE 2027-ECCE Asia\, the 12th International Co
+ nference on Power Electronics.\n\nCall for papers: https://www.icpe-conf.o
+ rg/\nDetails: https://powersystemdeadlines.org/conference/ecce-asia27
+LOCATION:Seoul\, South Korea
+URL;VALUE=URI:https://www.icpe-conf.org/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecce-asia27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261109T223615Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+TRANSP:TRANSPARENT
+SUMMARY:ECCE Asia 2027: Final manuscript submission (23:59 UTC+12 (assumed)
+ )
+DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia 
+ 2027)\n\nFinal manuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)
+ \n\nConference: May 23-26\, 2027\nLocation: Seoul\, South Korea\nVenue: CO
+ EX Magok\n\nAll dates:\n  Digest submission (extended): 22 Nov 2026\, 23:5
+ 9 Asia/Seoul\n  Acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assum
+ ed)\n  Final manuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n
+   Early registration: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for
+  papers states no timezone. This is counted as UTC+12\, the earliest it co
+ uld plausibly mean\, so the countdown runs out before the real deadline ra
+ ther than after it.\n\nHeld as ICPE 2027-ECCE Asia\, the 12th Internationa
+ l Conference on Power Electronics.\n\nCall for papers: https://www.icpe-co
+ nf.org/\nDetails: https://powersystemdeadlines.org/conference/ecce-asia27
+LOCATION:Seoul\, South Korea
+URL;VALUE=URI:https://www.icpe-conf.org/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecce-asia27-early_registration@powersystemdeadlines.org
+DTSTAMP:20261109T223615Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+TRANSP:TRANSPARENT
+SUMMARY:ECCE Asia 2027: Early registration (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia 
+ 2027)\n\nEarly registration: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nConfe
+ rence: May 23-26\, 2027\nLocation: Seoul\, South Korea\nVenue: COEX Magok\
+ n\nAll dates:\n  Digest submission (extended): 22 Nov 2026\, 23:59 Asia/Se
+ oul\n  Acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n  Fi
+ nal manuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n  Early r
+ egistration: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers s
+ tates no timezone. This is counted as UTC+12\, the earliest it could plaus
+ ibly mean\, so the countdown runs out before the real deadline rather than
+  after it.\n\nHeld as ICPE 2027-ECCE Asia\, the 12th International Confere
+ nce on Power Electronics.\n\nCall for papers: https://www.icpe-conf.org/\n
+ Details: https://powersystemdeadlines.org/conference/ecce-asia27
+LOCATION:Seoul\, South Korea
+URL;VALUE=URI:https://www.icpe-conf.org/
+CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:apec27-abstract@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 TRANSP:TRANSPARENT
@@ -847,7 +988,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 TRANSP:TRANSPARENT
@@ -884,7 +1025,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 TRANSP:TRANSPARENT
@@ -922,7 +1063,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ias-am27-abstract@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 TRANSP:TRANSPARENT
@@ -960,7 +1101,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ias-am27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270216
 TRANSP:TRANSPARENT
@@ -998,7 +1139,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ias-am27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
@@ -1037,7 +1178,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-workshop_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -1079,7 +1220,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-tutorial_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -1121,7 +1262,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 TRANSP:TRANSPARENT
@@ -1163,7 +1304,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-panel_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 TRANSP:TRANSPARENT
@@ -1205,7 +1346,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 TRANSP:TRANSPARENT
@@ -1249,7 +1390,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-notification-2@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
@@ -1293,7 +1434,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-paper-2@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 TRANSP:TRANSPARENT
@@ -1337,7 +1478,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
@@ -1380,7 +1521,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
@@ -1422,7 +1563,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-notification-3@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 TRANSP:TRANSPARENT
@@ -1466,7 +1607,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:peci27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 TRANSP:TRANSPARENT
@@ -1501,7 +1642,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:peci27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270226
 DTEND;VALUE=DATE:20270227
 TRANSP:TRANSPARENT
@@ -1536,7 +1677,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:peci27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 TRANSP:TRANSPARENT
@@ -1571,7 +1712,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 TRANSP:TRANSPARENT
@@ -1610,7 +1751,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 TRANSP:TRANSPARENT
@@ -1649,7 +1790,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270702
 TRANSP:TRANSPARENT
@@ -1688,7 +1829,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270702
 TRANSP:TRANSPARENT
@@ -1727,7 +1868,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pcim-europe27-abstract@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 TRANSP:TRANSPARENT
@@ -1765,7 +1906,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pcim-europe27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 TRANSP:TRANSPARENT
@@ -1803,149 +1944,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ecce-asia27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-TRANSP:TRANSPARENT
-SUMMARY:ECCE Asia 2027: Digest submission (23:59 Asia/Seoul)
-DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia 
- 2027)\n\nDigest submission: 25 Oct 2026\, 23:59 Asia/Seoul\n\nConference: 
- May 23-26\, 2027\nLocation: Seoul\, South Korea\nVenue: COEX Magok\n\nAll 
- dates:\n  Digest submission: 25 Oct 2026\, 23:59 Asia/Seoul\n  Acceptance 
- notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript sub
- mission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n  Early registration: 31 Ma
- r 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone.
-  This is counted as UTC+12\, the earliest it could plausibly mean\, so the
-  countdown runs out before the real deadline rather than after it.\n\nHeld
-  as ICPE 2027-ECCE Asia\, the 12th International Conference on Power Elect
- ronics.\n\nCall for papers: https://www.icpe-conf.org/\nDetails: https://p
- owersystemdeadlines.org/conference/ecce-asia27
-LOCATION:Seoul\, South Korea
-URL;VALUE=URI:https://www.icpe-conf.org/
-CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ecce-asia27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
-DTSTART;VALUE=DATE:20270115
-DTEND;VALUE=DATE:20270116
-TRANSP:TRANSPARENT
-SUMMARY:ECCE Asia 2027: Acceptance notification (23:59 UTC+12 (assumed))
-DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia 
- 2027)\n\nAcceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n\n
- Conference: May 23-26\, 2027\nLocation: Seoul\, South Korea\nVenue: COEX M
- agok\n\nAll dates:\n  Digest submission: 25 Oct 2026\, 23:59 Asia/Seoul\n 
-  Acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final ma
- nuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n  Early registr
- ation: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states 
- no timezone. This is counted as UTC+12\, the earliest it could plausibly m
- ean\, so the countdown runs out before the real deadline rather than after
-  it.\n\nHeld as ICPE 2027-ECCE Asia\, the 12th International Conference on
-  Power Electronics.\n\nCall for papers: https://www.icpe-conf.org/\nDetail
- s: https://powersystemdeadlines.org/conference/ecce-asia27
-LOCATION:Seoul\, South Korea
-URL;VALUE=URI:https://www.icpe-conf.org/
-CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ecce-asia27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
-DTSTART;VALUE=DATE:20270312
-DTEND;VALUE=DATE:20270313
-TRANSP:TRANSPARENT
-SUMMARY:ECCE Asia 2027: Final manuscript submission (23:59 UTC+12 (assumed)
- )
-DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia 
- 2027)\n\nFinal manuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)
- \n\nConference: May 23-26\, 2027\nLocation: Seoul\, South Korea\nVenue: CO
- EX Magok\n\nAll dates:\n  Digest submission: 25 Oct 2026\, 23:59 Asia/Seou
- l\n  Acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n  Fina
- l manuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n  Early reg
- istration: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers sta
- tes no timezone. This is counted as UTC+12\, the earliest it could plausib
- ly mean\, so the countdown runs out before the real deadline rather than a
- fter it.\n\nHeld as ICPE 2027-ECCE Asia\, the 12th International Conferenc
- e on Power Electronics.\n\nCall for papers: https://www.icpe-conf.org/\nDe
- tails: https://powersystemdeadlines.org/conference/ecce-asia27
-LOCATION:Seoul\, South Korea
-URL;VALUE=URI:https://www.icpe-conf.org/
-CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ecce-asia27-early_registration@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
-DTSTART;VALUE=DATE:20270331
-DTEND;VALUE=DATE:20270401
-TRANSP:TRANSPARENT
-SUMMARY:ECCE Asia 2027: Early registration (23:59 UTC+12 (assumed))
-DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia 
- 2027)\n\nEarly registration: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nConfe
- rence: May 23-26\, 2027\nLocation: Seoul\, South Korea\nVenue: COEX Magok\
- n\nAll dates:\n  Digest submission: 25 Oct 2026\, 23:59 Asia/Seoul\n  Acce
- ptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final manuscr
- ipt submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n  Early registration
- : 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no ti
- mezone. This is counted as UTC+12\, the earliest it could plausibly mean\,
-  so the countdown runs out before the real deadline rather than after it.\
- n\nHeld as ICPE 2027-ECCE Asia\, the 12th International Conference on Powe
- r Electronics.\n\nCall for papers: https://www.icpe-conf.org/\nDetails: ht
- tps://powersystemdeadlines.org/conference/ecce-asia27
-LOCATION:Seoul\, South Korea
-URL;VALUE=URI:https://www.icpe-conf.org/
-CATEGORIES:Power Electronics,Machines & Drives,Renewables,Energy Storage
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:tpec26-paper@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20251124
 DTEND;VALUE=DATE:20251125
 TRANSP:TRANSPARENT
@@ -1979,7 +1979,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tpec26-notification@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20260102
 DTEND;VALUE=DATE:20260103
 TRANSP:TRANSPARENT
@@ -2013,7 +2013,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit26-paper@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20251115
 DTEND;VALUE=DATE:20251116
 TRANSP:TRANSPARENT
@@ -2051,7 +2051,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit26-paper-2@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20251130
 DTEND;VALUE=DATE:20251201
 TRANSP:TRANSPARENT
@@ -2089,7 +2089,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit26-notification@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20260112
 DTEND;VALUE=DATE:20260113
 TRANSP:TRANSPARENT
@@ -2126,7 +2126,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20260131
 DTEND;VALUE=DATE:20260201
 TRANSP:TRANSPARENT
@@ -2163,7 +2163,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit26-author_registration@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20260131
 DTEND;VALUE=DATE:20260201
 TRANSP:TRANSPARENT
@@ -2200,7 +2200,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie26-paper@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20260315
 DTEND;VALUE=DATE:20260316
 TRANSP:TRANSPARENT
@@ -2237,7 +2237,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie26-notification@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20260424
 DTEND;VALUE=DATE:20260425
 TRANSP:TRANSPARENT
@@ -2275,7 +2275,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -2313,7 +2313,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie26-early_registration@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -2349,7 +2349,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie26-paper-2@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20260525
 DTEND;VALUE=DATE:20260526
 TRANSP:TRANSPARENT
@@ -2386,7 +2386,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:compel26-paper@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20260408
 DTEND;VALUE=DATE:20260409
 TRANSP:TRANSPARENT
@@ -2422,7 +2422,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:compel26-notification@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20260514
 DTEND;VALUE=DATE:20260515
 TRANSP:TRANSPARENT
@@ -2458,7 +2458,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:compel26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20260623
 DTEND;VALUE=DATE:20260624
 TRANSP:TRANSPARENT
@@ -2495,7 +2495,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-abstract@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20260313
 DTEND;VALUE=DATE:20260314
 TRANSP:TRANSPARENT
@@ -2532,7 +2532,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-notification@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -2569,7 +2569,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 TRANSP:TRANSPARENT
@@ -2607,7 +2607,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-paper@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 TRANSP:TRANSPARENT
@@ -2642,7 +2642,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-notification@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 TRANSP:TRANSPARENT
@@ -2677,7 +2677,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T223353Z
+DTSTAMP:20261109T223615Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 TRANSP:TRANSPARENT
