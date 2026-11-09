@@ -20,8 +20,15 @@ Read `CLAUDE.md` first, especially "Working with conference data". Its rules app
    wrong: a date in a PDF, a page about another edition, an event date that isn't a deadline.
    Decide from the page, not from the finding.
 2. Work out what the official source now says for every deadline and the event dates.
-   - Change only what the official page states plainly. If a date is ambiguous, or the pages
-     disagree with each other, leave it and say so in the description.
+   - Change only what the official pages state plainly. If a date is genuinely ambiguous, leave
+     it and say so in the description.
+   - Check **every** deadline, not only the one in the findings. One stale page often hides
+     another real change.
+   - When the site's own pages disagree, don't freeze the old value. Conference sites update
+     one page and forget another. Prefer, in order: the call for papers or important-dates
+     page, then the homepage, then any other page. A later date on the call for papers than in
+     the data is usually an extension, so take it. Either way, name the pages that disagree and
+     quote each one in the description, so the reviewer sees the conflict.
    - Edit only this edition. Never touch another edition, a series-level field, a `link:`,
      the city or country, or the order of anything. The later check refuses such edits.
    - Deadline dates stay quoted: `'2026-11-27 23:59:59'`. Keep the time already in the file
