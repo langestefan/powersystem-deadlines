@@ -191,18 +191,34 @@ why `deploy.yml` also rebuilds on a daily cron.
 upcoming edition (a future deadline, a TBA, or an event still ahead). It fetches the edition's
 link, its per-deadline links and one level of same-edition "call for papers / key dates" links.
 Editions whose pages disagree with the YAML (up to 8 a day, most urgent first, skipping any with
-an open `cfp-check/<id>` PR) go to `anthropics/claude-code-action`, which follows
-`.github/cfp-check-prompt.md` and opens one PR per edition, quoting the page for every change.
-Pages that can't be read (`fetch-failed`, `no-dates`) go into one rolling "CFP check: needs a
-human" issue. The bot never commits to main: `verified:` only moves inside a PR, and merging it
-is the human check. The Claude step is off unless `vars.CFP_PROPOSE == 'true'`.
-To see what the checker read for one edition: `npm run check-cfps -- --only <id> --dump <dir>`.
+an open `cfp-bot/<id>` PR) go to Claude. Pages that can't be read (`fetch-failed`, `no-dates`) go
+into one rolling "CFP check: needs a human" issue. The Claude step is off unless
+`vars.CFP_PROPOSE == 'true'`. To see what the checker read for one edition:
+`npm run check-cfps -- --only <id> --dump <dir>`.
+
+Claude reads untrusted web pages, so the workflow is three jobs with deliberately separated
+privileges. Keep it that way:
+
+- **`detect`**: no Claude; read-only contents, writes only the human issue.
+- **`propose`**: one matrix job per edition running `anthropics/claude-code-action`
+  (pinned by commit SHA) with `.github/cfp-check-prompt.md`. Read-only token,
+  `persist-credentials: false`, no Bash, `Edit` limited to that edition's file and `WebFetch`
+  to the hosts the detector read for it. Its only output is a patch and a PR description.
+- **`open-prs`**: no Claude; the only job that can write. `scripts/open-cfp-prs.sh` refuses any
+  patch that touches more than one `conferences/*.yml` file or fails
+  `scripts/guard-cfp-proposal.ts`, then runs validate + tests and opens the PR.
+  **`cfpGuard.ts`** is that envelope: one edition's dates, labels, venue, note and an
+  append-only `changes:`, with no new links anywhere. Widening it widens what a hostile page
+  can put in front of a reviewer.
+
+The bot never commits to main: `verified:` only moves inside a PR, and merging it is the human
+check.
 
 ### Tests
 
 `tests/*.test.ts` mirrors `src/lib/*` one file per module, and covers exactly the modules that keep
 away from `astro:content`: `time`, `ics`, `calendar`, `overview`, `feeds`, `verification`,
-`addToCalendar`, `changelog`, `map`, `places`, `cfpCheck`, `pageText`. `tests/places.test.ts` also reads every
+`addToCalendar`, `changelog`, `map`, `places`, `cfpCheck`, `pageText`, `cfpGuard`. `tests/places.test.ts` also reads every
 `conferences/*.yml` to check each city has coordinates. `tests/ics.test.ts` asserts RFC 5545 details (75-octet folding, escaping order,
 CRLF) that are easy to regress invisibly, since a malformed feed still looks fine on the page.
 

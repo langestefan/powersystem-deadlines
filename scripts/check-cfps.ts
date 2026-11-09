@@ -45,6 +45,8 @@ const MAX_FOLLOWED = 5;
 /** Less text than this and the response was not really the page. */
 const MIN_TEXT_CHARS = 200;
 const RETRY_DELAY_MS = 3_000;
+/** A CFP page is tens of kilobytes; anything past this is not one, or is hostile. */
+const MAX_BODY_BYTES = 5 * 1024 * 1024;
 const USER_AGENT = 'Mozilla/5.0 (compatible; conference-deadline-checker/1.0)';
 const { values: args } = parseArgs({
   options: {
@@ -83,7 +85,10 @@ async function fetchOnce(url: string): Promise<FetchedPage> {
     if (!/html|text\/plain/.test(type)) {
       return { url, ok: false, status: response.status, error: `unreadable type ${type}` };
     }
-    const html = await response.text();
+    const html = await readCapped(response);
+    if (html === null) {
+      return { url, ok: false, status: response.status, error: 'page too large' };
+    }
     // Some sites answer a burst of requests with an empty 200; that is not the page.
     if (htmlToText(html).length < MIN_TEXT_CHARS) {
       return { url, ok: false, status: response.status, error: 'empty page' };
@@ -92,6 +97,29 @@ async function fetchOnce(url: string): Promise<FetchedPage> {
   } catch (error) {
     return { url, ok: false, error: (error as Error).message };
   }
+}
+
+/** The body as text, or null once it passes MAX_BODY_BYTES (stops downloading there). */
+async function readCapped(response: Response): Promise<string | null> {
+  if (Number(response.headers.get('content-length') ?? 0) > MAX_BODY_BYTES) {
+    await response.body?.cancel();
+    return null;
+  }
+  const reader = response.body?.getReader();
+  if (!reader) return '';
+  const chunks: Uint8Array[] = [];
+  let size = 0;
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    size += value.byteLength;
+    if (size > MAX_BODY_BYTES) {
+      await reader.cancel();
+      return null;
+    }
+    chunks.push(value);
+  }
+  return Buffer.concat(chunks).toString('utf8');
 }
 
 function fetchPage(url: string): Promise<FetchedPage> {
@@ -310,6 +338,8 @@ if (process.env.GITHUB_STEP_SUMMARY) {
 if (process.env.GITHUB_OUTPUT) {
   appendFileSync(
     process.env.GITHUB_OUTPUT,
-    `propose=${proposed.length > 0}\nhuman=${human.length > 0}\n`,
+    `propose=${proposed.length > 0}\nhuman=${human.length > 0}\n` +
+      // The matrix of the Claude jobs: one isolated job per edition.
+      `ids=${JSON.stringify(proposed.map((report) => report.id))}\n`,
   );
 }

@@ -2,16 +2,24 @@ name: Check deadlines
 
 # Every day, compare each upcoming edition with its official pages
 # (scripts/check-cfps.ts). Editions whose pages disagree with the data go to
-# Claude, which opens one pull request per edition for a maintainer to review.
-# Pages nobody could read go into a single rolling issue for a human.
+# Claude, and each resulting proposal becomes a pull request for a maintainer to
+# review. Pages nobody could read go into a single rolling issue for a human.
+#
+# Security model: Claude reads untrusted web pages, so it gets no write access.
+#   detect    no Claude. Read-only contents; writes only the "needs a human" issue.
+#   propose   Claude, one isolated job per edition. Token is read-only, no git
+#             credentials on disk, no shell, WebFetch limited to that edition's
+#             domains, Edit limited to that edition's file. Output: a patch + text.
+#   open-prs  no Claude. The only job that can write. Refuses any patch outside
+#             the envelope in src/lib/cfpGuard.ts, then validates and opens the PR.
 #
 # Setup:
 #   secrets.CLAUDE_CODE_OAUTH_TOKEN  required for the Claude step. Runs on a Claude Pro/Max
 #                              subscription: create it with `claude setup-token`, then
 #                              `gh secret set CLAUDE_CODE_OAUTH_TOKEN`. (To bill the API instead,
 #                              swap the input below for anthropic_api_key.)
-#   secrets.CFP_BOT_TOKEN      optional fine-grained PAT (contents + pull requests: write).
-#                              Pull requests opened with the default GITHUB_TOKEN do not
+#   secrets.CFP_BOT_TOKEN      optional fine-grained PAT (contents + pull requests: write), used
+#                              only by open-prs. PRs opened with the default GITHUB_TOKEN do not
 #                              trigger validate.yml or preview.yml; this token makes them do so.
 #   vars.CFP_PROPOSE = 'true'  turns the Claude step on. Without it the job only reports.
 
@@ -28,22 +36,24 @@ concurrency:
   group: check-deadlines
   cancel-in-progress: false
 
-permissions:
-  contents: write
-  pull-requests: write
-  issues: write
+permissions: {}
 
 jobs:
-  check:
+  detect:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
-    env:
-      GH_TOKEN: ${{ secrets.CFP_BOT_TOKEN || github.token }}
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: read
+    outputs:
+      ids: ${{ steps.detect.outputs.ids }}
+      propose: ${{ steps.detect.outputs.propose }}
+      today: ${{ steps.detect.outputs.today }}
     steps:
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.CFP_BOT_TOKEN || github.token }}
-          fetch-depth: 0
+          persist-credentials: false
 
       - uses: actions/setup-node@v4
         with:
@@ -52,12 +62,17 @@ jobs:
 
       - run: npm ci
 
-      # Editions that already have an open pull request are not proposed again.
+      # Editions with an open PR are not proposed again. Only this repo's own
+      # branches count: anyone can open a fork PR named cfp-bot/<id>.
       - name: Find open CFP check pull requests
         id: open
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          skip=$(gh pr list --state open --limit 200 --json headRefName \
-            --jq '[.[].headRefName | select(startswith("cfp-check/")) | ltrimstr("cfp-check/")] | join(",")')
+          skip=$(gh pr list --repo "$GITHUB_REPOSITORY" --state open --limit 200 \
+            --json headRefName,isCrossRepository \
+            --jq '[.[] | select(.isCrossRepository | not) | .headRefName
+                   | select(startswith("cfp-bot/")) | ltrimstr("cfp-bot/")] | join(",")')
           echo "skip=$skip" >> "$GITHUB_OUTPUT"
           echo "Open: ${skip:-none}"
 
@@ -85,36 +100,142 @@ jobs:
 
       - name: Update the "needs a human" issue
         if: ${{ !inputs.only }}
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           title='CFP check: needs a human'
-          number=$(gh issue list --state open --limit 100 --json number,title \
-            --jq ".[] | select(.title == \"$title\") | .number" | head -1)
+          number=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --limit 100 \
+            --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -1)
           if [ -s cfp-human.md ]; then
             if [ -n "$number" ]; then
-              gh issue edit "$number" --body-file cfp-human.md
+              gh issue edit "$number" --repo "$GITHUB_REPOSITORY" --body-file cfp-human.md
             else
-              gh issue create --title "$title" --body-file cfp-human.md
+              gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body-file cfp-human.md
             fi
           elif [ -n "$number" ]; then
-            gh issue close "$number" --comment 'Every upcoming edition was readable in today'"'"'s check.'
+            gh issue close "$number" --repo "$GITHUB_REPOSITORY" \
+              --comment 'Every upcoming edition was readable in today'"'"'s check.'
           fi
 
-      - name: Configure git for the bot
-        if: steps.detect.outputs.propose == 'true' && vars.CFP_PROPOSE == 'true'
+  propose:
+    needs: detect
+    if: needs.detect.outputs.propose == 'true' && vars.CFP_PROPOSE == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    # Read-only: whatever a hostile page talks Claude into, this job cannot write.
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        id: ${{ fromJSON(needs.detect.outputs.ids) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: cfp-report
+
+      # Claude may edit this edition's file only, and fetch only the hosts the
+      # detector read for it.
+      - name: Scope Claude to this edition
+        id: scope
+        env:
+          ID: ${{ matrix.id }}
+        run: |
+          node --input-type=module -e '
+            import { readFileSync, appendFileSync } from "node:fs";
+            const id = process.env.ID;
+            if (!/^[a-z0-9-]+$/.test(id)) throw new Error(`bad id ${id}`);
+            const report = JSON.parse(readFileSync("cfp-report.json", "utf8"));
+            const edition = report.editions.find((e) => e.id === id);
+            if (!edition || !/^conferences\/[a-z0-9-]+\.yml$/.test(edition.file)) {
+              throw new Error(`no report entry for ${id}`);
+            }
+            const hosts = [...new Set(edition.urls.map((u) => new URL(u.url).hostname))];
+            const tools = [
+              "Read(./cfp-report.json)", "Read(./CLAUDE.md)", "Read(./CONTRIBUTING.md)",
+              "Read(./.github/cfp-check-prompt.md)", "Read(./conferences/**)",
+              `Edit(./${edition.file})`, `Write(./cfp-proposals/${id}.md)`,
+              ...hosts.map((host) => `WebFetch(domain:${host})`),
+            ];
+            appendFileSync(process.env.GITHUB_OUTPUT,
+              `file=${edition.file}\nallowed=${tools.join(",")}\n`);
+          '
+
+      - name: Propose a fix with Claude
+        # v1.0.269, pinned by commit: this action receives the subscription token.
+        uses: anthropics/claude-code-action@61a9c274fa7110a66dfafc1bbbced03833eb25fe
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ github.token }}
+          prompt: |
+            Follow the instructions in .github/cfp-check-prompt.md.
+            Your edition is ${{ matrix.id }}, in ${{ steps.scope.outputs.file }}.
+            The detector's report is cfp-report.json. Today is ${{ needs.detect.outputs.today }}.
+          claude_args: >-
+            --max-turns 40
+            --allowedTools "${{ steps.scope.outputs.allowed }}"
+            --disallowedTools "Bash,Glob,Grep,WebSearch,Task,Agent,NotebookEdit,Read(./.git/**),Read(//proc/**)"
+
+      - name: Collect the proposal
+        env:
+          ID: ${{ matrix.id }}
+        run: |
+          if git diff --quiet -- conferences/; then
+            echo "No change proposed for $ID."
+            exit 0
+          fi
+          mkdir -p proposal
+          echo "$ID" > proposal/id
+          git diff -- conferences/ > proposal/change.patch
+          if [ -s "cfp-proposals/$ID.md" ]; then
+            cp "cfp-proposals/$ID.md" proposal/body.md
+          else
+            echo "CFP check: $ID" > proposal/body.md
+          fi
+          git diff --stat
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: proposal-${{ matrix.id }}
+          path: proposal/
+          if-no-files-found: ignore
+
+  open-prs:
+    needs: propose
+    # Open what the successful editions proposed, even if another edition's job failed.
+    if: ${{ always() && needs.propose.result != 'skipped' && needs.propose.result != 'cancelled' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+      pull-requests: write
+    env:
+      GH_TOKEN: ${{ secrets.CFP_BOT_TOKEN || github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.CFP_BOT_TOKEN || github.token }}
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: proposal-*
+          path: proposals
+
+      - name: Open a pull request per proposal
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-
-      - name: Propose fixes with Claude
-        if: steps.detect.outputs.propose == 'true' && vars.CFP_PROPOSE == 'true'
-        uses: anthropics/claude-code-action@v1
-        with:
-          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          github_token: ${{ secrets.CFP_BOT_TOKEN || github.token }}
-          prompt: |
-            Follow the instructions in .github/cfp-check-prompt.md.
-            The detector's report is cfp-report.json. Today is ${{ steps.detect.outputs.today }}.
-          claude_args: >-
-            --max-turns 150
-            --allowedTools
-            "Read,Glob,Grep,Edit(conferences/**),WebFetch,Bash(npm run validate),Bash(npm test),Bash(git switch:*),Bash(git add conferences/*),Bash(git commit:*),Bash(git push origin cfp-check/*),Bash(git status),Bash(git diff:*),Bash(gh pr create:*),Bash(gh pr list:*)"
+          bash scripts/open-cfp-prs.sh proposals
