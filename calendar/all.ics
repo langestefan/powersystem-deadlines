@@ -11,7 +11,7 @@ X-WR-CALDESC:Every submission deadline tracked here.
 SOURCE;VALUE=URI:https://powersystemdeadlines.org/calendar/all.ics
 BEGIN:VEVENT
 UID:icit27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 TRANSP:TRANSPARENT
@@ -51,7 +51,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit27-paper-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 TRANSP:TRANSPARENT
@@ -91,7 +91,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit27-tutorial_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 TRANSP:TRANSPARENT
@@ -129,7 +129,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 TRANSP:TRANSPARENT
@@ -168,7 +168,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270118
 DTEND;VALUE=DATE:20270119
 TRANSP:TRANSPARENT
@@ -207,7 +207,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270118
 DTEND;VALUE=DATE:20270119
 TRANSP:TRANSPARENT
@@ -245,7 +245,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pesgm27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 TRANSP:TRANSPARENT
@@ -278,24 +278,26 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-abstract@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
+DTSTAMP:20261109T225659Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
 TRANSP:TRANSPARENT
 SUMMARY:IEMDC 2027: Digest submission (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
- DC 2027)\n\nDigest submission: 1 Nov 2026\, 23:59 UTC+12 (assumed)\n\nConf
- erence: May 17-20\, 2027\nLocation: Milwaukee\, USA\n\nAll dates:\n  Diges
- t submission: 1 Nov 2026\, 23:59 UTC+12 (assumed)\n  Special session propo
- sal: 1 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial proposal: 15 Nov 2026
- \, 23:59 UTC+12 (assumed)\n  Digest acceptance notification: 15 Jan 2027\,
-  23:59 UTC+12 (assumed)\n  Final paper submission and early registration: 
- 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no time
- zone. This is counted as UTC+12\, the earliest it could plausibly mean\, s
- o the countdown runs out before the real deadline rather than after it.\n\
- n16th edition\, marking the conference's 30th anniversary and returning to
-  Milwaukee.\n\nCall for papers: https://www.iemdc.org/\nDetails: https://p
- owersystemdeadlines.org/conference/iemdc27
+ DC 2027)\n\nDigest submission: 15 Nov 2026\, 23:59 UTC+12 (assumed)\n\nCon
+ ference: May 17-20\, 2027\nLocation: Milwaukee\, USA\n\nAll dates:\n  Dige
+ st submission: 15 Nov 2026\, 23:59 UTC+12 (assumed)\n  Special session pro
+ posal (extended): 15 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial proposa
+ l: 15 Nov 2026\, 23:59 UTC+12 (assumed)\n  Special session notification: 1
+ 8 Dec 2026\, 23:59 UTC+12 (assumed)\n  Digest acceptance notification: 15 
+ Jan 2027\, 23:59 UTC+12 (assumed)\n  Final paper submission and early regi
+ stration: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n  Special session final pr
+ esentation upload: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for pa
+ pers states no timezone. This is counted as UTC+12\, the earliest it could
+  plausibly mean\, so the countdown runs out before the real deadline rathe
+ r than after it.\n\n16th edition\, marking the conference's 30th anniversa
+ ry and returning to Milwaukee.\n\nCall for papers: https://www.iemdc.org/\
+ nDetails: https://powersystemdeadlines.org/conference/iemdc27
 LOCATION:Milwaukee\, USA
 URL;VALUE=URI:https://www.iemdc.org/
 CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
@@ -314,24 +316,28 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-workshop_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
+DTSTAMP:20261109T225659Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
 TRANSP:TRANSPARENT
-SUMMARY:IEMDC 2027: Special session proposal (23:59 UTC+12 (assumed))
+SUMMARY:IEMDC 2027: Special session proposal (extended) (23:59 UTC+12 (assu
+ med))
 DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
- DC 2027)\n\nSpecial session proposal: 1 Nov 2026\, 23:59 UTC+12 (assumed)\
- n\nConference: May 17-20\, 2027\nLocation: Milwaukee\, USA\n\nAll dates:\n
-   Digest submission: 1 Nov 2026\, 23:59 UTC+12 (assumed)\n  Special sessio
- n proposal: 1 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial proposal: 15 N
- ov 2026\, 23:59 UTC+12 (assumed)\n  Digest acceptance notification: 15 Jan
-  2027\, 23:59 UTC+12 (assumed)\n  Final paper submission and early registr
- ation: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states 
- no timezone. This is counted as UTC+12\, the earliest it could plausibly m
- ean\, so the countdown runs out before the real deadline rather than after
-  it.\n\n16th edition\, marking the conference's 30th anniversary and retur
- ning to Milwaukee.\n\nCall for papers: https://www.iemdc.org/\nDetails: ht
- tps://powersystemdeadlines.org/conference/iemdc27
+ DC 2027)\n\nSpecial session proposal (extended): 15 Nov 2026\, 23:59 UTC+1
+ 2 (assumed)\n\nConference: May 17-20\, 2027\nLocation: Milwaukee\, USA\n\n
+ All dates:\n  Digest submission: 15 Nov 2026\, 23:59 UTC+12 (assumed)\n  S
+ pecial session proposal (extended): 15 Nov 2026\, 23:59 UTC+12 (assumed)\n
+   Tutorial proposal: 15 Nov 2026\, 23:59 UTC+12 (assumed)\n  Special sessi
+ on notification: 18 Dec 2026\, 23:59 UTC+12 (assumed)\n  Digest acceptance
+  notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final paper submiss
+ ion and early registration: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n  Specia
+ l session final presentation upload: 15 Mar 2027\, 23:59 UTC+12 (assumed)\
+ n\nThe call for papers states no timezone. This is counted as UTC+12\, the
+  earliest it could plausibly mean\, so the countdown runs out before the r
+ eal deadline rather than after it.\n\n16th edition\, marking the conferenc
+ e's 30th anniversary and returning to Milwaukee.\n\nCall for papers: https
+ ://www.iemdc.org/\nDetails: https://powersystemdeadlines.org/conference/ie
+ mdc27
 LOCATION:Milwaukee\, USA
 URL;VALUE=URI:https://www.iemdc.org/
 CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
@@ -350,7 +356,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-tutorial_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 TRANSP:TRANSPARENT
@@ -358,16 +364,56 @@ SUMMARY:IEMDC 2027: Tutorial proposal (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
  DC 2027)\n\nTutorial proposal: 15 Nov 2026\, 23:59 UTC+12 (assumed)\n\nCon
  ference: May 17-20\, 2027\nLocation: Milwaukee\, USA\n\nAll dates:\n  Dige
- st submission: 1 Nov 2026\, 23:59 UTC+12 (assumed)\n  Special session prop
- osal: 1 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial proposal: 15 Nov 202
- 6\, 23:59 UTC+12 (assumed)\n  Digest acceptance notification: 15 Jan 2027\
- , 23:59 UTC+12 (assumed)\n  Final paper submission and early registration:
-  15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no tim
- ezone. This is counted as UTC+12\, the earliest it could plausibly mean\, 
- so the countdown runs out before the real deadline rather than after it.\n
- \n16th edition\, marking the conference's 30th anniversary and returning t
- o Milwaukee.\n\nCall for papers: https://www.iemdc.org/\nDetails: https://
- powersystemdeadlines.org/conference/iemdc27
+ st submission: 15 Nov 2026\, 23:59 UTC+12 (assumed)\n  Special session pro
+ posal (extended): 15 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial proposa
+ l: 15 Nov 2026\, 23:59 UTC+12 (assumed)\n  Special session notification: 1
+ 8 Dec 2026\, 23:59 UTC+12 (assumed)\n  Digest acceptance notification: 15 
+ Jan 2027\, 23:59 UTC+12 (assumed)\n  Final paper submission and early regi
+ stration: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n  Special session final pr
+ esentation upload: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for pa
+ pers states no timezone. This is counted as UTC+12\, the earliest it could
+  plausibly mean\, so the countdown runs out before the real deadline rathe
+ r than after it.\n\n16th edition\, marking the conference's 30th anniversa
+ ry and returning to Milwaukee.\n\nCall for papers: https://www.iemdc.org/\
+ nDetails: https://powersystemdeadlines.org/conference/iemdc27
+LOCATION:Milwaukee\, USA
+URL;VALUE=URI:https://www.iemdc.org/
+CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iemdc27-session_notification@powersystemdeadlines.org
+DTSTAMP:20261109T225659Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+TRANSP:TRANSPARENT
+SUMMARY:IEMDC 2027: Special session notification (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
+ DC 2027)\n\nSpecial session notification: 18 Dec 2026\, 23:59 UTC+12 (assu
+ med)\n\nConference: May 17-20\, 2027\nLocation: Milwaukee\, USA\n\nAll dat
+ es:\n  Digest submission: 15 Nov 2026\, 23:59 UTC+12 (assumed)\n  Special 
+ session proposal (extended): 15 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutor
+ ial proposal: 15 Nov 2026\, 23:59 UTC+12 (assumed)\n  Special session noti
+ fication: 18 Dec 2026\, 23:59 UTC+12 (assumed)\n  Digest acceptance notifi
+ cation: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final paper submission and
+  early registration: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n  Special sessi
+ on final presentation upload: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe 
+ call for papers states no timezone. This is counted as UTC+12\, the earlie
+ st it could plausibly mean\, so the countdown runs out before the real dea
+ dline rather than after it.\n\n16th edition\, marking the conference's 30t
+ h anniversary and returning to Milwaukee.\n\nCall for papers: https://www.
+ iemdc.org/\nDetails: https://powersystemdeadlines.org/conference/iemdc27
 LOCATION:Milwaukee\, USA
 URL;VALUE=URI:https://www.iemdc.org/
 CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
@@ -386,7 +432,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 TRANSP:TRANSPARENT
@@ -394,16 +440,18 @@ SUMMARY:IEMDC 2027: Digest acceptance notification (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
  DC 2027)\n\nDigest acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (as
  sumed)\n\nConference: May 17-20\, 2027\nLocation: Milwaukee\, USA\n\nAll d
- ates:\n  Digest submission: 1 Nov 2026\, 23:59 UTC+12 (assumed)\n  Special
-  session proposal: 1 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial proposa
- l: 15 Nov 2026\, 23:59 UTC+12 (assumed)\n  Digest acceptance notification:
-  15 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final paper submission and early 
- registration: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers 
- states no timezone. This is counted as UTC+12\, the earliest it could plau
- sibly mean\, so the countdown runs out before the real deadline rather tha
- n after it.\n\n16th edition\, marking the conference's 30th anniversary an
- d returning to Milwaukee.\n\nCall for papers: https://www.iemdc.org/\nDeta
- ils: https://powersystemdeadlines.org/conference/iemdc27
+ ates:\n  Digest submission: 15 Nov 2026\, 23:59 UTC+12 (assumed)\n  Specia
+ l session proposal (extended): 15 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tut
+ orial proposal: 15 Nov 2026\, 23:59 UTC+12 (assumed)\n  Special session no
+ tification: 18 Dec 2026\, 23:59 UTC+12 (assumed)\n  Digest acceptance noti
+ fication: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final paper submission a
+ nd early registration: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n  Special ses
+ sion final presentation upload: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nTh
+ e call for papers states no timezone. This is counted as UTC+12\, the earl
+ iest it could plausibly mean\, so the countdown runs out before the real d
+ eadline rather than after it.\n\n16th edition\, marking the conference's 3
+ 0th anniversary and returning to Milwaukee.\n\nCall for papers: https://ww
+ w.iemdc.org/\nDetails: https://powersystemdeadlines.org/conference/iemdc27
 LOCATION:Milwaukee\, USA
 URL;VALUE=URI:https://www.iemdc.org/
 CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
@@ -422,7 +470,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
@@ -431,16 +479,59 @@ SUMMARY:IEMDC 2027: Final paper submission and early registration (23:59 UT
 DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
  DC 2027)\n\nFinal paper submission and early registration: 15 Mar 2027\, 2
  3:59 UTC+12 (assumed)\n\nConference: May 17-20\, 2027\nLocation: Milwaukee
- \, USA\n\nAll dates:\n  Digest submission: 1 Nov 2026\, 23:59 UTC+12 (assu
- med)\n  Special session proposal: 1 Nov 2026\, 23:59 UTC+12 (assumed)\n  T
- utorial proposal: 15 Nov 2026\, 23:59 UTC+12 (assumed)\n  Digest acceptanc
- e notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final paper submis
- sion and early registration: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe c
- all for papers states no timezone. This is counted as UTC+12\, the earlies
- t it could plausibly mean\, so the countdown runs out before the real dead
- line rather than after it.\n\n16th edition\, marking the conference's 30th
-  anniversary and returning to Milwaukee.\n\nCall for papers: https://www.i
- emdc.org/\nDetails: https://powersystemdeadlines.org/conference/iemdc27
+ \, USA\n\nAll dates:\n  Digest submission: 15 Nov 2026\, 23:59 UTC+12 (ass
+ umed)\n  Special session proposal (extended): 15 Nov 2026\, 23:59 UTC+12 (
+ assumed)\n  Tutorial proposal: 15 Nov 2026\, 23:59 UTC+12 (assumed)\n  Spe
+ cial session notification: 18 Dec 2026\, 23:59 UTC+12 (assumed)\n  Digest 
+ acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final pap
+ er submission and early registration: 15 Mar 2027\, 23:59 UTC+12 (assumed)
+ \n  Special session final presentation upload: 15 Mar 2027\, 23:59 UTC+12 
+ (assumed)\n\nThe call for papers states no timezone. This is counted as UT
+ C+12\, the earliest it could plausibly mean\, so the countdown runs out be
+ fore the real deadline rather than after it.\n\n16th edition\, marking the
+  conference's 30th anniversary and returning to Milwaukee.\n\nCall for pap
+ ers: https://www.iemdc.org/\nDetails: https://powersystemdeadlines.org/con
+ ference/iemdc27
+LOCATION:Milwaukee\, USA
+URL;VALUE=URI:https://www.iemdc.org/
+CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iemdc27-presentation_upload@powersystemdeadlines.org
+DTSTAMP:20261109T225659Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+TRANSP:TRANSPARENT
+SUMMARY:IEMDC 2027: Special session final presentation upload (23:59 UTC+12
+  (assumed))
+DESCRIPTION:IEEE International Electric Machines and Drives Conference (IEM
+ DC 2027)\n\nSpecial session final presentation upload: 15 Mar 2027\, 23:59
+  UTC+12 (assumed)\n\nConference: May 17-20\, 2027\nLocation: Milwaukee\, U
+ SA\n\nAll dates:\n  Digest submission: 15 Nov 2026\, 23:59 UTC+12 (assumed
+ )\n  Special session proposal (extended): 15 Nov 2026\, 23:59 UTC+12 (assu
+ med)\n  Tutorial proposal: 15 Nov 2026\, 23:59 UTC+12 (assumed)\n  Special
+  session notification: 18 Dec 2026\, 23:59 UTC+12 (assumed)\n  Digest acce
+ ptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n  Final paper s
+ ubmission and early registration: 15 Mar 2027\, 23:59 UTC+12 (assumed)\n  
+ Special session final presentation upload: 15 Mar 2027\, 23:59 UTC+12 (ass
+ umed)\n\nThe call for papers states no timezone. This is counted as UTC+12
+ \, the earliest it could plausibly mean\, so the countdown runs out before
+  the real deadline rather than after it.\n\n16th edition\, marking the con
+ ference's 30th anniversary and returning to Milwaukee.\n\nCall for papers:
+  https://www.iemdc.org/\nDetails: https://powersystemdeadlines.org/confere
+ nce/iemdc27
 LOCATION:Milwaukee\, USA
 URL;VALUE=URI:https://www.iemdc.org/
 CATEGORIES:Machines & Drives,Power Electronics,EV & Transportation
@@ -459,7 +550,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tpec27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 TRANSP:TRANSPARENT
@@ -499,7 +590,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tpec27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 TRANSP:TRANSPARENT
@@ -539,7 +630,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tpec27-paper-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 TRANSP:TRANSPARENT
@@ -579,7 +670,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tpec27-notification-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 TRANSP:TRANSPARENT
@@ -619,7 +710,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tpec27-paper-3@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 TRANSP:TRANSPARENT
@@ -659,7 +750,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tpec27-notification-3@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
 TRANSP:TRANSPARENT
@@ -699,7 +790,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:itec27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 TRANSP:TRANSPARENT
@@ -736,7 +827,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:itec27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 TRANSP:TRANSPARENT
@@ -773,7 +864,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:itec27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 TRANSP:TRANSPARENT
@@ -809,7 +900,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:itec27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 TRANSP:TRANSPARENT
@@ -844,7 +935,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce-asia27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 TRANSP:TRANSPARENT
@@ -879,7 +970,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce-asia27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 TRANSP:TRANSPARENT
@@ -914,7 +1005,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce-asia27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 TRANSP:TRANSPARENT
@@ -950,7 +1041,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce-asia27-early_registration@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 TRANSP:TRANSPARENT
@@ -985,7 +1076,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dpsp-europe27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 TRANSP:TRANSPARENT
@@ -1023,7 +1114,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dpsp-europe27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 TRANSP:TRANSPARENT
@@ -1060,7 +1151,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dpsp-europe27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270208
 DTEND;VALUE=DATE:20270209
 TRANSP:TRANSPARENT
@@ -1097,7 +1188,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dpsp-europe27-presentation_upload@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
@@ -1134,7 +1225,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-abstract@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 TRANSP:TRANSPARENT
@@ -1172,7 +1263,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 TRANSP:TRANSPARENT
@@ -1209,7 +1300,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:apec27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 TRANSP:TRANSPARENT
@@ -1247,7 +1338,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ias-am27-abstract@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 TRANSP:TRANSPARENT
@@ -1285,7 +1376,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ias-am27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270216
 TRANSP:TRANSPARENT
@@ -1323,7 +1414,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ias-am27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
@@ -1362,7 +1453,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-global27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 TRANSP:TRANSPARENT
@@ -1400,7 +1491,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-global27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270217
 TRANSP:TRANSPARENT
@@ -1437,7 +1528,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-global27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
@@ -1474,7 +1565,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cpes27-session_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 TRANSP:TRANSPARENT
@@ -1512,7 +1603,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cpes27-abstract@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
 TRANSP:TRANSPARENT
@@ -1550,7 +1641,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cpes27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270202
 DTEND;VALUE=DATE:20270203
 TRANSP:TRANSPARENT
@@ -1588,7 +1679,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cpes27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270406
 DTEND;VALUE=DATE:20270407
 TRANSP:TRANSPARENT
@@ -1626,7 +1717,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cpes27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270420
 DTEND;VALUE=DATE:20270421
 TRANSP:TRANSPARENT
@@ -1664,7 +1755,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cpes27-early_registration@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 TRANSP:TRANSPARENT
@@ -1702,7 +1793,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-workshop_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -1744,7 +1835,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-tutorial_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -1786,7 +1877,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 TRANSP:TRANSPARENT
@@ -1828,7 +1919,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-panel_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 TRANSP:TRANSPARENT
@@ -1870,7 +1961,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 TRANSP:TRANSPARENT
@@ -1914,7 +2005,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-notification-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
@@ -1958,7 +2049,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-paper-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 TRANSP:TRANSPARENT
@@ -2002,7 +2093,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
@@ -2045,7 +2136,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
@@ -2087,7 +2178,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-notification-3@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 TRANSP:TRANSPARENT
@@ -2131,7 +2222,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ipst27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 TRANSP:TRANSPARENT
@@ -2167,7 +2258,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ipst27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270220
 TRANSP:TRANSPARENT
@@ -2203,7 +2294,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ipst27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270319
 DTEND;VALUE=DATE:20270320
 TRANSP:TRANSPARENT
@@ -2239,7 +2330,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ipst27-notification-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270409
 DTEND;VALUE=DATE:20270410
 TRANSP:TRANSPARENT
@@ -2275,7 +2366,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pvpmc27-abstract@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 TRANSP:TRANSPARENT
@@ -2312,7 +2403,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e-energy27-abstract@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 TRANSP:TRANSPARENT
@@ -2370,7 +2461,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e-energy27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 TRANSP:TRANSPARENT
@@ -2428,7 +2519,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e-energy27-award_nomination@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 TRANSP:TRANSPARENT
@@ -2486,7 +2577,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e-energy27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 TRANSP:TRANSPARENT
@@ -2545,7 +2636,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e-energy27-revision@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 TRANSP:TRANSPARENT
@@ -2603,7 +2694,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e-energy27-notification-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 TRANSP:TRANSPARENT
@@ -2662,7 +2753,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e-energy27-abstract-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 TRANSP:TRANSPARENT
@@ -2720,7 +2811,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e-energy27-paper-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 TRANSP:TRANSPARENT
@@ -2778,7 +2869,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e-energy27-notification-3@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 TRANSP:TRANSPARENT
@@ -2837,7 +2928,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e-energy27-revision-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270319
 DTEND;VALUE=DATE:20270320
 TRANSP:TRANSPARENT
@@ -2895,7 +2986,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e-energy27-notification-4@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270416
 DTEND;VALUE=DATE:20270417
 TRANSP:TRANSPARENT
@@ -2954,7 +3045,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e-energy27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270501
 TRANSP:TRANSPARENT
@@ -3012,7 +3103,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-abstract@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270111
 DTEND;VALUE=DATE:20270112
 TRANSP:TRANSPARENT
@@ -3054,7 +3145,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 TRANSP:TRANSPARENT
@@ -3098,7 +3189,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270725
 DTEND;VALUE=DATE:20270726
 TRANSP:TRANSPARENT
@@ -3141,7 +3232,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-notification-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270912
 DTEND;VALUE=DATE:20270913
 TRANSP:TRANSPARENT
@@ -3185,7 +3276,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270926
 DTEND;VALUE=DATE:20270927
 TRANSP:TRANSPARENT
@@ -3227,7 +3318,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-camera_ready-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20271010
 DTEND;VALUE=DATE:20271011
 TRANSP:TRANSPARENT
@@ -3271,7 +3362,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-bangkok27-presentation_upload@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20271024
 DTEND;VALUE=DATE:20271025
 TRANSP:TRANSPARENT
@@ -3315,7 +3406,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-abstract@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 TRANSP:TRANSPARENT
@@ -3354,7 +3445,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 TRANSP:TRANSPARENT
@@ -3393,7 +3484,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 TRANSP:TRANSPARENT
@@ -3432,7 +3523,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-notification-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270409
 DTEND;VALUE=DATE:20270410
 TRANSP:TRANSPARENT
@@ -3472,7 +3563,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-early_registration@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270428
 DTEND;VALUE=DATE:20270429
 TRANSP:TRANSPARENT
@@ -3512,7 +3603,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270510
 DTEND;VALUE=DATE:20270511
 TRANSP:TRANSPARENT
@@ -3551,7 +3642,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-presentation_upload@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270528
 DTEND;VALUE=DATE:20270529
 TRANSP:TRANSPARENT
@@ -3591,7 +3682,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:peci27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 TRANSP:TRANSPARENT
@@ -3626,7 +3717,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:peci27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270226
 DTEND;VALUE=DATE:20270227
 TRANSP:TRANSPARENT
@@ -3661,7 +3752,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:peci27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 TRANSP:TRANSPARENT
@@ -3696,7 +3787,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:acc27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 TRANSP:TRANSPARENT
@@ -3739,7 +3830,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:acc27-session_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 TRANSP:TRANSPARENT
@@ -3780,7 +3871,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:acc27-paper-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 TRANSP:TRANSPARENT
@@ -3821,7 +3912,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:acc27-session_proposal-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 TRANSP:TRANSPARENT
@@ -3862,7 +3953,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:acc27-workshop_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 TRANSP:TRANSPARENT
@@ -3903,7 +3994,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:acc27-tutorial_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 TRANSP:TRANSPARENT
@@ -3944,7 +4035,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:acc27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 TRANSP:TRANSPARENT
@@ -3986,7 +4077,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:acc27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 TRANSP:TRANSPARENT
@@ -4027,7 +4118,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:acc27-camera_ready-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 TRANSP:TRANSPARENT
@@ -4068,7 +4159,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecc27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 TRANSP:TRANSPARENT
@@ -4110,7 +4201,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecc27-session_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 TRANSP:TRANSPARENT
@@ -4152,7 +4243,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecc27-tutorial_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 TRANSP:TRANSPARENT
@@ -4194,7 +4285,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecc27-workshop_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 TRANSP:TRANSPARENT
@@ -4236,7 +4327,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecc27-abstract@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 TRANSP:TRANSPARENT
@@ -4278,7 +4369,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecc27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 TRANSP:TRANSPARENT
@@ -4320,7 +4411,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecc27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270405
 DTEND;VALUE=DATE:20270406
 TRANSP:TRANSPARENT
@@ -4361,7 +4452,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 TRANSP:TRANSPARENT
@@ -4400,7 +4491,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 TRANSP:TRANSPARENT
@@ -4439,7 +4530,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270702
 TRANSP:TRANSPARENT
@@ -4478,7 +4569,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270702
 TRANSP:TRANSPARENT
@@ -4517,7 +4608,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ccta27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 TRANSP:TRANSPARENT
@@ -4554,7 +4645,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ccta27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 TRANSP:TRANSPARENT
@@ -4591,7 +4682,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ccta27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270623
 DTEND;VALUE=DATE:20270624
 TRANSP:TRANSPARENT
@@ -4628,7 +4719,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ccta27-poster@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270630
 DTEND;VALUE=DATE:20270701
 TRANSP:TRANSPARENT
@@ -4665,7 +4756,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-heidelberg27-abstract@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 TRANSP:TRANSPARENT
@@ -4705,7 +4796,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-heidelberg27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 TRANSP:TRANSPARENT
@@ -4747,7 +4838,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-heidelberg27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 TRANSP:TRANSPARENT
@@ -4787,7 +4878,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-heidelberg27-notification-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 TRANSP:TRANSPARENT
@@ -4829,7 +4920,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-heidelberg27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270329
 DTEND;VALUE=DATE:20270330
 TRANSP:TRANSPARENT
@@ -4870,7 +4961,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 TRANSP:TRANSPARENT
@@ -4906,7 +4997,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270423
 DTEND;VALUE=DATE:20270424
 TRANSP:TRANSPARENT
@@ -4942,7 +5033,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 TRANSP:TRANSPARENT
@@ -4980,7 +5071,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 TRANSP:TRANSPARENT
@@ -5016,7 +5107,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pcim-europe27-abstract@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 TRANSP:TRANSPARENT
@@ -5054,7 +5145,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pcim-europe27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 TRANSP:TRANSPARENT
@@ -5093,7 +5184,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-abstract@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
@@ -5136,7 +5227,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270402
 DTEND;VALUE=DATE:20270403
 TRANSP:TRANSPARENT
@@ -5180,7 +5271,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 TRANSP:TRANSPARENT
@@ -5223,7 +5314,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-notification-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270614
 DTEND;VALUE=DATE:20270615
 TRANSP:TRANSPARENT
@@ -5267,7 +5358,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270628
 DTEND;VALUE=DATE:20270629
 TRANSP:TRANSPARENT
@@ -5311,7 +5402,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-camera_ready-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270710
 TRANSP:TRANSPARENT
@@ -5354,7 +5445,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-early_registration@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270726
 DTEND;VALUE=DATE:20270727
 TRANSP:TRANSPARENT
@@ -5397,7 +5488,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cdc27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 TRANSP:TRANSPARENT
@@ -5437,7 +5528,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cdc27-session_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270325
 TRANSP:TRANSPARENT
@@ -5476,7 +5567,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cdc27-paper-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 TRANSP:TRANSPARENT
@@ -5515,7 +5606,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cdc27-workshop_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270501
 TRANSP:TRANSPARENT
@@ -5554,7 +5645,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cdc27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270715
 DTEND;VALUE=DATE:20270716
 TRANSP:TRANSPARENT
@@ -5593,7 +5684,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 TRANSP:TRANSPARENT
@@ -5633,7 +5724,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270630
 DTEND;VALUE=DATE:20270701
 TRANSP:TRANSPARENT
@@ -5673,7 +5764,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270731
 DTEND;VALUE=DATE:20270801
 TRANSP:TRANSPARENT
@@ -5714,7 +5805,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia27-early_registration@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270731
 DTEND;VALUE=DATE:20270801
 TRANSP:TRANSPARENT
@@ -5755,7 +5846,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:upec27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270501
 TRANSP:TRANSPARENT
@@ -5794,7 +5885,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:upec27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270618
 DTEND;VALUE=DATE:20270619
 TRANSP:TRANSPARENT
@@ -5833,7 +5924,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:upec27-early_registration@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270625
 DTEND;VALUE=DATE:20270626
 TRANSP:TRANSPARENT
@@ -5872,7 +5963,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:upec27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270716
 DTEND;VALUE=DATE:20270717
 TRANSP:TRANSPARENT
@@ -5912,7 +6003,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:acc28-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270910
 DTEND;VALUE=DATE:20270911
 TRANSP:TRANSPARENT
@@ -5946,7 +6037,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:acc28-paper-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20270924
 DTEND;VALUE=DATE:20270925
 TRANSP:TRANSPARENT
@@ -5980,7 +6071,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:acc28-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20280121
 DTEND;VALUE=DATE:20280122
 TRANSP:TRANSPARENT
@@ -6015,7 +6106,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:acc28-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20280310
 DTEND;VALUE=DATE:20280311
 TRANSP:TRANSPARENT
@@ -6049,7 +6140,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tpec26-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20251124
 DTEND;VALUE=DATE:20251125
 TRANSP:TRANSPARENT
@@ -6083,7 +6174,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tpec26-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260102
 DTEND;VALUE=DATE:20260103
 TRANSP:TRANSPARENT
@@ -6117,7 +6208,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dpsp-global26-abstract@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20250711
 DTEND;VALUE=DATE:20250712
 TRANSP:TRANSPARENT
@@ -6153,7 +6244,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dpsp-global26-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20251031
 DTEND;VALUE=DATE:20251101
 TRANSP:TRANSPARENT
@@ -6189,7 +6280,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dpsp-global26-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20251210
 DTEND;VALUE=DATE:20251211
 TRANSP:TRANSPARENT
@@ -6225,7 +6316,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dpsp-global26-author_registration@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20251222
 DTEND;VALUE=DATE:20251223
 TRANSP:TRANSPARENT
@@ -6261,7 +6352,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dpsp-global26-presentation_upload@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260220
 DTEND;VALUE=DATE:20260221
 TRANSP:TRANSPARENT
@@ -6297,7 +6388,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit26-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20251115
 DTEND;VALUE=DATE:20251116
 TRANSP:TRANSPARENT
@@ -6335,7 +6426,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit26-paper-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20251130
 DTEND;VALUE=DATE:20251201
 TRANSP:TRANSPARENT
@@ -6373,7 +6464,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit26-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260112
 DTEND;VALUE=DATE:20260113
 TRANSP:TRANSPARENT
@@ -6410,7 +6501,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260131
 DTEND;VALUE=DATE:20260201
 TRANSP:TRANSPARENT
@@ -6447,7 +6538,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit26-author_registration@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260131
 DTEND;VALUE=DATE:20260201
 TRANSP:TRANSPARENT
@@ -6484,7 +6575,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:greentech26-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20251116
 DTEND;VALUE=DATE:20251117
 TRANSP:TRANSPARENT
@@ -6519,7 +6610,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:greentech26-tutorial_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20251214
 DTEND;VALUE=DATE:20251215
 TRANSP:TRANSPARENT
@@ -6554,7 +6645,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-td26-tutorial_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20250606
 DTEND;VALUE=DATE:20250607
 TRANSP:TRANSPARENT
@@ -6592,7 +6683,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-td26-panel_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20250801
 DTEND;VALUE=DATE:20250802
 TRANSP:TRANSPARENT
@@ -6631,7 +6722,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-td26-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20250814
 DTEND;VALUE=DATE:20250815
 TRANSP:TRANSPARENT
@@ -6671,7 +6762,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-td26-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20251104
 DTEND;VALUE=DATE:20251105
 TRANSP:TRANSPARENT
@@ -6709,7 +6800,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-abstract@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20250615
 DTEND;VALUE=DATE:20250616
 TRANSP:TRANSPARENT
@@ -6747,7 +6838,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20250622
 DTEND;VALUE=DATE:20250623
 TRANSP:TRANSPARENT
@@ -6786,7 +6877,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20251015
 DTEND;VALUE=DATE:20251016
 TRANSP:TRANSPARENT
@@ -6824,7 +6915,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-notification-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260208
 DTEND;VALUE=DATE:20260209
 TRANSP:TRANSPARENT
@@ -6863,7 +6954,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pscc26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
 TRANSP:TRANSPARENT
@@ -6902,7 +6993,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie26-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260315
 DTEND;VALUE=DATE:20260316
 TRANSP:TRANSPARENT
@@ -6939,7 +7030,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie26-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260424
 DTEND;VALUE=DATE:20260425
 TRANSP:TRANSPARENT
@@ -6977,7 +7068,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -7015,7 +7106,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie26-early_registration@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -7051,7 +7142,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie26-paper-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260525
 DTEND;VALUE=DATE:20260526
 TRANSP:TRANSPARENT
@@ -7088,7 +7179,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eeeic26-workshop_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260101
 DTEND;VALUE=DATE:20260102
 TRANSP:TRANSPARENT
@@ -7126,7 +7217,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eeeic26-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260511
 DTEND;VALUE=DATE:20260512
 TRANSP:TRANSPARENT
@@ -7164,7 +7255,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eeeic26-early_registration@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260531
 DTEND;VALUE=DATE:20260601
 TRANSP:TRANSPARENT
@@ -7202,7 +7293,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:compel26-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260408
 DTEND;VALUE=DATE:20260409
 TRANSP:TRANSPARENT
@@ -7238,7 +7329,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:compel26-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260514
 DTEND;VALUE=DATE:20260515
 TRANSP:TRANSPARENT
@@ -7274,7 +7365,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:compel26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260623
 DTEND;VALUE=DATE:20260624
 TRANSP:TRANSPARENT
@@ -7311,7 +7402,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-abstract@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20250707
 DTEND;VALUE=DATE:20250708
 TRANSP:TRANSPARENT
@@ -7352,7 +7443,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20251020
 DTEND;VALUE=DATE:20251021
 TRANSP:TRANSPARENT
@@ -7393,7 +7484,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260112
 DTEND;VALUE=DATE:20260113
 TRANSP:TRANSPARENT
@@ -7434,7 +7525,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260410
 DTEND;VALUE=DATE:20260411
 TRANSP:TRANSPARENT
@@ -7474,7 +7565,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-notification-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260511
 DTEND;VALUE=DATE:20260512
 TRANSP:TRANSPARENT
@@ -7515,7 +7606,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-poster@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20260630
 TRANSP:TRANSPARENT
@@ -7555,7 +7646,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cigre-session26-presentation_upload@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 TRANSP:TRANSPARENT
@@ -7596,7 +7687,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sest26-abstract@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260302
 DTEND;VALUE=DATE:20260303
 TRANSP:TRANSPARENT
@@ -7635,7 +7726,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sest26-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260427
 DTEND;VALUE=DATE:20260428
 TRANSP:TRANSPARENT
@@ -7675,7 +7766,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sest26-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 TRANSP:TRANSPARENT
@@ -7714,7 +7805,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sest26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20260630
 TRANSP:TRANSPARENT
@@ -7753,7 +7844,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sest26-author_registration@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260713
 DTEND;VALUE=DATE:20260714
 TRANSP:TRANSPARENT
@@ -7793,7 +7884,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iaee-european26-abstract@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260410
 DTEND;VALUE=DATE:20260411
 TRANSP:TRANSPARENT
@@ -7829,7 +7920,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iaee-european26-best_paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260508
 DTEND;VALUE=DATE:20260509
 TRANSP:TRANSPARENT
@@ -7865,7 +7956,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iaee-european26-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -7902,7 +7993,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iaee-european26-early_registration@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260703
 DTEND;VALUE=DATE:20260704
 TRANSP:TRANSPARENT
@@ -7939,7 +8030,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pmaps26-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260315
 DTEND;VALUE=DATE:20260316
 TRANSP:TRANSPARENT
@@ -7976,7 +8067,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pmaps26-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260530
 DTEND;VALUE=DATE:20260531
 TRANSP:TRANSPARENT
@@ -8013,7 +8104,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pmaps26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 TRANSP:TRANSPARENT
@@ -8050,7 +8141,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powerafrica26-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
 TRANSP:TRANSPARENT
@@ -8086,7 +8177,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powerafrica26-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 TRANSP:TRANSPARENT
@@ -8122,7 +8213,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powerafrica26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260622
 DTEND;VALUE=DATE:20260623
 TRANSP:TRANSPARENT
@@ -8157,7 +8248,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powerafrica26-early_registration@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 TRANSP:TRANSPARENT
@@ -8193,7 +8284,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-abstract@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260313
 DTEND;VALUE=DATE:20260314
 TRANSP:TRANSPARENT
@@ -8230,7 +8321,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -8267,7 +8358,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 TRANSP:TRANSPARENT
@@ -8305,7 +8396,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:naps26-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 TRANSP:TRANSPARENT
@@ -8338,7 +8429,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 TRANSP:TRANSPARENT
@@ -8373,7 +8464,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 TRANSP:TRANSPARENT
@@ -8408,7 +8499,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 TRANSP:TRANSPARENT
@@ -8444,7 +8535,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-europe26-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260415
 DTEND;VALUE=DATE:20260416
 TRANSP:TRANSPARENT
@@ -8478,7 +8569,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-europe26-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 TRANSP:TRANSPARENT
@@ -8512,7 +8603,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-europe26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 TRANSP:TRANSPARENT
@@ -8546,7 +8637,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:smartgridcomm26-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260503
 DTEND;VALUE=DATE:20260504
 TRANSP:TRANSPARENT
@@ -8582,7 +8673,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:smartgridcomm26-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 TRANSP:TRANSPARENT
@@ -8619,7 +8710,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:smartgridcomm26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 TRANSP:TRANSPARENT
@@ -8656,7 +8747,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 TRANSP:TRANSPARENT
@@ -8693,7 +8784,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 TRANSP:TRANSPARENT
@@ -8730,7 +8821,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-author_registration@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 TRANSP:TRANSPARENT
@@ -8767,7 +8858,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 TRANSP:TRANSPARENT
@@ -8804,7 +8895,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cdc26-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260317
 DTEND;VALUE=DATE:20260318
 TRANSP:TRANSPARENT
@@ -8844,7 +8935,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cdc26-session_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260324
 DTEND;VALUE=DATE:20260325
 TRANSP:TRANSPARENT
@@ -8883,7 +8974,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cdc26-paper-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260331
 DTEND;VALUE=DATE:20260401
 TRANSP:TRANSPARENT
@@ -8922,7 +9013,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cdc26-workshop_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 TRANSP:TRANSPARENT
@@ -8961,7 +9052,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cdc26-tutorial_proposal@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 TRANSP:TRANSPARENT
@@ -9000,7 +9091,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cdc26-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 TRANSP:TRANSPARENT
@@ -9039,7 +9130,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cdc26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 TRANSP:TRANSPARENT
@@ -9078,7 +9169,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hicss27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 TRANSP:TRANSPARENT
@@ -9113,7 +9204,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hicss27-notification@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
 TRANSP:TRANSPARENT
@@ -9150,7 +9241,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hicss27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 TRANSP:TRANSPARENT
@@ -9187,7 +9278,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hicss27-camera_ready-2@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 TRANSP:TRANSPARENT
@@ -9222,7 +9313,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hicss27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 TRANSP:TRANSPARENT
@@ -9257,7 +9348,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gtd-latam27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 TRANSP:TRANSPARENT
@@ -9289,7 +9380,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-grid-edge27-paper@powersystemdeadlines.org
-DTSTAMP:20261109T225448Z
+DTSTAMP:20261109T225659Z
 DTSTART;VALUE=DATE:20260724
 DTEND;VALUE=DATE:20260725
 TRANSP:TRANSPARENT
