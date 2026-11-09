@@ -283,6 +283,9 @@ export const DEADLINE_TYPE_STYLES: Record<string, DeadlineTypeStyle> = {
   presentation_upload: { label: 'Upload', dotClass: 'bg-cyan-500' },
   poster: { label: 'Poster', dotClass: 'bg-pink-500' },
   notification: { label: 'Notification', dotClass: 'bg-emerald-500' },
+  // Its own type, not a second `notification`: ICS UIDs number same-typed deadlines in date
+  // order, so an earlier second notification would take over the first one's calendar entry.
+  session_notification: { label: 'Notification', dotClass: 'bg-emerald-500' },
   rebuttal_start: { label: 'Rebuttal', dotClass: 'bg-teal-500' },
   rebuttal_end: { label: 'Rebuttal', dotClass: 'bg-teal-500' },
   tutorial_proposal: { label: 'Proposal', dotClass: 'bg-fuchsia-500' },
