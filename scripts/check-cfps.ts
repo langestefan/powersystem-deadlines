@@ -248,7 +248,11 @@ const reports = await pool(
       );
     }
     const findings: Finding[] = readable.length
-      ? checkEdition(edition, readable.map((page) => htmlToText(page.html!)).join('\n\n'), NOW)
+      ? checkEdition(
+          edition,
+          readable.map((page) => ({ url: page.url, text: htmlToText(page.html!) })),
+          NOW,
+        )
       : [{ kind: 'fetch-failed', message: 'None of the official pages could be fetched.' }];
 
     return {
