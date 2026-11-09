@@ -1,6 +1,12 @@
 import { describe, expect, it } from 'vitest';
 
-import { checkEdition, extractDates, isActionable, needsChecking } from '@/lib/cfpCheck';
+import {
+  checkEdition,
+  extractDates,
+  isActionable,
+  labelDates,
+  needsChecking,
+} from '@/lib/cfpCheck';
 import { flattenEdition, type ConferenceEdition } from '@/lib/edition';
 import type { DeadlineData } from '@/content.config';
 
@@ -235,5 +241,112 @@ describe('needsChecking', () => {
 
   it('keeps an edition with only TBA dates', () => {
     expect(needsChecking(edition([{ type: 'paper', label: 'Paper', date: 'TBA' }]))).toBe(true);
+  });
+});
+
+describe('labelDates', () => {
+  const labels = (text: string) =>
+    [...labelDates(text, extractDates(text))].map(([date, kind]) => `${date.day}=${kind}`);
+
+  it('takes the label after a date when that is how the page lays them out', () => {
+    expect(
+      labels(
+        'November 15, 2026\nDigest Submission Deadline\nNovember 15, 2026\n' +
+          'Special Session Proposal Submission Deadline\nNovember 15, 2026\nTutorial Proposal',
+      ),
+    ).toEqual(['2026-11-15=abstract', '2026-11-15=session', '2026-11-15=tutorial']);
+  });
+
+  it('takes the label before a date, and never across a sentence end', () => {
+    expect(
+      labels(
+        'Full paper submission deadline: Friday, 27 November 2026. ' +
+          'Author notification: Friday, 22 January 2027.',
+      ),
+    ).toEqual(['2026-11-27=paper', '2027-01-22=notification']);
+  });
+
+  it('leaves a date with no deadline wording nearby unlabelled', () => {
+    expect(labels('The conference runs on 14 April 2027 in Munich.')).toEqual([]);
+  });
+});
+
+describe('conflicting dates (IEMDC 2027)', () => {
+  // The data as it stood before the fix, and the three pages as IEMDC served them.
+  const iemdc = () =>
+    edition(
+      [
+        { type: 'abstract', label: 'Digest submission', date: '2026-11-01 23:59:59' },
+        {
+          type: 'workshop_proposal',
+          label: 'Special session proposal',
+          date: '2026-11-01 23:59:59',
+        },
+        { type: 'tutorial_proposal', label: 'Tutorial proposal', date: '2026-11-15 23:59:59' },
+        {
+          type: 'notification',
+          label: 'Digest acceptance notification',
+          date: '2027-01-15 23:59:59',
+        },
+        { type: 'camera_ready', label: 'Final paper submission', date: '2027-03-15 23:59:59' },
+      ],
+      { start: '2027-05-17', end: '2027-05-20' },
+    );
+  const pages = [
+    {
+      url: 'https://www.iemdc.org/',
+      text:
+        'IEMDC-2027 will be held in Milwaukee, WI on May 17 – 20, 2027\n' +
+        'November 15, 2026\nDigest Submission Deadline\nNovember 15, 2026\n' +
+        'Special Session Proposal\nSubmission Deadline\nNovember 15, 2026\nTutorial Proposal\n' +
+        'Submission Deadline',
+    },
+    {
+      // Stale: still the old digest date.
+      url: 'https://www.iemdc.org/authors-2027/',
+      text:
+        'Important Dates\nWhen Is It Due?\nNovember 1, 2026\nDigest Submission Deadline\n' +
+        'January 15, 2027\nDigest Acceptance Notification\nMarch 15, 2027\n' +
+        'Submission of final papers\nand early registration',
+    },
+  ];
+
+  it('catches the digest deadline that the stale page hid', () => {
+    const conflicts = checkEdition(iemdc(), pages, NOW).filter(
+      (f) => f.kind === 'conflicting-date',
+    );
+    expect(conflicts.map((f) => f.message)).toEqual([
+      'Special session proposal: the data says 2026-11-01, but https://www.iemdc.org/ gives 2026-11-15.',
+      'Digest submission: the data says 2026-11-01, but https://www.iemdc.org/ gives 2026-11-15.',
+    ]);
+  });
+
+  it('is quiet once the data matches', () => {
+    const fixed = edition(
+      [
+        { type: 'abstract', label: 'Digest submission', date: '2026-11-15 23:59:59' },
+        {
+          type: 'workshop_proposal',
+          label: 'Special session proposal',
+          date: '2026-11-15 23:59:59',
+        },
+        { type: 'tutorial_proposal', label: 'Tutorial proposal', date: '2026-11-15 23:59:59' },
+        {
+          type: 'notification',
+          label: 'Digest acceptance notification',
+          date: '2027-01-15 23:59:59',
+        },
+        { type: 'camera_ready', label: 'Final paper submission', date: '2027-03-15 23:59:59' },
+      ],
+      { start: '2027-05-17', end: '2027-05-20' },
+    );
+    // Only the stale page disagrees now, and it is still worth flagging.
+    expect(
+      checkEdition(fixed, pages, NOW)
+        .filter((f) => f.kind === 'conflicting-date')
+        .map((f) => f.message),
+    ).toEqual([
+      'Digest submission: the data says 2026-11-15, but https://www.iemdc.org/authors-2027/ gives 2026-11-01.',
+    ]);
   });
 });

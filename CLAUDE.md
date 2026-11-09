@@ -88,7 +88,10 @@ Layer boundaries that exist on purpose, and should stay:
 
 - **`cfpCheck.ts`** is the deterministic half of the daily deadline check: it reads dates out of
   page text (`extractDates`) and compares an edition with them (`checkEdition`), matching each
-  deadline on the day the CFP states via `deadlineDay()` from `calendar.ts`. Its findings are
+  deadline on the day the CFP states via `deadlineDay()` from `calendar.ts`. `labelDates()` also
+  attributes each page date to the deadline wording beside it (layout inferred per page), so a
+  page giving a *different* date for the same deadline is a `conflicting-date` even when the old
+  date still appears on some stale page. Its findings are
   reasons to re-read a CFP, never a decision about the right date. **`pageText.ts`** is the
   domain-free HTML → text and "call for papers" link discovery it reads from. Both are pure;
   `scripts/check-cfps.ts` does the fetching.

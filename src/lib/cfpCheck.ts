@@ -70,6 +70,8 @@ export interface ExtractedDate {
   before: string;
   /** Offset of the match in the text. */
   index: number;
+  /** Offset just past the match. */
+  end: number;
 }
 
 function pad(value: number): string {
@@ -191,6 +193,7 @@ export function extractDates(text: string): ExtractedDate[] {
           context,
           before: text.slice(Math.max(0, start - 30), start),
           index: start,
+          end,
         });
       }
     }
@@ -213,6 +216,8 @@ export type FindingKind =
   | 'tba-now-dated'
   /** Neither the start nor the end day of the event appears on the pages. */
   | 'conference-dates'
+  /** A page gives a different date for a deadline than the data does. */
+  | 'conflicting-date'
   /** The `verified:` date has aged past its limit; a re-check is due anyway. */
   | 'stale'
   /** The pages were fetched but no date could be read from them at all. */
@@ -259,22 +264,141 @@ export function needsChecking(edition: ConferenceEdition): boolean {
   );
 }
 
+/**
+ * Kinds of deadline as a CFP page words them, most specific first. Each
+ * deadline type belongs to one kind. A label phrase is classified by the first
+ * kind it mentions in this order, so "Digest Acceptance Notification" is a
+ * notification, not a digest, and "Final Paper Submission" is camera-ready,
+ * not a paper deadline.
+ */
+const DEADLINE_KINDS: ReadonlyArray<{ kind: string; words: RegExp; types: RegExp }> = [
+  {
+    kind: 'notification',
+    words: /\b(notifications?|acceptance|decisions?)\b/i,
+    types: /(^|_)notification$/,
+  },
+  {
+    kind: 'camera_ready',
+    words: /\b(camera[- ]?ready|final (?:papers?|manuscripts?|versions?))\b/i,
+    types: /^camera_ready$/,
+  },
+  {
+    kind: 'upload',
+    words: /\b(presentation|slides?|video)\s+uploads?\b|\bupload\b/i,
+    types: /^presentation_upload$/,
+  },
+  { kind: 'registration', words: /\bregistrations?\b/i, types: /_registration$/ },
+  { kind: 'tutorial', words: /\btutorials?\b/i, types: /^tutorial_proposal$/ },
+  { kind: 'panel', words: /\bpanels?\b/i, types: /^panel_proposal$/ },
+  {
+    kind: 'session',
+    words: /\b(special[- ]sessions?|workshops?)\b/i,
+    types: /^(workshop|session)_proposal$/,
+  },
+  {
+    kind: 'paper',
+    words:
+      /\b(full[- ]?papers?|papers? submissions?|manuscripts? submissions?|initial submissions?)\b/i,
+    types: /^paper$/,
+  },
+  {
+    kind: 'abstract',
+    words: /\b(abstracts?|digests?|synops[ie]s)\b/i,
+    types: /^abstract$/,
+  },
+];
+
+/** A label further than this from its date is not its label. */
+const LABEL_REACH = 60;
+
+/** Any deadline wording, to find which side of a date its label is on. */
+const ANY_KIND = new RegExp(DEADLINE_KINDS.map(({ words }) => words.source).join('|'), 'gi');
+
+function classify(phrase: string): string | null {
+  return DEADLINE_KINDS.find(({ words }) => words.test(phrase))?.kind ?? null;
+}
+
+/** Which side of a date its label is on. Pages are consistent, but differ from each other. */
+export type LabelSide = 'after' | 'before' | 'nearest';
+
+/**
+ * The kind of deadline each date on one page is labelled as, if any.
+ *
+ * A date's label is the phrase right after it or right before it, never
+ * reaching past a neighbouring date or a sentence end, and that whole phrase is
+ * classified: in "15 Nov Digest deadline 15 Nov Special session proposal" read
+ * label-after, the second date is a special-session deadline. With `nearest`,
+ * the side whose deadline wording starts closer to the date wins.
+ */
+export function labelDates(
+  text: string,
+  dates: ExtractedDate[],
+  side: LabelSide = 'nearest',
+): Map<ExtractedDate, string> {
+  const labels = new Map<ExtractedDate, string>();
+  const spans = [...new Map(dates.map((d) => [d.index, d.end])).entries()].sort(
+    ([a], [b]) => a - b,
+  );
+
+  for (const date of dates) {
+    const prevEnd = spans.filter(([start]) => start < date.index).at(-1)?.[1] ?? 0;
+    const nextStart = spans.find(([start]) => start > date.index)?.[0] ?? text.length;
+
+    let after = text.slice(date.end, Math.min(nextStart, date.end + LABEL_REACH));
+    after = after.split(/[.;!?](?:\s|$)/)[0]!;
+    let before = text.slice(Math.max(prevEnd, date.index - LABEL_REACH), date.index);
+    before = before.split(/[.;!?](?:\s|$)/).at(-1)!;
+
+    let phrase: string;
+    if (side === 'after') phrase = after;
+    else if (side === 'before') phrase = before;
+    else {
+      // Distance from the date to the nearest deadline wording on each side.
+      ANY_KIND.lastIndex = 0;
+      const afterHit = ANY_KIND.exec(after);
+      const afterDistance = afterHit ? afterHit.index : Infinity;
+      let beforeDistance = Infinity;
+      for (const match of before.matchAll(ANY_KIND)) {
+        beforeDistance = before.length - (match.index + match[0].length);
+      }
+      if (afterDistance === Infinity && beforeDistance === Infinity) continue;
+      phrase = afterDistance <= beforeDistance ? after : before;
+    }
+
+    const kind = classify(phrase);
+    if (kind) labels.set(date, kind);
+  }
+  return labels;
+}
+
+/** The page-text kind a deadline type is written as, e.g. `workshop_proposal` → `session`. */
+function kindOf(type: string): string | undefined {
+  return DEADLINE_KINDS.find(({ types }) => types.test(type))?.kind;
+}
+
+/** One fetched page, as text. */
+export interface PageText {
+  url: string;
+  text: string;
+}
+
 function dayString(date: Date): string {
   return date.toISOString().slice(0, 10);
 }
 
 /**
- * Compare an edition with the combined text of its official pages.
+ * Compare an edition with the text of its official pages.
  *
- * @param pageText every fetched page for this edition, concatenated
+ * @param pages every fetched page for this edition (or their text, concatenated)
  */
 export function checkEdition(
   edition: ConferenceEdition,
-  pageText: string,
+  pages: PageText[] | string,
   now: Date = new Date(),
 ): Finding[] {
+  const pageList = typeof pages === 'string' ? [{ url: '', text: pages }] : pages;
   const findings: Finding[] = [];
-  const dates = extractDates(pageText);
+  const dates = extractDates(pageList.map((page) => page.text).join('\n\n'));
   const today = dayString(now);
 
   const verification = editionVerification(edition, now);
@@ -331,6 +455,8 @@ export function checkEdition(
     return year >= firstYear && year <= edition.year;
   };
 
+  findings.push(...conflictingDates(edition, pageList, inWindow, grace));
+
   const reported = new Set<string>();
   for (const found of dates) {
     if (isKnown(found) || !inWindow(found)) continue;
@@ -383,4 +509,71 @@ export function checkEdition(
 /** Whether any finding is one the Claude step can act on. */
 export function isActionable(findings: Finding[]): boolean {
   return findings.some((finding) => !HUMAN_ONLY_KINDS.has(finding.kind));
+}
+
+/**
+ * Deadlines a page dates differently from the data, matched by what the page
+ * calls them. A date that merely *appears* somewhere is not enough: IEMDC 2027
+ * moved its digest deadline to 15 November on two pages, a third still said
+ * 1 November, and 15 November was already in the data as another deadline.
+ *
+ * Two guards keep this quiet on pages it cannot read reliably:
+ * - Each page's layout (label after or before the date) is the one under which
+ *   more of the data's own deadlines line up. A page where neither lines up
+ *   with anything is not used: it is a news item, another track, or a layout
+ *   this cannot follow.
+ * - A kind is flagged on a page only when the page dates it but never with our
+ *   date. A page listing the data's date among others (tracks, rounds) is fine.
+ */
+function conflictingDates(
+  edition: ConferenceEdition,
+  pages: PageText[],
+  inWindow: (found: ExtractedDate) => boolean,
+  grace: Date,
+): Finding[] {
+  const findings: Finding[] = [];
+  const ours = edition.deadlines
+    .filter((d) => !d.tba)
+    .map((d) => ({ deadline: d, kind: kindOf(d.type), day: dayString(deadlineDay(d)) }));
+
+  const agreeing = (labels: Map<ExtractedDate, string>) =>
+    [...labels].filter(([found, kind]) =>
+      ours.some((o) => o.kind === kind && sameDay(found, o.day)),
+    ).length;
+
+  for (const page of pages) {
+    const dates = extractDates(page.text).filter(inWindow);
+    const after = labelDates(page.text, dates, 'after');
+    const before = labelDates(page.text, dates, 'before');
+    const [scoreAfter, scoreBefore] = [agreeing(after), agreeing(before)];
+    if (scoreAfter === 0 && scoreBefore === 0) continue;
+    const labels =
+      scoreAfter === scoreBefore
+        ? labelDates(page.text, dates)
+        : scoreAfter > scoreBefore
+          ? after
+          : before;
+
+    for (const { kind } of DEADLINE_KINDS) {
+      const mine = ours.filter((o) => o.kind === kind);
+      // Nothing of this kind in the data (a TBA is tba-now-dated's job), or all long past.
+      if (mine.length === 0) continue;
+      if (mine.every((o) => o.deadline.utc && o.deadline.utc.getTime() < grace.getTime())) continue;
+
+      const theirs = [...labels].filter(([, k]) => k === kind).map(([found]) => found);
+      if (theirs.length === 0) continue;
+      if (theirs.some((found) => mine.some((o) => sameDay(found, o.day)))) continue;
+
+      const pageDays = [...new Set(theirs.map((found) => found.day ?? found.monthDay))].join(', ');
+      const label = mine.length === 1 ? mine[0]!.deadline.label : `${kind} deadlines`;
+      findings.push({
+        kind: 'conflicting-date',
+        message:
+          `${label}: the data says ${mine.map((o) => o.day).join(', ')}, ` +
+          `but ${page.url || 'the page'} gives ${pageDays}.`,
+        evidence: theirs[0]!.context,
+      });
+    }
+  }
+  return findings;
 }
