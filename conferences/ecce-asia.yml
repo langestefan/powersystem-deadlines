@@ -39,7 +39,7 @@ editions:
     country: South Korea
     venue: COEX Magok
     date: May 23-26, 2027
-    verified: 2026-10-14
+    verified: 2026-11-09
     start: 2027-05-23
     end: 2027-05-26
     format: in-person
@@ -47,8 +47,8 @@ editions:
     submission_type: extended-abstract
     deadlines:
       - type: paper
-        label: Digest submission
-        date: '2026-10-25 23:59:59'
+        label: Digest submission (extended)
+        date: '2026-11-22 23:59:59'
         timezone: Asia/Seoul
       - type: notification
         label: Acceptance notification
@@ -67,3 +67,7 @@ editions:
         field: paper
         old: 2026-10-25 23:59 (timezone not stated)
         new: 2026-10-25 23:59 KST
+      - date: 2026-11-09
+        field: paper
+        old: 2026-10-25
+        new: 2026-11-22
