@@ -24,7 +24,7 @@ import {
 } from '@/lib/conferences';
 import { conferenceFeedPath, feedUrl, googleSubscribeUrl, webcalUrl } from '@/lib/feeds';
 import { repoEditUrl, withBase } from '@/lib/site';
-import { getTag, tagLabel } from '@/lib/taxonomy';
+import { getTag, kindDir, tagLabel } from '@/lib/taxonomy';
 import ChangelogTable from '@/components/ChangelogTable.astro';
 import { editionChangelog } from '@/lib/changelog';
 import { describeAge, editionVerification } from '@/lib/verification';
@@ -54,7 +54,7 @@ const feedPath = conferenceFeedPath(edition.id);
 const verification = editionVerification(edition);
 
 // One file per series, so every edition of it edits the same file.
-const editUrl = repoEditUrl(edition.sourcePath ?? `conferences/${edition.seriesId}.yml`);
+const editUrl = repoEditUrl(edition.sourcePath ?? `${kindDir(edition.kind)}/${edition.seriesId}.yml`);
 
 const facts = [
   {

@@ -1,0 +1,118 @@
+# ---------------------------------------------------------------------------
+# Event template. Copy this file to <event-slug>.yml and fill it in.
+# Files starting with "_" are ignored by the site.
+#
+# An event is a research meeting, PhD day, symposium or similar gathering with
+# no call for papers. Events are listed on /events, ordered by when they take
+# place, not on the homepage. For a conference with a call for papers, use
+# conferences/_TEMPLATE.yml instead: the folder a file is in decides which it is.
+#
+# One file per SERIES. Each year the event runs becomes one entry under
+# `editions:`. Do not create a second file for a new year.
+#
+# Run `npm run validate` before opening your pull request.
+# ---------------------------------------------------------------------------
+
+# Short name, as people say it out loud.
+name: Energy Research Day
+
+# Full official name, spelled out.
+full_name: Annual Energy Research Day of the Example Institute
+
+# The organiser's page for the event series (an edition can override this below).
+link: https://example.org/energy-research-day
+
+# Organising body. One or more of:
+#   IEEE PES, IEEE PELS, IEEE IAS, IEEE IES, IEEE VTS, IEEE ComSoc, IEEE CSS,
+#   CIGRE, CIRED, IET, EPE, ACM, PSCC, VDE ETG, IFAC, EUCA, AACC, Other
+# A university institute or research group is `Other`.
+society:
+  - Other
+
+# annual | biennial | irregular
+frequency: annual
+
+# One or more tags. See CONTRIBUTING.md for the full list; unknown tags fail CI.
+tags:
+  - renewables
+
+# Optional. One or two sentences shown on the event page: what it is, who it
+# is for, and whether it is free or open to outsiders.
+description: >-
+  A yearly day of talks, PhD pitches and posters on the energy transition,
+  open to anyone interested.
+
+editions:
+  - year: 2027
+
+    # Unique across the whole site. Convention: lowercase name + two-digit year.
+    id: energy-research-day27
+
+    # Optional, only when this edition has its own page.
+    link: https://example.org/energy-research-day-2027
+
+    city: Eindhoven
+    country: Netherlands
+    venue: Auditorium, TU/e campus
+
+    # Human-readable date and hours, shown exactly as written.
+    date: December 3, 2027, 10:00-18:00
+
+    # The date you last read the organiser's announcement and confirmed the
+    # details below. Required. Bump it whenever you re-check, even if nothing
+    # changed -- "still correct on this date" is the useful part.
+    verified: 2026-11-10
+
+    # Give both whenever the dates are known. An event with no deadline counts
+    # down to its start.
+    start: 2027-12-03
+    end: 2027-12-03
+
+    # in-person | hybrid | online
+    format: in-person
+
+    # Most events have nothing to submit: leave the list empty. If there is a
+    # poster or abstract deadline, or a registration deadline, list it like a
+    # conference deadline (types: poster, abstract, early_registration).
+    # `date` must be quoted: 'YYYY-MM-DD HH:mm:ss', or the literal 'TBA'.
+    #
+    # Add `timezone:` (per deadline, or for the whole edition) ONLY when the
+    # announcement states one. If it does not, leave it out: the site then
+    # reads the time as UTC+12, the earliest it could mean, and labels it
+    # "assumed".
+    deadlines: []
+    # deadlines:
+    #   - type: poster
+    #     label: Poster abstract submission
+    #     date: '2027-10-15 23:59:59'
+    #   - type: early_registration
+    #     label: Registration
+    #     date: '2027-11-26 23:59:59'
+
+    # Optional free text: theme, edition number, cost, how to register.
+    note: >-
+      Third edition, on grid flexibility. Free; registration required.
+
+    # Optional: the programme, in order, in the venue's local time. Quote each
+    # time. Only `time` and `session` are required; `session` is the kind of
+    # slot as the programme words it (Presentation, Break, Panel discussion).
+    program:
+      - time: '09:30'
+        session: Walk-in
+        details: Registration with coffee
+      - time: '10:00'
+        session: Presentation
+        title: The talk's title
+        speaker: Name, role and affiliation
+      - time: '12:30'
+        session: Lunch
+
+    # Leave out for a new edition. When you later correct or update one, add an
+    # entry per changed field: the date of your edit, the field (a deadline's
+    # `type` for a deadline), and its old and new value. Omit `old` for a value
+    # that was added. The site's changelog table is built from these.
+    # changes:
+    #   - date: 2027-09-01
+    #     field: start
+    #     old: '2027-12-03'
+    #     new: '2027-12-10'

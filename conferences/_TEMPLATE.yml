@@ -2,6 +2,10 @@
 # Conference template. Copy this file to <conference-slug>.yml and fill it in.
 # Files starting with "_" are ignored by the site.
 #
+# A conference runs a call for papers and is listed on the homepage. For a
+# research meeting, PhD day or similar with no call for papers, use
+# events/_TEMPLATE.yml instead: the folder a file is in decides which it is.
+#
 # One file per conference SERIES. Each year the conference runs becomes one
 # entry under `editions:`. Do not create a second file for a new year.
 #
@@ -13,11 +17,6 @@ name: BESTCONF
 
 # Full official name, spelled out.
 full_name: Best Conference on Anything Power Related
-
-# conference (the default; omit this line) | event
-# An event is a research meeting, PhD day or similar. It is listed on /events
-# instead of the homepage, and may have no submission deadline at all.
-# kind: event
 
 # The series homepage (an edition can override this below).
 link: https://example.org/
@@ -109,8 +108,8 @@ editions:
     # Optional free text: anything a submitter should know.
     note: Accepted papers are considered for a journal special issue.
 
-    # Optional, mostly for events: the programme, in order, in the venue's
-    # local time. Quote each time. Only `time` and `session` are required.
+    # Optional: the programme, in order, in the venue's local time. Quote each
+    # time. Only `time` and `session` are required.
     # program:
     #   - time: '10:00'
     #     session: Presentation

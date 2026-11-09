@@ -1,6 +1,7 @@
 # Contributing
 
-Every conference is one YAML file in [`conferences/`](conferences/).
+Every conference is one YAML file in [`conferences/`](conferences/), and every event one in
+[`events/`](events/) (see [Events](#events)).
 
 No Git? Open an issue instead: [Add a conference](../../issues/new?template=new-conference.yml) or
 [Correct a deadline](../../issues/new?template=update-deadline.yml).
@@ -21,9 +22,10 @@ page it came from. Not from another aggregator, which is how stale dates spread.
 
 ## Events
 
-Research meetings, PhD days and similar gatherings go in the same `conferences/` folder, with
-`kind: event` at the series level. They are listed on `/events`, ordered by when they take place,
-instead of on the homepage. Everything else works the same: `verified:` is required, timestamps
+Research meetings, PhD days and similar gatherings go in [`events/`](events/): copy
+[`events/_TEMPLATE.yml`](events/_TEMPLATE.yml) to `events/<slug>.yml`. The folder is what makes it
+an event; there is no `kind:` field, and validation rejects one. Events are listed on `/events`,
+ordered by when they take place, instead of on the homepage. Everything else works the same: `verified:` is required, timestamps
 are quoted, and `timezone:` is omitted unless the announcement states one.
 
 An event needs no deadlines. If it has a poster or abstract deadline, list it under `deadlines:`
@@ -59,7 +61,6 @@ editions:
 | ------------- | -------- | ------------------------------------------------------------ |
 | `name`        | yes      | Short name, as people say it: `PSCC`, `ISGT Europe`          |
 | `full_name`   | yes      | Spelled out in full                                           |
-| `kind`        | no       | `conference` (default) or `event`; see [Events](#events)      |
 | `link`        | yes      | Series homepage                                               |
 | `society`     | yes      | One or more organisers, from the list below                   |
 | `frequency`   | no       | `annual` (default), `biennial`, `irregular`                   |

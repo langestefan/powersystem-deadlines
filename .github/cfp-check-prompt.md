@@ -40,7 +40,7 @@ Read `CLAUDE.md` first, especially "Working with conference data". Its rules app
    - For every changed field, append an entry to the edition's `changes:` list (create it after
      `note:` if missing): `date:` is today, `field:` is the deadline `type` (or `start`, `end`,
      `venue`, …), and `old:` / `new:` are the old and new values as `YYYY-MM-DD` strings (or
-     `TBA`). Never alter existing entries. Follow the examples in `conferences/*.yml`.
+     `TBA`). Never alter existing entries. Follow the examples in `conferences/*.yml` and `events/*.yml`.
    - Set the edition's `verified:` to today.
 3. If you changed the YAML, write `cfp-proposals/<edition id>.md`:
    - First line: the title, `CFP check: <Name> <year> – <what changed>`.

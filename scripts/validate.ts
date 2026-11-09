@@ -8,7 +8,7 @@
  * someone" warnings that should not block a pull request.
  */
 
-import { readdirSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -16,7 +16,7 @@ import { parse } from 'yaml';
 
 import { coordinatesFor } from '../src/lib/places.ts';
 import { regionForCountry } from '../src/lib/regions.ts';
-import { REGIONS, TAGS } from '../src/lib/taxonomy.ts';
+import { KINDS, REGIONS, TAGS } from '../src/lib/taxonomy.ts';
 import {
   fixedOffsetMinutes,
   isIanaZone,
@@ -28,7 +28,7 @@ import { describeAge, verificationStatus } from '../src/lib/verification.ts';
 
 const NOW = new Date();
 
-const CONFERENCES_DIR = fileURLToPath(new URL('../conferences', import.meta.url));
+const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const TAG_IDS = new Set(TAGS.map((tag) => tag.id));
 const REGION_IDS = new Set<string>(REGIONS);
 
@@ -63,22 +63,43 @@ function asDay(value: unknown): string | null {
   return null;
 }
 
-const files = readdirSync(CONFERENCES_DIR)
-  .filter((name) => /\.ya?ml$/.test(name) && !name.startsWith('_'))
-  .sort();
+// One directory per kind (KINDS in taxonomy.ts): conferences/ and events/.
+const files = KINDS.flatMap(({ id: kind, dir }) => {
+  const path = join(ROOT, dir);
+  if (!existsSync(path)) return [];
+  return readdirSync(path)
+    .filter((name) => /\.ya?ml$/.test(name) && !name.startsWith('_'))
+    .sort()
+    .map((name) => ({ kind, dir, name, path: join(path, name) }));
+});
 
 if (files.length === 0) {
-  console.error(`No conference files found in ${CONFERENCES_DIR}`);
+  console.error(`No series files found in ${KINDS.map((k) => `${k.dir}/`).join(' or ')}`);
   process.exit(1);
 }
+
+// The file name is the series id, and the edition page groups a series' years by it.
+const seenSeries = new Map<string, string>();
 
 const seenIds = new Map<string, string>();
 let editionCount = 0;
 let deadlineCount = 0;
 
-for (const name of files) {
-  const path = join(CONFERENCES_DIR, name);
+for (const { kind, dir, name, path } of files) {
   const file = relative(process.cwd(), path);
+
+  const slug = name.replace(/\.ya?ml$/, '');
+  const twin = seenSeries.get(slug);
+  if (twin) {
+    report(
+      file,
+      name,
+      'error',
+      `A series named "${slug}" already exists in ${twin}. Pick another file name.`,
+    );
+  } else {
+    seenSeries.set(slug, file);
+  }
 
   let data: any;
   try {
@@ -91,6 +112,16 @@ for (const name of files) {
   if (!data || typeof data !== 'object' || Array.isArray(data)) {
     report(file, name, 'error', 'File must contain a single conference object.');
     continue;
+  }
+
+  if ('kind' in data) {
+    report(
+      file,
+      'kind',
+      'error',
+      `Remove \`kind:\`; the directory decides. Conferences go in conferences/, ` +
+        `events in events/ (this file is in ${dir}/).`,
+    );
   }
 
   if (typeof data.link === 'string' && data.link.startsWith('http://')) {
@@ -236,7 +267,7 @@ for (const name of files) {
     deadlineCount += deadlines.length;
 
     // An event may have nothing to submit; its card counts down to its start.
-    if (deadlines.length === 0 && data.kind !== 'event') {
+    if (deadlines.length === 0 && kind !== 'event') {
       report(file, where, 'warning', 'No deadlines listed, so it shows as "dates not announced".');
     }
 
