@@ -54,7 +54,7 @@ editions:
     country: Brazil
     venue: Majestic Palace Hotel
     date: March 17-19, 2027
-    verified: 2026-10-14
+    verified: 2026-11-09
     start: 2027-03-17
     end: 2027-03-19
     format: in-person
@@ -63,16 +63,16 @@ editions:
     deadlines:
       - type: paper
         label: Regular paper submission (extended, hard deadline)
-        date: '2026-10-26 23:59:59'
+        date: '2026-10-27 23:59:59'
       - type: paper
-        label: Work-in-progress paper submission
-        date: '2026-10-26 23:59:59'
+        label: Work-in-progress paper submission (extended, hard deadline)
+        date: '2026-11-03 23:59:59'
       - type: tutorial_proposal
         label: Tutorial proposal
         date: '2026-11-13 23:59:59'
       - type: notification
         label: Paper acceptance notification
-        date: '2026-12-11 23:59:59'
+        date: '2026-12-15 23:59:59'
       - type: camera_ready
         label: Final paper submission
         date: '2027-01-18 23:59:59'
@@ -82,3 +82,16 @@ editions:
     note: >-
       Hosted by Universidade Federal de Santa Catarina. The regular paper
       deadline was extended from 12 October 2026.
+    changes:
+      - date: 2026-11-09
+        field: paper
+        old: 2026-10-26
+        new: 2026-10-27
+      - date: 2026-11-09
+        field: paper
+        old: 2026-10-26
+        new: 2026-11-03
+      - date: 2026-11-09
+        field: notification
+        old: 2026-12-11
+        new: 2026-12-15
