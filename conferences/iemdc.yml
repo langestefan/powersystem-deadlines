@@ -29,7 +29,7 @@ editions:
     deadlines:
       - type: abstract
         label: Digest submission
-        date: '2026-11-01 23:59:59'
+        date: '2026-11-15 23:59:59'
       - type: workshop_proposal
         label: Special session proposal (extended)
         date: '2026-11-15 23:59:59'
@@ -51,6 +51,10 @@ editions:
         new: '2026-11-01'
       - date: 2026-10-14
         field: tutorial_proposal
+        new: '2026-11-15'
+      - date: 2026-11-09
+        field: abstract
+        old: '2026-11-01'
         new: '2026-11-15'
       - date: 2026-11-09
         field: workshop_proposal
