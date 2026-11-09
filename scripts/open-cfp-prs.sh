@@ -2,7 +2,8 @@
 # Turns each proposal from the Claude jobs in check-deadlines.yml into a pull request.
 #
 # Runs in its own job, the only one holding a token that can write to the repo, and
-# never runs Claude. Each <root>/proposal-<id>/ holds: id, change.patch, body.md.
+# never runs Claude. Each <root>/proposal-<id>/ holds: id, change.patch, body.md and
+# sources.md (the official pages and the detector's findings, from cfp-report.json).
 # A proposal becomes a PR only if it applies cleanly to main, touches exactly one
 # conferences/*.yml file, passes scripts/guard-cfp-proposal.ts, and passes
 # validate + tests.
@@ -66,6 +67,10 @@ for dir in "$root"/proposal-*/; do
   [[ -n $title ]] || title="CFP check: $id"
   [[ $title == "CFP check:"* ]] || title="CFP check: $title"
   {
+    if [[ -s $dir/sources.md ]]; then
+      cat "$dir/sources.md"
+      printf '\n### What Claude found\n\n'
+    fi
     tail -n +2 "$dir/body.md" | sed -E 's/@([A-Za-z0-9_-])/@\&#8203;\1/g'
     printf '\n---\n'
     printf 'Proposed by the daily CFP check (`.github/workflows/check-deadlines.yml`). '

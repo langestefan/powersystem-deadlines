@@ -159,7 +159,7 @@ jobs:
             const tools = [
               "Read(./cfp-report.json)", "Read(./CLAUDE.md)", "Read(./CONTRIBUTING.md)",
               "Read(./.github/cfp-check-prompt.md)", "Read(./conferences/**)",
-              `Edit(./${edition.file})`, `Write(./cfp-proposals/${id}.md)`,
+              `Edit(./${edition.file})`, `Edit(./cfp-proposals/${id}.md)`,
               ...hosts.map((host) => `WebFetch(domain:${host})`),
             ];
             appendFileSync(process.env.GITHUB_OUTPUT,
@@ -192,10 +192,11 @@ jobs:
           mkdir -p proposal
           echo "$ID" > proposal/id
           git diff -- conferences/ > proposal/change.patch
+          node scripts/cfp-pr-sources.mjs cfp-report.json "$ID" > proposal/sources.md
           if [ -s "cfp-proposals/$ID.md" ]; then
             cp "cfp-proposals/$ID.md" proposal/body.md
           else
-            echo "CFP check: $ID" > proposal/body.md
+            node scripts/cfp-pr-sources.mjs cfp-report.json "$ID" --title > proposal/body.md
           fi
           git diff --stat
 
