@@ -12,7 +12,8 @@
     "check": "astro check",
     "validate": "astro sync && tsx scripts/validate.ts",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "check-cfps": "tsx scripts/check-cfps.ts"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",

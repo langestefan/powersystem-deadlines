@@ -5,3 +5,5 @@ dist/
 *.log
 .env
 .env.production
+cfp-report.json
+cfp-human.md

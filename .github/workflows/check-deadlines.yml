@@ -1,0 +1,120 @@
+name: Check deadlines
+
+# Every day, compare each upcoming edition with its official pages
+# (scripts/check-cfps.ts). Editions whose pages disagree with the data go to
+# Claude, which opens one pull request per edition for a maintainer to review.
+# Pages nobody could read go into a single rolling issue for a human.
+#
+# Setup:
+#   secrets.CLAUDE_CODE_OAUTH_TOKEN  required for the Claude step. Runs on a Claude Pro/Max
+#                              subscription: create it with `claude setup-token`, then
+#                              `gh secret set CLAUDE_CODE_OAUTH_TOKEN`. (To bill the API instead,
+#                              swap the input below for anthropic_api_key.)
+#   secrets.CFP_BOT_TOKEN      optional fine-grained PAT (contents + pull requests: write).
+#                              Pull requests opened with the default GITHUB_TOKEN do not
+#                              trigger validate.yml or preview.yml; this token makes them do so.
+#   vars.CFP_PROPOSE = 'true'  turns the Claude step on. Without it the job only reports.
+
+on:
+  schedule:
+    - cron: '40 5 * * *' # after the 04:17 deploy
+  workflow_dispatch:
+    inputs:
+      only:
+        description: 'Check a single edition id (e.g. dpsp-europe27)'
+        required: false
+
+concurrency:
+  group: check-deadlines
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      GH_TOKEN: ${{ secrets.CFP_BOT_TOKEN || github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.CFP_BOT_TOKEN || github.token }}
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # Editions that already have an open pull request are not proposed again.
+      - name: Find open CFP check pull requests
+        id: open
+        run: |
+          skip=$(gh pr list --state open --limit 200 --json headRefName \
+            --jq '[.[].headRefName | select(startswith("cfp-check/")) | ltrimstr("cfp-check/")] | join(",")')
+          echo "skip=$skip" >> "$GITHUB_OUTPUT"
+          echo "Open: ${skip:-none}"
+
+      - name: Compare editions with their official pages
+        id: detect
+        env:
+          ONLY: ${{ inputs.only }}
+          SKIP: ${{ steps.open.outputs.skip }}
+        run: |
+          echo "today=$(date -u +%F)" >> "$GITHUB_OUTPUT"
+          npm run -s check-cfps -- \
+            --out cfp-report.json \
+            --human-out cfp-human.md \
+            --skip "$SKIP" \
+            --max-propose 8 \
+            ${ONLY:+--only "$ONLY"}
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cfp-report
+          path: |
+            cfp-report.json
+            cfp-human.md
+          if-no-files-found: ignore
+
+      - name: Update the "needs a human" issue
+        if: ${{ !inputs.only }}
+        run: |
+          title='CFP check: needs a human'
+          number=$(gh issue list --state open --limit 100 --json number,title \
+            --jq ".[] | select(.title == \"$title\") | .number" | head -1)
+          if [ -s cfp-human.md ]; then
+            if [ -n "$number" ]; then
+              gh issue edit "$number" --body-file cfp-human.md
+            else
+              gh issue create --title "$title" --body-file cfp-human.md
+            fi
+          elif [ -n "$number" ]; then
+            gh issue close "$number" --comment 'Every upcoming edition was readable in today'"'"'s check.'
+          fi
+
+      - name: Configure git for the bot
+        if: steps.detect.outputs.propose == 'true' && vars.CFP_PROPOSE == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+      - name: Propose fixes with Claude
+        if: steps.detect.outputs.propose == 'true' && vars.CFP_PROPOSE == 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.CFP_BOT_TOKEN || github.token }}
+          prompt: |
+            Follow the instructions in .github/cfp-check-prompt.md.
+            The detector's report is cfp-report.json. Today is ${{ steps.detect.outputs.today }}.
+          claude_args: >-
+            --max-turns 150
+            --allowedTools
+            "Read,Glob,Grep,Edit(conferences/**),WebFetch,Bash(npm run validate),Bash(npm test),Bash(git switch:*),Bash(git add conferences/*),Bash(git commit:*),Bash(git push origin cfp-check/*),Bash(git status),Bash(git diff:*),Bash(gh pr create:*),Bash(gh pr list:*)"
