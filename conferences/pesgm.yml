@@ -21,7 +21,7 @@ editions:
     city: San Francisco
     country: USA
     date: July 25-29, 2027
-    verified: 2026-10-13
+    verified: 2026-11-09
     start: 2027-07-25
     end: 2027-07-29
     format: in-person
@@ -30,10 +30,15 @@ editions:
     deadlines:
       - type: paper
         label: Paper submission
-        date: '2026-11-10 23:59:59'
+        date: '2026-11-13 23:59:59'
       - type: notification
         label: Author notification
         date: 'TBA'
     note: >-
       Papers are limited to five pages. The submission site opens 6 October 2026
       and notifications are expected in mid-March 2027, without a stated date.
+    changes:
+      - date: 2026-11-09
+        field: paper
+        old: '2026-11-10'
+        new: '2026-11-13'
