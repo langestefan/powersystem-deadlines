@@ -58,7 +58,7 @@ editions:
     country: France
     venue: Pierre et Marie Curie Campus
     date: June 30 - July 3, 2027
-    verified: 2026-10-14
+    verified: 2026-11-09
     start: 2027-06-30
     end: 2027-07-03
     format: in-person
@@ -66,11 +66,11 @@ editions:
     submission_type: full-paper
     deadlines:
       - type: workshop_proposal
-        label: Special session proposal
-        date: '2026-11-01 23:59:59'
+        label: Special session proposal (extended)
+        date: '2026-12-01 23:59:59'
       - type: tutorial_proposal
-        label: Tutorial session proposal
-        date: '2026-11-01 23:59:59'
+        label: Tutorial session proposal (extended)
+        date: '2026-12-01 23:59:59'
       - type: paper
         label: Regular paper submission
         date: '2026-12-15 23:59:59'
@@ -111,3 +111,11 @@ editions:
       - date: 2026-10-14
         field: notification
         new: '2027-05-01'
+      - date: 2026-11-09
+        field: workshop_proposal
+        old: '2026-11-01'
+        new: '2026-12-01'
+      - date: 2026-11-09
+        field: tutorial_proposal
+        old: '2026-11-01'
+        new: '2026-12-01'
