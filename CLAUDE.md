@@ -28,6 +28,11 @@ npm run test:watch
 
 CI (`.github/workflows/validate.yml`) runs validate → check → test → build on every PR and push.
 
+```sh
+npm run check-cfps                                   # compare upcoming editions with their pages
+npm run check-cfps -- --only dpsp-europe27 --dump /tmp/cfp   # one edition, keep the page text
+```
+
 ## Architecture
 
 Data flows one way: YAML → content-collection schema → flattened editions → pages and feeds.
@@ -80,6 +85,13 @@ Layer boundaries that exist on purpose, and should stay:
 - **`changelog.ts`** gathers every edition's `changes:` (date, field, old value, new value) into
   the newest-first cards on `/changelog`, one per edition per day. Pure, like `edition.ts`. The entries are
   recorded in the YAML, not derived from git, because CI checks out shallow.
+
+- **`cfpCheck.ts`** is the deterministic half of the daily deadline check: it reads dates out of
+  page text (`extractDates`) and compares an edition with them (`checkEdition`), matching each
+  deadline on the day the CFP states via `deadlineDay()` from `calendar.ts`. Its findings are
+  reasons to re-read a CFP, never a decision about the right date. **`pageText.ts`** is the
+  domain-free HTML → text and "call for papers" link discovery it reads from. Both are pure;
+  `scripts/check-cfps.ts` does the fetching.
 
 A series' `kind` is `conference` (default) or `event` (research meetings, PhD days). Both flow
 through the same pipeline, edition page (`/conference/<id>`), calendar and feeds; only the listing
@@ -173,11 +185,40 @@ are generated from `yearsWithData()`, so adding an edition in a new year creates
 Time-dependent grouping ("next 7 days", upcoming vs. archive) is decided at **build** time, which is
 why `deploy.yml` also rebuilds on a daily cron.
 
+### Daily deadline check
+
+`.github/workflows/check-deadlines.yml` runs `npm run check-cfps` every morning over every
+upcoming edition (a future deadline, a TBA, or an event still ahead). It fetches the edition's
+link, its per-deadline links and one level of same-edition "call for papers / key dates" links.
+Editions whose pages disagree with the YAML (up to 8 a day, most urgent first, skipping any with
+an open `cfp-bot/<id>` PR) go to Claude. Pages that can't be read (`fetch-failed`, `no-dates`) go
+into one rolling "CFP check: needs a human" issue. The Claude step is off unless
+`vars.CFP_PROPOSE == 'true'`. To see what the checker read for one edition:
+`npm run check-cfps -- --only <id> --dump <dir>`.
+
+Claude reads untrusted web pages, so the workflow is three jobs with deliberately separated
+privileges. Keep it that way:
+
+- **`detect`**: no Claude; read-only contents, writes only the human issue.
+- **`propose`**: one matrix job per edition running `anthropics/claude-code-action`
+  (pinned by commit SHA) with `.github/cfp-check-prompt.md`. Read-only token,
+  `persist-credentials: false`, no Bash, `Edit` limited to that edition's file and `WebFetch`
+  to the hosts the detector read for it. Its only output is a patch and a PR description.
+- **`open-prs`**: no Claude; the only job that can write. `scripts/open-cfp-prs.sh` refuses any
+  patch that touches more than one `conferences/*.yml` file or fails
+  `scripts/guard-cfp-proposal.ts`, then runs validate + tests and opens the PR.
+  **`cfpGuard.ts`** is that envelope: one edition's dates, labels, venue, note and an
+  append-only `changes:`, with no new links anywhere. Widening it widens what a hostile page
+  can put in front of a reviewer.
+
+The bot never commits to main: `verified:` only moves inside a PR, and merging it is the human
+check.
+
 ### Tests
 
 `tests/*.test.ts` mirrors `src/lib/*` one file per module, and covers exactly the modules that keep
 away from `astro:content`: `time`, `ics`, `calendar`, `overview`, `feeds`, `verification`,
-`addToCalendar`, `changelog`, `map`, `places`. `tests/places.test.ts` also reads every
+`addToCalendar`, `changelog`, `map`, `places`, `cfpCheck`, `pageText`, `cfpGuard`. `tests/places.test.ts` also reads every
 `conferences/*.yml` to check each city has coordinates. `tests/ics.test.ts` asserts RFC 5545 details (75-octet folding, escaping order,
 CRLF) that are easy to regress invisibly, since a malformed feed still looks fine on the page.
 

@@ -135,6 +135,11 @@ on its own. Validation warns when an entry is going stale:
 Editions whose deadlines and event have all passed are exempt. Staleness is a warning, not an
 error, so it never blocks an unrelated pull request.
 
+A daily automated check also reads every upcoming edition's official pages. When they disagree
+with the data, a bot opens a `CFP check:` pull request that quotes the page for each change.
+Review it against the CFP like any other contribution before merging. Pages it cannot read are
+listed in the "CFP check: needs a human" issue, and those are a good place to help.
+
 ### Recording a change
 
 When you correct or update an edition that is already listed, add an entry under its `changes:`
