@@ -36,11 +36,17 @@ editions:
       - type: tutorial_proposal
         label: Tutorial proposal
         date: '2026-11-15 23:59:59'
+      - type: session_notification
+        label: Special session notification
+        date: '2026-12-18 23:59:59'
       - type: notification
         label: Digest acceptance notification
         date: '2027-01-15 23:59:59'
       - type: camera_ready
         label: Final paper submission and early registration
+        date: '2027-03-15 23:59:59'
+      - type: presentation_upload
+        label: Special session final presentation upload
         date: '2027-03-15 23:59:59'
     note: >-
       16th edition, marking the conference's 30th anniversary and returning to
@@ -60,3 +66,9 @@ editions:
         field: workshop_proposal
         old: '2026-11-01'
         new: '2026-11-15'
+      - date: 2026-11-09
+        field: session_notification
+        new: '2026-12-18'
+      - date: 2026-11-09
+        field: presentation_upload
+        new: '2027-03-15'
