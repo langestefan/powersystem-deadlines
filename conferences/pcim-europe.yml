@@ -22,7 +22,7 @@ editions:
     country: Germany
     venue: Nuremberg Exhibition Centre
     date: May 11-13, 2027
-    verified: 2026-10-13
+    verified: 2026-11-09
     start: 2027-05-11
     end: 2027-05-13
     format: in-person
@@ -30,7 +30,7 @@ editions:
     deadlines:
       - type: abstract
         label: Abstract submission
-        date: '2026-10-14 23:59:59'
+        date: '2026-10-28 23:59:59'
       - type: notification
         label: Acceptance notification and speaker registration
         date: 'TBA'
@@ -38,6 +38,11 @@ editions:
         label: Full manuscript submission
         date: '2027-03-09 23:59:59'
     note: >-
-      The same 14 October 2026 deadline covers synopses for the seminars held on
+      The same 28 October 2026 deadline covers synopses for the seminars held on
       9-10 May 2027 at the Arvena Park Hotel, whose documentation is due 14
       April 2027. Acceptance is expected in January 2027 without a stated date.
+    changes:
+      - date: 2026-11-09
+        field: abstract
+        old: '2026-10-14'
+        new: '2026-10-28'
