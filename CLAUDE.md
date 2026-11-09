@@ -38,7 +38,7 @@ npm run check-cfps -- --only dpsp-europe27 --dump /tmp/cfp   # one edition, keep
 Data flows one way: YAML → content-collection schema → flattened editions → pages and feeds.
 
 ```
-conferences/*.yml              one file per conference SERIES, one entry per year under `editions:`
+conferences/*.yml, events/*.yml   one file per SERIES, one entry per year under `editions:`
   ↓ validated by
 src/content.config.ts          the Zod schema; a violation fails `astro build`, so CI rejects bad YAML
   ↓ read by
@@ -96,7 +96,12 @@ Layer boundaries that exist on purpose, and should stay:
   domain-free HTML → text and "call for papers" link discovery it reads from. Both are pure;
   `scripts/check-cfps.ts` does the fetching.
 
-A series' `kind` is `conference` (default) or `event` (research meetings, PhD days). Both flow
+A series' `kind` is `conference` or `event` (research meetings, PhD days), and the **directory
+decides it**: `conferences/` or `events/`, each its own content collection with its own
+`_TEMPLATE.yml`. There is no `kind:` field in the YAML; `validate.ts` rejects one, and a file name
+used in both directories, because the file name is the series id. `KINDS` in `taxonomy.ts` maps
+each kind to its directory (`kindDir()`), and every reader (`conferences.ts`, `validate.ts`,
+`check-cfps.ts`, `tests/places.test.ts`) iterates it rather than naming the folders. Both flow
 through the same pipeline, edition page (`/conference/<id>`), calendar and feeds; only the listing
 splits: the homepage shows conferences, `/events` shows events ordered by start date, and an event
 card with no deadline ahead counts down to its start instead. An edition may carry an optional
@@ -208,7 +213,7 @@ privileges. Keep it that way:
   `persist-credentials: false`, no Bash, `Edit` limited to that edition's file and `WebFetch`
   to the hosts the detector read for it. Its only output is a patch and a PR description.
 - **`open-prs`**: no Claude; the only job that can write. `scripts/open-cfp-prs.sh` refuses any
-  patch that touches more than one `conferences/*.yml` file or fails
+  patch that touches more than one `conferences/` or `events/` YAML file or fails
   `scripts/guard-cfp-proposal.ts`, then runs validate + tests and opens the PR.
   **`cfpGuard.ts`** is that envelope: one edition's dates, labels, venue, note and an
   append-only `changes:`, with no new links anywhere. Widening it widens what a hostile page
@@ -222,7 +227,7 @@ check.
 `tests/*.test.ts` mirrors `src/lib/*` one file per module, and covers exactly the modules that keep
 away from `astro:content`: `time`, `ics`, `calendar`, `overview`, `feeds`, `verification`,
 `addToCalendar`, `changelog`, `map`, `places`, `cfpCheck`, `pageText`, `cfpGuard`. `tests/places.test.ts` also reads every
-`conferences/*.yml` to check each city has coordinates. `tests/ics.test.ts` asserts RFC 5545 details (75-octet folding, escaping order,
+`conferences/*.yml` and `events/*.yml` to check each city has coordinates. `tests/ics.test.ts` asserts RFC 5545 details (75-octet folding, escaping order,
 CRLF) that are easy to regress invisibly, since a malformed feed still looks fine on the page.
 
 ## Working with conference data

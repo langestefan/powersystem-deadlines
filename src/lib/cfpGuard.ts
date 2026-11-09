@@ -62,7 +62,7 @@ function checkText(where: string, before: unknown, after: unknown, out: string[]
 }
 
 /**
- * @param before   main's parsed conferences/<series>.yml
+ * @param before   main's parsed conferences/<series>.yml (or events/<series>.yml)
  * @param after    the proposal's parsed version of the same file
  * @param editionId the one edition the proposal is for
  * @returns human-readable violations; empty means the proposal may become a PR

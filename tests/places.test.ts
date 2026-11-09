@@ -1,18 +1,24 @@
-import { readdirSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 import { describe, expect, it } from 'vitest';
 import { parse } from 'yaml';
 
 import { coordinatesFor, knownPlaces } from '@/lib/places';
+import { KINDS } from '@/lib/taxonomy';
 
-const DIR = join(__dirname, '..', 'conferences');
+const ROOT = join(__dirname, '..');
 
 /** Every (city, country) an in-person edition states, straight from the YAML. */
 function citiesInData(): Array<[string, string]> {
-  return readdirSync(DIR)
-    .filter((file) => file.endsWith('.yml') && !file.startsWith('_'))
-    .flatMap((file) => parse(readFileSync(join(DIR, file), 'utf8')).editions)
+  return KINDS.flatMap(({ dir }) =>
+    existsSync(join(ROOT, dir))
+      ? readdirSync(join(ROOT, dir))
+          .filter((file) => file.endsWith('.yml') && !file.startsWith('_'))
+          .map((file) => join(ROOT, dir, file))
+      : [],
+  )
+    .flatMap((path) => parse(readFileSync(path, 'utf8')).editions)
     .filter((e: any) => e.city && e.country && e.format !== 'online')
     .map((e: any) => [e.city, e.country] as [string, string]);
 }

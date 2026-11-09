@@ -152,13 +152,13 @@ jobs:
             if (!/^[a-z0-9-]+$/.test(id)) throw new Error(`bad id ${id}`);
             const report = JSON.parse(readFileSync("cfp-report.json", "utf8"));
             const edition = report.editions.find((e) => e.id === id);
-            if (!edition || !/^conferences\/[a-z0-9-]+\.yml$/.test(edition.file)) {
+            if (!edition || !/^(conferences|events)\/[a-z0-9-]+\.yml$/.test(edition.file)) {
               throw new Error(`no report entry for ${id}`);
             }
             const hosts = [...new Set(edition.urls.map((u) => new URL(u.url).hostname))];
             const tools = [
               "Read(./cfp-report.json)", "Read(./CLAUDE.md)", "Read(./CONTRIBUTING.md)",
-              "Read(./.github/cfp-check-prompt.md)", "Read(./conferences/**)",
+              "Read(./.github/cfp-check-prompt.md)", "Read(./conferences/**)", "Read(./events/**)",
               `Edit(./${edition.file})`, `Edit(./cfp-proposals/${id}.md)`,
               ...hosts.map((host) => `WebFetch(domain:${host})`),
             ];
@@ -185,13 +185,13 @@ jobs:
         env:
           ID: ${{ matrix.id }}
         run: |
-          if git diff --quiet -- conferences/; then
+          if git diff --quiet -- conferences/ events/; then
             echo "No change proposed for $ID."
             exit 0
           fi
           mkdir -p proposal
           echo "$ID" > proposal/id
-          git diff -- conferences/ > proposal/change.patch
+          git diff -- conferences/ events/ > proposal/change.patch
           node scripts/cfp-pr-sources.mjs cfp-report.json "$ID" > proposal/sources.md
           if [ -s "cfp-proposals/$ID.md" ]; then
             cp "cfp-proposals/$ID.md" proposal/body.md

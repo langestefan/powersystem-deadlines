@@ -17,7 +17,14 @@
  *   npm run check-cfps -- --only icit27 --dump /tmp/cfp-text   # see what it read
  */
 
-import { appendFileSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import {
+  appendFileSync,
+  existsSync,
+  mkdirSync,
+  readdirSync,
+  readFileSync,
+  writeFileSync,
+} from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
@@ -34,9 +41,10 @@ import {
 } from '../src/lib/cfpCheck.ts';
 import { flattenEdition, type ConferenceEdition } from '../src/lib/edition.ts';
 import { datesLinks, htmlToText } from '../src/lib/pageText.ts';
+import { KINDS } from '../src/lib/taxonomy.ts';
 
 const NOW = new Date();
-const CONFERENCES_DIR = fileURLToPath(new URL('../conferences', import.meta.url));
+const ROOT = fileURLToPath(new URL('..', import.meta.url));
 
 const FETCH_TIMEOUT_MS = 20_000;
 const CONCURRENCY = 4;
@@ -179,26 +187,32 @@ interface Target {
 
 function loadTargets(): Target[] {
   const targets: Target[] = [];
-  const files = readdirSync(CONFERENCES_DIR)
-    .filter((name) => /\.ya?ml$/.test(name) && !name.startsWith('_'))
-    .sort();
 
-  for (const name of files) {
-    const data = parse(readFileSync(join(CONFERENCES_DIR, name), 'utf8')) as ConferenceSeriesData;
-    // The YAML before Zod: apply the two schema defaults flattenEdition relies on.
-    const series = { ...data, kind: data.kind ?? 'conference' } as ConferenceSeriesData;
-    for (const raw of data.editions ?? []) {
-      const edition = flattenEdition(
-        series,
-        name.replace(/\.ya?ml$/, ''),
-        {
-          ...raw,
-          cancelled: raw.cancelled ?? false,
-          deadlines: raw.deadlines ?? [],
-        } as EditionData,
-        NOW,
-      );
-      targets.push({ file: `conferences/${name}`, edition });
+  // One directory per kind (KINDS in taxonomy.ts): conferences/ and events/.
+  for (const { id: kind, dir } of KINDS) {
+    const path = join(ROOT, dir);
+    if (!existsSync(path)) continue;
+    const files = readdirSync(path)
+      .filter((name) => /\.ya?ml$/.test(name) && !name.startsWith('_'))
+      .sort();
+
+    for (const name of files) {
+      const data = parse(readFileSync(join(path, name), 'utf8')) as ConferenceSeriesData;
+      // The YAML before Zod: add the kind and the schema defaults flattenEdition relies on.
+      const series = { ...data, kind } as ConferenceSeriesData;
+      for (const raw of data.editions ?? []) {
+        const edition = flattenEdition(
+          series,
+          name.replace(/\.ya?ml$/, ''),
+          {
+            ...raw,
+            cancelled: raw.cancelled ?? false,
+            deadlines: raw.deadlines ?? [],
+          } as EditionData,
+          NOW,
+        );
+        targets.push({ file: `${dir}/${name}`, edition });
+      }
     }
   }
   return targets;

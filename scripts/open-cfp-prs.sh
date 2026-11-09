@@ -5,7 +5,7 @@
 # never runs Claude. Each <root>/proposal-<id>/ holds: id, change.patch, body.md and
 # sources.md (the official pages and the detector's findings, from cfp-report.json).
 # A proposal becomes a PR only if it applies cleanly to main, touches exactly one
-# conferences/*.yml file, passes scripts/guard-cfp-proposal.ts, and passes
+# conferences/*.yml or events/*.yml file, passes scripts/guard-cfp-proposal.ts, and passes
 # validate + tests.
 #
 #   scripts/open-cfp-prs.sh proposals
@@ -41,8 +41,8 @@ for dir in "$root"/proposal-*/; do
   fi
 
   mapfile -t files < <(git diff --cached --name-only)
-  if [[ ${#files[@]} -ne 1 || ! ${files[0]} =~ ^conferences/[a-z0-9-]+\.yml$ ]]; then
-    refuse "$id: the proposal touches '${files[*]:-nothing}', not one conferences/*.yml file"
+  if [[ ${#files[@]} -ne 1 || ! ${files[0]} =~ ^(conferences|events)/[a-z0-9-]+\.yml$ ]]; then
+    refuse "$id: the proposal touches '${files[*]:-nothing}', not one conferences/ or events/ YAML file"
     echo "::endgroup::"
     continue
   fi

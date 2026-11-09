@@ -18,11 +18,12 @@ links for Google Calendar, Apple Calendar and Outlook.
 
 ## Contributing
 
-Every conference is one YAML file in [`conferences/`](conferences/).
+Every conference is one YAML file in [`conferences/`](conferences/), and every event (research
+meeting, PhD day) one in [`events/`](events/).
 
 - [Open an issue](../../issues/new?template=new-conference.yml) with the dates, or
-- open a pull request: copy [`_TEMPLATE.yml`](conferences/_TEMPLATE.yml), fill it in, run
-  `npm run validate`.
+- open a pull request: copy [`conferences/_TEMPLATE.yml`](conferences/_TEMPLATE.yml) or
+  [`events/_TEMPLATE.yml`](events/_TEMPLATE.yml), fill it in, run `npm run validate`.
 
 Dates must come from the official call for papers, linked in the pull request.
 [CONTRIBUTING.md](CONTRIBUTING.md) has the field reference.
@@ -42,6 +43,7 @@ npm run build
 | Path                          | What it is                                                            |
 | ----------------------------- | --------------------------------------------------------------------- |
 | `conferences/*.yml`           | The data. One file per conference series, one entry per year.         |
+| `events/*.yml`                | The same for events: research meetings, PhD days.                     |
 | `src/content.config.ts`       | The schema. A file that violates it fails the build, and so fails CI. |
 | `src/lib/time.ts`             | Timezones: AoE, IANA zones, UTC offsets, abbreviations.               |
 | `src/lib/ics.ts`              | RFC 5545 generation: folding, escaping, alarms, refresh hints.        |

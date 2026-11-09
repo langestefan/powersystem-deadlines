@@ -1,5 +1,7 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 
+import type { EntryKind } from './taxonomy';
+
 import { flattenEdition, sortEditions, type ConferenceEdition } from './edition';
 
 /**
@@ -12,17 +14,22 @@ export * from './edition';
 
 let cache: ConferenceEdition[] | null = null;
 
-
 /** Every edition of every conference, flattened and sorted. */
 export async function getAllEditions(now: Date = new Date()): Promise<ConferenceEdition[]> {
   if (cache) return cache;
 
-  const entries: CollectionEntry<'conferences'>[] = await getCollection('conferences');
-  const editions = entries.flatMap((entry) =>
-    entry.data.editions.map((edition) => ({
-      ...flattenEdition(entry.data, entry.id, edition, now),
-      sourcePath: entry.filePath,
-    })),
+  // The directory a file lives in is its kind; see KINDS in taxonomy.ts.
+  const sources: Array<[EntryKind, CollectionEntry<'conferences' | 'events'>[]]> = [
+    ['conference', await getCollection('conferences')],
+    ['event', await getCollection('events')],
+  ];
+  const editions = sources.flatMap(([kind, entries]) =>
+    entries.flatMap((entry) =>
+      entry.data.editions.map((edition) => ({
+        ...flattenEdition({ ...entry.data, kind }, entry.id, edition, now),
+        sourcePath: entry.filePath,
+      })),
+    ),
   );
 
   cache = sortEditions(editions);

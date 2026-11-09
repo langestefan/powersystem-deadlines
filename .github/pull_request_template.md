@@ -1,4 +1,4 @@
-<!-- Thanks for contributing. Most PRs here add or update one file in conferences/. -->
+<!-- Thanks for contributing. Most PRs here add or update one file in conferences/ or events/. -->
 
 ## What this changes
 

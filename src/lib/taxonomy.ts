@@ -184,10 +184,13 @@ export function tagLabel(id: string): string {
  * single poster deadline. Conferences fill the homepage, events get /events.
  *
  * Deliberately not a tag: tags are topic areas, and each one creates a feed.
+ *
+ * The kind is set by the directory a series file lives in, never by a field in
+ * the file: `dir` is that directory, relative to the repository root.
  */
 export const KINDS = [
-  { id: 'conference', label: 'Conference' },
-  { id: 'event', label: 'Event' },
+  { id: 'conference', label: 'Conference', dir: 'conferences' },
+  { id: 'event', label: 'Event', dir: 'events' },
 ] as const;
 
 export type EntryKind = (typeof KINDS)[number]['id'];
@@ -196,6 +199,11 @@ export const KIND_IDS = KINDS.map((kind) => kind.id) as unknown as [EntryKind, .
 
 export function kindLabel(kind: EntryKind): string {
   return KINDS.find((entry) => entry.id === kind)?.label ?? kind;
+}
+
+/** The directory a series of this kind lives in, e.g. `events`. */
+export function kindDir(kind: EntryKind): string {
+  return KINDS.find((entry) => entry.id === kind)!.dir;
 }
 
 /** Organising bodies. Used for filtering and shown on the conference card. */
