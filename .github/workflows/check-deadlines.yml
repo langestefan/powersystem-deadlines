@@ -51,11 +51,11 @@ jobs:
       propose: ${{ steps.detect.outputs.propose }}
       today: ${{ steps.detect.outputs.today }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           persist-credentials: false
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
@@ -90,7 +90,7 @@ jobs:
             --max-propose 8 \
             ${ONLY:+--only "$ONLY"}
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: cfp-report
           path: |
@@ -131,11 +131,11 @@ jobs:
       matrix:
         id: ${{ fromJSON(needs.detect.outputs.ids) }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           persist-credentials: false
 
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: cfp-report
 
@@ -199,7 +199,7 @@ jobs:
           fi
           git diff --stat
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: proposal-${{ matrix.id }}
           path: proposal/
@@ -217,19 +217,19 @@ jobs:
     env:
       GH_TOKEN: ${{ secrets.CFP_BOT_TOKEN || github.token }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           token: ${{ secrets.CFP_BOT_TOKEN || github.token }}
           fetch-depth: 0
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
 
       - run: npm ci
 
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           pattern: proposal-*
           path: proposals
