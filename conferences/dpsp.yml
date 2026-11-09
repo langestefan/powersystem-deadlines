@@ -52,7 +52,7 @@ editions:
     country: Germany
     venue: Hilton Munich City
     date: April 14-16, 2027
-    verified: 2026-10-14
+    verified: 2026-11-09
     start: 2027-04-14
     end: 2027-04-16
     format: in-person
@@ -60,8 +60,8 @@ editions:
     submission_type: full-paper
     deadlines:
       - type: paper
-        label: Full paper submission
-        date: '2026-10-30 23:59:59'
+        label: Full paper submission (extended)
+        date: '2026-11-27 23:59:59'
       - type: notification
         label: Author notification
         date: '2027-01-22 23:59:59'
@@ -75,6 +75,11 @@ editions:
       DPSP Europe 2027, co-hosted with TU Munich. Full papers only, with no
       separate abstract stage; papers are indexed in IET Inspec, IEEE Xplore,
       Ei Compendex and Scopus.
+    changes:
+      - date: 2026-11-09
+        field: paper
+        old: '2026-10-30'
+        new: '2026-11-27'
 
   - year: 2028
     id: dpsp-global28
@@ -83,7 +88,7 @@ editions:
     country: United Kingdom
     venue: 'IET London: Savoy Place'
     date: March 27-30, 2028
-    verified: 2026-10-14
+    verified: 2026-11-09
     start: 2028-03-27
     end: 2028-03-30
     format: in-person
@@ -94,4 +99,4 @@ editions:
         date: 'TBA'
     note: >-
       DPSP Global 2028. The call for submissions had not been published as of
-      14 October 2026.
+      9 November 2026.
