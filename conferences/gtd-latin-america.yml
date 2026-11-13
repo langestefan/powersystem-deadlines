@@ -20,7 +20,7 @@ editions:
     city: Medellín
     country: Colombia
     date: March 8-10, 2027
-    verified: 2026-10-14
+    verified: 2026-11-13
     start: 2027-03-08
     end: 2027-03-10
     format: in-person
@@ -28,7 +28,15 @@ editions:
     deadlines:
       - type: paper
         label: Paper submission
-        date: '2026-11-01 23:59:59'
+        date: '2026-11-22 23:59:59'
         link: https://easychair.org/conferences/?conf=ieeepesgtdlatinameri0
     note: >-
-      Submissions go through EasyChair. The conference website is in Spanish.
+      Submissions go through EasyChair. The authors page gives the deadline as
+      "November 22" ("22 de noviembre" in Spanish), with no year, time or time
+      zone. Full papers are up to 5 pages in English, IEEE two-column format,
+      and must be presented in person.
+    changes:
+      - date: 2026-11-13
+        field: paper
+        old: '2026-11-01 23:59:59'
+        new: '2026-11-22 23:59:59'
