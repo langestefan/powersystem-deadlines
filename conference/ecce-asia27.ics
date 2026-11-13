@@ -13,7 +13,7 @@ SOURCE;VALUE=URI:https://powersystemdeadlines.org/conference/ecce-asia27.ic
  s
 BEGIN:VEVENT
 UID:ecce-asia27-paper@powersystemdeadlines.org
-DTSTAMP:20261113T042410Z
+DTSTAMP:20261113T075011Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 TRANSP:TRANSPARENT
@@ -22,7 +22,7 @@ DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia
  2027)\n\nDigest submission (extended): 22 Nov 2026\, 23:59 Asia/Seoul\n\nC
  onference: May 23-26\, 2027\nLocation: Seoul\, South Korea\nVenue: COEX Ma
  gok\n\nAll dates:\n  Digest submission (extended): 22 Nov 2026\, 23:59 Asi
- a/Seoul\n  Acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n
+ a/Seoul\n  Acceptance notification: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n
    Final manuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n  Ear
  ly registration: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for pape
  rs states no timezone. This is counted as UTC+12\, the earliest it could p
@@ -48,16 +48,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce-asia27-notification@powersystemdeadlines.org
-DTSTAMP:20261113T042410Z
-DTSTART;VALUE=DATE:20270115
-DTEND;VALUE=DATE:20270116
+DTSTAMP:20261113T075011Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
 TRANSP:TRANSPARENT
 SUMMARY:ECCE Asia 2027: Acceptance notification (23:59 UTC+12 (assumed))
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia 
- 2027)\n\nAcceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n\n
+ 2027)\n\nAcceptance notification: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n\n
  Conference: May 23-26\, 2027\nLocation: Seoul\, South Korea\nVenue: COEX M
  agok\n\nAll dates:\n  Digest submission (extended): 22 Nov 2026\, 23:59 As
- ia/Seoul\n  Acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\
+ ia/Seoul\n  Acceptance notification: 22 Jan 2027\, 23:59 UTC+12 (assumed)\
  n  Final manuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n  Ea
  rly registration: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for pap
  ers states no timezone. This is counted as UTC+12\, the earliest it could 
@@ -83,7 +83,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce-asia27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261113T042410Z
+DTSTAMP:20261113T075011Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 TRANSP:TRANSPARENT
@@ -93,7 +93,7 @@ DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia
  2027)\n\nFinal manuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)
  \n\nConference: May 23-26\, 2027\nLocation: Seoul\, South Korea\nVenue: CO
  EX Magok\n\nAll dates:\n  Digest submission (extended): 22 Nov 2026\, 23:5
- 9 Asia/Seoul\n  Acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assum
+ 9 Asia/Seoul\n  Acceptance notification: 22 Jan 2027\, 23:59 UTC+12 (assum
  ed)\n  Final manuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n
    Early registration: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for
   papers states no timezone. This is counted as UTC+12\, the earliest it co
@@ -119,7 +119,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce-asia27-early_registration@powersystemdeadlines.org
-DTSTAMP:20261113T042410Z
+DTSTAMP:20261113T075011Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 TRANSP:TRANSPARENT
@@ -128,7 +128,7 @@ DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia
  2027)\n\nEarly registration: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nConfe
  rence: May 23-26\, 2027\nLocation: Seoul\, South Korea\nVenue: COEX Magok\
  n\nAll dates:\n  Digest submission (extended): 22 Nov 2026\, 23:59 Asia/Se
- oul\n  Acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (assumed)\n  Fi
+ oul\n  Acceptance notification: 22 Jan 2027\, 23:59 UTC+12 (assumed)\n  Fi
  nal manuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assumed)\n  Early r
  egistration: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers s
  tates no timezone. This is counted as UTC+12\, the earliest it could plaus
@@ -154,7 +154,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce-asia27-event@powersystemdeadlines.org
-DTSTAMP:20261113T042410Z
+DTSTAMP:20261113T075011Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270527
 TRANSP:TRANSPARENT
@@ -162,7 +162,7 @@ SUMMARY:ECCE Asia 2027
 DESCRIPTION:IEEE Energy Conversion Congress and Exposition Asia (ECCE Asia 
  2027)\n\nConference: May 23-26\, 2027\nLocation: Seoul\, South Korea\nVenu
  e: COEX Magok\n\nAll dates:\n  Digest submission (extended): 22 Nov 2026\,
-  23:59 Asia/Seoul\n  Acceptance notification: 15 Jan 2027\, 23:59 UTC+12 (
+  23:59 Asia/Seoul\n  Acceptance notification: 22 Jan 2027\, 23:59 UTC+12 (
  assumed)\n  Final manuscript submission: 12 Mar 2027\, 23:59 UTC+12 (assum
  ed)\n  Early registration: 31 Mar 2027\, 23:59 UTC+12 (assumed)\n\nThe cal
  l for papers states no timezone. This is counted as UTC+12\, the earliest 
