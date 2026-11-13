@@ -13,7 +13,7 @@ SOURCE;VALUE=URI:https://powersystemdeadlines.org/preview/pr-28/conference/
  ecce-asia26.ics
 BEGIN:VEVENT
 UID:ecce-asia26-event@powersystemdeadlines.org
-DTSTAMP:20261113T075829Z
+DTSTAMP:20261113T080244Z
 DTSTART;VALUE=DATE:20260531
 DTEND;VALUE=DATE:20260605
 TRANSP:TRANSPARENT

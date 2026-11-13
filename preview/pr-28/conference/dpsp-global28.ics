@@ -13,7 +13,7 @@ SOURCE;VALUE=URI:https://powersystemdeadlines.org/preview/pr-28/conference/
  dpsp-global28.ics
 BEGIN:VEVENT
 UID:dpsp-global28-event@powersystemdeadlines.org
-DTSTAMP:20261113T075829Z
+DTSTAMP:20261113T080244Z
 DTSTART;VALUE=DATE:20280327
 DTEND;VALUE=DATE:20280331
 TRANSP:TRANSPARENT
