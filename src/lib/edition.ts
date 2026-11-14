@@ -83,6 +83,8 @@ export interface ConferenceEdition {
   description?: string;
   year: number;
   link: string;
+  /** Extra pages the daily CFP check reads (`check_links:`); never shown on the site. */
+  checkLinks: string[];
   society: Society[];
   frequency: ConferenceSeriesData['frequency'];
   tags: TagId[];
@@ -174,6 +176,7 @@ export function flattenEdition(
     description: series.description,
     year: edition.year,
     link: edition.link ?? series.link,
+    checkLinks: edition.check_links ?? [],
     society: [...series.society],
     frequency: series.frequency,
     tags: [...new Set([...series.tags, ...(edition.tags ?? [])])] as TagId[],

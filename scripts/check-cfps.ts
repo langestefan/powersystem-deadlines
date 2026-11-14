@@ -1,8 +1,8 @@
 /**
  * Daily check of every upcoming edition against its official pages.
  *
- * Fetches each edition's link (plus per-deadline links, plus one level of
- * "call for papers" / "key dates" style links on the same site), strips the
+ * Fetches each edition's link (plus per-deadline links, its `check_links:`, plus
+ * one level of "call for papers" / "key dates" style links on the same site), strips the
  * HTML to text and hands it to checkEdition() in src/lib/cfpCheck.ts.
  *
  * It never edits data. It writes a JSON report for the Claude step in
@@ -37,11 +37,13 @@ import {
   HUMAN_ONLY_KINDS,
   isActionable,
   needsChecking,
+  needsHandCheck,
   type Finding,
 } from '../src/lib/cfpCheck.ts';
 import { flattenEdition, type ConferenceEdition } from '../src/lib/edition.ts';
 import { datesLinks, htmlToText } from '../src/lib/pageText.ts';
 import { KINDS } from '../src/lib/taxonomy.ts';
+import { editionVerification } from '../src/lib/verification.ts';
 
 const NOW = new Date();
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
@@ -149,7 +151,11 @@ function fetchPage(url: string): Promise<FetchedPage> {
 
 async function pagesFor(edition: ConferenceEdition): Promise<FetchedPage[]> {
   const direct = [
-    ...new Set([edition.link, ...edition.deadlines.flatMap((d) => (d.link ? [d.link] : []))]),
+    ...new Set([
+      edition.link,
+      ...edition.deadlines.flatMap((d) => (d.link ? [d.link] : [])),
+      ...edition.checkLinks,
+    ]),
   ];
   const first = await Promise.all(direct.map(fetchPage));
 
@@ -231,6 +237,11 @@ interface EditionReport {
   findings: Finding[];
   /** Whether this edition goes to the Claude step today. */
   propose: boolean;
+  /** Days since `verified:` and the limit that applies, for the "needs a human" issue. */
+  verifiedAgeDays: number;
+  verifiedMaxAgeDays: number;
+  /** Unreadable and past its hand-check limit: goes on the "needs a human" issue. */
+  handCheck: boolean;
 }
 
 const skip = new Set(
@@ -269,6 +280,7 @@ const reports = await pool(
         )
       : [{ kind: 'fetch-failed', message: 'None of the official pages could be fetched.' }];
 
+    const verification = editionVerification(edition, NOW);
     return {
       id: edition.id,
       file,
@@ -278,6 +290,9 @@ const reports = await pool(
       urls: pages.map(({ url, ok, status, error }) => ({ url, ok, status, error })),
       findings,
       propose: false,
+      verifiedAgeDays: verification.ageDays,
+      verifiedMaxAgeDays: verification.maxAgeDays,
+      handCheck: needsHandCheck(edition, findings, NOW),
     };
   },
 );
@@ -290,7 +305,13 @@ const actionable = reports
 for (const report of actionable.slice(0, maxPropose)) report.propose = true;
 
 const proposed = reports.filter((report) => report.propose);
-const human = reports.filter((report) => report.findings.some((f) => HUMAN_ONLY_KINDS.has(f.kind)));
+const unreadable = reports.filter((report) =>
+  report.findings.some((f) => HUMAN_ONLY_KINDS.has(f.kind)),
+);
+// Only the unreadable editions whose last hand check has aged out; a fresh
+// `verified:` is the record that somebody already looked.
+const human = unreadable.filter((report) => report.handCheck);
+const handChecked = unreadable.filter((report) => !report.handCheck);
 const deferred = actionable.filter((report) => !report.propose);
 
 // --- output ------------------------------------------------------------------------
@@ -306,7 +327,8 @@ for (const report of reports) {
 }
 console.log(
   `\n${reports.length} upcoming edition(s) checked: ${proposed.length} to propose, ` +
-    `${deferred.length} deferred (cap or open PR), ${human.length} need a human.`,
+    `${deferred.length} deferred (cap or open PR), ${human.length} need a human, ` +
+    `${handChecked.length} unreadable but checked by hand recently.`,
 );
 
 if (args.out) {
@@ -332,9 +354,18 @@ if (args['human-out']) {
   writeFileSync(
     args['human-out'],
     human.length
-      ? `The daily CFP check could not read these editions' official pages. ` +
-          `Please check them by hand and bump \`verified:\`.\n\n` +
-          human.map((report) => line(report, HUMAN_ONLY_KINDS)).join('\n') +
+      ? `The daily CFP check cannot read these editions' official pages, and their last ` +
+          `hand check is past its limit. Check each one against its call for papers and bump ` +
+          `\`verified:\`, even if nothing changed: that takes it off this list until it is due ` +
+          `again. If the same dates are published on a page the checker can read, add it under ` +
+          `\`check_links:\` and the daily check covers the edition again.\n\n` +
+          human
+            .map(
+              (report) =>
+                line(report, HUMAN_ONLY_KINDS) +
+                `\n  Last checked ${report.verifiedAgeDays} days ago (limit ${report.verifiedMaxAgeDays}).`,
+            )
+            .join('\n') +
           `\n\n_Updated ${NOW.toISOString().slice(0, 10)}._\n`
       : '',
   );
@@ -349,7 +380,8 @@ if (process.env.GITHUB_STEP_SUMMARY) {
       `${reports.length} upcoming edition(s) checked.\n\n` +
       section('Sent to Claude', proposed) +
       section('Deferred (cap reached or PR already open)', deferred) +
-      section('Needs a human', human),
+      section('Needs a human', human) +
+      section('Unreadable, but checked by hand recently', handChecked),
   );
 }
 

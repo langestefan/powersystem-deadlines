@@ -77,6 +77,7 @@ editions:
 | `date`            | yes      | Human-readable, shown verbatim: `June 8-12, 2026`               |
 | `verified`        | yes      | Date you last checked this edition against the official CFP     |
 | `link`            | no       | Only when this edition has its own site                         |
+| `check_links`     | no       | Extra official pages for the daily check; see below             |
 | `city`, `country` | no       | Both must be ones this repo knows, see below                    |
 | `region`          | no       | Derived from `country`; set it only when derivation fails       |
 | `venue`           | no       | Building or campus                                              |
@@ -132,6 +133,24 @@ on its own. Validation warns when an entry is going stale:
 | -------------------- | --------------- |
 | 60 days away or less | 30 days         |
 | further out, or TBA  | 120 days        |
+
+The daily CFP check reads each upcoming edition's pages and flags any that disagree with the
+data. Some sites refuse automated readers, or render their dates with JavaScript. Those editions
+go on the "CFP check: needs a human" issue, but only once their `verified:` has passed the limit
+above, so a hand check followed by a `verified:` bump takes an edition off the issue until it is
+due again.
+
+If the same dates are published on another official page the checker *can* read (the
+submission system's call page, say), list it under `check_links:` and the daily check covers the
+edition again:
+
+```yaml
+    check_links:
+      - https://easychair.org/cfp/bestconf2027
+```
+
+Only add a page that states the current dates. A stale copy raises a false alarm every day.
+`check_links:` is never shown on the site, and the automated check may never add or change one.
 
 Editions whose deadlines and event have all passed are exempt. Staleness is a warning, not an
 error, so it never blocks an unrelated pull request.

@@ -83,6 +83,15 @@ describe('proposalViolations', () => {
     expect(propose((doc) => (target(doc).link = 'https://evil.example/'))).toHaveLength(1);
   });
 
+  it('refuses a new check link', () => {
+    expect(
+      propose(
+        (doc) =>
+          ((target(doc) as Record<string, unknown>).check_links = ['https://evil.example/dates']),
+      ),
+    ).toHaveLength(1);
+  });
+
   it('refuses a changed series field', () => {
     expect(propose((doc) => (doc.link = 'https://evil.example/'))).toEqual([
       'Series field `link` changed.',

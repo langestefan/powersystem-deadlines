@@ -6,6 +6,7 @@ import {
   isActionable,
   labelDates,
   needsChecking,
+  needsHandCheck,
 } from '@/lib/cfpCheck';
 import { flattenEdition, type ConferenceEdition } from '@/lib/edition';
 import type { DeadlineData } from '@/content.config';
@@ -227,6 +228,36 @@ describe('checkEdition', () => {
     );
     expect(findings.map((finding) => finding.kind)).toEqual(['no-dates']);
     expect(isActionable(findings)).toBe(false);
+  });
+});
+
+describe('needsHandCheck', () => {
+  const unreadable = [{ kind: 'fetch-failed' as const, message: 'None of the pages.' }];
+  // Next deadline 18 days after NOW: inside the urgent window, so the limit is 30 days.
+  const deadlines: DeadlineData[] = [{ type: 'paper', label: 'Paper', date: '2026-11-27 23:59:59' }];
+
+  it('lists an unreadable edition whose hand check has aged out', () => {
+    expect(needsHandCheck(edition(deadlines, { verified: '2026-10-01' }), unreadable, NOW)).toBe(
+      true,
+    );
+  });
+
+  it('leaves out an unreadable edition somebody checked by hand recently', () => {
+    expect(needsHandCheck(edition(deadlines, { verified: '2026-11-08' }), unreadable, NOW)).toBe(
+      false,
+    );
+  });
+
+  it('leaves out a stale edition the checker could read; that one goes to Claude', () => {
+    const stale = edition(deadlines, { verified: '2026-10-01' });
+    expect(needsHandCheck(stale, [{ kind: 'stale', message: 'Due.' }], NOW)).toBe(false);
+  });
+
+  it('counts a page with no readable dates as unreadable', () => {
+    const findings = checkEdition(edition(deadlines, { verified: '2026-10-01' }), 'Loading…', NOW);
+    expect(needsHandCheck(edition(deadlines, { verified: '2026-10-01' }), findings, NOW)).toBe(
+      true,
+    );
   });
 });
 

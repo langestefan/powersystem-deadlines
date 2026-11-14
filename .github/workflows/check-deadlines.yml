@@ -134,7 +134,7 @@ jobs:
             fi
           elif [ -n "$number" ]; then
             gh issue close "$number" --repo "$GITHUB_REPOSITORY" \
-              --comment 'Every upcoming edition was readable in today'"'"'s check.'
+              --comment 'No edition needs a hand check today: every upcoming edition was either readable or checked by hand recently enough.'
           fi
 
   propose:

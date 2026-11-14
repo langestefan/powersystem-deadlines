@@ -506,6 +506,25 @@ export function checkEdition(
   return findings;
 }
 
+/**
+ * Whether an edition belongs on the "needs a human" issue today: the checker
+ * could not read its pages, and its last hand check has passed the usual
+ * `verified:` limit. Bumping `verified:` after a hand check is what clears it,
+ * until it falls due again. An unreadable page alone is not news: some sites
+ * refuse automated readers for good, and listing them daily buries the ones
+ * that are actually due.
+ */
+export function needsHandCheck(
+  edition: ConferenceEdition,
+  findings: Finding[],
+  now: Date = new Date(),
+): boolean {
+  return (
+    findings.some((finding) => HUMAN_ONLY_KINDS.has(finding.kind)) &&
+    editionVerification(edition, now).stale
+  );
+}
+
 /** Whether any finding is one the Claude step can act on. */
 export function isActionable(findings: Finding[]): boolean {
   return findings.some((finding) => !HUMAN_ONLY_KINDS.has(finding.kind));

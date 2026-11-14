@@ -198,14 +198,18 @@ why `deploy.yml` also rebuilds on a daily cron.
 `.github/workflows/check-deadlines.yml` runs `npm run check-cfps` every morning over every
 upcoming edition (a future deadline, a TBA, or an event still ahead). It fetches the edition's
 link, its per-deadline links and one level of same-edition "call for papers / key dates" links.
-Editions whose pages disagree with the YAML (up to 8 a day, most urgent first, skipping any
+An edition's optional `check_links:` are fetched too: extra official pages for a site that
+refuses automated readers. They are never rendered, and `cfpGuard.ts` keeps the bot from adding
+one. Editions whose pages disagree with the YAML (up to 8 a day, most urgent first, skipping any
 already in an open CFP check PR) go to Claude. All proposals land in **one rolling PR** from the
 branch `cfp-bot/checks`, one commit per edition with its id in a `CFP-Edition:` trailer (which is
 how `detect` knows what is already under review). While that PR is open, each run rebuilds the
 branch on today's main, adds the new commits and rewrites the PR's title and body from the commit
 messages; a commit that no longer applies is dropped with a PR comment and gets re-proposed.
 Pages that can't be read (`fetch-failed`, `no-dates`) go into one rolling "CFP check: needs a
-human" issue. The Claude step is off unless
+human" issue, but only once the edition's `verified:` is stale (`needsHandCheck()` in
+`cfpCheck.ts`): a hand check plus a `verified:` bump clears it until it falls due again, so
+sites that never let the bot in don't sit on the issue permanently. The Claude step is off unless
 `vars.CFP_PROPOSE == 'true'`. To see what the checker read for one edition:
 `npm run check-cfps -- --only <id> --dump <dir>`.
 
