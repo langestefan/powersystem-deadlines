@@ -48,6 +48,12 @@ editions:
     # Optional, only when this edition has its own website.
     link: https://bestconf2027.example.org/
 
+    # Optional, rarely needed: extra official pages the daily CFP check reads,
+    # when the site above refuses automated readers but the same dates are
+    # published somewhere it can read. Never shown on the site.
+    # check_links:
+    #   - https://easychair.org/cfp/bestconf2027
+
     city: Delft
     country: Netherlands
     venue: TU Delft Aula Congress Centre

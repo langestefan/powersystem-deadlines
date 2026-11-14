@@ -128,6 +128,12 @@ const editionSchema = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/, 'ID must be lowercase letters, digits and hyphens only.'),
   /** Overrides the series link when an edition has its own site. */
   link: z.string().url().optional(),
+  /**
+   * Extra pages the daily CFP check reads, for when the official site refuses
+   * automated readers but the same dates are published somewhere it can read
+   * (the submission system's call page, say). Never shown on the site.
+   */
+  check_links: z.array(z.string().url()).optional(),
   city: z.string().optional(),
   country: z.string().optional(),
   /** Derived from `country` when omitted. */
