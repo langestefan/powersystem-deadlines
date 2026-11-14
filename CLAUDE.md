@@ -198,9 +198,14 @@ why `deploy.yml` also rebuilds on a daily cron.
 `.github/workflows/check-deadlines.yml` runs `npm run check-cfps` every morning over every
 upcoming edition (a future deadline, a TBA, or an event still ahead). It fetches the edition's
 link, its per-deadline links and one level of same-edition "call for papers / key dates" links.
-Editions whose pages disagree with the YAML (up to 8 a day, most urgent first, skipping any with
-an open `cfp-bot/<id>` PR) go to Claude. Pages that can't be read (`fetch-failed`, `no-dates`) go
-into one rolling "CFP check: needs a human" issue. The Claude step is off unless
+Editions whose pages disagree with the YAML (up to 8 a day, most urgent first, skipping any
+already in an open CFP check PR) go to Claude. All proposals land in **one rolling PR** from the
+branch `cfp-bot/checks`, one commit per edition with its id in a `CFP-Edition:` trailer (which is
+how `detect` knows what is already under review). While that PR is open, each run rebuilds the
+branch on today's main, adds the new commits and rewrites the PR's title and body from the commit
+messages; a commit that no longer applies is dropped with a PR comment and gets re-proposed.
+Pages that can't be read (`fetch-failed`, `no-dates`) go into one rolling "CFP check: needs a
+human" issue. The Claude step is off unless
 `vars.CFP_PROPOSE == 'true'`. To see what the checker read for one edition:
 `npm run check-cfps -- --only <id> --dump <dir>`.
 
@@ -212,9 +217,10 @@ privileges. Keep it that way:
   (pinned by commit SHA) with `.github/cfp-check-prompt.md`. Read-only token,
   `persist-credentials: false`, no Bash, `Edit` limited to that edition's file and `WebFetch`
   to the hosts the detector read for it. Its only output is a patch and a PR description.
-- **`open-prs`**: no Claude; the only job that can write. `scripts/open-cfp-prs.sh` refuses any
+- **`open-prs`**: no Claude; the only job that can write. `scripts/open-cfp-pr.sh` refuses any
   patch that touches more than one `conferences/` or `events/` YAML file or fails
-  `scripts/guard-cfp-proposal.ts`, then runs validate + tests and opens the PR.
+  `scripts/guard-cfp-proposal.ts` (against the branch as it stands), then runs validate + tests
+  and commits it to the rolling PR.
   **`cfpGuard.ts`** is that envelope: one edition's dates, labels, venue, note and an
   append-only `changes:`, with no new links anywhere. Widening it widens what a hostile page
   can put in front of a reviewer.

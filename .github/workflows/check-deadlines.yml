@@ -2,8 +2,10 @@ name: Check deadlines
 
 # Every day, compare each upcoming edition with its official pages
 # (scripts/check-cfps.ts). Editions whose pages disagree with the data go to
-# Claude, and each resulting proposal becomes a pull request for a maintainer to
-# review. Pages nobody could read go into a single rolling issue for a human.
+# Claude, and the proposals all go into ONE rolling pull request (branch
+# cfp-bot/checks, one commit per edition) for a maintainer to review; until it is
+# merged or closed, each run adds to it. Pages nobody could read go into a single
+# rolling issue for a human.
 #
 # Security model: Claude reads untrusted web pages, so it gets no write access.
 #   detect    no Claude. Read-only contents; writes only the "needs a human" issue.
@@ -11,7 +13,8 @@ name: Check deadlines
 #             credentials on disk, no shell, WebFetch limited to that edition's
 #             domains, Edit limited to that edition's file. Output: a patch + text.
 #   open-prs  no Claude. The only job that can write. Refuses any patch outside
-#             the envelope in src/lib/cfpGuard.ts, then validates and opens the PR.
+#             the envelope in src/lib/cfpGuard.ts, then validates and opens or
+#             updates the PR.
 #
 # Setup:
 #   secrets.CLAUDE_CODE_OAUTH_TOKEN  required for the Claude step. Runs on a Claude Pro/Max
@@ -62,17 +65,34 @@ jobs:
 
       - run: npm ci
 
-      # Editions with an open PR are not proposed again. Only this repo's own
-      # branches count: anyone can open a fork PR named cfp-bot/<id>.
-      - name: Find open CFP check pull requests
+      # Editions already in an open PR are not proposed again: those in the rolling
+      # cfp-bot/checks PR (read from each commit's CFP-Edition trailer) and any
+      # older one-edition cfp-bot/<id> PR. Only this repo's own branches count:
+      # anyone can open a fork PR with the same branch name.
+      - name: Find editions in open CFP check pull requests
         id: open
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          skip=$(gh pr list --repo "$GITHUB_REPOSITORY" --state open --limit 200 \
-            --json headRefName,isCrossRepository \
-            --jq '[.[] | select(.isCrossRepository | not) | .headRefName
-                   | select(startswith("cfp-bot/")) | ltrimstr("cfp-bot/")] | join(",")')
+          prs=$(gh pr list --repo "$GITHUB_REPOSITORY" --state open --limit 200 \
+            --json number,headRefName,isCrossRepository \
+            --jq '.[] | select(.isCrossRepository | not)
+                  | select(.headRefName | startswith("cfp-bot/"))
+                  | "\(.number) \(.headRefName)"')
+          ids=()
+          while read -r number ref; do
+            [ -n "$number" ] || continue
+            if [ "$ref" = cfp-bot/checks ]; then
+              mapfile -t -O "${#ids[@]}" ids < <(
+                gh api --paginate "repos/$GITHUB_REPOSITORY/pulls/$number/commits" \
+                  --jq '.[].commit.message | sub("\\s+$"; "") | split("\n\n") | last
+                        | split("\n")[] | select(startswith("CFP-Edition: "))
+                        | ltrimstr("CFP-Edition: ")')
+            else
+              ids+=("${ref#cfp-bot/}")
+            fi
+          done <<< "$prs"
+          skip=$(IFS=,; echo "${ids[*]}")
           echo "skip=$skip" >> "$GITHUB_OUTPUT"
           echo "Open: ${skip:-none}"
 
@@ -235,8 +255,8 @@ jobs:
           pattern: proposal-*
           path: proposals
 
-      - name: Open a pull request per proposal
+      - name: Add the proposals to the rolling pull request
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          bash scripts/open-cfp-prs.sh proposals
+          bash scripts/open-cfp-pr.sh proposals
