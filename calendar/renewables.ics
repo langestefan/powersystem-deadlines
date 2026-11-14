@@ -10,275 +10,8 @@ X-PUBLISHED-TTL:PT12H
 X-WR-CALDESC:Deadlines for conferences tagged "Renewables".
 SOURCE;VALUE=URI:https://powersystemdeadlines.org/calendar/renewables.ics
 BEGIN:VEVENT
-UID:icit27-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
-TRANSP:TRANSPARENT
-SUMMARY:ICIT 2027: Regular paper submission (extended\, hard deadline) (23:
- 59 UTC+12 (assumed))
-DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
- 27)\n\nRegular paper submission (extended\, hard deadline): 27 Oct 2026\, 
- 23:59 UTC+12 (assumed)\n\nConference: March 17-19\, 2027\nLocation: Floria
- nópolis\, Brazil\nVenue: Majestic Palace Hotel\n\nAll dates:\n  Regular p
- aper submission (extended\, hard deadline): 27 Oct 2026\, 23:59 UTC+12 (as
- sumed)\n  Work-in-progress paper submission (extended\, hard deadline): 3 
- Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial proposal: 13 Nov 2026\, 23:5
- 9 UTC+12 (assumed)\n  Paper acceptance notification: 15 Dec 2026\, 23:59 U
- TC+12 (assumed)\n  Final paper submission: 18 Jan 2027\, 23:59 UTC+12 (ass
- umed)\n  Author registration: 18 Jan 2027\, 23:59 UTC+12 (assumed)\n\nThe 
- call for papers states no timezone. This is counted as UTC+12\, the earlie
- st it could plausibly mean\, so the countdown runs out before the real dea
- dline rather than after it.\n\nHosted by Universidade Federal de Santa Cat
- arina. The regular paper deadline was extended from 12 October 2026.\n\nCa
- ll for papers: https://icit2027.ieee-ies.org/\nDetails: https://powersyste
- mdeadlines.org/conference/icit27
-LOCATION:Florianópolis\, Brazil
-URL;VALUE=URI:https://icit2027.ieee-ies.org/
-CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:icit27-paper-2@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
-TRANSP:TRANSPARENT
-SUMMARY:ICIT 2027: Work-in-progress paper submission (extended\, hard deadl
- ine) (23:59 UTC+12 (assumed))
-DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
- 27)\n\nWork-in-progress paper submission (extended\, hard deadline): 3 Nov
-  2026\, 23:59 UTC+12 (assumed)\n\nConference: March 17-19\, 2027\nLocation
- : Florianópolis\, Brazil\nVenue: Majestic Palace Hotel\n\nAll dates:\n  R
- egular paper submission (extended\, hard deadline): 27 Oct 2026\, 23:59 UT
- C+12 (assumed)\n  Work-in-progress paper submission (extended\, hard deadl
- ine): 3 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial proposal: 13 Nov 202
- 6\, 23:59 UTC+12 (assumed)\n  Paper acceptance notification: 15 Dec 2026\,
-  23:59 UTC+12 (assumed)\n  Final paper submission: 18 Jan 2027\, 23:59 UTC
- +12 (assumed)\n  Author registration: 18 Jan 2027\, 23:59 UTC+12 (assumed)
- \n\nThe call for papers states no timezone. This is counted as UTC+12\, th
- e earliest it could plausibly mean\, so the countdown runs out before the 
- real deadline rather than after it.\n\nHosted by Universidade Federal de S
- anta Catarina. The regular paper deadline was extended from 12 October 202
- 6.\n\nCall for papers: https://icit2027.ieee-ies.org/\nDetails: https://po
- wersystemdeadlines.org/conference/icit27
-LOCATION:Florianópolis\, Brazil
-URL;VALUE=URI:https://icit2027.ieee-ies.org/
-CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:icit27-tutorial_proposal@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-TRANSP:TRANSPARENT
-SUMMARY:ICIT 2027: Tutorial proposal (23:59 UTC+12 (assumed))
-DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
- 27)\n\nTutorial proposal: 13 Nov 2026\, 23:59 UTC+12 (assumed)\n\nConferen
- ce: March 17-19\, 2027\nLocation: Florianópolis\, Brazil\nVenue: Majestic
-  Palace Hotel\n\nAll dates:\n  Regular paper submission (extended\, hard d
- eadline): 27 Oct 2026\, 23:59 UTC+12 (assumed)\n  Work-in-progress paper s
- ubmission (extended\, hard deadline): 3 Nov 2026\, 23:59 UTC+12 (assumed)\
- n  Tutorial proposal: 13 Nov 2026\, 23:59 UTC+12 (assumed)\n  Paper accept
- ance notification: 15 Dec 2026\, 23:59 UTC+12 (assumed)\n  Final paper sub
- mission: 18 Jan 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 18 J
- an 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone
- . This is counted as UTC+12\, the earliest it could plausibly mean\, so th
- e countdown runs out before the real deadline rather than after it.\n\nHos
- ted by Universidade Federal de Santa Catarina. The regular paper deadline 
- was extended from 12 October 2026.\n\nCall for papers: https://icit2027.ie
- ee-ies.org/\nDetails: https://powersystemdeadlines.org/conference/icit27
-LOCATION:Florianópolis\, Brazil
-URL;VALUE=URI:https://icit2027.ieee-ies.org/
-CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:icit27-notification@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
-DTSTART;VALUE=DATE:20261215
-DTEND;VALUE=DATE:20261216
-TRANSP:TRANSPARENT
-SUMMARY:ICIT 2027: Paper acceptance notification (23:59 UTC+12 (assumed))
-DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
- 27)\n\nPaper acceptance notification: 15 Dec 2026\, 23:59 UTC+12 (assumed)
- \n\nConference: March 17-19\, 2027\nLocation: Florianópolis\, Brazil\nVen
- ue: Majestic Palace Hotel\n\nAll dates:\n  Regular paper submission (exten
- ded\, hard deadline): 27 Oct 2026\, 23:59 UTC+12 (assumed)\n  Work-in-prog
- ress paper submission (extended\, hard deadline): 3 Nov 2026\, 23:59 UTC+1
- 2 (assumed)\n  Tutorial proposal: 13 Nov 2026\, 23:59 UTC+12 (assumed)\n  
- Paper acceptance notification: 15 Dec 2026\, 23:59 UTC+12 (assumed)\n  Fin
- al paper submission: 18 Jan 2027\, 23:59 UTC+12 (assumed)\n  Author regist
- ration: 18 Jan 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states
-  no timezone. This is counted as UTC+12\, the earliest it could plausibly 
- mean\, so the countdown runs out before the real deadline rather than afte
- r it.\n\nHosted by Universidade Federal de Santa Catarina. The regular pap
- er deadline was extended from 12 October 2026.\n\nCall for papers: https:/
- /icit2027.ieee-ies.org/\nDetails: https://powersystemdeadlines.org/confere
- nce/icit27
-LOCATION:Florianópolis\, Brazil
-URL;VALUE=URI:https://icit2027.ieee-ies.org/
-CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:icit27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
-DTSTART;VALUE=DATE:20270118
-DTEND;VALUE=DATE:20270119
-TRANSP:TRANSPARENT
-SUMMARY:ICIT 2027: Final paper submission (23:59 UTC+12 (assumed))
-DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
- 27)\n\nFinal paper submission: 18 Jan 2027\, 23:59 UTC+12 (assumed)\n\nCon
- ference: March 17-19\, 2027\nLocation: Florianópolis\, Brazil\nVenue: Maj
- estic Palace Hotel\n\nAll dates:\n  Regular paper submission (extended\, h
- ard deadline): 27 Oct 2026\, 23:59 UTC+12 (assumed)\n  Work-in-progress pa
- per submission (extended\, hard deadline): 3 Nov 2026\, 23:59 UTC+12 (assu
- med)\n  Tutorial proposal: 13 Nov 2026\, 23:59 UTC+12 (assumed)\n  Paper a
- cceptance notification: 15 Dec 2026\, 23:59 UTC+12 (assumed)\n  Final pape
- r submission: 18 Jan 2027\, 23:59 UTC+12 (assumed)\n  Author registration:
-  18 Jan 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no tim
- ezone. This is counted as UTC+12\, the earliest it could plausibly mean\, 
- so the countdown runs out before the real deadline rather than after it.\n
- \nHosted by Universidade Federal de Santa Catarina. The regular paper dead
- line was extended from 12 October 2026.\n\nCall for papers: https://icit20
- 27.ieee-ies.org/\nDetails: https://powersystemdeadlines.org/conference/ici
- t27
-LOCATION:Florianópolis\, Brazil
-URL;VALUE=URI:https://icit2027.ieee-ies.org/
-CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:icit27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
-DTSTART;VALUE=DATE:20270118
-DTEND;VALUE=DATE:20270119
-TRANSP:TRANSPARENT
-SUMMARY:ICIT 2027: Author registration (23:59 UTC+12 (assumed))
-DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
- 27)\n\nAuthor registration: 18 Jan 2027\, 23:59 UTC+12 (assumed)\n\nConfer
- ence: March 17-19\, 2027\nLocation: Florianópolis\, Brazil\nVenue: Majest
- ic Palace Hotel\n\nAll dates:\n  Regular paper submission (extended\, hard
-  deadline): 27 Oct 2026\, 23:59 UTC+12 (assumed)\n  Work-in-progress paper
-  submission (extended\, hard deadline): 3 Nov 2026\, 23:59 UTC+12 (assumed
- )\n  Tutorial proposal: 13 Nov 2026\, 23:59 UTC+12 (assumed)\n  Paper acce
- ptance notification: 15 Dec 2026\, 23:59 UTC+12 (assumed)\n  Final paper s
- ubmission: 18 Jan 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 18
-  Jan 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezo
- ne. This is counted as UTC+12\, the earliest it could plausibly mean\, so 
- the countdown runs out before the real deadline rather than after it.\n\nH
- osted by Universidade Federal de Santa Catarina. The regular paper deadlin
- e was extended from 12 October 2026.\n\nCall for papers: https://icit2027.
- ieee-ies.org/\nDetails: https://powersystemdeadlines.org/conference/icit27
-LOCATION:Florianópolis\, Brazil
-URL;VALUE=URI:https://icit2027.ieee-ies.org/
-CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:pesgm27-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-TRANSP:TRANSPARENT
-SUMMARY:IEEE PES GM 2027: Paper submission (23:59 UTC+12 (assumed))
-DESCRIPTION:IEEE Power & Energy Society General Meeting (IEEE PES GM 2027)\
- n\nPaper submission: 13 Nov 2026\, 23:59 UTC+12 (assumed)\n\nConference: J
- uly 25-29\, 2027\nLocation: San Francisco\, USA\n\nNot yet announced: Auth
- or notification\n\nThe call for papers states no timezone. This is counted
-  as UTC+12\, the earliest it could plausibly mean\, so the countdown runs 
- out before the real deadline rather than after it.\n\nPapers are limited t
- o five pages. The submission site opens 6 October 2026 and notifications a
- re expected in mid-March 2027\, without a stated date.\n\nCall for papers:
-  https://pes-gm.org/\nDetails: https://powersystemdeadlines.org/conference
- /pesgm27
-LOCATION:San Francisco\, USA
-URL;VALUE=URI:https://pes-gm.org/
-CATEGORIES:Power Systems,Transmission,Distribution,Renewables,Smart Grid
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:gtd-latam27-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 TRANSP:TRANSPARENT
@@ -312,7 +45,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce-asia27-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 TRANSP:TRANSPARENT
@@ -347,7 +80,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce-asia27-notification@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 TRANSP:TRANSPARENT
@@ -382,7 +115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce-asia27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 TRANSP:TRANSPARENT
@@ -418,7 +151,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce-asia27-early_registration@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 TRANSP:TRANSPARENT
@@ -453,7 +186,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-workshop_proposal@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 TRANSP:TRANSPARENT
@@ -497,7 +230,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-tutorial_proposal@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 TRANSP:TRANSPARENT
@@ -541,7 +274,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 TRANSP:TRANSPARENT
@@ -584,7 +317,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-panel_proposal@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 TRANSP:TRANSPARENT
@@ -627,7 +360,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-notification@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 TRANSP:TRANSPARENT
@@ -671,7 +404,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-notification-2@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
@@ -715,7 +448,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-paper-2@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 TRANSP:TRANSPARENT
@@ -759,7 +492,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
@@ -802,7 +535,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
@@ -845,7 +578,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie27-notification-3@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 TRANSP:TRANSPARENT
@@ -889,7 +622,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-global27-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 TRANSP:TRANSPARENT
@@ -927,7 +660,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-global27-notification@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270217
 TRANSP:TRANSPARENT
@@ -964,7 +697,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-global27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 TRANSP:TRANSPARENT
@@ -1001,7 +734,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cpes27-session_proposal@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 TRANSP:TRANSPARENT
@@ -1039,7 +772,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cpes27-abstract@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
 TRANSP:TRANSPARENT
@@ -1077,7 +810,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cpes27-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270202
 DTEND;VALUE=DATE:20270203
 TRANSP:TRANSPARENT
@@ -1115,7 +848,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cpes27-notification@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270406
 DTEND;VALUE=DATE:20270407
 TRANSP:TRANSPARENT
@@ -1153,7 +886,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cpes27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270420
 DTEND;VALUE=DATE:20270421
 TRANSP:TRANSPARENT
@@ -1191,7 +924,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cpes27-early_registration@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 TRANSP:TRANSPARENT
@@ -1229,7 +962,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pvpmc27-abstract@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 TRANSP:TRANSPARENT
@@ -1266,7 +999,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e-energy27-abstract@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 TRANSP:TRANSPARENT
@@ -1324,7 +1057,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e-energy27-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 TRANSP:TRANSPARENT
@@ -1382,7 +1115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e-energy27-award_nomination@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 TRANSP:TRANSPARENT
@@ -1440,7 +1173,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e-energy27-notification@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 TRANSP:TRANSPARENT
@@ -1499,7 +1232,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e-energy27-revision@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 TRANSP:TRANSPARENT
@@ -1557,7 +1290,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e-energy27-notification-2@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 TRANSP:TRANSPARENT
@@ -1616,7 +1349,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e-energy27-abstract-2@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 TRANSP:TRANSPARENT
@@ -1674,7 +1407,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e-energy27-paper-2@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 TRANSP:TRANSPARENT
@@ -1732,7 +1465,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e-energy27-notification-3@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 TRANSP:TRANSPARENT
@@ -1791,7 +1524,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e-energy27-revision-2@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270319
 DTEND;VALUE=DATE:20270320
 TRANSP:TRANSPARENT
@@ -1849,7 +1582,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e-energy27-notification-4@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270416
 DTEND;VALUE=DATE:20270417
 TRANSP:TRANSPARENT
@@ -1908,7 +1641,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e-energy27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270501
 TRANSP:TRANSPARENT
@@ -1965,8 +1698,242 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:icit27-paper@powersystemdeadlines.org
+DTSTAMP:20261114T042351Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+TRANSP:TRANSPARENT
+SUMMARY:ICIT 2027: Regular paper submission (extended\, hard deadline) (23:
+ 59 UTC+12 (assumed))
+DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
+ 27)\n\nRegular paper submission (extended\, hard deadline): 27 Oct 2026\, 
+ 23:59 UTC+12 (assumed)\n\nConference: March 17-19\, 2027\nLocation: Floria
+ nópolis\, Brazil\nVenue: Majestic Palace Hotel\n\nAll dates:\n  Regular p
+ aper submission (extended\, hard deadline): 27 Oct 2026\, 23:59 UTC+12 (as
+ sumed)\n  Work-in-progress paper submission (extended\, hard deadline): 3 
+ Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial proposal: 13 Nov 2026\, 23:5
+ 9 UTC+12 (assumed)\n  Paper acceptance notification: 15 Dec 2026\, 23:59 U
+ TC+12 (assumed)\n  Final paper submission: 18 Jan 2027\, 23:59 UTC+12 (ass
+ umed)\n  Author registration: 18 Jan 2027\, 23:59 UTC+12 (assumed)\n\nThe 
+ call for papers states no timezone. This is counted as UTC+12\, the earlie
+ st it could plausibly mean\, so the countdown runs out before the real dea
+ dline rather than after it.\n\nHosted by Universidade Federal de Santa Cat
+ arina. The regular paper deadline was extended from 12 October 2026.\n\nCa
+ ll for papers: https://icit2027.ieee-ies.org/\nDetails: https://powersyste
+ mdeadlines.org/conference/icit27
+LOCATION:Florianópolis\, Brazil
+URL;VALUE=URI:https://icit2027.ieee-ies.org/
+CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:icit27-paper-2@powersystemdeadlines.org
+DTSTAMP:20261114T042351Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+TRANSP:TRANSPARENT
+SUMMARY:ICIT 2027: Work-in-progress paper submission (extended\, hard deadl
+ ine) (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
+ 27)\n\nWork-in-progress paper submission (extended\, hard deadline): 3 Nov
+  2026\, 23:59 UTC+12 (assumed)\n\nConference: March 17-19\, 2027\nLocation
+ : Florianópolis\, Brazil\nVenue: Majestic Palace Hotel\n\nAll dates:\n  R
+ egular paper submission (extended\, hard deadline): 27 Oct 2026\, 23:59 UT
+ C+12 (assumed)\n  Work-in-progress paper submission (extended\, hard deadl
+ ine): 3 Nov 2026\, 23:59 UTC+12 (assumed)\n  Tutorial proposal: 13 Nov 202
+ 6\, 23:59 UTC+12 (assumed)\n  Paper acceptance notification: 15 Dec 2026\,
+  23:59 UTC+12 (assumed)\n  Final paper submission: 18 Jan 2027\, 23:59 UTC
+ +12 (assumed)\n  Author registration: 18 Jan 2027\, 23:59 UTC+12 (assumed)
+ \n\nThe call for papers states no timezone. This is counted as UTC+12\, th
+ e earliest it could plausibly mean\, so the countdown runs out before the 
+ real deadline rather than after it.\n\nHosted by Universidade Federal de S
+ anta Catarina. The regular paper deadline was extended from 12 October 202
+ 6.\n\nCall for papers: https://icit2027.ieee-ies.org/\nDetails: https://po
+ wersystemdeadlines.org/conference/icit27
+LOCATION:Florianópolis\, Brazil
+URL;VALUE=URI:https://icit2027.ieee-ies.org/
+CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:icit27-tutorial_proposal@powersystemdeadlines.org
+DTSTAMP:20261114T042351Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+TRANSP:TRANSPARENT
+SUMMARY:ICIT 2027: Tutorial proposal (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
+ 27)\n\nTutorial proposal: 13 Nov 2026\, 23:59 UTC+12 (assumed)\n\nConferen
+ ce: March 17-19\, 2027\nLocation: Florianópolis\, Brazil\nVenue: Majestic
+  Palace Hotel\n\nAll dates:\n  Regular paper submission (extended\, hard d
+ eadline): 27 Oct 2026\, 23:59 UTC+12 (assumed)\n  Work-in-progress paper s
+ ubmission (extended\, hard deadline): 3 Nov 2026\, 23:59 UTC+12 (assumed)\
+ n  Tutorial proposal: 13 Nov 2026\, 23:59 UTC+12 (assumed)\n  Paper accept
+ ance notification: 15 Dec 2026\, 23:59 UTC+12 (assumed)\n  Final paper sub
+ mission: 18 Jan 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 18 J
+ an 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone
+ . This is counted as UTC+12\, the earliest it could plausibly mean\, so th
+ e countdown runs out before the real deadline rather than after it.\n\nHos
+ ted by Universidade Federal de Santa Catarina. The regular paper deadline 
+ was extended from 12 October 2026.\n\nCall for papers: https://icit2027.ie
+ ee-ies.org/\nDetails: https://powersystemdeadlines.org/conference/icit27
+LOCATION:Florianópolis\, Brazil
+URL;VALUE=URI:https://icit2027.ieee-ies.org/
+CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:icit27-notification@powersystemdeadlines.org
+DTSTAMP:20261114T042351Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+TRANSP:TRANSPARENT
+SUMMARY:ICIT 2027: Paper acceptance notification (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
+ 27)\n\nPaper acceptance notification: 15 Dec 2026\, 23:59 UTC+12 (assumed)
+ \n\nConference: March 17-19\, 2027\nLocation: Florianópolis\, Brazil\nVen
+ ue: Majestic Palace Hotel\n\nAll dates:\n  Regular paper submission (exten
+ ded\, hard deadline): 27 Oct 2026\, 23:59 UTC+12 (assumed)\n  Work-in-prog
+ ress paper submission (extended\, hard deadline): 3 Nov 2026\, 23:59 UTC+1
+ 2 (assumed)\n  Tutorial proposal: 13 Nov 2026\, 23:59 UTC+12 (assumed)\n  
+ Paper acceptance notification: 15 Dec 2026\, 23:59 UTC+12 (assumed)\n  Fin
+ al paper submission: 18 Jan 2027\, 23:59 UTC+12 (assumed)\n  Author regist
+ ration: 18 Jan 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states
+  no timezone. This is counted as UTC+12\, the earliest it could plausibly 
+ mean\, so the countdown runs out before the real deadline rather than afte
+ r it.\n\nHosted by Universidade Federal de Santa Catarina. The regular pap
+ er deadline was extended from 12 October 2026.\n\nCall for papers: https:/
+ /icit2027.ieee-ies.org/\nDetails: https://powersystemdeadlines.org/confere
+ nce/icit27
+LOCATION:Florianópolis\, Brazil
+URL;VALUE=URI:https://icit2027.ieee-ies.org/
+CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:icit27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261114T042351Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+TRANSP:TRANSPARENT
+SUMMARY:ICIT 2027: Final paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
+ 27)\n\nFinal paper submission: 18 Jan 2027\, 23:59 UTC+12 (assumed)\n\nCon
+ ference: March 17-19\, 2027\nLocation: Florianópolis\, Brazil\nVenue: Maj
+ estic Palace Hotel\n\nAll dates:\n  Regular paper submission (extended\, h
+ ard deadline): 27 Oct 2026\, 23:59 UTC+12 (assumed)\n  Work-in-progress pa
+ per submission (extended\, hard deadline): 3 Nov 2026\, 23:59 UTC+12 (assu
+ med)\n  Tutorial proposal: 13 Nov 2026\, 23:59 UTC+12 (assumed)\n  Paper a
+ cceptance notification: 15 Dec 2026\, 23:59 UTC+12 (assumed)\n  Final pape
+ r submission: 18 Jan 2027\, 23:59 UTC+12 (assumed)\n  Author registration:
+  18 Jan 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no tim
+ ezone. This is counted as UTC+12\, the earliest it could plausibly mean\, 
+ so the countdown runs out before the real deadline rather than after it.\n
+ \nHosted by Universidade Federal de Santa Catarina. The regular paper dead
+ line was extended from 12 October 2026.\n\nCall for papers: https://icit20
+ 27.ieee-ies.org/\nDetails: https://powersystemdeadlines.org/conference/ici
+ t27
+LOCATION:Florianópolis\, Brazil
+URL;VALUE=URI:https://icit2027.ieee-ies.org/
+CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:icit27-author_registration@powersystemdeadlines.org
+DTSTAMP:20261114T042351Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+TRANSP:TRANSPARENT
+SUMMARY:ICIT 2027: Author registration (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE International Conference on Industrial Technology (ICIT 20
+ 27)\n\nAuthor registration: 18 Jan 2027\, 23:59 UTC+12 (assumed)\n\nConfer
+ ence: March 17-19\, 2027\nLocation: Florianópolis\, Brazil\nVenue: Majest
+ ic Palace Hotel\n\nAll dates:\n  Regular paper submission (extended\, hard
+  deadline): 27 Oct 2026\, 23:59 UTC+12 (assumed)\n  Work-in-progress paper
+  submission (extended\, hard deadline): 3 Nov 2026\, 23:59 UTC+12 (assumed
+ )\n  Tutorial proposal: 13 Nov 2026\, 23:59 UTC+12 (assumed)\n  Paper acce
+ ptance notification: 15 Dec 2026\, 23:59 UTC+12 (assumed)\n  Final paper s
+ ubmission: 18 Jan 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 18
+  Jan 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezo
+ ne. This is counted as UTC+12\, the earliest it could plausibly mean\, so 
+ the countdown runs out before the real deadline rather than after it.\n\nH
+ osted by Universidade Federal de Santa Catarina. The regular paper deadlin
+ e was extended from 12 October 2026.\n\nCall for papers: https://icit2027.
+ ieee-ies.org/\nDetails: https://powersystemdeadlines.org/conference/icit27
+LOCATION:Florianópolis\, Brazil
+URL;VALUE=URI:https://icit2027.ieee-ies.org/
+CATEGORIES:Power Electronics,Machines & Drives,Smart Grid,Renewables
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:cired27-abstract@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 TRANSP:TRANSPARENT
@@ -2005,7 +1972,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-notification@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 TRANSP:TRANSPARENT
@@ -2044,7 +2011,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 TRANSP:TRANSPARENT
@@ -2083,7 +2050,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-notification-2@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270409
 DTEND;VALUE=DATE:20270410
 TRANSP:TRANSPARENT
@@ -2123,7 +2090,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-early_registration@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270428
 DTEND;VALUE=DATE:20270429
 TRANSP:TRANSPARENT
@@ -2163,7 +2130,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270510
 DTEND;VALUE=DATE:20270511
 TRANSP:TRANSPARENT
@@ -2202,7 +2169,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cired27-presentation_upload@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270528
 DTEND;VALUE=DATE:20270529
 TRANSP:TRANSPARENT
@@ -2242,7 +2209,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:peci27-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 TRANSP:TRANSPARENT
@@ -2277,7 +2244,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:peci27-notification@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270226
 DTEND;VALUE=DATE:20270227
 TRANSP:TRANSPARENT
@@ -2312,7 +2279,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:peci27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 TRANSP:TRANSPARENT
@@ -2347,7 +2314,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 TRANSP:TRANSPARENT
@@ -2386,7 +2353,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-notification@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 TRANSP:TRANSPARENT
@@ -2425,7 +2392,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270702
 TRANSP:TRANSPARENT
@@ -2464,7 +2431,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ieses27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270702
 TRANSP:TRANSPARENT
@@ -2503,7 +2470,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 TRANSP:TRANSPARENT
@@ -2539,7 +2506,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-notification@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270423
 DTEND;VALUE=DATE:20270424
 TRANSP:TRANSPARENT
@@ -2575,7 +2542,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 TRANSP:TRANSPARENT
@@ -2613,7 +2580,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powertech27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 TRANSP:TRANSPARENT
@@ -2649,7 +2616,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pcim-europe27-abstract@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 TRANSP:TRANSPARENT
@@ -2687,7 +2654,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pcim-europe27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 TRANSP:TRANSPARENT
@@ -2726,7 +2693,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-abstract@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
@@ -2769,7 +2736,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-notification@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270402
 DTEND;VALUE=DATE:20270403
 TRANSP:TRANSPARENT
@@ -2813,7 +2780,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 TRANSP:TRANSPARENT
@@ -2856,7 +2823,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-notification-2@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270614
 DTEND;VALUE=DATE:20270615
 TRANSP:TRANSPARENT
@@ -2900,7 +2867,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270628
 DTEND;VALUE=DATE:20270629
 TRANSP:TRANSPARENT
@@ -2944,7 +2911,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-camera_ready-2@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270710
 TRANSP:TRANSPARENT
@@ -2987,7 +2954,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-early_registration@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270726
 DTEND;VALUE=DATE:20270727
 TRANSP:TRANSPARENT
@@ -3030,7 +2997,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia27-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 TRANSP:TRANSPARENT
@@ -3070,7 +3037,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia27-notification@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270630
 DTEND;VALUE=DATE:20270701
 TRANSP:TRANSPARENT
@@ -3110,7 +3077,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270731
 DTEND;VALUE=DATE:20270801
 TRANSP:TRANSPARENT
@@ -3151,7 +3118,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia27-early_registration@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270731
 DTEND;VALUE=DATE:20270801
 TRANSP:TRANSPARENT
@@ -3192,7 +3159,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:upec27-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270501
 TRANSP:TRANSPARENT
@@ -3231,7 +3198,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:upec27-notification@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270618
 DTEND;VALUE=DATE:20270619
 TRANSP:TRANSPARENT
@@ -3270,7 +3237,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:upec27-early_registration@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270625
 DTEND;VALUE=DATE:20270626
 TRANSP:TRANSPARENT
@@ -3309,7 +3276,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:upec27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20270716
 DTEND;VALUE=DATE:20270717
 TRANSP:TRANSPARENT
@@ -3349,7 +3316,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit26-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20251115
 DTEND;VALUE=DATE:20251116
 TRANSP:TRANSPARENT
@@ -3387,7 +3354,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit26-paper-2@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20251130
 DTEND;VALUE=DATE:20251201
 TRANSP:TRANSPARENT
@@ -3425,7 +3392,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit26-notification@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260112
 DTEND;VALUE=DATE:20260113
 TRANSP:TRANSPARENT
@@ -3462,7 +3429,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260131
 DTEND;VALUE=DATE:20260201
 TRANSP:TRANSPARENT
@@ -3499,7 +3466,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:icit26-author_registration@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260131
 DTEND;VALUE=DATE:20260201
 TRANSP:TRANSPARENT
@@ -3536,7 +3503,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:greentech26-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20251116
 DTEND;VALUE=DATE:20251117
 TRANSP:TRANSPARENT
@@ -3571,7 +3538,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:greentech26-tutorial_proposal@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20251214
 DTEND;VALUE=DATE:20251215
 TRANSP:TRANSPARENT
@@ -3606,7 +3573,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie26-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260315
 DTEND;VALUE=DATE:20260316
 TRANSP:TRANSPARENT
@@ -3643,7 +3610,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie26-notification@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260424
 DTEND;VALUE=DATE:20260425
 TRANSP:TRANSPARENT
@@ -3681,7 +3648,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -3719,7 +3686,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie26-early_registration@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -3755,7 +3722,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isie26-paper-2@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260525
 DTEND;VALUE=DATE:20260526
 TRANSP:TRANSPARENT
@@ -3792,7 +3759,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eeeic26-workshop_proposal@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260101
 DTEND;VALUE=DATE:20260102
 TRANSP:TRANSPARENT
@@ -3830,7 +3797,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eeeic26-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260511
 DTEND;VALUE=DATE:20260512
 TRANSP:TRANSPARENT
@@ -3868,7 +3835,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eeeic26-early_registration@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260531
 DTEND;VALUE=DATE:20260601
 TRANSP:TRANSPARENT
@@ -3906,7 +3873,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iaee-european26-abstract@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260410
 DTEND;VALUE=DATE:20260411
 TRANSP:TRANSPARENT
@@ -3942,7 +3909,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iaee-european26-best_paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260508
 DTEND;VALUE=DATE:20260509
 TRANSP:TRANSPARENT
@@ -3978,7 +3945,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iaee-european26-notification@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -4015,7 +3982,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iaee-european26-early_registration@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260703
 DTEND;VALUE=DATE:20260704
 TRANSP:TRANSPARENT
@@ -4052,7 +4019,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pmaps26-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260315
 DTEND;VALUE=DATE:20260316
 TRANSP:TRANSPARENT
@@ -4089,7 +4056,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pmaps26-notification@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260530
 DTEND;VALUE=DATE:20260531
 TRANSP:TRANSPARENT
@@ -4126,7 +4093,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pmaps26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 TRANSP:TRANSPARENT
@@ -4163,7 +4130,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powerafrica26-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
 TRANSP:TRANSPARENT
@@ -4199,7 +4166,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powerafrica26-notification@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 TRANSP:TRANSPARENT
@@ -4235,7 +4202,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powerafrica26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260622
 DTEND;VALUE=DATE:20260623
 TRANSP:TRANSPARENT
@@ -4270,7 +4237,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:powerafrica26-early_registration@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 TRANSP:TRANSPARENT
@@ -4306,7 +4273,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-abstract@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260313
 DTEND;VALUE=DATE:20260314
 TRANSP:TRANSPARENT
@@ -4343,7 +4310,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-notification@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -4380,7 +4347,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 TRANSP:TRANSPARENT
@@ -4418,7 +4385,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:naps26-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 TRANSP:TRANSPARENT
@@ -4451,7 +4418,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 TRANSP:TRANSPARENT
@@ -4486,7 +4453,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-notification@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 TRANSP:TRANSPARENT
@@ -4521,7 +4488,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iecon26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 TRANSP:TRANSPARENT
@@ -4557,7 +4524,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-europe26-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260415
 DTEND;VALUE=DATE:20260416
 TRANSP:TRANSPARENT
@@ -4591,7 +4558,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-europe26-notification@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 TRANSP:TRANSPARENT
@@ -4625,7 +4592,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-europe26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 TRANSP:TRANSPARENT
@@ -4659,7 +4626,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-paper@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 TRANSP:TRANSPARENT
@@ -4696,7 +4663,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-notification@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 TRANSP:TRANSPARENT
@@ -4733,7 +4700,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-author_registration@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 TRANSP:TRANSPARENT
@@ -4770,7 +4737,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:isgt-asia26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261113T080540Z
+DTSTAMP:20261114T042351Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 TRANSP:TRANSPARENT
@@ -4792,6 +4759,39 @@ DESCRIPTION:IEEE PES Innovative Smart Grid Technologies Conference Asia (IS
 LOCATION:Wuhan\, China
 URL;VALUE=URI:https://attend.ieee.org/isgt-asia-2026/
 CATEGORIES:Smart Grid,Distribution,Renewables,Power Systems
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pesgm27-paper@powersystemdeadlines.org
+DTSTAMP:20261114T042351Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+TRANSP:TRANSPARENT
+SUMMARY:IEEE PES GM 2027: Paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Power & Energy Society General Meeting (IEEE PES GM 2027)\
+ n\nPaper submission: 13 Nov 2026\, 23:59 UTC+12 (assumed)\n\nConference: J
+ uly 25-29\, 2027\nLocation: San Francisco\, USA\n\nNot yet announced: Auth
+ or notification\n\nThe call for papers states no timezone. This is counted
+  as UTC+12\, the earliest it could plausibly mean\, so the countdown runs 
+ out before the real deadline rather than after it.\n\nPapers are limited t
+ o five pages. The submission site opens 6 October 2026 and notifications a
+ re expected in mid-March 2027\, without a stated date.\n\nCall for papers:
+  https://pes-gm.org/\nDetails: https://powersystemdeadlines.org/conference
+ /pesgm27
+LOCATION:San Francisco\, USA
+URL;VALUE=URI:https://pes-gm.org/
+CATEGORIES:Power Systems,Transmission,Distribution,Renewables,Smart Grid
 STATUS:CONFIRMED
 SEQUENCE:0
 BEGIN:VALARM
