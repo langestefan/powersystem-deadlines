@@ -156,10 +156,15 @@ if [[ $editions -eq 1 ]]; then title='CFP check: 1 edition re-checked'
 else title="CFP check: $editions editions re-checked"; fi
 
 {
-  printf 'The daily CFP check re-read the official pages of the editions below. Each one is '
-  printf 'its own commit, so a wrong proposal can be reverted on this branch without the rest.\n\n'
+  # One row per commit. Subjects read "CFP check: <Name> <year> – <result>"; pipes are
+  # escaped because the subject came via a web page.
+  printf '| Edition | Result | Commit |\n|---|---|---|\n'
   for commit in "${commits[@]}"; do
-    printf -- '- %s\n' "$(git log -1 --format=%s "$commit" | sed 's/^CFP check: //')"
+    subject=$(git log -1 --format=%s "$commit" | sed -e 's/^CFP check: //' -e 's/|/\\|/g')
+    name=${subject%% – *}
+    result=${subject#"$name"}
+    result=${result# – }
+    printf '| %s | %s | %s |\n' "$name" "$result" "$(git rev-parse --short=8 "$commit")"
   done
   for commit in "${commits[@]}"; do
     [[ -n $(git log -1 --format="%(trailers:key=$trailer,valueonly)" "$commit") ]] || continue
