@@ -11,8 +11,378 @@ X-WR-CALDESC:Deadlines for conferences tagged "EV & Transportation".
 SOURCE;VALUE=URI:https://powersystemdeadlines.org/calendar/ev-transportatio
  n.ics
 BEGIN:VEVENT
+UID:itec27-paper@powersystemdeadlines.org
+DTSTAMP:20261116T125333Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+TRANSP:TRANSPARENT
+SUMMARY:ITEC 2027: Final paper proposal digest submission (23:59 UTC+12 (as
+ sumed))
+DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
+ 027)\n\nFinal paper proposal digest submission: 20 Nov 2026\, 23:59 UTC+12
+  (assumed)\n\nConference: June 16-18\, 2027\nLocation: Novi\, USA\nVenue: 
+ VIBE Credit Union Showplace\n\nAll dates:\n  Final paper proposal digest s
+ ubmission: 20 Nov 2026\, 23:59 UTC+12 (assumed)\n  Author notification of 
+ acceptance: 1 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submis
+ sion: 1 Apr 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 1 Apr 20
+ 27\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. Thi
+ s is counted as UTC+12\, the earliest it could plausibly mean\, so the cou
+ ntdown runs out before the real deadline rather than after it.\n\nCall for
+  papers: https://itec-conf.com/\nDetails: https://powersystemdeadlines.org
+ /conference/itec27
+LOCATION:Novi\, USA
+URL;VALUE=URI:https://itec-conf.com/authors/call-for-papers/
+CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
+ torage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:itec27-notification@powersystemdeadlines.org
+DTSTAMP:20261116T125333Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+TRANSP:TRANSPARENT
+SUMMARY:ITEC 2027: Author notification of acceptance (23:59 UTC+12 (assumed
+ ))
+DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
+ 027)\n\nAuthor notification of acceptance: 1 Mar 2027\, 23:59 UTC+12 (assu
+ med)\n\nConference: June 16-18\, 2027\nLocation: Novi\, USA\nVenue: VIBE C
+ redit Union Showplace\n\nAll dates:\n  Final paper proposal digest submiss
+ ion: 20 Nov 2026\, 23:59 UTC+12 (assumed)\n  Author notification of accept
+ ance: 1 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 
+ 1 Apr 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 1 Apr 2027\, 2
+ 3:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is c
+ ounted as UTC+12\, the earliest it could plausibly mean\, so the countdown
+  runs out before the real deadline rather than after it.\n\nCall for paper
+ s: https://itec-conf.com/\nDetails: https://powersystemdeadlines.org/confe
+ rence/itec27
+LOCATION:Novi\, USA
+URL;VALUE=URI:https://itec-conf.com/
+CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
+ torage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:itec27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261116T125333Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+TRANSP:TRANSPARENT
+SUMMARY:ITEC 2027: Final manuscript submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
+ 027)\n\nFinal manuscript submission: 1 Apr 2027\, 23:59 UTC+12 (assumed)\n
+ \nConference: June 16-18\, 2027\nLocation: Novi\, USA\nVenue: VIBE Credit 
+ Union Showplace\n\nAll dates:\n  Final paper proposal digest submission: 2
+ 0 Nov 2026\, 23:59 UTC+12 (assumed)\n  Author notification of acceptance: 
+ 1 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 1 Apr 
+ 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 1 Apr 2027\, 23:59 U
+ TC+12 (assumed)\n\nThe call for papers states no timezone. This is counted
+  as UTC+12\, the earliest it could plausibly mean\, so the countdown runs 
+ out before the real deadline rather than after it.\n\nCall for papers: htt
+ ps://itec-conf.com/\nDetails: https://powersystemdeadlines.org/conference/
+ itec27
+LOCATION:Novi\, USA
+URL;VALUE=URI:https://itec-conf.com/
+CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
+ torage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:itec27-author_registration@powersystemdeadlines.org
+DTSTAMP:20261116T125333Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+TRANSP:TRANSPARENT
+SUMMARY:ITEC 2027: Author registration (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
+ 027)\n\nAuthor registration: 1 Apr 2027\, 23:59 UTC+12 (assumed)\n\nConfer
+ ence: June 16-18\, 2027\nLocation: Novi\, USA\nVenue: VIBE Credit Union Sh
+ owplace\n\nAll dates:\n  Final paper proposal digest submission: 20 Nov 20
+ 26\, 23:59 UTC+12 (assumed)\n  Author notification of acceptance: 1 Mar 20
+ 27\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 1 Apr 2027\, 2
+ 3:59 UTC+12 (assumed)\n  Author registration: 1 Apr 2027\, 23:59 UTC+12 (a
+ ssumed)\n\nThe call for papers states no timezone. This is counted as UTC+
+ 12\, the earliest it could plausibly mean\, so the countdown runs out befo
+ re the real deadline rather than after it.\n\nCall for papers: https://ite
+ c-conf.com/\nDetails: https://powersystemdeadlines.org/conference/itec27
+LOCATION:Novi\, USA
+URL;VALUE=URI:https://itec-conf.com/
+CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
+ torage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:apec27-abstract@powersystemdeadlines.org
+DTSTAMP:20261116T125333Z
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+TRANSP:TRANSPARENT
+SUMMARY:APEC 2027: Technical session digest submission (23:59 UTC+12 (assum
+ ed))
+DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC 
+ 2027)\n\nTechnical session digest submission: 21 Aug 2026\, 23:59 UTC+12 (
+ assumed)\n\nConference: March 7-11\, 2027\nLocation: New Orleans\, USA\nVe
+ nue: Ernest N. Morial Convention Center\n\nAll dates:\n  Technical session
+  digest submission: 21 Aug 2026\, 23:59 UTC+12 (assumed)\n  Acceptance and
+  decline notices: 12 Oct 2026\, 23:59 UTC+12 (assumed)\n  Final manuscript
+  and author registration: 7 Dec 2026\, 23:59 UTC+12 (assumed)\n\nThe call 
+ for papers states no timezone. This is counted as UTC+12\, the earliest it
+  could plausibly mean\, so the countdown runs out before the real deadline
+  rather than after it.\n\nThe digest deadline was extended from 14 to 21 A
+ ugust 2026. An author manuscript training session is held on 12 November 2
+ 026.\n\nCall for papers: https://apec-conf.org/\nDetails: https://powersys
+ temdeadlines.org/conference/apec27
+LOCATION:New Orleans\, USA
+URL;VALUE=URI:https://apec-conf.org/
+CATEGORIES:Power Electronics,Machines & Drives,Energy Storage,EV & Transpor
+ tation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:apec27-notification@powersystemdeadlines.org
+DTSTAMP:20261116T125333Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+TRANSP:TRANSPARENT
+SUMMARY:APEC 2027: Acceptance and decline notices (23:59 UTC+12 (assumed))
+DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC 
+ 2027)\n\nAcceptance and decline notices: 12 Oct 2026\, 23:59 UTC+12 (assum
+ ed)\n\nConference: March 7-11\, 2027\nLocation: New Orleans\, USA\nVenue: 
+ Ernest N. Morial Convention Center\n\nAll dates:\n  Technical session dige
+ st submission: 21 Aug 2026\, 23:59 UTC+12 (assumed)\n  Acceptance and decl
+ ine notices: 12 Oct 2026\, 23:59 UTC+12 (assumed)\n  Final manuscript and 
+ author registration: 7 Dec 2026\, 23:59 UTC+12 (assumed)\n\nThe call for p
+ apers states no timezone. This is counted as UTC+12\, the earliest it coul
+ d plausibly mean\, so the countdown runs out before the real deadline rath
+ er than after it.\n\nThe digest deadline was extended from 14 to 21 August
+  2026. An author manuscript training session is held on 12 November 2026.\
+ n\nCall for papers: https://apec-conf.org/\nDetails: https://powersystemde
+ adlines.org/conference/apec27
+LOCATION:New Orleans\, USA
+URL;VALUE=URI:https://apec-conf.org/
+CATEGORIES:Power Electronics,Machines & Drives,Energy Storage,EV & Transpor
+ tation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:apec27-camera_ready@powersystemdeadlines.org
+DTSTAMP:20261116T125333Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+TRANSP:TRANSPARENT
+SUMMARY:APEC 2027: Final manuscript and author registration (23:59 UTC+12 (
+ assumed))
+DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC 
+ 2027)\n\nFinal manuscript and author registration: 7 Dec 2026\, 23:59 UTC+
+ 12 (assumed)\n\nConference: March 7-11\, 2027\nLocation: New Orleans\, USA
+ \nVenue: Ernest N. Morial Convention Center\n\nAll dates:\n  Technical ses
+ sion digest submission: 21 Aug 2026\, 23:59 UTC+12 (assumed)\n  Acceptance
+  and decline notices: 12 Oct 2026\, 23:59 UTC+12 (assumed)\n  Final manusc
+ ript and author registration: 7 Dec 2026\, 23:59 UTC+12 (assumed)\n\nThe c
+ all for papers states no timezone. This is counted as UTC+12\, the earlies
+ t it could plausibly mean\, so the countdown runs out before the real dead
+ line rather than after it.\n\nThe digest deadline was extended from 14 to 
+ 21 August 2026. An author manuscript training session is held on 12 Novemb
+ er 2026.\n\nCall for papers: https://apec-conf.org/\nDetails: https://powe
+ rsystemdeadlines.org/conference/apec27
+LOCATION:New Orleans\, USA
+URL;VALUE=URI:https://apec-conf.org/
+CATEGORIES:Power Electronics,Machines & Drives,Energy Storage,EV & Transpor
+ tation
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rpg-global27-paper@powersystemdeadlines.org
+DTSTAMP:20261116T125333Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027: Full paper submission (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nFull paper submission: 11 Dec 2026\, 23
+ :59 UTC+12 (assumed)\n\nConference: May 26-27\, 2027\nLocation: Birmingham
+ \, United Kingdom\nVenue: IET Birmingham: Austin Court\n\nAll dates:\n  Fu
+ ll paper submission: 11 Dec 2026\, 23:59 UTC+12 (assumed)\n  Author notifi
+ cation: 16 Feb 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 15 Ap
+ r 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone.
+  This is counted as UTC+12\, the earliest it could plausibly mean\, so the
+  countdown runs out before the real deadline rather than after it.\n\nRPG 
+ Global 2027. Full papers are peer reviewed and indexed in IET Inspec\, IEE
+ E Xplore and Ei Compendex.\n\nCall for papers: https://renewablepower.thei
+ et.org/rpg-global-2027\nDetails: https://powersystemdeadlines.org/conferen
+ ce/rpg-global27
+LOCATION:Birmingham\, United Kingdom
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-global-2027/call-for-su
+ bmissions
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rpg-global27-notification@powersystemdeadlines.org
+DTSTAMP:20261116T125333Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027: Author notification (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nAuthor notification: 16 Feb 2027\, 23:5
+ 9 UTC+12 (assumed)\n\nConference: May 26-27\, 2027\nLocation: Birmingham\,
+  United Kingdom\nVenue: IET Birmingham: Austin Court\n\nAll dates:\n  Full
+  paper submission: 11 Dec 2026\, 23:59 UTC+12 (assumed)\n  Author notifica
+ tion: 16 Feb 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 15 Apr 
+ 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. T
+ his is counted as UTC+12\, the earliest it could plausibly mean\, so the c
+ ountdown runs out before the real deadline rather than after it.\n\nRPG Gl
+ obal 2027. Full papers are peer reviewed and indexed in IET Inspec\, IEEE 
+ Xplore and Ei Compendex.\n\nCall for papers: https://renewablepower.theiet
+ .org/rpg-global-2027\nDetails: https://powersystemdeadlines.org/conference
+ /rpg-global27
+LOCATION:Birmingham\, United Kingdom
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-global-2027
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rpg-global27-author_registration@powersystemdeadlines.org
+DTSTAMP:20261116T125333Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+TRANSP:TRANSPARENT
+SUMMARY:RPG 2027: Author registration (23:59 UTC+12 (assumed))
+DESCRIPTION:IET International Conference on Renewable Power Generation and 
+ Future Power Systems (RPG 2027)\n\nAuthor registration: 15 Apr 2027\, 23:5
+ 9 UTC+12 (assumed)\n\nConference: May 26-27\, 2027\nLocation: Birmingham\,
+  United Kingdom\nVenue: IET Birmingham: Austin Court\n\nAll dates:\n  Full
+  paper submission: 11 Dec 2026\, 23:59 UTC+12 (assumed)\n  Author notifica
+ tion: 16 Feb 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 15 Apr 
+ 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. T
+ his is counted as UTC+12\, the earliest it could plausibly mean\, so the c
+ ountdown runs out before the real deadline rather than after it.\n\nRPG Gl
+ obal 2027. Full papers are peer reviewed and indexed in IET Inspec\, IEEE 
+ Xplore and Ei Compendex.\n\nCall for papers: https://renewablepower.theiet
+ .org/rpg-global-2027\nDetails: https://powersystemdeadlines.org/conference
+ /rpg-global27
+LOCATION:Birmingham\, United Kingdom
+URL;VALUE=URI:https://renewablepower.theiet.org/rpg-global-2027
+CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
+ gy Storage
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:One week until this submission deadline
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:One day until this submission deadline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:iemdc27-abstract@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 TRANSP:TRANSPARENT
@@ -50,7 +420,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-workshop_proposal@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 TRANSP:TRANSPARENT
@@ -90,7 +460,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-tutorial_proposal@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 TRANSP:TRANSPARENT
@@ -128,7 +498,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-session_notification@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 TRANSP:TRANSPARENT
@@ -166,7 +536,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-notification@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 TRANSP:TRANSPARENT
@@ -204,7 +574,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
@@ -244,7 +614,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iemdc27-presentation_upload@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
@@ -283,378 +653,8 @@ DESCRIPTION:One day until this submission deadline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:itec27-paper@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-TRANSP:TRANSPARENT
-SUMMARY:ITEC 2027: Final paper proposal digest submission (23:59 UTC+12 (as
- sumed))
-DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
- 027)\n\nFinal paper proposal digest submission: 20 Nov 2026\, 23:59 UTC+12
-  (assumed)\n\nConference: June 16-18\, 2027\nLocation: Novi\, USA\nVenue: 
- VIBE Credit Union Showplace\n\nAll dates:\n  Final paper proposal digest s
- ubmission: 20 Nov 2026\, 23:59 UTC+12 (assumed)\n  Author notification of 
- acceptance: 1 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submis
- sion: 1 Apr 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 1 Apr 20
- 27\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. Thi
- s is counted as UTC+12\, the earliest it could plausibly mean\, so the cou
- ntdown runs out before the real deadline rather than after it.\n\nCall for
-  papers: https://itec-conf.com/\nDetails: https://powersystemdeadlines.org
- /conference/itec27
-LOCATION:Novi\, USA
-URL;VALUE=URI:https://itec-conf.com/authors/call-for-papers/
-CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
- torage
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:itec27-notification@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
-DTSTART;VALUE=DATE:20270301
-DTEND;VALUE=DATE:20270302
-TRANSP:TRANSPARENT
-SUMMARY:ITEC 2027: Author notification of acceptance (23:59 UTC+12 (assumed
- ))
-DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
- 027)\n\nAuthor notification of acceptance: 1 Mar 2027\, 23:59 UTC+12 (assu
- med)\n\nConference: June 16-18\, 2027\nLocation: Novi\, USA\nVenue: VIBE C
- redit Union Showplace\n\nAll dates:\n  Final paper proposal digest submiss
- ion: 20 Nov 2026\, 23:59 UTC+12 (assumed)\n  Author notification of accept
- ance: 1 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 
- 1 Apr 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 1 Apr 2027\, 2
- 3:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. This is c
- ounted as UTC+12\, the earliest it could plausibly mean\, so the countdown
-  runs out before the real deadline rather than after it.\n\nCall for paper
- s: https://itec-conf.com/\nDetails: https://powersystemdeadlines.org/confe
- rence/itec27
-LOCATION:Novi\, USA
-URL;VALUE=URI:https://itec-conf.com/
-CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
- torage
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:itec27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
-DTSTART;VALUE=DATE:20270401
-DTEND;VALUE=DATE:20270402
-TRANSP:TRANSPARENT
-SUMMARY:ITEC 2027: Final manuscript submission (23:59 UTC+12 (assumed))
-DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
- 027)\n\nFinal manuscript submission: 1 Apr 2027\, 23:59 UTC+12 (assumed)\n
- \nConference: June 16-18\, 2027\nLocation: Novi\, USA\nVenue: VIBE Credit 
- Union Showplace\n\nAll dates:\n  Final paper proposal digest submission: 2
- 0 Nov 2026\, 23:59 UTC+12 (assumed)\n  Author notification of acceptance: 
- 1 Mar 2027\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 1 Apr 
- 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 1 Apr 2027\, 23:59 U
- TC+12 (assumed)\n\nThe call for papers states no timezone. This is counted
-  as UTC+12\, the earliest it could plausibly mean\, so the countdown runs 
- out before the real deadline rather than after it.\n\nCall for papers: htt
- ps://itec-conf.com/\nDetails: https://powersystemdeadlines.org/conference/
- itec27
-LOCATION:Novi\, USA
-URL;VALUE=URI:https://itec-conf.com/
-CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
- torage
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:itec27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
-DTSTART;VALUE=DATE:20270401
-DTEND;VALUE=DATE:20270402
-TRANSP:TRANSPARENT
-SUMMARY:ITEC 2027: Author registration (23:59 UTC+12 (assumed))
-DESCRIPTION:IEEE Transportation Electrification Conference and Expo (ITEC 2
- 027)\n\nAuthor registration: 1 Apr 2027\, 23:59 UTC+12 (assumed)\n\nConfer
- ence: June 16-18\, 2027\nLocation: Novi\, USA\nVenue: VIBE Credit Union Sh
- owplace\n\nAll dates:\n  Final paper proposal digest submission: 20 Nov 20
- 26\, 23:59 UTC+12 (assumed)\n  Author notification of acceptance: 1 Mar 20
- 27\, 23:59 UTC+12 (assumed)\n  Final manuscript submission: 1 Apr 2027\, 2
- 3:59 UTC+12 (assumed)\n  Author registration: 1 Apr 2027\, 23:59 UTC+12 (a
- ssumed)\n\nThe call for papers states no timezone. This is counted as UTC+
- 12\, the earliest it could plausibly mean\, so the countdown runs out befo
- re the real deadline rather than after it.\n\nCall for papers: https://ite
- c-conf.com/\nDetails: https://powersystemdeadlines.org/conference/itec27
-LOCATION:Novi\, USA
-URL;VALUE=URI:https://itec-conf.com/
-CATEGORIES:EV & Transportation,Power Electronics,Machines & Drives,Energy S
- torage
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:apec27-abstract@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
-DTSTART;VALUE=DATE:20260821
-DTEND;VALUE=DATE:20260822
-TRANSP:TRANSPARENT
-SUMMARY:APEC 2027: Technical session digest submission (23:59 UTC+12 (assum
- ed))
-DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC 
- 2027)\n\nTechnical session digest submission: 21 Aug 2026\, 23:59 UTC+12 (
- assumed)\n\nConference: March 7-11\, 2027\nLocation: New Orleans\, USA\nVe
- nue: Ernest N. Morial Convention Center\n\nAll dates:\n  Technical session
-  digest submission: 21 Aug 2026\, 23:59 UTC+12 (assumed)\n  Acceptance and
-  decline notices: 12 Oct 2026\, 23:59 UTC+12 (assumed)\n  Final manuscript
-  and author registration: 7 Dec 2026\, 23:59 UTC+12 (assumed)\n\nThe call 
- for papers states no timezone. This is counted as UTC+12\, the earliest it
-  could plausibly mean\, so the countdown runs out before the real deadline
-  rather than after it.\n\nThe digest deadline was extended from 14 to 21 A
- ugust 2026. An author manuscript training session is held on 12 November 2
- 026.\n\nCall for papers: https://apec-conf.org/\nDetails: https://powersys
- temdeadlines.org/conference/apec27
-LOCATION:New Orleans\, USA
-URL;VALUE=URI:https://apec-conf.org/
-CATEGORIES:Power Electronics,Machines & Drives,Energy Storage,EV & Transpor
- tation
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:apec27-notification@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
-DTSTART;VALUE=DATE:20261012
-DTEND;VALUE=DATE:20261013
-TRANSP:TRANSPARENT
-SUMMARY:APEC 2027: Acceptance and decline notices (23:59 UTC+12 (assumed))
-DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC 
- 2027)\n\nAcceptance and decline notices: 12 Oct 2026\, 23:59 UTC+12 (assum
- ed)\n\nConference: March 7-11\, 2027\nLocation: New Orleans\, USA\nVenue: 
- Ernest N. Morial Convention Center\n\nAll dates:\n  Technical session dige
- st submission: 21 Aug 2026\, 23:59 UTC+12 (assumed)\n  Acceptance and decl
- ine notices: 12 Oct 2026\, 23:59 UTC+12 (assumed)\n  Final manuscript and 
- author registration: 7 Dec 2026\, 23:59 UTC+12 (assumed)\n\nThe call for p
- apers states no timezone. This is counted as UTC+12\, the earliest it coul
- d plausibly mean\, so the countdown runs out before the real deadline rath
- er than after it.\n\nThe digest deadline was extended from 14 to 21 August
-  2026. An author manuscript training session is held on 12 November 2026.\
- n\nCall for papers: https://apec-conf.org/\nDetails: https://powersystemde
- adlines.org/conference/apec27
-LOCATION:New Orleans\, USA
-URL;VALUE=URI:https://apec-conf.org/
-CATEGORIES:Power Electronics,Machines & Drives,Energy Storage,EV & Transpor
- tation
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:apec27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
-DTSTART;VALUE=DATE:20261207
-DTEND;VALUE=DATE:20261208
-TRANSP:TRANSPARENT
-SUMMARY:APEC 2027: Final manuscript and author registration (23:59 UTC+12 (
- assumed))
-DESCRIPTION:IEEE Applied Power Electronics Conference and Exposition (APEC 
- 2027)\n\nFinal manuscript and author registration: 7 Dec 2026\, 23:59 UTC+
- 12 (assumed)\n\nConference: March 7-11\, 2027\nLocation: New Orleans\, USA
- \nVenue: Ernest N. Morial Convention Center\n\nAll dates:\n  Technical ses
- sion digest submission: 21 Aug 2026\, 23:59 UTC+12 (assumed)\n  Acceptance
-  and decline notices: 12 Oct 2026\, 23:59 UTC+12 (assumed)\n  Final manusc
- ript and author registration: 7 Dec 2026\, 23:59 UTC+12 (assumed)\n\nThe c
- all for papers states no timezone. This is counted as UTC+12\, the earlies
- t it could plausibly mean\, so the countdown runs out before the real dead
- line rather than after it.\n\nThe digest deadline was extended from 14 to 
- 21 August 2026. An author manuscript training session is held on 12 Novemb
- er 2026.\n\nCall for papers: https://apec-conf.org/\nDetails: https://powe
- rsystemdeadlines.org/conference/apec27
-LOCATION:New Orleans\, USA
-URL;VALUE=URI:https://apec-conf.org/
-CATEGORIES:Power Electronics,Machines & Drives,Energy Storage,EV & Transpor
- tation
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:rpg-global27-paper@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
-DTSTART;VALUE=DATE:20261211
-DTEND;VALUE=DATE:20261212
-TRANSP:TRANSPARENT
-SUMMARY:RPG 2027: Full paper submission (23:59 UTC+12 (assumed))
-DESCRIPTION:IET International Conference on Renewable Power Generation and 
- Future Power Systems (RPG 2027)\n\nFull paper submission: 11 Dec 2026\, 23
- :59 UTC+12 (assumed)\n\nConference: May 26-27\, 2027\nLocation: Birmingham
- \, United Kingdom\nVenue: IET Birmingham: Austin Court\n\nAll dates:\n  Fu
- ll paper submission: 11 Dec 2026\, 23:59 UTC+12 (assumed)\n  Author notifi
- cation: 16 Feb 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 15 Ap
- r 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone.
-  This is counted as UTC+12\, the earliest it could plausibly mean\, so the
-  countdown runs out before the real deadline rather than after it.\n\nRPG 
- Global 2027. Full papers are peer reviewed and indexed in IET Inspec\, IEE
- E Xplore and Ei Compendex.\n\nCall for papers: https://renewablepower.thei
- et.org/rpg-global-2027\nDetails: https://powersystemdeadlines.org/conferen
- ce/rpg-global27
-LOCATION:Birmingham\, United Kingdom
-URL;VALUE=URI:https://renewablepower.theiet.org/rpg-global-2027/call-for-su
- bmissions
-CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
- gy Storage
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:rpg-global27-notification@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
-DTSTART;VALUE=DATE:20270216
-DTEND;VALUE=DATE:20270217
-TRANSP:TRANSPARENT
-SUMMARY:RPG 2027: Author notification (23:59 UTC+12 (assumed))
-DESCRIPTION:IET International Conference on Renewable Power Generation and 
- Future Power Systems (RPG 2027)\n\nAuthor notification: 16 Feb 2027\, 23:5
- 9 UTC+12 (assumed)\n\nConference: May 26-27\, 2027\nLocation: Birmingham\,
-  United Kingdom\nVenue: IET Birmingham: Austin Court\n\nAll dates:\n  Full
-  paper submission: 11 Dec 2026\, 23:59 UTC+12 (assumed)\n  Author notifica
- tion: 16 Feb 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 15 Apr 
- 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. T
- his is counted as UTC+12\, the earliest it could plausibly mean\, so the c
- ountdown runs out before the real deadline rather than after it.\n\nRPG Gl
- obal 2027. Full papers are peer reviewed and indexed in IET Inspec\, IEEE 
- Xplore and Ei Compendex.\n\nCall for papers: https://renewablepower.theiet
- .org/rpg-global-2027\nDetails: https://powersystemdeadlines.org/conference
- /rpg-global27
-LOCATION:Birmingham\, United Kingdom
-URL;VALUE=URI:https://renewablepower.theiet.org/rpg-global-2027
-CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
- gy Storage
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:rpg-global27-author_registration@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
-DTSTART;VALUE=DATE:20270415
-DTEND;VALUE=DATE:20270416
-TRANSP:TRANSPARENT
-SUMMARY:RPG 2027: Author registration (23:59 UTC+12 (assumed))
-DESCRIPTION:IET International Conference on Renewable Power Generation and 
- Future Power Systems (RPG 2027)\n\nAuthor registration: 15 Apr 2027\, 23:5
- 9 UTC+12 (assumed)\n\nConference: May 26-27\, 2027\nLocation: Birmingham\,
-  United Kingdom\nVenue: IET Birmingham: Austin Court\n\nAll dates:\n  Full
-  paper submission: 11 Dec 2026\, 23:59 UTC+12 (assumed)\n  Author notifica
- tion: 16 Feb 2027\, 23:59 UTC+12 (assumed)\n  Author registration: 15 Apr 
- 2027\, 23:59 UTC+12 (assumed)\n\nThe call for papers states no timezone. T
- his is counted as UTC+12\, the earliest it could plausibly mean\, so the c
- ountdown runs out before the real deadline rather than after it.\n\nRPG Gl
- obal 2027. Full papers are peer reviewed and indexed in IET Inspec\, IEEE 
- Xplore and Ei Compendex.\n\nCall for papers: https://renewablepower.theiet
- .org/rpg-global-2027\nDetails: https://powersystemdeadlines.org/conference
- /rpg-global27
-LOCATION:Birmingham\, United Kingdom
-URL;VALUE=URI:https://renewablepower.theiet.org/rpg-global-2027
-CATEGORIES:Renewables,Power Systems,Energy Markets,EV & Transportation,Ener
- gy Storage
-STATUS:CONFIRMED
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P7D
-DESCRIPTION:One week until this submission deadline
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-P1D
-DESCRIPTION:One day until this submission deadline
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:rpg-china27-abstract@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 TRANSP:TRANSPARENT
@@ -697,7 +697,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-notification@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20270402
 DTEND;VALUE=DATE:20270403
 TRANSP:TRANSPARENT
@@ -741,7 +741,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-paper@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 TRANSP:TRANSPARENT
@@ -784,7 +784,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-notification-2@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20270614
 DTEND;VALUE=DATE:20270615
 TRANSP:TRANSPARENT
@@ -828,7 +828,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20270628
 DTEND;VALUE=DATE:20270629
 TRANSP:TRANSPARENT
@@ -872,7 +872,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-camera_ready-2@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270710
 TRANSP:TRANSPARENT
@@ -915,7 +915,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rpg-china27-early_registration@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20270726
 DTEND;VALUE=DATE:20270727
 TRANSP:TRANSPARENT
@@ -958,7 +958,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:upec27-paper@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270501
 TRANSP:TRANSPARENT
@@ -997,7 +997,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:upec27-notification@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20270618
 DTEND;VALUE=DATE:20270619
 TRANSP:TRANSPARENT
@@ -1036,7 +1036,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:upec27-early_registration@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20270625
 DTEND;VALUE=DATE:20270626
 TRANSP:TRANSPARENT
@@ -1075,7 +1075,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:upec27-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20270716
 DTEND;VALUE=DATE:20270717
 TRANSP:TRANSPARENT
@@ -1115,7 +1115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sest26-abstract@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20260302
 DTEND;VALUE=DATE:20260303
 TRANSP:TRANSPARENT
@@ -1154,7 +1154,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sest26-paper@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20260427
 DTEND;VALUE=DATE:20260428
 TRANSP:TRANSPARENT
@@ -1194,7 +1194,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sest26-notification@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 TRANSP:TRANSPARENT
@@ -1233,7 +1233,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sest26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20260630
 TRANSP:TRANSPARENT
@@ -1272,7 +1272,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sest26-author_registration@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20260713
 DTEND;VALUE=DATE:20260714
 TRANSP:TRANSPARENT
@@ -1312,7 +1312,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-abstract@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20260313
 DTEND;VALUE=DATE:20260314
 TRANSP:TRANSPARENT
@@ -1349,7 +1349,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-notification@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 TRANSP:TRANSPARENT
@@ -1386,7 +1386,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecce26-camera_ready@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 TRANSP:TRANSPARENT
@@ -1424,7 +1424,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pes-grid-edge27-paper@powersystemdeadlines.org
-DTSTAMP:20261115T042356Z
+DTSTAMP:20261116T125333Z
 DTSTART;VALUE=DATE:20260724
 DTEND;VALUE=DATE:20260725
 TRANSP:TRANSPARENT
